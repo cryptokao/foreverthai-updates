@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-13",
+  "status": "verified_private_candidate15_deliverable",
+  "scope": "Root independently compared immutable13/15manifests, read guide/Cloud exact-ZIP receipt/final wording/font reports; no local addon execution or repeated unchanged test suite.",
+  "files": 138,
+  "bytes": 17765184,
+  "sha256": "65fcf5e9f97681d032a13122a76583aed28ac2edbee17a83319ee5f1a77838ce",
+  "changed": [
+    "ForeverThai/Atlas.lua",
+    "ForeverThai/Catalog.lua"
+  ],
+  "removed": [],
+  "added": [
+    "ForeverThai/Fonts/Thai90.tga"
+  ],
+  "protectedCount": 28,
+  "protectedIdentical": true,
+  "metadata": {
+    "artifact": "ForeverThai-0.462.0-cloud-through-batch15-main-PRIVATE-TEST.zip",
+    "bytes": 17765184,
+    "sha256": "65fcf5e9f97681d032a13122a76583aed28ac2edbee17a83319ee5f1a77838ce",
+    "private_review_only": true,
+    "runtime_version": "0.462.0",
+    "customer_feed_changed": false,
+    "candidate_revision": "cloud-main-through15",
+    "source_commit": "a55f2b7ebc2718d074bcc1a1a2b7dc47ed57ad5a",
+    "runtime_git_tree": "e70c269462ae6359355c510d0f49e7ed25d81356",
+    "root_review": "b7b5124eb29bf144b5515344012cf0a1cc5d0553",
+    "changed_from_candidate13": [
+      "ForeverThai/Atlas.lua",
+      "ForeverThai/Catalog.lua"
+    ],
+    "added_from_candidate13": [
+      "ForeverThai/Fonts/Thai90.tga"
+    ],
+    "party_templates": 16,
+    "party_npcs": 7,
+    "new_or_expanded_thai_fields15": 2,
+    "unique_new_or_expanded_thai_bodies15": 2,
+    "reused_existing_thai_fields15": 4,
+    "added_completion_variants15": 6,
+    "windows_mac_m2_in_game_verified": false,
+    "font_readiness_reference": "font-readiness15.json"
+  },
+  "receipt": {
+    "candidate_revision": "cloud-main-through15",
+    "source_commit": "a55f2b7ebc2718d074bcc1a1a2b7dc47ed57ad5a",
+    "runtime_git_tree": "e70c269462ae6359355c510d0f49e7ed25d81356",
+    "artifact_branch": "codex/private-candidate15-artifacts",
+    "artifact_commit": "18fee262df0b2a225eb4958079504c08a097d9c7",
+    "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/18fee262df0b2a225eb4958079504c08a097d9c7/output/ForeverThai-0.462.0-cloud-through-batch15-main-PRIVATE-TEST.zip",
+    "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/18fee262df0b2a225eb4958079504c08a097d9c7/output/INSTALL-CLOUD-PRIVATE-TH.txt",
+    "manifest_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/18fee262df0b2a225eb4958079504c08a097d9c7/output/package-manifest.json",
+    "sha256": "65fcf5e9f97681d032a13122a76583aed28ac2edbee17a83319ee5f1a77838ce",
+    "bytes": 17765184,
+    "files": 138,
+    "downloaded_back_and_verified_on_cloud": true,
+    "customer_feed_changed": false,
+    "windows_mac_m2_in_game_verified": false,
+    "changed_from_candidate13": [
+      "ForeverThai/Atlas.lua",
+      "ForeverThai/Catalog.lua"
+    ],
+    "added_from_candidate13": [
+      "ForeverThai/Fonts/Thai90.tga"
+    ],
+    "prior_candidate13_immutable": true,
+    "downloaded_zip_every_byte_matches_current_src": true,
+    "downloaded_guide_and_manifest_verified": true,
+    "unique_safe_paths_checked": 138,
+    "toc_load_paths_checked": 24,
+    "protected_skill_font_assets_verified": 28,
+    "saved_variables_and_questie_retained": true,
+    "unchanged_candidate13_files": 135,
+    "runtime_suites_rerun": false,
+    "comparison_manifest": "private-package-manifest13.json"
+  },
+  "final_wording": {
+    "status": "passed",
+    "root_review": "b7b5124eb29bf144b5515344012cf0a1cc5d0553",
+    "quest_id": 2881,
+    "field": "completion",
+    "final_thai": "สร้อยคออีกชุดก็หมายความว่าใน Hinterlands มีโทรลล์ให้เราต้องคอยระวังน้อยลงแล้ว! เจ้าทำได้อีกแล้ว {name} ทำผลงานให้ดีแบบนี้ต่อไปนะ!",
+    "final_thai_sha256": "8761f0b9db8b22808136d56ccd1aa280dce9bdd9c95cab490f84b38ad6e3a53f",
+    "final_catalog_sha256": "88512b4f5280319e753da5bfc0efb11fd2ed835023999a457d2169e6cd559de6",
+    "affected_unique_source_cases": 1,
+    "positive_executions": 1,
+    "negative_executions": 3,
+    "unchanged_five_pairs_and_oracles": true,
+    "prior_six_case_report": "main-semantic-regression15.json",
+    "old_catalog_byte_prefix_preserved": true,
+    "scope": "Only edited2881 executed; five unchanged fields/oracles retained by exact data comparison. Prior six-case report is not relabeled as a final-hash rerun. No unchanged NPC/Skills/party/full suite."
+  },
+  "font_readiness": {
+    "status": "passed",
+    "prior_runtime_tree": "f85a68ca9c2ade231310620e693765cd99eebfc1",
+    "old_other_component_bytes_preserved": 135,
+    "protected_skill_font_assets_preserved": 28,
+    "old_atlas_prefix_sha256": "64cd9b81a58cfca3d6d380e05542d253601a1336c314902eed58773a088ffc9b",
+    "new_thai_runs": 3,
+    "new_glyphs": 22,
+    "new_font_pages": [
+      "Thai90.tga"
+    ],
+    "actual_bitmap_text_draws": 12,
+    "font_ready": true,
+    "scope": "Append-only main15 after Root reviewb7b5124. Candidate13 bytes except approved Catalog additions and Atlas preserved; old Atlas data/prefix and pages retained. New glyph bounds/alpha, all main15 concrete class mappings and actual unchanged BitmapLayer checked. No unchanged Skill/NPC686/party/full suite or game proof."
+  },
+  "turn_progress": {
+    "new_or_expanded_main_fields": 5,
+    "unique_quest_ids_with_new_or_expanded_thai": 5,
+    "ids": [
+      6076,
+      5642,
+      5643,
+      2881,
+      7801
+    ],
+    "unique_new_or_expanded_prose": 4,
+    "same_batch_shared_new_translation_fields": 1,
+    "existing_reviewed_thai_new_bindings_or_variants": 5,
+    "reuse_ids": [
+      98574,
+      8384,
+      8391,
+      8441,
+      8442
+    ],
+    "total_newly_supported_fields": 10,
+    "whole_quests_newly_completed": "not claimed",
+    "new_playable_quest_ids": "not claimed"
+  },
+  "new_source_triage": {
+    "input_records": 592,
+    "stein": 485,
+    "spoken": 107,
+    "type1": 546,
+    "type2": 6,
+    "type3": 40,
+    "new_or_expanded_thai_fields": 2,
+    "reused_existing_thai_fields": 4
+  },
+  "cloud_job_state": "Terminal final response observed, disabled Send, no Stop. Completed at4435b35; no follow-up run started.",
+  "open_limits": "Full current enabled quest/phase inventory and remaining typed/current English inputs remain missing. Windows/MacM2 live acceptance untested. No whole-goal completion or customer feed update."
+}
