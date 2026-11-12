@@ -120,5 +120,39 @@
   "next_action": "Cloud must independently verify original transferred Dev document/hash/entries and exact historical caller/constants, match existing SpeechData signatures and retain Thai. Extend only the private speech whitelist using current Cloud11 algorithm; do not merge old draft Match.lua or claim new prose. Add independent eight static rendered cases, update finite whitelist/rejection expectations and run affected/full NPC regression for the new runtime. Preserve Quest/Tracker/Skill/Talent/Profession/Item/fonts and package readback.",
   "in_game_windows_verified": false,
   "in_game_mac_m2_verified": false,
-  "status": "additional_source_qualifications_identified_runtime_change_pending_cloud_verification"
+  "status": "additional_source_qualifications_identified_runtime_change_pending_cloud_verification",
+  "main_text_comparison": {
+    "date": "2026-11-13",
+    "method": "Read-only SHA256 comparison of the five named current local files against the existing before-group-v04630 snapshot; no parsing/execution/build/test/model process.",
+    "all_five_unchanged": true,
+    "files": [
+      {
+        "file": "work/english.json",
+        "bytes": 6998965,
+        "sha256": "227522f554075559e67e3cd9fdda5d05ebc39a80e9a4e6ffc4c0a8c829b83c60"
+      },
+      {
+        "file": "work/thai.json",
+        "bytes": 12210075,
+        "sha256": "c6d7906975fb99b910850334846b0555d5018d2d2958ea0c1bb1a165627a1a2f"
+      },
+      {
+        "file": "work/goal-progress.json",
+        "bytes": 208838,
+        "sha256": "3c8667b98e59916a04984a81031a95502c4c69fb391d27f8d8712e187cf94489"
+      },
+      {
+        "file": "outputs/ForeverThai/Catalog.lua",
+        "bytes": 16833075,
+        "sha256": "6ac830a9f07e08d96fd53ee8762c37dc29279343356096be0582d02012dacc0f"
+      },
+      {
+        "file": "outputs/ForeverThai/Atlas.lua",
+        "bytes": 13696863,
+        "sha256": "d7ec1da2a898b9118ca988685e5c9733a72447d4e68dc96aa8ab7f63075f84d0"
+      }
+    ],
+    "interpretation": "No additional main English/Thai/Catalog/Atlas content relative to that pre-group snapshot is present in these named draft files. This is not an audit of every unrelated local file. Keep newer Cloud translations; do not copy old Catalog/Atlas over Cloud."
+  },
+  "followup_status": "The recovered eight qualifications were independently verified and implemented on Cloud in candidate12. No PC draft runtime or tests were adopted. Candidate12 exact ZIP and delivery reviews are separate evidence."
 }
