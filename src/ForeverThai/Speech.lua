@@ -56,7 +56,7 @@ popup:SetScript("OnUpdate", function(_, elapsed)
     if remaining <= 0 then hide() end
 end)
 
--- Exact existing Player-target qualifications only; see party-source-audit11.json.
+-- Exact existing Player-target qualifications only; see party-source-audit12.json.
 local playerSpeechTargets = {
     [3692] = {
         ["17:689065638:2099367606 N 93:978051723:628096343"] = { "Thank you again, ", ". I'll make my way to the road now. When you can, find Terenthis and let him know we escaped." },
@@ -75,6 +75,18 @@ local playerSpeechTargets = {
     },
     [10300] = {
         ["25:328543501:1621241081 N 37:781104468:1461312606"] = { "Thank you for your help, ", ". I wish you well in your adventures." },
+    },
+    [12717] = {
+        ["18:579527331:560615033 N 61:124564732:2001200319"] = { "Now we must wait, ", ". It won't be long before the naga realize what we have done." },
+        ["18:1564659061:2024358582 N 1:33:33"] = { "Be on your guard, ", "!" },
+        ["21:759146364:432653888 N 62:1058500749:820021578"] = { "This is the brazier, ", ". Put it out. Vorsha is a beast, worthy of praise from no one!" },
+        ["31:728957137:416162016 N 14:288258394:851186331"] = { "You have my deepest gratitude, ", ". I thank you." },
+        ["17:1330861954:1028376204 N 1:33:33"] = { "We have done it, ", "!" },
+    },
+    [2768] = {
+        ["4:1348071430:179441212 N 101:187921724:993833277"] = { "Ok, ", ". Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles." },
+        ["52:1307477670:1945227465 N 51:1088861819:591214387"] = { "I'll begin drawing energy from the stone. Your job, ", ", is to defend me. This place is cursed...trust me." },
+        ["55:1201114852:1831069567 N 28:1326150726:1675816973"] = { "Doctor Draxlegauge will give you further instructions, ", ". Many thanks for your help!" },
     },
 }
 

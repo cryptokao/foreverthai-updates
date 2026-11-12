@@ -1,0 +1,1117 @@
+{
+  "source_zip": "ForeverThai-0.462.0-Windows-Mac.zip",
+  "source_zip_sha256": "9eb4084c1f6c90d5cc05486b1ecb41951d6e3543cde9fb78b97686df73f81881",
+  "source_document": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+  "source_document_bytes": 42987,
+  "source_document_sha256": "0b161ac06475061eb3948351c952c4992e7cc266256f615b760b9bbd69707ca0",
+  "base_qualification_file": "party-source-audit11.json",
+  "base_qualification_sha256": "e2e8f0a080820f174e99bdb7a147a55df11cb4ca6e35c331a6b05066fe99bde8",
+  "additional_qualified_templates": [
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Now we must wait, $N. It won't be long before the naga realize what we have done.",
+      "thai": "ตอนนี้เราต้องรอก่อน {name} อีกไม่นานพวกนากาจะรู้ว่าเราทำอะไรลงไป",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "f5f0eca99ea2def262800f3926fb538230f4155bb98a9db2705502b6cbedfc65",
+      "signature": "18:579527331:560615033 N 61:124564732:2001200319",
+      "prefix": "Now we must wait, ",
+      "suffix": ". It won't be long before the naga realize what we have done.",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_EVENT_01",
+        "call": "DoBroadcastText(SAY_MUGLASH_EVENT_01, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8410,
+        "text": "Now we must wait, $N. It won't be long before the naga realize what we have done.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 0,
+      "caller_line": 278,
+      "constant_value": 8410,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 0
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Be on your guard, $N!",
+      "thai": "ระวังตัวไว้ {name}!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "06d991d0b7afd63fc176ef385a1798f7b808253c7a49baafec19500ff6b9384c",
+      "signature": "18:1564659061:2024358582 N 1:33:33",
+      "prefix": "Be on your guard, ",
+      "suffix": "!",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_AGGRO",
+        "call": "DoBroadcastText(SAY_MUGLASH_AGGRO, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8412,
+        "text": "Be on your guard, $N!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 1,
+      "caller_line": 132,
+      "constant_value": 8412,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 1
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "This is the brazier, $N. Put it out. Vorsha is a beast, worthy of praise from no one!",
+      "thai": "นี่คือกระถางไฟ {name} ดับไฟเสีย Vorsha เป็นสัตว์ร้ายที่ไม่คู่ควรกับคำสรรเสริญจากผู้ใด!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "315876fbe9e77b94273d5b4db755a420fb26177e4aeebbeed9e1bd3a6e493e3b",
+      "signature": "21:759146364:432653888 N 62:1058500749:820021578",
+      "prefix": "This is the brazier, ",
+      "suffix": ". Put it out. Vorsha is a beast, worthy of praise from no one!",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_BRAZIER",
+        "call": "DoBroadcastText(SAY_MUGLASH_BRAZIER, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8556,
+        "text": "This is the brazier, $N. Put it out. Vorsha is a beast, worthy of praise from no one!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 2,
+      "caller_line": 259,
+      "constant_value": 8556,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 2
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "You have my deepest gratitude, $N. I thank you.",
+      "thai": "ข้าซาบซึ้งในน้ำใจของเจ้าอย่างยิ่ง {name} ขอบใจเจ้า",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "199e4da306a3dfd903dce586e44bab740775b6b9d1a02cd31a59c1448f023173",
+      "signature": "31:728957137:416162016 N 14:288258394:851186331",
+      "prefix": "You have my deepest gratitude, ",
+      "suffix": ". I thank you.",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_SUCCESS_02",
+        "call": "DoBroadcastText(SAY_MUGLASH_SUCCESS_02, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8558,
+        "text": "You have my deepest gratitude, $N. I thank you.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 3,
+      "caller_line": 321,
+      "constant_value": 8558,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 3
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "We have done it, $N!",
+      "thai": "เราทำได้แล้ว {name}!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "1e4c3c9de99417d439028c75cfb455d41584ffe97556a4109d8e9937bb894e03",
+      "signature": "17:1330861954:1028376204 N 1:33:33",
+      "prefix": "We have done it, ",
+      "suffix": "!",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_SUCCESS",
+        "call": "DoBroadcastText(SAY_MUGLASH_SUCCESS, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8569,
+        "text": "We have done it, $N!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 4,
+      "caller_line": 309,
+      "constant_value": 8569,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 4
+    },
+    {
+      "npc_id": 2768,
+      "quest_id": 665,
+      "npc_name": "Professor Phizzlethorpe",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Ok, $N. Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles.",
+      "thai": "เอาล่ะ {name} ตามข้าไปยังถ้ำ ข้าจะพยายามดึงพลังจากศิลารูนมาใส่ในแว่นตาคู่นี้",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "ebb965670d3fa3b14b209962838885e9a48ff151086db1f6e6af552f30cde69b",
+      "signature": "4:1348071430:179441212 N 101:187921724:993833277",
+      "prefix": "Ok, ",
+      "suffix": ". Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles.",
+      "caller": {
+        "file": "source-v04560/arathi_highlands.cpp",
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "constant": "SAY_PROGRESS_1",
+        "call": "DoScriptText(SAY_PROGRESS_1, pCreature, pPlayer)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000264,
+        "text": "Ok, $n. Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 5,
+      "caller_line": 108,
+      "constant_value": -1000264,
+      "independent_pointer_proof": "QuestAccept typed Player* pPlayer",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "5361edff762b3e6824348099299a18556fafe45e",
+        "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+        "bytes": 8739,
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+        "constants": [
+          "SAY_PROGRESS_1",
+          "SAY_PROGRESS_3",
+          "SAY_PROGRESS_9"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 5
+    },
+    {
+      "npc_id": 2768,
+      "quest_id": 665,
+      "npc_name": "Professor Phizzlethorpe",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "I'll begin drawing energy from the stone. Your job, $N, is to defend me. This place is cursed...trust me.",
+      "thai": "ข้าจะเริ่มดึงพลังจากหิน หน้าที่ของเจ้า {name} คือคุ้มกันข้า ที่นี่ต้องคำสาป... เชื่อข้าเถอะ",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "7adfb189b21932d97fccbe26fa487988b0a55aaa3f11f899f076d33dc594654e",
+      "signature": "52:1307477670:1945227465 N 51:1088861819:591214387",
+      "prefix": "I'll begin drawing energy from the stone. Your job, ",
+      "suffix": ", is to defend me. This place is cursed...trust me.",
+      "caller": {
+        "file": "source-v04560/arathi_highlands.cpp",
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "constant": "SAY_PROGRESS_3",
+        "call": "DoScriptText(SAY_PROGRESS_3, m_creature, pPlayer)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000266,
+        "text": "I'll begin drawing energy from the stone.  Your job, $n, is to defend me. This place is cursed...trust me.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 6,
+      "caller_line": 72,
+      "constant_value": -1000266,
+      "independent_pointer_proof": "WaypointReached: checked GetPlayerForEscort() -> Player* pPlayer",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "5361edff762b3e6824348099299a18556fafe45e",
+        "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+        "bytes": 8739,
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+        "constants": [
+          "SAY_PROGRESS_1",
+          "SAY_PROGRESS_3",
+          "SAY_PROGRESS_9"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 6
+    },
+    {
+      "npc_id": 2768,
+      "quest_id": 665,
+      "npc_name": "Professor Phizzlethorpe",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Doctor Draxlegauge will give you further instructions, $N. Many thanks for your help!",
+      "thai": "Doctor Draxlegauge จะให้คำแนะนำเพิ่มเติมแก่เจ้า {name} ขอบใจมากที่ช่วยเหลือ!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "160803ada1c990a59ad1e6d1e7b6a7ccc5c47e3970d3b3d4af52f1dc2abbaade",
+      "signature": "55:1201114852:1831069567 N 28:1326150726:1675816973",
+      "prefix": "Doctor Draxlegauge will give you further instructions, ",
+      "suffix": ". Many thanks for your help!",
+      "caller": {
+        "file": "source-v04560/arathi_highlands.cpp",
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "constant": "SAY_PROGRESS_9",
+        "call": "DoScriptText(SAY_PROGRESS_9, m_creature, pPlayer)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000273,
+        "text": "Doctor Draxlegauge will give you further instructions, $n. Many thanks for your help!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 7,
+      "caller_line": 86,
+      "constant_value": -1000273,
+      "independent_pointer_proof": "WaypointReached: checked GetPlayerForEscort() -> Player* pPlayer",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "5361edff762b3e6824348099299a18556fafe45e",
+        "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+        "bytes": 8739,
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+        "constants": [
+          "SAY_PROGRESS_1",
+          "SAY_PROGRESS_3",
+          "SAY_PROGRESS_9"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 7
+    }
+  ],
+  "qualified_templates": [
+    {
+      "npc_id": 3692,
+      "quest_id": 995,
+      "npc_name": "Volcor",
+      "level": 20,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Thank you again, $N. I'll make my way to the road now. When you can, find Terenthis and let him know we escaped.",
+      "thai": "ขอบคุณเจ้าอีกครั้ง {name} ข้าจะเดินไปที่ถนนก่อน เมื่อเจ้าสะดวก ไปหา Terenthis แล้วบอกเขาว่าพวกเราหนีออกมาได้แล้ว",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "70b7a1dd1b605ed9f584fb90169857ac60f354c54a18871d0f3396fc5ef7704e",
+      "signature": "17:689065638:2099367606 N 93:978051723:628096343",
+      "prefix": "Thank you again, ",
+      "suffix": ". I'll make my way to the road now. When you can, find Terenthis and let him know we escaped.",
+      "caller": {
+        "kind": "quest-start-dbscript",
+        "quest_script_id": 995,
+        "row": 1236,
+        "flags": 0,
+        "buddy_entry": 0,
+        "target": "Player::this",
+        "call": "GetMap()->ScriptsStart(SCRIPT_TYPE_QUEST_START,pQuest->GetQuestStartScript(),questGiver,this,Map::SCRIPT_EXEC_PARAM_UNIQUE_BY_SOURCE);",
+        "source_files": [
+          "source-v04260/Player.cpp",
+          "source-v04260/ScriptMgr.cpp"
+        ],
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 1236,
+        "column": "Text",
+        "text": "Thank you again, $N. I'll make my way to the road now. When you can, find Terenthis and let him know we escaped.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 0
+    },
+    {
+      "npc_id": 2610,
+      "quest_id": 670,
+      "npc_name": "Shakes O'Breen",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Wait, $N!!! It looks like we're going to need some help here...",
+      "thai": "รอก่อน {name}!!! ดูเหมือนว่าเราจะต้องการความช่วยเหลือแล้ว...",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "532ee41a75d9eb3a7871e6a693dabbcd1505afee75fa45b0c5517792fc6f0301",
+      "signature": "6:1516321299:785938697 N 55:767366582:1974503773",
+      "prefix": "Wait, ",
+      "suffix": "!!! It looks like we're going to need some help here...",
+      "caller": {
+        "kind": "quest-end-dbscript",
+        "quest_script_id": 670,
+        "row": 857,
+        "flags": 0,
+        "buddy_entry": 0,
+        "target": "Player::this",
+        "call": "GetMap()->ScriptsStart(SCRIPT_TYPE_QUEST_END,pQuest->GetQuestCompleteScript(),questGiver,this,Map::SCRIPT_EXEC_PARAM_UNIQUE_BY_SOURCE);",
+        "source_files": [
+          "source-v04260/Player.cpp",
+          "source-v04260/ScriptMgr.cpp"
+        ],
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 857,
+        "column": "Text",
+        "text": "Wait, $n!!! It looks like we're going to need some help here...",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 1
+    },
+    {
+      "npc_id": 11016,
+      "quest_id": 5203,
+      "npc_name": "Captured Arko'narin",
+      "level": 55,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "I'm ready, $N. Let's find my equipment and get out of here. I think I know where it is.",
+      "thai": "ข้าพร้อมแล้ว {name} ไปหาอุปกรณ์ของข้าแล้วออกไปจากที่นี่กัน ข้าคิดว่ารู้ว่ามันอยู่ที่ไหน",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "96828b069c6fe306a2fa5a36448843c35ea547ab296bd2865c0b60eed7348f03",
+      "signature": "11:1400068568:1359790444 N 74:1899615597:1371138480",
+      "prefix": "I'm ready, ",
+      "suffix": ". Let's find my equipment and get out of here. I think I know where it is.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_ESCORT_START",
+        "call": "DoBroadcastText(SAY_ESCORT_START, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 6433,
+        "column": "Text1",
+        "text": "I'm ready, $N. Let's find my equipment and get out of here. I think I know where it is.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 2
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "The corruption of the fel has not left any of the creatures of Felwood untouched, $N. Please, be on your guard.",
+      "thai": "ความแปดเปื้อนของเฟลไม่ละเว้นสิ่งมีชีวิตใดใน Felwood เลย {name} โปรดระวังตัวให้ดี",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "89b94dfd9f9368769a5f01ff45564707250c3b6d01dea87de727d5ea0a855fca",
+      "signature": "82:1663469478:672223567 N 27:1164390671:1960387495",
+      "prefix": "The corruption of the fel has not left any of the creatures of Felwood untouched, ",
+      "suffix": ". Please, be on your guard.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_ATTACK_TOXIC_HORROR",
+        "call": "DoScriptText(SAY_ATTACK_TOXIC_HORROR, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001161,
+        "column": "content_default",
+        "text": "The corruption of the fel has not left any of the creatures of Felwood untouched, $N. Please, be on your guard.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 3
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "I can sense it now, $N. Ashenvale lies down this path.",
+      "thai": "ข้าสัมผัสได้แล้ว {name} Ashenvale อยู่ถัดไปตามเส้นทางนี้",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "da50d9c56370d6cc0760ccc651476ec8f82a15d6b4182cbfce04046ab327b409",
+      "signature": "20:459407763:1459679563 N 32:1247190666:1608881964",
+      "prefix": "I can sense it now, ",
+      "suffix": ". Ashenvale lies down this path.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_ASHENVALE",
+        "call": "DoScriptText(SAY_ASHENVALE, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001164,
+        "column": "content_default",
+        "text": "I can sense it now, $n. Ashenvale lies down this path.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 4
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "$N, my form has now changed! The true strength of my spirit is returning to me now... The cursed grasp of the forest is leaving me.",
+      "thai": "{name} ร่างของข้าเปลี่ยนไปแล้ว! พลังอันแท้จริงของจิตวิญญาณกำลังกลับคืนมา... เงื้อมมือคำสาปของป่ากำลังคลายออกจากข้า",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "e6f11ee67f4f4a78d8197662de1e4ab9ed2f6c119afeaaec11778ec445ce21c0",
+      "signature": "N 129:2026889222:1757171275",
+      "prefix": "",
+      "suffix": ", my form has now changed! The true strength of my spirit is returning to me now... The cursed grasp of the forest is leaving me.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_LIFT_CURSE",
+        "call": "DoScriptText(SAY_LIFT_CURSE, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001166,
+        "column": "content_default",
+        "text": "$N, my form has now changed! The true strength of my spirit is returning to me now... The cursed grasp of the forest is leaving me.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 5
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Thank you, $N. Now my spirit will finally be at peace.",
+      "thai": "ขอบคุณเจ้า {name} ในที่สุดจิตวิญญาณของข้าก็จะสงบสุข",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "301f3c28c2d850affe68a251c4fbcdb4a1d88d881bc03f834019b72f02a1450d",
+      "signature": "11:1191658970:1224418299 N 41:852046583:704306828",
+      "prefix": "Thank you, ",
+      "suffix": ". Now my spirit will finally be at peace.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_AREI_ESCORT_COMPLETE",
+        "call": "DoScriptText(SAY_AREI_ESCORT_COMPLETE, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001167,
+        "column": "content_default",
+        "text": "Thank you, $N. Now my spirit will finally be at peace.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 6
+    },
+    {
+      "npc_id": 10300,
+      "quest_id": 4901,
+      "npc_name": "Ranshalla",
+      "level": 59,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Thank you for your help, $N. I wish you well in your adventures.",
+      "thai": "ขอบคุณที่ช่วยเหลือ {name} ขอให้เจ้าโชคดีในการผจญภัยต่อไป",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "2d8173f5cba83d55825995f877bbdc0f7aacdd0f71c7865f97b1b6123be23f28",
+      "signature": "25:328543501:1621241081 N 37:781104468:1461312606",
+      "prefix": "Thank you for your help, ",
+      "suffix": ". I wish you well in your adventures.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04570/winterspring.cpp",
+        "constant": "SAY_QUEST_END_1",
+        "call": "DoScriptText(SAY_QUEST_END_1, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000736,
+        "column": "content_default",
+        "text": "Thank you for your help, $N. I wish you well in your adventures. ",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 7
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Now we must wait, $N. It won't be long before the naga realize what we have done.",
+      "thai": "ตอนนี้เราต้องรอก่อน {name} อีกไม่นานพวกนากาจะรู้ว่าเราทำอะไรลงไป",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "f5f0eca99ea2def262800f3926fb538230f4155bb98a9db2705502b6cbedfc65",
+      "signature": "18:579527331:560615033 N 61:124564732:2001200319",
+      "prefix": "Now we must wait, ",
+      "suffix": ". It won't be long before the naga realize what we have done.",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_EVENT_01",
+        "call": "DoBroadcastText(SAY_MUGLASH_EVENT_01, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8410,
+        "text": "Now we must wait, $N. It won't be long before the naga realize what we have done.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 0,
+      "caller_line": 278,
+      "constant_value": 8410,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 0
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Be on your guard, $N!",
+      "thai": "ระวังตัวไว้ {name}!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "06d991d0b7afd63fc176ef385a1798f7b808253c7a49baafec19500ff6b9384c",
+      "signature": "18:1564659061:2024358582 N 1:33:33",
+      "prefix": "Be on your guard, ",
+      "suffix": "!",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_AGGRO",
+        "call": "DoBroadcastText(SAY_MUGLASH_AGGRO, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8412,
+        "text": "Be on your guard, $N!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 1,
+      "caller_line": 132,
+      "constant_value": 8412,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 1
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "This is the brazier, $N. Put it out. Vorsha is a beast, worthy of praise from no one!",
+      "thai": "นี่คือกระถางไฟ {name} ดับไฟเสีย Vorsha เป็นสัตว์ร้ายที่ไม่คู่ควรกับคำสรรเสริญจากผู้ใด!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "315876fbe9e77b94273d5b4db755a420fb26177e4aeebbeed9e1bd3a6e493e3b",
+      "signature": "21:759146364:432653888 N 62:1058500749:820021578",
+      "prefix": "This is the brazier, ",
+      "suffix": ". Put it out. Vorsha is a beast, worthy of praise from no one!",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_BRAZIER",
+        "call": "DoBroadcastText(SAY_MUGLASH_BRAZIER, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8556,
+        "text": "This is the brazier, $N. Put it out. Vorsha is a beast, worthy of praise from no one!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 2,
+      "caller_line": 259,
+      "constant_value": 8556,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 2
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "You have my deepest gratitude, $N. I thank you.",
+      "thai": "ข้าซาบซึ้งในน้ำใจของเจ้าอย่างยิ่ง {name} ขอบใจเจ้า",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "199e4da306a3dfd903dce586e44bab740775b6b9d1a02cd31a59c1448f023173",
+      "signature": "31:728957137:416162016 N 14:288258394:851186331",
+      "prefix": "You have my deepest gratitude, ",
+      "suffix": ". I thank you.",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_SUCCESS_02",
+        "call": "DoBroadcastText(SAY_MUGLASH_SUCCESS_02, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8558,
+        "text": "You have my deepest gratitude, $N. I thank you.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 3,
+      "caller_line": 321,
+      "constant_value": 8558,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 3
+    },
+    {
+      "npc_id": 12717,
+      "quest_id": 6641,
+      "npc_name": "Muglash",
+      "level": 23,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "We have done it, $N!",
+      "thai": "เราทำได้แล้ว {name}!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "1e4c3c9de99417d439028c75cfb455d41584ffe97556a4109d8e9937bb894e03",
+      "signature": "17:1330861954:1028376204 N 1:33:33",
+      "prefix": "We have done it, ",
+      "suffix": "!",
+      "caller": {
+        "file": "source-v04560/ashenvale.cpp",
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "constant": "SAY_MUGLASH_SUCCESS",
+        "call": "DoBroadcastText(SAY_MUGLASH_SUCCESS, m_creature, player)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 8569,
+        "text": "We have done it, $N!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 4,
+      "caller_line": 309,
+      "constant_value": 8569,
+      "independent_pointer_proof": "GetPlayerForEscort() -> Player* player",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+        "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+        "bytes": 27916,
+        "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+        "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+        "constants": [
+          "SAY_MUGLASH_EVENT_01",
+          "SAY_MUGLASH_AGGRO",
+          "SAY_MUGLASH_BRAZIER",
+          "SAY_MUGLASH_SUCCESS_02",
+          "SAY_MUGLASH_SUCCESS"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 4
+    },
+    {
+      "npc_id": 2768,
+      "quest_id": 665,
+      "npc_name": "Professor Phizzlethorpe",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Ok, $N. Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles.",
+      "thai": "เอาล่ะ {name} ตามข้าไปยังถ้ำ ข้าจะพยายามดึงพลังจากศิลารูนมาใส่ในแว่นตาคู่นี้",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "ebb965670d3fa3b14b209962838885e9a48ff151086db1f6e6af552f30cde69b",
+      "signature": "4:1348071430:179441212 N 101:187921724:993833277",
+      "prefix": "Ok, ",
+      "suffix": ". Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles.",
+      "caller": {
+        "file": "source-v04560/arathi_highlands.cpp",
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "constant": "SAY_PROGRESS_1",
+        "call": "DoScriptText(SAY_PROGRESS_1, pCreature, pPlayer)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000264,
+        "text": "Ok, $n. Follow me to the cave where I'll attempt to harness the power of the rune stone into these goggles.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 5,
+      "caller_line": 108,
+      "constant_value": -1000264,
+      "independent_pointer_proof": "QuestAccept typed Player* pPlayer",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "5361edff762b3e6824348099299a18556fafe45e",
+        "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+        "bytes": 8739,
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+        "constants": [
+          "SAY_PROGRESS_1",
+          "SAY_PROGRESS_3",
+          "SAY_PROGRESS_9"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 5
+    },
+    {
+      "npc_id": 2768,
+      "quest_id": 665,
+      "npc_name": "Professor Phizzlethorpe",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "I'll begin drawing energy from the stone. Your job, $N, is to defend me. This place is cursed...trust me.",
+      "thai": "ข้าจะเริ่มดึงพลังจากหิน หน้าที่ของเจ้า {name} คือคุ้มกันข้า ที่นี่ต้องคำสาป... เชื่อข้าเถอะ",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "7adfb189b21932d97fccbe26fa487988b0a55aaa3f11f899f076d33dc594654e",
+      "signature": "52:1307477670:1945227465 N 51:1088861819:591214387",
+      "prefix": "I'll begin drawing energy from the stone. Your job, ",
+      "suffix": ", is to defend me. This place is cursed...trust me.",
+      "caller": {
+        "file": "source-v04560/arathi_highlands.cpp",
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "constant": "SAY_PROGRESS_3",
+        "call": "DoScriptText(SAY_PROGRESS_3, m_creature, pPlayer)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000266,
+        "text": "I'll begin drawing energy from the stone.  Your job, $n, is to defend me. This place is cursed...trust me.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 6,
+      "caller_line": 72,
+      "constant_value": -1000266,
+      "independent_pointer_proof": "WaypointReached: checked GetPlayerForEscort() -> Player* pPlayer",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "5361edff762b3e6824348099299a18556fafe45e",
+        "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+        "bytes": 8739,
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+        "constants": [
+          "SAY_PROGRESS_1",
+          "SAY_PROGRESS_3",
+          "SAY_PROGRESS_9"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 6
+    },
+    {
+      "npc_id": 2768,
+      "quest_id": 665,
+      "npc_name": "Professor Phizzlethorpe",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Doctor Draxlegauge will give you further instructions, $N. Many thanks for your help!",
+      "thai": "Doctor Draxlegauge จะให้คำแนะนำเพิ่มเติมแก่เจ้า {name} ขอบใจมากที่ช่วยเหลือ!",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "160803ada1c990a59ad1e6d1e7b6a7ccc5c47e3970d3b3d4af52f1dc2abbaade",
+      "signature": "55:1201114852:1831069567 N 28:1326150726:1675816973",
+      "prefix": "Doctor Draxlegauge will give you further instructions, ",
+      "suffix": ". Many thanks for your help!",
+      "caller": {
+        "file": "source-v04560/arathi_highlands.cpp",
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "constant": "SAY_PROGRESS_9",
+        "call": "DoScriptText(SAY_PROGRESS_9, m_creature, pPlayer)",
+        "target": "explicit_Player_pointer",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000273,
+        "text": "Doctor Draxlegauge will give you further instructions, $n. Many thanks for your help!",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 7,
+      "caller_line": 86,
+      "constant_value": -1000273,
+      "independent_pointer_proof": "WaypointReached: checked GetPlayerForEscort() -> Player* pPlayer",
+      "primary_source": {
+        "repository": "cmangos/mangos-classic",
+        "commit": "5361edff762b3e6824348099299a18556fafe45e",
+        "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+        "bytes": 8739,
+        "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+        "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+        "constants": [
+          "SAY_PROGRESS_1",
+          "SAY_PROGRESS_3",
+          "SAY_PROGRESS_9"
+        ],
+        "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+      },
+      "corpus_evidence_file": "ForeverThai/Dev/NPCSpeech-0.456.0.json",
+      "corpus_evidence_entry_index": 7
+    }
+  ],
+  "total_templates": 16,
+  "total_npcs": 7,
+  "new_prose": 0,
+  "new_thai": 0,
+  "new_primary_cpp_pins": [
+    {
+      "repository": "cmangos/mangos-classic",
+      "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+      "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+      "bytes": 27916,
+      "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+      "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+      "constants": [
+        "SAY_MUGLASH_EVENT_01",
+        "SAY_MUGLASH_AGGRO",
+        "SAY_MUGLASH_BRAZIER",
+        "SAY_MUGLASH_SUCCESS_02",
+        "SAY_MUGLASH_SUCCESS"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+    },
+    {
+      "repository": "cmangos/mangos-classic",
+      "commit": "5361edff762b3e6824348099299a18556fafe45e",
+      "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+      "bytes": 8739,
+      "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+      "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+      "constants": [
+        "SAY_PROGRESS_1",
+        "SAY_PROGRESS_3",
+        "SAY_PROGRESS_9"
+      ],
+      "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+    }
+  ],
+  "historical_only_not_current_forever_server": true,
+  "pc_draft_code_used": false,
+  "role_words_separation": "Forever English/Thai and signatures come only from original transferred Dev and independent686 corpus. Fresh historical C++ constants/typed pointers corroborate Player roles only; no Classic words replace Forever. Existing11algorithm and sharedMatch remain unchanged.",
+  "in_game_verified": false
+}
