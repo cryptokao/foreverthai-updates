@@ -1,0 +1,46 @@
+Alphaverse THAI SUB — Cloud candidate revision cloud-main-through11-speech-party
+ชื่อไฟล์: ForeverThai-0.462.0-cloud-through-batch11-speech-party-PRIVATE-TEST.zip
+SHA-256: d3b84137a952fca0a9ee3b1a1891d1723e50bb24a1a14cc35a7b8bb21753dbfb
+ขนาด: 17714575 bytes; ภายใน136ไฟล์
+Source commit: d963e62cc41ec032cf20356033eaabf793eb5160
+Runtime TOC ยังแสดง0.462.0; ชื่อ candidate/ZIP/SHA แยกจาก baseline462 และ candidate07/10 ชัดเจน
+ไม่ใช่งานร่าง0.463.0บนPC และไม่เปลี่ยนcustomerfeed/Launcher รอบเผยแพร่ยัง0.470.0ตามนโยบาย
+
+ผู้ใช้เลือกติดตั้งและทดสอบเอง ผู้ช่วยไม่ได้ติดตั้งหรือควบคุมเกม
+1. ปิดเกม สำรองโฟลเดอร์ ForeverThai เดิม และเก็บ SavedVariables/WTF เดิมไว้
+2. ตรวจSHAของZIPให้ตรงด้านบน แล้วแตกไว้ภายนอกเกมก่อน ไม่ผสมกับแพ็กที่ไม่มีSkills
+3. ต้องมี ForeverThai/ForeverThai.toc รวมโฟลเดอร์SkillsและFontsครบ
+4. เปิดตำแหน่งเกมForeverที่ใช้อยู่จริงผ่านBattle.net (Windows:Open in Explorer / Mac:Show in Finder)
+   เลือกโฟลเดอร์clientที่Battle.netเปิดและมีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว
+   ไปที่Interface/AddOns แล้ววางForeverThaiให้ไฟล์อยู่ที่
+   Interface/AddOns/ForeverThai/ForeverThai.toc
+   ห้ามซ้อนForeverThaiสองชั้น คงชื่อForeverThai/Fontsและไฟล์ต่าง ๆ ตามเดิม
+5. เปิดAddonที่หน้าตัวละคร ไม่ต้องรันPython/buildscripts/โปรแกรมWindowsบนMacหรือAIlocal
+   คู่มือINSTALL-TH/INSTALL-MAC-THภายในแพ็กมีตัวอย่างproductfolderเก่า ให้ยึดclientจริงในข้อ4
+6. คงค่าตั้ง/SavedVariablesเดิม ไม่ต้องล้างWTF หากย้อนกลับให้ปิดเกมแล้วคืนโฟลเดอร์สำรอง
+
+ทุกส่วนรวมครบ:Quest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts
+รวมงาน08–10ที่Rootตรวจแล้ว:คำไทยใหม่14NPCtexts+2bookpagesจาก07 พร้อมreuse/aliasesแยก
+ยังไม่ทราบจำนวนหน้ารวมหนังสือ ไม่อ้างครบเล่ม/ครบทั้งเกม
+
+สิ่งเพิ่มใน11:รองรับชื่อสมาชิกparty/raidปัจจุบัน เฉพาะ8Player-name templatesของ5NPC
+Volcor3692,Shakes O'Breen2610,Captured Arko'narin11016,Arei9598,Ranshalla10300
+เป็นการขยายการจับคู่speechที่พิสูจน์แล้ว ไม่ใช่newproseหรือคำแปลใหม่8ข้อความ
+ตรวจplayer-unit/GUID/membership/name/realmจากrosterปัจจุบัน ชื่อฐานซ้ำที่กำกวมจะไม่จับคู่
+ชื่อเต็มName-Realmยอมรับเฉพาะค่าที่APIให้ตรงตัว ไม่มีการเดาrealmหรือwildcard
+ไม่ใช้chatarg5เป็นผู้รับ ไม่ขยายfixedRingo/Torta/race/class และไม่เปลี่ยนquest/gossip/Tracker identity
+เปิด/ปิดคำบรรยายได้ตามเดิมด้วย/fth speech on หรือ/fth speech off
+
+Cloudผลเดิมที่รันจริงก่อนreview:686uniqueNPCformsบน70862/70888,1372positive/8232base negative
+พร้อมwrong-player80/wrong-race2;active-rosterเพิ่ม1372positive/1372negative
+party8staticoracles:116positive/626negativeevents+6timercontrols+16sharedidentitychecks
+รวมduplicate names/realm/non-player/secret/roster/settings/build/locale/realBitmapLayer
+reviewครั้งนี้ไม่มีruntimechange จึงไม่รัน686/partyซ้ำเพื่อเปลี่ยนชื่อแพ็ก
+เทียบcandidate10เปลี่ยนเฉพาะSpeech.lua อีก135ไฟล์รวม28protectedSkill/fontassetsคงเดิม
+main/book/SkillผลเดิมแยกตามcandidateSHAในPR ไม่อ้างว่ารันใหม่ใน11
+WindowsและMacM2ในเกมจริงยังไม่ยืนยัน ไม่ถือว่าจบGOAL.mdหรือทั้งเกม
+
+หลักฐาน/ผลตรวจ/ข้อจำกัด:https://github.com/cryptokao/foreverthai-updates/pull/1
+Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/
+Source pin:https://github.com/JIVESCORP/eg-link-output-wowf/tree/164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1
+คำแปลไทยและการจับคู่เป็นการดัดแปลง;เครดิตแหล่งอื่นคงอยู่ในSOURCES-TH.txtเดิม
