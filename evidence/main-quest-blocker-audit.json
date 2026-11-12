@@ -1,7 +1,7 @@
 {
   "recorded_date": "2026-11-13",
-  "status": "verified_source_blocker_goal_still_active_first_blocked_audit_turn",
-  "consecutive_verified_blocked_goal_turns": 1,
+  "status": "same_verified_source_blocker_second_distinct_goal_turn_goal_active",
+  "consecutive_verified_blocked_goal_turns": 2,
   "counting_scope": "First distinct goal-continuation turn after the main-only refocus whose latest-source audit is complete and Cloud job is terminal. Do not count several tool calls in one turn as several turns.",
   "blocker_key": "no_new_source_ready_main_fields_and_no_current_whole_game_inventory_proof",
   "latest_main_source": {
@@ -64,5 +64,48 @@
   },
   "current_safe_next_action": "On a subsequent distinct goal turn, revalidate only external source/input state. Do not restart a Cloud run, redo old translation, upload the118MB auxiliary DB, build ZIP13, run unchanged tests or invent side work. If the same genuine impasse persists for the host-required consecutive turns, use the goal blocked status, not complete or paused. Reset the audit only when actual new inputs permit main translation progress.",
   "runtime_or_font_changes_this_audit": false,
-  "new_translation_count": 0
+  "new_translation_count": 0,
+  "second_turn_revalidation": {
+    "latest_issue": {
+      "number": 3429,
+      "updated_at": "2026-11-12T18:08:15Z"
+    },
+    "source_heads": [
+      {
+        "repo": "JIVESCORP/eg-link-output-wowf",
+        "sha": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+        "expected": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+        "unchanged": true,
+        "date": "2026-11-12T11:29:30Z"
+      },
+      {
+        "repo": "quinn-dougherty/forever-vo",
+        "sha": "d562be626b9970fa8575170950ff61076dc47df0",
+        "expected": "d562be626b9970fa8575170950ff61076dc47df0",
+        "unchanged": true,
+        "date": "2026-11-05T22:50:41Z"
+      },
+      {
+        "repo": "Questie/QuestieDB",
+        "sha": "a444a6418113ae0fce5d30c897674132e756ba1d",
+        "expected": "a444a6418113ae0fce5d30c897674132e756ba1d",
+        "unchanged": true,
+        "date": "2026-11-12T15:43:30Z"
+      },
+      {
+        "repo": "tyler3497/forever-quests",
+        "sha": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+        "expected": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+        "unchanged": true,
+        "date": "2026-11-02T06:47:06Z"
+      }
+    ],
+    "project_head": "d79d16d478b9b0c0b19895de4b898e576f2f92e2",
+    "project_head_unchanged": true,
+    "user_input_changed": false,
+    "cloud_run_restarted": false,
+    "runtime_or_tests_run": false,
+    "new_translations": 0,
+    "conclusion": "Same genuine main-source/input impasse, no available authorized main-translation work. Host third-turn threshold has not yet been met."
+  }
 }
