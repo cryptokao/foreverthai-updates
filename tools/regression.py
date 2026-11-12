@@ -19,6 +19,12 @@ batch6=json.loads((ROOT/'evidence/main-counters-06.json').read_text())
 batch5=json.loads((ROOT/'evidence/main-hyjal-05.json').read_text())
 batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']+batch5['fields']+batch6['fields']}
 added={(x['quest_id'],x['field']) for x in batch1['fields']};variants={(x['quest_id'],x['field']) for x in batch2['fields']+batch4['fields']};assert len(added)==34 and len(variants)==15
+party_report_path=ROOT/'evidence/party-speech-regression11.json'
+party_report=json.loads(party_report_path.read_text()) if party_report_path.exists() else None
+def approved_speech_change(path):
+ assert party_report and party_report['status']=='passed' and party_report['changed_runtime_files']==['ForeverThai/Speech.lua']
+ assert hashlib.sha256(path.read_bytes()).hexdigest()==party_report['runtime_speech_sha256']
+ return True
 checks=0
 def equal(a,b,path=()):
  global checks
@@ -45,12 +51,14 @@ for k,v in base.items():
 for n in names:
  p=ROOT/'src'/n;assert p.is_file(),n
  if n.endswith('/Catalog.lua'):continue
+ if n.endswith('/Speech.lua') and p.read_bytes()!=z.read(n):assert approved_speech_change(p);continue
  if n.endswith('/Atlas.lua'):assert p.read_bytes().startswith(z.read(n));continue
  assert p.read_bytes()==z.read(n),n
 prior_manifest=json.loads((ROOT/'evidence/private-package-manifest05.json').read_text())['runtime_manifest']
 prior_unchanged=0
 for name,digest in prior_manifest.items():
  if name.endswith(('/Catalog.lua','/Atlas.lua')):continue
+ if name.endswith('/Speech.lua') and hashlib.sha256((ROOT/'src'/name).read_bytes()).hexdigest()!=digest:assert approved_speech_change(ROOT/'src'/name);continue
  assert hashlib.sha256((ROOT/'src'/name).read_bytes()).hexdigest()==digest,name
  prior_unchanged+=1
 for p in RUN.rglob('*.lua'):load(p.read_text(),None)
@@ -172,5 +180,5 @@ for p in (RUN/'Fonts').glob('*.tga'):
  with Image.open(p) as im:im.load();images[p.name]=im.size
 for _,g in addon.glyphs.items():
  w,h=images[f'Thai{g[1]}.tga'];assert 0<=g[2] and g[2]+g[4]<=w and 0<=g[3] and g[3]+56<=h
-result=dict(baseline_components_retained=126,candidate05_unchanged_component_hashes=prior_unchanged,new_book_page_fields_batch07=len(batch7["fields"]),historical_label_aliases_batch07=len(historical_steps),byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,low_level_literal_binding_checks=low_binding_checks,new_dynamic_forms_batch03=len(batch3["fields"]),new_dynamic_forms_batch05=len(batch5["fields"]),new_dynamic_forms_batch06=len(batch6["fields"]),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; fresh pinned API-source proof is reported separately in npc-api-proof.json; not in-game verification.')
+result=dict(baseline_components_retained=126,candidate05_unchanged_component_hashes=prior_unchanged,new_book_page_fields_batch07=len(batch7["fields"]),historical_label_aliases_batch07=len(historical_steps),byte_identical_baseline_files=sum((ROOT/"src"/n).read_bytes()==z.read(n) for n in names),new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,low_level_literal_binding_checks=low_binding_checks,new_dynamic_forms_batch03=len(batch3["fields"]),new_dynamic_forms_batch05=len(batch5["fields"]),new_dynamic_forms_batch06=len(batch6["fields"]),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; fresh pinned API-source proof is reported separately in npc-api-proof.json; not in-game verification.')
 (ROOT/'evidence/cloud-regression.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
