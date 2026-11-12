@@ -28,8 +28,10 @@
     "fields_with_at_least_one_supported_full_source": 16826,
     "fields_with_no_available_source_record": 13859,
     "fields_with_unmatched_source_or_binding": 92,
+    "fields_needing_typed_identity_evidence": 51,
+    "fields_with_objective_amount_template_pending": 34,
     "fields_with_placeholder_or_empty_source": 12,
     "fields_with_current_usage_unconfirmed": 7570,
-    "overlap_note": "These evidence dimensions overlap. Supported source does not prove current playability; missing source does not prove an existing game phase."
+    "overlap_note": "These evidence dimensions overlap. A count-template probe is not an untranslated live field. Supported source does not prove current playability; missing source does not prove an existing game phase."
   }
 }

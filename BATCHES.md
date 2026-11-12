@@ -27,7 +27,7 @@
 
 หลักฐาน exact candidate/source/fixture SHA และชื่อทั้ง 9 กรณีอยู่ `evidence/legacy-skill-cloud.json` **ยังไม่ใช่ NPC686 และไม่ใช่ผลเล่นจริง Windows/Mac M2**
 
-## แพ็ก private ปัจจุบัน
+## แพ็ก private ที่ผ่าน Skill UI (batch04)
 
 `ForeverThai-0.462.0-cloud-through-batch04-PRIVATE-TEST.zip` รวม 130 ไฟล์, 17232484 bytes
 
@@ -43,10 +43,24 @@ SHA-256 `785138246d531eae7d22286e26cb5ee301eb16b334c11fdfe7861caa59bf2796`
 
 QuestieDB HEAD ใหม่ `d9caec6` เปลี่ยน metadata/gates และชื่อ 91907 แต่ยังไม่มี query record ปัจจุบันของรหัสนี้ จึงไม่อ้างว่าเป็นเควสต์ playable ใหม่ ส่วนต้นฉบับ primary ที่ www.wowhead.com ถูก Cloud proxy ปฏิเสธ CONNECT 403; ผู้ใช้ยืนยันให้คง network isolation/allowlist เดิม ใช้แหล่งที่เข้าถึงได้ต่อไป ไม่ย้ายออกจาก Cloud ที่ยังทำงานได้
 
-ยังขาด typed phases บางรายการ (เช่น 6076/5642/5643 completion), current quest/phase inventory ที่พิสูจน์ playable ครบ, NPC686 harness และผลเล่นจริง Windows/Mac M2 จึงยังไม่ผ่านเงื่อนไขจบ GOAL.md
+ยังขาด typed phases บางรายการ (เช่น 6076/5642/5643 completion), current quest/phase inventory ที่พิสูจน์ playable ครบ, API archives ประกอบ NPC686 และผลเล่นจริง Windows/Mac M2 จึงยังไม่ผ่านเงื่อนไขจบ GOAL.md
 
 ## Batch 05 — Hyjal source amount forms
 
 เพิ่ม dynamic source forms 16 ฟิลด์ใน 15 เควสต์ L55–57 (15 objectives + description93833) จาก query เดิมที่ pinned ไว้ คงข้อความและ fixed totals ที่แปลแล้วทุกค่า ไม่ใช่ 16 คำแปลเนื้อเรื่องใหม่ ไม่สร้างฟอนต์และไม่แก้ Skills เพิ่ม unequal-counter oracles อีก 4 กรณี พร้อมตรวจ fixed trainer literals ของ L1 ต่างคลาส 12 กรณี; ความเห็นบางส่วนจากหน้า98574ไม่ถูกใช้แทน raw body/hash และ progress ยัง hold binding ไว้
 
 ผล main regression ล่าสุด: 72 unique source cases, 208 positive executions, 395 negative executions, 18 independent unequal-counter cases, 36 detected swaps ดู cloud-regression.json; ผล Skill UI candidate batch04 ยังคงเป็นผลของ SHA เดิม ไม่อ้างว่ารันใหม่เมื่อ Skills ไม่เปลี่ยน
+
+## NPC replay ที่กู้คืน — ปิดงานก่อน union discovery
+
+ต้นฉบับ `tests/recovered_npc/check_speech_v04230.py` คง bytes เดิม SHA256 `bdcf2ff10c973ab90cd372cfbd8f9416805f1fb0167be0d3e2d8a08193977b58` port fixture/event/settings/timer/capture/bitmap assertions แยกเป็น `tools/npc_replay.py` ไม่รัน original wrapper ที่ขาด helper/UI archives
+
+`tools/build_npc_corpus.py` อ่านเฉพาะ entries ที่ review แล้วใน Dev/NPCSpeech-* จำนวน 18 เอกสารจาก Windows-Mac ZIP ที่ตรวจ hash เดิม ได้ 686 NPC/event/English/Thai forms ไม่ซ้ำ ไม่อ่าน expected จาก runtime SpeechData และไม่กรองตามผล runtime เพื่อให้ test ผ่าน corpus พร้อม file hashes อยู่ `tests/npc_corpus/reviewed-0462.json`
+
+รันใหม่บน Cloud ผ่านสอง build 70862/70888: 1372 positive event executions, 8232 base negative event executions, wrong-player-name80, wrong-race2, fixed Ringo/Torta substitutions6 พร้อม assertions settings/dedup/timer/history/capture512/byte-limit/secret/real BitmapLayer ใน UI mock ตรวจ 102317 prior runs, 12403 glyphs และ 78 original TGA page bytes ที่คงเดิม แทน old-version wrapper อย่างมีขอบเขต ไม่มี runtime/font edits เพื่อให้ test ผ่าน
+
+Exact candidate batch05: 130 ไฟล์, 17233223 bytes, SHA256 `3fd22cbac9c6eebddbf951da005267077414f074afee61b0aa127a0b09427b7d` รายงาน `evidence/npc-cloud-replay05.json` และ `private-package-manifest05.json` ผูก source/corpus/candidate hashes
+
+ยังไม่มี Blizzard UI API archives จึงไม่อ้าง fresh event-argument documentation proof และยังไม่ใช่ผลเกม Windows/Mac M2 ชุด Skill UI 9 cases คงเป็นผล candidate batch04 ที่รายงานไว้ ไม่รีรันหรืออ้างว่าเป็นผลใหม่เมื่อ Skills ไม่เปลี่ยน Batch05 ได้ review สิ่งของ/NPC/จำนวนแล้วและไม่มีข้อแก้สำนวน; ยังนับเป็น 0 คำแปลเนื้อเรื่องใหม่
+
+งานถัดไปเพิ่ม separate source-ID union audit จาก EG queries/texts, VO และ QuestieDB metadata เพื่อค้นรหัสนอก Catalog; ไม่ขยายตาราง runtime5fields และไม่ใช้ union เป็น playable-game denominator

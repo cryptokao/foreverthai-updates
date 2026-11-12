@@ -22,3 +22,5 @@ remaining source gaps and new Cloud regression results. This is private review
 work, with no customer-feed update and no claim of full-game or in-game coverage.
 
 Read [BATCHES.md](BATCHES.md) for batches 02–04, independent unequal-counter regression, recovered nine-case Skill UI results, exact private candidate hashes and the remaining source queue. The original 34 fields are retained and are not counted again.
+
+NPC replay has now been recovered and run on Cloud against an independent 686-form Dev corpus; see `evidence/npc-cloud-replay05.json`. Missing UI API archives and real-game verification remain separate gaps.

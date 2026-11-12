@@ -1,7 +1,7 @@
 """Build a complete private review ZIP; keep feed and runtime version unchanged."""
 import hashlib,json,pathlib,sys,zipfile
 root=pathlib.Path(__file__).resolve().parents[1];out=pathlib.Path(sys.argv[1]);out.mkdir(parents=True,exist_ok=True);runtime=root/'src/ForeverThai';files=sorted(p for p in runtime.rglob('*') if p.is_file());assert len(files)>=126
-manifest={str(p.relative_to(runtime.parent)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files};name='ForeverThai-0.462.0-cloud-through-batch04-PRIVATE-TEST.zip'
+manifest={str(p.relative_to(runtime.parent)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files};label=sys.argv[2] if len(sys.argv)>2 else 'batch05';assert label.replace('-','').isalnum();name=f'ForeverThai-0.462.0-cloud-through-{label}-PRIVATE-TEST.zip'
 def write_zip(path,entries):
  with zipfile.ZipFile(path,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
   for label,p in entries:

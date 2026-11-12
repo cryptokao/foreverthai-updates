@@ -54,7 +54,7 @@ for q in sorted(ids,key=lambda q:(queries.get(str(q),{}).get('level',999),q)):
    if not text.strip() or text.strip() in ['Description','Log'] or text.startswith('[PH]'):
     placeholders+=1;continue
    if entry and all(addon.Translate(entry,s) is not None for s in forms(text)):supported+=1
-   else:unmatched+=1;unmatched_refs.append(dict(origin=origin,sha256=digest,kind=kind,has_tokens=bool(re.search(r'\$[ncrg]|\$\d+oa',text,re.I))))
+   else:unmatched+=1;unmatched_refs.append(dict(origin=origin,sha256=digest,kind=kind,has_tokens=bool(re.search(r'\$[ncrg]|\$\d+oa',text,re.I)),has_identity_tokens=bool(re.search(r'\$[ncr]',text,re.I)),has_objective_amount_tokens=bool(re.search(r'\$\d+oa',text)),typed_identity_evidence_unresolved=kind!='query' and bool(re.search(r'\$[ncr]',text,re.I))))
   if test:status='current_usage_unconfirmed_test_or_disabled'
   elif supported and not unmatched:status='source_and_translation_match'
   elif unmatched:
@@ -71,4 +71,13 @@ for q in sorted(ids,key=lambda q:(queries.get(str(q),{}).get('level',999),q)):
 with (OUT/'quest-field-inventory.csv').open('w',newline='') as f:
  w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
 summary=dict(scope='All IDs in the editable runtime Catalog, five main fields per ID. Query/capture provenance does not prove current playability. Counts are this inventory only; not whole-game completion.',runtime_quest_ids=len(ids),field_rows=len(rows),statuses=dict(counts),missing_runtime_fields=dict(missing),unmatched_source_versions_by_field=dict(unsupported),current_query_sha256=hashlib.sha256(qp.read_bytes()).hexdigest(),eg_commit='164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1',vo_commit='d562be626b9970fa8575170950ff61076dc47df0')
+summary['evidence_breakdown']={
+ 'fields_with_at_least_one_supported_full_source':sum(x['supported_versions']>0 for x in rows),
+ 'fields_with_no_available_source_record':sum(x['unique_source_versions']==0 for x in rows),
+ 'fields_with_unmatched_source_or_binding':sum(x['unmatched_versions']>0 for x in rows),
+ 'fields_needing_typed_identity_evidence':sum(any(v.get('typed_identity_evidence_unresolved') for v in x['unmatched_sources']) for x in queue),
+ 'fields_with_objective_amount_template_pending':sum(any(v.get('has_objective_amount_tokens') for v in x['unmatched_sources']) for x in queue),
+ 'fields_with_placeholder_or_empty_source':sum(x['placeholder_versions']>0 for x in rows),
+ 'fields_with_current_usage_unconfirmed':sum(x['current_usage']=='current_usage_unconfirmed' or x['status']=='current_usage_unconfirmed_test_or_disabled' for x in rows),
+ 'overlap_note':'These evidence dimensions overlap. A count-template probe is not an untranslated live field. Supported source does not prove current playability; missing source does not prove an existing game phase.'}
 (OUT/'quest-field-inventory-summary.json').write_text(json.dumps(summary,indent=2)+'\n');(OUT/'main-source-queue.json').write_text(json.dumps(queue,indent=2)+'\n');print(json.dumps(summary,indent=2))

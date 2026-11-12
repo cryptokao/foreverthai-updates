@@ -23,5 +23,5 @@
   "old_runs": 102317,
   "new_glyphs": 193,
   "new_runs": 45,
-  "scope": "Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 remains unavailable; not in-game verification."
+  "scope": "Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; its UI API archives remain unavailable; not in-game verification."
 }
