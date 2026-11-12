@@ -86,3 +86,15 @@ Snapshotเพิ่มเติม tyler3497/forever-quests pin9f4c5a: main4630
 Inventoryสั้น: 30745 runtime-field rows; มีอย่างน้อยหนึ่งfull sourceที่matcherรองรับ16826; ไม่มีsource record13859; รอtyped identity evidence51; usageยังไม่ยืนยัน7465 ตัวเลขเหล่านี้เป็นคนละมิติและทับซ้อนกัน ไม่ใช่เปอร์เซ็นต์หรือรายการplayableทั้งเกม
 
 LibQuestDBofficialdownloadเคยติดCONNECT403 ผู้ใช้ส่งresearchsupplementใหม่เพื่ออ่านHarvestเท่านั้น เป็นงานถัดไปหลังcommitนี้ ไม่รันlibrary/scriptsและไม่เปลี่ยนnetworkpolicy/customerfeed
+
+## LibQuestDB source supplement — completed restricted audit
+
+ตรวจ research ZIP34441bytes SHA d28107f58f0e6facdd65de59b5e46217a096002695cc829a52e3a2dd05038a16, paths/symlinks และmanifest4ไฟล์ตรงทุกbyte เก็บoriginalแยกในforeverthai-devและสำเนาMIT sourceภายใต้tests/source_inputs/libquestdb-010 ไม่มีการติดตั้ง/รันlibrary/puller
+
+Restricted parserรับเฉพาะnumericID/string literals และschemaคอลัมน์ที่อ่านจากformatที่กำหนด ปฏิเสธcalls/expressions/duplicateIDs/unsupportedescapes มีfocusedtests3methods รวมdecimal\031 และUTF8byteescapes ต่างจากPythonoctal ไม่ใช้LuaVMกับไฟล์บุคคลอื่น
+
+ได้775IDs/775titles,723log summaries,186objective lines รวม1684field records:1672รองรับแล้ว,9รอsnapshot/currentbinding,1placeholderLog และ2ฟิลด์จาก94898ที่มีexplicitTempDisabled ไม่มีIDนอกunionเดิม และไม่มีcandidateพร้อมแปลจากหลักฐานชุดนี้ รายงานharvest-source-audit.json/differencesเรียงlow→high พร้อมsource hashes ไม่มีaccept/progress/completionจากClassicdumpปน ไม่มีคำแปลเพิ่ม
+
+วันที่harvest09-28และInterface16001ไม่ใช่exactclientbuild; original9.6MBZIPมีhashในprovenanceที่ผู้ใช้ยืนยัน ส่วนCloudตรวจใหม่เฉพาะresearchsupplementและ4originalfilesที่อยู่ในmanifest ไม่อ้างว่าClouddownload/rehashedoriginalZIPแล้ว
+
+คู่มือartifactแก้ตามreviewแล้วที่commit c50ce853f1090ab9c20340b19c5fca2fc1011ef6:ใช้client folderจริงที่Battle.netเปิด ไม่มีชื่อproduct folderตายตัว ZIPblobเดิม/SHAเดิมไม่เปลี่ยน ดูcandidate05-delivery.jsonสำหรับlinksล่าสุด

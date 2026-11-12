@@ -10,5 +10,5 @@
     "775 filtered records are not a current whole-game denominator"
   ],
   "next_action": "Need an accessible original release/source artifact with provenance; no policy changes or API signup requested. Do not run/install the library.",
-  "followup": "User supplied research supplement d28107f58f0e6facdd65de59b5e46217a096002695cc829a52e3a2dd05038a16; verification and restricted parsing queued after this commit."
+  "followup": "Resolved via the verified research supplement. Restricted Harvest audit completed: 775 IDs, no ready current-own-ID translation candidate. See harvest-source-audit.json. Original official download remains CONNECT403; no policy change."
 }

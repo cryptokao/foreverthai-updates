@@ -4,3 +4,4 @@ src/ForeverThai/** -text
 # Preserve recovered original fixture hashes across Cloud/Local checkouts.
 tests/recovered_skill/** -text
 tests/recovered_npc/** -text
+tests/source_inputs/** -text
