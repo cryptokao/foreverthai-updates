@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-11-13",
+  "reviewed_branch": "codex/main-quest-cloud-continuation",
+  "reviewed_commit": "d0c9aff3f3269ef9d58a63d5f973ddd054223456",
+  "reviewer": "root hosted model",
+  "scope": "Independent reading of all 10 exact English/Thai pairs, pinned source and own-NPC metadata, reuse classifications, and Cloud regression implementation/report. No local tests or local model inference.",
+  "counts": {
+    "records": 10,
+    "new_prose": 4,
+    "literal_source_variants": 3,
+    "own_id_source_form_reuse": 1,
+    "new_own_id_reuse_bindings": 2
+  },
+  "source_file_sha256": "1d09220f683e25c421e64a380d69169a45440998214771ecd5902cc99b9f2f9b",
+  "npc_metadata_sha256": "c2b1b2e0ab58c187835428223c23f87c5a43bb36af51d20f1c6fd1c28fa60722",
+  "findings": [
+    "No material meaning, names, quantities, or sequence error found in the 10 pairs.",
+    "Keep Blacksmith as the fixed profession noun in Saru Steelfury's exact source, not a player class token.",
+    "Keep skyborne literal in the three source variants; preserve existing reviewed wording.",
+    "NPC observed levels are not quest levels or evidence of a complete playable quest denominator.",
+    "Regression uses actual existing NPC page handlers with surrounding UI mocked, independent expectations, wrong ID/body/type/GUID/mode and fallback negatives.",
+    "Cloud report: 40 positive and 150 negative executions, 982861 old runtime values preserved, 131 non-data/font components unchanged, Thai86 decoded. This review does not represent a new test execution.",
+    "No live Windows or Mac M2 validation, Skills rerun, speech-event expansion, or whole-game completion claimed."
+  ],
+  "required_changes": [],
+  "status": "reviewed_no_material_change_requested",
+  "delivery": "Batch08 is not included in candidate07; use a new artifact name/hash when packaged."
+}
