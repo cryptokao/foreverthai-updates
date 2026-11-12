@@ -1,0 +1,2 @@
+# Preserve transferred runtime bytes, including existing CRLF and binary fonts.
+src/ForeverThai/** -text
