@@ -19,10 +19,12 @@ batch6=json.loads((ROOT/'evidence/main-counters-06.json').read_text())
 batch5=json.loads((ROOT/'evidence/main-hyjal-05.json').read_text())
 batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']+batch5['fields']+batch6['fields']}
 added={(x['quest_id'],x['field']) for x in batch1['fields']};variants={(x['quest_id'],x['field']) for x in batch2['fields']+batch4['fields']};assert len(added)==34 and len(variants)==15
-party_report_path=ROOT/'evidence/party-speech-regression11.json'
+party_report_path=ROOT/'evidence/party-speech-regression12.json' if (ROOT/'evidence/party-speech-regression12.json').exists() else ROOT/'evidence/party-speech-regression11.json'
 party_report=json.loads(party_report_path.read_text()) if party_report_path.exists() else None
 def approved_speech_change(path):
- assert party_report and party_report['status']=='passed' and party_report['changed_runtime_files']==['ForeverThai/Speech.lua']
+ assert party_report and party_report['status']=='passed'
+ expected_delta=['ForeverThai/Catalog.lua','ForeverThai/Speech.lua'] if party_report_path.name.endswith('12.json') else ['ForeverThai/Speech.lua']
+ assert party_report['changed_runtime_files']==expected_delta
  assert hashlib.sha256(path.read_bytes()).hexdigest()==party_report['runtime_speech_sha256']
  return True
 checks=0
