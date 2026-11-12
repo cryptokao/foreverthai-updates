@@ -1,0 +1,40 @@
+Alphaverse THAI SUB — Cloud candidate15 (cloud-main-through15)
+ชื่อไฟล์: ForeverThai-0.462.0-cloud-through-batch15-main-PRIVATE-TEST.zip
+SHA-256: 65fcf5e9f97681d032a13122a76583aed28ac2edbee17a83319ee5f1a77838ce
+ขนาด: 17765184 bytes; ภายใน138ไฟล์
+Source commit: a55f2b7ebc2718d074bcc1a1a2b7dc47ed57ad5a
+Runtime TOC ยัง0.462.0 ใช้ชื่อcandidate/ZIP/SHAแยกจากbaseline462และcandidate13
+ไม่ใช่PCdraft0.463.0 ไม่เปลี่ยนcustomerfeed/Launcherหรือนโยบายเผยแพร่
+
+ผู้ใช้เลือกติดตั้งและทดสอบเอง ผู้ช่วยไม่ได้ติดตั้งหรือควบคุมเกม
+1. ปิดเกม สำรองForeverThaiเดิมและเก็บSavedVariables/WTFเดิมไว้
+2. ตรวจSHAให้ตรง แตกZIPภายนอกเกมก่อน ต้องมีForeverThai/ForeverThai.toc พร้อมSkillsและFontsครบ
+3. เปิดตำแหน่งเกมที่ใช้จริงผ่านBattle.net: Windows Open in Explorer / Mac Show in Finder
+   เลือกโฟลเดอร์clientที่Battle.netเปิดและมีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว
+4. วางForeverThaiในInterface/AddOns ให้ไฟล์อยู่ที่Interface/AddOns/ForeverThai/ForeverThai.toc
+   ห้ามซ้อนForeverThaiสองชั้น คงชื่อForeverThai/Fontsและไฟล์ทุกส่วนตามเดิม
+   คู่มือภายในแพ็กมีตัวอย่างproductfolderเก่า ให้ยึดclientจริงตามข้อ3
+5. เปิดAddonที่หน้าตัวละคร ไม่ต้องรันPython/buildscripts/โปรแกรมWindowsบนMacหรือAIlocal
+6. คงค่าตั้ง/SavedVariablesเดิม ไม่ล้างWTF ถ้าย้อนกลับให้ปิดเกมแล้วคืนโฟลเดอร์สำรอง
+
+รวมQuest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settingsครบ
+รวมงานmain13ทั้งหมด และmain15ที่Rootตรวจแล้ว:
+คำไทยใหม่หรือขยาย2ฟิลด์/2IDs คือ2881TrollNecklaceBounty และ7801AdditionalRunecloth
+อีก4completionใช้คำไทยเดิม:8384/8391จาก8392,8441/8442จาก8390variantที่ตรงต้นฉบับ
+รวม6own-IDcompletionvariants ไม่ใช่คำไทยใหม่6ข้อความ
+คงoldcanonicals/aliasesทั้งหมด พร้อมparty16templates/7NPCจาก12 ไม่ใช่ทุกบทพูดทั้งเกม
+หน้าต้นทางไม่แสดงexactbuild ไม่อ้างcurrenteligibleinventoryหรือliveplayability
+คงcandidate13immutable;เทียบ13เปลี่ยนเฉพาะCatalog/Atlasและเพิ่มThai90 ไม่มีremovedfiles
+
+ผลCloudตามscopeจริง:ก่อนแก้สำนวน2881มี6staticpositive/18negative;หลังRootแก้เฉพาะ2881
+ตรวจcase2881ใหม่1positive/3negative และอีก5คู่/oracleคงเดิมทุกค่า เก็บfinalCatalogSHAแยกในPR
+เพิ่มเฉพาะ3missingThai runs/22glyphs ตรวจ12actualBitmapLayerdrawsและoldglyph/run/pagepreservation
+แพ็กจริงตรวจทุกbyte/path/TOC24/protectedSkillfont28/SavedVariables/Questieและดาวน์โหลดกลับ
+ไม่rerun686/party/Skills/fullsuiteเดิม ส่วนที่ไม่เปลี่ยนใช้hashและผลเดิมตามscope
+592source-recordtriageเสร็จแล้ว:546format/checklist/name-only,6readybody,40held
+ตัวเลขนี้ไม่ใช่592เควสต์ขาดหรือความครบทั้งเกม ไม่เดาตัวแปรและไม่ตัดchecklistทั่วruntime
+WindowsและMacM2ในเกมจริงยังnotyettested/unverified ไม่ใช่failed ไม่อ้างครบทั้งเกม
+
+หลักฐานและข้อจำกัด:https://github.com/cryptokao/foreverthai-updates/pull/1
+Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/
+เครดิตอื่นคงอยู่ในSOURCES-TH.txt คำแปลไทยและการจับคู่เป็นการดัดแปลง
