@@ -1,0 +1,29 @@
+{
+  "observed_date": "2026-11-12",
+  "evidence_kind": "Rendered public own-ID quest-page observations via the root web tool. The tool labels opened pages as rewritten summaries; these are short corroborating observations, not downloaded raw HTML/body hashes or live client captures.",
+  "scope": "Corroborate only the literal labels below against already preserved MIT Harvest inputs and current runtime. Does not establish a whole-game inventory, exact game build, player-token bindings, optional suffix rendering or in-game success.",
+  "observations": [
+    {
+      "quest_id": 97223,
+      "url": "https://www.wowhead.com/forever/quest=97223/bloodtalon-matriarch",
+      "field": "objective item label",
+      "literal_observed": "Bloodtalon Matriarch Eggs",
+      "harvest_difference": "The preserved public Harvest label spells Martriarch. The rendered quest page spells Matriarch. Use the full own-ID source lineage; do not change the count or infer another quest's label."
+    },
+    {
+      "quest_id": 92679,
+      "url": "https://www.wowhead.com/forever/quest=92679/blood-tithe",
+      "field": "objective line",
+      "literal_observed": "Listen to Alvarion Windfield's Story",
+      "harvest_difference": "The preserved Harvest line appends (Optional). The viewed page exposes the base objective without that suffix. This corroborates the base action/NPC, not whether a current client appends Optional."
+    },
+    {
+      "quest_id": 93963,
+      "url": "https://www.wowhead.com/forever/quest=93963/exploring-the-alliance",
+      "field": "objective line",
+      "literal_observed": "Receive Instructions from Randal Emerson",
+      "harvest_difference": "The preserved public Harvest line spells Recieve. The rendered own-ID page spells Receive. Current EG query has no record in the audit; do not call that absence proof that this phase does not exist."
+    }
+  ],
+  "next_action": "Check whether corrected current literal labels are already translated. If exact preserved older forms can safely reuse reviewed own-ID Thai, qualify them as historical source-form aliases and preserve all existing mappings. Do not fabricate a current source/field or count an already translated action as a new prose translation."
+}
