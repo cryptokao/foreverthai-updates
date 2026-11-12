@@ -1,0 +1,36 @@
+Alphaverse THAI SUB — Cloud candidate13 (cloud-main-through13)
+ชื่อไฟล์: ForeverThai-0.462.0-cloud-through-batch13-main-PRIVATE-TEST.zip
+SHA-256: 2b66f0791dbab6e5e6d3363b6277c811e36c1a1d24ec4ef8256433b6691f5a26
+ขนาด: 17748537 bytes; ภายใน137ไฟล์
+Source commit: 45af25182eb5cdeee19bd38197779f52780fe058
+Runtime TOC ยัง0.462.0 ใช้ชื่อcandidate/ZIP/SHAแยกจากbaseline462และcandidate12
+ไม่ใช่PCdraft0.463.0 ไม่เปลี่ยนcustomerfeed/Launcherหรือนโยบายเผยแพร่
+
+ผู้ใช้เลือกติดตั้งและทดสอบเอง ผู้ช่วยไม่ได้ติดตั้งหรือควบคุมเกม
+1. ปิดเกม สำรองForeverThaiเดิมและเก็บSavedVariables/WTFเดิมไว้
+2. ตรวจSHAให้ตรง แตกZIPภายนอกเกมก่อน ต้องมีForeverThai/ForeverThai.toc พร้อมSkillsและFontsครบ
+3. เปิดตำแหน่งเกมที่ใช้จริงผ่านBattle.net: Windows Open in Explorer / Mac Show in Finder
+   เลือกโฟลเดอร์clientที่Battle.netเปิดและมีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว
+4. วางForeverThaiในInterface/AddOns ให้ไฟล์อยู่ที่Interface/AddOns/ForeverThai/ForeverThai.toc
+   ห้ามซ้อนForeverThaiสองชั้น คงชื่อForeverThai/Fontsและไฟล์ทุกส่วนตามเดิม
+   คู่มือภายในแพ็กมีตัวอย่างproductfolderเก่า ให้ยึดclientจริงตามข้อ3
+5. เปิดAddonที่หน้าตัวละคร ไม่ต้องรันPython/buildscripts/โปรแกรมWindowsบนMacหรือAIlocal
+6. คงค่าตั้ง/SavedVariablesเดิม ไม่ล้างWTF ถ้าย้อนกลับให้ปิดเกมแล้วคืนโฟลเดอร์สำรอง
+
+รวมQuest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settingsครบ
+เพิ่มmain13ที่Rootตรวจแล้ว:completion3ฟิลด์ของq6076(L10),q5642/q5643(L20)
+เป็นproseใหม่2ข้อความ โดยq5643ใช้ข้อความเดียวกับq5642ภายในbatch
+q98574(L1)progressเพิ่มrace variantของคำไทยเดิม ไม่ใช่proseใหม่ และgnomesช่วงหลังยังliteral
+หน้าต้นทางown-IDไม่แสดงbuild ไม่อ้างว่าเป็นข้อมูล70888หรือยืนยันliveplayability
+คงงานและparty16templates/7NPCจาก12ครบ ไม่ใช่รองรับชื่อปาร์ตี้ทุกบทพูด
+คงcandidate12immutable;แพ็ก13นี้เพิ่มเฉพาะCatalog/Atlas/Thai89 ไม่มีremovedfiles
+
+ตรวจCloudเฉพาะส่วนที่เปลี่ยน:4sourcecases,6staticpositive/20negativeผ่านก่อนfont
+เพิ่มฟอนต์เฉพาะ20runs/60glyphs ตรวจ29actualBitmapLayerdrawsและoldglyph/run/pagepreservation
+แพ็กจริงตรวจทุกbyte/path/TOC24/protectedSkillfont28/SavedVariables/Questieและดาวน์โหลดกลับ
+ไม่rerun686/party/Skills/fullsuiteเดิมเพราะruntimeส่วนเหล่านั้นไม่เปลี่ยน;ผลเก่ามีscopeแยกในPR
+WindowsและMacM2ในเกมจริงยังnotyettested/unverified ไม่ใช่failed ไม่อ้างครบทั้งเกม
+
+หลักฐานและข้อจำกัด:https://github.com/cryptokao/foreverthai-updates/pull/1
+Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/
+เครดิตอื่นคงอยู่ในSOURCES-TH.txt คำแปลไทยและการจับคู่เป็นการดัดแปลง
