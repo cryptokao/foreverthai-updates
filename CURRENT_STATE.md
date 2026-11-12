@@ -1,6 +1,6 @@
 # Current continuation checkpoint — 2026-11-13
 
-The complete objective remains in GOAL.md. The project is **not complete**. Use this checkpoint with CLOUD_HANDOFF.md and the current PR, rather than restarting the original source transfer.
+The complete objective remains in GOAL.md. The project is **not complete**. Main translation is blocked by missing corroborated source; the Cloud run is stopped, and three consecutive blocker checks found unchanged external state. The host goal status is authoritative. Do not restart auxiliary work or unchanged tests. Use this checkpoint with CLOUD_HANDOFF.md and the current PR, rather than restarting the original source transfer.
 
 Repository: cryptokao/foreverthai-updates  
 Runtime/source branch: codex/main-quest-cloud-continuation  
@@ -30,7 +30,7 @@ The24-form NPC identity audit was checkpointed at4b046db and stopped. No runtime
 
 A fresh public source check found issue3429 (243 captured lines), created2026-11-12T18:08:15Z: https://github.com/quinn-dougherty/forever-vo/issues/3429. The main-only check finished atd79d16d. It found88quest fields:71exact-supported,16normalized diagnostic matches,one already-held95772completion with unproven third-party race role. New main translations/source-ready fields/aliases all0. Runtime tree still exactly matches candidate12. Cloud reached its terminal response with a clean working tree and no further run.
 
-The verified source blocker is recorded in evidence/main-quest-blocker-audit.json (first consecutive blocked-audit goal turn). Do not treat this as whole-goal completion. Do not resume NPC/book/party/tool cleanup merely to keep work running. Original full GOAL scope is unchanged; auxiliary leads remain preserved for later, after the main-quest priority is met or the user explicitly redirects it.
+The verified source blocker is recorded in evidence/main-quest-blocker-audit.json (three consecutive verified goal turns; host blocked-audit threshold met). Do not treat this as whole-goal completion. Do not resume NPC/book/party/tool cleanup merely to keep work running. Original full GOAL scope is unchanged; auxiliary leads remain preserved for later, after the main-quest priority is met or the user explicitly redirects it.
 
 The24 unqualified identity leads and Master Gadrin metadata remain in evidence/remaining-speech-identity-leads.json. They are not enabled, not new prose and not a reason to claim main-quest progress. Candidate12 remains the latest complete delivered package.
 
@@ -52,3 +52,5 @@ The known PC0.463 group draft was inspected with light read-only operations. Its
 Use hosted reasoning/translation. Keep execution on Cloud; authorized local fallback permits light source reads/transfers when Cloud lacks the needed files. No local model, addon test or heavy build was run in these recovery reads. Do not install/control the user's game.
 
 Continue genuinely available source-backed work. Preserve exact holds and original English/canonical fallback when evidence is missing. Do not repeatedly scan unchanged sources or rerun unchanged suites to keep work open; use the host goal's genuine-blocker procedure if all reasonable independent work is exhausted. A ZIP or narrow passing tests never proves the full goal.
+
+No new source or gameplay result was supplied during the blocker audit. Resume requires changed inputs; a later user resume starts a fresh blocked audit. Existing package and all partial source checkpoints remain preserved.
