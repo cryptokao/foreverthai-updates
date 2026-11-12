@@ -1,0 +1,16 @@
+{
+  "baseline_components_retained": 126,
+  "byte_identical_baseline_files": 124,
+  "new_objective_fields": 34,
+  "unchanged_data_values_checked": 978064,
+  "positive_matches": 136,
+  "negative_matches": 272,
+  "lua_files_compiled": 24,
+  "toc_paths": 24,
+  "font_pages_decoded": 93,
+  "old_glyphs": 12403,
+  "old_runs": 102317,
+  "new_glyphs": 139,
+  "new_runs": 38,
+  "scope": "New Cloud technical checks; not historical 686 speech/9 Skills harness and not in-game verification"
+}
