@@ -3,9 +3,9 @@
   "runtime_quest_ids": 6149,
   "field_rows": 30745,
   "statuses": {
-    "source_and_translation_match": 16771,
+    "source_and_translation_match": 16805,
     "missing_source_or_token_evidence": 13845,
-    "source_variant_or_token_requires_review": 92,
+    "source_variant_or_token_requires_review": 58,
     "missing_source_placeholder_or_empty": 12,
     "current_usage_unconfirmed_test_or_disabled": 25
   },
@@ -18,18 +18,17 @@
   "unmatched_source_versions_by_field": {
     "description": 44,
     "progress": 5,
-    "completion": 9,
-    "objective": 34
+    "completion": 9
   },
   "current_query_sha256": "433fc57290a162eca1c688c277a96234d39b7198edb1326ed4d6ec8fa4a65d60",
   "eg_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
   "vo_commit": "d562be626b9970fa8575170950ff61076dc47df0",
   "evidence_breakdown": {
-    "fields_with_at_least_one_supported_full_source": 16826,
+    "fields_with_at_least_one_supported_full_source": 16860,
     "fields_with_no_available_source_record": 13859,
-    "fields_with_unmatched_source_or_binding": 92,
+    "fields_with_unmatched_source_or_binding": 58,
     "fields_needing_typed_identity_evidence": 51,
-    "fields_with_objective_amount_template_pending": 34,
+    "fields_with_objective_amount_template_pending": 0,
     "fields_with_placeholder_or_empty_source": 12,
     "fields_with_current_usage_unconfirmed": 7465,
     "overlap_note": "These evidence dimensions overlap. A count-template probe is not an untranslated live field. Supported source does not prove current playability; missing source does not prove an existing game phase."

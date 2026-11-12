@@ -23901,30 +23901,6 @@
     "quest_id": 93952,
     "level": 57,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "e8d6ec427f5fc1e528185434eb603eecbf9ccbb3a6506503c2a43d65ecb5f936",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 93952,
-    "level": 57,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -24065,30 +24041,6 @@
     "quest_id": 95317,
     "level": 57,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "9305c6a15e94ec6381e5979ccdda47f98a1bc3433f460c127236334a228fa6ce",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 95317,
-    "level": 57,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -24112,30 +24064,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 95318,
-    "level": 57,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "34df0fe7670dc7bf37de264f13d37cf4ca41ab7c4af9cf24544c27d5961469c0",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 95318,
@@ -24193,30 +24121,6 @@
     "quest_id": 95319,
     "level": 57,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "c5d401df9ec134b2bc93b912c94e6aab54d169e5b6f2fe8a42f21804693923ee",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 95319,
-    "level": 57,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -24268,30 +24172,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 95380,
-    "level": 57,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "fd2ae15a9271a8f7ae5dff3122e992474b6f403057048f7d7dd844cfd16fd255",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 95380,
@@ -24353,30 +24233,6 @@
     "quest_id": 96262,
     "level": 57,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "5c44fa2d47c2e8614712f523644093ea3a6b2b6f76ce90731a0cffc6db11f1da",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 96262,
-    "level": 57,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -24428,30 +24284,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 96616,
-    "level": 57,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "84aabe8738faca49990036193ba3d28c246b2a9f82a64d5fcb1f020bad304032",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 96616,
@@ -24625,30 +24457,6 @@
     "quest_id": 96992,
     "level": 57,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "9703503f8a6b0f184d390a44a316be7e882048c1545c38bad3e160547466c006",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 96992,
-    "level": 57,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -24756,30 +24564,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 97119,
-    "level": 57,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "e01dd54e2ce174c333e7e1a4e2e241db85fff7e5ee4282d239203828e23561f8",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 97119,
@@ -25177,30 +24961,6 @@
     "quest_id": 90865,
     "level": 58,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "e227544ca437acf45f563b71a5bba48fdb0b08ed459c9d5eadcea40ae83cf70f",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 90865,
-    "level": 58,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -25280,30 +25040,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 92011,
-    "level": 58,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "127156e5954afd96c7bb4c01d582b9d6ed14b5c64481f719f19091a7c6fe6cc6",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 92011,
@@ -25449,30 +25185,6 @@
     "quest_id": 92147,
     "level": 58,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "a2323f260a9196efbd71ba73a6fb1e6bc6e0ad795abe1da8546d23c6e93827b2",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 92147,
-    "level": 58,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -25552,30 +25264,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 92449,
-    "level": 58,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 92449,
@@ -25861,30 +25549,6 @@
     "quest_id": 93827,
     "level": 58,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "bf8321193ce2d5bcca11b5d3c1912e49654e6c0fb67b522f39ebc95d64c5710d",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 93827,
-    "level": 58,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -25992,30 +25656,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 95026,
-    "level": 58,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 95026,
@@ -26273,30 +25913,6 @@
     "quest_id": 96252,
     "level": 58,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "c464fc1f16c757e580d673a80a007de338c85eeb16280f61c5163e242338792d",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 96252,
-    "level": 58,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -26348,30 +25964,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 96296,
-    "level": 58,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "4cdd5b8f9b6e9a99b70e7178a50a706d9764206ce7ec64d63a6581d258bf1d28",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 96296,
@@ -26601,30 +26193,6 @@
     "quest_id": 96957,
     "level": 58,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "d2585af045c61bd158a00e43fce43f09535f9d9de948b505c57e22da44ca4be3",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 96957,
-    "level": 58,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -26704,30 +26272,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 97264,
-    "level": 58,
-    "zone_area_id": 618,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "e534f946282c9998f056cd1730ff29bd51efda569e52aa4261d5465c765666fe",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 97264,
@@ -26943,30 +26487,6 @@
     "quest_id": 91794,
     "level": 59,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "cb9d76056069a85fe449bc19dc7329fbd8438f1e564f7b565cfbcb2776773324",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 91794,
-    "level": 59,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -27023,30 +26543,6 @@
     "quest_id": 92017,
     "level": 59,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "268090f82119a7a5ea0405ee13ec23d208ccc8a440be4032bdb3a14be02d8406",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 92017,
-    "level": 59,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -27070,30 +26566,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 92169,
-    "level": 59,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "c8fd66a5fce9c62c7120cbbf92b039803b40f82ed4fd64c0f41559b12f4285e8",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 92169,
@@ -27239,30 +26711,6 @@
     "quest_id": 92960,
     "level": 59,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "b73ecdbc3f28971250a0d0ba93d7c5fbc0a3e6cdd3057448205093bd8b02fe7b",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 92960,
-    "level": 59,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -27342,30 +26790,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 95793,
-    "level": 59,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "9ced61ec12aa17cca75bd3f35a10fa6354125b7f6ae230b4c915230edbf73c70",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 95793,
@@ -27567,30 +26991,6 @@
     "quest_id": 96971,
     "level": 59,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "b488924ef8875cce6c0a4595d83e7202ecd6f68474d7749af972d7d43ee28116",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 96971,
-    "level": 59,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -27642,30 +27042,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 97009,
-    "level": 59,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "62973a8ec7c59d463959fb064f49e0eead013bc47120185ed9ed0ea2119d8fef",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 97009,
@@ -27778,30 +27154,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 97403,
-    "level": 59,
-    "zone_area_id": 618,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "98efeff8123f0490e970f116d5d64d8ccb4f98db91fdcf1831b21a7b513657f4",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 97403,
@@ -32511,30 +31863,6 @@
     "quest_id": 92859,
     "level": 60,
     "zone_area_id": 618,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "9184eec9ba5a4a5d178f5d4543581c4813478ba842cd94968fbc983e5cbbe02b",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 92859,
-    "level": 60,
-    "zone_area_id": 618,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -32726,30 +32054,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 93584,
-    "level": 60,
-    "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "feccfb4096fb743c83beffb6b961575438067457337c3f86e44bcd3fe5927071",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 93584,
@@ -35639,30 +34943,6 @@
     "quest_id": 95790,
     "level": 60,
     "zone_area_id": 16985,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "e00d069454f7963f0cac661a5225a7a9b3d101db49165e98667bca027028bacd",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 95790,
-    "level": 60,
-    "zone_area_id": 16985,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -36041,30 +35321,6 @@
     "quest_id": 96303,
     "level": 60,
     "zone_area_id": 616,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "81d323142d360a7d050a165e38389e011281ae8ddef35bf6a29639246374c32f",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
-  },
-  {
-    "quest_id": 96303,
-    "level": 60,
-    "zone_area_id": 616,
     "field": "progress",
     "status": "missing_source_or_token_evidence",
     "runtime_translation_present": false,
@@ -36256,30 +35512,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 97049,
-    "level": 60,
-    "zone_area_id": 16985,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "a59649a5e8dbe08e59bbbd908b320cd76a01b6c2bf53986f4a962c33383c7431",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 97049,
@@ -36672,30 +35904,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 97327,
-    "level": 60,
-    "zone_area_id": 16554,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "8314cb7a63767e2ae1ed2f31ab9ed0369cee6c4080649a26f150c59c03f4a622",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 97327,
@@ -36906,30 +36114,6 @@
     "unmatched_versions": 0,
     "placeholder_versions": 0,
     "unmatched_sources": []
-  },
-  {
-    "quest_id": 98477,
-    "level": 60,
-    "zone_area_id": 215,
-    "field": "objective",
-    "status": "source_variant_or_token_requires_review",
-    "runtime_translation_present": true,
-    "current_usage": "query_record_present_usage_unverified",
-    "unique_source_versions": 1,
-    "supported_versions": 0,
-    "unmatched_versions": 1,
-    "placeholder_versions": 0,
-    "unmatched_sources": [
-      {
-        "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
-        "sha256": "1a3d1934b1ffafa941945618ec37b31ad5c8c78d6c84ef7ffb6ddef28075aab5",
-        "kind": "query",
-        "has_tokens": true,
-        "has_identity_tokens": false,
-        "has_objective_amount_tokens": true,
-        "typed_identity_evidence_unresolved": false
-      }
-    ]
   },
   {
     "quest_id": 98477,

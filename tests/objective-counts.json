@@ -141,6 +141,132 @@
           "expected": "กำจัด Deadwood Totemic 1,234 ตัว และ Deadwood Fel-Tender 12 ตัว แล้วกลับไปหา Elder Pinespeaker"
         }
       ]
+    },
+    {
+      "quest_id": 95319,
+      "source_template": "Gather $1oa Fel-Slime Crystals and $2oa Pristine Fel-Slime Crystal.",
+      "cases": [
+        {
+          "source": "Gather 2 Fel-Slime Crystals and 1 Pristine Fel-Slime Crystal.",
+          "expected": "เก็บผลึกเมือกเฟล 2 ชิ้นและผลึกเมือกเฟลไร้ตำหนิ 1 ชิ้น"
+        },
+        {
+          "source": "Gather 1,234 Fel-Slime Crystals and 12 Pristine Fel-Slime Crystal.",
+          "expected": "เก็บผลึกเมือกเฟล 1,234 ชิ้นและผลึกเมือกเฟลไร้ตำหนิ 12 ชิ้น"
+        }
+      ]
+    },
+    {
+      "quest_id": 96992,
+      "source_template": "Look through the burned buildings in the Cradle of Tranquility for $2oa Metal Brackets and $1oa Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+      "cases": [
+        {
+          "source": "Look through the burned buildings in the Cradle of Tranquility for 1 Metal Brackets and 2 Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+          "expected": "ค้นอาคารที่ถูกไฟไหม้ใน Cradle of Tranquility หา Metal Bracket 1 ชิ้น และตะปู (Nails) 2 ตัว แล้วนำกลับไปให้ Johun «Punchy» Dillas ใน Hyjal"
+        },
+        {
+          "source": "Look through the burned buildings in the Cradle of Tranquility for 12 Metal Brackets and 1,234 Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+          "expected": "ค้นอาคารที่ถูกไฟไหม้ใน Cradle of Tranquility หา Metal Bracket 12 ชิ้น และตะปู (Nails) 1,234 ตัว แล้วนำกลับไปให้ Johun «Punchy» Dillas ใน Hyjal"
+        }
+      ]
+    },
+    {
+      "quest_id": 92011,
+      "source_template": "Scavenge the remains of the Horde base and return $1oa Frayed Wire, $2oa Scrap Metal, and $3oa Calcified Excrement to Kaylaena.",
+      "cases": [
+        {
+          "source": "Scavenge the remains of the Horde base and return 2 Frayed Wire, 1 Scrap Metal, and 3 Calcified Excrement to Kaylaena.",
+          "expected": "ค้นซากฐานฮอร์ด แล้วนำลวดเปื่อย 2 เส้น เศษโลหะ 1 ชิ้น และมูลสัตว์ที่แข็งเป็นหิน 3 ก้อนไปให้ Kaylaena"
+        },
+        {
+          "source": "Scavenge the remains of the Horde base and return 1,234 Frayed Wire, 12 Scrap Metal, and 567 Calcified Excrement to Kaylaena.",
+          "expected": "ค้นซากฐานฮอร์ด แล้วนำลวดเปื่อย 1,234 เส้น เศษโลหะ 12 ชิ้น และมูลสัตว์ที่แข็งเป็นหิน 567 ก้อนไปให้ Kaylaena"
+        }
+      ]
+    },
+    {
+      "quest_id": 92449,
+      "source_template": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+      "cases": [
+        {
+          "source": "Eliminate 2 Forgotten Soldiers and 1 Fleshflay Raveners.",
+          "expected": "กำจัดทหารที่ถูกลืม 2 นายและ Fleshflay Ravener 1 ตัว"
+        },
+        {
+          "source": "Eliminate 1,234 Forgotten Soldiers and 12 Fleshflay Raveners.",
+          "expected": "กำจัดทหารที่ถูกลืม 1,234 นายและ Fleshflay Ravener 12 ตัว"
+        }
+      ]
+    },
+    {
+      "quest_id": 95026,
+      "source_template": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+      "cases": [
+        {
+          "source": "Eliminate 2 Forgotten Soldiers and 1 Fleshflay Raveners.",
+          "expected": "กำจัด Forgotten Soldier 2 ตัว และ Fleshflay Ravener 1 ตัว"
+        },
+        {
+          "source": "Eliminate 1,234 Forgotten Soldiers and 12 Fleshflay Raveners.",
+          "expected": "กำจัด Forgotten Soldier 1,234 ตัว และ Fleshflay Ravener 12 ตัว"
+        }
+      ]
+    },
+    {
+      "quest_id": 91794,
+      "source_template": "Collect $1oa Horde Flag and $2oa Scraps of Horde Heraldry for Kal'tinzan at Elderwild.",
+      "cases": [
+        {
+          "source": "Collect 2 Horde Flag and 1 Scraps of Horde Heraldry for Kal'tinzan at Elderwild.",
+          "expected": "เก็บธงฮอร์ด 2 ผืนและเศษตราสัญลักษณ์ฮอร์ด 1 ชิ้นไปให้ Kal'tinzan ที่ Elderwild"
+        },
+        {
+          "source": "Collect 1,234 Horde Flag and 12 Scraps of Horde Heraldry for Kal'tinzan at Elderwild.",
+          "expected": "เก็บธงฮอร์ด 1,234 ผืนและเศษตราสัญลักษณ์ฮอร์ด 12 ชิ้นไปให้ Kal'tinzan ที่ Elderwild"
+        }
+      ]
+    },
+    {
+      "quest_id": 92017,
+      "source_template": "Collect $1oa Grand Hippogryph Feathers and $2oa Oily Chimaera Hair for Marn.",
+      "cases": [
+        {
+          "source": "Collect 2 Grand Hippogryph Feathers and 1 Oily Chimaera Hair for Marn.",
+          "expected": "เก็บขนฮิปโปกริฟฟ์ใหญ่ 2 ขนและขนไคมีรามันเยิ้ม 1 เส้นให้ Marn"
+        },
+        {
+          "source": "Collect 1,234 Grand Hippogryph Feathers and 12 Oily Chimaera Hair for Marn.",
+          "expected": "เก็บขนฮิปโปกริฟฟ์ใหญ่ 1,234 ขนและขนไคมีรามันเยิ้ม 12 เส้นให้ Marn"
+        }
+      ]
+    },
+    {
+      "quest_id": 92859,
+      "source_template": "Bring $1oa Winterspring Chimaera Fur and $2oa Winterspring Owl Feathers to Evie Whirlbrew.",
+      "cases": [
+        {
+          "source": "Bring 2 Winterspring Chimaera Fur and 1 Winterspring Owl Feathers to Evie Whirlbrew.",
+          "expected": "นำขนไคมีราแห่ง Winterspring 2 ชิ้นและขนนกฮูกแห่ง Winterspring 1 ขนไปให้ Evie Whirlbrew"
+        },
+        {
+          "source": "Bring 1,234 Winterspring Chimaera Fur and 12 Winterspring Owl Feathers to Evie Whirlbrew.",
+          "expected": "นำขนไคมีราแห่ง Winterspring 1,234 ชิ้นและขนนกฮูกแห่ง Winterspring 12 ขนไปให้ Evie Whirlbrew"
+        }
+      ]
+    },
+    {
+      "quest_id": 93584,
+      "source_template": "Kill $1oa Blackthorne Adepts and $2oa Wild-branded Cultists.",
+      "cases": [
+        {
+          "source": "Kill 2 Blackthorne Adepts and 1 Wild-branded Cultists.",
+          "expected": "สังหาร Blackthorne Adept 2 คน และ Wild-branded Cultist 1 คน"
+        },
+        {
+          "source": "Kill 1,234 Blackthorne Adepts and 12 Wild-branded Cultists.",
+          "expected": "สังหาร Blackthorne Adept 1,234 คน และ Wild-branded Cultist 12 คน"
+        }
+      ]
     }
   ]
 }

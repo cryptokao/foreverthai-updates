@@ -19065,7 +19065,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 93834,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93834,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93952,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=add17d992abf7935f72acd01940864c16e9929af34848d14d89de23e5031657b
-93952,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e8d6ec427f5fc1e528185434eb603eecbf9ccbb3a6506503c2a43d65ecb5f936
+93952,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e8d6ec427f5fc1e528185434eb603eecbf9ccbb3a6506503c2a43d65ecb5f936
 93952,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=8097da4e0eb7319d60cd6e167549347eb2376b9cac7b10166c0372743946f260
 93952,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93952,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19090,17 +19090,17 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 95316,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95316,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95317,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=b03f3428c3dce9a454230eb4b096f4b7d31efc3448c1005442ebb2ac23235b2a
-95317,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9305c6a15e94ec6381e5979ccdda47f98a1bc3433f460c127236334a228fa6ce
+95317,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9305c6a15e94ec6381e5979ccdda47f98a1bc3433f460c127236334a228fa6ce
 95317,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=aeb08199f5fb5506b53ea5e0a8a7f0b1f9cc43fd6a94ad50b7adf375914b04bb
 95317,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95317,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95318,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=ab058f9e6a2b3cd7883f33ef9f8c55885148b90c0ae43c2ed60106b59ab411d4
-95318,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=34df0fe7670dc7bf37de264f13d37cf4ca41ab7c4af9cf24544c27d5961469c0
+95318,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=34df0fe7670dc7bf37de264f13d37cf4ca41ab7c4af9cf24544c27d5961469c0
 95318,57,616,description,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=a0274449b9f576cd314e1eb67cd420c8a905ec10e78248eeb0794791997c9708
 95318,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95318,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95319,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=7f1a64c65e0013e59d2b11e1fb587ebb03ee985cd08831b4d91a9f4d8605ef94
-95319,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c5d401df9ec134b2bc93b912c94e6aab54d169e5b6f2fe8a42f21804693923ee
+95319,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c5d401df9ec134b2bc93b912c94e6aab54d169e5b6f2fe8a42f21804693923ee
 95319,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=88eaf1f6265d866b3b4bde3685953ae3ac1f1120501b8f74af303cc23f301f60
 95319,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95319,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19110,7 +19110,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 95320,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95320,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95380,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e09108a9beca5f0a14dda7fb7883c4ab68729a5dfd71e283de1b73ce42905f1d
-95380,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=fd2ae15a9271a8f7ae5dff3122e992474b6f403057048f7d7dd844cfd16fd255
+95380,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=fd2ae15a9271a8f7ae5dff3122e992474b6f403057048f7d7dd844cfd16fd255
 95380,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=97a992ebe24e3013ca3f1a243959c331b7fd0f2dcdb0f8aa50cf8f970e90bc3f
 95380,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95380,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19120,7 +19120,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 95769,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95769,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96262,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=01bcfac83fe6d67f2ca807d0a1eeedce779d238075a0576a6f193e1b7ea0d347
-96262,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=5c44fa2d47c2e8614712f523644093ea3a6b2b6f76ce90731a0cffc6db11f1da
+96262,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=5c44fa2d47c2e8614712f523644093ea3a6b2b6f76ce90731a0cffc6db11f1da
 96262,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=2ceedff66b612c4eeccea57de9825e2da97e4746b738b2327d1eb4e712c7ca00
 96262,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96262,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19130,7 +19130,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96559,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96559,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96616,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=70d2c8e8141f8ccc4627963d4d3c0316b67e751271bc018fc87dff14dcf23003
-96616,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=84aabe8738faca49990036193ba3d28c246b2a9f82a64d5fcb1f020bad304032
+96616,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=84aabe8738faca49990036193ba3d28c246b2a9f82a64d5fcb1f020bad304032
 96616,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=2cdef3d632ee3e570cae109593f4576754446ef2724b7225add42f2c32994c9d
 96616,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96616,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19160,7 +19160,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96979,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96979,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96992,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=5657d804355a308c0f90b138ff9ca051f51586cf6d5e03f4859860de19d055ad
-96992,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9703503f8a6b0f184d390a44a316be7e882048c1545c38bad3e160547466c006
+96992,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9703503f8a6b0f184d390a44a316be7e882048c1545c38bad3e160547466c006
 96992,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=581f6ff7d7372c032df2ea31bb6040f7e0993d1c16120c08049ad00cb09ef2d3
 96992,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96992,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19180,7 +19180,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 97007,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97007,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97119,57,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=4d64a555ee6fb510c3983b7c38cc46e25d26e7529f9a7936e7a4b5f99da730b7
-97119,57,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e01dd54e2ce174c333e7e1a4e2e241db85fff7e5ee4282d239203828e23561f8
+97119,57,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e01dd54e2ce174c333e7e1a4e2e241db85fff7e5ee4282d239203828e23561f8
 97119,57,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=796462c86230101f88eef51629b2946271eaa6f9394f1e640f3a1501f8dcb1b7
 97119,57,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97119,57,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19445,7 +19445,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 90702,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 90702,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 90865,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=8e300ef0802b8d2318f69cf6c6c095d5df02f433dafe4d2cb22155e2a937ddc1
-90865,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e227544ca437acf45f563b71a5bba48fdb0b08ed459c9d5eadcea40ae83cf70f
+90865,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e227544ca437acf45f563b71a5bba48fdb0b08ed459c9d5eadcea40ae83cf70f
 90865,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=0246cda7bd34838e74ea79f62d346e2c6838c3c5ab72c16e9ac92762915480d8
 90865,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 90865,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19460,7 +19460,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 91698,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 91698,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92011,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=68f4be10e45f8d4217b0abd9df252eb96e851ac60950087170cf8f20fa6e0bd7
-92011,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=127156e5954afd96c7bb4c01d582b9d6ed14b5c64481f719f19091a7c6fe6cc6
+92011,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=127156e5954afd96c7bb4c01d582b9d6ed14b5c64481f719f19091a7c6fe6cc6
 92011,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=1bde057f85aa1d6801ce912333642056ec9afce588d6c503c1b40f5e992e2d09
 92011,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92011,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19485,7 +19485,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 92102,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92102,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92147,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=5c63ee65b30c8535ad50d7e45297cdc1e283fec7cdc872d2237826ec3fc63b72
-92147,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=a2323f260a9196efbd71ba73a6fb1e6bc6e0ad795abe1da8546d23c6e93827b2
+92147,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=a2323f260a9196efbd71ba73a6fb1e6bc6e0ad795abe1da8546d23c6e93827b2
 92147,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c2f1f591989d4e6d72ed44d176ad9fceebb8640128259fa07cd50a37ad687899
 92147,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92147,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19500,7 +19500,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 92317,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92317,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92449,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=45d5c8c62b751804e5a9d54db839fef268d2cb1724ea5411140c66d8288584a7
-92449,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a
+92449,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a
 92449,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=89d612ef53a23055e94d0e9d55d0239a6758969ca8057134cd47a0c60283d784
 92449,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92449,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19550,7 +19550,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 93773,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93773,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93827,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=62c7ef5012ecd7fd1fb1bff400aff2f1b7eb0ee5de2d6b1bd58475419e632f3a
-93827,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=bf8321193ce2d5bcca11b5d3c1912e49654e6c0fb67b522f39ebc95d64c5710d
+93827,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=bf8321193ce2d5bcca11b5d3c1912e49654e6c0fb67b522f39ebc95d64c5710d
 93827,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=f2171e4c3366316d36538f6ded285a7c23260613a7f93efac3dcb9bac9e5c634
 93827,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93827,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19570,7 +19570,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 95006,58,2361,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95006,58,2361,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95026,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=45d5c8c62b751804e5a9d54db839fef268d2cb1724ea5411140c66d8288584a7
-95026,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a
+95026,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a
 95026,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=b8c5216bf287928b31b4220bdb33958b949281d0041526303fa634e0b6413954
 95026,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95026,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19615,7 +19615,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96209,58,2361,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96209,58,2361,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96252,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=acf2b16e2f3fafe34069d7b9d65ecc70c623f3f90e52ee581371f6741e1f3ee6
-96252,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c464fc1f16c757e580d673a80a007de338c85eeb16280f61c5163e242338792d
+96252,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c464fc1f16c757e580d673a80a007de338c85eeb16280f61c5163e242338792d
 96252,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=fc35bc649f8b3f4272a176c63902ca93237d92850a77708f0847ce25ed18f080
 96252,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96252,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19625,7 +19625,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96255,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96255,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96296,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=1d92badd7addf0ee788b45708aa46c24a45cc2dd1a286adc2faac077f129536a
-96296,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=4cdd5b8f9b6e9a99b70e7178a50a706d9764206ce7ec64d63a6581d258bf1d28
+96296,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=4cdd5b8f9b6e9a99b70e7178a50a706d9764206ce7ec64d63a6581d258bf1d28
 96296,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=58ea97edabe534625cbbad343ed102ca220a8824dbfd7a260c5bb611392c81eb
 96296,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96296,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19665,7 +19665,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96939,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96939,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96957,58,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=856d03234fc157f8524e893d2351ccc7e3e43fec0ad19a91d3e7999e74211f2a
-96957,58,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=d2585af045c61bd158a00e43fce43f09535f9d9de948b505c57e22da44ca4be3
+96957,58,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=d2585af045c61bd158a00e43fce43f09535f9d9de948b505c57e22da44ca4be3
 96957,58,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=193f49d9f9a35c2fc7bb028afa9bb73dfaa030914c8e298cbd7ed3707535b85d
 96957,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96957,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19680,7 +19680,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96999,58,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96999,58,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97264,58,618,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=99ce0584d86442e9a9289f6cdda7f9b84f4e4f462a3a51ce5a57446a04e548ee
-97264,58,618,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e534f946282c9998f056cd1730ff29bd51efda569e52aa4261d5465c765666fe
+97264,58,618,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e534f946282c9998f056cd1730ff29bd51efda569e52aa4261d5465c765666fe
 97264,58,618,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=6472e0aa4af9625561f39880be2606e7eebf38df00faa38a11ff681d0bf7b699
 97264,58,618,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97264,58,618,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19865,7 +19865,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 91688,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 91688,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 91794,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=bc56b30f274f6a076350786335d6a835830ffbe5f47981bcac41b26feb1dc587
-91794,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=cb9d76056069a85fe449bc19dc7329fbd8438f1e564f7b565cfbcb2776773324
+91794,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=cb9d76056069a85fe449bc19dc7329fbd8438f1e564f7b565cfbcb2776773324
 91794,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=8e074190175f5712bf5ab822446aa6225201c54d870dd4a26121451fc328c433
 91794,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 91794,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19875,12 +19875,12 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 91883,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 91883,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92017,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=d172a65909752e8fee77a3012507e23aef3937bb680287680c1f669af0121d7e
-92017,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=268090f82119a7a5ea0405ee13ec23d208ccc8a440be4032bdb3a14be02d8406
+92017,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=268090f82119a7a5ea0405ee13ec23d208ccc8a440be4032bdb3a14be02d8406
 92017,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=7f393277e1f2ac4908aa75daa1984979b89bfa712e091ed4a2229c2e8bd57cbb
 92017,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92017,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92169,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9dd1039fae9a3079580379b609190a4246c37cb46a3a41f88108ec87853a707a
-92169,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c8fd66a5fce9c62c7120cbbf92b039803b40f82ed4fd64c0f41559b12f4285e8
+92169,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c8fd66a5fce9c62c7120cbbf92b039803b40f82ed4fd64c0f41559b12f4285e8
 92169,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e2154bdfc90a428ece647c922fef21dd0df207aa19c5317e13d0143c2322c271
 92169,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92169,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19905,7 +19905,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 92593,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92593,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92960,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=7db212694577be63b85e18e9fcc31aec07558e434801133b9ae79a86f7f5c5c2
-92960,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=b73ecdbc3f28971250a0d0ba93d7c5fbc0a3e6cdd3057448205093bd8b02fe7b
+92960,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=b73ecdbc3f28971250a0d0ba93d7c5fbc0a3e6cdd3057448205093bd8b02fe7b
 92960,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=ae4373226004cf10abf2bd286a63c166f8a54f5bfd60cf0bcecee80681be73d9
 92960,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92960,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19920,7 +19920,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 95273,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95273,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95793,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=804348e7b947c944464450a81809750773bdd63549cfbcc0cd0388b388e9317d
-95793,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9ced61ec12aa17cca75bd3f35a10fa6354125b7f6ae230b4c915230edbf73c70
+95793,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9ced61ec12aa17cca75bd3f35a10fa6354125b7f6ae230b4c915230edbf73c70
 95793,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=8199a70aa00f63225b058e9cfc51a2200c48cc3c8a2818c73593e82a46b7588a
 95793,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95793,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19955,7 +19955,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96964,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96964,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96971,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c469aa4c4042dca48fb07f00ac99a11b46124fe016c90bec4bee99e01f7da407
-96971,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=b488924ef8875cce6c0a4595d83e7202ecd6f68474d7749af972d7d43ee28116
+96971,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=b488924ef8875cce6c0a4595d83e7202ecd6f68474d7749af972d7d43ee28116
 96971,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=d607b5577bfa096b1ba4f1e13aa00dfb74a9cb41c36d30ff4a0378a15571ab66
 96971,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96971,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19965,7 +19965,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96991,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96991,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97009,59,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=eb76d443f500cd6f22e19b7426ece785472df8aad0953ec208eb0fdacfdd978c
-97009,59,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=62973a8ec7c59d463959fb064f49e0eead013bc47120185ed9ed0ea2119d8fef
+97009,59,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=62973a8ec7c59d463959fb064f49e0eead013bc47120185ed9ed0ea2119d8fef
 97009,59,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=1f17182cca3cc769b5f2b4caa4eb00a52bbc12dbaec92e6f86c47cfce0da0b30
 97009,59,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97009,59,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -19985,7 +19985,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 97198,59,16554,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97198,59,16554,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97403,59,618,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=ad8126ffec087a658a21cf9e09f4936f275b6b4b3ed7246ec6c4f13cf199e67a
-97403,59,618,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=98efeff8123f0490e970f116d5d64d8ccb4f98db91fdcf1831b21a7b513657f4
+97403,59,618,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=98efeff8123f0490e970f116d5d64d8ccb4f98db91fdcf1831b21a7b513657f4
 97403,59,618,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=f58a36b4226330f0f324517674cb736a4eab67d7727285ab240bd16f2d3b62b8
 97403,59,618,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97403,59,618,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -22165,7 +22165,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 92833,60,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92833,60,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92859,60,618,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=45939c961b8212efeb33f7f454ae56f2efc4ff98690120022263ede36a7199f3
-92859,60,618,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9184eec9ba5a4a5d178f5d4543581c4813478ba842cd94968fbc983e5cbbe02b
+92859,60,618,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9184eec9ba5a4a5d178f5d4543581c4813478ba842cd94968fbc983e5cbbe02b
 92859,60,618,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=ad136d1c6859317bf338564f2b9c6b7b6330218698b4f2223f0b40640576d05d
 92859,60,618,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 92859,60,618,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -22200,7 +22200,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 93547,60,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93547,60,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93584,60,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=9dc7fe23ed9d9c1563e4370eab7f12d00906dc80395899f0d84ac5ed0577b744
-93584,60,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=feccfb4096fb743c83beffb6b961575438067457337c3f86e44bcd3fe5927071
+93584,60,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=feccfb4096fb743c83beffb6b961575438067457337c3f86e44bcd3fe5927071
 93584,60,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=ad9ee7f33f181789ebf796bda032e82d65d0f637dc615f76f0f134635f173a55
 93584,60,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 93584,60,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -22940,7 +22940,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 94360,60,16941,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 94360,60,16941,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95790,60,16985,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=03d6e677606d07e4a4f7cd4406f6b4b6dcddf9b321c05457ec7fb6bb611ccb24
-95790,60,16985,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e00d069454f7963f0cac661a5225a7a9b3d101db49165e98667bca027028bacd
+95790,60,16985,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=e00d069454f7963f0cac661a5225a7a9b3d101db49165e98667bca027028bacd
 95790,60,16985,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c60456532ba05a809170476a388073b708a9ed39608cf440125109468f8344da
 95790,60,16985,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 95790,60,16985,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -23005,7 +23005,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 96302,60,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96302,60,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96303,60,616,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=f54761fa595971fc58833788cf195bccd234fa86d202cc7ce0bdd4238eafbd10
-96303,60,616,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=81d323142d360a7d050a165e38389e011281ae8ddef35bf6a29639246374c32f
+96303,60,616,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=81d323142d360a7d050a165e38389e011281ae8ddef35bf6a29639246374c32f
 96303,60,616,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=64a11358022efeda34e89404786307b8ee20c9614f8e0adbc5a079eac3e5d3f8
 96303,60,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 96303,60,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -23045,7 +23045,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 97006,60,616,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97006,60,616,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97049,60,16985,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=222d1f5bdf11f93b159207ef0c475accbb7ce78876dc31b15f98c5478e3b6277
-97049,60,16985,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=a59649a5e8dbe08e59bbbd908b320cd76a01b6c2bf53986f4a962c33383c7431
+97049,60,16985,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=a59649a5e8dbe08e59bbbd908b320cd76a01b6c2bf53986f4a962c33383c7431
 97049,60,16985,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=989aec8cf976612c6e7694a765b617e59b4f5215754b168e5b28f722fb499751
 97049,60,16985,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97049,60,16985,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -23115,7 +23115,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 97270,60,3217,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97270,60,3217,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97327,60,16554,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=d75d2a53d2765d3a06b9418a6b12fe51627cacefd679ea86e3f1e4988f2f15f3
-97327,60,16554,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=8314cb7a63767e2ae1ed2f31ab9ed0369cee6c4080649a26f150c59c03f4a622
+97327,60,16554,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=8314cb7a63767e2ae1ed2f31ab9ed0369cee6c4080649a26f150c59c03f4a622
 97327,60,16554,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=c27c77ca6d0104c47ace6f0a0dbae606a8c98ce68f3e94301e5fff1cd462c442
 97327,60,16554,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 97327,60,16554,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
@@ -23160,7 +23160,7 @@ quest_id,level,zone_area_id,field,status,runtime_translation_present,current_usa
 98372,60,,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 98372,60,,completion,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/texts.enUS.json#sha256=5fa0acc4c36bd26ed2a8351f01cf50556f919571eda7e391d46507c21ae8ea65
 98477,60,215,title,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=6317e32ef2833b3a6cbe9cb7ef3dc1f8b76321ba28ac66000b6c1363fd0b4d45
-98477,60,215,objective,source_variant_or_token_requires_review,True,query_record_present_usage_unverified,1,0,1,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=1a3d1934b1ffafa941945618ec37b31ad5c8c78d6c84ef7ffb6ddef28075aab5
+98477,60,215,objective,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=1a3d1934b1ffafa941945618ec37b31ad5c8c78d6c84ef7ffb6ddef28075aab5
 98477,60,215,description,source_and_translation_match,True,query_record_present_usage_unverified,1,1,0,0,data/wowf/1.60.1.70888/quests.enUS.json#sha256=413c7ded90cdec5ffc5659dced09e82ec28af336b38c0dc7c56b444e1aee9a45
 98477,60,215,progress,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,
 98477,60,215,completion,missing_source_or_token_evidence,False,query_record_present_usage_unverified,0,0,0,0,

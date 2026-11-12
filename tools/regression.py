@@ -1,5 +1,5 @@
 """Cloud structural preservation, source matching and independent counter regression."""
-import hashlib,json,pathlib,re,zipfile
+import hashlib,json,pathlib,re,zipfile,itertools
 from lupa.lua51 import LuaRuntime,lua_type
 from PIL import Image
 ROOT=pathlib.Path(__file__).resolve().parents[1];RUN=ROOT/'src/ForeverThai'
@@ -13,8 +13,9 @@ for n in ['Catalog.lua','Match.lua','SpeechData.lua','Atlas.lua']:
 lua.execute('UnitName=function() return "CloudTester" end; UnitClass=function() return "Druid", "DRUID" end; UnitRace=function() return "Night Elf" end')
 batch1=json.loads((ROOT/'evidence/main-objectives-01.json').read_text());batch2=json.loads((ROOT/'evidence/main-phases-02.json').read_text())
 batch4=json.loads((ROOT/'evidence/main-query-04.json').read_text())
+batch6=json.loads((ROOT/'evidence/main-counters-06.json').read_text())
 batch5=json.loads((ROOT/'evidence/main-hyjal-05.json').read_text())
-batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']+batch5['fields']}
+batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']+batch5['fields']+batch6['fields']}
 added={(x['quest_id'],x['field']) for x in batch1['fields']};variants={(x['quest_id'],x['field']) for x in batch2['fields']+batch4['fields']};assert len(added)==34 and len(variants)==15
 checks=0
 def equal(a,b,path=()):
@@ -66,7 +67,7 @@ for f in batch1['fields']:
   negative(entry,'UNRELATED '+source);negative(entry,source+' incorrect')
   if '1,234' in source:negative(entry,source.replace('1,234','1,23'))
 # Batch 03 reuses reviewed prose and adds only explicit source amount slots.
-for f in batch3['fields']+batch5['fields']:
+for f in batch3['fields']+batch5['fields']+batch6['fields']:
  q=f['quest_id'];entry=addon.quests[q][f['field']];assert base.quests[q][f['field']] is not None and base.quests[q][f['field']].amount is None
  unique_templates.add((q,f['field'],f['english']))
  for count in ['1','12','1,234','999999']:
@@ -107,7 +108,7 @@ lua.execute('UnitName=function() return "CloudTester" end; UnitClass=function() 
 # Static whole-sentence expectations are separately authored in the fixture file.
 # Mutate either source bindings OR Thai slots to ensure the oracle detects a swap.
 fixtures=json.loads((ROOT/'tests/objective-counts.json').read_text())['fixtures'];counter_cases=mutation_detections=0
-source_fields={f['quest_id']:f for f in batch1['fields']+batch3['fields']+batch5['fields']}
+source_fields={f['quest_id']:f for f in batch1['fields']+batch3['fields']+batch5['fields']+batch6['fields']}
 for fixture in fixtures:
  q=fixture['quest_id'];entry=addon.quests[q]['objective'];dynamic=entry.amount or entry
  assert 'W1' in dynamic[1] and 'W2' in dynamic[1]
@@ -120,9 +121,12 @@ for fixture in fixtures:
  else:
   # These two pre-existing objectives extend coverage to reverse token order.
   unique_templates.add((q,'objective',fixture['source_template']))
- swapped_signature=re.sub(r'\bW([12])\b',lambda m:'W'+str(3-int(m[1])),dynamic[1])
- swapped_target=dynamic[2].replace('{world1}','{SWAP}').replace('{world2}','{world1}').replace('{SWAP}','{world2}')
- mutants=[lua.table_from([swapped_signature,dynamic[2]]),lua.table_from([dynamic[1],swapped_target])]
+ token_ids=sorted(set(int(v) for v in re.findall(r'\$(\d+)oa',fixture['source_template'])))
+ mutants=[]
+ for first,second in itertools.combinations(token_ids,2):
+  swapped_signature=re.sub(r'\bW([0-9]+)\b',lambda m:'W'+str(second if int(m[1])==first else first if int(m[1])==second else int(m[1])),dynamic[1])
+  swapped_target=dynamic[2].replace('{world'+str(first)+'}','{SWAP}').replace('{world'+str(second)+'}','{world'+str(first)+'}').replace('{SWAP}','{world'+str(second)+'}')
+  mutants.extend([lua.table_from([swapped_signature,dynamic[2]]),lua.table_from([dynamic[1],swapped_target])])
  for case in fixture['cases']:
   positive(q,'objective',case['source'],case['expected']);counter_cases+=1
   for mutant in mutants:
@@ -145,7 +149,7 @@ for q,literal in [(92479,'hunter trainer'),(98574,'priest trainer'),(98581,'sham
   low_binding_checks+=1
 lua.execute('UnitClass=function() return "Druid","DRUID" end')
 # Every new Thai run has valid glyphs; all existing run values were checked above.
-for f in batch1['fields']+batch2['fields']+batch3['fields']+batch4['fields']+batch5['fields']:
+for f in batch1['fields']+batch2['fields']+batch3['fields']+batch4['fields']+batch5['fields']+batch6['fields']:
  for run in re.findall(r'[\u0e00-\u0e7f]+',f['thai']):
   assert addon.runs[run] is not None,(f['quest_id'],run)
   for _,idx in addon.runs[run].items():
@@ -155,5 +159,5 @@ for p in (RUN/'Fonts').glob('*.tga'):
  with Image.open(p) as im:im.load();images[p.name]=im.size
 for _,g in addon.glyphs.items():
  w,h=images[f'Thai{g[1]}.tga'];assert 0<=g[2] and g[2]+g[4]<=w and 0<=g[3] and g[3]+56<=h
-result=dict(baseline_components_retained=126,byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,low_level_literal_binding_checks=low_binding_checks,new_dynamic_forms_batch03=len(batch3["fields"]),new_dynamic_forms_batch05=len(batch5["fields"]),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; its UI API archives remain unavailable; not in-game verification.')
+result=dict(baseline_components_retained=126,byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,low_level_literal_binding_checks=low_binding_checks,new_dynamic_forms_batch03=len(batch3["fields"]),new_dynamic_forms_batch05=len(batch5["fields"]),new_dynamic_forms_batch06=len(batch6["fields"]),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; its UI API archives remain unavailable; not in-game verification.')
 (ROOT/'evidence/cloud-regression.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

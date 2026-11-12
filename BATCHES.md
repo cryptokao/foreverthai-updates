@@ -98,3 +98,13 @@ Restricted parserรับเฉพาะnumericID/string literals และsche
 วันที่harvest09-28และInterface16001ไม่ใช่exactclientbuild; original9.6MBZIPมีhashในprovenanceที่ผู้ใช้ยืนยัน ส่วนCloudตรวจใหม่เฉพาะresearchsupplementและ4originalfilesที่อยู่ในmanifest ไม่อ้างว่าClouddownload/rehashedoriginalZIPแล้ว
 
 คู่มือartifactแก้ตามreviewแล้วที่commit c50ce853f1090ab9c20340b19c5fca2fc1011ef6:ใช้client folderจริงที่Battle.netเปิด ไม่มีชื่อproduct folderตายตัว ZIPblobเดิม/SHAเดิมไม่เปลี่ยน ดูcandidate05-delivery.jsonสำหรับlinksล่าสุด
+
+## Batch06 — all actionable current-query amount forms
+
+หลังcommitHarvestaudit4146283และอัปเดตPRแล้ว แยกcompact queueที่มีsourceจริง106main fields เป็น34actionable current-query $ioaและ72blocked (typed51/rendering2/old-normalized4/non-enUS1/placeholders12/repurposed historical IDs2) ไม่รวม13kno-source rows ดูcompact-main-queue-before06.jsonซึ่งเก็บown-ID/level/field/build/source-kind/reason/next-action
+
+ทำ34actionable objectives L57→60แล้ว คงwording/fixed totals/aliasesเดิม ไม่ใช่34new proseและไม่เพิ่มcanonical fields ไม่มีfont/Skills/Speech/Bitmap changes เพิ่มstatic unequal-count oraclesทุกmulti-tokenในชุด รวม3-token92011และsource-order2→1ของ96992 ตรวจสลับทุกคู่ทั้งsignatureและThai slots ผลmain regression106unique source cases/362positive/710negative executions,36independent unequal cases/80mutations ค่าเก่า978064ค่ายังคงเดิม
+
+compact-main-queue.jsonปัจจุบันเหลือ0actionable/72blocked ไม่มีnew prose readyจากsourceที่มี จึงไม่อ้างว่าmainทั้งเกมครบและไม่วนblockedslotsเดิม ต้องได้exactown-ID typed/full-current-body/formatter proofตามnext_actionรายแถวก่อนเติม ส่วนสังเกตwebที่rootส่งเกี่ยวกับHarvesttypos/Optionalจะตรวจหลังcommitนี้ เฉพาะhistorical aliasesที่มีหลักฐาน ไม่สร้างsourceหรือstripOptionalทั่วเกม
+
+ผลNPC686/API/SkillUIที่reviewแล้วคงเป็นผลcandidateเดิมตามSHA ไม่rerunชุดเดิมจากการเปลี่ยนquantityCatalogนี้ Candidate05ที่ส่งให้ผู้ใช้คงZIP/SHAเดิม ไม่มีผลliveWindows/MacM2กลับมา
