@@ -1,0 +1,29 @@
+Alphaverse THAI SUB — Cloud candidate revision cloud-main-through05
+แพ็กทดสอบแยกจาก 0.462.0 baseline และไม่ใช่งานร่าง 0.463.0 บน PC
+ชื่อไฟล์: ForeverThai-0.462.0-cloud-through-batch05-PRIVATE-TEST.zip
+SHA-256: 3fd22cbac9c6eebddbf951da005267077414f074afee61b0aa127a0b09427b7d
+ขนาด: 17233223 bytes; ภายใน 130 ไฟล์
+Runtime TOC ยังแสดง 0.462.0; แยก candidate ด้วยชื่อ revision/ชื่อ ZIP และ SHA ด้านบน
+ไม่ใช่ customer update ผ่าน Launcher; feed ยังเดิม รอบถัดไปยังตามนโยบาย 0.470.0
+
+ผู้ใช้เลือกติดตั้งและทดสอบเองได้ตามขั้นตอนต่อไปนี้ ผู้ช่วยไม่ได้ควบคุมหรือติดตั้งเกม
+1. ปิดเกม สำรองโฟลเดอร์ ForeverThai เดิม และเก็บ SavedVariables เดิมไว้ก่อนอัปเดต
+2. ตรวจ SHA ของ ZIP ให้ตรงกับบรรทัดด้านบน อย่านำ ZIP baseline หรือแพ็กที่ไม่มี Skills มาผสม
+3. แตก ZIP ไว้ภายนอกโฟลเดอร์เกมก่อน ต้องมี ForeverThai/ForeverThai.toc และ ForeverThai/Skills, Fonts ครบ
+4. เปิดตำแหน่งเกม Forever ที่ใช้อยู่จริงผ่าน Battle.net (Windows: Open in Explorer / Mac: Show in Finder)
+   ไปที่ _forever_/Interface/AddOns แล้ววางโฟลเดอร์ ForeverThai ให้ไฟล์อยู่ที่
+   _forever_/Interface/AddOns/ForeverThai/ForeverThai.toc
+   ต้องไม่ซ้อน ForeverThai สองชั้น และคงชื่อโฟลเดอร์/ไฟล์ทุกตัวรวม Fonts ตามเดิม
+5. เปิดเกมและเปิด Alphaverse THAI SUB ที่หน้าตัวละคร อ่าน INSTALL-TH.txt / INSTALL-MAC-TH.txt ภายในแพ็กเพิ่มเติม
+   ไม่ต้องรัน Python, build scripts, โปรแกรม Windows บน Mac หรือ AI local ใด ๆ
+6. คงค่าตั้ง/SavedVariables เดิมไว้ ไม่ต้องล้าง WTF เพื่อทดสอบแพ็กนี้
+
+แพ็กนี้รวม Quest, Tracker, Questie integration, NPC subtitles, Skill, Talent, Profession, Item และฟอนต์
+คำแปลหลักเดิม/aliases คงไว้ มี objective ใหม่ 34 ฟิลด์จาก batch01, คำแปล/ขยายหลักอีก6รูปแบบจาก batch02/04
+batch03/05 เพิ่มรูปแบบจำนวนจาก source ไม่ได้นับเป็นเนื้อเรื่องใหม่
+Cloud ผ่าน NPC 686 forms บน build70862/70888 และ main regression ตามรายงานใน PR1
+Skill UI9กรณีเป็นผล candidate batch04 ที่รายงานแยกไว้ (Skills คง byte เดิม) ไม่อ้างว่ารันซ้ำกับ ZIP นี้
+ยังไม่ยืนยันการเล่นจริง Windows/Mac M2 และยังไม่ครบ GOAL.md / ทั้งเกม
+
+ผลทดสอบ/ช่องว่าง source/คำแนะนำต่อ: https://github.com/cryptokao/foreverthai-updates/pull/1
+หากต้องย้อนกลับ ให้ปิดเกมแล้วนำโฟลเดอร์ ForeverThai ที่สำรองกลับคืน โดยเก็บค่าตั้งเดิมไว้
