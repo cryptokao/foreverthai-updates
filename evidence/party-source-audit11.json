@@ -1,0 +1,383 @@
+{
+  "source_zip": "ForeverThai-0.462.0-Windows-Mac.zip",
+  "source_zip_sha256": "9eb4084c1f6c90d5cc05486b1ecb41951d6e3543cde9fb78b97686df73f81881",
+  "source_document": "ForeverThai/Dev/NPCSpeech-0.462.0.json",
+  "source_document_sha256": "844bea5cd5385c5c3b1d32a07a05d6e1f9ce76f14289d45e91bca86f347e96a5",
+  "source_pins": {
+    "source-v04620/felwood.cpp": "2d8705d2b0a3e28ee6bd632542462e0a932930c56b258a8fe88da50f31a82f69",
+    "source-v04570/winterspring.cpp": "f6bd27437e5f05d86cce08a367ff25a3dff57aa4fb7d3f0ee11d61cda9027ef9",
+    "source-v04260/Player.cpp": "a2ed8782f5fcb8697536dea9dcf8753c1f87b07d1d7b67cbe14a2d517e4ad2e3",
+    "source-v04260/ScriptMgr.cpp": "b97ffc158f4bab8aa10dcd6140dfd4ffc5560ca8d5a55f6b5861cd55f7cdae6d",
+    "source-v04620/felwood-pin.json": "64cf88a8c5a83c2bb1dce4cd648ac74e12526e7e2b7545ef93339dfb02458a24",
+    "source-v04570/winterspring-pin.json": "2aa7729c1ed97a34d0d481611288e13ce99f0a9d1079df9cf5dd12eb765d56f0",
+    "forever-corpus.json": "e8dfd0d4ca7d5b72a0083cab7dea7c48cfe7fa23be18a2a17d0d33248e0964e9",
+    "quest_inventory_additions.json": "3931cd18d995af0dfdcfe629b76306d405b113062f8e866dc75333751e094011",
+    "source-v04530/escort-55-web.json": "03add7e3c8baaf319629f13b1c69d8a0abb7eeecd69849adac139b2577cea14d",
+    "source-v04530/escort-55-58-web.json": "670a31bcd3a7bd3fd099517dcc3d207de9573aeaae626fd950a6103f22f5ed08",
+    "source-v04540/next-lowlevel-narrative-web.json": "cadcc3432ce5ab49112523b5d1215f966996995655fd67344831cf0089b24b2b",
+    "source-v04550/extra-lowlevel-web.json": "956336b874ea409794c7a6043ee5888675e624a64614e6ddfc7b4540f349be36",
+    "source-v04570/midlevel-web.json": "bac54de59f0b713dd475adec6e02e8970f8e472d54a23601f1899e3145d4a92a",
+    "source-v04570/defense-altar-web.json": "6c9e048d6247c7dd3966e005b0d0451d0aba8691041ed54b988e2f9ea787586a",
+    "cmangos-classic-world-v01370.sqlite": "03b9e4a54fe2cf603bde85aecf2a448530f3e600442b817e425146c40993b654"
+  },
+  "qualified_templates": [
+    {
+      "npc_id": 3692,
+      "quest_id": 995,
+      "npc_name": "Volcor",
+      "level": 20,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Thank you again, $N. I'll make my way to the road now. When you can, find Terenthis and let him know we escaped.",
+      "thai": "ขอบคุณเจ้าอีกครั้ง {name} ข้าจะเดินไปที่ถนนก่อน เมื่อเจ้าสะดวก ไปหา Terenthis แล้วบอกเขาว่าพวกเราหนีออกมาได้แล้ว",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "70b7a1dd1b605ed9f584fb90169857ac60f354c54a18871d0f3396fc5ef7704e",
+      "signature": "17:689065638:2099367606 N 93:978051723:628096343",
+      "prefix": "Thank you again, ",
+      "suffix": ". I'll make my way to the road now. When you can, find Terenthis and let him know we escaped.",
+      "caller": {
+        "kind": "quest-start-dbscript",
+        "quest_script_id": 995,
+        "row": 1236,
+        "flags": 0,
+        "buddy_entry": 0,
+        "target": "Player::this",
+        "call": "GetMap()->ScriptsStart(SCRIPT_TYPE_QUEST_START,pQuest->GetQuestStartScript(),questGiver,this,Map::SCRIPT_EXEC_PARAM_UNIQUE_BY_SOURCE);",
+        "source_files": [
+          "source-v04260/Player.cpp",
+          "source-v04260/ScriptMgr.cpp"
+        ],
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 1236,
+        "column": "Text",
+        "text": "Thank you again, $N. I'll make my way to the road now. When you can, find Terenthis and let him know we escaped.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 0
+    },
+    {
+      "npc_id": 2610,
+      "quest_id": 670,
+      "npc_name": "Shakes O'Breen",
+      "level": 40,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Wait, $N!!! It looks like we're going to need some help here...",
+      "thai": "รอก่อน {name}!!! ดูเหมือนว่าเราจะต้องการความช่วยเหลือแล้ว...",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "532ee41a75d9eb3a7871e6a693dabbcd1505afee75fa45b0c5517792fc6f0301",
+      "signature": "6:1516321299:785938697 N 55:767366582:1974503773",
+      "prefix": "Wait, ",
+      "suffix": "!!! It looks like we're going to need some help here...",
+      "caller": {
+        "kind": "quest-end-dbscript",
+        "quest_script_id": 670,
+        "row": 857,
+        "flags": 0,
+        "buddy_entry": 0,
+        "target": "Player::this",
+        "call": "GetMap()->ScriptsStart(SCRIPT_TYPE_QUEST_END,pQuest->GetQuestCompleteScript(),questGiver,this,Map::SCRIPT_EXEC_PARAM_UNIQUE_BY_SOURCE);",
+        "source_files": [
+          "source-v04260/Player.cpp",
+          "source-v04260/ScriptMgr.cpp"
+        ],
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 857,
+        "column": "Text",
+        "text": "Wait, $n!!! It looks like we're going to need some help here...",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 1
+    },
+    {
+      "npc_id": 11016,
+      "quest_id": 5203,
+      "npc_name": "Captured Arko'narin",
+      "level": 55,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "I'm ready, $N. Let's find my equipment and get out of here. I think I know where it is.",
+      "thai": "ข้าพร้อมแล้ว {name} ไปหาอุปกรณ์ของข้าแล้วออกไปจากที่นี่กัน ข้าคิดว่ารู้ว่ามันอยู่ที่ไหน",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "96828b069c6fe306a2fa5a36448843c35ea547ab296bd2865c0b60eed7348f03",
+      "signature": "11:1400068568:1359790444 N 74:1899615597:1371138480",
+      "prefix": "I'm ready, ",
+      "suffix": ". Let's find my equipment and get out of here. I think I know where it is.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_ESCORT_START",
+        "call": "DoBroadcastText(SAY_ESCORT_START, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "broadcast_text",
+        "id": 6433,
+        "column": "Text1",
+        "text": "I'm ready, $N. Let's find my equipment and get out of here. I think I know where it is.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 2
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "The corruption of the fel has not left any of the creatures of Felwood untouched, $N. Please, be on your guard.",
+      "thai": "ความแปดเปื้อนของเฟลไม่ละเว้นสิ่งมีชีวิตใดใน Felwood เลย {name} โปรดระวังตัวให้ดี",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "89b94dfd9f9368769a5f01ff45564707250c3b6d01dea87de727d5ea0a855fca",
+      "signature": "82:1663469478:672223567 N 27:1164390671:1960387495",
+      "prefix": "The corruption of the fel has not left any of the creatures of Felwood untouched, ",
+      "suffix": ". Please, be on your guard.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_ATTACK_TOXIC_HORROR",
+        "call": "DoScriptText(SAY_ATTACK_TOXIC_HORROR, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001161,
+        "column": "content_default",
+        "text": "The corruption of the fel has not left any of the creatures of Felwood untouched, $N. Please, be on your guard.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 3
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "I can sense it now, $N. Ashenvale lies down this path.",
+      "thai": "ข้าสัมผัสได้แล้ว {name} Ashenvale อยู่ถัดไปตามเส้นทางนี้",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "da50d9c56370d6cc0760ccc651476ec8f82a15d6b4182cbfce04046ab327b409",
+      "signature": "20:459407763:1459679563 N 32:1247190666:1608881964",
+      "prefix": "I can sense it now, ",
+      "suffix": ". Ashenvale lies down this path.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_ASHENVALE",
+        "call": "DoScriptText(SAY_ASHENVALE, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001164,
+        "column": "content_default",
+        "text": "I can sense it now, $n. Ashenvale lies down this path.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 4
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "$N, my form has now changed! The true strength of my spirit is returning to me now... The cursed grasp of the forest is leaving me.",
+      "thai": "{name} ร่างของข้าเปลี่ยนไปแล้ว! พลังอันแท้จริงของจิตวิญญาณกำลังกลับคืนมา... เงื้อมมือคำสาปของป่ากำลังคลายออกจากข้า",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "e6f11ee67f4f4a78d8197662de1e4ab9ed2f6c119afeaaec11778ec445ce21c0",
+      "signature": "N 129:2026889222:1757171275",
+      "prefix": "",
+      "suffix": ", my form has now changed! The true strength of my spirit is returning to me now... The cursed grasp of the forest is leaving me.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_LIFT_CURSE",
+        "call": "DoScriptText(SAY_LIFT_CURSE, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001166,
+        "column": "content_default",
+        "text": "$N, my form has now changed! The true strength of my spirit is returning to me now... The cursed grasp of the forest is leaving me.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 5
+    },
+    {
+      "npc_id": 9598,
+      "quest_id": 4261,
+      "npc_name": "Arei",
+      "level": 56,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Thank you, $N. Now my spirit will finally be at peace.",
+      "thai": "ขอบคุณเจ้า {name} ในที่สุดจิตวิญญาณของข้าก็จะสงบสุข",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "301f3c28c2d850affe68a251c4fbcdb4a1d88d881bc03f834019b72f02a1450d",
+      "signature": "11:1191658970:1224418299 N 41:852046583:704306828",
+      "prefix": "Thank you, ",
+      "suffix": ". Now my spirit will finally be at peace.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04620/felwood.cpp",
+        "constant": "SAY_AREI_ESCORT_COMPLETE",
+        "call": "DoScriptText(SAY_AREI_ESCORT_COMPLETE, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1001167,
+        "column": "content_default",
+        "text": "Thank you, $N. Now my spirit will finally be at peace.",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 6
+    },
+    {
+      "npc_id": 10300,
+      "quest_id": 4901,
+      "npc_name": "Ranshalla",
+      "level": 59,
+      "event": "CHAT_MSG_MONSTER_SAY",
+      "english": "Thank you for your help, $N. I wish you well in your adventures.",
+      "thai": "ขอบคุณที่ช่วยเหลือ {name} ขอให้เจ้าโชคดีในการผจญภัยต่อไป",
+      "source_kind": "published_forever_words_with_exact_historical_player_target_corroboration",
+      "review": "assistant_reviewed_not_human_or_live_verified",
+      "review_sha256": "2d8173f5cba83d55825995f877bbdc0f7aacdd0f71c7865f97b1b6123be23f28",
+      "signature": "25:328543501:1621241081 N 37:781104468:1461312606",
+      "prefix": "Thank you for your help, ",
+      "suffix": ". I wish you well in your adventures.",
+      "caller": {
+        "kind": "explicit-Player-pointer",
+        "source_file": "source-v04570/winterspring.cpp",
+        "constant": "SAY_QUEST_END_1",
+        "call": "DoScriptText(SAY_QUEST_END_1, m_creature, pPlayer);",
+        "target": "GetPlayerForEscort()",
+        "historical_only_not_current_server_code": true
+      },
+      "reference": {
+        "table": "script_texts",
+        "id": -1000736,
+        "column": "content_default",
+        "text": "Thank you for your help, $N. I wish you well in your adventures. ",
+        "chat_mode_not_imported": 0
+      },
+      "original_entry_index": 7
+    }
+  ],
+  "unit_api_proofs": [
+    {
+      "build": "70862",
+      "commit": "9dc84f0d3bbae1768ac3405b3716000bd93eda06",
+      "path": "UnitDocumentation.lua",
+      "url": "https://raw.githubusercontent.com/Gethe/wow-ui-source/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitDocumentation.lua",
+      "bytes": 121174,
+      "sha256": "93004ac1b260127741471b7861360cdf7536afcb18d4c1db73b7259faa43e61c",
+      "contracts": [
+        {
+          "function": "UnitExists",
+          "return_field": "result",
+          "return_type": "bool",
+          "block_sha256": "79c22ff5f4c848df3f5cd0d7933e99f377455ea597b26610e6af26a5734fa03e"
+        },
+        {
+          "function": "UnitIsPlayer",
+          "return_field": "result",
+          "return_type": "bool",
+          "block_sha256": "7ba38e306f0cdd3493c8aa8081d763961dde7e7048bfca36c3a411f3ac465c76"
+        },
+        {
+          "function": "UnitGUID",
+          "return_field": "result",
+          "return_type": "WOWGUID",
+          "block_sha256": "02d8e3d27e58ee574efcbd8fd17371d674407b1f4c58be6f039196f29d84d538"
+        },
+        {
+          "function": "UnitName",
+          "return_field": "unitName",
+          "return_type": "cstring",
+          "block_sha256": "5fb51775e147a95bac727f10619359ee6690b22a99c23982349e482db6370f24"
+        },
+        {
+          "function": "UnitInParty",
+          "return_field": "result",
+          "return_type": "bool",
+          "block_sha256": "7ba38e306f0cdd3493c8aa8081d763961dde7e7048bfca36c3a411f3ac465c76"
+        },
+        {
+          "function": "UnitInRaid",
+          "return_field": "result",
+          "return_type": "luaIndex",
+          "block_sha256": "889983835eda4055466f1ebbae13268947750dafbfd2fb4d3e1d1bf9045c8a47"
+        }
+      ]
+    },
+    {
+      "build": "70888",
+      "commit": "4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+      "path": "UnitDocumentation.lua",
+      "url": "https://raw.githubusercontent.com/Gethe/wow-ui-source/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe/Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitDocumentation.lua",
+      "bytes": 121174,
+      "sha256": "93004ac1b260127741471b7861360cdf7536afcb18d4c1db73b7259faa43e61c",
+      "contracts": [
+        {
+          "function": "UnitExists",
+          "return_field": "result",
+          "return_type": "bool",
+          "block_sha256": "79c22ff5f4c848df3f5cd0d7933e99f377455ea597b26610e6af26a5734fa03e"
+        },
+        {
+          "function": "UnitIsPlayer",
+          "return_field": "result",
+          "return_type": "bool",
+          "block_sha256": "7ba38e306f0cdd3493c8aa8081d763961dde7e7048bfca36c3a411f3ac465c76"
+        },
+        {
+          "function": "UnitGUID",
+          "return_field": "result",
+          "return_type": "WOWGUID",
+          "block_sha256": "02d8e3d27e58ee574efcbd8fd17371d674407b1f4c58be6f039196f29d84d538"
+        },
+        {
+          "function": "UnitName",
+          "return_field": "unitName",
+          "return_type": "cstring",
+          "block_sha256": "5fb51775e147a95bac727f10619359ee6690b22a99c23982349e482db6370f24"
+        },
+        {
+          "function": "UnitInParty",
+          "return_field": "result",
+          "return_type": "bool",
+          "block_sha256": "7ba38e306f0cdd3493c8aa8081d763961dde7e7048bfca36c3a411f3ac465c76"
+        },
+        {
+          "function": "UnitInRaid",
+          "return_field": "result",
+          "return_type": "luaIndex",
+          "block_sha256": "889983835eda4055466f1ebbae13268947750dafbfd2fb4d3e1d1bf9045c8a47"
+        }
+      ]
+    }
+  ],
+  "chat_api_proof": "npc-api-proof.json: exact text arg1 and speaker guid arg12; arg5 playerName2 NOT used as addressee",
+  "historical_primary_cpp_files_transferred": false,
+  "qualification_scope": "Reuse the already reviewed eight exact Player-name source qualifications from original Dev evidence, including typed historical Player callers. Their hash-pinned original C++ files are not newly downloaded or independently rerun here. This is not proof of current server code. No expansion to other N templates, normalized tokens or fixed Ringo/Torta/race/class references.",
+  "in_game_verified": false
+}
