@@ -88,8 +88,11 @@
       "compared_main_records": 1350,
       "supported": 1243,
       "unmatched": 107,
-      "all_unmatched_have_existing_canonical": true,
-      "status": "Snapshot generated2026-10-10. No per-line build in export. Existing identity-held or concrete-name records require proof; no character names copied to this report. Not a current raw-capture corpus."
+      "all_unmatched_have_existing_canonical": false,
+      "status": "Snapshot generated2026-10-10. No per-line build in export. Existing identity-held or concrete-name records require proof; no character names copied to this report. Not a current raw-capture corpus.",
+      "unmatched_with_existing_canonical": 105,
+      "unmatched_without_canonical": 2,
+      "correction_reference": "main-unmatched-triage15.json:8325description unsupported-client and93928completion placeholder"
     },
     "japanese_english": {
       "supported_fields": 20481,

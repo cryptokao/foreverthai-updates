@@ -71291,3 +71291,17 @@ addon.quests[5642].completion.variants = addon.quests[5642].completion.variants 
 addon.quests[5642].completion.variants[#addon.quests[5642].completion.variants + 1] = { "49:1367781032:714491564 C 26:673636718:2095780830 N 44:1244048083:728114892", "ถึงเวลาของหนึ่งในพิธีสำคัญที่สุดที่{class}ในศรัทธาของเราต้องผ่านแล้ว {name} ข้าจะอธิบายเพิ่มเติมให้เจ้าฟัง เจ้าพร้อมแล้ว" }
 addon.quests[5643].completion.variants = addon.quests[5643].completion.variants or {}
 addon.quests[5643].completion.variants[#addon.quests[5643].completion.variants + 1] = { "49:1367781032:714491564 C 26:673636718:2095780830 N 44:1244048083:728114892", "ถึงเวลาของหนึ่งในพิธีสำคัญที่สุดที่{class}ในศรัทธาของเราต้องผ่านแล้ว {name} ข้าจะอธิบายเพิ่มเติมให้เจ้าฟัง เจ้าพร้อมแล้ว" }
+
+-- Cloud main15: own-ID primary completion bodies; retain prior canonicals/aliases.
+addon.quests[8384].completion.variants = addon.quests[8384].completion.variants or {}
+addon.quests[8384].completion.variants[#addon.quests[8384].completion.variants + 1] = { "16:1549935302:71513149 C 77:913426376:2064232607", "ยอดเยี่ยม {class}! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้" }
+addon.quests[8391].completion.variants = addon.quests[8391].completion.variants or {}
+addon.quests[8391].completion.variants[#addon.quests[8391].completion.variants + 1] = { "16:1549935302:71513149 C 74:1993555773:675042498", "ยอดเยี่ยม {class}! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้" }
+addon.quests[2881].completion.variants = addon.quests[2881].completion.variants or {}
+addon.quests[2881].completion.variants[#addon.quests[2881].completion.variants + 1] = { "124:742970577:659373907 N 24:1389578358:1343985115", "สร้อยคออีกชุดหมายความว่าโทรลล์ใน Hinterlands ที่เราต้องกังวลถึงมีน้อยลงแล้ว! เจ้าทำได้อีกแล้ว {name} ทำดีเช่นนี้ต่อไป!" }
+addon.quests[8441].completion.variants = addon.quests[8441].completion.variants or {}
+addon.quests[8441].completion.variants[#addon.quests[8441].completion.variants + 1] = { "16:1549935302:71513149 N 84:792529081:126367881", "ยอดเยี่ยม {name}! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ" }
+addon.quests[8442].completion.variants = addon.quests[8442].completion.variants or {}
+addon.quests[8442].completion.variants[#addon.quests[8442].completion.variants + 1] = { "16:1549935302:71513149 N 84:792529081:126367881", "ยอดเยี่ยม {name}! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ" }
+addon.quests[7801].completion.variants = addon.quests[7801].completion.variants or {}
+addon.quests[7801].completion.variants[#addon.quests[7801].completion.variants + 1] = { "N 116:235670301:1132531488", "{name} หากไม่มีวีรชนเช่นเจ้าคอยทำงานเพื่อ Darnassus เราคงทุกข์ยากแน่ ขอบคุณที่เจ้ายังทุ่มเทช่วยเหลือ!" }
