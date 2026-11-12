@@ -231,3 +231,12 @@ Result:0source-ready mainfields,0newmainThai/prose/aliases,0runtime/font/version
 - Artifact5171d8b741e6d297a447996ff6eb064da93250a7,137files/17748537bytes/SHA2562b66f0791dbab6e5e6d3363b6277c811e36c1a1d24ec4ef8256433b6691f5a26. Source45af251/runtime treef85a68ca9c2ade231310620e693765cd99eebfc1.
 - Cloud downloaded ZIP/guide/manifest back and verified all137safe paths/every byte,24TOCpaths,28protected Skill/font assets,settings/SavedVariables/Questie. Candidate12 has no removed files; only Catalog/Atlas differ andThai89was added;134other files unchanged.
 - Complete Quest/Tracker/NPC/Skill/Talent/Profession/Item/fonts retained; candidate12immutable, no customerfeed/version change. Only affected font and actual package checks ran; no unchanged UI/full suite rerun or in-game claim.
+
+
+## Japanese English bounded continuation — no source-ready new prose
+
+- Considered only365 previously identified absent-canonical English fields from upstream76fc4f2; this is not365quests or a whole-game denominator. Excluded313Classic reference fields (184EraWDB/117pfQuest/12VMangos); no Japanese translations imported.
+-52Forever-WDB-labelled fields/30IDs remain, sortedlow→high:21explicit disabled/developer,15explicit test contexts,6placeholders,10title-only usage-unconfirmed. No absent-canonical Forever player-capture rows in this subset. Current Catalog canonical/nested-alias cross-ID signature comparison found0matches;0writ-named records in this filtered subset. No alias/content added.
+- Key exact gaps:94901description[PH]Collectfrogs;94902description[PH]Collectgrapes;78307/78699description“Description”/objective“Log”;92480zzOLDUNUSED;93173(UNUSED);94559UNUSED;94898TempDisabled. Remaining unmarked title-only IDs6843,8021–8026,9273,9353,96735 need enabled/current own-ID/phase evidence before being treated as playable work.
+- Upstream served-ID ledger last70862 is retained as metadata only; an answered/cache ID does not prove enabled playability. Full original70862cache not transferred; original small69913testfixture is not a substitute. Exact source paths/lines/hashes and all365dispositions are in japanese-main-source-filter14.json.
+- Source-ready/newThai/newaliases0. Candidate13all137runtime hashes retained. No addon/game regression or font/package rerun in this source audit. Stop bounded queue as requested, without NPC/book/party side work.

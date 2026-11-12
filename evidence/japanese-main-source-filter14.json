@@ -1,0 +1,3509 @@
+{
+  "scope": "Only previously discovered365 English fields lacking an own-ID runtime canonical; not365 quests or whole-game gap count. Source filtering and alias comparison only, no regression suite.",
+  "upstream": {
+    "repository": "zyaga/wow-forever-japanese",
+    "commit": "76fc4f2d32f90af96c2a382d7e6c4723d5902e3b",
+    "served_ledger_sha256": "125538355dd5a26c1b8f53c6d9328502cd5c41dce437e288de89d45b6b061fe8",
+    "source_files": {
+      "data/english/quest/quest-0000.jsonl": {
+        "bytes": 1162350,
+        "sha256": "6507efdf98d322b2f9af801b361aa62c8e1cf22677c961357dd1d663606f60de"
+      },
+      "data/english/quest/quest-0001.jsonl": {
+        "bytes": 696051,
+        "sha256": "8bb731f2a205015141fcbc2a433541db53be0ddcf053006edf04b8829944ad5e"
+      },
+      "data/english/quest/quest-0002.jsonl": {
+        "bytes": 320910,
+        "sha256": "78370a19fc1def6d379abd7ebce6187679a83f89fe14579e1bcb3ae161885537"
+      },
+      "data/english/quest/quest-0003.jsonl": {
+        "bytes": 305098,
+        "sha256": "e348716e82879aebdedfd67710a5334a6e8e20c24fd48773b5d45e7c02699b27"
+      },
+      "data/english/quest/quest-0004.jsonl": {
+        "bytes": 299560,
+        "sha256": "afa50e9a10aba5a1bd00376bd63148abce1b67bb00c6391a0e06cde457cd8b08"
+      },
+      "data/english/quest/quest-0005.jsonl": {
+        "bytes": 406550,
+        "sha256": "2326ed1944b806c9dd24cdace6e739c70f98da57fcde12be35f21fa863fdb602"
+      },
+      "data/english/quest/quest-0006.jsonl": {
+        "bytes": 257850,
+        "sha256": "57671780ed4e9b770b2601ef3b3e3e6f54ce0af5d012d962c0c4c6bda69b0882"
+      },
+      "data/english/quest/quest-0007.jsonl": {
+        "bytes": 299146,
+        "sha256": "9fb976499763b6841131637335fb25cec88f4587ea18984c44dc1f5fe3a38ad4"
+      },
+      "data/english/quest/quest-0008.jsonl": {
+        "bytes": 639622,
+        "sha256": "159e076facfa83023779655dc3f680b712f3108930187dd627bf6958592f101b"
+      },
+      "data/english/quest/quest-0009.jsonl": {
+        "bytes": 137418,
+        "sha256": "556bdc4d55e4c6329776aa4eaa20e7e25feb9f1317f76f78d704b5db8a34577e"
+      },
+      "data/english/quest/quest-0060.jsonl": {
+        "bytes": 658,
+        "sha256": "ece8acc2aa5986829d6cf34666346c1533ec9688d763e74d0f594c3bb76bfe78"
+      },
+      "data/english/quest/quest-0065.jsonl": {
+        "bytes": 6293,
+        "sha256": "3b47b5ad94b94c5b2bc8758673836556295b542182c79e44eae9d2e5ad667458"
+      },
+      "data/english/quest/quest-0076.jsonl": {
+        "bytes": 2428,
+        "sha256": "fb3c09c5fc6c6e7b498c306ea8bbbc95bb3253809e8c7ec8c9a7a6677f51455e"
+      },
+      "data/english/quest/quest-0078.jsonl": {
+        "bytes": 13978,
+        "sha256": "f17a4f93478fcf8ddfb2c358ec0164c5f71d8302061561f15f6d3d5e82c0b559"
+      },
+      "data/english/quest/quest-0079.jsonl": {
+        "bytes": 29863,
+        "sha256": "50dd640029b3eafae57b276dad6610d8214c0ea88603874e9ed2e65d32d9ce24"
+      },
+      "data/english/quest/quest-0080.jsonl": {
+        "bytes": 944,
+        "sha256": "6be7e25770be5d42f3de94de24b1ff46c0cfb944e10bd41bbf21d0e011161400"
+      },
+      "data/english/quest/quest-0081.jsonl": {
+        "bytes": 56737,
+        "sha256": "5a7b870b0e0cfbb25c1aea064e8697b775c75d047cc71c821fd69aa8a9238128"
+      },
+      "data/english/quest/quest-0082.jsonl": {
+        "bytes": 2576,
+        "sha256": "c6fdf91592f92fa29ccb52ec874157ba3fbb5bb0392c6f30e8293a82cc9a5992"
+      },
+      "data/english/quest/quest-0084.jsonl": {
+        "bytes": 2837,
+        "sha256": "a7397394cb7c5639b6dacafab1c72266c939db1340deaa23f5782440d98270fd"
+      },
+      "data/english/quest/quest-0086.jsonl": {
+        "bytes": 12348,
+        "sha256": "9cb8ed0067734f6743d6c7efae6a81c0f44217de02db0dd89c2ec3a608da4204"
+      },
+      "data/english/quest/quest-0087.jsonl": {
+        "bytes": 3838,
+        "sha256": "15fc3f27bcd202f3870ded91cdb9f44afc8f12ffb236de777aa21f25c387ad57"
+      },
+      "data/english/quest/quest-0088.jsonl": {
+        "bytes": 2075,
+        "sha256": "90a43ab41c92ad541578c7cb492e1b72cf3eb12b98e5d1d64c447c4148326003"
+      },
+      "data/english/quest/quest-0089.jsonl": {
+        "bytes": 1941,
+        "sha256": "abacc116b1e960984a2a9ea655134414b0c50929e923b8277bdd3a01e2e25038"
+      },
+      "data/english/quest/quest-0090.jsonl": {
+        "bytes": 2291,
+        "sha256": "aac0f643c7b6ff8c177669d96d543e901d4e520e7c2aac5999d189b2eaad8c1d"
+      },
+      "data/english/quest/quest-0091.jsonl": {
+        "bytes": 38957,
+        "sha256": "06741dc444ea758543062eedcb8303f765e6bb54d067e1c79d08daa9849796da"
+      },
+      "data/english/quest/quest-0092.jsonl": {
+        "bytes": 134678,
+        "sha256": "1f5d3f7aba683032c1e47ca88dc17c0ed85bdce7c9ae966632b8c040dbabc833"
+      },
+      "data/english/quest/quest-0093.jsonl": {
+        "bytes": 83817,
+        "sha256": "4a524fdac2a07acf991b7a8aa592f86bfa4e5ad9afe65c5499dca06b30bac51d"
+      },
+      "data/english/quest/quest-0094.jsonl": {
+        "bytes": 237342,
+        "sha256": "3de356198471aeb8d9a1ebd07479b12c5df775879c9c27e698ce61dc9b5b052c"
+      },
+      "data/english/quest/quest-0095.jsonl": {
+        "bytes": 133778,
+        "sha256": "b247f072b4e190f1b931d1abe2a0f4b303d1650bcdd432eb4321398e1bf29d5b"
+      },
+      "data/english/quest/quest-0096.jsonl": {
+        "bytes": 110695,
+        "sha256": "93be79cec5daf20df788d2302e8a91f43af1218fa204836731f3f24ed81007ba"
+      },
+      "data/english/quest/quest-0097.jsonl": {
+        "bytes": 159460,
+        "sha256": "3365e8376c6497a9fcc277cb3dc2c35c395b82de5229f54980a4a30eda456403"
+      },
+      "data/english/quest/quest-0098.jsonl": {
+        "bytes": 114900,
+        "sha256": "b2a0adddecc6f59ca718509054003276d0bf131e346ec97177c413742e077aad"
+      },
+      "data/english/quest/quest-0099.jsonl": {
+        "bytes": 43950,
+        "sha256": "4257178847a1093c52b352f9bbff604b86e01dc367f7746b76379979950c33d4"
+      }
+    },
+    "limitation": "src labels and served-ID ledger are upstream provenance assertions. No full original70862 cache is transferred. Additive English retains old/disabled records; ledger does not prove playability. Upstream collector class/race normalization is not used as typed proof."
+  },
+  "actual_runtime_tree": "f85a68ca9c2ade231310620e693765cd99eebfc1",
+  "counts": {
+    "prior_absent_canonical_fields": 365,
+    "excluded_classic_reference_fields": 313,
+    "excluded_by_source": {
+      "vmangos@13b49dc": 12,
+      "pfquest@7786596": 117,
+      "wdb@1.15.9.69722": 184
+    },
+    "forever_wdb_candidate_fields": 52,
+    "forever_candidate_unique_ids": 30,
+    "forever_player_capture_absent_canonical_fields": 0,
+    "statuses": {
+      "held_explicit_disabled_or_developer": 21,
+      "held_explicit_test_context": 15,
+      "held_placeholder_not_prose": 6,
+      "held_title_only_usage_unconfirmed": 10
+    },
+    "existing_cross_id_alias_signature_matches": 0,
+    "writ_named_records_in_filtered_subset": 0,
+    "source_ready_new_main_fields": 0,
+    "new_thai_fields": 0,
+    "new_aliases": 0
+  },
+  "records": [
+    {
+      "quest_id": 1,
+      "level": 4,
+      "field": "description",
+      "title": "The \"Chow\" Quest (123)aa",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "8527c248eeb259f8e826e3185b9242a1ce5df7d4856a2d9cae79a6efe46a64ec",
+      "source_record": {
+        "path": "data/english/quest/quest-0000.jsonl",
+        "line": 3,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "8c52eb3d3a19ab26"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "known_developer_id; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 1,
+      "level": 4,
+      "field": "objective",
+      "title": "The \"Chow\" Quest (123)aa",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "80607cbcb9ae033421b36947b05244c2193ebda324d0672e6551906342ca6209",
+      "source_record": {
+        "path": "data/english/quest/quest-0000.jsonl",
+        "line": 2,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "314b469d7b393e96"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "known_developer_id; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 1,
+      "level": 4,
+      "field": "title",
+      "title": "The \"Chow\" Quest (123)aa",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "58f9286e8d478baa2ae0d3526b38e2b458c3505a8c6c680c5736158d6de14a91",
+      "source_record": {
+        "path": "data/english/quest/quest-0000.jsonl",
+        "line": 1,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "db0905c350a90c41"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "known_developer_id; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 9065,
+      "level": 4,
+      "field": "description",
+      "title": "The \"Chow\" Quest (123)aa",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "294d78411af52624c4965c0ce7b65f9481f7a2f5ccaf24aeeec0ddb43726649b",
+      "source_record": {
+        "path": "data/english/quest/quest-0009.jsonl",
+        "line": 177,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "b140d6364c309802"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "known_developer_id; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 9065,
+      "level": 4,
+      "field": "objective",
+      "title": "The \"Chow\" Quest (123)aa",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "80607cbcb9ae033421b36947b05244c2193ebda324d0672e6551906342ca6209",
+      "source_record": {
+        "path": "data/english/quest/quest-0009.jsonl",
+        "line": 176,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "314b469d7b393e96"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "known_developer_id; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 9065,
+      "level": 4,
+      "field": "title",
+      "title": "The \"Chow\" Quest (123)aa",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "58f9286e8d478baa2ae0d3526b38e2b458c3505a8c6c680c5736158d6de14a91",
+      "source_record": {
+        "path": "data/english/quest/quest-0009.jsonl",
+        "line": 175,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "db0905c350a90c41"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "known_developer_id; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 5101,
+      "level": 5,
+      "field": "description",
+      "title": "Lee's Ultimate Test Quest... of Doom!",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "4ea02cf54340f59132cfea56fce2f671d8f7b9b81c678e5d6fd104fb073e17de",
+      "source_record": {
+        "path": "data/english/quest/quest-0005.jsonl",
+        "line": 209,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "9d3537f44cb60bb6"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Description explicitly calls this a Test Quest and objective jokes about running."
+    },
+    {
+      "quest_id": 5101,
+      "level": 5,
+      "field": "objective",
+      "title": "Lee's Ultimate Test Quest... of Doom!",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "b57744b02511ecb045b1540cbb72c5f59115270324f07fec4bb255ec280d27a8",
+      "source_record": {
+        "path": "data/english/quest/quest-0005.jsonl",
+        "line": 208,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "2265a0a6a17f9318"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Description explicitly calls this a Test Quest and objective jokes about running."
+    },
+    {
+      "quest_id": 5101,
+      "level": 5,
+      "field": "title",
+      "title": "Lee's Ultimate Test Quest... of Doom!",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "16750574956e7847de73c2c77a52ce5b1c0173d7b72c52617bc3e5fa1f1f290f",
+      "source_record": {
+        "path": "data/english/quest/quest-0005.jsonl",
+        "line": 207,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "bc8fc11e962927f9"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Description explicitly calls this a Test Quest and objective jokes about running."
+    },
+    {
+      "quest_id": 8274,
+      "level": 5,
+      "field": "description",
+      "title": "Test Kill Quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "661bc11be04b9582d3f4eb275f645597763bee077af58236cf8f6ba120e825c4",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 492,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "a551eef68cf448b7"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Objective explicitly asks return to the test character."
+    },
+    {
+      "quest_id": 8274,
+      "level": 5,
+      "field": "objective",
+      "title": "Test Kill Quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "55d21106e6a2bbabff5c51622f4e5fb9f92097d86c285ca0cfb8359117cf16e3",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 491,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "00bf1e4973a01085"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Objective explicitly asks return to the test character."
+    },
+    {
+      "quest_id": 8274,
+      "level": 5,
+      "field": "title",
+      "title": "Test Kill Quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "45c0c3ff49307fd769b0097ffa101145a55bf36f60c035c7e6888516fd8c88bd",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 490,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "2cbcf3040ea6b98d"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Objective explicitly asks return to the test character."
+    },
+    {
+      "quest_id": 92480,
+      "level": 6,
+      "field": "description",
+      "title": "zzOLD UNUSED Cult Ambush",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "f5ab776e48fbd518b5ae90febff0e6cf8935597c92eaaad8096c23f651556424",
+      "source_record": {
+        "path": "data/english/quest/quest-0092.jsonl",
+        "line": 123,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "56bd77c7e1ae5688"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 92480,
+      "level": 6,
+      "field": "objective",
+      "title": "zzOLD UNUSED Cult Ambush",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "9f857c880f414eee67d73e04955f997c482bbee6e22b9c165424898cede19b80",
+      "source_record": {
+        "path": "data/english/quest/quest-0092.jsonl",
+        "line": 122,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "c6d5f21e4d9c35ae"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 92480,
+      "level": 6,
+      "field": "title",
+      "title": "zzOLD UNUSED Cult Ambush",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "5863eb3bd1ecbcba55ecae9d276db34b7820b7e230abff15c822e4bb2045f879",
+      "source_record": {
+        "path": "data/english/quest/quest-0092.jsonl",
+        "line": 121,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "a0dc56abab190782"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 7681,
+      "level": 10,
+      "field": "description",
+      "title": "Hunter test quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "26c631100ec9d64aa4bd6d9f8ace7b777f48fe6d96d72a931fb9ea9d1cd95407",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 684,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "34b38a3e2f8b0065"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Hunter test quest and internal feed-pet script instruction."
+    },
+    {
+      "quest_id": 7681,
+      "level": 10,
+      "field": "objective",
+      "title": "Hunter test quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "3ed7cf168430b93fc449b2d0b2c7537254b71c76ecd62966d5d1329b1696f776",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 683,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "2f058422e5965cab"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Hunter test quest and internal feed-pet script instruction."
+    },
+    {
+      "quest_id": 7681,
+      "level": 10,
+      "field": "title",
+      "title": "Hunter test quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "d6b6e1accbe9c9de5323c591e4cb89bc4506506f5f8f20d8a42a77aecb7c0a29",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 682,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "746b49f469ba0c96"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Hunter test quest and internal feed-pet script instruction."
+    },
+    {
+      "quest_id": 7682,
+      "level": 10,
+      "field": "description",
+      "title": "Hunter test quest2",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "26c631100ec9d64aa4bd6d9f8ace7b777f48fe6d96d72a931fb9ea9d1cd95407",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 687,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "34b38a3e2f8b0065"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Hunter test quest2 and internal feed-pet script instruction."
+    },
+    {
+      "quest_id": 7682,
+      "level": 10,
+      "field": "objective",
+      "title": "Hunter test quest2",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "3ed7cf168430b93fc449b2d0b2c7537254b71c76ecd62966d5d1329b1696f776",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 686,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "2f058422e5965cab"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Hunter test quest2 and internal feed-pet script instruction."
+    },
+    {
+      "quest_id": 7682,
+      "level": 10,
+      "field": "title",
+      "title": "Hunter test quest2",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "56550a7bcaaf8848bc868f92bed531344f946c15ae12f434409d90d4e643a67a",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 685,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "92e6d935740c19d2"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Hunter test quest2 and internal feed-pet script instruction."
+    },
+    {
+      "quest_id": 93173,
+      "level": 11,
+      "field": "description",
+      "title": "(UNUSED) The Rusty Gadget",
+      "source_kind": "wdb@1.60.1.70532",
+      "english_sha256": "51032a7e85420d5eff6c3b54a30fdc739ba69e4a8d2e072efd033d31ce457cc5",
+      "source_record": {
+        "path": "data/english/quest/quest-0093.jsonl",
+        "line": 83,
+        "source": "wdb@1.60.1.70532",
+        "upstream_hash": "02764b22d2c6c0fb"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 93173,
+      "level": 11,
+      "field": "objective",
+      "title": "(UNUSED) The Rusty Gadget",
+      "source_kind": "wdb@1.60.1.70532",
+      "english_sha256": "233e3a5bf2159e09b8767f83a14e4573ed305b46de6ce3f204c06a876a74008a",
+      "source_record": {
+        "path": "data/english/quest/quest-0093.jsonl",
+        "line": 82,
+        "source": "wdb@1.60.1.70532",
+        "upstream_hash": "3216fc0888d66b6a"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 93173,
+      "level": 11,
+      "field": "title",
+      "title": "(UNUSED) The Rusty Gadget",
+      "source_kind": "wdb@1.60.1.70532",
+      "english_sha256": "87f03ffc3087a58d965132f27dd3e5970ef5903f7910199733eea767e020050d",
+      "source_record": {
+        "path": "data/english/quest/quest-0093.jsonl",
+        "line": 81,
+        "source": "wdb@1.60.1.70532",
+        "upstream_hash": "d8c783cf701fbe03"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94559,
+      "level": 11,
+      "field": "description",
+      "title": "UNUSED",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "43e99855277cd7b426c0732d1478e7af7d91172654eef8dac6b05f846ab83bb1",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 641,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "717f16b222cb167d"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_exact_label; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94559,
+      "level": 11,
+      "field": "objective",
+      "title": "UNUSED",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "f17819791bea266eff5b348e34a1d220a471cb87cefefb33c823d6c95cedac6b",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 640,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "1c0f7bd4166abd16"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_exact_label; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94559,
+      "level": 11,
+      "field": "title",
+      "title": "UNUSED",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "5fedfe54fddcdc5145ac6dd38b4c3dead65f127535af2e07a7b9790515afdb04",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 639,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "e7944cd23b32e4ee"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_exact_label; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94898,
+      "level": 11,
+      "field": "description",
+      "title": "Violent Winds (Temp Disabled)",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "70a599cf2895c7addc1865166a2020fb763fade8dff1c7aebcad35949b60e7ae",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 850,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "7cad8caa6a1e1217"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "disabled_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94898,
+      "level": 11,
+      "field": "objective",
+      "title": "Violent Winds (Temp Disabled)",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "beca1cedd54e058e0c63d033395e170e7694f2b9491f5850a1313ba83a9e39ee",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 849,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "7af52b44e2826d25"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "disabled_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94898,
+      "level": 11,
+      "field": "title",
+      "title": "Violent Winds (Temp Disabled)",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "15ea36901ebff7a97d9b5d9091dca24d4a5073dc803149d8e9fe386ef169394b",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 848,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "b67e7fc6307e341e"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "disabled_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 94901,
+      "level": 11,
+      "field": "description",
+      "title": "Hopping Helpers",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "5ec0f8ba490672d721a428f80ad52e22a6f36677dba67b05abd050924e7a5fb5",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 853,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "a1d51fdc186370fd"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_placeholder_not_prose",
+      "proof_gap": "Need actual own-ID full description source; placeholder is not quest prose."
+    },
+    {
+      "quest_id": 94902,
+      "level": 11,
+      "field": "description",
+      "title": "Valanaar Vintages",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "5191b8d5ed630ea579b5b51172495b68196740b33091323961c185107ea4754b",
+      "source_record": {
+        "path": "data/english/quest/quest-0094.jsonl",
+        "line": 856,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "7ee77c4a32e814f7"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_placeholder_not_prose",
+      "proof_gap": "Need actual own-ID full description source; placeholder is not quest prose."
+    },
+    {
+      "quest_id": 78307,
+      "level": 23,
+      "field": "description",
+      "title": "The Horn of Xelthos",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+      "source_record": {
+        "path": "data/english/quest/quest-0078.jsonl",
+        "line": 49,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "6173958c6c516f23"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_placeholder_not_prose",
+      "proof_gap": "Need actual own-ID full description source; placeholder is not quest prose."
+    },
+    {
+      "quest_id": 78307,
+      "level": 23,
+      "field": "objective",
+      "title": "The Horn of Xelthos",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+      "source_record": {
+        "path": "data/english/quest/quest-0078.jsonl",
+        "line": 48,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "00141fe02dc1f053"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_placeholder_not_prose",
+      "proof_gap": "Need actual own-ID full objective source; placeholder is not quest prose."
+    },
+    {
+      "quest_id": 98338,
+      "level": 33,
+      "field": "title",
+      "title": "REUSE ME",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "8075d48faee3e2cd7e4c4132ebbcb5d834f47b18c0061aa47985ea1e07c3c842",
+      "source_record": {
+        "path": "data/english/quest/quest-0098.jsonl",
+        "line": 205,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "33acc140a20dbd02"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_exact_label; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 78699,
+      "level": 35,
+      "field": "description",
+      "title": "The Eye of Bhossca",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+      "source_record": {
+        "path": "data/english/quest/quest-0078.jsonl",
+        "line": 55,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "6173958c6c516f23"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_placeholder_not_prose",
+      "proof_gap": "Need actual own-ID full description source; placeholder is not quest prose."
+    },
+    {
+      "quest_id": 78699,
+      "level": 35,
+      "field": "objective",
+      "title": "The Eye of Bhossca",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+      "source_record": {
+        "path": "data/english/quest/quest-0078.jsonl",
+        "line": 54,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "00141fe02dc1f053"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_placeholder_not_prose",
+      "proof_gap": "Need actual own-ID full objective source; placeholder is not quest prose."
+    },
+    {
+      "quest_id": 6843,
+      "level": 0,
+      "field": "title",
+      "title": "Da Foo",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "bc88630838099b774eca6798caa653d8d1c87326f580f3ccf1b5cdfc990b6ea9",
+      "source_record": {
+        "path": "data/english/quest/quest-0006.jsonl",
+        "line": 899,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "7a326c5ce25a543a"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 7869,
+      "level": 0,
+      "field": "title",
+      "title": "test quest - do not use",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "abd8c7f3fbed1b97f2ac5fcef365f6384fc3e2eb23802eee790609f49d0d1583",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 1016,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "2260119943da2ccf"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 7870,
+      "level": 0,
+      "field": "title",
+      "title": "test quest2 - do not use",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "cb62fea858c6b800b1f764caecfb9a69bce870faf2436faa170cd4a1254dcbcc",
+      "source_record": {
+        "path": "data/english/quest/quest-0007.jsonl",
+        "line": 1017,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "486cc81ad525e449"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_disabled_or_developer",
+      "proof_gap": "developer_marker; query/cache presence does not establish enabled playability."
+    },
+    {
+      "quest_id": 8021,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 1,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 8022,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 2,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 8023,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 3,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 8024,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 4,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 8025,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 5,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 8026,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 6,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 8230,
+      "level": 0,
+      "field": "title",
+      "title": "Collin's Test Quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "390e102172cd625b87ac95aa3a103d5f96f337ebf6e65b2cb05643ddd727dfe8",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 381,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fed429e70febde53"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title Collin's Test Quest; no playable/source phase proof."
+    },
+    {
+      "quest_id": 8270,
+      "level": null,
+      "field": "title",
+      "title": "test copy quest",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "cc9f6f936894eba59be8bf87ad87e06bc3fd1feb528693dc19ba20e63385718a",
+      "source_record": {
+        "path": "data/english/quest/quest-0008.jsonl",
+        "line": 483,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "ea2a832fc308631b"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title test copy quest."
+    },
+    {
+      "quest_id": 9273,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Prize Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "326794f1f7dca3de6e73d75c139766cdde15f24f2a2de0364d5ebab79c1469d0",
+      "source_record": {
+        "path": "data/english/quest/quest-0009.jsonl",
+        "line": 395,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "fd599f6c2b55d133"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 9353,
+      "level": null,
+      "field": "title",
+      "title": "Redeem iCoke Gift Box Voucher",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "ee4ba321fa1e66e3599ec7cd691e077186f944b38ce08c24706bccdb12db4710",
+      "source_record": {
+        "path": "data/english/quest/quest-0009.jsonl",
+        "line": 485,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "cf2bfa3746e3c064"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    },
+    {
+      "quest_id": 92534,
+      "level": null,
+      "field": "title",
+      "title": "jktestquest1a",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "ea39a4968268728e4a831623148745622eb4274c4dfef8bdbd0f5ec8a9cde5f4",
+      "source_record": {
+        "path": "data/english/quest/quest-0092.jsonl",
+        "line": 186,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "0b64e98b59084d57"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_explicit_test_context",
+      "proof_gap": "Exact title jktestquest1a; no playable/source phase proof."
+    },
+    {
+      "quest_id": 96735,
+      "level": 0,
+      "field": "title",
+      "title": "Toast!?",
+      "source_kind": "wdb@1.60.1.70862",
+      "english_sha256": "f936a6d2650409bddb2d5671bc4e8636abbf259ebddaf18508bf151d388935d8",
+      "source_record": {
+        "path": "data/english/quest/quest-0096.jsonl",
+        "line": 292,
+        "source": "wdb@1.60.1.70862",
+        "upstream_hash": "0f38dabc39296b40"
+      },
+      "upstream_served_id_observation": {
+        "first_build": "1.60.1.69913",
+        "last_build": "1.60.1.70862"
+      },
+      "runtime_canonical_present": false,
+      "matching_existing_signatures": [],
+      "status": "held_title_only_usage_unconfirmed",
+      "proof_gap": "Only this title is absent; no new main prose in this subset. Need current enabled own-ID/phase evidence; historical cache/served-ID is insufficient."
+    }
+  ],
+  "excluded_records": [
+    {
+      "quest_id": 5659,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "d36971456c67b01613c6a0916420857984e26fa251c95c627bc336f677d9a43e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 4323,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "248ca0f2cc63519972ddc64ff66cadeec2a7efb6633823ed5ae756d645060705",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 4323,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "59d9be5b684ea8e42a31db15724874b3074adb6686ec7b0ffa1fca206901d9ec",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 4323,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "fba0614b9f6544529facec6482c705623ff1fbfc5c68b9d24a932fc91b8da248",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 908,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "1c24e6aeb5778ce8d34cf8e45a0b0c49df99e4c8a7630043c5caa89a4c0bd363",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 908,
+      "field": "progress",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "580239a3c5bf0b85edd5593edf8f6a18709c392006d7e7367cd044b74d112a7c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 242,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "4126ad107b61f2bb90ee9ac2c8af7cdd24a9e5bd8dc6764acf85f0a75605574b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 242,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "a8f7bd1ed93b1c1ffd833d511cd73f6f4aa4a2447de452b4c1093044402814f8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 242,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 909,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "7e11b2315515076bb6c92c5445ad5ca3f7990edfd79394de67313d9478a63120",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 909,
+      "field": "progress",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "9f734dfd16ed006ec379c2b8a9d9b24407e0c36bef83f7b05964a626340c1c9b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1659,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1660,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8458,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "494988b01e898364ab6cced9cffb2c1c224b58602325608d0fd1d9c30d79bdc4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8458,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "b2dbfd2b16ca707a3dcb8e5284c304242d97cecb3afacdd8123d0ba6f2f36c12",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8458,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 534,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3482,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "28622315e506dff6c36078d1111c802f8ab6584b546ec02f3c63960d17b91d8b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3482,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "02c3ee367ba705292ab18f0688be77c7d54f639a193b36e9a865f332bcb570fe",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3482,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "cdcbb544b5f2f5694990a22e3453fccdd9255fe814751729c3b73b68addf3adc",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1460,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1461,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1277,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "dfc108efd37ff2c29480e22233eea44554b95b8e7bb80e0fc7ebade926599970",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1277,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "1b4aebda6e811ee1b54133bf44fd93e719f93462269208647afbb4353c9623e1",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1277,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "0e1fdbcdca0a9604dee002415c16a60ec339ee262adc8ad5522860fc462ce293",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3622,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81768,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "6bf70b95bdbed50d90b57c03335f6e9216dbcf38bf90d895974ffc78568965b4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81768,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1d62b600529f5ab99d8a38de9ab04ceea5acacfecd1183e5b0d7e0d9b297c793",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81768,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5df51d7ced6fbce5d46b431ad88b662029c44f280c1d582e26ebfcd21d773323",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81769,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "20df5c43d8997ef58a04f71c52ad8b2b3ab1bc2e3e2a7724993f88613ee7f6ed",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81769,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "9dbebc2007dc03c50f57cf9b1183f66284794ef00e7db134b2a24b54d061aff6",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81769,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a3e3f1f8e6b9eb1bee651606802a122d3e9accf520eb15da90b199002b9db057",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81771,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d26972788845569339b62e504a297131cd748b2723ac63f19beaa8f1bf91352f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81771,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0bb1e04713ec9b73297fb4b3a616096f135a787da01e40f696eecb32f77eeb90",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81771,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "3f194911574f7f5a048acf4a1f6911ab53dab7090450c9186f72f087aa747920",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81772,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "39b27ce4a07476352263d91b3c45e6ee95ca5619057c3ae5e4bcf643c94aed83",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81772,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "b9816f43d768b3327858762b69b559d7d9775501ddab4649eef83bd8b9cb5190",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81772,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "813aa800aab6d199330b1769abf60da3a8e04072599226a3647f5589823b3132",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81773,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "34fe9c37d117db458aad148d7a6f9e2ee5ba9aa5d24565d3c99563c6a0fb1b69",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81773,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8b1e2da6d29732e554667bc735ec10c7be54f65ec646ff7ba74c7dd3c3b52954",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81773,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "db388c6bcd09aeaec35e863ff83c6ab87919b6610e79511fad4e3f0f7b7b9857",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81774,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "04c25713a5f5feddbb4658e18a035b8f375efc199858e6ef93726f18668997e5",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81774,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f177f1972ecb3b42001ce699851ad790b1ce63823e34834f3d5d755f0878fe29",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81774,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a105b3adebf6d76da56838cf43b6b3499e80b8448fc397ab92d7860f6e225100",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81775,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4056f938dc327b8be9edab4e801be3716d1aa74118c7fa576970bec09ab6409e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81775,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "763e429a2a4a0d9f0fb11af1e00129be69469ae20921b57362c063414801070d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81775,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "9fece7529cf8d3402ec36f852da788e16dac12b837fb4f16a1465efe95351875",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81776,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "33b3f6afa45de045c0affafa6ca5d3577ef85069369c7dc343cece6ccf40a256",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81776,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f3d5ac71e1f9822fed247ed2202bb302537f8ca8d0c392d79a1adfc92ec652a0",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81776,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5a048feb3ffe2d94a806d69600f9c7ab29be097c080575a6af271bfba9c843e7",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81777,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8fa51ab8e410f6b487bf16c192bb0d8c6944f5351aeb9f3c3b79ee215869995d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81777,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a74ebdc61b0185d3424a003b90925325156c49e0101059cd7970576d52eca5d6",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81777,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "2da338f30afe74887f7fc0f75d3006e8443a303a5a2f0dda6cad56cfa10fec78",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81779,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8218e9f4c8470fa9a88c2b35a2c70923f352651b7178e56eb7970786db744ba8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81779,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1aaae979238ca3161094a74784a09ae03825c1ee0bf5aad63581a371fb89cf02",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81779,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "45ce3606f2ae905a4e8f755f9293e6f1d8634997e6881ed5b08ae75bd4bb9a55",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81780,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "9a1702c0bbbe81918020555c9b4f88efe0fa4b2c1697647c0697d994fc1658e2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81780,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f17ddf9238b704c89539a5ec04a2e2ebb2448171eab3a85da10b1b9aa957d504",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81780,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "7620516787b56ef553cdb32b19bd7ee55d60794eee22c0dc9e9e119072fe7e20",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81781,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "9f5e4e0b6f2a2138a23e46d529838a1142b8e78cd68ff3f60aa77cf74acf6365",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81781,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "86ff7e32f0db5a15dbb7fc9930aef19c1b84a2c0e47e472d2d985312e9b56e34",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81781,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8d73dfa5385ab860fa1d91d0c696bf46f13321fdb32d76d62d68f8e832a51b45",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81782,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "69d220fada8be9f9d0814dba05d42b7da641f02eb0156a7d33b902c07d9c9e17",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81782,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "de40956521814ded5638747ade65fe89a7b4bf42112d82bd2a60cf302d0b2772",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81782,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "2cd887ce5ec88d43f98deabc285b804243e25591d72d01af28f960933af136af",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81783,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1fcbfdeaa718a91d9e1313d28eb5758a6c2906c460358b40b40d7dc7b18b9dda",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81783,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "df7bf8d9c4e4a6a5c04fcbd65c41dd3d8d25086aa98a1499c978b4b400129130",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81783,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0c9032c0bae02aefd90742678b6768121934cd7fd1162f06243f30b80f664b5b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81784,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "bf7bc24e59776c86086c0d2629592e8f4e2f912e815e8a22a16fc9671e211840",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81784,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "fb62e23157fb79133a5159f73d41c58aafeb240a2a49a54ae4f37f6c9c7d538c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81784,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "2a65f20c3273eeda75a4c397f472b109175be31a7a0901962e7a2cdbb7fcba6b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81785,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "adbe1ab003a9788653c7b8bbcd2b2d9d35e103a2e6d1fe6b16ebcb3397ee28c2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81785,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "cd6c315f9fcd7d069927e07f79ddbde5b2f36f9538fcd07884a0cdf995c8967d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81785,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d6d64ff7d204a51ac80a9e56bc7ea3a85f3e4eb509b2a8883e7041210c9fd2f7",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1278,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "308898150fece1b3576503e326839e4eb6037569bfc832cf069b26d590db7020",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3064,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "d84afb75cef4510bb78b9bc33c01b07ba85922119da487e676f651ac418cbb49",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3064,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "ef3e2e6615815bd3a6de6ee8bac77af53c523eeba71eedb16fa26a94aec0218e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3064,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "36e550427b9fa2dafa87f87ebed32620ee1f4043811a58073b7b34091fd790ce",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3423,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3425,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5208,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "9b3eff9b2c6d92655882c64d1ca63ff0f9a990b8b0537fd44bb1d6afd7170641",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 620,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "7e545b4deac37db67a75ecbf43b95db75b8859e5ac09dde603c82b675d0e0985",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 620,
+      "field": "progress",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "d3554b995d6e343b3c94cc2bc5f38ce7482d8d2ae809cd351303333c4960aec4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 4299,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "9944389c65502dd086699089f2a9a38c29e1fa1ad2110e413a18a2c0fb90e24b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 4299,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "8c5026783e846c85dad8a8de7f667bc0fe53444c5d4dc856a82fe15151c3ef3f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 4299,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "809d695fc280b7656b41333fda205ebad6f58b22174a9050950d284865d710c9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3529,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81786,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5e6102086d434def6faafccd8cd9810a9881c571ee08ef248b34385edb64b374",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81786,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "576e2fe3b19a7d5dd059359dbbb6a9fcb0746f6eab83dbaac20680fc065aaade",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81786,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "9a5cbfc9dbf409bdd5ed6ed351e39ec01b6e26303b23dc6aae408dd78c018b57",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81787,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "748d94d68fcef5a61a65ec9ad0a071f77a695624234e4d6c27409f14afec5095",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81787,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8b1799e7f4ff03197d779e1b7732ba2174bd58e5fd02e753308b741e780c920d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81787,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4134bbb7cd96bbc9b76a8db2a45b500f1b784069f578b7f32fb078122eef5e2c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81789,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "97e231f9d0077e982d0319dfa6d32686c7a490c643e6660781f519acf777a877",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81789,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a2f6c2c3bdb2c588711f6a1a55bda3826d04ee139c8e50ea0d1b3da242df2bda",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81789,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1ee1c848b954ca24dd7abe564f07092bbee2347eefed13c63b1616593a1f2bb8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81817,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "b440fb4da641482b58045ff444c9d5a111bd8a496b742b0320f8d929ee22607b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81817,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f3585ea64cfe1a01da6a0c2351cdb17b53f505f635477e0ee8fb31f9827259c9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81817,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "b75e3a662ef8f3f0ab4a161fa20caca61a0eaaa41d47eb75e99a57d171091788",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81830,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "85d497a11f251b3a1b06ac8149b21cd75e75c63f38ed9fa38257cc98d09789dd",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81830,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "08f38f8e20d3161dfdb4fe0f8710412fb4cf7991c41f507cfc5f78d21ab72122",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81830,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5ec1a218038c221adf1526f77fbb30cded841d91b12073e91d7b4b738c8079f1",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81834,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d7b9dc2c257e5e2cad5d7244789d34e31fc03f286e4142baf499f6d06b90dd03",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81834,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d97dfa80cd0591672eafc0fed015a0dded5cbd925b8a995315d88b4482684e2d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81834,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "c519282390cb822a37d452c06cba25c85c4925c8a97bee3f2863e1b9b647419c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81838,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a14b6d080a1da6bc95b290d4c197146df8b0dca0a334b8383f87c25e2b35179c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81838,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "71a0c85b87850d4d7e44c177a09bb9f877575a80beffc377871447fcf1f32ba0",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81838,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5bf6e952e7623162948b9d5364e71f6b3a9bb9dbc21da7216cf134d5ad6c6af6",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81839,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "253eabd4287a70f385cce1deac0dc2d44414c8d3627d489cbdf00f3ab450997b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81839,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "c97eba7af8603524fa5e4d9ec4b32971fcaae232dbc0b7011768568d1546d6c4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81839,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5ed0a1d19c1bdb6928e33976ba130b955dcfa4e3a7f385c863fb133375d50580",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81850,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "2c3536e89dffb00f34474b3e21307fd0237ad5f01717c9ec63044d319c97565b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81850,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "86be4993f306dc9072f70bae27bdaf9799f44db6b2dfb675355b588b7b5d4565",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81850,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4349d83ba42722aa0dce663b71de9e7c72cde7afdfda116101e947923b1d3922",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81851,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "67639c0de1935cd82a171e9c54a269dd1bb0edea947d61a98176769c3111cbf5",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81851,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1335a4904526eaedf20b2e0ba98c9f5247dcd0e577dcddd882ddbd4c77e8bd4a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81851,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d82420a2fc91e649c3f01d613d85564e94456c91a980d47a0171e683f23d5880",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81852,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4715ff62a820a05917f64f4af936450542ea58d6f003c9327b8141b224bac54f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81852,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d93caad0ae57318bd767ac1c4bf6d50d0a72f0ffbf0d9a2405accaedd25b28eb",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81852,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "cdff5e4b6e32801daefc219241020f40e200578bf0569dd76728add13c305e8c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81855,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4024a1a2187e778c13bc2b7af0f41323164a93b4f69dc416fe85e00cc54edec8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81855,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8677cedafc657645253fc1a502ada48dd766a4ef00baa2fe39ea49d99e66227f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81855,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "18169b7df15ad9857af5cc46e4660594e64286957ed978c3c3bf88e59dea6672",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81858,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "add6f8ba0dde293924e5e891567f9cfe455e084cc79a5adbeb86b2245606358b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81858,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "650cbc8f2e8d784e2444bbdaf6366da773e0f68e273ff85a3f744641a2f0115e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81858,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "3bd6104c3902e88abf04e256b62d26e63f615b444bc6d7985d5a62dbd1714291",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81859,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "309b0c6e390fb6a28b35d923ab9529e12d606cbe9449a35157d981db5efa08d3",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81859,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "25eb38026e294b9c50ed496398ab40fc5cdf72798b9ba76313ef16d3e95ee7de",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81859,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0fc53f70d2f3329ebc8fa643f82d7808a06b55744323e98237f7a4dbcb68c554",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81861,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "e8e388b4ace9d9047cccfc3f5970cccec9d9b4055e049a0421e6dd3636aa12c2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81861,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "15be178e82bfdfa122a3c0e53878487aaaea3a5b94311c53d4e561e1d3cc4d7a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81861,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8dd8bf02674ba56736fa6f50acc54efe25476adc0b468a46ea96314e7ed4032f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81863,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5acd1265317a43d3c7d2f7d50f3ce67df66a230aca8c8780e77443c9c1a00657",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81863,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "545953d90e027991e272c2830af6721b463b838a0efb1104d3ef96bce372d4b9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81863,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "80d0fed03610950a6ea338a25aecf2fa20502b882ed8ded9a025e263ce5f02bc",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81864,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "50220077cf6269e8c996a8a47d45e933b1089b1716b8f651d0131cfcc3a58788",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81864,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "32cdcc442bcb4688a24abbedda3d06518d8633b6bd688a46ef6a7e719c038694",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81864,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "999bd58fac2fbe5039c1376806cd6e3a45be797a4995b1547d6aae82e1107e27",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81865,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f03f38d9167829907f72e23f72b8e8926ff3268907236fcb924f9c283dd4a368",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81865,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "319499c572f4a99675fbe383f58f5543b1ef777b3d3389585cca6dc80596d4df",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81865,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "54aec4f44a83486116e7de792529093159ab10ccc80459299da1fbf5bc607c35",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81867,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "688c342164095ddb29ba1d5bc79fa8c2abda32eefb6faee04e71388438a1e63e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81867,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a5d064b5c26744315ba1d2e65058df588a9e37db897305efa850e2ff1b5864f9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81867,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "9efa18552389a3a8c744f7867b7cdbdaca32e3b21c5ecef84a6605bc37b4a19e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81868,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "3037b6a82997a2a1d18bce479b85a0e95707d9c40d8955ee658488ac646845ec",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81868,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f3c9654b73cf15b2d96ea963578b5f761b65f10717d842ee1c765ea8fdef5036",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81868,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "28ef6ed5d92dda4bc6bdec6ec9665305c73678081cea4e249500db042fe9bcb9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81871,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1f3c5d4589cd4c8e77ca7a608b0991088d0600107d8f841dfab1395dbf52dd9b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81871,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "86f7ef0aa5944a077f2def6c60028044106b163dd99da6d831020f9f5df29f58",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81871,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "c8ce7ff814c9ebfbbab34065205ec136efccf4ddcd718df664ab244fd6b65dcf",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81872,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "70001e31330833e23a10f1f6f9ef9f0e6bdad5343f56afa9042191032b9f5ac6",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81872,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "6cd460caa56568b11fbf589685c3d1b240cd273b6d00b58af3332986fcb9865b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81872,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5bd0803836644330505616079e742a8c53b00bf645a8e575707aed7cadfa94ab",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3383,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3885,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "5cc0c4ecf5d0a6412c7cef8555a283905a6dce502465ebc404ae13b12aed2568",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3885,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "6df1457c228da3cd78b70832dee41ea009c6ec4ed9c2d4c03e4e7471ae2cc818",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3885,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "83188cfded069749414f383912cee920c89b1f9b3311dfe844cd597f404d232f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1156,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1156,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1156,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "69810309bb67ef4658177aec13dcdc14dae30da40eacb4d37c9f1d8d82b459aa",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7487,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "c17b2451761daf0f922e90cc5566003a9a44882d770099b5dfb04871e918a7c9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7487,
+      "field": "progress",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "3bc3ce2f7888e4a21f84481acb51fda4a76ad659a2e6b32c7b71f7599a9c86d1",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 9556,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "64f7af8a2f70edcafdde3803a8717c8168ad3574ab7f5030ae919f8a4c01cbe0",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 9556,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "1d80efc5d6848d81532bd020b324fcf403508ce38105a6241e995d1de5477ffb",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 9556,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2b89923c346115162d32043fafe8a8f107aaab0a1eaf70b1ae5a52313ea8e9da",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 260,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "cbbb926f3945f693622bec75bdc64c758f45e683848df9a5a4a7909bff9169bc",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 260,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "13c7288551b2c3c0fce64b5be5ae26b4bd959051c1f9e8e50d13fc88444747ca",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 260,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 811,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "0a5766c661cc6449fa101d3e43ec4c31a711aa93ffb5ca22d3df1837047adf44",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 811,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "765ae3b9fccecf6dd113e9fd716cfdd60cde2114813d86b5688b29695e385c31",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 811,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 856,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "c35b11ca23fdfed4efd944d5272eca13bc2ac5dbc81908d6f1470d618eabb790",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 856,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "ea379d273d8317d5b30ab370eb1c33fc1c344e749f09d03be67c11b47746e06c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 856,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1155,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1155,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1155,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "f6dc233e28c7cedf4e8ecb700af562a45c8472f5f60efa4beed140eead9ae5df",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1157,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "652027f4bdebb17739bef444b414405081e699f6040b22111e471302789e2ba8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1158,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1158,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1158,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "1dab43ab4dd0090d2c0c56fe02e5a35558d8d39ae5c85e91fec7c37989063685",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1161,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1161,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1161,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "0974dc27c50442216f464c937ccb8d1c42cb2f034f4b1245cfc9a4b4cd42b4d8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1162,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1162,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1162,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "aeaca24217c2a2cef9e3e77121a2f3e26062641269c7ebf74acb1d3c43b8226c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1163,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1163,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1163,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "369ad49cb26619cdf549dbbdcd18c3ba3f4645e7b025698a9aa12e7ee09a2c56",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1289,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "004ee1eaec6a834c71e8d03945e4d47ca6c69898d98bbd341a420e81f452da21",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1289,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "5a032305a7e4a2ba6929c6eb80338ab3ad9ebbe53fe5908cb1b7c864e3a7396d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1289,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "ac918ac2f6bf781029e8c6aadb2070b9e9a3e7895085effc007ee86254ffebb2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1390,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "edbbff1c2fd5ef7a8ce0105d6b7616d51402267fd6947c6727cda71db105cf18",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1390,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "946b1f9f077786b7dde8f398676ca9f0ec3ffbde2608488dc4d304084f65bc95",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1390,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "946b1f9f077786b7dde8f398676ca9f0ec3ffbde2608488dc4d304084f65bc95",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 1390,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "0970bddb4bcdd62c05517a386762258dfcb6252cc1932742e088a789d7875ce8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 2868,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "6a394ad43496bccdf86a52cdfaefe3cfddb0beab2f58ce31e126edfd9dc9dac3",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 2868,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "171ef8d92860d4f9ec0cd202ffc0f6c5244a6a691a97d7d3ec7a4ecd993bf176",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3111,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "28cc19503d960b24eaeb217942008eef3d2a73fba833432064acf37e28de2a65",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3111,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "adec6ac518fe0a605353bbcf2fb9df2b33a9ae69bd9b2bb7b369a74ab9bc9705",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3111,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "3b68acea4e41f2dce9fe3d1e1e733bf6bb5821403ef420562a021cd4df16450a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3384,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3401,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3403,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3404,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3405,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3422,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3424,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3515,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 3516,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5205,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5207,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "b83f786a92008a34c7fd99d92ce545d60fb39b1b7377d03a8d057c4b05510940",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5209,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5383,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "3ccb4419e14d4a197dffabe386670a5690db401cedf2ebbc942704acf4ed5031",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5506,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5512,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5516,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5520,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5523,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5530,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "736d950501566e5462ac65989b7c1757a0588c67d8ba4aa664e8fa82bc9fbc67",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 5532,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "caa833ef2866f6b2980d17d590519e329ee86874f9eeb5cf4b59ca33b5a9a4e9",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6165,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "3ec715d57eae4067d887aede70b639063b6702c27702ab6564194278e9686fd2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6201,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "3551d06517145deee2c90d0087546e89d3e7017ec3a18827236e9c286249221b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6841,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6841,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6841,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6842,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6842,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 6842,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "516e70de614e36854cac93b1001c5c0ecdf35699a53a88e0d2f4049ac6efc8f4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7521,
+      "field": "completion",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "dae69aa56b685ef9cc5d123e8e22796aa5b2c20631f272e6575eb915f8532197",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7521,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "c69e714a66adfcf73ad8f5fac42bf26efd02134d563cc72f19746869be1e796d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7521,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "14039473deca0b3393319b3405916e0cbe789349081a1749df5e48f836be5276",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7521,
+      "field": "progress",
+      "source_kind": "vmangos@13b49dc",
+      "english_sha256": "87b73b52d94632c73920b038ff3df397deb3caa78d8a929b1566c028d0296b04",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 7521,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "3f29ed7016186a6c1abd7c70d54a4cd7a66df8543232cb819e988045c6c13e14",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8237,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "c5c219fe1c6573aa134657b8793cc6b7a2cff56c2354a5595774ec3c5577362b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8444,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8444,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8444,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "0974dc27c50442216f464c937ccb8d1c42cb2f034f4b1245cfc9a4b4cd42b4d8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8445,
+      "field": "description",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8445,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 8445,
+      "field": "title",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "0974dc27c50442216f464c937ccb8d1c42cb2f034f4b1245cfc9a4b4cd42b4d8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 9030,
+      "field": "objective",
+      "source_kind": "pfquest@7786596",
+      "english_sha256": "74e1436c0446ae2b7741e68ec45f371ad002a4eb11d969ae01ccc9523955474a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 80241,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a5b564365f489f8fba09ad09a592847b1cbe028877476051f1c02da761d2af61",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 80241,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "252644e4c7a1d9c83dbeecd82a79c45418a77f449206f5c8c09522cda52bc5cb",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 80241,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f4b9807202722eccb5a94cb40de8d30b9203e4b7f1a38c0262a96c1f1868810d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81770,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "cf078b2ec2b8c7d46fb7a2043d238f253e578aa086970aed20069c6b541eada1",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81770,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "07b951d4aa46f3056d4319d9dc34683eb0b42db22d9b3125da8e756c5f926a41",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81770,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "8fe9b252fd77c8637ad822fa91b3aa6a4709ccc83cc0ee0455acec4332a1c5cd",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81778,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0a34fe72e134e518ed47cc667c0b603cddb8b21972203d15bddb9ddc33746104",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81778,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "ba09e23e71c3792dfe203fdae221abe54a29335e2b237242df23d10b7b677d28",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81778,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5ec04d7c3de62e22c6058c4e1bc6790dd4825658cf57c35ef3b6c7b7604fad9b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81788,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f8e12355eb4343f29b9da114713fefd940d03990d51c291ad59e9766591bc587",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81788,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0b76ad07fb050626ed6bfabc768d075760e90075c847408c3cce33091b484771",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81788,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "3160c9326e7de0ac955f9dd1f401e5fcb92a9b9a9de3351e7bb4b125dc394a61",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81820,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d0eb0c7882112d66cd30469164dbfbfa9f0b760ae024fbdb3590c52931571924",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81820,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "da41b668035ee83149cc5fd7e059f1ff93c3e70c2651240141771f9b6281af52",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81820,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4c7a8d0ca763959dcb3e7130d566ea372fce54b5fae13303a17b9b62e940a133",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81826,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1dc937951a7c8dfca01690b07cca0268766fc07507073a500b52622035677fa2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81826,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "b1e3c9cdc795887e882abff4b5eef622b49cf31164e3082ce37c9ff049f108f2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81826,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "29580c1941b1af5c2cb5ddc9beebaad5b4e4b864ba6e40eeb33cde2e831d0cff",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81832,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "63fd0151647ef5182d4f43033ba3c0dfd07949ef684215e3320e124143274d5a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81832,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "ebf8776ea6c0efcf8902286b6515c84aa78c779c57473990b6c646fabb61bb55",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81832,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "bf63b4a0ee8400c5a691e46d814bdeeb47e9bb208bcf88ab4223ca1830e7a7d1",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81833,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "ffaeb6922aff4e49d01570a53a9f73954bb1abdb4763a4c344ac5e3d5ec62c64",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81833,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "579ab64bd82140237c406501a00d3f6598818fec21c822ddbf7fef8178b3491d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81833,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "df5da2baca8cb6167ebee33aac24511431f338e6d2abd6c78bdd6603e8d32617",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81835,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "68b6a420998790462341e42410befb9da72c2fc1fd5c9d927e248c4fa2f72bbc",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81835,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "e0df2bece831aa073223c3c52f40ccf282488c2753834b8235e06352963c9625",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81835,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "28f624272ff63dc98cc7cd2f41debe922a8960a797071e4b04282613cecba5a2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81837,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "f706a4d25d70438ceb3d17be412ed62cbe02baa2bacef4d986d711925edd832f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81837,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0ce0fab7541a47ec5923f16e1d64faf0512ce528ae646b274e95de77bf6a3b6f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81837,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "58a9f2c33bcee5a1aa0d8b169816e41504cbb7bbd8c85b92fec045e73119f71e",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81856,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d621ef7cfcbbe36efd757d72ac160ce26328028daf24780b4ad074634f679b36",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81856,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "bf62dbed916ed981d1e776a3fe3cd03ab493a666455efa43ae3f6718f9ae86a5",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81856,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "2540d93c792711b6f8192a806b7366d5d9e184328f751f936b2b8279e24b3cc2",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81857,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "63e8169141ac9a915a02fcc158fccea51d545a22625b71c05df613514790b3e3",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81857,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d6416b5b0c0db95749360e4b98d41df6a8dac40cecae73cba01da1cb3eb67380",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81857,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "e5f18870e10c736a22734f3004112e4daa2832357ea1b62a4c972a8d9e137eaf",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81860,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "1597f042c97898444bf2a44d823cc3ff4d2c7d230e167337d4c128e61fdef9f7",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81860,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "4112eb93c041099fe0c22bc9389d1ad6af69fbb41d8f626ccba7e826a0e87363",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81860,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "c29a2f4083e35aa30fb955d69d6d8c0736fece59d9e69508344afc112dc43dbb",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81866,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "e0512803fc06f079ffc4e6a2388cb6038cbb677ea04105fcfb125163885359c0",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81866,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "ac380595bb183df5cdb9af85c2eaf98ef0de64357491452edeaf3831ea99cded",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81866,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "96d90ef766a923821b0eee72fe5a169be6a1555e0f9e8b047fbaf738f3a08a1f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81870,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "c197c64188355844c5c42edcf82d8f6b8a483840234e29b32c0b6ea0e81b064f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81870,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "a218a41996b838f0f2e9e712b2926277bce2a640e21fb7d84644edffaaf0af3d",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81870,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "344a85e1d9eb03ecd443195a492babbe26062cd1ab09d9dd8c5dd76eb8e49b98",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81873,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "09a74c2e4984481e7330ef464afdfb7434cd4a0612b5774c3273bc38f0af6bb8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81873,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "e0b2fd2610df2ed9000499ce85edc132681856dc45e3d6516bb2dcd88442be89",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81873,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "7fdad96a4553b349408f3ad183cfd83745e842ef5d8cc03e9d035f8bb831e495",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81874,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d050f891826f89f5ecae40c00c61b4c8f7c506225dc1ad6291effb32983d20d6",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81874,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "97d34a44872d123d60319fc5faaf75296e75f812995db397be2eaa4f309d6049",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 81874,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0af589aea555717bb9fb9aabf1838de15a42c9fa880e9fda5cfcfe2c4709ffd3",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 82656,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "202c8e726d3095ed0a19457f63e2f1e2efaf6ce046e203a07da4da8506f139c4",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 82656,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "62715a189cadf820b237974bf9216916910b9050e00bf5c8966dfbc3c88a6bfd",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 82656,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "564702500ee6d68f315f4f0d080bc06061ddad2593365549f1a1f95b4928f76f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 82657,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "25dfae783b0d6ac58ff76caee37703e21c31e67fe82e12d98e33175c2808927c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 82657,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "5abb60dc95febd6b3ad664b51761d3b56204ad34b89530bfe145ac0d799baedd",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 82657,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "564702500ee6d68f315f4f0d080bc06061ddad2593365549f1a1f95b4928f76f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 84338,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "e9066cd25ee87055baa254f839954d743eec20fd5695a3da099884ecb9520cc7",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 84338,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "b3d34e3194b266e5b7675607ef242f2998b6c116747900df888b93d2a5b85654",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 84338,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "46c7e45c210e4e61ee7b0a69e9df4713bdcb251465398c6c583da0725ecada6c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 84495,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "ea668311a206ab8429f88a3aa7197fde98d8180dc692cd81f2535b5763682fc6",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 84495,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "2e6fc6741e42b94d263acf9ebbbd876497b1dfef4da0df02bebbc1f89b1e4b7a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 84495,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "60f556f121796c71ee0211f3f0a81773a95d901ddc6bf77819e872051537026c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 89381,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "fa32d166362ccc8113c0cc24df95ece796a02fadbbef07afbd413582dbd1db0c",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 89381,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "7abb645c65adb36131d24ecc989410d05a59c94cde79876a773f0ac8d9f0e98a",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 89381,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "52663a03dd48a3637b284255034e2f9f6f2ee0db17c38afcbed7cbe39c3b3045",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 89463,
+      "field": "description",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "95e075b6161ec8a5fd606031333612101c34cbbe098219d4b175f9cdc187c69b",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 89463,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "d4f6b6bacccd4629f11c076763f3f8af1af648c561bcad7f22e27dce93e998c8",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 89463,
+      "field": "title",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "0b5a97eceaf770666e997f739acf1bb8e64cf565c2bf51a971e0d9762b7e789f",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    },
+    {
+      "quest_id": 90116,
+      "field": "objective",
+      "source_kind": "wdb@1.15.9.69722",
+      "english_sha256": "11323b296503590398875eba49640179e7a477bc181acff9d00ba8b6cddb3c54",
+      "reason": "Classic Era WDB/pfQuest/VMangos only; not current Forever prose proof."
+    }
+  ],
+  "decision": "Stop this bounded source queue: no corroborated enabled new main prose. Preserve candidate13; do not switch NPC/book/party or rerun unchanged tests.",
+  "runtime_files_unchanged": 137,
+  "japanese_translation_imported": false
+}

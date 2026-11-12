@@ -1,6 +1,6 @@
 {
   "batch": "main13",
-  "status": "Root_reviewed_807201e_font_ready_package_pending",
+  "status": "Root_reviewed_font_ready_delivered_candidate13",
   "baseline_runtime_tree": "f15e81e113bc38214f7a22f4179d3380ce812ea9",
   "source_limit": "Web tool labels these pages rewritten summaries; stored strings are the full observed field, not a raw-body hash. No exact client build is claimed. Typed role proof comes from own-ID angle-bracket labels, not uploader identity or Classic prose.",
   "counts": {
@@ -109,7 +109,7 @@
     "quest_97048": "No new reaction body qualified from old canonical similarities."
   },
   "font_status": "20_runs_60_glyphs_Thai89_append_only_readiness_passed",
-  "package_status": "candidate12_immutable_no_new_zip",
+  "package_status": "candidate13_immutable_5171d8b741e6d297a447996ff6eb064da93250a7",
   "test_scope": "Only affected quest fields and exact preservation; no unchanged NPC/Skill/party/full suites.",
   "root_review": "807201ee92fdc2633db39387359116063df74c0a"
 }
