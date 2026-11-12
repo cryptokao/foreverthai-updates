@@ -250,3 +250,11 @@ Result:0source-ready mainfields,0newmainThai/prose/aliases,0runtime/font/version
 - Primary full own-ID Forever completion sections independently corroborate6bodies/typedslots. Metadata levels29,39,45,49,59,60 from pinned QuestieDBForever file are not current eligibility proof; page build unknown. Actual new/expandedThai2fields/2IDs:2881TrollNecklaceBounty and7801AdditionalRunecloth. Reuse4fields:8384/8391reuse8392wording;8441/8442reuseexact8390completion.variants[1]. Do not count reuse as newThai/prose.
 - Six explicit new variants appended; all old97,822Catalogvalues/fullbyteprefix and136othercandidate13runtimefiles retained. No sharedmatcher/settings/fonts touched. New static affected-only oracles6positive/18negative passed. Oracle caught accidentally selecting8390basewording rather than its matchingvariant; corrected to exactexistingvariantbeforecommit. No unchanged13/686/party/Skill/full suite rerun.
 - Root English/Thai review pending before font. No new ZIP/version/feed change, no in-game claim. All592dispositions complete; stop unprovenidentity/historicalresearch and auxiliary work this turn.
+
+
+## Main15 final wording and affected font — Rootb7b5124
+
+- Applied only Root's final2881Thai to Catalog/evidence/staticoracle. Other five English/Thai pairs and their independent oracles exactly unchanged. Final2881ThaiSHA8761f0b9db8b22808136d56ccd1aa280dce9bdd9c95cab490f84b38ad6e3a53f; finalCatalogSHA88512b4f5280319e753da5bfc0efb11fd2ed835023999a457d2169e6cd559de6.
+- Executed only edited2881case:1positive/3negative passed; prior six-case report remains scoped to its earlier hash and is not relabeled as rerun. Oldcandidate13Catalog byteprefix retained.
+- Appended only3missingThai runs/22glyphs/Thai90. Affected12actualBitmapLayerdraws/bounds/alpha passed; all oldAtlasglyph/run/page data and135othercandidate13files,28protectedSkillfontassets retained. No unchanged686/party/Skills/full suite rerun.
+- Combined candidate15/readback follows. Retain13immutable; no source research/roleholds/auxiliary work after this delivery.

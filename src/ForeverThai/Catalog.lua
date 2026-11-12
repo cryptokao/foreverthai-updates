@@ -71298,7 +71298,7 @@ addon.quests[8384].completion.variants[#addon.quests[8384].completion.variants +
 addon.quests[8391].completion.variants = addon.quests[8391].completion.variants or {}
 addon.quests[8391].completion.variants[#addon.quests[8391].completion.variants + 1] = { "16:1549935302:71513149 C 74:1993555773:675042498", "ยอดเยี่ยม {class}! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้" }
 addon.quests[2881].completion.variants = addon.quests[2881].completion.variants or {}
-addon.quests[2881].completion.variants[#addon.quests[2881].completion.variants + 1] = { "124:742970577:659373907 N 24:1389578358:1343985115", "สร้อยคออีกชุดหมายความว่าโทรลล์ใน Hinterlands ที่เราต้องกังวลถึงมีน้อยลงแล้ว! เจ้าทำได้อีกแล้ว {name} ทำดีเช่นนี้ต่อไป!" }
+addon.quests[2881].completion.variants[#addon.quests[2881].completion.variants + 1] = { "124:742970577:659373907 N 24:1389578358:1343985115", "สร้อยคออีกชุดก็หมายความว่าใน Hinterlands มีโทรลล์ให้เราต้องคอยระวังน้อยลงแล้ว! เจ้าทำได้อีกแล้ว {name} ทำผลงานให้ดีแบบนี้ต่อไปนะ!" }
 addon.quests[8441].completion.variants = addon.quests[8441].completion.variants or {}
 addon.quests[8441].completion.variants[#addon.quests[8441].completion.variants + 1] = { "16:1549935302:71513149 N 84:792529081:126367881", "ยอดเยี่ยม {name}! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ" }
 addon.quests[8442].completion.variants = addon.quests[8442].completion.variants or {}

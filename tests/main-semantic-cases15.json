@@ -1,11 +1,65 @@
 {
- "scope":"Six manually written full rendered English/Thai oracles, independent of template/signature generation.",
- "cases":[
-  {"quest_id":8384,"field":"completion","name":"CloudTester","class_name":"Hunter","class_id":"HUNTER","race":"Human","english":"Excellent work, Hunter! Your efforts will help to provide the Alliance with the resources it needs.","expected":"ยอดเยี่ยม พราน! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้"},
-  {"quest_id":8391,"field":"completion","name":"CloudTester","class_name":"Mage","class_id":"MAGE","race":"Human","english":"Excellent work, Mage! Your efforts will help provide the Alliance with the resources it needs.","expected":"ยอดเยี่ยม จอมเวท! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้"},
-  {"quest_id":2881,"field":"completion","name":"CloudTester","class_name":"Priest","class_id":"PRIEST","race":"Dwarf","english":"Another set of necklaces means that there are fewer trolls in the Hinterlands we have to worry about! You've done it again, CloudTester. Keep up the good work!","expected":"สร้อยคออีกชุดหมายความว่าโทรลล์ใน Hinterlands ที่เราต้องกังวลถึงมีน้อยลงแล้ว! เจ้าทำได้อีกแล้ว CloudTester ทำดีเช่นนี้ต่อไป!"},
-  {"quest_id":8441,"field":"completion","name":"OtherTester","class_name":"Shaman","class_id":"SHAMAN","race":"Orc","english":"Excellent work, OtherTester! As long as Arathi Basin stays under our control our supplies will be well stocked.","expected":"ยอดเยี่ยม OtherTester! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ"},
-  {"quest_id":8442,"field":"completion","name":"CloudTester","class_name":"Druid","class_id":"DRUID","race":"Tauren","english":"Excellent work, CloudTester! As long as Arathi Basin stays under our control our supplies will be well stocked.","expected":"ยอดเยี่ยม CloudTester! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ"},
-  {"quest_id":7801,"field":"completion","name":"OtherTester","class_name":"Warrior","class_id":"WARRIOR","race":"Night Elf","english":"OtherTester - without heroes like you working on behalf of Darnassus, we'd surely suffer. Thank you for your continued efforts!","expected":"OtherTester หากไม่มีวีรชนเช่นเจ้าคอยทำงานเพื่อ Darnassus เราคงทุกข์ยากแน่ ขอบคุณที่เจ้ายังทุ่มเทช่วยเหลือ!"}
- ]
+  "scope": "Six manually written full rendered English/Thai oracles, independent of template/signature generation.",
+  "cases": [
+    {
+      "quest_id": 8384,
+      "field": "completion",
+      "name": "CloudTester",
+      "class_name": "Hunter",
+      "class_id": "HUNTER",
+      "race": "Human",
+      "english": "Excellent work, Hunter! Your efforts will help to provide the Alliance with the resources it needs.",
+      "expected": "ยอดเยี่ยม พราน! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้"
+    },
+    {
+      "quest_id": 8391,
+      "field": "completion",
+      "name": "CloudTester",
+      "class_name": "Mage",
+      "class_id": "MAGE",
+      "race": "Human",
+      "english": "Excellent work, Mage! Your efforts will help provide the Alliance with the resources it needs.",
+      "expected": "ยอดเยี่ยม จอมเวท! สิ่งที่เจ้าทำจะช่วยให้อัลไลแอนซ์มีทรัพยากรที่ต้องใช้"
+    },
+    {
+      "quest_id": 2881,
+      "field": "completion",
+      "name": "CloudTester",
+      "class_name": "Priest",
+      "class_id": "PRIEST",
+      "race": "Dwarf",
+      "english": "Another set of necklaces means that there are fewer trolls in the Hinterlands we have to worry about! You've done it again, CloudTester. Keep up the good work!",
+      "expected": "สร้อยคออีกชุดก็หมายความว่าใน Hinterlands มีโทรลล์ให้เราต้องคอยระวังน้อยลงแล้ว! เจ้าทำได้อีกแล้ว CloudTester ทำผลงานให้ดีแบบนี้ต่อไปนะ!"
+    },
+    {
+      "quest_id": 8441,
+      "field": "completion",
+      "name": "OtherTester",
+      "class_name": "Shaman",
+      "class_id": "SHAMAN",
+      "race": "Orc",
+      "english": "Excellent work, OtherTester! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+      "expected": "ยอดเยี่ยม OtherTester! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ"
+    },
+    {
+      "quest_id": 8442,
+      "field": "completion",
+      "name": "CloudTester",
+      "class_name": "Druid",
+      "class_id": "DRUID",
+      "race": "Tauren",
+      "english": "Excellent work, CloudTester! As long as Arathi Basin stays under our control our supplies will be well stocked.",
+      "expected": "ยอดเยี่ยม CloudTester! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ"
+    },
+    {
+      "quest_id": 7801,
+      "field": "completion",
+      "name": "OtherTester",
+      "class_name": "Warrior",
+      "class_id": "WARRIOR",
+      "race": "Night Elf",
+      "english": "OtherTester - without heroes like you working on behalf of Darnassus, we'd surely suffer. Thank you for your continued efforts!",
+      "expected": "OtherTester หากไม่มีวีรชนเช่นเจ้าคอยทำงานเพื่อ Darnassus เราคงทุกข์ยากแน่ ขอบคุณที่เจ้ายังทุ่มเทช่วยเหลือ!"
+    }
+  ]
 }

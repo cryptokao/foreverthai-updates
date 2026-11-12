@@ -1,6 +1,6 @@
 {
   "scope": "Six own-ID completion body variants from the bounded Stein485/Spoken107 semantic triage. Original canonicals/aliases preserved. Main only; no checklist/name normalization rule introduced.",
-  "status": "English_Thai_ready_for_Root_review_before_font",
+  "status": "Root_reviewed_final2881_font_ready_package_pending",
   "baseline_runtime_tree": "f85a68ca9c2ade231310620e693765cd99eebfc1",
   "counts": {
     "new_or_expanded_thai_fields": 2,
@@ -72,7 +72,7 @@
       "english": "Another set of necklaces means that there are fewer trolls in the Hinterlands we have to worry about! You've done it again, $N. Keep up the good work!",
       "english_sha256": "31ef6f9676f4e196e9173615da405a3950a77ae7709962fc4217c8bdc9c02021",
       "signature": "124:742970577:659373907 N 24:1389578358:1343985115",
-      "thai": "สร้อยคออีกชุดหมายความว่าโทรลล์ใน Hinterlands ที่เราต้องกังวลถึงมีน้อยลงแล้ว! เจ้าทำได้อีกแล้ว {name} ทำดีเช่นนี้ต่อไป!",
+      "thai": "สร้อยคออีกชุดก็หมายความว่าใน Hinterlands มีโทรลล์ให้เราต้องคอยระวังน้อยลงแล้ว! เจ้าทำได้อีกแล้ว {name} ทำผลงานให้ดีแบบนี้ต่อไปนะ!",
       "source_url": "https://www.wowhead.com/forever/quest=2881/troll-necklace-bounty",
       "typed_roles": [
         "current_player_name"
@@ -87,7 +87,8 @@
       "prior_thai": "อย่างนี้สิ! สร้อยพิสูจน์ว่ายอมลงมือ Wildhammer ให้ค่ากับคนที่เราคบเช่นนั้น\n\nทำต่อ แล้วเราจะยิ่งชอบเจ้า",
       "reuse_quest_id": null,
       "classification": "new_or_expanded_Thai",
-      "current_usage": "Own-ID Forever primary phase and Forever metadata present; current server eligibility/build not established. No playable inventory coverage claim."
+      "current_usage": "Own-ID Forever primary phase and Forever metadata present; current server eligibility/build not established. No playable inventory coverage claim.",
+      "thai_sha256": "8761f0b9db8b22808136d56ccd1aa280dce9bdd9c95cab490f84b38ad6e3a53f"
     },
     {
       "quest_id": 8441,
@@ -167,7 +168,7 @@
       "current_usage": "Own-ID Forever primary phase and Forever metadata present; current server eligibility/build not established. No playable inventory coverage claim."
     }
   ],
-  "font": "pending_Root_review_no_append",
+  "font": "3_missing_runs_22_glyphs_Thai90_affected12BitmapLayerdraws_passed",
   "package": "candidate13_remains_immutable_no_new_package",
   "level_metadata_source": {
     "repository": "Questie/QuestieDB",
@@ -175,5 +176,6 @@
     "path": "data/Forever/foreverQuestDB.lua",
     "sha256": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942",
     "note": "Only six own-ID rows consulted. level is metadata, not a live current-eligibility proof."
-  }
+  },
+  "root_review": "b7b5124eb29bf144b5515344012cf0a1cc5d0553"
 }
