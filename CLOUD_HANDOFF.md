@@ -1,5 +1,8 @@
 # Alphaverse THAI SUB — Codex Cloud continuation
 
+> Current checkpoint (2026-11-13): read [CURRENT_STATE.md](CURRENT_STATE.md) first. Candidate12 is the latest verified complete private package; original transfer steps below are historical and must not be restarted. Full-game source/inventory and real Windows/Mac M2 acceptance remain unproven. The active bounded follow-up audits24 unqualified existing speech identity forms; it does not enable them or create new prose.
+
+
 The user requests continued reviewed Thai translation of all WoW Forever quests and NPC quest dialogue. Main quest coverage takes priority, low level to high level, before polishing old wording. The user's latest clarification is to prefer Codex Cloud, with Codex Local on their computer allowed when Cloud is genuinely blocked. Reasoning and translation should use hosted OpenAI models; do not automatically launch or install local AI inference that consumes CPU/GPU. Keep local commands light and serial, prefer Cloud for heavy font/build/test work, preserve current Cloud changes before any handover, and avoid two concurrent writers. Browser upload of the existing files was separately authorized and completed.
 
 ## Verified transfer
