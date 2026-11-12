@@ -258,3 +258,11 @@ Result:0source-ready mainfields,0newmainThai/prose/aliases,0runtime/font/version
 - Executed only edited2881case:1positive/3negative passed; prior six-case report remains scoped to its earlier hash and is not relabeled as rerun. Oldcandidate13Catalog byteprefix retained.
 - Appended only3missingThai runs/22glyphs/Thai90. Affected12actualBitmapLayerdraws/bounds/alpha passed; all oldAtlasglyph/run/page data and135othercandidate13files,28protectedSkillfontassets retained. No unchanged686/party/Skills/full suite rerun.
 - Combined candidate15/readback follows. Retain13immutable; no source research/roleholds/auxiliary work after this delivery.
+
+
+## Candidate15 — final combined immutable delivery, batch closed
+
+- ZIPForeverThai-0.462.0-cloud-through-batch15-main-PRIVATE-TEST.zip,138files/17765184bytes/SHA25665fcf5e9f97681d032a13122a76583aed28ac2edbee17a83319ee5f1a77838ce. Sourcea55f2b7/runtime treee70c269462ae6359355c510d0f49e7ed25d81356;immutable artifact18fee262df0b2a225eb4958079504c08a097d9c7.
+- Cloud downloaded ZIP/Thai guide/manifest back and verified all138safe paths/every runtimebyte,24TOCpaths,28protected Skill/font assets,settings/SavedVariables/Questie.13→15onlyCatalog/Atlas changed+Thai90added,removed0,135otherfiles identical. Retained every component and13immutable.
+- FinalRoot2881wording checked only its1positive/3negative;other5pairs/oracles unchanged. Font15checked12actualBitmapLayerdraws/3newruns/22glyphs witholdglyph/run/pagepreservation. Prior6case report remains scoped topre-editSHA;no686/party/Skills/fullsuite rerun or livegameclaim.
+- Two new/expandedThai fields/2IDs(2881,7801),four reusedexistingThai fields(8384,8391,8441,8442).592triage complete546format/name/checklist,6ready,40held;allIDs/proofgaps already saved. No newversion/customerfeed update. Batchclosed;no more role research,NPC/book/party orcleanup work.

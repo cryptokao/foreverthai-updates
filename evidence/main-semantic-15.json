@@ -1,6 +1,6 @@
 {
   "scope": "Six own-ID completion body variants from the bounded Stein485/Spoken107 semantic triage. Original canonicals/aliases preserved. Main only; no checklist/name normalization rule introduced.",
-  "status": "Root_reviewed_final2881_font_ready_package_pending",
+  "status": "Root_reviewed_final2881_font_ready_delivered_candidate15",
   "baseline_runtime_tree": "f85a68ca9c2ade231310620e693765cd99eebfc1",
   "counts": {
     "new_or_expanded_thai_fields": 2,
@@ -169,7 +169,7 @@
     }
   ],
   "font": "3_missing_runs_22_glyphs_Thai90_affected12BitmapLayerdraws_passed",
-  "package": "candidate13_remains_immutable_no_new_package",
+  "package": "candidate15_immutable_18fee262df0b2a225eb4958079504c08a097d9c7",
   "level_metadata_source": {
     "repository": "Questie/QuestieDB",
     "commit": "c6745129ef9ea5e6dd1cdcd77224090f71bda880",
