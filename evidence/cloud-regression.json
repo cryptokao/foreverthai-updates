@@ -27,5 +27,6 @@
   "old_runs": 102317,
   "new_glyphs": 705,
   "new_runs": 207,
-  "scope": "Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; fresh pinned API-source proof is reported separately in npc-api-proof.json; not in-game verification."
+  "scope": "Cloud main/book/structural checks through batch07 at tested_runtime_tree. Batch08 has its own focused preservation/handler report; this report is not a rerun against08. Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; fresh pinned API-source proof is reported separately in npc-api-proof.json; not in-game verification.",
+  "tested_runtime_tree": "1547af8d6d56fdd9a0f5234466b70799825dac7e"
 }

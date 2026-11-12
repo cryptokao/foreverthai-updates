@@ -14,6 +14,7 @@ lua.execute('UnitName=function() return "CloudTester" end; UnitClass=function() 
 batch1=json.loads((ROOT/'evidence/main-objectives-01.json').read_text());batch2=json.loads((ROOT/'evidence/main-phases-02.json').read_text())
 batch4=json.loads((ROOT/'evidence/main-query-04.json').read_text())
 batch7=json.loads((ROOT/'evidence/books-labels-07.json').read_text());new_book_pages={(v['book_title'],v['page']) for v in batch7['fields']};new_book_titles=set(batch7['new_book_titles']);historical_steps={(v['quest_id'],v['step_index']) for v in batch7['historical_label_aliases']}
+batch8=json.loads((ROOT/'evidence/npc-gossip-08.json').read_text());new_npc_ids={v['npc_id'] for v in batch8['fields'] if base.npcs[v['npc_id']] is None};new_npc_lines={(v['npc_id'],v['line_index']) for v in batch8['fields']}
 batch6=json.loads((ROOT/'evidence/main-counters-06.json').read_text())
 batch5=json.loads((ROOT/'evidence/main-hyjal-05.json').read_text())
 batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']+batch5['fields']+batch6['fields']}
@@ -27,6 +28,7 @@ def equal(a,b,path=()):
   for k,v in b.items():
    if a[k] is None:
     allowed=path in [('runs',),('glyphs',)]
+    allowed=allowed or path==('npcs',) and k in new_npc_ids or len(path)==3 and path[0]=='npcs' and path[2]=='lines' and (path[1],k) in new_npc_lines
     if path==('books',) and k in new_book_titles:allowed=True
     if len(path)==2 and path[0]=='books' and (path[1],k) in new_book_pages:allowed=True
     if len(path)==4 and path[0]=='quests' and path[2]=='steps' and (path[1],path[3]) in historical_steps and k=='variants':allowed=True
