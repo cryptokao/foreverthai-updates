@@ -218,3 +218,9 @@ Result:0source-ready mainfields,0newmainThai/prose/aliases,0runtime/font/version
 - Scoped comparison also searched for the two new rendered bodies across the existing quest Catalog; no existing matching translation found. New-source details/pins and excluded fallback provenance are in main-new-source-discovery13.json; no raw concrete player names were published.
 - Affected-only Lua5.1 checks: four unique source cases, six independent static rendered positives,20 negatives;97,814 old Catalog data values and the full prior Catalog byte prefix retained;135 other runtime files byte-identical to candidate12, including shared Match/Skills/fonts/settings. Initial harness incorrectly compared separately loaded function identities; moved data preservation comparison before loading unchanged Match and reran only this affected harness. Final report is main-primary-regression13.json.
 - Root Thai review pending. No font rebuild/append, ZIP13, version bump, customer feed change or unchanged full/NPC686/Skills/party suite rerun.
+
+## Candidate13 fonts — after Root main13 approval807201e
+
+- Appended only20 missing Thai runs/60 glyphs on Thai89.tga for reviewed main13 rendered text across all supported class/race mappings; no old runs/glyphs/pages changed.
+- Affected readiness passed29 actual BitmapLayer draws, bounds/alpha checks,134 unchanged candidate12 files and28 protected Skill/font assets. Catalog was already approved; only Atlas plus one new font page changed in this step.
+- No unchanged main/NPC686/party/Skills/full suite rerun. Combined package/readback follows; customer feed/version unchanged.
