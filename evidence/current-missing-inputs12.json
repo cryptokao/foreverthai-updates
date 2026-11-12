@@ -1,0 +1,1506 @@
+{
+  "as_of_new_issue": 3428,
+  "source_heads_unchanged": true,
+  "main_source_variants_held": 73,
+  "main_variants_with_existing_canonical": 59,
+  "main_variants_without_canonical": 14,
+  "main_categories": {
+    "blocked_typed_identity": 52,
+    "blocked_non_enUS": 1,
+    "blocked_old_or_normalized_source": 4,
+    "blocked_placeholder": 12,
+    "blocked_old_snapshot_repurposed_id": 2,
+    "blocked_rendering_binding": 2
+  },
+  "main_source_ready_after_batch12": 0,
+  "new_supporting_variants_held": 5,
+  "new_literal_reuse_bindings_completed": 1,
+  "new_thai_texts_batch12": 0,
+  "new_prose_batch12": 0,
+  "main_records": [
+    {
+      "quest_id": 92479,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[0]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2069:92479-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "07b5f69f49ab9d70064eacb0c065623219bc52a1bb59185d90a0db1b851b551f"
+        }
+      ]
+    },
+    {
+      "quest_id": 98574,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[1]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2459:98574-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "5bb5f014be5b4253e92ddbfd3dd470b49db39f93bd56298f5f934951855abed6"
+        }
+      ]
+    },
+    {
+      "quest_id": 98574,
+      "level": 1,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[2]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2738:98574-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "d56183f208b5153885bab2b84cd7308e4d991d8ceb688b2cf9de357ad7e40a2f"
+        }
+      ]
+    },
+    {
+      "quest_id": 98581,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[3]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2742:98581-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "999dbf94e7ca5f1d8d5d0d6c8daa2dce587ab8fba88b8853abab655efafd3859"
+        }
+      ]
+    },
+    {
+      "quest_id": 98601,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[4]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2748:98601-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "13099e4e49462ab20ce3a73cfa93303efcef02738a1e12180dd4766b131a0975"
+        }
+      ]
+    },
+    {
+      "quest_id": 90902,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[5]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2748:90902-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "41c95be73b2f62d64b2c08fe3108e3a3424c3b000eb4a7418288b47a49d5176b"
+        }
+      ]
+    },
+    {
+      "quest_id": 92481,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[6]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2679:92481-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "4caf6e3522ae7e818f99226b01520eb20e0234f958237cf640fd9aed764d0a31"
+        }
+      ]
+    },
+    {
+      "quest_id": 92482,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[7]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2521:92482-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "a50f741988f674aea600deb8ce9466dd6b07fc219af9f6d8a453e56fc2de51cf"
+        }
+      ]
+    },
+    {
+      "quest_id": 92483,
+      "level": 2,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[8]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2681:92483-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "383d626be2c79fbd7aa2cd4aa4e460a7fedf97e105313bfa1e7fe2ac4f17c423"
+        }
+      ]
+    },
+    {
+      "quest_id": 92483,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[9]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2681:92483-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "4122db992a312cb4e8c7b2b2158cfb96d75fda0c458b918687584f9771e4cd95"
+        }
+      ]
+    },
+    {
+      "quest_id": 92484,
+      "level": 2,
+      "field": "completion",
+      "category": "blocked_non_enUS",
+      "reason": "Available capture is French, not corroborated English",
+      "next_action": "Need full enUS own-ID phase; retain existing English fallback.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[10]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2372:92484-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "b235d681a091420396f716e31dbae98ee73a975115f991c6f244a35e4596f37c"
+        }
+      ]
+    },
+    {
+      "quest_id": 92484,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[11]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2257:92484-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "0a85acdbf7b88257b5ae0fad60f238849f4cc256616ab9af13bce1564abaa341"
+        }
+      ]
+    },
+    {
+      "quest_id": 92485,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[12]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2661:92485-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "bf2e536830b77d4d71cb24f5471304d5c5071aaf4a25e8f214d2bd4f5af64ed3"
+        }
+      ]
+    },
+    {
+      "quest_id": 92532,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[13]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2575:92532-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "32368dedd444885d5b6a64a74f3b1cc29574de32755648eac30bcb55cf02f5d2"
+        }
+      ]
+    },
+    {
+      "quest_id": 5623,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[14]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2106:5623-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "2576fffb6ae5e94fe5109ef79552d66acc8c38230df65dc3c30aceaa3ec41fc0"
+        }
+      ]
+    },
+    {
+      "quest_id": 91208,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[15]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2661:91208-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "5163674533b038e363a3553f39c0453f01a4b0e63f9d2fdbd0610073bb431dfb"
+        }
+      ]
+    },
+    {
+      "quest_id": 91209,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[16]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2661:91209-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "95830b4f37a35f34a5214fb8ab324e69659221c7bc4f50a832707717c26d3300"
+        }
+      ]
+    },
+    {
+      "quest_id": 92467,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[17]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2679:92467-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "e3603a92f56fe3587744e331319f5daa11ea0dd5d7867cf35772db42b0cf9b95"
+        }
+      ]
+    },
+    {
+      "quest_id": 94373,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[18]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2742:94373-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "8fb1d92070bc099ee68eadc3e943d9edbb719dbbbd6870b515aeda5d27734e44"
+        }
+      ]
+    },
+    {
+      "quest_id": 94374,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[19]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2725:94374-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "1b364db6e50808fbf968d4d56aae8c647267de2017122a9bdc21946831b7a381"
+        }
+      ]
+    },
+    {
+      "quest_id": 96243,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[20]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2614:96243-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "6f8e8c56c25bf7d05bc1ccdd1a9c0a91d4f096f08dd5bd50a9d1f084e9bf276d"
+        }
+      ]
+    },
+    {
+      "quest_id": 96628,
+      "level": 6,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[21]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2746:96628-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "19193ffd71b3aabc34a33d47e44b44cf878b4bbe15bc26e7c8537d2577763fcf"
+        }
+      ]
+    },
+    {
+      "quest_id": 96630,
+      "level": 6,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[22]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70205",
+          "origin": "issue-639:96630-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "cded45552367d59f63bb64ac566edda00b8ac829023662970c44f3a59e8808e0"
+        }
+      ]
+    },
+    {
+      "quest_id": 6062,
+      "level": 10,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[23]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1609:6062-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "13ef20df50ca91f3059e532c0b55fe90329cd7d5f1de7dd2af2da87d84083200"
+        }
+      ]
+    },
+    {
+      "quest_id": 6101,
+      "level": 10,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[24]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2053:6101-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "aa18ba937c030014c9bf250fcd1d347fd4a5ea2d85dfa3a41b6140e16433d52e"
+        }
+      ]
+    },
+    {
+      "quest_id": 94013,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[25]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2560:94013-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "cc6d6a429d586d915d56b49250b761c8f12464e11cc2adfc479e56a5b139f8c6"
+        }
+      ]
+    },
+    {
+      "quest_id": 94792,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[26]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2121:94792-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "a842b81d9185feab88ca4364288755a4d2dcd1d5179ed4e62bfc61832d6a2c70"
+        }
+      ]
+    },
+    {
+      "quest_id": 94863,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[27]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2121:94863-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "6d72b17ae3ecd13efeba1587c0e4b05f70506ee80eb9d5cc84f2965c35a56a43"
+        }
+      ]
+    },
+    {
+      "quest_id": 94864,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[28]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70245",
+          "origin": "issue-1162:94864-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "eb8dc024476ac1e0a8d98914e59f991cc7100f92caa05e326d2b16e63f0fa71c"
+        }
+      ]
+    },
+    {
+      "quest_id": 94913,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[29]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2580:94913-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "17ce3f10c1aa2d4a1b8c670adb5d72e34aeb8f4f208a3deaaa50c4c704105f7e"
+        }
+      ]
+    },
+    {
+      "quest_id": 94914,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[30]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2496:94914-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "17ce3f10c1aa2d4a1b8c670adb5d72e34aeb8f4f208a3deaaa50c4c704105f7e"
+        }
+      ]
+    },
+    {
+      "quest_id": 94978,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[31]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70425",
+          "origin": "issue-2332:94978-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "5498920ffd281f925e22ee2bd3e39895e1b8dead0b2a85e13ee099cf980ee0c8"
+        }
+      ]
+    },
+    {
+      "quest_id": 94979,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[32]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70425",
+          "origin": "issue-2332:94979-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "5b98d849f2596f4c2b48640b7782783ac0e0d0a687701ce2cc4c36c6ca7e8da0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98517,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[33]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2672:98517-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "a1bca2d8ae3915a2c3c4632121c9268496046eed997efa9f3a72f03197030d88"
+        }
+      ]
+    },
+    {
+      "quest_id": 91294,
+      "level": 11,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[34]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70124",
+          "origin": "issue-389:91294-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "29440d403644d6d39b92709ac0ff94b3bdcb4c5840ca83449454343b59d9b132"
+        }
+      ]
+    },
+    {
+      "quest_id": 92640,
+      "level": 11,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[35]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2453:92640-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        }
+      ]
+    },
+    {
+      "quest_id": 94901,
+      "level": 11,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[36]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "5ec0f8ba490672d721a428f80ad52e22a6f36677dba67b05abd050924e7a5fb5"
+        }
+      ]
+    },
+    {
+      "quest_id": 94902,
+      "level": 11,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[37]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "5191b8d5ed630ea579b5b51172495b68196740b33091323961c185107ea4754b"
+        }
+      ]
+    },
+    {
+      "quest_id": 92708,
+      "level": 12,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[38]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2560:92708-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        }
+      ]
+    },
+    {
+      "quest_id": 92709,
+      "level": 12,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[39]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2587:92709-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        }
+      ]
+    },
+    {
+      "quest_id": 94436,
+      "level": 12,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[40]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2554:94436-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "a869c365f12d997950d3191492d6491c1b6521cdea38e6f96254665105fce5a6"
+        }
+      ]
+    },
+    {
+      "quest_id": 94440,
+      "level": 12,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[41]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2554:94440-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "54f8bb0888aca3c16b9101c99bf448209d1f430b19939dd3c0df71b72203016a"
+        }
+      ]
+    },
+    {
+      "quest_id": 94441,
+      "level": 12,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[42]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2554:94441-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "49cbcbcdf98344c34dae49ee9ff832c907ad4f7f8620edbe5827a5894aa70106"
+        }
+      ]
+    },
+    {
+      "quest_id": 92910,
+      "level": 15,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[43]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70425",
+          "origin": "issue-2309:92910-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        }
+      ]
+    },
+    {
+      "quest_id": 257,
+      "level": 16,
+      "field": "completion",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[44]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2590:257-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "971751e785172d2c4f39937fc52d9ddbb21d047956b732b8660e8a7b03654f97"
+        }
+      ]
+    },
+    {
+      "quest_id": 258,
+      "level": 17,
+      "field": "description",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[45]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2590:258-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "5809d2c2a1f64b9a5f3a3dc00a5898dc6624effe3a3ef9ed67ce58a15fd0781f"
+        }
+      ]
+    },
+    {
+      "quest_id": 92819,
+      "level": 18,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[46]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2326:92819-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        }
+      ]
+    },
+    {
+      "quest_id": 993,
+      "level": 20,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[47]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2396:993-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+        }
+      ]
+    },
+    {
+      "quest_id": 5641,
+      "level": 20,
+      "field": "objective",
+      "category": "blocked_old_snapshot_repurposed_id",
+      "reason": "Historical priest travel objective has no matching current query field; current title/quest type changed",
+      "next_action": "Need current own-ID objective body or confirmation the old phase still exists; do not import Classic travel text.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[48]",
+      "source_refs": [
+        {
+          "source_kind": "curated_historical_snapshot",
+          "build": null,
+          "origin": null,
+          "commit": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+          "english_sha256": "356d56876f9dc3449fb2ae56552d240b9a89dc45301f1e972dfd3373e7404dc2"
+        }
+      ]
+    },
+    {
+      "quest_id": 5679,
+      "level": 20,
+      "field": "objective",
+      "category": "blocked_old_snapshot_repurposed_id",
+      "reason": "Historical priest travel objective has no matching current query field; current title/quest type changed",
+      "next_action": "Need current own-ID objective body or confirmation the old phase still exists; do not import Classic travel text.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[49]",
+      "source_refs": [
+        {
+          "source_kind": "curated_historical_snapshot",
+          "build": null,
+          "origin": null,
+          "commit": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+          "english_sha256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3"
+        }
+      ]
+    },
+    {
+      "quest_id": 65604,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[50]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1643:65604-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "a601055d493f478cfcb96d02b0c733b8b999dfeab1c4db93a6efacd02f802091"
+        }
+      ]
+    },
+    {
+      "quest_id": 98340,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[51]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2528:98340-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99"
+        }
+      ]
+    },
+    {
+      "quest_id": 98393,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[52]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2517:98393-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99"
+        }
+      ]
+    },
+    {
+      "quest_id": 98397,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[53]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1674:98397-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "d6caa5f6405de81d3202b8b4e24d3e5f82fb4091decc2a91a91102f4b57d225b"
+        }
+      ]
+    },
+    {
+      "quest_id": 95250,
+      "level": 21,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[54]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70888",
+          "origin": "issue-3424-decoded:341",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "b7c72416aeed6c64b2f6538d7c438c1947b18fcbfe520826b533567002c520e8"
+        }
+      ]
+    },
+    {
+      "quest_id": 94495,
+      "level": 22,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[55]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2384:94495-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "816e4d20b8d466ac027a3f3ecfae74c3e1a0517ee5824a82f5ce92ddf659c99c"
+        }
+      ]
+    },
+    {
+      "quest_id": 78307,
+      "level": 23,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[56]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba"
+        }
+      ]
+    },
+    {
+      "quest_id": 78307,
+      "level": 23,
+      "field": "objective",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[57]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa"
+        }
+      ]
+    },
+    {
+      "quest_id": 1199,
+      "level": 25,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[58]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2532:1199-progress",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "58f398099bf9a53bf2a2072f77381db192e86f7856a834b207c2a359b11388fa"
+        }
+      ]
+    },
+    {
+      "quest_id": 95126,
+      "level": 25,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[59]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2014:95126-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "8285b0d5be430e02d15edc9f0ea2fa6bde4ed0994a87cbbf05e858e0a28e4422"
+        }
+      ]
+    },
+    {
+      "quest_id": 96294,
+      "level": 30,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[60]",
+      "source_refs": [
+        {
+          "source_kind": "EG_captured_text",
+          "build": "1.60.1.70862",
+          "origin": "data/wowf/1.60.1.70862/texts.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "17987a3b72935f27457aad1b5e1bda2977ef39fb40c391fe951fceeaf8b05dd3"
+        }
+      ]
+    },
+    {
+      "quest_id": 95772,
+      "level": 31,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[61]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70888",
+          "origin": "issue-3422-decoded:15",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "4282163ceede3b1594c32e319047f6452890176a1c5b2f860d3a60e8cf164a23"
+        }
+      ]
+    },
+    {
+      "quest_id": 79364,
+      "level": 33,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[62]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2566:79364-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "6479430765ecd834759df63f4c06e6ae511781bd50266ddb984d45f8847825f0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96264,
+      "level": 33,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[63]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1562:96264-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "20e26a6e89b070cf59e12c695f5c5f926586ed5cda2dba9a91f368f12a480162"
+        }
+      ]
+    },
+    {
+      "quest_id": 78699,
+      "level": 35,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[64]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba"
+        }
+      ]
+    },
+    {
+      "quest_id": 78699,
+      "level": 35,
+      "field": "objective",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "exact_source_record_reference": "compact-main-queue.json:records[65]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa"
+        }
+      ]
+    },
+    {
+      "quest_id": 97048,
+      "level": 38,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "New70888capture adds Captain Aransas reaction text, but normalized$N has no independently established typed source binding. Existing canonical completion remains.",
+      "next_action": "Need current own-ID97048 full completion plus independently qualified player-name binding; do not infer from the similar old canonical. Primary web extraction exposed description/objective only; direct page403.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "new-capture-audit12.json:records[1]",
+      "source_refs": [
+        {
+          "source_kind": "public_VO_normalized_capture",
+          "build": "70888",
+          "origin": "issue-3426:70",
+          "english_sha256": "9e5cb6220a453c199ed120d75e94a98cd1672e31e5be5d24df9d15ba4fda8bbc"
+        }
+      ]
+    },
+    {
+      "quest_id": 79442,
+      "level": 40,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[66]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70245",
+          "origin": "issue-1344:79442-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "527b38e55319bb5affc7fffebb9560c6701d77b8758a08283c6f5c8d78389dcb"
+        }
+      ]
+    },
+    {
+      "quest_id": 92841,
+      "level": 40,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[67]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70291",
+          "origin": "issue-1392:92841-complete",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "d14308c83c54c7d33bb1445f7b028c8d14f26a9ad729c4e6439d308818809930"
+        }
+      ]
+    },
+    {
+      "quest_id": 96016,
+      "level": 40,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[68]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2162:96016-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "e3d9127507270f71497823c7cabf11524b357e5d23446fab65c62d145f02bd10"
+        }
+      ]
+    },
+    {
+      "quest_id": 91754,
+      "level": 56,
+      "field": "description",
+      "category": "blocked_rendering_binding",
+      "reason": "Query has a declension/rendering marker; exact final client text is unproven",
+      "next_action": "Need current rendered full body or pinned caller/formatter proof, not guessed grammar stripping.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[69]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "f3e5a5c4fb5a4a542c9c53bbc983d9834ff05d1a0c1f36f98deb08b7be4c574a"
+        }
+      ]
+    },
+    {
+      "quest_id": 95318,
+      "level": 57,
+      "field": "description",
+      "category": "blocked_rendering_binding",
+      "reason": "Query has a declension/rendering marker; exact final client text is unproven",
+      "next_action": "Need current rendered full body or pinned caller/formatter proof, not guessed grammar stripping.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[70]",
+      "source_refs": [
+        {
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+          "english_sha256": "a0274449b9f576cd314e1eb67cd420c8a905ec10e78248eeb0794791997c9708"
+        }
+      ]
+    },
+    {
+      "quest_id": 95042,
+      "level": null,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "exact_source_record_reference": "compact-main-queue.json:records[71]",
+      "source_refs": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2014:95042-accept",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "english_sha256": "dc47378fc195e1acaf92db8778858fae394cf127e95a2362c7b625dd732abd9f"
+        }
+      ]
+    }
+  ],
+  "new_supporting_records": [
+    {
+      "kind": "gossip",
+      "npc_id": "5145",
+      "book_title": null,
+      "page": null,
+      "canonical_or_npc_present": true,
+      "exact_source_record_reference": "new-capture-audit12.json:records[0]",
+      "issue": 3426,
+      "source_line_index": 14,
+      "english_sha256": "8ed0453972c332f2e9e0db58cadd617cb57382c4966d0769b0380d67ef885075",
+      "required_evidence": "Prove each class occurrence separately: fixed trainer profession vs visiting player class. Never substitute both$c from uploader class."
+    },
+    {
+      "kind": "gossip",
+      "npc_id": "259084",
+      "book_title": null,
+      "page": null,
+      "canonical_or_npc_present": true,
+      "exact_source_record_reference": "new-capture-audit12.json:records[2]",
+      "issue": 3426,
+      "source_line_index": 95,
+      "english_sha256": "696ec4092d0c7fba30863964c96570d77f33a10e8a3708a375320ca06e556904",
+      "required_evidence": "Prove whether fellow$R is a fixed general people/faction reference or a player race; keep fixed references intact."
+    },
+    {
+      "kind": "gossip",
+      "npc_id": "5497",
+      "book_title": null,
+      "page": null,
+      "canonical_or_npc_present": true,
+      "exact_source_record_reference": "new-capture-audit12.json:records[3]",
+      "issue": 3426,
+      "source_line_index": 125,
+      "english_sha256": "8d817b9d734e081239cf0ad50f166ca5fbc0f9a47514c73a44ac8e4bdc99dee1",
+      "required_evidence": "Exact own-ID greeting with independently typed class binding, not punctuation similarity to an old form."
+    },
+    {
+      "kind": "gossip",
+      "npc_id": "11956",
+      "book_title": null,
+      "page": null,
+      "canonical_or_npc_present": true,
+      "exact_source_record_reference": "new-capture-audit12.json:records[5]",
+      "issue": 3428,
+      "source_line_index": 32,
+      "english_sha256": "44b9ce49ad155c96e9b414034759cd8eb6ad2e72db4efc0fd98f74fabd4a4d58",
+      "required_evidence": "Exact own-ID spirit-bear text; prove whether young$c is fixed Druid context or current player class."
+    },
+    {
+      "kind": "book",
+      "npc_id": null,
+      "book_title": "Plain Letter",
+      "page": 1,
+      "canonical_or_npc_present": true,
+      "exact_source_record_reference": "new-capture-audit12.json:records[6]",
+      "issue": 3428,
+      "source_line_index": 70,
+      "english_sha256": "61fc00bddeb1b6a77503963821310f2ef42cf79e4a3ef3b0d3de94137c0ade75",
+      "required_evidence": "Exact title/page1/itemID if available/full body plus class-slot binding; retain explicit level14 and fixed Mathrengyl/Darnassus references."
+    }
+  ],
+  "other_exact_held_record_sources": [
+    "public-supporting-remaining10.json: normalized-token rows are unqualified evidence, not asserted untranslated texts; includes3literal-player-name holds with bodies intentionally omitted.",
+    "supporting-source-queue08.json:11unproven records (sevenArathorpages+fourgreetings); its twoexplicitbroadcast candidates were completed in09, tenliteral rows in08.",
+    "source-ids-outside-catalog.json:192outside runtime holds; supplement snapshots had no novelIDs; new3426–28ownquestIDs also add no IDs outsidepriorunion."
+  ],
+  "prior_inventory_scope": {
+    "runtime_quest_ids": 6149,
+    "source_union_ids": 6114,
+    "prior_five_field_rows": 30745,
+    "prior_no_source_rows_before_new_capture_delta": 13859,
+    "current_playable_whole_game_denominator_proven": false,
+    "absent_phase_exists_proven": false,
+    "note": "Prior five-field inventory and metadata union are not a current playable-game denominator; no-source counts were not regenerated after this incremental delta. Do not infer missing phases."
+  },
+  "current_inventory_missing_input": "Need an authoritative current Forever enabled quest-ID index with server/client build/date, flavor/expansion and disabled/test filtering, current prerequisite/faction/race/class eligibility. Current public query/capture/Questie subsets prove only observed records. No API signup/network policy change requested.",
+  "game_testing": {
+    "Windows": "unverified; user said not yet tested, not failed",
+    "Mac_M2": "unverified; user said not yet tested, not failed",
+    "candidate_under_test": "candidate11 SHA d3b84137a952fca0a9ee3b1a1891d1723e50bb24a1a14cc35a7b8bb21753dbfb",
+    "repeat_prompt_now": false,
+    "authoritative_status_reference": "user-game-test-status.json on main"
+  },
+  "existing_collector": {
+    "new_collector_needed": false,
+    "commands": {
+      "/fth capture": "Show local counts and SavedVariables location; not a remote source fetch.",
+      "/fth capture log": "Capture accessible current quest-log fields; does not recover historical completion/progress.",
+      "/fth capture id <quest IDs>": "Request API-accessible own-ID data only; do not claim it retrieves missing completion phases.",
+      "/fth capture auto on/off": "Existing opt-in broader automatic quest-log/panel evidence.",
+      "/fth speech capture on/off": "Existing opt-in unrecognized speech evidence; not a typed-name proof by itself."
+    },
+    "missing_panel_observation": "Open the relevant accept/progress/completion panel during ordinary play; existing unmatched-field observation records source. No game control/install by assistant.",
+    "saved_variables": "Actual Battle.net client folder/WTF/Account/<account>/SavedVariables/ForeverThai.lua after logout",
+    "privacy": "Share only relevant ForeverThaiObserved excerpts privately for review/minimization first, with build/locale/quest-or-NPC-ID/phase context. Do not automatically publish raw SavedVariables/player names; establish typed binding separately and curate public evidence before committing."
+  },
+  "scope": "Current bounded source-ready work exhausted after one exact reuse binding from new3426–28. This is a missing-evidence state, not whole-game completion; reviewed translations/canonical aliases retained. No repeated775Harvest, unchanged suites or version bump."
+}

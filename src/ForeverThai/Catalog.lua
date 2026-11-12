@@ -71278,3 +71278,6 @@ addon.books["Pteradon Skeleton"] = { title = "โครงกระดูก Pte
 addon.books["Pteradon Skeleton"][1] = { "275:1355472123:143246434", "โครงกระดูก Pteradon ที่สมบูรณ์นี้ถูกขุดพบในพื้นที่ห่างไกลของ Un'Goro Crater จากโครงสร้างกระดูก เห็นได้ชัดว่ายังไม่เคยมีการพบสัตว์สกุลนี้มาก่อน โครงกระดูกนี้อาจถูกเก็บรักษาอยู่ใต้ดินอันอุดมสมบูรณ์ของแถบนี้มานานหลายศตวรรษก็เป็นได้" }
 addon.books["Saurial Egg"] = { title = "ไข่ Saurial" }
 addon.books["Saurial Egg"][1] = { "255:1280565356:924239584", "ไข่ใบนี้พบในป่าฝนห่างไกลของ Un'Goro Crater ภายในเคยมีตัวอ่อน Devilsaur สารพันธุกรรมของมันมีคุณค่าอย่างยิ่งต่อนักนิเวศวิทยาของ League ซึ่งใกล้จะคิดค้นเซรุ่มต้านพิษของ Devilsaur ที่ทำให้ร่างกายอ่อนแรงได้สำเร็จยิ่งกว่าครั้งใด" }
+
+-- Cloud batch12: exact current own-ID binding, existing full-body Thai reused.
+addon.npcs[251001].lines[9] = { "301:1774804330:1865413487", "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ" }
