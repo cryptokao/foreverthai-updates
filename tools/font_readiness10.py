@@ -2,7 +2,7 @@
 import ast,hashlib,json,pathlib,re,subprocess,zipfile
 from lupa.lua51 import LuaRuntime
 from PIL import Image
-ROOT=pathlib.Path(__file__).resolve().parents[1];RUN=ROOT/'src/ForeverThai';tree=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD:src/ForeverThai'],text=True).strip();prior=subprocess.check_output(['git','-C',str(ROOT),'show',tree+':Atlas.lua']);assert (RUN/'Atlas.lua').read_bytes().startswith(prior)
+ROOT=pathlib.Path(__file__).resolve().parents[1];RUN=ROOT/'src/ForeverThai';tree='d2562e61bec8ab0be3c5bd5e2f645d755eb55238' # Actual pre-font runtime used by the reviewed candidate10 check; never moving HEAD;prior=subprocess.check_output(['git','-C',str(ROOT),'show',tree+':Atlas.lua']);assert (RUN/'Atlas.lua').read_bytes().startswith(prior)
 oldnames=subprocess.check_output(['git','-C',str(ROOT),'ls-tree','-r','--name-only',tree],text=True).splitlines();unchanged=0
 for name in oldnames:
  if name=='Atlas.lua':continue
