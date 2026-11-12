@@ -124,3 +124,7 @@ Book regressionใช้readBookfunctionจริงจากEvents.luaในmoc
 compactmainqueueยัง0actionable/72heldsource records;72ไม่ใช่72เควสต์ที่ไม่แปลทั้งฟิลด์ หลายcanonicalรองรับอยู่แล้ว ดูruntime_canonical_present/ already_supported_source_versions รายrecord
 
 ZIP05ที่ส่งผู้ใช้ยังไม่มี34forms06และหนังสือ07 จะสร้างcandidate07ชื่อ/hashใหม่เมื่อพร้อม โดยคงZIP05เดิมไว้ ไม่เปลี่ยนcustomerfeed และยังไม่มีผลเกมWindows/MacM2กลับมา
+
+Candidate07 assembled and downloaded back on Cloud:133files/17533451bytes SHA256 ee59386cb62cafb3acfd85a8af4fec33ddc66b4a65fbdd5cfe5613a3cee9d781. Every ZIP byte matches source runtime tree1547af8d6d56fdd9a0f5234466b70799825dac7e at76b09b4 (includes Root review3c229f0, no runtime change). Immutable artifact commit4052d15c16e051dacf561df481ee9dc0e5c9407f contains ZIP/Thai guide/manifest; links in candidate07-delivery.json. Candidate05 is unchanged. Designated Cloud output path remains OS-unwritable, so permanent GitHub artifacts are the documented fallback, not a claim of an attached output. All required components retained; prior Skill04/NPC05 results remain scoped to their exact candidates, not rerun or relabeled07. No live Windows/MacM2 result and no feed change.
+
+Next: examine actual remaining book/gossip/greeting/NPC/escort source records and full-body reuse across aliases. Do not re-audit unchanged775Harvest or reinterpret72held source variants as72untranslated quests. Main compact queue remains0actionable/72blocked (58 have an existing canonical field), with typed/current-body missing inputs per row.
