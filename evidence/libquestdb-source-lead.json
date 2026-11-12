@@ -1,0 +1,14 @@
+{
+  "lead": "LibQuestDB / QuestDB-v0.1.0",
+  "release_url": "https://www.curseforge.com/wow/addons/questdb/files/9014639",
+  "attempted_official_download": "https://www.curseforge.com/wow/addons/questdb/download/9014639",
+  "result": "Cloud proxy CONNECT 403 Forbidden",
+  "github_repository_search": "LibQuestDB: no repositories returned by connected GitHub search",
+  "unverified": [
+    "Original ZIP bytes/hash and Harvest.lua/HarvestText.lua not downloaded",
+    "Exact harvested client build unknown",
+    "775 filtered records are not a current whole-game denominator"
+  ],
+  "next_action": "Need an accessible original release/source artifact with provenance; no policy changes or API signup requested. Do not run/install the library.",
+  "followup": "User supplied research supplement d28107f58f0e6facdd65de59b5e46217a096002695cc829a52e3a2dd05038a16; verification and restricted parsing queued after this commit."
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_revision": "cloud-main-through05",
+  "base_runtime_version": "0.462.0",
+  "artifact_branch": "codex/private-candidate05-artifacts",
+  "artifact_commit": "79009735547c6f0ca2ef998cecb9ed85eb52c108",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/79009735547c6f0ca2ef998cecb9ed85eb52c108/output/ForeverThai-0.462.0-cloud-through-batch05-PRIVATE-TEST.zip",
+  "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/79009735547c6f0ca2ef998cecb9ed85eb52c108/output/INSTALL-CLOUD-PRIVATE-TH.txt",
+  "sha256": "3fd22cbac9c6eebddbf951da005267077414f074afee61b0aa127a0b09427b7d",
+  "downloaded_back_and_verified_on_cloud": true,
+  "requested_cloud_outputs_status": "OS Permission denied creating designated /codex/.../output path; GitHub permanent artifact is fallback, not a claim of Cloud outputs attachment.",
+  "customer_feed_changed": false
+}

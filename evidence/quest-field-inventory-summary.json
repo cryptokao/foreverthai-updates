@@ -3,11 +3,11 @@
   "runtime_quest_ids": 6149,
   "field_rows": 30745,
   "statuses": {
-    "source_and_translation_match": 16692,
-    "missing_source_or_token_evidence": 13819,
+    "source_and_translation_match": 16771,
+    "missing_source_or_token_evidence": 13845,
     "source_variant_or_token_requires_review": 92,
     "missing_source_placeholder_or_empty": 12,
-    "current_usage_unconfirmed_test_or_disabled": 130
+    "current_usage_unconfirmed_test_or_disabled": 25
   },
   "missing_runtime_fields": {
     "progress": 2060,
@@ -31,7 +31,7 @@
     "fields_needing_typed_identity_evidence": 51,
     "fields_with_objective_amount_template_pending": 34,
     "fields_with_placeholder_or_empty_source": 12,
-    "fields_with_current_usage_unconfirmed": 7570,
+    "fields_with_current_usage_unconfirmed": 7465,
     "overlap_note": "These evidence dimensions overlap. A count-template probe is not an untranslated live field. Supported source does not prove current playability; missing source does not prove an existing game phase."
   }
 }

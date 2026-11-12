@@ -3,6 +3,7 @@ Metadata and query-cache presence do not establish current Forever playability.
 """
 import collections,csv,hashlib,json,pathlib,re,subprocess
 from lupa.lua51 import LuaRuntime
+from source_classification import classify_titles
 ROOT=pathlib.Path(__file__).resolve().parents[1];EG=ROOT/'work/eg';VO=ROOT/'work/forever-vo';QD=ROOT/'work/questiedb';OUT=ROOT/'evidence';sha=lambda b:hashlib.sha256(b).hexdigest()
 commit=lambda p,ref='HEAD':subprocess.check_output(['git','-C',str(p),'rev-parse',ref],text=True).strip()
 pins={'EG':commit(EG),'VO':commit(VO),'QuestieDB':commit(QD,'origin/master')};sources=collections.defaultdict(list);manifests={};sets=collections.defaultdict(set);titles=collections.defaultdict(set);levels={};prose=collections.defaultdict(list);current_captured=set();flags=collections.defaultdict(set);file_hashes={}
@@ -97,7 +98,7 @@ for q,ts in titles.items():
  for t in ts:title_ids[' '.join(t.lower().split())].add(q)
 rows=[];outside_rows=[]
 for q in sorted(union):
- ts=sorted(titles[q]);joined=' '.join(ts);test=bool(re.search(r'(?i)unused|never used|<nyi|<txt|\[dnt\]|\[ph\]|test|chow|reuse|deprecated',joined));disabled=bool(re.search(r'(?i)disabled|do not use|obsolete',joined));actual=[v for v in prose[q] if v['english'].strip() not in ['Log','Description'] and not v['english'].startswith('[PH]')];families=sorted({v['family'] for v in sources[q]});collisions=sorted({i for t in ts for i in title_ids[' '.join(t.lower().split())] if i!=q});other=sorted(foreign[q]);seen_trace=any('/traces/' in v['path'] for v in sources[q] if v['family']=='QuestieDB')
+ ts=sorted(titles[q]);joined=' '.join(ts);classification=classify_titles(ts,q,queries.get(str(q),{}).get('title'));test=classification in ['developer_marker','developer_exact_label','known_developer_id'];disabled=classification=='disabled_marker';actual=[v for v in prose[q] if v['english'].strip() not in ['Log','Description'] and not v['english'].startswith('[PH]')];families=sorted({v['family'] for v in sources[q]});collisions=sorted({i for t in ts for i in title_ids[' '.join(t.lower().split())] if i!=q});other=sorted(foreign[q]);seen_trace=any('/traces/' in v['path'] for v in sources[q] if v['family']=='QuestieDB')
  if test:triage='hold_test_or_development_label'
  elif disabled:triage='hold_disabled_or_obsolete'
  elif q in current_captured and actual:triage='current_captured_prose_candidate' if q in outside else 'in_runtime'
@@ -105,7 +106,7 @@ for q in sorted(union):
  elif q in outside and other and 'Classic' not in other and not seen_trace:triage='hold_other_expansion_or_legacy_cache_uncertain'
  elif q in outside:triage='hold_current_usage_unconfirmed'
  else:triage='in_runtime'
- row=dict(quest_id=q,in_runtime=q in runtime,level=levels.get(q),titles=ts,source_families=families,actual_fields=sorted({f for v in sources[q] for f in v['actual_fields']}),source_ref_count=len(sources[q]),has_real_prose=bool(actual),observed_current_70862_70888_capture=q in current_captured,questie_trace_metadata_present=seen_trace,other_flavor_metadata=other,title_collision_ids=collisions,flags=sorted(flags[q]),triage=triage,current_playability_proven=False)
+ row=dict(quest_id=q,in_runtime=q in runtime,level=levels.get(q),titles=ts,source_families=families,actual_fields=sorted({f for v in sources[q] for f in v['actual_fields']}),source_ref_count=len(sources[q]),has_real_prose=bool(actual),observed_current_70862_70888_capture=q in current_captured,questie_trace_metadata_present=seen_trace,other_flavor_metadata=other,title_collision_ids=collisions,flags=sorted(flags[q]),title_marker_classification=classification,triage=triage,current_playability_proven=False)
  rows.append(row)
  if q in outside:outside_rows.append({**row,'source_refs':sources[q],'available_prose':actual})
 summary=dict(scope='Source-ID union discovery, separate from runtime five-field inventory. Not an authoritative current playable-game denominator.',source_pins=pins,source_set_id_counts={k:len(v) for k,v in sets.items()},runtime_ids=len(runtime),union_source_ids=len(union),source_ids_outside_runtime=len(outside),runtime_ids_not_in_source_union=len(runtime-union),outside_triage=dict(collections.Counter(v['triage'] for v in outside_rows)),outside_ids_by_family={k:len(v-runtime) for k,v in sets.items()},outside_current_capture_ids=sorted(outside&current_captured),source_manifest=manifests,questie_metadata_files=metadata,discovery_invariants=dict(no_runtime_filter_in_add=True,union_equals_all_four_source_sets=True,outside_equals_union_minus_runtime=True,foreign_flavors_used_only_for_diagnostics=True),uncertainty='Queries may contain legacy/test/SoD caches. Repeated titles are collisions, not duplicate proof. Questie metadata/trace corrections alone do not establish current prose/phase availability.')

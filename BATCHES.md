@@ -69,6 +69,20 @@ Exact candidate batch05: 130 ไฟล์, 17233223 bytes, SHA256 `3fd22cbac9c6e
 
 ตรวจ union จาก current EG query4846 IDs, all wowf texts1003, VO2076 และ QuestieDB Forever metadata5893 ที่ pinล่าสุด a444a64 ได้ union6114 IDs เทียบ runtime6149 พบ192 IDsนอกCatalog และ227 runtime IDsที่ไม่พบในunionนี้ ไม่ขยายตาราง5fields และไม่ใช้ตัวเลขใดเป็นwhole-game denominator
 
-192 IDsนอกCatalogแยกเป็น test/development93, title/metadata-only8, disabled1, other-expansion/legacy uncertainty1 และ current-usage-unconfirmed89 ทุก IDนอกCatalogยังไม่มี own-ID current70862/70888 capture จาก EG texts หรือ VO (ต่างจาก query cache) จึงยังไม่ยืนยัน playable และไม่แปลเติมจาก Classic/SoD เพียงเพราะพบ prose
+192 IDsนอกCatalogแยกเป็น test/development88, title/metadata-only9, disabled1, other-expansion/legacy uncertainty5 และ current-usage-unconfirmed89 (หลังแก้ classifier) ทุก IDนอกCatalogยังไม่มี own-ID current70862/70888 capture จาก EG texts หรือ VO (ต่างจาก query cache) จึงยังไม่ยืนยัน playable และไม่แปลเติมจาก Classic/SoD เพียงเพราะพบ prose
 
 รายละเอียด source/commit/build/actual fields/title collisions/cross-flavor metadata อยู่ source-id-union.csv และ source-ids-outside-catalog.json; summaryบันทึกset differences/invariantsเพื่อไม่วนตรวจเดิมเมื่อsource pinsไม่เปลี่ยน ตรวจแหล่งเพิ่มเติม tyler3497/forever-quests ต่อเป็นprovenanceคนละชุด
+
+## Classifier / API source proof / deliverable follow-up
+
+แก้ substring test ให้ใช้เฉพาะ explicit source markers, exact developer labels และ known-ID/title pairs Testing the Wells / Contest / Greatest / A Test of Faith ไม่เป็น exclusion ผ่าน focused classifier tests 4 methods (รวม subcases) ทบทวน93outside holdsเดิมแล้ว5 IDsที่มีเพียงชื่อ Test Quest ย้ายกลับไป metadata/expansion uncertainty ไม่ได้ประกาศว่า playable อีก105แถว/21IDsในruntime inventoryพ้นสถานะtest จึงไม่ซ่อนช่องว่าง ดู source-classification-review.json ไม่มี runtime/NPC/Skill/font change หรือ rerunชุดเดิมจากงานauditนี้
+
+ดาวน์โหลด raw ChatInfoDocumentation.lua จาก Gethe pins ของ70862/70888บนCloudเอง ตรวจอย่างละ132990bytes/SHA996cf3c4956d7d79716c082fa7bccf06e008fd191f108c85546f9fdec66e1a73 แล้ว รันเฉพาะ API-source assertions ผ่าน8event layouts: textarg1, guidarg12; playerName2arg5ไม่ใช่หลักฐานชื่อผู้รับในกลุ่ม รายงาน npc-api-proof.json แยกจาก NPC runtime invocation เดิม ไม่ต้องมีUIZIPใหญ่เพื่อพิสูจน์documentนี้ และไม่ใช่ผลเกม
+
+Snapshotเพิ่มเติม tyler3497/forever-quests pin9f4c5a: main4630 IDs และForeverDB3862 IDs ไม่มีIDนอกCatalog/unionเดิม ทั้งสองprovenanceแยกกัน เก็บGPL3credit/MITหรือprovidercreditตามinput โดยเฉพาะ Data from ForeverDB.net (https://foreverdb.net) ไม่ใช้API meta6614เป็นcoverage ตัวเลือกobjectiveที่ดูเหมือนขาดสองรายการ5641/5679พบcurrentqueryเปลี่ยนเป็นChastise/Dark Sacrificeและไม่มีobjectiveปัจจุบัน จึงไม่คัดtravel textClassicเก่า; อีก4เป็นnull placeholders ไม่มีคำแปลเพิ่มจากauditนี้
+
+ไฟล์ ZIP และคู่มือไทยของ candidate05 เก็บถาวรที่ artifact commit79009735547c6f0ca2ef998cecb9ed85eb52c108 บน branch codex/private-candidate05-artifacts แล้ว พร้อมmanifest ดาวน์โหลดกลับจากGitHubrawและตรวจSHAตรง3fd22c...27b7d ไฟล์ไม่ได้มีเพียงworkชั่วคราว อย่างไรก็ตาม path Cloud outputs /codex/browser/projectless/0001-alphaverse-thai-sub-codex-cloud-environment-fore/output ถูกLinuxปฏิเสธPermission denied (ทั้งexec/patch) จึงใช้GitHub artifactเป็นทางสำรอง ไม่อ้างว่าแนบในCloudoutputsสำเร็จ
+
+Inventoryสั้น: 30745 runtime-field rows; มีอย่างน้อยหนึ่งfull sourceที่matcherรองรับ16826; ไม่มีsource record13859; รอtyped identity evidence51; usageยังไม่ยืนยัน7465 ตัวเลขเหล่านี้เป็นคนละมิติและทับซ้อนกัน ไม่ใช่เปอร์เซ็นต์หรือรายการplayableทั้งเกม
+
+LibQuestDBofficialdownloadเคยติดCONNECT403 ผู้ใช้ส่งresearchsupplementใหม่เพื่ออ่านHarvestเท่านั้น เป็นงานถัดไปหลังcommitนี้ ไม่รันlibrary/scriptsและไม่เปลี่ยนnetworkpolicy/customerfeed

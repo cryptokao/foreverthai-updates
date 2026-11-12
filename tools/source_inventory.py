@@ -5,6 +5,7 @@ No player capture text or identity is copied into the public inventory.
 """
 import csv,collections,hashlib,json,pathlib,re
 from lupa.lua51 import LuaRuntime
+from source_classification import classify_title
 ROOT=pathlib.Path(__file__).resolve().parents[1];EG=ROOT/'work/eg';VO=ROOT/'work/forever-vo';OUT=ROOT/'evidence'
 lua=LuaRuntime(unpack_returned_tuples=True);addon=lua.table();load=lua.eval('function(s,a) assert(loadstring(s))("ForeverThai",a) end')
 for n in ['Catalog','Match']:load((ROOT/'src/ForeverThai'/f'{n}.lua').read_text(),addon)
@@ -46,7 +47,7 @@ for p in sorted((ROOT/'work').glob('issue-*-decoded.json')):
 rows=[];queue=[];counts=collections.Counter();missing=collections.Counter();unsupported=collections.Counter()
 for q in sorted(ids,key=lambda q:(queries.get(str(q),{}).get('level',999),q)):
  v=queries.get(str(q),{});title=v.get('title','');usage='query_record_present_usage_unverified' if v else 'current_usage_unconfirmed'
- test=bool(re.search(r'(?i)unused|never used|<nyi|<txt|test|chow|reuse|\[dnt\]|temp disabled',title))
+ test=classify_title(title,q) is not None
  for field in ['title','objective','description','progress','completion']:
   entry=addon.quests[q][field];records=sources[q,field];supported=unmatched=placeholders=0;refs=[];unmatched_refs=[]
   for text,origin,kind in records:
