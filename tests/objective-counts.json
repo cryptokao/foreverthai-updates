@@ -85,6 +85,34 @@
         }
       ],
       "source_template": "Collect $1oa Small Eggs and $2oa Strider Meat from creatures found throughout the Shen'dar Highlands."
+    },
+    {
+      "quest_id": 3505,
+      "source_template": "Kill $1oa Blood Elf Reclaimers and $2oa Blood Elf Surveyors, then find the source of Rimtori's power.",
+      "cases": [
+        {
+          "source": "Kill 2 Blood Elf Reclaimers and 1 Blood Elf Surveyors, then find the source of Rimtori's power.",
+          "expected": "สังหาร Blood Elf Reclaimers 2 คน และ Blood Elf Surveyors 1 คน แล้วค้นหาต้นตอพลังของ Rimtori"
+        },
+        {
+          "source": "Kill 1,234 Blood Elf Reclaimers and 12 Blood Elf Surveyors, then find the source of Rimtori's power.",
+          "expected": "สังหาร Blood Elf Reclaimers 1,234 คน และ Blood Elf Surveyors 12 คน แล้วค้นหาต้นตอพลังของ Rimtori"
+        }
+      ]
+    },
+    {
+      "quest_id": 96381,
+      "source_template": "Enter the Alcaz Prison and slay $1oa  Strashasz Soldiers, $2oa Strashaz Enchantresses, and bring the head of Tidemistress Ca'zass to Sully McCleary.",
+      "cases": [
+        {
+          "source": "Enter the Alcaz Prison and slay 2  Strashasz Soldiers, 1 Strashaz Enchantresses, and bring the head of Tidemistress Ca'zass to Sully McCleary.",
+          "expected": "เข้า Alcaz Prison แล้วสังหารทหาร Strashaz 2 นายกับนางมนตรา Strashaz 1 ตน จากนั้นนำหัวของ Tidemistress Ca'zass ไปให้ Sully McCleary"
+        },
+        {
+          "source": "Enter the Alcaz Prison and slay 1,234  Strashasz Soldiers, 12 Strashaz Enchantresses, and bring the head of Tidemistress Ca'zass to Sully McCleary.",
+          "expected": "เข้า Alcaz Prison แล้วสังหารทหาร Strashaz 1,234 นายกับนางมนตรา Strashaz 12 ตน จากนั้นนำหัวของ Tidemistress Ca'zass ไปให้ Sully McCleary"
+        }
+      ]
     }
   ]
 }

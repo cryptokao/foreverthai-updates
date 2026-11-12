@@ -1,0 +1,27 @@
+{
+  "scope": "All IDs in the editable runtime Catalog, five main fields per ID. Query/capture provenance does not prove current playability. Counts are this inventory only; not whole-game completion.",
+  "runtime_quest_ids": 6149,
+  "field_rows": 30745,
+  "statuses": {
+    "source_and_translation_match": 16676,
+    "missing_source_or_token_evidence": 13819,
+    "source_variant_or_token_requires_review": 108,
+    "missing_source_placeholder_or_empty": 12,
+    "current_usage_unconfirmed_test_or_disabled": 130
+  },
+  "missing_runtime_fields": {
+    "progress": 2060,
+    "completion": 741,
+    "objective": 913,
+    "description": 380
+  },
+  "unmatched_source_versions_by_field": {
+    "description": 45,
+    "progress": 5,
+    "completion": 9,
+    "objective": 49
+  },
+  "current_query_sha256": "433fc57290a162eca1c688c277a96234d39b7198edb1326ed4d6ec8fa4a65d60",
+  "eg_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "vo_commit": "d562be626b9970fa8575170950ff61076dc47df0"
+}

@@ -12,7 +12,9 @@ for n in ['Catalog.lua','Match.lua','SpeechData.lua','Atlas.lua']:
  load(z.read('ForeverThai/'+n).decode(),base);load((RUN/n).read_text(),addon)
 lua.execute('UnitName=function() return "CloudTester" end; UnitClass=function() return "Druid", "DRUID" end; UnitRace=function() return "Night Elf" end')
 batch1=json.loads((ROOT/'evidence/main-objectives-01.json').read_text());batch2=json.loads((ROOT/'evidence/main-phases-02.json').read_text())
-added={(x['quest_id'],x['field']) for x in batch1['fields']};variants={(x['quest_id'],x['field']) for x in batch2['fields']};assert len(added)==34 and len(variants)==2
+batch4=json.loads((ROOT/'evidence/main-query-04.json').read_text())
+batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']}
+added={(x['quest_id'],x['field']) for x in batch1['fields']};variants={(x['quest_id'],x['field']) for x in batch2['fields']+batch4['fields']};assert len(added)==34 and len(variants)==15
 checks=0
 def equal(a,b,path=()):
  global checks
@@ -23,6 +25,7 @@ def equal(a,b,path=()):
    if a[k] is None:
     allowed=path in [('runs',),('glyphs',)] or (len(path)==2 and path[0]=='quests' and (path[1],k) in added)
     if len(path)==3 and path[0]=='quests' and (path[1],path[2]) in variants and k=='variants':allowed=True
+    if len(path)==3 and path[0]=='quests' and (path[1],path[2]) in dynamic_fields and k=='amount':allowed=True
     if len(path)==4 and path[0]=='quests' and (path[1],path[2]) in variants and path[3]=='variants':allowed=True
     assert allowed,(path,k)
  else:assert a==b,(path,a,b)
@@ -61,25 +64,55 @@ for f in batch1['fields']:
   positive(q,f['field'],source,target)
   negative(entry,'UNRELATED '+source);negative(entry,source+' incorrect')
   if '1,234' in source:negative(entry,source.replace('1,234','1,23'))
+# Batch 03 reuses reviewed prose and adds only explicit source amount slots.
+for f in batch3['fields']:
+ q=f['quest_id'];entry=addon.quests[q][f['field']];assert base.quests[q][f['field']] is not None and base.quests[q][f['field']].amount is None
+ unique_templates.add((q,f['field'],f['english']))
+ for count in ['1','12','1,234','999999']:
+  source=f['english'];target=f['thai']
+  for token in re.findall(r'\$(\d+)oa',source):source=source.replace('$'+token+'oa',count);target=target.replace('{world'+token+'}',count)
+  positive(q,f['field'],source,target);negative(entry,'UNRELATED '+source);negative(entry,source+' incorrect')
+  if '1,234' in source:negative(entry,source.replace('1,234','1,23'))
 # New literal-race variants must work for multiple identities without substituting race.
 for f in batch2['fields']:
  q=f['quest_id'];assert '$' not in f['english'] and '{race}' not in f['thai'];unique_templates.add((q,f['field'],f['english']))
  for race in ['Night Elf','Human','Skyborne']:
-  lua.globals().UnitRace=lambda race=race:race
+  lua.globals().UnitRace=lambda unit,race=race:race
   positive(q,f['field'],f['english'],f['thai'])
  negative(addon.quests[q][f['field']],f['english']+' incorrect')
  negative(addon.quests[q][f['field']],f['english'].replace('skyborne','unverified-word'))
 lua.execute('UnitRace=function() return "Night Elf" end')
+# Query tokens are explicit, unlike uploader-normalized class/race replacements.
+query_variant_executions=0
+for f in batch4['fields']:
+ unique_templates.add((f['quest_id'],f['field'],f['english']))
+ branches=[f['english']]
+ while any(re.search(r'\$g([^:;]*):([^;]*);',v,re.I) for v in branches):
+  expanded=[]
+  for v in branches:
+   m=re.search(r'\$g([^:;]*):([^;]*);',v,re.I)
+   expanded.extend([v[:m.start()]+choice+v[m.end():] for choice in m.groups()] if m else [v])
+  branches=expanded
+ for name,cls,cls_id,race,thai_cls,thai_race in [('CloudTester','Druid','DRUID','Night Elf','ดรูอิด','ไนต์เอลฟ์'),('SecondTester','Mage','MAGE','Human','จอมเวท','มนุษย์'),('ThirdTester','Warrior','WARRIOR','Skyborne','นักรบ','สกายบอร์น')]:
+  lua.execute('UnitName=function() return '+json.dumps(name)+' end; UnitClass=function() return '+json.dumps(cls)+','+json.dumps(cls_id)+' end; UnitRace=function() return '+json.dumps(race)+' end')
+  for branch in branches:
+   source=re.sub(r'\$b','\n',branch,flags=re.I)
+   for token,value in [('n',name),('c',cls),('r',race)]:source=re.sub(r'\$'+token,value,source,flags=re.I)
+   target=f['thai'].replace('{name}',name).replace('{class}',thai_cls).replace('{race}',thai_race)
+   positive(f['quest_id'],f['field'],source,target);query_variant_executions+=1
+   negative(addon.quests[f['quest_id']][f['field']],source+' incorrect')
+   if '$n' in branch.lower():negative(addon.quests[f['quest_id']][f['field']],source.replace(name,'WrongPlayer'))
+lua.execute('UnitName=function() return "CloudTester" end; UnitClass=function() return "Druid","DRUID" end; UnitRace=function() return "Night Elf" end')
 # Static whole-sentence expectations are separately authored in the fixture file.
 # Mutate either source bindings OR Thai slots to ensure the oracle detects a swap.
 fixtures=json.loads((ROOT/'tests/objective-counts.json').read_text())['fixtures'];counter_cases=mutation_detections=0
-source_fields={f['quest_id']:f for f in batch1['fields']}
+source_fields={f['quest_id']:f for f in batch1['fields']+batch3['fields']}
 for fixture in fixtures:
  q=fixture['quest_id'];entry=addon.quests[q]['objective'];dynamic=entry.amount or entry
  assert 'W1' in dynamic[1] and 'W2' in dynamic[1]
  if q in source_fields:
   record=source_fields[q]['source_record'];by_id={o['objectId']:o for o in record['objectives']}
-  assert set(fixture['source_item_ids'])==set(by_id)
+  if 'source_item_ids' in fixture:assert set(fixture['source_item_ids'])==set(by_id)
   if any(c.get('source_record_amounts') for c in fixture['cases']):
    assert [by_id[i]['amount'] for i in fixture['source_item_ids']]==[2,1]
   unique_templates.add((q,'objective',source_fields[q]['english']))
@@ -96,7 +129,7 @@ for fixture in fixtures:
    mutation_detections+=1
   negative(entry,case['source'].replace('1,234','1,23')) if '1,234' in case['source'] else None
 # Every new Thai run has valid glyphs; all existing run values were checked above.
-for f in batch1['fields']+batch2['fields']:
+for f in batch1['fields']+batch2['fields']+batch3['fields']+batch4['fields']:
  for run in re.findall(r'[\u0e00-\u0e7f]+',f['thai']):
   assert addon.runs[run] is not None,(f['quest_id'],run)
   for _,idx in addon.runs[run].items():
@@ -106,5 +139,5 @@ for p in (RUN/'Fonts').glob('*.tga'):
  with Image.open(p) as im:im.load();images[p.name]=im.size
 for _,g in addon.glyphs.items():
  w,h=images[f'Thai{g[1]}.tga'];assert 0<=g[2] and g[2]+g[4]<=w and 0<=g[3] and g[3]+56<=h
-result=dict(baseline_components_retained=126,byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(variants),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Not the missing historical 686 speech/9 Skills harness or in-game verification.')
+result=dict(baseline_components_retained=126,byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,new_dynamic_forms_batch03=len(dynamic_fields),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Not the missing historical 686 speech/9 Skills harness or in-game verification.')
 (ROOT/'evidence/cloud-regression.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
