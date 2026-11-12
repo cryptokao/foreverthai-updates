@@ -145,7 +145,7 @@
   "runtime_version": "0.462.0",
   "customer_feed_changed": false,
   "candidate_revision": "cloud-main-through12-party16",
-  "source_commit": "4dc29c4505e614457fa5fde6d59ca58cd2fb6e24",
+  "source_commit": "b0cb96ed79c2d5c117841c572741ebd244c6c41e",
   "runtime_git_tree": "f15e81e113bc38214f7a22f4179d3380ce812ea9",
   "party_templates": 16,
   "party_npcs": 7,
@@ -156,5 +156,6 @@
     "ForeverThai/Catalog.lua",
     "ForeverThai/Speech.lua"
   ],
-  "upload_status": "pending_root_review_of_whitelist16"
+  "upload_status": "root_reviewed_ready_for_delivery",
+  "root_review": "9a4b44177f6ca6c612d8fe367cc099a222ebfbfb"
 }

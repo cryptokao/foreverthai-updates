@@ -1502,5 +1502,28 @@
     "saved_variables": "Actual Battle.net client folder/WTF/Account/<account>/SavedVariables/ForeverThai.lua after logout",
     "privacy": "Share only relevant ForeverThaiObserved excerpts privately for review/minimization first, with build/locale/quest-or-NPC-ID/phase context. Do not automatically publish raw SavedVariables/player names; establish typed binding separately and curate public evidence before committing."
   },
-  "scope": "Current bounded source-ready work exhausted after one exact reuse binding from new3426–28. This is a missing-evidence state, not whole-game completion; reviewed translations/canonical aliases retained. No repeated775Harvest, unchanged suites or version bump."
+  "scope": "Current bounded source-ready work exhausted after one exact reuse binding from new3426–28. This is a missing-evidence state, not whole-game completion; reviewed translations/canonical aliases retained. No repeated775Harvest, unchanged suites or version bump.",
+  "delivery_snapshot": "candidate12-delivery.json",
+  "source_availability": {
+    "reference": "user-source-availability.json",
+    "reported": "No additional source/maintainer link currently supplied; not proof that no public source exists.",
+    "repeat_prompt_now": false
+  },
+  "game_test_status_reference": "user-game-test-status.json",
+  "druid_targeted_followup": {
+    "reference": "druid-role-check12.json",
+    "existing_literal_canonicals_supported": true,
+    "current_normalized_roles_remain_held": true,
+    "current_forever_role_binding_proven": false,
+    "classic_words_imported": false
+  },
+  "group_speech_scope": {
+    "qualified_templates": 16,
+    "qualified_npcs": 7,
+    "reference": "party-source-audit12.json",
+    "remaining_N_templates_not_group_qualified": 24,
+    "unqualified_does_not_mean_untranslated": true
+  },
+  "project_completion_proven": false,
+  "repeat_unchanged_search_audit_test_to_wait": false
 }
