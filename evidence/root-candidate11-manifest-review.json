@@ -1,0 +1,25 @@
+{
+  "reviewed_at": "2026-11-13",
+  "scope": "Independent immutable artifact manifest/guide comparison and equality with previously reviewed exact ZIP regression hash; no local tests or root binary download/hash rerun.",
+  "comparison": {
+    "from": "2b4d3b8e506f4e85dfa38d652de3440a4fbfe9b215106799416efe2848d7ae0b",
+    "to": "d3b84137a952fca0a9ee3b1a1891d1723e50bb24a1a14cc35a7b8bb21753dbfb",
+    "removed": [],
+    "added": [],
+    "changed": [
+      "ForeverThai/Speech.lua"
+    ],
+    "protectedCount": 28,
+    "protectedChanged": [],
+    "unchanged": 135,
+    "manifestCount": 136,
+    "sourceCommit": "d963e62cc41ec032cf20356033eaabf793eb5160",
+    "artifactCommit": "0b73eafbedc1474820d34238a64fd75f0a97420d",
+    "speechHash": "414eeb268eaa7be14182301fbe22e3e49925125a8d6b1c869ee53977eedac63d",
+    "matchesReviewedTestZip": true,
+    "safePaths": true
+  },
+  "guide_review": "Correctly lists five NPCs/eight templates as identity matching, not eight new translations; preserves full combined installation, settings, actual client folder and legacy test scopes. Live Windows/Mac M2 not asserted.",
+  "status": "manifest_and_guide_reviewed_delivery_receipt_pending",
+  "remaining": "Cloud must record downloaded-back exact ZIP/manifest/guide, protected28 and TOC24 verification. Do not relabel source-debug or reported tests as a new execution."
+}
