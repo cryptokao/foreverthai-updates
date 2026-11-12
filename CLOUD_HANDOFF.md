@@ -58,3 +58,11 @@ Last known inventory was 6150 quest IDs, 6149 usable source/Thai IDs, 5011 compl
 - Do not alter Alphaverse XP CurseForge project1797869. A later visible browser tab identified Thai Sub project1798317, but no further CurseForge update is requested here.
 - Do not install over the user's game, control their game or other local computer, expose credentials/private captures, or claim in-game testing without actual evidence.
 - Do not promise absolute anti-copy protection.
+
+## Recovered Skill UI test source supplement
+
+The transfer release now also contains `ForeverThai-0.462.0-Legacy-Skill-Tests.zip` (123544 bytes, SHA-256 `ca3559f718c688054a2f870117ad77007ad3fa3c6c8bcff0278eda38ed5706ab`). GitHub reports that exact digest and uploaded state. Download the named asset from the same v0.462.0-cloud-source release.
+
+It contains three existing Skill UI fixture modules, the original combined-check reference, a per-file hash manifest and TRANSFER-README.md with nine selected cases and Stoneform/Devotion Aura/Perception checks to port. These source snapshots were copied and compressed using light file operations under the user's new local-fallback permission; no addon tests or local AI inference were run on their computer.
+
+This removes the missing-source obstacle for porting those selected Skill UI checks. It does not prove that they have passed on Cloud yet. Verify the archive and manifest, keep recovered originals separate, port the runner to current source/candidate paths, preserve the assertions and record fresh results with exact package hashes. Some unrelated tests in the modules require author-only Capture.lua, so do not blindly run the complete fixture modules against a public runtime package. The reference wrapper's original packaging helper and old author-ZIP/receipt inputs are not included. No NPC-speech harness or real game client is supplied by this supplement.
