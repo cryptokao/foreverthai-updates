@@ -22,11 +22,17 @@ Fresh candidate12 simulation covered the independent686 NPC forms on both pinned
 
 Party support currently qualifies16 exact forms/7NPCs, not all speech. It adds no new Thai prose in12. Existing words and eight new qualifications were independently recovered from original Dev456 plus pinned historical Player callers; no old PC draft runtime was merged. Match.lua and quest/gossip/Tracker identity behavior remain unchanged.
 
-## Work now being checked
+## Current priority correction — main quest translation only
 
-A bounded source-role audit of24 existing name-bearing corpus forms outside the sixteen party forms has been dispatched to the same Cloud chat. The lead inventory is evidence/remaining-speech-identity-leads.json on main (68a12eccd0913da6bb7779860e68173832e44041). Start low-level; Master Gadrin3188/q808L9 has an original Dev431 player_proof key whose raw dispatch proof still needs checking. There are22 single-name/no-class forms, one repeated-name form and one mixed-name/class form.
+The user asked whether the long run was redoing translations. Root clarified that existing translations were preserved, while the most recent candidate12 added zero new main quest prose/Thai. The auxiliary speech/source work had displaced the user's main-quest priority for too long.
 
-These are unqualified leads, not new prose or permission to enable a wildcard. No runtime edit/ZIP13 was requested until the qualifications are reviewed. Ask for exact missing author-source paths/hashes if needed; omit raw named observations/player names from public evidence. Do not repeat686/Skill tests for an evidence-only audit.
+A save-and-stop directive was sent to the24-form NPC identity audit: checkpoint existing evidence/missing inputs, make no runtime changes/ZIP13, and do not wait for or upload the118MB legacy database. The database was located and hash-checked locally, but no compression, SQL execution, addon test, model inference or database upload was performed.
+
+A fresh public source check found issue3429 (243 captured lines), created2026-11-12T18:08:15Z: https://github.com/quinn-dougherty/forever-vo/issues/3429. Cloud has been directed to compare only its MAIN QUEST accept/objective/progress/completion fields with actual candidate12. Translate only genuinely new, corroborated source-ready fields, review English/Thai/numbers/roles before fonts, and report exact new field counts.
+
+If this fresh main-source check yields only supported duplicates or unproven normalized roles, record the source blocker and stop that run. Do not resume NPC/book/party/tool cleanup merely to keep work running. Original full GOAL scope is unchanged; auxiliary leads remain preserved for later, after the main-quest priority is met or the user explicitly redirects it.
+
+The24 unqualified identity leads and Master Gadrin metadata remain in evidence/remaining-speech-identity-leads.json. They are not enabled, not new prose and not a reason to claim main-quest progress. Candidate12 remains the latest complete delivered package.
 
 ## Completion requirements still open
 
