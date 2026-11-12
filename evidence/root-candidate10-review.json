@@ -1,0 +1,65 @@
+{
+  "reviewed_at": "2026-11-13",
+  "artifact_commit": "8d91d47c561881090c1a4e38dd929f383af4bd2c",
+  "scope": "Independent comparison of immutable candidate07/candidate10 runtime manifests, artifact tree sizes, installation guide, Cloud delivery receipt, font checker and package checker sources. No local execution or root download/hash rerun.",
+  "comparison": {
+    "from": "ee59386cb62cafb3acfd85a8af4fec33ddc66b4a65fbdd5cfe5613a3cee9d781",
+    "to": "2b4d3b8e506f4e85dfa38d652de3440a4fbfe9b215106799416efe2848d7ae0b",
+    "removed": [],
+    "changed": [
+      "ForeverThai/Atlas.lua",
+      "ForeverThai/Catalog.lua"
+    ],
+    "added": [
+      "ForeverThai/Fonts/Thai86.tga",
+      "ForeverThai/Fonts/Thai87.tga",
+      "ForeverThai/Fonts/Thai88.tga"
+    ],
+    "unchanged": 131,
+    "protectedCount": 28,
+    "protectedChanged": [],
+    "safePaths": true,
+    "runtimeFiles": 136,
+    "manifestCount": 136,
+    "sourceCommit": "362e748fa84c6acc2ef81fa5230b09ac22735169",
+    "runtimeTree": "2ed51a804aec9956e82ffe33377dbbefb7f7757a"
+  },
+  "cloud_delivery": {
+    "candidate_revision": "cloud-main-through10",
+    "source_commit": "362e748fa84c6acc2ef81fa5230b09ac22735169",
+    "runtime_git_tree": "2ed51a804aec9956e82ffe33377dbbefb7f7757a",
+    "artifact_branch": "codex/private-candidate10-artifacts",
+    "artifact_commit": "8d91d47c561881090c1a4e38dd929f383af4bd2c",
+    "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/8d91d47c561881090c1a4e38dd929f383af4bd2c/output/ForeverThai-0.462.0-cloud-through-batch10-PRIVATE-TEST.zip",
+    "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/8d91d47c561881090c1a4e38dd929f383af4bd2c/output/INSTALL-CLOUD-PRIVATE-TH.txt",
+    "manifest_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/8d91d47c561881090c1a4e38dd929f383af4bd2c/output/package-manifest.json",
+    "sha256": "2b4d3b8e506f4e85dfa38d652de3440a4fbfe9b215106799416efe2848d7ae0b",
+    "bytes": 17712731,
+    "files": 136,
+    "downloaded_back_and_verified_on_cloud": true,
+    "customer_feed_changed": false,
+    "windows_mac_m2_in_game_verified": false,
+    "party_name_change_included": false,
+    "requested_cloud_outputs_status": "Designated /codex/.../output remains OS-unwritable; permanent immutable GitHub artifact fallback, not an attached Cloud output.",
+    "downloaded_zip_every_byte_matches_current_src": true,
+    "downloaded_guide_and_manifest_verified": true,
+    "unique_safe_paths_checked": 136,
+    "toc_load_paths_checked": 24,
+    "protected_skill_font_assets_verified": 28,
+    "saved_variables_and_questie_retained": true
+  },
+  "findings": [
+    "No removed files; only Catalog.lua and Atlas.lua differ from candidate07, with three added Thai bitmap pages. All 28 protected Skills/font hashes unchanged.",
+    "Guide identifies actual Battle.net client path, preserves settings and folder names, distinguishes candidate/runtime/Launcher versions and old test scopes.",
+    "Cloud package verifier writes all runtime files, verifies ZIP integrity, TOC load paths, exact manifest names/hashes, and rejects Dev/Capture/Discovery entries. Separate delivery receipt verifies downloaded artifact bytes against src.",
+    "Affected-font checker verifies append-only atlas/pages, old component bytes, protected assets, glyph bounds/visible alpha and actual unchanged BitmapLayer drawing for 36 texts.",
+    "New artifact is a combined private test package. Whole-game completion, party-name enhancement and live Windows/Mac M2 acceptance are not proven."
+  ],
+  "followup_tool_reproducibility": {
+    "file": "tools/font_readiness10.py",
+    "issue": "Baseline tree comes from HEAD:src/ForeverThai. The recorded execution used prior tree d2562e61bec8ab0be3c5bd5e2f645d755eb55238 before font commit. Rerunning from a later HEAD would select a different baseline and fail or compare the wrong state.",
+    "requested_fix": "Pin/parameterize the recorded prior runtime tree d2562e61bec8ab0be3c5bd5e2f645d755eb55238 so the checker reproduces from committed state. Keep original assertions and report scope. A checker-only fix does not require rebuilding the unchanged ZIP or rerunning unrelated suites.",
+    "effect_on_existing_receipt": "Original recorded pre-commit check and independent cross-candidate manifest comparison remain scoped evidence; no claim of a new rerun."
+  },
+  "status": "combined_private_candidate_reviewed_live_game_unverified"
+}
