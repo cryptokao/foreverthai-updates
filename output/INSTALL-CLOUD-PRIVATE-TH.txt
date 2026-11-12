@@ -11,8 +11,9 @@ Runtime TOC ยังแสดง 0.462.0; แยก candidate ด้วยช�
 2. ตรวจ SHA ของ ZIP ให้ตรงกับบรรทัดด้านบน อย่านำ ZIP baseline หรือแพ็กที่ไม่มี Skills มาผสม
 3. แตก ZIP ไว้ภายนอกโฟลเดอร์เกมก่อน ต้องมี ForeverThai/ForeverThai.toc และ ForeverThai/Skills, Fonts ครบ
 4. เปิดตำแหน่งเกม Forever ที่ใช้อยู่จริงผ่าน Battle.net (Windows: Open in Explorer / Mac: Show in Finder)
-   ไปที่ _forever_/Interface/AddOns แล้ววางโฟลเดอร์ ForeverThai ให้ไฟล์อยู่ที่
-   _forever_/Interface/AddOns/ForeverThai/ForeverThai.toc
+   เลือกโฟลเดอร์ client ที่ Battle.net เปิดและมีไฟล์เกมจริง โดยไม่ยึดชื่อ product folder ตายตัว
+   จากโฟลเดอร์ client นั้น ไปที่ Interface/AddOns แล้ววาง ForeverThai ให้ไฟล์อยู่ที่
+   Interface/AddOns/ForeverThai/ForeverThai.toc
    ต้องไม่ซ้อน ForeverThai สองชั้น และคงชื่อโฟลเดอร์/ไฟล์ทุกตัวรวม Fonts ตามเดิม
 5. เปิดเกมและเปิด Alphaverse THAI SUB ที่หน้าตัวละคร อ่าน INSTALL-TH.txt / INSTALL-MAC-TH.txt ภายในแพ็กเพิ่มเติม
    ไม่ต้องรัน Python, build scripts, โปรแกรม Windows บน Mac หรือ AI local ใด ๆ
