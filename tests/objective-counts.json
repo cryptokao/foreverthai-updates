@@ -1,0 +1,90 @@
+{
+  "purpose": "Hand-authored full English inputs and full Thai expected outputs. These expected values are not generated from the runtime target or from its token replacement code. Comma and unequal counts are synthetic matcher probes, not claims of live objective totals.",
+  "fixtures": [
+    {
+      "quest_id": 90854,
+      "source_item_ids": [
+        15564,
+        15407
+      ],
+      "cases": [
+        {
+          "source": "Bring 2 Rugged Armor Kits and 1 Cured Rugged Hide to Zet'gan in Elderwild on Mount Hyjal.",
+          "expected": "นำ Rugged Armor Kit 2 ชุด และ Cured Rugged Hide 1 ผืนไปให้ Zet'gan ที่ Elderwild บน Mount Hyjal",
+          "source_record_amounts": true
+        },
+        {
+          "source": "Bring 1,234 Rugged Armor Kits and 12 Cured Rugged Hide to Zet'gan in Elderwild on Mount Hyjal.",
+          "expected": "นำ Rugged Armor Kit 1,234 ชุด และ Cured Rugged Hide 12 ผืนไปให้ Zet'gan ที่ Elderwild บน Mount Hyjal"
+        }
+      ],
+      "source_template": "Bring $1oa Rugged Armor Kits and $2oa Cured Rugged Hide to Zet'gan in Elderwild on Mount Hyjal."
+    },
+    {
+      "quest_id": 91564,
+      "source_item_ids": [
+        10561,
+        11590
+      ],
+      "cases": [
+        {
+          "source": "Bring 2 Mithril Casings and 1 Mechanical Repair Kit to Hnaz Blunderflame.",
+          "expected": "นำ Mithril Casing 2 ชิ้น และ Mechanical Repair Kit 1 ชุดไปให้ Hnaz Blunderflame",
+          "source_record_amounts": true
+        },
+        {
+          "source": "Bring 1,234 Mithril Casings and 12 Mechanical Repair Kit to Hnaz Blunderflame.",
+          "expected": "นำ Mithril Casing 1,234 ชิ้น และ Mechanical Repair Kit 12 ชุดไปให้ Hnaz Blunderflame"
+        }
+      ],
+      "source_template": "Bring $1oa Mithril Casings and $2oa Mechanical Repair Kit to Hnaz Blunderflame."
+    },
+    {
+      "quest_id": 92189,
+      "source_item_ids": [
+        12404,
+        12644
+      ],
+      "cases": [
+        {
+          "source": "Bring 2 Dense Sharpening Stones and 1 Dense Grinding Stones to Trigg Ironhand in Elderwild on Mount Hyjal.",
+          "expected": "นำ Dense Sharpening Stone 2 ชิ้น และ Dense Grinding Stone 1 ชิ้นไปให้ Trigg Ironhand ที่ Elderwild บน Mount Hyjal"
+        },
+        {
+          "source": "Bring 1,234 Dense Sharpening Stones and 12 Dense Grinding Stones to Trigg Ironhand in Elderwild on Mount Hyjal.",
+          "expected": "นำ Dense Sharpening Stone 1,234 ชิ้น และ Dense Grinding Stone 12 ชิ้นไปให้ Trigg Ironhand ที่ Elderwild บน Mount Hyjal"
+        }
+      ],
+      "source_template": "Bring $1oa Dense Sharpening Stones and $2oa Dense Grinding Stones to Trigg Ironhand in Elderwild on Mount Hyjal."
+    },
+    {
+      "quest_id": 92465,
+      "notes": "Source order is $2oa then $1oa. Expected counts follow the named creature, not token enumeration order.",
+      "cases": [
+        {
+          "source": "Slay 1 Roiling Winds and 2 Al'Aketh Converts in Thendal Grove.",
+          "expected": "สังหาร Roiling Winds 1 ตนและ Al'Aketh Converts 2 คนใน Thendal Grove"
+        },
+        {
+          "source": "Slay 12 Roiling Winds and 1,234 Al'Aketh Converts in Thendal Grove.",
+          "expected": "สังหาร Roiling Winds 12 ตนและ Al'Aketh Converts 1,234 คนใน Thendal Grove"
+        }
+      ],
+      "source_template": "Slay $2oa Roiling Winds and $1oa Al'Aketh Converts in Thendal Grove."
+    },
+    {
+      "quest_id": 92553,
+      "cases": [
+        {
+          "source": "Collect 2 Small Eggs and 1 Strider Meat from creatures found throughout the Shen'dar Highlands.",
+          "expected": "รวบรวม Small Eggs 2 ฟองและ Strider Meat 1 ชิ้นจากสัตว์ทั่ว Shen'dar Highlands"
+        },
+        {
+          "source": "Collect 1,234 Small Eggs and 12 Strider Meat from creatures found throughout the Shen'dar Highlands.",
+          "expected": "รวบรวม Small Eggs 1,234 ฟองและ Strider Meat 12 ชิ้นจากสัตว์ทั่ว Shen'dar Highlands"
+        }
+      ],
+      "source_template": "Collect $1oa Small Eggs and $2oa Strider Meat from creatures found throughout the Shen'dar Highlands."
+    }
+  ]
+}
