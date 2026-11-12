@@ -64,3 +64,11 @@ Exact candidate batch05: 130 ไฟล์, 17233223 bytes, SHA256 `3fd22cbac9c6e
 ยังไม่มี Blizzard UI API archives จึงไม่อ้าง fresh event-argument documentation proof และยังไม่ใช่ผลเกม Windows/Mac M2 ชุด Skill UI 9 cases คงเป็นผล candidate batch04 ที่รายงานไว้ ไม่รีรันหรืออ้างว่าเป็นผลใหม่เมื่อ Skills ไม่เปลี่ยน Batch05 ได้ review สิ่งของ/NPC/จำนวนแล้วและไม่มีข้อแก้สำนวน; ยังนับเป็น 0 คำแปลเนื้อเรื่องใหม่
 
 งานถัดไปเพิ่ม separate source-ID union audit จาก EG queries/texts, VO และ QuestieDB metadata เพื่อค้นรหัสนอก Catalog; ไม่ขยายตาราง runtime5fields และไม่ใช้ union เป็น playable-game denominator
+
+## Source-ID discovery audit (separate from runtime inventory)
+
+ตรวจ union จาก current EG query4846 IDs, all wowf texts1003, VO2076 และ QuestieDB Forever metadata5893 ที่ pinล่าสุด a444a64 ได้ union6114 IDs เทียบ runtime6149 พบ192 IDsนอกCatalog และ227 runtime IDsที่ไม่พบในunionนี้ ไม่ขยายตาราง5fields และไม่ใช้ตัวเลขใดเป็นwhole-game denominator
+
+192 IDsนอกCatalogแยกเป็น test/development93, title/metadata-only8, disabled1, other-expansion/legacy uncertainty1 และ current-usage-unconfirmed89 ทุก IDนอกCatalogยังไม่มี own-ID current70862/70888 capture จาก EG texts หรือ VO (ต่างจาก query cache) จึงยังไม่ยืนยัน playable และไม่แปลเติมจาก Classic/SoD เพียงเพราะพบ prose
+
+รายละเอียด source/commit/build/actual fields/title collisions/cross-flavor metadata อยู่ source-id-union.csv และ source-ids-outside-catalog.json; summaryบันทึกset differences/invariantsเพื่อไม่วนตรวจเดิมเมื่อsource pinsไม่เปลี่ยน ตรวจแหล่งเพิ่มเติม tyler3497/forever-quests ต่อเป็นprovenanceคนละชุด

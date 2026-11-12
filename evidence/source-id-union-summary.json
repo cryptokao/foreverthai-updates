@@ -1,0 +1,80 @@
+{
+  "scope": "Source-ID union discovery, separate from runtime five-field inventory. Not an authoritative current playable-game denominator.",
+  "source_pins": {
+    "EG": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+    "VO": "d562be626b9970fa8575170950ff61076dc47df0",
+    "QuestieDB": "a444a6418113ae0fce5d30c897674132e756ba1d"
+  },
+  "source_set_id_counts": {
+    "EG_query": 4846,
+    "EG_texts": 1003,
+    "Forever_VO": 2076,
+    "QuestieDB": 5893
+  },
+  "runtime_ids": 6149,
+  "union_source_ids": 6114,
+  "source_ids_outside_runtime": 192,
+  "runtime_ids_not_in_source_union": 227,
+  "outside_triage": {
+    "hold_test_or_development_label": 93,
+    "hold_metadata_or_title_only": 8,
+    "hold_other_expansion_or_legacy_cache_uncertain": 1,
+    "hold_current_usage_unconfirmed": 89,
+    "hold_disabled_or_obsolete": 1
+  },
+  "outside_ids_by_family": {
+    "EG_query": 185,
+    "EG_texts": 0,
+    "Forever_VO": 0,
+    "QuestieDB": 29
+  },
+  "outside_current_capture_ids": [],
+  "source_manifest": {
+    "data/wowf/1.60.1.70888/quests.enUS.json": "433fc57290a162eca1c688c277a96234d39b7198edb1326ed4d6ec8fa4a65d60",
+    "data/wowf/1.60.1.70205/texts.enUS.json": "a105cfe9fed666ddee70a21550d5162415a5c0fd6fdb913e608a647ebe40aec6",
+    "data/wowf/1.60.1.70291/texts.enUS.json": "4990eedc3588768644631aa8699556ba531025b38b5635c9101c4aae1626cfe7",
+    "data/wowf/1.60.1.70334/texts.enUS.json": "a8d06d13164d54c352792503db404de6126f2aecd7039510e2f2608d0f0c26c1",
+    "data/wowf/1.60.1.70338/texts.enUS.json": "062f2c822c6b5f02efcd57739425fcb0aa7a867bf0df16793ec42de50150170d",
+    "data/wowf/1.60.1.70374/texts.enUS.json": "10ac643b8d086df9ee99286bfda065415b7eb0442e0863a6927af6373606403e",
+    "data/wowf/1.60.1.70425/texts.enUS.json": "a4b37a665778a2089a8e70bb11873d73f7a5b4488653f22dd4f1d742136acd96",
+    "data/wowf/1.60.1.70450/texts.enUS.json": "dbe5e2d01ece49ff8aaefda5777992ebc765e0b17b20669407af28f9f158a51d",
+    "data/wowf/1.60.1.70532/texts.enUS.json": "eeb86efb748e375414ee4c6ab29fef53054dedd625e4e6c257fc60183d64de73",
+    "data/wowf/1.60.1.70790/texts.enUS.json": "491466a6dfb433f885675e984a37e56870fabfecef2d77afcccf453c7eeac9be",
+    "data/wowf/1.60.1.70840/texts.enUS.json": "8030d5bf677f203cfc1946f7442913b54bfe80eb6a81b2a4bd0534990be098a8",
+    "data/wowf/1.60.1.70862/texts.enUS.json": "ce6d34566c2b4033e660032842cf12d308c47ba86829ea4756e3e685fbc83adf",
+    "data/wowf/1.60.1.70888/texts.enUS.json": "1d09220f683e25c421e64a380d69169a45440998214771ecd5902cc99b9f2f9b",
+    "tools/data/capture.json": "f49b495b1f48da19e7ec8c1c9ea73e75cb1aa35706cec97b07f45fc251c6c967",
+    "issue-3419-decoded": "1f697f23a91f4f821e5255bcdf696f9e7c1e57c18db01b78eea77c2dfba9f125",
+    "issue-3420-decoded": "2648bf461f18752bc5800716e2127c6ef31a5e559d7cc9b02fe5b95696a00d19",
+    "issue-3421-decoded": "f43ae30b9f51daa317e280a013ab90b0f3cb5264be3e0f8a098d905cf950a049",
+    "issue-3422-decoded": "3e5d843e740992b32c84467b160cb02d1a65c5b53c362ef6d1a816c9dec6d80c",
+    "issue-3423-decoded": "e05eac53e5f8f0ecf5574d1282056d32477ef4907166dbdd4240de62e9d9ea42",
+    "issue-3424-decoded": "9fb42c93ba721ba2497df1b8498de46bc98c9c76dfe859a01eb1113927a1b3c7",
+    "issue-3425-decoded": "175ca153df5f6491a0ed63af9f08044dc49faa139051c324a0eddc8f5e6e9b4c",
+    "data/Forever/foreverQuestDB.lua": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942",
+    "QuestieDB/src/corrections/Forever/foreverQuestFixes.lua": "d6590069f6cce31f538c30539cab0c5f59b54e018d0295a4aa50e9e6ea4f6a05",
+    "src/corrections/Forever/foreverQuestFixes.lua": "d6590069f6cce31f538c30539cab0c5f59b54e018d0295a4aa50e9e6ea4f6a05",
+    "QuestieDB/src/corrections/Forever/generated/foreverBaseQuest.lua": "1173a45e948a67e06f8f4dcabfac8a0cfdf9f6022e2dc2094341abfb82d2ec45",
+    "src/corrections/Forever/generated/foreverBaseQuest.lua": "1173a45e948a67e06f8f4dcabfac8a0cfdf9f6022e2dc2094341abfb82d2ec45",
+    "QuestieDB/src/corrections/Forever/legacy/classicQuestFixes.lua": "76cd6a05f035826cabc6180a0ff2a1a37c5e7946c891eb0a06412fab5a4caf2e",
+    "src/corrections/Forever/legacy/classicQuestFixes.lua": "76cd6a05f035826cabc6180a0ff2a1a37c5e7946c891eb0a06412fab5a4caf2e",
+    "QuestieDB/src/corrections/Forever/legacy/classicQuestReputationFixes.lua": "155b2502990304339833f65c5d5f46d6f1ad84527b9e476a976f4f9157a14322",
+    "src/corrections/Forever/legacy/classicQuestReputationFixes.lua": "155b2502990304339833f65c5d5f46d6f1ad84527b9e476a976f4f9157a14322",
+    "QuestieDB/src/corrections/Forever/traces/foreverQuestTraces.lua": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+    "src/corrections/Forever/traces/foreverQuestTraces.lua": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33"
+  },
+  "questie_metadata_files": [
+    "src/corrections/Forever/foreverQuestFixes.lua",
+    "src/corrections/Forever/generated/foreverBaseQuest.lua",
+    "src/corrections/Forever/legacy/classicQuestFixes.lua",
+    "src/corrections/Forever/legacy/classicQuestReputationFixes.lua",
+    "src/corrections/Forever/traces/foreverQuestTraces.lua"
+  ],
+  "discovery_invariants": {
+    "no_runtime_filter_in_add": true,
+    "union_equals_all_four_source_sets": true,
+    "outside_equals_union_minus_runtime": true,
+    "foreign_flavors_used_only_for_diagnostics": true
+  },
+  "uncertainty": "Queries may contain legacy/test/SoD caches. Repeated titles are collisions, not duplicate proof. Questie metadata/trace corrections alone do not establish current prose/phase availability."
+}
