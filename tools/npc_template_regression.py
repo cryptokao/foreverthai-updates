@@ -5,14 +5,14 @@ from PIL import Image
 ROOT=pathlib.Path(__file__).resolve().parents[1];RUN=ROOT/'src/ForeverThai';batch=json.loads((ROOT/'evidence/npc-templates-09.json').read_text());cases=json.loads((ROOT/'tests/npc-template-cases09.json').read_text());tree=batch['prior_runtime_git_tree'];source=ROOT/'work/eg/data/wowf/1.60.1.70888/texts.enUS.json';meta=ROOT/'work/eg/data/wowf/1.60.1.70888/npcs.json';assert hashlib.sha256(source.read_bytes()).hexdigest()==batch['source_file_sha256'];assert hashlib.sha256(meta.read_bytes()).hexdigest()==batch['npc_metadata_sha256'];doc=json.loads(source.read_text());npcs=json.loads(meta.read_text())['npcs'];lua=LuaRuntime(unpack_returned_tuples=True);a=lua.table();old=lua.table();load=lua.eval('function(s,a)assert(loadstring(s))("ForeverThai",a)end')
 for n in ['Catalog.lua','Match.lua','Atlas.lua']:
  load((RUN/n).read_text(),a);load(subprocess.check_output(['git','-C',str(ROOT),'show',tree+':'+n]).decode(),old)
-newids={v['npc_id'] for v in batch['fields'] if old.npcs[v['npc_id']] is None};newlines={(v['npc_id'],v['line_index']) for v in batch['fields']};checks=0
+later=json.loads((ROOT/'evidence/public-literals-10.json').read_text())['fields'] if (ROOT/'evidence/public-literals-10.json').exists() else [];allowed=batch['fields']+[v for v in later if v['kind']=='npc'];later_books={v['book_title'] for v in later if v['kind']=='book'};newids={v['npc_id'] for v in allowed if old.npcs[v['npc_id']] is None};newlines={(v['npc_id'],v['line_index']) for v in allowed};checks=0
 def preserve(before,after,path=()):
  global checks
  if lua_type(before)=='table':
   assert lua_type(after)=='table',path
   for k,v in before.items():preserve(v,after[k],path+(k,))
   for k in after.keys():
-   if before[k] is None:assert path in [('runs',),('glyphs',)] or path==('npcs',) and k in newids or len(path)==3 and path[0]=='npcs' and path[2]=='lines' and (path[1],k) in newlines,(path,k)
+   if before[k] is None:assert path in [('runs',),('glyphs',)] or path==('npcs',) and k in newids or path==('books',) and k in later_books or len(path)==3 and path[0]=='npcs' and path[2]=='lines' and (path[1],k) in newlines,(path,k)
  elif lua_type(before)!='function':assert before==after,path
  checks+=1
 for k,v in old.items():
