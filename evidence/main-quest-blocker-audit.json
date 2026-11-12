@@ -1,0 +1,68 @@
+{
+  "recorded_date": "2026-11-13",
+  "status": "verified_source_blocker_goal_still_active_first_blocked_audit_turn",
+  "consecutive_verified_blocked_goal_turns": 1,
+  "counting_scope": "First distinct goal-continuation turn after the main-only refocus whose latest-source audit is complete and Cloud job is terminal. Do not count several tool calls in one turn as several turns.",
+  "blocker_key": "no_new_source_ready_main_fields_and_no_current_whole_game_inventory_proof",
+  "latest_main_source": {
+    "issue": 3429,
+    "source": {
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3429",
+      "created_at": "2026-11-12T18:08:15Z",
+      "updated_at": "2026-11-12T18:08:15Z",
+      "issue_json_sha256": "a143d0dc1cf3ac5491b5d82758d3e83e39f7ad23fd5e93cd21c4056a5635d3d7",
+      "body_sha256": "81bf03ab7c83a9de8ce4dc592f4cafba138c852e2d280fcc3639b936aadd39cf",
+      "decoded_sha256": "4b46ea48cf5fde3c6f1a1f1485943ffd71d3d8df110c09e084996ed5c1443a56",
+      "build": "70888",
+      "locale": "enUS",
+      "total_export_lines": 243
+    },
+    "source_ready_fields": 0,
+    "new_main_quest_translations": 0,
+    "status_counts": {
+      "exact_supported": 71,
+      "normalized_diagnostic_supported": 16,
+      "held_normalized_or_token_review": 1
+    },
+    "held_quest_id": 95772,
+    "held_field": "completion",
+    "held_role": "normalized race describing a third-party subject; no independent fixed-reference vs player-race evidence",
+    "new_field_id": false
+  },
+  "authoritative_evidence": {
+    "source_report_ref": "d79d16d478b9b0c0b19895de4b898e576f2f92e2/evidence/main-quest-3429-audit.json",
+    "runtime_tree": "f15e81e113bc38214f7a22f4179d3380ce812ea9",
+    "runtime_matches_complete_candidate12": true,
+    "cloud_job_state": "Terminal final response observed with disabled Send and no Stop button; working tree reported clean.",
+    "auxiliary_audit": "Checkpointed, no runtime edits; not resumed.",
+    "local_draft_main_content": "Five named English/Thai/progress/Catalog/Atlas files match before-group snapshot; exact hashes in root-local-draft-assessment.json.",
+    "user_additional_source": "User has none currently; user-source-availability.json.",
+    "user_game_tests": "User has not tested yet; user-game-test-status.json."
+  },
+  "bounded_primary_source_rechecks": [
+    {
+      "url": "https://forever-tool.com/en/about/",
+      "observed_data_date": "2026-11-04",
+      "observed_build": "1.60.1.70399",
+      "result": "Same older public data scope; not an authoritative current enabled whole-game index."
+    },
+    {
+      "url": "https://www.curseforge.com/wow/addons/forever-translated/files/all",
+      "observed_latest_file_version": "1.1.1",
+      "observed_release_date": "2026-11-04",
+      "result": "Same previously inspected release; no new release identified by this check."
+    }
+  ],
+  "completion_audit": {
+    "current_enabled_eligible_inventory": "missing",
+    "all_current_quest_phases_and_roles": "unproven/missing inputs",
+    "complete_private_combined_package": "candidate12 technically reviewed and delivered",
+    "all_protected_components": "preserved28assets/136files/24TOCpaths",
+    "real_windows_mac_m2_acceptance": "not yet tested",
+    "customer_publication": "not changed; do not pad versions to reach cadence",
+    "whole_goal": "not achieved"
+  },
+  "current_safe_next_action": "On a subsequent distinct goal turn, revalidate only external source/input state. Do not restart a Cloud run, redo old translation, upload the118MB auxiliary DB, build ZIP13, run unchanged tests or invent side work. If the same genuine impasse persists for the host-required consecutive turns, use the goal blocked status, not complete or paused. Reset the audit only when actual new inputs permit main translation progress.",
+  "runtime_or_font_changes_this_audit": false,
+  "new_translation_count": 0
+}
