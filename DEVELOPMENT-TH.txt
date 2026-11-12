@@ -1,3 +1,6 @@
+สถานะปัจจุบัน: อ่าน BATCHES.md และ GOAL.md ก่อน รายงานด้านล่างเป็น snapshot ของ batch 01 เท่านั้น
+ชุด Skill UI 9 selected cases กู้คืนและรัน Cloud ใหม่แล้วใน evidence/legacy-skill-cloud.json; NPC686/ผลในเกมยังไม่มี
+
 Alphaverse THAI SUB — Cloud main objectives batch 01 (private review)
 
 ฐานคือ PRIVATE-TEST 0.462.0 ที่ตรวจ SHA-256 จริง ไม่รวมร่าง 0.463.0 บน PC

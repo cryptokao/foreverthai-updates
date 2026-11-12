@@ -1,0 +1,22 @@
+[
+  {
+    "path": "tests/test_recipe_panel.py",
+    "bytes": 28323,
+    "sha256": "b6dccc017798029d95d3eaabd7e4ae82d108e9b7039ed93f14291710a8f8f563"
+  },
+  {
+    "path": "tests/test_item_tooltip.py",
+    "bytes": 84979,
+    "sha256": "6e6d3af7e5ba5568372a7bac3344bee86e35fd67adffb511f37af2c5993a7397"
+  },
+  {
+    "path": "tests/test_spellbook_metadata.py",
+    "bytes": 295077,
+    "sha256": "f3f3e54fa75995c921e25dccd104e7ec9ef51d1b3792d34837c31f087b217176"
+  },
+  {
+    "path": "reference/check_combined_launcher.py",
+    "bytes": 12440,
+    "sha256": "5d25e4eba4f239e2906fd1d9ce9a1b1217d0008b08ce0a95151e6fdb27847dd6"
+  }
+]
