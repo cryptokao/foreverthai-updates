@@ -224,3 +224,10 @@ Result:0source-ready mainfields,0newmainThai/prose/aliases,0runtime/font/version
 - Appended only20 missing Thai runs/60 glyphs on Thai89.tga for reviewed main13 rendered text across all supported class/race mappings; no old runs/glyphs/pages changed.
 - Affected readiness passed29 actual BitmapLayer draws, bounds/alpha checks,134 unchanged candidate12 files and28 protected Skill/font assets. Catalog was already approved; only Atlas plus one new font page changed in this step.
 - No unchanged main/NPC686/party/Skills/full suite rerun. Combined package/readback follows; customer feed/version unchanged.
+
+
+## Candidate13 — immutable combined package and Cloud readback
+
+- Artifact5171d8b741e6d297a447996ff6eb064da93250a7,137files/17748537bytes/SHA2562b66f0791dbab6e5e6d3363b6277c811e36c1a1d24ec4ef8256433b6691f5a26. Source45af251/runtime treef85a68ca9c2ade231310620e693765cd99eebfc1.
+- Cloud downloaded ZIP/guide/manifest back and verified all137safe paths/every byte,24TOCpaths,28protected Skill/font assets,settings/SavedVariables/Questie. Candidate12 has no removed files; only Catalog/Atlas differ andThai89was added;134other files unchanged.
+- Complete Quest/Tracker/NPC/Skill/Talent/Profession/Item/fonts retained; candidate12immutable, no customerfeed/version change. Only affected font and actual package checks ran; no unchanged UI/full suite rerun or in-game claim.
