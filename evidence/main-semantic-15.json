@@ -168,5 +168,12 @@
     }
   ],
   "font": "pending_Root_review_no_append",
-  "package": "candidate13_remains_immutable_no_new_package"
+  "package": "candidate13_remains_immutable_no_new_package",
+  "level_metadata_source": {
+    "repository": "Questie/QuestieDB",
+    "commit": "c6745129ef9ea5e6dd1cdcd77224090f71bda880",
+    "path": "data/Forever/foreverQuestDB.lua",
+    "sha256": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942",
+    "note": "Only six own-ID rows consulted. level is metadata, not a live current-eligibility proof."
+  }
 }
