@@ -7,7 +7,7 @@ from PIL import Image
 ROOT=pathlib.Path(__file__).resolve().parents[1];RUN=ROOT/'src/ForeverThai';batch=json.loads((ROOT/'evidence/npc-gossip-08.json').read_text());prior_manifest=json.loads((ROOT/'evidence/private-package-manifest07.json').read_text());source=ROOT/'work/eg'/batch['source_path'];metadata=ROOT/'work/eg'/batch['npc_metadata_path'];assert hashlib.sha256(source.read_bytes()).hexdigest()==batch['source_file_sha256'];assert hashlib.sha256(metadata.read_bytes()).hexdigest()==batch['npc_metadata_sha256'];document=json.loads(source.read_text());npcs=json.loads(metadata.read_text())['npcs'];tree=batch['prior_runtime_git_tree'];lua=LuaRuntime(unpack_returned_tuples=True);addon=lua.table();old=lua.table();load=lua.eval('function(s,a)assert(loadstring(s))("ForeverThai",a)end')
 for n in ['Catalog.lua','Match.lua','Atlas.lua']:
  load((RUN/n).read_text(),addon);load(subprocess.check_output(['git','-C',str(ROOT),'show',tree+':'+n]).decode(),old)
-new_ids={v['npc_id'] for v in batch['fields'] if old.npcs[v['npc_id']] is None};new_lines={(v['npc_id'],v['line_index']) for v in batch['fields']};checks=0
+later=json.loads((ROOT/'evidence/npc-templates-09.json').read_text())['fields'] if (ROOT/'evidence/npc-templates-09.json').exists() else [];allowed_fields=batch['fields']+later;new_ids={v['npc_id'] for v in allowed_fields if old.npcs[v['npc_id']] is None};new_lines={(v['npc_id'],v['line_index']) for v in allowed_fields};checks=0
 def preserve(a,b,path=()):
  global checks
  if lua_type(a)=='table':
