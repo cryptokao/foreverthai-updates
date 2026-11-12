@@ -1,2 +1,5 @@
 # Preserve transferred runtime bytes, including existing CRLF and binary fonts.
 src/ForeverThai/** -text
+
+# Preserve recovered original fixture hashes across Cloud/Local checkouts.
+tests/recovered_skill/** -text
