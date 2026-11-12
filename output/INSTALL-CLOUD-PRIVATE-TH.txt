@@ -1,0 +1,41 @@
+Alphaverse THAI SUB — Cloud candidate revision cloud-main-through07
+แพ็กทดสอบแยกจาก 0.462.0 baseline และไม่ใช่งานร่าง 0.463.0 บน PC
+ชื่อไฟล์: ForeverThai-0.462.0-cloud-through-batch07-PRIVATE-TEST.zip
+SHA-256: ee59386cb62cafb3acfd85a8af4fec33ddc66b4a65fbdd5cfe5613a3cee9d781
+ขนาด: 17533451 bytes; ภายใน 133 ไฟล์
+Runtime TOC ยังแสดง 0.462.0; แยก candidate ด้วยชื่อ revision/ชื่อ ZIP และ SHA ด้านบน
+ไม่ใช่ customer update ผ่าน Launcher; feed ยังเดิม รอบถัดไปยังตามนโยบาย 0.470.0
+
+ผู้ใช้เลือกติดตั้งและทดสอบเองได้ตามขั้นตอนต่อไปนี้ ผู้ช่วยไม่ได้ควบคุมหรือติดตั้งเกม
+1. ปิดเกม สำรองโฟลเดอร์ ForeverThai เดิม และเก็บ SavedVariables เดิมไว้ก่อนอัปเดต
+2. ตรวจ SHA ของ ZIP ให้ตรงกับบรรทัดด้านบน อย่านำ ZIP baseline หรือแพ็กที่ไม่มี Skills มาผสม
+3. แตก ZIP ไว้ภายนอกโฟลเดอร์เกมก่อน ต้องมี ForeverThai/ForeverThai.toc และ ForeverThai/Skills, Fonts ครบ
+4. เปิดตำแหน่งเกม Forever ที่ใช้อยู่จริงผ่าน Battle.net (Windows: Open in Explorer / Mac: Show in Finder)
+   เลือกโฟลเดอร์ client ที่ Battle.net เปิดและมีไฟล์เกมจริง โดยไม่ยึดชื่อ product folder ตายตัว
+   จากโฟลเดอร์ client นั้น ไปที่ Interface/AddOns แล้ววาง ForeverThai ให้ไฟล์อยู่ที่
+   Interface/AddOns/ForeverThai/ForeverThai.toc
+   ต้องไม่ซ้อน ForeverThai สองชั้น และคงชื่อโฟลเดอร์/ไฟล์ทุกตัวรวม Fonts ตามเดิม
+5. เปิดเกมและเปิด Alphaverse THAI SUB ที่หน้าตัวละคร อ่าน INSTALL-TH.txt / INSTALL-MAC-TH.txt ภายในแพ็กเพิ่มเติม โดยชื่อ product folder เก่าในเอกสารนั้นเป็นตัวอย่าง historical ไม่ใช่การยืนยัน client path
+   ไม่ต้องรัน Python, build scripts, โปรแกรม Windows บน Mac หรือ AI local ใด ๆ
+6. คงค่าตั้ง/SavedVariables เดิมไว้ ไม่ต้องล้าง WTF เพื่อทดสอบแพ็กนี้
+
+แพ็กนี้รวม Quest, Tracker, Questie integration, NPC subtitles, Skill, Talent, Profession, Item และฟอนต์
+คำแปลหลักเดิม/aliases คงไว้ มี objective ใหม่ 34 ฟิลด์จาก batch01, คำแปล/ขยายหลักอีก6รูปแบบจาก batch02/04
+batch03/05/06 เพิ่มรูปแบบจำนวนจาก source (batch06 อีก34forms) ไม่ได้นับเป็นเนื้อเรื่องใหม่
+batch07 เพิ่มหนังสือ20หน้าจาก full body ใหม่ และ historical label aliases3รูปแบบ
+ยังไม่ทราบจำนวนหน้ารวมทั้งเล่ม จึงไม่อ้างว่าหนังสือครบเล่ม
+Cloud main regression106source cases/362positive/710negative executions; unequal counters36cases/80swapmutations
+Book handler20positive/87negative; historical aliases6positive/4negative
+NPC686เป็นผลcandidate05 SHA3fd22c... ไม่ได้รันซ้ำกับZIP07; API proof8layoutsเป็นผลแยก
+Skills/NPC/ฟอนต์เก่าคงbyteเดิม; ฟอนต์หนังสือappendThai83–85 โดยไม่ทับภาพเดิม
+Skill UI9กรณีเป็นผล candidate batch04 ที่รายงานแยกไว้ (Skills คง byte เดิม) ไม่อ้างว่ารันซ้ำกับ ZIP นี้
+ยังไม่ยืนยันการเล่นจริง Windows/Mac M2 และยังไม่ครบ GOAL.md / ทั้งเกม
+
+ผลทดสอบ/ช่องว่าง source/คำแนะนำต่อ: https://github.com/cryptokao/foreverthai-updates/pull/1
+หากต้องย้อนกลับ ให้ปิดเกมแล้วนำโฟลเดอร์ ForeverThai ที่สำรองกลับคืน โดยเก็บค่าตั้งเดิมไว้
+
+แหล่งหนังสือ: Data from Efficient Games (https://efficient.games), CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+https://github.com/JIVESCORP/eg-link-output-wowf/tree/164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1
+ข้อความต้นฉบับ build1.60.1.70888; งานแปลไทย/การจับคู่เป็นการดัดแปลงตามหลักฐานใน PR
+Source commit: 76b09b4c9579b6a5eb3ea1d0cf44398cb1de0216
