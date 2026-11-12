@@ -113,6 +113,34 @@
           "expected": "เข้า Alcaz Prison แล้วสังหารทหาร Strashaz 1,234 นายกับนางมนตรา Strashaz 12 ตน จากนั้นนำหัวของ Tidemistress Ca'zass ไปให้ Sully McCleary"
         }
       ]
+    },
+    {
+      "quest_id": 93759,
+      "source_template": "Collect $1oa Hyjal Venison Cuts from untainted Hyjal Stags and $2oa Scarlet Dart Tubers for the hermit's stew.",
+      "cases": [
+        {
+          "source": "Collect 2 Hyjal Venison Cuts from untainted Hyjal Stags and 1 Scarlet Dart Tubers for the hermit's stew.",
+          "expected": "เก็บเนื้อกวาง Hyjal (Hyjal Venison Cuts) 2 ชิ้นจากกวาง Hyjal Stag ที่ไม่ปนเปื้อน และหัว Scarlet Dart Tuber 1 หัวสำหรับทำสตูของฤๅษี"
+        },
+        {
+          "source": "Collect 1,234 Hyjal Venison Cuts from untainted Hyjal Stags and 12 Scarlet Dart Tubers for the hermit's stew.",
+          "expected": "เก็บเนื้อกวาง Hyjal (Hyjal Venison Cuts) 1,234 ชิ้นจากกวาง Hyjal Stag ที่ไม่ปนเปื้อน และหัว Scarlet Dart Tuber 12 หัวสำหรับทำสตูของฤๅษี"
+        }
+      ]
+    },
+    {
+      "quest_id": 93826,
+      "source_template": "Defeat $1oa Deadwood Totemics and $2oa Deadwood Fel-Tenders and return to Elder Pinespeaker.",
+      "cases": [
+        {
+          "source": "Defeat 2 Deadwood Totemics and 1 Deadwood Fel-Tenders and return to Elder Pinespeaker.",
+          "expected": "กำจัด Deadwood Totemic 2 ตัว และ Deadwood Fel-Tender 1 ตัว แล้วกลับไปหา Elder Pinespeaker"
+        },
+        {
+          "source": "Defeat 1,234 Deadwood Totemics and 12 Deadwood Fel-Tenders and return to Elder Pinespeaker.",
+          "expected": "กำจัด Deadwood Totemic 1,234 ตัว และ Deadwood Fel-Tender 12 ตัว แล้วกลับไปหา Elder Pinespeaker"
+        }
+      ]
     }
   ]
 }

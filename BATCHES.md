@@ -41,6 +41,12 @@ SHA-256 `785138246d531eae7d22286e26cb5ee301eb16b334c11fdfe7861caa59bf2796`
 
 `evidence/main-source-queue.json` เก็บรายการรายฟิลด์และ source hashes; `source-audit-through04.json` ระบุเหตุผล/สิ่งที่ต้องการเพิ่มเติม ให้เริ่มต่อจาก L1 92479/98574/98581/98601 ที่ capture อาจแทนคำอาชีพ/เผ่าคงที่ผิด ตรวจ own-ID primary ก่อนเพิ่ม typed aliases คิวจำนวน dynamic ที่ยังเหลือเป็นการขยายข้อความเดิม ไม่ใช่หลักฐานว่าคำแปลที่ recorded totals เดิมขาด
 
-QuestieDB HEAD ใหม่ `d9caec6` เปลี่ยน metadata/gates และชื่อ 91907 แต่ยังไม่มี query record ปัจจุบันของรหัสนี้ จึงไม่อ้างว่าเป็นเควสต์ playable ใหม่ ส่วนต้นฉบับ primary ที่ www.wowhead.com ถูก Cloud proxy ปฏิเสธ CONNECT 403; ขอเพิ่ม allowlist เฉพาะโดเมนนี้ระหว่างทำงานส่วนอื่น ไม่ย้ายออกจาก Cloud ที่ยังทำงานได้
+QuestieDB HEAD ใหม่ `d9caec6` เปลี่ยน metadata/gates และชื่อ 91907 แต่ยังไม่มี query record ปัจจุบันของรหัสนี้ จึงไม่อ้างว่าเป็นเควสต์ playable ใหม่ ส่วนต้นฉบับ primary ที่ www.wowhead.com ถูก Cloud proxy ปฏิเสธ CONNECT 403; ผู้ใช้ยืนยันให้คง network isolation/allowlist เดิม ใช้แหล่งที่เข้าถึงได้ต่อไป ไม่ย้ายออกจาก Cloud ที่ยังทำงานได้
 
 ยังขาด typed phases บางรายการ (เช่น 6076/5642/5643 completion), current quest/phase inventory ที่พิสูจน์ playable ครบ, NPC686 harness และผลเล่นจริง Windows/Mac M2 จึงยังไม่ผ่านเงื่อนไขจบ GOAL.md
+
+## Batch 05 — Hyjal source amount forms
+
+เพิ่ม dynamic source forms 16 ฟิลด์ใน 15 เควสต์ L55–57 (15 objectives + description93833) จาก query เดิมที่ pinned ไว้ คงข้อความและ fixed totals ที่แปลแล้วทุกค่า ไม่ใช่ 16 คำแปลเนื้อเรื่องใหม่ ไม่สร้างฟอนต์และไม่แก้ Skills เพิ่ม unequal-counter oracles อีก 4 กรณี พร้อมตรวจ fixed trainer literals ของ L1 ต่างคลาส 12 กรณี; ความเห็นบางส่วนจากหน้า98574ไม่ถูกใช้แทน raw body/hash และ progress ยัง hold binding ไว้
+
+ผล main regression ล่าสุด: 72 unique source cases, 208 positive executions, 395 negative executions, 18 independent unequal-counter cases, 36 detected swaps ดู cloud-regression.json; ผล Skill UI candidate batch04 ยังคงเป็นผลของ SHA เดิม ไม่อ้างว่ารันใหม่เมื่อ Skills ไม่เปลี่ยน

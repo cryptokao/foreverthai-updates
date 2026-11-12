@@ -48,5 +48,6 @@
       "need": "Do not bind third-party druid $c to current player class."
     }
   ],
-  "inventory_scope": "6149 runtime quest IDs × five fields; absence of a field/source is not proof that this phase exists in current gameplay. No whole-game denominator established."
+  "inventory_scope": "6149 runtime quest IDs × five fields; absence of a field/source is not proof that this phase exists in current gameplay. No whole-game denominator established.",
+  "network_followup": "User explicitly chose unchanged network policy; no further allowlist requests or isolation changes. Partial observation of page98574 is context only, not a full body/hash or slot-binding proof."
 }
