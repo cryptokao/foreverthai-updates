@@ -108,3 +108,19 @@ Restricted parserรับเฉพาะnumericID/string literals และsche
 compact-main-queue.jsonปัจจุบันเหลือ0actionable/72blocked ไม่มีnew prose readyจากsourceที่มี จึงไม่อ้างว่าmainทั้งเกมครบและไม่วนblockedslotsเดิม ต้องได้exactown-ID typed/full-current-body/formatter proofตามnext_actionรายแถวก่อนเติม ส่วนสังเกตwebที่rootส่งเกี่ยวกับHarvesttypos/Optionalจะตรวจหลังcommitนี้ เฉพาะhistorical aliasesที่มีหลักฐาน ไม่สร้างsourceหรือstripOptionalทั่วเกม
 
 ผลNPC686/API/SkillUIที่reviewแล้วคงเป็นผลcandidateเดิมตามSHA ไม่rerunชุดเดิมจากการเปลี่ยนquantityCatalogนี้ Candidate05ที่ส่งให้ผู้ใช้คงZIP/SHAเดิม ไม่มีผลliveWindows/MacM2กลับมา
+
+## Batch07 — observed books and exact historical labels
+
+ตรวจ20fullEnglishbodiesกับ857numeric book-page bindingsใน289title bindingsรวมvariants/title aliasesของcandidate05ที่มีSHAผูกไว้แล้ว ไม่มีbodyใดmatch จึงไม่ใช่แค่เห็นtitleใหม่แล้วนับเพิ่ม ดูbook-reuse-audit07.jsonและtools/audit_book_reuse.py
+
+เพิ่ม20page fieldsจากEGwowf70888 pin164bd1e2:Belamoore's Research Journal(item3711)19observed pages และField Guide(item213563)page3 ทุกentryผูกitem/title/page/fullEnglish/Thai/source record/hash/meta คงชื่อคน/เผ่าในเรื่องตรงตัว ไม่มีplayerplaceholder ไม่มีหลักฐานtotalpagecount จึงไม่อ้างcompletewholebook
+
+ตรวจความหมาย/ลำดับ/ชื่อ/จำนวน/การแบ่งpageในThaiครบbatchก่อนappendfont บนCloudเพิ่ม162runs/512glyphsในThai83–85เท่านั้น คงpriorfontpages/glyphs/runsเดิม Candidate05componentsที่ไม่ใช่Catalog/Atlas128ไฟล์คงSHAเดิม
+
+Labeltyposทั้งสามcurrentcorrectedEnglishรองรับThaiเดิมแล้ว เพิ่มเฉพาะexactolderHarvestformsในown-IDsteps97223/93963/92679เป็น3historical aliases สองtypoใช้Thaiเดิม Optionalaliasคงความหมายด้วย(ไม่บังคับ) แต่ไม่stripOptionalทั่วเกม ไม่อ้างcurrentOptionalflag/coverageหรือnewproseจากaliases
+
+Book regressionใช้readBookfunctionจริงจากEvents.luaในmock UI ผ่าน20exacttitle/page/fullbody positives +87wrongtitle/page/body/type/secret/mode negatives;historicalaliases6positives/4negatives ทั้งหมดมีbakedruns Mainregression106source cases/362positive/710negative/36independentcountercases/80swapmutationsยังผ่าน ค่าเก่า978064ค่ายังคงเดิม Fontpages98decodeได้ครบ ไม่rerununchangedSkill/NPCsuiteจากbook-onlychange ผลเก่าแต่ละชุดยังผูกcandidateSHAเดิม
+
+compactmainqueueยัง0actionable/72heldsource records;72ไม่ใช่72เควสต์ที่ไม่แปลทั้งฟิลด์ หลายcanonicalรองรับอยู่แล้ว ดูruntime_canonical_present/ already_supported_source_versions รายrecord
+
+ZIP05ที่ส่งผู้ใช้ยังไม่มี34forms06และหนังสือ07 จะสร้างcandidate07ชื่อ/hashใหม่เมื่อพร้อม โดยคงZIP05เดิมไว้ ไม่เปลี่ยนcustomerfeed และยังไม่มีผลเกมWindows/MacM2กลับมา

@@ -13,6 +13,7 @@ for n in ['Catalog.lua','Match.lua','SpeechData.lua','Atlas.lua']:
 lua.execute('UnitName=function() return "CloudTester" end; UnitClass=function() return "Druid", "DRUID" end; UnitRace=function() return "Night Elf" end')
 batch1=json.loads((ROOT/'evidence/main-objectives-01.json').read_text());batch2=json.loads((ROOT/'evidence/main-phases-02.json').read_text())
 batch4=json.loads((ROOT/'evidence/main-query-04.json').read_text())
+batch7=json.loads((ROOT/'evidence/books-labels-07.json').read_text());new_book_pages={(v['book_title'],v['page']) for v in batch7['fields']};new_book_titles=set(batch7['new_book_titles']);historical_steps={(v['quest_id'],v['step_index']) for v in batch7['historical_label_aliases']}
 batch6=json.loads((ROOT/'evidence/main-counters-06.json').read_text())
 batch5=json.loads((ROOT/'evidence/main-hyjal-05.json').read_text())
 batch3=json.loads((ROOT/'evidence/main-counters-03.json').read_text());dynamic_fields={(x['quest_id'],x['field']) for x in batch3['fields']+batch5['fields']+batch6['fields']}
@@ -25,7 +26,11 @@ def equal(a,b,path=()):
   for k,v in a.items():equal(v,b[k],path+(k,))
   for k,v in b.items():
    if a[k] is None:
-    allowed=path in [('runs',),('glyphs',)] or (len(path)==2 and path[0]=='quests' and (path[1],k) in added)
+    allowed=path in [('runs',),('glyphs',)]
+    if path==('books',) and k in new_book_titles:allowed=True
+    if len(path)==2 and path[0]=='books' and (path[1],k) in new_book_pages:allowed=True
+    if len(path)==4 and path[0]=='quests' and path[2]=='steps' and (path[1],path[3]) in historical_steps and k=='variants':allowed=True
+    allowed=allowed or (len(path)==2 and path[0]=='quests' and (path[1],k) in added)
     if len(path)==3 and path[0]=='quests' and (path[1],path[2]) in variants and k=='variants':allowed=True
     if len(path)==3 and path[0]=='quests' and (path[1],path[2]) in dynamic_fields and k=='amount':allowed=True
     if len(path)==4 and path[0]=='quests' and (path[1],path[2]) in variants and path[3]=='variants':allowed=True
@@ -40,6 +45,12 @@ for n in names:
  if n.endswith('/Catalog.lua'):continue
  if n.endswith('/Atlas.lua'):assert p.read_bytes().startswith(z.read(n));continue
  assert p.read_bytes()==z.read(n),n
+prior_manifest=json.loads((ROOT/'evidence/private-package-manifest05.json').read_text())['runtime_manifest']
+prior_unchanged=0
+for name,digest in prior_manifest.items():
+ if name.endswith(('/Catalog.lua','/Atlas.lua')):continue
+ assert hashlib.sha256((ROOT/'src'/name).read_bytes()).hexdigest()==digest,name
+ prior_unchanged+=1
 for p in RUN.rglob('*.lua'):load(p.read_text(),None)
 toc=(RUN/'ForeverThai.toc').read_text();paths=[x.strip().replace('\\','/') for x in toc.splitlines() if x.strip() and not x.startswith('#')];assert all((RUN/x).is_file() for x in paths)
 assert '## OptionalDeps: Questie' in toc and 'AlphaWoWSkillsDB' in toc
@@ -159,5 +170,5 @@ for p in (RUN/'Fonts').glob('*.tga'):
  with Image.open(p) as im:im.load();images[p.name]=im.size
 for _,g in addon.glyphs.items():
  w,h=images[f'Thai{g[1]}.tga'];assert 0<=g[2] and g[2]+g[4]<=w and 0<=g[3] and g[3]+56<=h
-result=dict(baseline_components_retained=126,byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,low_level_literal_binding_checks=low_binding_checks,new_dynamic_forms_batch03=len(batch3["fields"]),new_dynamic_forms_batch05=len(batch5["fields"]),new_dynamic_forms_batch06=len(batch6["fields"]),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; its UI API archives remain unavailable; not in-game verification.')
+result=dict(baseline_components_retained=126,candidate05_unchanged_component_hashes=prior_unchanged,new_book_page_fields_batch07=len(new_book_pages),historical_label_aliases_batch07=len(historical_steps),byte_identical_baseline_files=124,new_objective_fields_batch01=len(added),new_source_variants_batch02=len(batch2["fields"]),new_source_variants_batch04=len(batch4["fields"]),new_or_changed_prose_batch04=4,query_variant_executions=query_variant_executions,low_level_literal_binding_checks=low_binding_checks,new_dynamic_forms_batch03=len(batch3["fields"]),new_dynamic_forms_batch05=len(batch5["fields"]),new_dynamic_forms_batch06=len(batch6["fields"]),unchanged_data_values_checked=checks,unique_source_cases=len(unique_templates),distinct_rendered_positive_inputs=len(rendered_inputs),parameterized_positive_executions=positives,negative_executions=negatives,independent_unequal_counter_cases=counter_cases,swapped_binding_mutations_detected=mutation_detections,lua_files_compiled=len(list(RUN.rglob('*.lua'))),toc_paths=len(paths),font_pages_decoded=len(images),old_glyphs=len(base.glyphs),old_runs=sum(1 for _ in base.runs.items()),new_glyphs=len(addon.glyphs)-len(base.glyphs),new_runs=sum(1 for k,_ in addon.runs.items() if base.runs[k] is None),scope='Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; fresh pinned API-source proof is reported separately in npc-api-proof.json; not in-game verification.')
 (ROOT/'evidence/cloud-regression.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

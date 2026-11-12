@@ -1,0 +1,631 @@
+{
+  "batch": "cloud-books-and-historical-labels-07",
+  "new_book_page_fields": 20,
+  "new_book_titles": {
+    "Belamoore's Research Journal": "บันทึกการวิจัยของ Belamoore"
+  },
+  "historical_label_aliases": [
+    {
+      "quest_id": 97223,
+      "step_index": 1,
+      "english": "Bloodtalon Martriarch Eggs",
+      "thai": "ไข่ของแม่พันธุ์ Bloodtalon",
+      "signature": "26:1607533985:1478990422",
+      "corrected_existing_english": "Bloodtalon Matriarch Eggs",
+      "corrected_existing_thai": "ไข่ของแม่พันธุ์ Bloodtalon",
+      "source_kind": "exact_preserved_historical_Harvest_form",
+      "harvest_date": "2026-09-28",
+      "exact_build": null,
+      "harvest_file_sha256": "c2d704eed4c6d9a424998f77eb3c4caf31fcf616fb78acb7f88f995e3b4c52d2",
+      "root_observation_file": "evidence/root-quest-label-observations-2026-11-12.json",
+      "current_optional_suffix_proven": null,
+      "scope": "Historical source alias only. No fabricated English, global typo correction or Optional stripping. No new prose/current coverage claim."
+    },
+    {
+      "quest_id": 93963,
+      "step_index": 1,
+      "english": "Recieve Instructions from Randal Emerson",
+      "thai": "รับคำสั่งจาก Randal Emerson",
+      "signature": "40:1982641640:1048568596",
+      "corrected_existing_english": "Receive Instructions from Randal Emerson",
+      "corrected_existing_thai": "รับคำสั่งจาก Randal Emerson",
+      "source_kind": "exact_preserved_historical_Harvest_form",
+      "harvest_date": "2026-09-28",
+      "exact_build": null,
+      "harvest_file_sha256": "c2d704eed4c6d9a424998f77eb3c4caf31fcf616fb78acb7f88f995e3b4c52d2",
+      "root_observation_file": "evidence/root-quest-label-observations-2026-11-12.json",
+      "current_optional_suffix_proven": null,
+      "scope": "Historical source alias only. No fabricated English, global typo correction or Optional stripping. No new prose/current coverage claim."
+    },
+    {
+      "quest_id": 92679,
+      "step_index": 2,
+      "english": "Listen to Alvarion Windfield's Story (Optional)",
+      "thai": "ฟังเรื่องราวของ Alvarion Windfield (ไม่บังคับ)",
+      "signature": "47:396120474:1658670149",
+      "corrected_existing_english": "Listen to Alvarion Windfield's Story",
+      "corrected_existing_thai": "ฟังเรื่องราวของ Alvarion Windfield",
+      "source_kind": "exact_preserved_historical_Harvest_form",
+      "harvest_date": "2026-09-28",
+      "exact_build": null,
+      "harvest_file_sha256": "c2d704eed4c6d9a424998f77eb3c4caf31fcf616fb78acb7f88f995e3b4c52d2",
+      "root_observation_file": "evidence/root-quest-label-observations-2026-11-12.json",
+      "current_optional_suffix_proven": false,
+      "scope": "Historical source alias only. No fabricated English, global typo correction or Optional stripping. No new prose/current coverage claim."
+    }
+  ],
+  "new_main_prose_fields": 0,
+  "source_repository": "https://github.com/JIVESCORP/eg-link-output-wowf",
+  "source_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "source_path": "data/wowf/1.60.1.70888/texts.enUS.json",
+  "source_file_sha256": "1d09220f683e25c421e64a380d69169a45440998214771ecd5902cc99b9f2f9b",
+  "source_meta": {
+    "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+    "clientBuild": "1.60.1.70888",
+    "collectedOn": {
+      "first": "2026-11-10",
+      "last": "2026-11-12"
+    },
+    "dataset": "texts",
+    "license": "CC BY 4.0",
+    "locale": "enUS",
+    "product": "wowf",
+    "schemaVersion": 1,
+    "sources": 4,
+    "withheld": {
+      "addon": {
+        "books": 0,
+        "gossip": 0,
+        "greeting": 0,
+        "quests": 0
+      },
+      "names": {
+        "books": 0,
+        "gossip": 0,
+        "greeting": 0,
+        "quests": 0
+      }
+    }
+  },
+  "whole_book_total_proven": false,
+  "observed_page_numbers": {
+    "Belamoore's Research Journal": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "Field Guide": [
+      1,
+      2,
+      3
+    ]
+  },
+  "page_ordering_scope": "Only captured item/title/page/full-body bindings in pinned wowf70888 data; no inferred adjacent/unseen pages or total-page completion claim.",
+  "full_body_comparison_scope": "Each20 full English body compared with Translate against every numeric page entry and its variants across all existing book titles/title aliases; no matches found. Existing Thai not overwritten.",
+  "font_texts": [
+    "บันทึกการวิจัยของ Belamoore",
+    "ไข่ของแม่พันธุ์ Bloodtalon",
+    "รับคำสั่งจาก Randal Emerson",
+    "ฟังเรื่องราวของ Alvarion Windfield (ไม่บังคับ)"
+  ],
+  "fields": [
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 1,
+      "item": "item:3711",
+      "english": "Kegan Darkmar, leader of the small group of undead who came to us in search of asylum from their \"brethren,\" defies our common attitudes toward his kind.  His skin may be rotting and blood may have long stopped flowing through his veins, but he acts very nobly and seems to care more for his compatriots' safety than his own.\r\n\r\nIndeed, there is a humanity within him that, I confess, I sometimes see lacking in the humans around me.",
+      "thai": "Kegan Darkmar ผู้นำกลุ่มอันเดดเล็ก ๆ ที่มาหาพวกเราเพื่อขอลี้ภัยจากพวกที่เขาเรียกว่า ‘พี่น้อง’ ไม่เป็นอย่างที่พวกเรามักคิดเกี่ยวกับคนประเภทเขา แม้ผิวหนังอาจกำลังเน่าเปื่อย และเลือดอาจหยุดไหลเวียนในกายมานานแล้ว แต่เขากลับประพฤติตนอย่างสูงส่ง และดูจะห่วงความปลอดภัยของเพื่อนร่วมกลุ่มมากกว่าตัวเอง\n\nอันที่จริง เขามีความเป็นมนุษย์อยู่ภายใน ซึ่งข้าต้องยอมรับว่าบางครั้งกลับไม่เห็นในหมู่มนุษย์รอบตัวข้า",
+      "signature": "429:1689092691:524458597",
+      "english_sha256": "3d5eadcf0e30b3abd2e0a4973a4df35cd830ccae21f18501b619ef842a45b4be",
+      "thai_sha256": "a1baa182873809f06ac1d5dd52bcfbe4c0bdadcc5c214c71e6729b87fc5eb09f",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 2,
+              "male": 1
+            },
+            "sources": 2,
+            "text": "Kegan Darkmar, leader of the small group of undead who came to us in search of asylum from their \"brethren,\" defies our common attitudes toward his kind.  His skin may be rotting and blood may have long stopped flowing through his veins, but he acts very nobly and seems to care more for his compatriots' safety than his own.\r\n\r\nIndeed, there is a humanity within him that, I confess, I sometimes see lacking in the humans around me.",
+            "times": 3
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 2,
+      "item": "item:3711",
+      "english": "But why do I mention this?  I do so to give credence to what I am about to write, for these words came from Kegan's lips and it is my hope that my colleagues will, upon reading this journal, know why I believe what he said:\r\n\r\n\"Remnants of the Old Gods still linger in the deep hollows of the world.  New forces seek to harness that ancient power, and those who succeed will have a terrible weapon against their enemies.\"",
+      "thai": "แต่เหตุใดข้าจึงเอ่ยถึงเรื่องนี้? ข้าทำเช่นนั้นเพื่อให้สิ่งที่กำลังจะเขียนมีน้ำหนัก เพราะคำพูดต่อไปนี้ออกมาจากปากของ Kegan เอง และข้าหวังว่าเมื่อเพื่อนร่วมงานอ่านบันทึกนี้ พวกเขาจะเข้าใจว่าเหตุใดข้าจึงเชื่อคำพูดของเขา\n\n‘ร่องรอยของเหล่าเทพโบราณยังคงหลงเหลืออยู่ในโพรงลึกของโลก มีกองกำลังใหม่หมายจะใช้พลังโบราณนั้น และผู้ที่ทำสำเร็จจะมีอาวุธอันน่าสะพรึงกลัวไว้ต่อกรกับศัตรู’",
+      "signature": "416:15706982:691841352",
+      "english_sha256": "713491e3b649b5c3b1a77999a95f39a57769dedd071ab1d4b89fddad5f3a7c64",
+      "thai_sha256": "1334cfb380b23615b9711dbe338492f797ca1348ec8d8ef43571f336e9daf70b",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "But why do I mention this?  I do so to give credence to what I am about to write, for these words came from Kegan's lips and it is my hope that my colleagues will, upon reading this journal, know why I believe what he said:\r\n\r\n\"Remnants of the Old Gods still linger in the deep hollows of the world.  New forces seek to harness that ancient power, and those who succeed will have a terrible weapon against their enemies.\"",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 3,
+      "item": "item:3711",
+      "english": "That is what Kegan uttered as he handed his bloodstone pendant to me, and there was fear, and maybe reverence, in his eyes as he did so.  And as his hands met with mine they lingered, as if reluctant to give up the pendant.  Revulsion swept through me, yet to this day I know not if I reviled against his dead flesh pressed to mine, or if the pendant itself made my skin crawl.\r\n\r\nFor I felt a power within it.  A deep, hidden, hungry power.  And one yearning for release.",
+      "thai": "Kegan เอ่ยเช่นนั้นขณะส่งจี้หินโลหิตให้ข้า แววตาของเขาเต็มไปด้วยความกลัว และอาจมีความเคารพยำเกรงอยู่ด้วย เมื่อมือของเขาสัมผัสมือข้า เขากลับรั้งมือไว้ ราวกับไม่เต็มใจจะยกจี้ให้ ความรังเกียจแล่นผ่านร่างข้า แต่จนถึงวันนี้ข้าก็ยังไม่รู้ว่าข้ารังเกียจเนื้อหนังไร้ชีวิตที่แนบกับกาย หรือเป็นตัวจี้เองที่ทำให้ข้าขนลุก\n\nเพราะข้าสัมผัสได้ถึงพลังที่อยู่ภายใน พลังเร้นลับล้ำลึกที่หิวกระหาย และปรารถนาจะได้รับการปลดปล่อย",
+      "signature": "465:1536077735:453681967",
+      "english_sha256": "52a77b95d5c4f9c5fc08e90e64a6e0fba886e80bdb15d1f5b96a84fcc5b11fca",
+      "thai_sha256": "cff03b85bd9cbe3b3944b4055337cf8a37ce8711dcf880ad1c8d87188de2351c",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "That is what Kegan uttered as he handed his bloodstone pendant to me, and there was fear, and maybe reverence, in his eyes as he did so.  And as his hands met with mine they lingered, as if reluctant to give up the pendant.  Revulsion swept through me, yet to this day I know not if I reviled against his dead flesh pressed to mine, or if the pendant itself made my skin crawl.\r\n\r\nFor I felt a power within it.  A deep, hidden, hungry power.  And one yearning for release.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 4,
+      "item": "item:3711",
+      "english": "Although my colleagues in Dalaran were cautious to study the bloodstones that Kegan and his followers brought with them, instead quarantining the four refugees and leaving the bloodstones on their persons, the sincerity of Kegan obliged me to study his bloodstone pendant.",
+      "thai": "แม้เพื่อนร่วมงานของข้าที่ Dalaran จะระแวดระวังเกินกว่าจะศึกษาหินโลหิตที่ Kegan และพวกของเขานำมาด้วย พวกเขาเลือกกักตัวผู้ลี้ภัยทั้งสี่คนไว้ และปล่อยให้แต่ละคนเก็บหินโลหิตติดตัวต่อไป แต่ความจริงใจของ Kegan ทำให้ข้ารู้สึกว่าจำต้องศึกษาจี้หินโลหิตของเขา",
+      "signature": "272:1259367962:1901526764",
+      "english_sha256": "51d22b59e8ff5881c1abbec29ba674fb1ead144b4c181cfd9701b10e507d4490",
+      "thai_sha256": "5c0c42494e618d59ea72913c6c5a3a34362fa02702c51d251e350d1e82966615",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "Although my colleagues in Dalaran were cautious to study the bloodstones that Kegan and his followers brought with them, instead quarantining the four refugees and leaving the bloodstones on their persons, the sincerity of Kegan obliged me to study his bloodstone pendant.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 5,
+      "item": "item:3711",
+      "english": "My hopes were to verify for my colleagues that this type of stone did possess magical properties, and if we wizards of Dalaran did not wish to exploit the power of bloodstones, we should at the least learn their properties, since our foes may one day use them against us.\r\n\r\nAnd so my studies began.",
+      "thai": "ข้าหวังจะยืนยันให้เพื่อนร่วมงานเห็นว่าหินชนิดนี้มีคุณสมบัติทางเวทมนตร์จริง และหากพวกเราจอมเวทแห่ง Dalaran ไม่ประสงค์จะใช้พลังของหินโลหิต อย่างน้อยเราก็ควรเรียนรู้คุณสมบัติของมัน เพราะวันหนึ่งศัตรูอาจนำมันมาใช้กับเรา\n\nการศึกษาของข้าจึงเริ่มต้นขึ้น",
+      "signature": "296:1170150907:1469603655",
+      "english_sha256": "ed7a29dc35667cb6575cedfc3f79531aa8bfc365b88bd2df8dd0e74fe1be151f",
+      "thai_sha256": "aa3240d9b793dea58909778af92f2464dcda98d7a627440e73b0ffcce74f0697",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "My hopes were to verify for my colleagues that this type of stone did possess magical properties, and if we wizards of Dalaran did not wish to exploit the power of bloodstones, we should at the least learn their properties, since our foes may one day use them against us.\r\n\r\nAnd so my studies began.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 6,
+      "item": "item:3711",
+      "english": "I started my tests with the assumption that bloodstone was a type of rock, like quartz or obsidian.  So I began a series of procedures to determine: what minerals were contained within bloodstone, what forces were applied to produce its color and hardness, and other properties common to rocks and ore.  But the bloodstone pendant, to my frustration, did not react to my procedures as would normal ore.",
+      "thai": "ข้าเริ่มทดสอบโดยตั้งสมมติฐานว่าหินโลหิตเป็นหินชนิดหนึ่ง เช่นเดียวกับควอตซ์หรือออบซิเดียน ข้าจึงทำการทดลองหลายขั้นตอนเพื่อหาว่าหินโลหิตมีแร่ธาตุอะไรอยู่ภายใน แรงชนิดใดทำให้มันมีสีและความแข็งเช่นนี้ รวมถึงคุณสมบัติอื่นที่พบทั่วไปในหินและแร่ แต่จี้หินโลหิตกลับไม่ตอบสนองต่อการทดลองเหมือนแร่ตามปกติ ทำให้ข้าหงุดหงิดยิ่งนัก",
+      "signature": "400:992017877:987737945",
+      "english_sha256": "39cc8a8d9bb3e4591b3e6057ecf1fe70ae6d1c72818cae56da962f1314cfaf27",
+      "thai_sha256": "4324c888b637e1e10890d51f5f207af6e9c93b944972c53bcd768a6185ecfe41",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "I started my tests with the assumption that bloodstone was a type of rock, like quartz or obsidian.  So I began a series of procedures to determine: what minerals were contained within bloodstone, what forces were applied to produce its color and hardness, and other properties common to rocks and ore.  But the bloodstone pendant, to my frustration, did not react to my procedures as would normal ore.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 7,
+      "item": "item:3711",
+      "english": "In fact, it often acted in precisely the opposite fashion as expected!  It was almost as if the pendant was deliberately fouling my experiments.\r\n\r\nLike it was thinking, and alive.\r\n\r\nAngered but not discouraged, I switched from assuming the pendant was an inert piece of rock, to assuming it was a living thing.  \r\n\r\nBut again, I failed.",
+      "thai": "อันที่จริง มันมักแสดงปฏิกิริยาตรงกันข้ามกับที่คาดไว้เสียด้วยซ้ำ! ราวกับว่าจี้ตั้งใจทำให้การทดลองของข้าล้มเหลว\n\nราวกับมันคิดได้ และมีชีวิต\n\nข้าโกรธแต่ไม่ย่อท้อ จึงเลิกตั้งสมมติฐานว่าจี้เป็นเพียงก้อนหินที่ไร้ปฏิกิริยา แล้วลองถือว่ามันเป็นสิ่งมีชีวิตแทน\n\nแต่ข้าก็ล้มเหลวอีกครั้ง",
+      "signature": "326:565678860:1224740655",
+      "english_sha256": "0bab83d698d551101ee0bd86c625de7662c8ca86bfed197ae039c60d7677e8bf",
+      "thai_sha256": "9dc0360c4c82c4ef10bb74c09013465d624af17a22ceabd1ca69e7b6af5143dc",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "In fact, it often acted in precisely the opposite fashion as expected!  It was almost as if the pendant was deliberately fouling my experiments.\r\n\r\nLike it was thinking, and alive.\r\n\r\nAngered but not discouraged, I switched from assuming the pendant was an inert piece of rock, to assuming it was a living thing.  \r\n\r\nBut again, I failed.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 8,
+      "item": "item:3711",
+      "english": "None of my new tests brought to light any revelations of the origin of bloodstone.  At the time the only riddle I solved was that bloodstone was neither living, nor dead!\r\n\r\nBut it was then, at the brink of failure, that a breakthrough was made.  My latest test involved a glass beaker whose brim was chipped, leaving a small, jagged space along its edge.  When the test was over, again revealing nothing, I went to clean my worktable and cut myself on the beaker.",
+      "thai": "การทดสอบใหม่ทั้งหมดไม่ได้เผยให้เห็นต้นกำเนิดของหินโลหิตเลย ตอนนั้นปริศนาเดียวที่ข้าไขได้คือ หินโลหิตไม่มีชีวิต แต่ก็ไม่ได้ตาย!\n\nทว่าในช่วงที่ข้ากำลังจะยอมรับความล้มเหลวนั่นเอง ความก้าวหน้าครั้งสำคัญก็เกิดขึ้น การทดสอบล่าสุดใช้บีกเกอร์แก้วที่ปากบิ่น จนมีรอยแหว่งเล็ก ๆ เป็นคมขรุขระ เมื่อการทดสอบสิ้นสุดลงโดยไม่เผยอะไรอีกตามเคย ข้าก็ลงมือทำความสะอาดโต๊ะ แล้วถูกบีกเกอร์บาด",
+      "signature": "458:1453740483:1751214138",
+      "english_sha256": "fa9ec9bba41b08d4301eec0d7bf59e4ceda1533a1a2f086fbeb2ee3f041a6961",
+      "thai_sha256": "2268213e8b1bac584dda7b6b9aa49fe68f3e3af14c6a20f85b3d74074057fa51",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "None of my new tests brought to light any revelations of the origin of bloodstone.  At the time the only riddle I solved was that bloodstone was neither living, nor dead!\r\n\r\nBut it was then, at the brink of failure, that a breakthrough was made.  My latest test involved a glass beaker whose brim was chipped, leaving a small, jagged space along its edge.  When the test was over, again revealing nothing, I went to clean my worktable and cut myself on the beaker.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 9,
+      "item": "item:3711",
+      "english": "The cut was not deep but nevertheless bled fiercely.  Before I could wrap my injured finger in a bandage, a good deal of my blood had spilled on my worktable.\r\n\r\nAnd as I was cleaning up this new mess, I noticed the strangest thing...",
+      "thai": "แผลไม่ได้ลึก แต่เลือดกลับไหลมาก ก่อนที่ข้าจะพันผ้าที่นิ้วซึ่งบาดเจ็บ เลือดจำนวนไม่น้อยก็หกลงบนโต๊ะทำงานแล้ว\n\nและขณะกำลังเช็ดคราบที่เพิ่งทำเลอะ ข้าก็สังเกตเห็นสิ่งประหลาดที่สุด...",
+      "signature": "230:1735983228:289719918",
+      "english_sha256": "1093524c5d80f35cadbc2849918ff92c71e8534765bc95b2defc271b1d8beaa2",
+      "thai_sha256": "33f27c5503921be52220cb884cf94e260a255ea49f743a9ee64e23523ab1e549",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "The cut was not deep but nevertheless bled fiercely.  Before I could wrap my injured finger in a bandage, a good deal of my blood had spilled on my worktable.\r\n\r\nAnd as I was cleaning up this new mess, I noticed the strangest thing...",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 10,
+      "item": "item:3711",
+      "english": "The blood that had spilled near the bloodstone pendant was slowly moving toward the piece of jewelry, as if gravity had somehow bent itself toward the bloodstone.  The blood that touched the pendant seemed to disappear, and the red color of the stone deepened as it drank more of my blood.",
+      "thai": "เลือดที่หกอยู่ใกล้จี้หินโลหิตค่อย ๆ เคลื่อนเข้าหาเครื่องประดับชิ้นนั้น ราวกับแรงโน้มถ่วงบิดทิศเข้าหาหินโลหิต เลือดที่แตะตัวจี้ดูจะหายไป และสีแดงของหินก็เข้มขึ้นเมื่อมันดื่มเลือดของข้ามากขึ้น",
+      "signature": "288:66675247:933976525",
+      "english_sha256": "36e601317e47cd15e3a13f1082a86e3c005218fd67d36b45ad5e43d53df7293c",
+      "thai_sha256": "f1d730ae0feecf3a93a2356d9a6db26a16ef8fc83c0a87497e5ec1e67fb3afdd",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "The blood that had spilled near the bloodstone pendant was slowly moving toward the piece of jewelry, as if gravity had somehow bent itself toward the bloodstone.  The blood that touched the pendant seemed to disappear, and the red color of the stone deepened as it drank more of my blood.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 11,
+      "item": "item:3711",
+      "english": "After seeing this my head grew light, perhaps from my recent injury (though I did not believe I had lost that much blood) or perhaps because I had finally, after so much frustration, uncovered one of the bloodstone's properties.  I reached behind me for my work stool and sat down, pondering.  Thoughts and questions raced through my head, dizzying and threatening to topple me.  \r\n\r\nDoes bloodstone drink blood?  Does it crave blood?  Does it attract blood?",
+      "thai": "เมื่อเห็นเช่นนั้น ข้าก็รู้สึกหน้ามืด อาจเพราะแผลที่เพิ่งได้รับ แม้ข้าจะไม่คิดว่าเสียเลือดมากถึงเพียงนั้น หรืออาจเพราะหลังจากหงุดหงิดมานาน ในที่สุดข้าก็ค้นพบคุณสมบัติอย่างหนึ่งของหินโลหิต ข้าเอื้อมมือไปด้านหลังหาเก้าอี้ทำงาน แล้วนั่งครุ่นคิด ความคิดและคำถามแล่นวนอยู่ในหัวจนวิงเวียน ราวกับจะทำให้ข้าล้มลง\n\nหินโลหิตดื่มเลือดหรือ? มันกระหายเลือดหรือ? มันดึงดูดเลือดหรือ?",
+      "signature": "449:1703181519:676332847",
+      "english_sha256": "db8ad351d9449c9ce37ed2b2fcc3f2e174b135f19086284d686be6e0082ba2f5",
+      "thai_sha256": "c4456689a26eafbb8445122e0b1908ce5aaff95f5c2e56a4a76b74967727e64f",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "After seeing this my head grew light, perhaps from my recent injury (though I did not believe I had lost that much blood) or perhaps because I had finally, after so much frustration, uncovered one of the bloodstone's properties.  I reached behind me for my work stool and sat down, pondering.  Thoughts and questions raced through my head, dizzying and threatening to topple me.  \r\n\r\nDoes bloodstone drink blood?  Does it crave blood?  Does it attract blood?",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 12,
+      "item": "item:3711",
+      "english": "Or, is bloodstone made of blood?  And if so, then whose blood?  Mine?  The blood of any human?  Any animal?  \r\n\r\nOr maybe bloodstone is the blood of some unknown thing, the very thing that Kegan had both feared and revered when he handed me his pendant.\r\n\r\nThat is the question that must be answered.  It is the key.",
+      "thai": "หรือหินโลหิตทำขึ้นจากเลือด? แล้วหากเป็นเช่นนั้น มันคือเลือดของใคร? ของข้า? เลือดของมนุษย์คนใดก็ได้? ของสัตว์ชนิดใดก็ได้?\n\nหรือบางทีหินโลหิตอาจเป็นเลือดของสิ่งที่ไม่มีผู้ใดรู้จัก สิ่งเดียวกับที่ Kegan ทั้งหวาดกลัวและเคารพยำเกรงในยามส่งจี้ให้ข้า\n\nนั่นคือคำถามที่ต้องหาคำตอบ มันคือกุญแจสำคัญ",
+      "signature": "303:1981260726:308710812",
+      "english_sha256": "340e750cd816fcb86680d23a54619b4eb057ece29d022b6d078f8b846b6e1f66",
+      "thai_sha256": "0274cd21a527b14dce57283dc20c42affbcca03059654911ac4372e016cfadeb",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "Or, is bloodstone made of blood?  And if so, then whose blood?  Mine?  The blood of any human?  Any animal?  \r\n\r\nOr maybe bloodstone is the blood of some unknown thing, the very thing that Kegan had both feared and revered when he handed me his pendant.\r\n\r\nThat is the question that must be answered.  It is the key.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 13,
+      "item": "item:3711",
+      "english": "Fire rekindled within me, I then dove back into my experiments.  This time I made no assumptions, methodically performing every test at my disposal.  This increased my required efforts tremendously, but I would be more likely to make discoveries.  \r\n\r\nAnd, although my lab here is small and I have no subordinates to spare to aid, I did find one more intriguing quality of bloodstone...",
+      "thai": "ความมุ่งมั่นลุกโชนขึ้นในใจอีกครั้ง ข้าจึงกลับไปทุ่มเทกับการทดลอง คราวนี้ข้าไม่ตั้งสมมติฐานใด ๆ แต่ลงมือทดสอบอย่างเป็นระบบด้วยทุกวิธีที่มี การทำเช่นนี้เพิ่มภาระให้ข้าอย่างมหาศาล แต่ก็เพิ่มโอกาสที่จะค้นพบสิ่งใหม่\n\nและแม้ห้องทดลองที่นี่จะเล็ก อีกทั้งข้าไม่มีผู้ใต้บังคับบัญชาที่จะเจียดมาช่วยได้ ข้าก็ยังค้นพบคุณสมบัติอันน่าสนใจของหินโลหิตอีกอย่างหนึ่ง...",
+      "signature": "379:838070368:176542814",
+      "english_sha256": "2995550926ec9fc6b0cd39282c9d7669e138e30a7260f6c77caed8eefaf9d40a",
+      "thai_sha256": "bba5d64a038a2535055123c5fcddbce8d9bc38a5287514bd882c795b1c15c2ad",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "Fire rekindled within me, I then dove back into my experiments.  This time I made no assumptions, methodically performing every test at my disposal.  This increased my required efforts tremendously, but I would be more likely to make discoveries.  \r\n\r\nAnd, although my lab here is small and I have no subordinates to spare to aid, I did find one more intriguing quality of bloodstone...",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 14,
+      "item": "item:3711",
+      "english": "In addition to blood, there are elemental forces fused within the stone.  Fire, water, thunder and rock are mixed with the blood (but again, the blood of what?), and although this mixture is outwardly inert, all these forces seem to rage inwardly against each other.  So many more questions were then raised about this amazing, and foreboding material.",
+      "thai": "นอกจากเลือดแล้ว ยังมีพลังธาตุหลอมรวมอยู่ในหินด้วย ไฟ น้ำ ฟ้าร้อง และหินผสมอยู่กับเลือด แต่ก็ต้องถามอีกว่าเลือดของอะไร? แม้ส่วนผสมนี้จะดูนิ่งสงบจากภายนอก พลังเหล่านี้กลับดูเหมือนกำลังปะทะกันอย่างรุนแรงอยู่ภายใน วัตถุอันน่าทึ่งและชวนหวาดหวั่นนี้จึงก่อให้เกิดคำถามอีกมากมาย",
+      "signature": "350:1626859382:1751865511",
+      "english_sha256": "112fdca1bcff44c5732fc76cbc2d93600ea5acdd1023773d4268473ea9d36f61",
+      "thai_sha256": "edc50a2670911a2c75c320a12c71cd4006b30b410cd383e758c0f2961f141fe0",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "In addition to blood, there are elemental forces fused within the stone.  Fire, water, thunder and rock are mixed with the blood (but again, the blood of what?), and although this mixture is outwardly inert, all these forces seem to rage inwardly against each other.  So many more questions were then raised about this amazing, and foreboding material.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 15,
+      "item": "item:3711",
+      "english": "But to answer those questions, more studies and experiments must be performed on the pendant, and I fear that the Lordamere Interment Camp cannot marshal the manpower nor the equipment for the task.  So I sent the bloodstone pendant with a courier to Dalaran with specific instructions on how to test it, so they may avoid my earlier frustrations.",
+      "thai": "แต่การจะตอบคำถามเหล่านั้น จำต้องศึกษาและทดลองกับจี้เพิ่มเติม ข้าเกรงว่า Lordamere Interment Camp จะไม่อาจจัดหาคนหรืออุปกรณ์ที่จำเป็นได้ ข้าจึงฝากจี้หินโลหิตไปกับคนนำสารที่เดินทางไป Dalaran พร้อมคำแนะนำการทดสอบอย่างเจาะจง เพื่อให้พวกเขาหลีกเลี่ยงความติดขัดที่ข้าเคยพบมา",
+      "signature": "346:1741247536:1860006626",
+      "english_sha256": "5c6d0639ca48bee4902784f85b003fac138f323c56e20833bfc5dcbd0700524b",
+      "thai_sha256": "713cae32ed0d5f907c4d45765f11062b7fe9d95687c9c69ad0df8de9519c3f36",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "But to answer those questions, more studies and experiments must be performed on the pendant, and I fear that the Lordamere Interment Camp cannot marshal the manpower nor the equipment for the task.  So I sent the bloodstone pendant with a courier to Dalaran with specific instructions on how to test it, so they may avoid my earlier frustrations.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 16,
+      "item": "item:3711",
+      "english": "As I waited for the results of these tests, I spent my time speaking to Kegan.  Although I constantly pressed him for what he knew about bloodstones, he never told me more than what he said the day he gave me his pendant.  And he did not often speak of his time within the fold of what he called \"the Forsaken,\" which is the name he calls his clan of undead.",
+      "thai": "ระหว่างรอผลการทดสอบ ข้าใช้เวลาพูดคุยกับ Kegan แม้จะคอยถามย้ำถึงสิ่งที่เขารู้เกี่ยวกับหินโลหิต เขาก็ไม่เคยบอกอะไรมากไปกว่าวันที่มอบจี้ให้ข้า และเขาไม่ค่อยพูดถึงช่วงเวลาที่อยู่กับกลุ่มที่เรียกว่า ‘Forsaken’ ซึ่งเป็นชื่อที่เขาใช้เรียกกลุ่มอันเดดของตน",
+      "signature": "356:2054634192:1061179293",
+      "english_sha256": "225aeb4d55df38fbc0da5dddfb5ec4388ed96119cb9b92784734b963a4d1781e",
+      "thai_sha256": "f27d42b2d877b2de7707237da8c604fd07a41dc9a4151491a2faea996e23785c",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "As I waited for the results of these tests, I spent my time speaking to Kegan.  Although I constantly pressed him for what he knew about bloodstones, he never told me more than what he said the day he gave me his pendant.  And he did not often speak of his time within the fold of what he called \"the Forsaken,\" which is the name he calls his clan of undead.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 17,
+      "item": "item:3711",
+      "english": "But Kegan was very eager to speak on other subjects, particularly his time growing up in Lordaeron before its fall.  \r\n\r\nHe still holds much love for that lost kingdom, even though it is now ruined, and dead.\r\n\r\nMy growing fondness for Kegan gave me patience as I waited for my test results.",
+      "thai": "แต่ Kegan กระตือรือร้นจะพูดคุยเรื่องอื่น โดยเฉพาะชีวิตวัยเยาว์ใน Lordaeron ก่อนอาณาจักรจะล่มสลาย\n\nเขายังคงรักอาณาจักรที่สูญสิ้นนั้นอย่างยิ่ง แม้บัดนี้มันจะพังทลายและไร้ชีวิตไปแล้ว\n\nความเอ็นดูที่ข้ามีต่อ Kegan เพิ่มขึ้นเรื่อย ๆ และช่วยให้ข้าอดทนรอผลการทดสอบได้",
+      "signature": "283:1286793611:541613951",
+      "english_sha256": "93457e9f74c2ab9bebc05fdc64d96e2f68957cfe632a89bd68f7bdf1913d062e",
+      "thai_sha256": "987f71f586c087df481b94c87d832f716647943f20d2fc69604baa70ff666f22",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "But Kegan was very eager to speak on other subjects, particularly his time growing up in Lordaeron before its fall.  \r\n\r\nHe still holds much love for that lost kingdom, even though it is now ruined, and dead.\r\n\r\nMy growing fondness for Kegan gave me patience as I waited for my test results.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 18,
+      "item": "item:3711",
+      "english": "But after weeks of no news my patience faltered, and upon further inquires to Dalaran I learned that the bloodstone never reached my colleagues.  My courier was somehow lost on the way, and the bloodstone pendant was lost with him!\r\n\r\nThis is grave news, for although Kegan and his followers still have bloodstone specimens with which we may experiment, I fear the pendant may fall into unsavory hands.",
+      "thai": "แต่เมื่อผ่านไปหลายสัปดาห์โดยไม่มีข่าว ความอดทนของข้าก็เริ่มหมดลง เมื่อสอบถามไปยัง Dalaran เพิ่มเติม ข้าจึงทราบว่าหินโลหิตไม่เคยไปถึงมือเพื่อนร่วมงานของข้า คนนำสารหายตัวไประหว่างทางด้วยเหตุบางอย่าง และจี้หินโลหิตก็หายไปกับเขา!\n\nนี่เป็นข่าวร้ายอย่างยิ่ง แม้ Kegan และพวกของเขายังมีตัวอย่างหินโลหิตให้เราทดลอง ข้าก็กลัวว่าจี้อาจตกไปอยู่ในมือคนไม่ดี",
+      "signature": "398:1023912651:1621335207",
+      "english_sha256": "f96f15ca8577cdd3350fd60c125acf257931ce456170ce158d3da7853cbd15b6",
+      "thai_sha256": "5e8d0d280db0023aa5d09dac4660b1dd977dc92282b769b350e83221417a0142",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "But after weeks of no news my patience faltered, and upon further inquires to Dalaran I learned that the bloodstone never reached my colleagues.  My courier was somehow lost on the way, and the bloodstone pendant was lost with him!\r\n\r\nThis is grave news, for although Kegan and his followers still have bloodstone specimens with which we may experiment, I fear the pendant may fall into unsavory hands.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Belamoore's Research Journal",
+      "page": 19,
+      "item": "item:3711",
+      "english": "I have sent another messenger to Dalaran, and hear that even now they are scouring for the pendant, in the ruins outside our protective sphere.\r\n\r\nI only hope we're not too late.",
+      "thai": "ข้าส่งคนนำสารไปยัง Dalaran อีกคนแล้ว และได้ยินว่าขณะนี้พวกเขากำลังออกค้นหาจี้ตามซากปรักหักพังนอกม่านคุ้มกันของเรา\n\nข้าได้แต่หวังว่าเราจะยังไม่สายเกินไป",
+      "signature": "175:485505712:1500075122",
+      "english_sha256": "0d448cf8db4266c80e9c90fd245f04d4abc0b924af952f246cb75a3dc25e28ba",
+      "thai_sha256": "8f06094694052ce8343cf6671ac90e64433f3018087e1fdd93d50ef0a6719dfb",
+      "source_record": {
+        "texts": [
+          {
+            "sexes": {
+              "female": 4
+            },
+            "sources": 1,
+            "text": "I have sent another messenger to Dalaran, and hear that even now they are scouring for the pendant, in the ruins outside our protective sphere.\r\n\r\nI only hope we're not too late.",
+            "times": 4
+          }
+        ],
+        "title": "Belamoore's Research Journal"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    },
+    {
+      "book_title": "Field Guide",
+      "page": 3,
+      "item": "item:213563",
+      "english": "Hay Weevil\r\n\r\nOrder: Coleoptera\r\nClimate: Temperate\r\n\r\nA towering menace in a tiny shell. A single weevil can eat through a bale of hay in less than an hour. Infestations are rare, but are often reported in northern parts of the Eastern Kingdoms.",
+      "thai": "ด้วงงวงกินหญ้าแห้ง (Hay Weevil)\n\nอันดับ Coleoptera\nภูมิอากาศแบบอบอุ่น\n\nภัยใหญ่ในเปลือกเล็กจิ๋ว ด้วงงวงเพียงตัวเดียวกินหญ้าแห้งได้หมดทั้งฟ่อนในเวลาไม่ถึงหนึ่งชั่วโมง การระบาดพบไม่บ่อย แต่มักมีรายงานจากตอนเหนือของ Eastern Kingdoms",
+      "signature": "239:1079344075:606479839",
+      "english_sha256": "432b7aab63ed50054a9893e0fc73f1b31b6da1ca0f602634d3e2d5c51d9121c8",
+      "thai_sha256": "5af86cb4b368c534e67ba436ce4625833fa07dfba31e63177e20aec8fe3b5025",
+      "source_record": {
+        "material": "Parchment",
+        "texts": [
+          {
+            "sexes": {
+              "female": 1
+            },
+            "sources": 1,
+            "text": "Hay Weevil\r\n\r\nOrder: Coleoptera\r\nClimate: Temperate\r\n\r\nA towering menace in a tiny shell. A single weevil can eat through a bale of hay in less than an hour. Infestations are rare, but are often reported in northern parts of the Eastern Kingdoms.",
+            "times": 1
+          }
+        ],
+        "title": "Field Guide"
+      },
+      "existing_full_body_matches": [],
+      "review": "Assistant complete English/Thai meaning, names, pronouns, units and page boundaries reviewed. Fixed named characters/race references preserved; no player slots inferred. Not human/live verified."
+    }
+  ]
+}

@@ -10,6 +10,8 @@
   },
   "actionable_fields": 0,
   "blocked_fields": 72,
+  "blocked_are_source_variants_not_untranslated_quests": true,
+  "blocked_with_existing_canonical": 58,
   "new_prose_ready": 0,
   "quantity_forms_are_not_new_translations": true,
   "excluded_no_source_inventory_rows": 13859,
@@ -22,6 +24,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "I was asked to bring this to your attention as soon as you returned from the kobold camps, $N. It appears to be a letter sealed with the mark of Tordrin Stemblade, our local $c trainer. Take a moment to read it before you go about any other business here in the Abbey.",
@@ -40,6 +44,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were helping me out, this memorandum was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the $c trainer Branstock. Take a gander at it and go find him inside Anvilmar when you've a chance.",
@@ -58,6 +64,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Ah, another $r comin' ta learn about the Light! You'll find that deepening your connection to the Light relies on curiosity and intelligence, qualities that many gnomes have in abundance. The way o' the Light isn't a technical discipline, it's a riddle, and one that provides both life lessons and practical blessings.",
@@ -76,6 +84,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were helping me out, this rune was given to me to pass on to you. Take some time to read it when you have a chance. Based on the Wildhammer style to these inscriptions, I'm guessin' this came from the $c trainer Teo Hammerstorm. Take a gander at it and go find him inside Anvilmar when you've a chance.",
@@ -94,6 +104,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were off dealing with the mindless Scourge, this scroll arrived for you. It reeks of the light, so I imagine it's of some importance to a $c like yourself.\r\n\r\nRead it before heading out again. Just please--step away when you do. Paladins make me quite uneasy.",
@@ -112,6 +124,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "I am proud to welcome another newly risen $c to our ranks. As you begin to reconnect with the light you may notice that certain abilities that were once second nature to you may cause you considerable pain to use now, particularly those involving channeling the light to heal yourself or others. \r\n\r\nThe only way around this problem is--unfortunately--to go through it. Like any other muscle that has atrophied, you must push through the pain and exercise the flesh for it to return to full function.",
@@ -130,6 +144,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Dorii Brightwhisper--left this recall crystal for you. It contains some sort of message for you, so give it a look. Afterwards, you can find Dorii in the structure just behind me.",
@@ -148,6 +164,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Tai'ree Farsight--left this note for you. You can find her just over yonder near the center of the village. Read the note then seek her out.",
@@ -166,6 +184,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "I almost did not hear you approach me, young $c.\r\n\r\nAlmost.\r\n\r\nAlmost won't be good enough when you leave Thendal Grove. You must be a slender blade, silent and steady. Ever vigilant and ever mindful of your surroundings. You might have what it takes to survive the dangers of Zephras. You also might end up with your throat slit in a ditch. Ultimately that's entirely up to you.\r\n\r\nSpeak with me again if you wish to take your next steps.",
@@ -184,6 +204,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Akeri Duskblade--has requested to speak with you. He left this note, so read that first, then seek him out inside the watchtower, here in the village.\r\n\r\nHe's a shady fellow, but then again, so are you. I think you'll get along well.",
@@ -202,6 +224,8 @@
       "category": "blocked_non_enUS",
       "reason": "Available capture is French, not corroborated English",
       "next_action": "Need full enUS own-ID phase; retain existing English fallback.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Les entendez-vous ? Les murmures des vents ? J’en doute, les esprits ont cessé de nous parler quand ils nous ont abandonnés il y a tant d’années.\r\n\r\nLes membres de notre peuple qui souhaitent à nouveau entrer en contact avec les esprits des quatre vents approfondissent leur compréhension des éléments et du monde naturel, dans l’espoir sincère de renouer le dialogue qui a pris fin si brusquement.\r\n\r\nAllez-vous emprunter cette voie et maîtriser les éléments ?\r\n\r\nRevenez me parler si vous souhaitez passer à la prochaine étape et je vous entraînerai.",
@@ -220,6 +244,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were away dealing with our vuldren problem, our resident $C trainer--Windshaper Boro--left this recall crystal for you. Please examine it, then speak with Boro just over yonder near the center of the village.",
@@ -238,6 +264,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Xyton Silverwind--left this note for you. Read it as soon as you can, and then seek out Silverwind on the ground floor of this great tree just behind me.\r\n\r\nHeed his words and his counsel, he can teach you much.",
@@ -256,6 +284,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "While you were gone our $c trainer--Blademaster Ren--requested that we send you their way when you returned. She dropped this note off for you as well.\r\n\r\nGive it a read, then find Blademaster Ren inside the village watchtower.",
@@ -274,6 +304,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Hello again, young $c. The time has come for you to learn more about our religion. After you've completed whatever tasks you have here in Northshire, please seek out Priestess Josetta in Goldshire. She has more to teach you and has heard that you are growing strong in the ways of the Light. She looks forward to tutoring you more.",
@@ -292,6 +324,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Not all of our fellow Paladins who rise again are quick to acclimate to our new reality. Some struggle to reconcile that they are now, in a way, the very thing they spent their lives fighting against.\r\n\r\nThese individuals often simply need a kind gesture and a sympathetic ear. Unfortunately, many others are quick to turn violent. Find the frightened $c who fled into the hills directly west of this chapel. Extend a hand in friendship. Lead them back into the light if you can.",
@@ -310,6 +344,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Lordaeron may not be what it used to be, but our home still needs protection from all manner of threats and it's time for you to go out and face the world. Your next stop should be the town of Brill in central Tirisfal Glades. Go and meet with Shari Stilwell there. She can see to your continued training. \r\n\r\nOne last bit of advice before you go--take extra care as a $c traveling through Forsaken lands. There are many in the Dark Lady's service who distrust us and our proximity to the light.",
@@ -328,6 +364,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "A sapta is a drink created to bind our spirits to the elements. Fused with magic, the potion will allow the strong willed to see the elements as no one else can. Your spirit will be connected to the element the sapta was created for, and only a select few $c know the recipe.\n\nThe sapta is always drunk in a sacred place, and never anywhere else--remember that.\n\nSeek out the Rise of Spirits up the pass east of here. Drink your sapta there, and... well, you will see what you need to see.",
@@ -346,6 +384,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Aye, the time's come, young $c. Ye've grown stout and sturdy, like the stone beneath our boots. Takin' up the $c's path shows ye've got the wisdom o' the mountain, even before ye've proven yerself. Ye've the grit of stone to walk the earth's path.\r\n\r\nBut to earn its favor, ye must face it proper. South o' here, the Frostmane trolls live in a cave.\r\n\r\nBring me two of the necklaces they wear, crafted from the Iceclaw bears. Then we'll speak more of yer future.",
@@ -364,6 +404,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Aye, sapta's a brew forged with magic, bindin' our spirit to the elements. Only a few $c know the recipe, and it's nae for the weak-willed. Drink it, and ye will see what others can't. Hold true--it's only to be drunk in a sacred place.\r\n\r\nHead north to the Spirit Stone, tucked at the end of a hidden path up the mountain. Drink it there... see what the earth has to show ye.",
@@ -382,6 +424,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "It's past time ye heeded the earth, brave $C. The elements already prickle in yer skin, but once ye speak with the stone, the ground itself'll set firm 'neath yer soles--and in yer soul.\r\n\r\nSeek out Teo Hammerstorm, in Coldridge Valley. Ye'll find him within Anvilmar, a holdfast forged by hammer, fire, and will.",
@@ -400,6 +444,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "You say these are from the mountaineers? Aye, I could use them. Thank you, $c.\r\n\r\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
@@ -418,6 +464,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Is that my journal? I've been missing this for a while. Thank you, $c.\r\n\r\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
@@ -436,6 +484,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Good luck, young $c.",
@@ -454,6 +504,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Understanding the balance between nature and oneself is a way of life for every $r.",
@@ -472,6 +524,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "You've returned triumphant from taming two beasts. It's time now for your last trial. The winds of Zephras whisper of greater challenges ahead. \r\n\r\nTake this Taming Rod and journey to the Gustberry Lowlands. There, tame a Vuldren Alpha and prove your mastery. \r\n\r\nComplete this lesson and you'll be ready to learn the deeper ways of the $c.",
@@ -490,6 +544,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Many hunters prefer to travel with animal companions. With a beast at your side, you will find that you can survive even the most dangerous of circumstances. As they say, everything is easier with a friend. However, obtaining an animal companion is something that must be done with care. The balance of nature is delicate, and must always be respected.\r\n\r\nTake this Taming Rod with you to the forest. With it, you will be able to tame a Rockhide Boar and practice your skills as a $c.",
@@ -508,6 +564,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "You've already mastered taming a boar. Now it's time for the next lesson. The forest holds fiercer companions, and with care, you can earn their trust.\r\n\r\nTake this Taming Rod and seek out a Gray Forest Wolf. Remember, nature's balance must be respected. Prove your skill as a $c once more.",
@@ -526,6 +584,8 @@
       "category": "blocked_old_or_normalized_source",
       "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
       "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "You've proven yourself by taming a boar and a wolf$g .:,; Now it's time for your final challenge. Elwynn's balance depends on respect and skill. Take this Taming Rod and seek out a Young Forest Bear. Show that you can earn the trust of even the mightiest companion. \r\n\r\nCompleting this lesson will deepen your attunement to beasts.",
@@ -544,6 +604,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "All druids are welcomed to the sacred lands of Moonglade. Keeper Remulos--Moonglade's guardian--keeps watch over all druids who hibernate there. I'll teach you the spell that lets you transport yourself there. Cast it whenever you seek Moonglade's knowledge or solace.\n\nAs for your first lesson here on Azeroth, travel to Moonglade and speak with Dendrite Starblaze in Nighthaven about the path you're now on. Good luck, young $c.",
@@ -562,6 +624,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "All druids are welcomed to the sacred lands of Moonglade. Keeper Remulos--Moonglade's guardian--keeps watch over all druids who hibernate there. I'll teach you the spell that lets you transport yourself there. Cast it whenever you seek Moonglade's knowledge or solace.\n\nAs for your first lesson here on Azeroth, travel to Moonglade and speak with Dendrite Starblaze in Nighthaven about the path you're now on. Good luck, young $c.",
@@ -580,6 +644,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Every $c begins by learning the bond between beast and master. This is your first challenge. In time, you'll tame creatures from every corner of the world, but for now, start with our rivers and lakes on Zephras. \r\n\r\nTake this Taming Rod and seek out a Windsong Crawler.\r\n\r\nShow that you can earn its trust, and begin your path toward true mastery.",
@@ -598,6 +664,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "You've proven you can tame the river's crawler. Now it's time to test your skill on open ground. The plains of Zephras echo with the cries of the galestrider, a proud, winged $c that runs like the wind.\r\n\r\nTake this Taming Rod and seek one out. Travel to the lowlands and earn its trust.\r\n\r\nShow you're ready for the trials yet to come.",
@@ -616,6 +684,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Greetings, young $R. The spirits have spoken of you, and tell me that you are ready to heed the call of fire. However, I shall not be the one to start you on that Path. Return to your home in the elemental plane, seek your mentors there. They will tell you what must be done.",
@@ -634,6 +704,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Welcome to Bandarion Keep, $c. $N's always good to see a new face.",
@@ -652,6 +724,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": " ",
@@ -670,6 +744,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "[PH] Collect frogs",
@@ -688,6 +764,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "[PH] Collect grapes from the vineyard",
@@ -706,6 +784,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": " ",
@@ -724,6 +804,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": " ",
@@ -742,6 +824,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "It's time to demonstrate your ability to channel one of the light's greatest gifts.\r\n\r\nThe item I just gave you is called the Symbol of Life. Take care, as it may cause you some discomfort to handle a talisman of the light such as this. The light may be anathema to the force that created us, but it is still our guide and ally. The pain reminds us of this.\r\n\r\nGo see Deathguard Billmuth downstairs. He just arrived and he has petitioned us for aid. Show him and the Forsaken what a true $c can do.",
@@ -760,6 +844,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "These Scarlet Crusaders often carry satchels with their deployment orders. We know an attack is coming, but if we can recover their orders, we can warn the rest of the Deathguard and prepare an ambush. \r\n\r\nYou are clearly an impressive $c. Kill these scarlet animals and retrieve a copy of their orders and bring them back to Deathguard Billmuth. He'll take it from there.",
@@ -778,6 +864,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Please give my thanks to Danitha Morr and tell her that the rest of the Deathguard will hear about the service that the paladins of Bandarion Keep performed for us. \r\n\r\nYou have a lot of promise as a $c, and I am proud to have those like you among the ranks of the Forsaken. Dark Lady watch over you, $N.",
@@ -796,6 +884,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": " ",
@@ -814,6 +904,8 @@
       "category": "blocked_old_or_normalized_source",
       "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
       "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "source_kind": "VO_normalized_capture",
@@ -832,6 +924,8 @@
       "category": "blocked_old_or_normalized_source",
       "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
       "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "source_kind": "VO_normalized_capture",
@@ -850,6 +944,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": " ",
@@ -868,6 +964,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": " ",
@@ -886,6 +984,8 @@
       "category": "blocked_old_snapshot_repurposed_id",
       "reason": "Historical priest travel objective has no matching current query field; current title/quest type changed",
       "next_action": "Need current own-ID objective body or confirmation the old phase still exists; do not import Classic travel text.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "source_kind": "curated_historical_snapshot",
@@ -903,6 +1003,8 @@
       "category": "blocked_old_snapshot_repurposed_id",
       "reason": "Historical priest travel objective has no matching current query field; current title/quest type changed",
       "next_action": "Need current own-ID objective body or confirmation the old phase still exists; do not import Classic travel text.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "source_kind": "curated_historical_snapshot",
@@ -920,6 +1022,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Yes... I see. I feel the residual emotions bound within these threads. Love is woven into its stitches. The incubus will not be able to resist.\r\n\r\nTake this to the summoning circle in Neeru's tent, $N. Summon forth a malevolent incubus, then show it your mastery. Do not expect it to be subdued quietly. Ready your magic and prepare yourself for a fight. Underestimating a demon has been many a $c's final mistake.\r\n\r\nWhen you have defeated it, return the cloth to me. I will let Magar know what you found.",
@@ -938,6 +1042,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "It would seem that you are ready for the next step in your journey, young $c. Dendrite Starblaze has sent for you, and wishes for you to seek him out in Moonglade once again.\r\n\r\nYou have already learned to call upon the magic to take you to Moonglade, so you should be able to embark immediately if you choose. I would suggest you leave soon, if you wish to continue your druidic training.",
@@ -956,6 +1062,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "It would seem that you are ready for the next step in your journey, young $c. Dendrite Starblaze has sent for you, and wishes for you to seek him out in Moonglade once again.\r\n\r\nYou have already learned to call upon the magic to take you to Moonglade, so you should be able to embark immediately if you choose. I would suggest you leave soon, if you wish to continue your druidic training.",
@@ -974,6 +1082,8 @@
       "category": "blocked_old_or_normalized_source",
       "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
       "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "The time has come for us to part ways once again, young one, as the application of your lessons takes you back to $g whom:the; $g that:one who; sent you to me. It would seem your instructor, Mathrengyl Bearwalker, has found a worthy pupil in you. I believe I see one as well. Heed his lessons and you shall soon be able to draw upon the Great Cat Spirit to take its shape.\r\n\r\nGo back to whence you came. When the time is right, we will meet again.",
@@ -992,6 +1102,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Ah, a fellow $r. It's about time Lordaeron sent reinforcements.\r\n\r\nMy master has already charged into the fray and has ordered me to maintain my post. It has been quite some time, however.\r\n\r\nI don't dare trust this task to any of these filthy half breeds, but if I could impose on you a favor, I beg of you to find me the Grand Marshal. He is the tallest, most statuesque hero you've ever laid eyes on. You'll know him when you see him.",
@@ -1010,6 +1122,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Aye, I see it in yer eyes, $r. You're wonderin' what kind o' soul chooses to live out here, deep in the Wetlands, with Dark Iron scum lurkin' about and nary a guard in sight. Well, we all have our reasons, love. \r\n\r\nBut the real question is, what brings you to our home? Out here at the edge of the falls, I reckon we both know the answer to that.\r\n\r\n<Hervdana stretches out her arm, fingers catching mist spray from the waterfall.>",
@@ -1028,6 +1142,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Description",
@@ -1046,6 +1162,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Log",
@@ -1064,6 +1182,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Blackfathom Deeps was once an ancient $r temple. It once housed a most powerful moonwell. Who knows what evil brews there now at the hands of the Twilight's Hammer.\n\nHave you made any progress in ridding their presence?",
@@ -1082,6 +1202,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Here's the blade. You said that a $c named Trevan sent you? Please extend my thanks to him for this opportunity when you next see him. Go with honor, friend.",
@@ -1100,6 +1222,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "This is... most disturbing. Why would a $c be behind a brood of dangerous spiders? Who or what is this \"Wild King\" and \"Pact\" that is referenced in this letter?\r\n\r\nI will confer with the druids of the Cenarion Circle on this. Perhaps they will know more.\r\n\r\nThank you again for your aid. As disturbing as this information is, we will rest easier knowing that the person controlling these vile creatures has been destroyed.",
@@ -1118,6 +1242,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "This $r bears a striking resemblance to Dorin Songblade. The gun in his hands has the letters \"DLS\" carved into the stock.",
@@ -1136,6 +1262,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "The note you found says the Razormane have burrowed into the Thousand Needles for some sort of unseen ritual. Raging storms and rising tides...\r\n\r\nThe quilboar must be using some cruel sorcery they learned from Hirzek, a $c who went to great lengths to twist the elements. If they plan to flood the canyon, this would require devastating elemental powers.\r\n\r\nWe are ill equipped to deal with this, but a powerful $c like you must have an idea. Return to your allies and see if you can't find an answer.",
@@ -1154,6 +1282,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "So yer a big shot $c now, eh? Ye've mastered the elements and want tae put 'em to good use? I think I got just the thing.\r\n\r\nIf ye want the elements' respect, ye gotta repay yer debts to 'em. They help you, you help them. And right now they need all the help they can get from those who would abuse their power.\r\n\r\nEarth's rumblin', $N. It speaks of the quilboar amassin' for some ritual of terrible power. We need tae go investigate their kraul and see what they're up to. Bring me back whatever ye find.",
@@ -1172,6 +1302,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Description",
@@ -1190,6 +1322,8 @@
       "category": "blocked_placeholder",
       "reason": "Available record is empty/developer placeholder, not usable quest prose",
       "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "runtime_canonical_present": false,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "Log",
@@ -1208,6 +1342,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Our people cannot thank you enough, but I have no real use for this eye. I have heard of an old $c in the Alterac mountains that has an eye for storm elemental magic. Perhaps he may be able to craft something for you.",
@@ -1226,6 +1362,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "So the rumors are true. Unfortunate that Warug has had you running around with frivolous tasks. At least you proved your worth.\r\n\r\nPeer down into the valley below, what do you see? Bones and bodies. Roaming $r. And the Twin Goliaths.\r\n\r\nThis place was cursed long before our arrival, and I suspect it will remain as such for many generations to come. Our clan was the first to brave the horrors below, and ours will be the only one to claim its power.\r\n\r\nAre you as eager as I to rule over all of Desolace?",
@@ -1244,6 +1382,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 1,
       "sources": [
         {
           "english": "Ye did good, and I can see yer itchin' fer yer reward. Sorry tae say, I'm not exactly a $r of many possessions.\r\n\r\n<Veyric gestures broadly at his remote location.>\r\n\r\nTell ye what, though. I hear a troll named the Windwatcher lives out in the Alterac Mountains. He's a powerful $c himself, and an expert in storm elementals. If ye bring that there elemental core to him, I bet he can make ye a weapon worthy of yer victory.",
@@ -1262,6 +1402,8 @@
       "category": "blocked_rendering_binding",
       "reason": "Query has a declension/rendering marker; exact final client text is unproven",
       "next_action": "Need current rendered full body or pinned caller/formatter proof, not guessed grammar stripping.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "I haven't seen |5$r like you in years!\r\n\r\nOh, I don't know what to do! My friend Fraxinus is sick, and I can't leave him alone!\r\n\r\nCould you please fetch me some Untainted Soil from the uncorrupted land southeast of here? I can make some poultices that may help him to feel better.",
@@ -1280,6 +1422,8 @@
       "category": "blocked_rendering_binding",
       "reason": "Query has a declension/rendering marker; exact final client text is unproven",
       "next_action": "Need current rendered full body or pinned caller/formatter proof, not guessed grammar stripping.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "So in order to really disrupt operations here and get me out of this cage, we're going to have to kill four very powerful mortals. This cage has demonic wards on it that won't be dispelled until all four are dead, and that key can't be used until the wards are down.\r\n\r\nLook, you seem like |5$r that can hold your own but I'm going to need a bit more convincing that you can actually take on these stupid warlocks before I give you any good info.\r\n\r\nLike killing a ton of these warlocks for starters. Easy, no?",
@@ -1298,6 +1442,8 @@
       "category": "blocked_typed_identity",
       "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
       "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "runtime_canonical_present": true,
+      "already_supported_source_versions": 0,
       "sources": [
         {
           "english": "A Forsaken $c... here in Ashenvale? Amusing. \r\n\r\nSo you seek a Kor Gem? Unsurprising as these are sometimes employed to empower magical weapons and implements by the paladins of the Alliance. Why should a fallen $c like you be any different?\r\n\r\nIf you truly desire one of the gems, then you must head north to the ruins known as Blackfathom Deeps. The naga who still use the gems are down below. Do not go alone, $c.",

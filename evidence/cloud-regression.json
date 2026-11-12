@@ -1,5 +1,8 @@
 {
   "baseline_components_retained": 126,
+  "candidate05_unchanged_component_hashes": 128,
+  "new_book_page_fields_batch07": 20,
+  "historical_label_aliases_batch07": 3,
   "byte_identical_baseline_files": 124,
   "new_objective_fields_batch01": 34,
   "new_source_variants_batch02": 2,
@@ -19,10 +22,10 @@
   "swapped_binding_mutations_detected": 80,
   "lua_files_compiled": 24,
   "toc_paths": 24,
-  "font_pages_decoded": 95,
+  "font_pages_decoded": 98,
   "old_glyphs": 12403,
   "old_runs": 102317,
-  "new_glyphs": 193,
-  "new_runs": 45,
-  "scope": "Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; its UI API archives remain unavailable; not in-game verification."
+  "new_glyphs": 705,
+  "new_runs": 207,
+  "scope": "Current Cloud checks. Unique source cases are quest/field/template tuples; parameterized executions are tests, not added translations. Recovered nine-case Skill UI suite is reported separately; NPC686 runtime replay is reported separately in npc-cloud-replay05.json; fresh pinned API-source proof is reported separately in npc-api-proof.json; not in-game verification."
 }
