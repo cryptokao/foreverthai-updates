@@ -1,3 +1,5 @@
+> Latest user direction: explicitly resumed new-source discovery and main quest translation. The stopped/blocker snapshot below is historical. Main13 now adds three main completion fields (two unique newly translated prose bodies; q5643 reuses q5642 within this batch), plus one existing-wording typed race variant. Thai review is pending before any font append or package. See evidence/main-primary-13.json and evidence/main-new-source-discovery13.json. Candidate12 remains the latest delivered immutable package; its ZIP is unchanged. Cloud stays single writer on codex/main-quest-cloud-continuation.
+
 # Current continuation checkpoint — 2026-11-13
 
 The complete objective remains in GOAL.md. The project is **not complete**. Main translation is blocked by missing corroborated source; the Cloud run is stopped, and three consecutive blocker checks found unchanged external state. The host goal status is authoritative. Do not restart auxiliary work or unchanged tests. Use this checkpoint with CLOUD_HANDOFF.md and the current PR, rather than restarting the original source transfer.

@@ -71281,3 +71281,13 @@ addon.books["Saurial Egg"][1] = { "255:1280565356:924239584", "ไข่ใบ�
 
 -- Cloud batch12: exact current own-ID binding, existing full-body Thai reused.
 addon.npcs[251001].lines[9] = { "301:1774804330:1865413487", "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ" }
+
+-- Cloud main13: own-ID typed primary fields; preserve every prior canonical and alias.
+addon.quests[98574].progress.variants = addon.quests[98574].progress.variants or {}
+addon.quests[98574].progress.variants[#addon.quests[98574].progress.variants + 1] = { "12:1199190885:1112722166 R 304:1999895335:408385838", "อา {race}อีกคนมาเรียนแสงสว่าง! ความผูกพันกับแสงอาศัยความใคร่รู้และปัญญา ซึ่งโนมมีมาก วิถีแสงไม่ใช่ศาสตร์เทคนิค แต่เป็นปริศนาที่ให้ทั้งบทเรียนชีวิตและพรใช้ได้จริง" }
+addon.quests[6076].completion.variants = addon.quests[6076].completion.variants or {}
+addon.quests[6076].completion.variants[#addon.quests[6076].completion.variants + 1] = { "5:1287366450:669725923 C 15:2099244299:1859344201", "ใช่แล้ว ท่าน{class} ถึงเวลาแล้ว..." }
+addon.quests[5642].completion.variants = addon.quests[5642].completion.variants or {}
+addon.quests[5642].completion.variants[#addon.quests[5642].completion.variants + 1] = { "49:1367781032:714491564 C 26:673636718:2095780830 N 44:1244048083:728114892", "ถึงเวลาของหนึ่งในพิธีสำคัญที่สุดที่{class}ในศรัทธาของเราต้องผ่านแล้ว {name} ข้าจะอธิบายเพิ่มเติมให้เจ้าฟัง เจ้าพร้อมแล้ว" }
+addon.quests[5643].completion.variants = addon.quests[5643].completion.variants or {}
+addon.quests[5643].completion.variants[#addon.quests[5643].completion.variants + 1] = { "49:1367781032:714491564 C 26:673636718:2095780830 N 44:1244048083:728114892", "ถึงเวลาของหนึ่งในพิธีสำคัญที่สุดที่{class}ในศรัทธาของเราต้องผ่านแล้ว {name} ข้าจะอธิบายเพิ่มเติมให้เจ้าฟัง เจ้าพร้อมแล้ว" }
