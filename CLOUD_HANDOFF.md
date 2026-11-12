@@ -1,6 +1,6 @@
 # Alphaverse THAI SUB — Codex Cloud continuation
 
-The user requests continued reviewed Thai translation of all WoW Forever quests and NPC quest dialogue. Main quest coverage takes priority, low level to high level, before polishing old wording. The user's explicit instruction is that all builds, scripts, tests and development execution run on Codex Cloud, never their local PC. Browser upload of the existing files was separately authorized and completed.
+The user requests continued reviewed Thai translation of all WoW Forever quests and NPC quest dialogue. Main quest coverage takes priority, low level to high level, before polishing old wording. The user's latest clarification is to prefer Codex Cloud, with Codex Local on their computer allowed when Cloud is genuinely blocked. Reasoning and translation should use hosted OpenAI models; do not automatically launch or install local AI inference that consumes CPU/GPU. Keep local commands light and serial, prefer Cloud for heavy font/build/test work, preserve current Cloud changes before any handover, and avoid two concurrent writers. Browser upload of the existing files was separately authorized and completed.
 
 ## Verified transfer
 
@@ -25,11 +25,11 @@ Private 0.462.0 passed technical simulation before transfer: 686 reviewed speech
 
 Private 0.461.0 added eleven historically corroborated continuation pages for three books. Current Forever full-book page ordering remains unproven; don't label these complete current-client books.
 
-Draft 0.463.0 exists only on the user's local disk, is untested, and is NOT included. Do not claim it was transferred, passed, or released. Do not access the user's machine to retrieve or execute it. Continue from the verified 0.462.0 transfer and keep any reconstructed work separately identified.
+Draft 0.463.0 exists only on the user's local disk, is untested, and is NOT included. Do not claim it was transferred, passed, or released. The newer local-fallback permission allows inspecting that draft when necessary, but it must pass independent checks before merging or being described as included. Continue from verified current work and keep any reconstructed work separately identified.
 
 ## First concrete Cloud work
 
-1. Clone this repository on Cloud, read its instructions and inspect the transfer packages. Record SHA-256, file lists, TOC load paths, font references, Skill/Talent/Profession/Item assets and any source/test harness gaps. Do not run project commands on a connected local device.
+1. Clone this repository on Cloud, read its instructions and inspect the transfer packages. Record SHA-256, file lists, TOC load paths, font references, Skill/Talent/Profession/Item assets and any source/test harness gaps. Prefer Cloud execution; use the resource-conscious Codex Local fallback described above only when Cloud is blocked.
 2. Establish an editable Cloud checkout from the transferred source without deleting runtime-only matching aliases. Recover/prepare meaningful automated checks in Cloud from the actual available sources. Preserve the prior combined runtime assets byte-for-byte unless a reviewed change requires replacing them.
 3. Prioritize new corroborated English main quest fields from current Forever sources, then corresponding Thai translation. Preserve reviewed wording. No guessed quest prose, placeholder types, class/race roles or fake completion percentages. If a source phase is missing, identify it precisely and keep existing English fallback.
 4. Optional pending functional gap after main-source work: NPC lines addressing a different party member. The user plays Alliance Night Elf Druid with a Hunter partner on Mac M2. Existing identity matching is current-player only. Any group-name implementation must be speech-specific, independently qualify exact Player-target templates, validate current party/raid player unit identity, and leave quest/gossip/Tracker identity matching unchanged. Never generalize fixed NPC names Ringo/Torta, arbitrary chat argument5 (playerName2), or unproven race/class slots. Shared matcher edits require full regression.
