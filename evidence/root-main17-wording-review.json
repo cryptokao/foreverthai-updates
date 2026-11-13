@@ -1,0 +1,106 @@
+{
+  "batch": "main17",
+  "reviewed_source_commit": "7693e51",
+  "pairs_read": 12,
+  "new_thai_fields": 6,
+  "reused_thai_fields": 6,
+  "unique_quest_ids": 7,
+  "approved_pairs": [
+    {
+      "quest_id": 80411,
+      "field": "title",
+      "english_sha256": "1d22ceac3c10cf87b1136fe1cf147dcad14ce3fe101788d508b1c5ebcb1a4922",
+      "thai_sha256": "22676e29148c5cb5099c9544d1d70509fcbbee6dab2ea8ff816aeeababf06724",
+      "new_thai": true
+    },
+    {
+      "quest_id": 80411,
+      "field": "objective",
+      "english_sha256": "7aa8a4c1ac9641b8db1af53c84263f9418082dd6522e3b93e04500e5fd594460",
+      "thai_sha256": "51a83b5445e8708b40c922e60eb0a8f1db5ebc4eabc984706856189aa3f0997a",
+      "new_thai": true
+    },
+    {
+      "quest_id": 80526,
+      "field": "title",
+      "english_sha256": "1e2524303f5b5829207a428fcdcb2e4adc9ed862259b2f218f9bc0c31bb7fce7",
+      "thai_sha256": "179ebf2fc580591439c22c421259f7101783ac64ba4217e84b8ca910a97fe0c4",
+      "new_thai": true
+    },
+    {
+      "quest_id": 80526,
+      "field": "objective",
+      "english_sha256": "8cbbbaa4915dce0c3992f7298a0845b8bfefb4eef2cffb1561ed7ccf5533a3a3",
+      "thai_sha256": "dcfd8d926d123ca52b239419a662184fe54dfa16689d877b2454c901a05dd900",
+      "new_thai": true
+    },
+    {
+      "quest_id": 89015,
+      "field": "title",
+      "english_sha256": "ab46e65c794d4b68515c39cddaa78851e07f0cbe7162b6d473c669b832089d59",
+      "thai_sha256": "4a1106db37b77745dd5011c2f97cffcb4f1b33b50040aac3d723e6e733761b63",
+      "new_thai": false
+    },
+    {
+      "quest_id": 89015,
+      "field": "objective",
+      "english_sha256": "7661e73e303d455a3d9f6ec8173851d524b7656e44001dd2c0d8c76d51ad2e43",
+      "thai_sha256": "8ccbc608829ef82940ead7bbd08d5405dd47738f4192e8158b436907bd757a1a",
+      "new_thai": true
+    },
+    {
+      "quest_id": 84147,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "new_thai": false
+    },
+    {
+      "quest_id": 84147,
+      "field": "objective",
+      "english_sha256": "c987b3776ef1b3ba3dfd756b12eea957e53e66cb64b97d78c83f46399a79bda2",
+      "thai_sha256": "6e28effad430c6d4ad7dd59be47636bbf1e0ba45dd35c9888073dc1eb69c620a",
+      "new_thai": false
+    },
+    {
+      "quest_id": 84148,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "new_thai": false
+    },
+    {
+      "quest_id": 84148,
+      "field": "objective",
+      "english_sha256": "a7f2a68c05aa0773e0682847079eedea2f241343cca5bedb11988bcd260ae26c",
+      "thai_sha256": "c0eb0a6d8234f472a588c714ab80cdd6dd07c23e8964e3a9e2045e760007ab8a",
+      "new_thai": false
+    },
+    {
+      "quest_id": 98462,
+      "field": "objective",
+      "english_sha256": "40f12a68d89c40f5cc35c3878a538e116051e95ff72d2fd576c7b24ca49f7bf8",
+      "thai_sha256": "fd85114daeaeedef942e8325b5370e1622d6cb8a0c54ff36a04eaddbe54ace79",
+      "new_thai": true
+    },
+    {
+      "quest_id": 91907,
+      "field": "title",
+      "english_sha256": "2c5510f81eae91f6ccd6ce4a899c4272c9dae79e4ae79e2c2dbd2ed7d97d8004",
+      "thai_sha256": "a4926d982a5cbfcaf867e2643e6ef22c33d5303804a5123545e3f481959dec7a",
+      "new_thai": false
+    }
+  ],
+  "wording_changes_requested": [],
+  "primary_trace_rows_independently_read": true,
+  "primary_objective_collector_and_observer_independently_read": true,
+  "observed_constraints": [
+    "Own-ID title/objective text only; no other phases inferred.",
+    "Kazdor/Fahrad/Ravenholdt/ZulFarrak and solo requirement preserved.",
+    "Druid/Hunter each15samples,20gold and correct class bracers; original reviewed Thai reused.",
+    "MammothSharkSteak one item to correct NPC/place; ChillwindFur5 and OwlFeathers5 unchanged.",
+    "No player placeholders; unknown level91907 remains unknown.",
+    "Six reused Thai fields preserve existing wording; no old-style polish."
+  ],
+  "scope": "New reviewed field coverage, not complete quest or whole-game claims."
+}
