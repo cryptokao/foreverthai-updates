@@ -1,0 +1,27 @@
+{
+  "version": "0.463.1",
+  "source_commit": "d0fc7a8631016ef4d8687c153656af96e7950f48",
+  "artifact_commit": "4a19ddff806f4fea14fe81e99b4f2646858973aa",
+  "artifact_branch": "codex/customer-0-463-1-artifacts",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/4a19ddff806f4fea14fe81e99b4f2646858973aa/output/ForeverThai-0.463.1.zip",
+  "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/4a19ddff806f4fea14fe81e99b4f2646858973aa/output/INSTALL-0.463.1-TH.txt",
+  "manifest_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/4a19ddff806f4fea14fe81e99b4f2646858973aa/output/package-manifest.json",
+  "receipt_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/4a19ddff806f4fea14fe81e99b4f2646858973aa/output/release-receipt.json",
+  "latest_json_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/4a19ddff806f4fea14fe81e99b4f2646858973aa/output/latest.json",
+  "bytes": 17765193,
+  "sha256": "4deb827926951164568f3354ee25072c40dd4f6ab1aa012f4136be53012479c8",
+  "customer_feed_changed_by_cloud": false,
+  "download_back_verified": true,
+  "every_runtime_byte_verified": 138,
+  "toc_paths_verified": 24,
+  "unchanged_candidate15_files": 135,
+  "protected_unchanged": 27,
+  "approved_protected_delta": "Skills/Core.lua exact70938 gate",
+  "all_font_bytes_unchanged": true,
+  "savedvariables_and_questie_preserved": true,
+  "changed_from_candidate15": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/Skills/Core.lua",
+    "ForeverThai/Speech.lua"
+  ]
+}
