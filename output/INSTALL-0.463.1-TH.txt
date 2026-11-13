@@ -1,0 +1,15 @@
+ForeverThai 0.463.1 — ชุดรวมสำหรับ client1.60.1 build70938
+ไฟล์ ForeverThai-0.463.1.zip
+ขนาด 17765193 bytes
+SHA256 4deb827926951164568f3354ee25072c40dd4f6ab1aa012f4136be53012479c8
+Source d0fc7a8631016ef4d8687c153656af96e7950f48
+
+แก้ exact build gate ของ Skills และ Speech ให้รองรับ70938 คง70862/70888 และข้อจำกัด locale/secret/ข้อความเดิม ไม่ใช่ร่างPC0.463.0
+รวมคำแปล main13+15 และ Quest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settings ครบ138ไฟล์ ไม่เพิ่มยอดคำแปลจากcompatibility fix ไม่สร้างฟอนต์ใหม่
+
+การติดตั้งด้วยตนเอง: ปิดเกม สำรองโฟลเดอร์ForeverThaiเดิม เก็บSavedVariables/WTFไว้ เปิดตำแหน่งclientจริงผ่านBattle.net (Open in Explorer/Show in Finder) เลือกโฟลเดอร์ที่มีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว แตกZIPแล้ววางForeverThaiลงInterface/AddOns ให้เป็นInterface/AddOns/ForeverThai/ForeverThai.toc ห้ามซ้อนโฟลเดอร์ คงชื่อForeverThai/Fonts เปิดAddonที่หน้าตัวละคร ไม่ต้องรันสคริปต์พัฒนา ไม่ล้างค่าตั้งเดิม
+
+ผลCloudบนZIPนี้: TOC24/settings,9selectedSkillUIcasesบน70938,Stoneform bitmap,DevotionAuraRank2เกราะ160/30หลา,Perception70938 และสองกรณีเดิม70862/70888ผ่าน Speech16templates/17positive/38negative กับTrackerแบบnative/Questieและsecret/settingsผ่าน ไม่รัน686/fullfonts/oldfullsuiteซ้ำ ไม่ติดตั้งหรือควบคุมเกม
+Windows/MacM2ในเกมจริงยังไม่ยืนยัน ไม่อ้างครบทั้งเกม ดูrelease-receipt.jsonและpackage-manifest.json
+Rootจะเผยแพร่ZIPและlatest.jsonบนSitesเดิมหลังreview Cloudไม่ได้สลับfeed
+เครดิตต้นทางคงอยู่SOURCES-TH.txt รวมEfficientGames/CC BY4.0
