@@ -1,0 +1,20 @@
+Alphaverse THAI SUB — ForeverThai0.465.0 PRIVATE revision through-main18
+ชื่อ ForeverThai-0.465.0-cloud-through-main18-PRIVATE-TEST.zip
+ขนาด 17829177 bytes /140ไฟล์
+SHA256 a1eb804cdf7648f259c8868202b85f91d401400a84802aa2fa7a62775c16eaa1
+Source 2678500dd147c098c547aaec7506b0d2f3b6e57d
+
+TOCคง0.465.0 ใช้ชื่อrevision/ZIP/hashแยกจากprivate17ซึ่งเก็บimmutable ไม่เพิ่มversionจาก3titles ไม่ใช่PCdraft0.463.0 ไม่เผยแพร่ผ่านLauncher ลูกค้าfeedยัง0.463.1และคงรอบปกติทุกสิบเวอร์ชัน
+รวมQuest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settingsครบ เทียบprivate17เปลี่ยนเฉพาะCatalog1ไฟล์ อีก139ไฟล์ตรงทุกbyte ไม่มีเพิ่ม/ลบ Atlas/Fonts/TOCเดิมทั้งหมด protected28/Core/Speech70938ตรงcustomer463.1
+Root0f7a1843อนุมัติ3titlesตามเดิม:LegashiHorns=เขาของLegashi,HeadOfTheObliterator=ศีรษะของObliterator,ASealedCrateใช้คำไทยเดิมลังปิดผนึก ไม่มีobjectiveใหม่ ไม่เติมphase/levelที่ไม่ทราบ
+รวมMAIN16–18เพิ่มรองรับ24fields/19uniqueIDs คำไทยใหม่14/reuse10 ไม่ใช่19เควสต์แปลครบทุกฟิลด์ ไม่อ้างทั้งเกมครบหรือใกล้100%
+
+แหล่ง:QuestieDB Forevertracesf0ad90875a6531368883904b0f157e7423c14f0b ภายใต้producerQuestieTraceที่ตรวจแล้ว Own-IDtitle/objectiveเท่านั้น exactbuildแต่ละtrace rowไม่ทราบ หนึ่งtitle91902ตรงEG70888 อีกสองtitleใช้directtrace ไม่มีplayerplaceholder ไม่เดาชื่อ/class/race
+ONEboundedjoinเดิม2886fields:รองรับอยู่แล้ว2883+3titlesนี้ ไม่มีnewobjectiveจาก18 ไม่มีsource-readyเหลือเฉพาะขอบเขตตาราง/fieldsที่ตรึงนี้ ไม่ใช่ทุกphaseของเกม
+
+ติดตั้งด้วยตนเองเมื่อพร้อม:ปิดเกม สำรองForeverThaiเดิม เก็บSavedVariables/WTF เปิดตำแหน่งclientจริงผ่านBattle.net (Open in Explorer/Show in Finder) เลือกโฟลเดอร์ที่มีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว แตกZIPวางForeverThaiลงInterface/AddOns ให้เป็นInterface/AddOns/ForeverThai/ForeverThai.toc ห้ามซ้อนโฟลเดอร์ คงชื่อForeverThai/Fonts ไม่ล้างค่าตั้ง ไม่ต้องรันสคริปต์พัฒนา/AIlocal/โปรแกรมWindowsบนMac
+
+ผลเดิมเฉพาะMAIN18ที่Rootอ่านแล้ว3positive/6negative+tracker6bitmaproutes/12settingsWrongIDnegativesคงเดิมไม่มีrerun รอบส่งนี้ตรวจแพ็ก/hash/ทุกbyte/paths/TOC24/settingsSavedVariables/Questie และprotectedassets ไม่rerunjoin/oldtests/9Skills/NPC686/party ไม่สร้างฟอนต์ ไม่เปลี่ยนAtlas ไม่ติดตั้งหรือควบคุมเกม Windows/MacM2จริงยังไม่ยืนยัน
+RemainingMAINproofgapsแบบรายกลุ่ม:evidence/main18-remaining-checkpoint.json ต้องมีexactown-IDtyped/fullphase/currentinventoryเพิ่มก่อนเติมช่องที่ยังขาด ไม่ถามข้อมูลเดิมซ้ำหรือวนคิวเก่า
+ดูpackage-manifest.json /final-text-hashes.json /release-receipt.json และdeliveryreportในPR https://github.com/cryptokao/foreverthai-updates/pull/1
+เครดิตQuestieDB/QuestieTraceและEGคงในSOURCES-TH.txt ไม่มีtooling/rawcapturesเพิ่มในruntime Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ ; QuestieDB https://github.com/Questie/QuestieDB licensingตามpinnedLICENSE.md คำแปลและmatchingเป็นการดัดแปลง
