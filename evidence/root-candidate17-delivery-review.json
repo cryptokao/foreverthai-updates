@@ -1,0 +1,40 @@
+{
+  "version": "0.465.0",
+  "source_commit": "f32eb64fec3047a288d1963c3476f97e2c4858af",
+  "artifact_commit": "2c429a43284590e610e54e5d6e81355f76822536",
+  "bytes": 17829027,
+  "sha256": "373e17e2dff939737ae4b8556571625d83fe09dfb0cb22488a38050d53c3ad75",
+  "files": 140,
+  "pairs_reviewed": 12,
+  "new_thai_fields": 6,
+  "reused_fields": 6,
+  "newly_supported_fields": 12,
+  "unique_quest_ids": 7,
+  "combined16_17": {
+    "new_thai_fields": 12,
+    "reused_fields": 9,
+    "newly_supported_fields": 21,
+    "unique_quest_ids": 16
+  },
+  "manifest_diff_from16": {
+    "changed": [
+      "ForeverThai/Atlas.lua",
+      "ForeverThai/Catalog.lua",
+      "ForeverThai/ForeverThai.toc",
+      "ForeverThai/SOURCES-TH.txt"
+    ],
+    "added": [
+      "ForeverThai/Fonts/Thai92.tga"
+    ],
+    "removed": [],
+    "protected_count": 28,
+    "skills_match_customer4631": true
+  },
+  "core_speech70938_equal_customer4631": true,
+  "cloud_exact_zip_downloadback_verified": true,
+  "root_local_addon_execution": false,
+  "customer_feed_changed": false,
+  "customer_version": "0.463.1",
+  "real_windows_mac_m2_gameplay_verified": false,
+  "full_game_completeness_not_claimed": true
+}
