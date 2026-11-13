@@ -1,0 +1,21 @@
+Alphaverse THAI SUB — ForeverThai0.465.0 PRIVATE TEST (main16+17)
+ไฟล์ ForeverThai-0.465.0-cloud-main17-PRIVATE-TEST.zip
+ขนาด 17829027 bytes /140ไฟล์
+SHA256 373e17e2dff939737ae4b8556571625d83fe09dfb0cb22488a38050d53c3ad75
+Source f32eb64fec3047a288d1963c3476f97e2c4858af
+
+แพ็กทดสอบส่วนตัว ไม่ได้เผยแพร่ผ่านLauncher ลูกค้าfeedยัง0.463.1 คงรอบปกติทุกสิบเวอร์ชัน ไม่ใช่PCdraft0.463.0 คงprivate16เดิมไม่ทับ
+รวมQuest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settingsครบ ต่อจากprivate16ที่เก็บทุกส่วนของcustomer463.1 และclient1.60.1build70938 Core/Speech/protected28assetsตรงcustomer463.1ทุกbyte
+MAIN17รองรับเพิ่ม12title/objectivefields/7IDs:คำไทยใหม่6/reuse6 Root0d7e3b79อนุมัติครบไม่เปลี่ยนสำนวน ไม่มีtokens ไม่เติมlevel91907 ไม่เดาaccept/progress/completion
+รวมMAIN16+17เพิ่มรองรับ21fields/16uniqueIDs คำไทยใหม่12/reuse9 ไม่ใช่16เควสต์แปลครบทุกฟิลด์ ไม่ใช่เปอร์เซ็นต์ทั้งเกม
+ฟอนต์เพิ่มเฉพาะ4missingThai runs/16glyphsในThai92.tga เก็บAtlas/glyph/run/pagesเดิมทุกส่วน รวมThai91จากprivate16
+
+แหล่งMAIN17:QuestieDB Forever tracesf0ad90875a6531368883904b0f157e7423c14f0b generated2026-11-12;ตรวจproducer QuestieTrace8508e3b/a117c2a ยืนยันown-IDquestlogtitle/objectiveเท่านั้น Exactbuildของแต่ละtrace rowไม่ทราบ 10fieldsตรงEGbuild70888;91907title/98462objectiveใช้directtrace ไม่อ้างfullyenabled/currentinventory/fullphase
+เครดิตQuestieDB/QuestieTraceและEfficientGamesคงในSOURCES-TH.txtพร้อมprovenanceใหม่ ไม่มีtoolingหรือrawcapturesในruntime
+
+ติดตั้งด้วยตนเองเมื่อพร้อม:ปิดเกม สำรองForeverThaiเดิม เก็บSavedVariables/WTF เปิดตำแหน่งclientจริงผ่านBattle.net (Open in Explorer/Show in Finder) เลือกโฟลเดอร์ที่มีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว แตกZIPแล้ววางForeverThaiลงInterface/AddOns ให้เป็นInterface/AddOns/ForeverThai/ForeverThai.toc ห้ามซ้อนโฟลเดอร์ คงชื่อForeverThai/Fonts ไม่ล้างค่าตั้ง ไม่ต้องรันPython/สคริปต์พัฒนา/AIlocalหรือโปรแกรมWindowsบนMac
+
+ผลCloudตามscope:MAIN17ก่อนfont12positive/33negativeและtracker24routing/48settings+wrongIDnegative หลังappendตรวจBitmapLayer12ข้อความ/native+Questie24bitmaplabels/settings-off24negativeผ่าน ไม่มีfontfallbackเหลือ แพ็กจริงTOC24/settings70938/Speechgateผ่าน protected28/Core/Speechตรง463.1 เทียบprivate16เปลี่ยนCatalog/Atlas/TOC/SOURCESเพิ่มThai92 ไม่มีลบ คง135ไฟล์เดิม ดาวน์โหลดกลับเทียบ140ไฟล์/paths/TOCทุกbyteตามdeliveryreport
+ไม่rerun9Skills/NPC686/party/fullsuite ไม่ติดตั้งหรือควบคุมเกม Windows/MacM2จริงยังไม่ยืนยัน ไม่อ้างครบทั้งเกม
+ดูpackage-manifest.json /final-text-hashes.json และPR https://github.com/cryptokao/foreverthai-updates/pull/1
+Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ ; QuestieDB https://github.com/Questie/QuestieDB licensingตามpinnedLICENSE.md คำแปลและmatchingเป็นการดัดแปลง เครดิตเดิมทั้งหมดคงไว้
