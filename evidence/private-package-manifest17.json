@@ -172,5 +172,13 @@
   "customer_feed_changed": false,
   "windows_mac_m2_in_game_verified": false,
   "actual_game_or_launcher_run": false,
-  "final_catalog_sha256": "21cacc33ac3bd9745c756d5beba4b5967370e130003607f3d3bdab8630c426cb"
+  "final_catalog_sha256": "21cacc33ac3bd9745c756d5beba4b5967370e130003607f3d3bdab8630c426cb",
+  "source_commit": "f32eb64fec3047a288d1963c3476f97e2c4858af",
+  "runtime_git_tree": "c63d18b7bdc718ac3838ca97ba81b4c3108f3128",
+  "candidate_revision": "private-main17-0.465.0",
+  "combined_newly_supported_fields_16_17": 21,
+  "combined_unique_quest_ids_16_17": 16,
+  "combined_new_thai_fields_16_17": 12,
+  "combined_reused_fields_16_17": 9,
+  "source_credit_append": "SOURCES-TH.txt appended QuestieDB/EG scoped provenance; original credits retained"
 }
