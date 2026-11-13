@@ -105,6 +105,7 @@
     98462
   ],
   "root_direction": "Do not reject solely because absent from old Catalog. Examine real Forever trace own-ID/name/objectivesText/startedBy/finishedBy provenance and exact EG own-ID corroboration. Root is reviewing extractor provenance; no blanket source invalidity conclusion.",
-  "status": "targeted_next_candidate_pending",
-  "runtime_changed_for_these": false
+  "status": "qualified MAIN17 title/objective implemented; root wording review pending",
+  "runtime_changed_for_these": true,
+  "qualification_update": "Primary producer independently verified on Cloud in main17-source-provenance.json; thirteen source records deduplicate to twelve supported field candidates/seven IDs. Absence from old Catalog is no longer a hold reason for these fields."
 }

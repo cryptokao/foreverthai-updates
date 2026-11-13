@@ -71321,3 +71321,23 @@ addon.quests[7632].objective.variants[#addon.quests[7632].objective.variants + 1
 addon.quests[97169].objective = { "301:353644423:691905324", "ใช้ Divination Scryer ที่ใจกลางชั้นใต้ดินของ Great Ossuary ใน Scholomance เพื่อเรียกวิญญาณออกมาต่อสู้ เมื่อปราบวิญญาณเหล่านี้ได้ Death Knight Darkreaver จะปรากฏตัว จงสังหารเขา\n\nนำ Darkreaver's Head ไปให้ Eldrun Stormbreaker ที่ Forlorn Caverns ใน Ironforge" }
 addon.quests[97184].objective = { "110:1593933251:2140199616", "นำ Azerothian Diamond หนึ่งเม็ดและ Pristine Black Diamond หนึ่งเม็ดไปให้ Danitha Morr ที่ Bandarion Keep ใน Tirisfal Glades" }
 addon.quests[99218].objective = { "61:1997681347:26659513", "ตรวจดูเหล่าแรปเตอร์ติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า" }
+
+-- Cloud main17: literal own-ID title/objective traces; no other phases inferred.
+addon.quests[80411] = addon.quests[80411] or {}
+addon.quests[80411].title = { "22:687814829:394621005", "เครื่องรางแห่ง Kazdor" }
+addon.quests[80411].objective = { "128:1343642016:2012775328", "ตามหา Talisman of Kazdor ภายใน Zul'Farrak แล้วนำไปให้ Fahrad ที่ Ravenholdt Manor เจ้าต้องทำงานนี้เพียงลำพัง" }
+addon.quests[80526] = addon.quests[80526] or {}
+addon.quests[80526].title = { "13:645177950:792098211", "หลอกข้าซ้ำสอง" }
+addon.quests[80526].objective = { "51:560459793:2009024547", "คุยกับ Fahrad เมื่อเจ้าพร้อมฟังแผนของเขา" }
+addon.quests[89015] = addon.quests[89015] or {}
+addon.quests[89015].title = { "15:988937811:1741994180", "เหยื่อที่อันตรายที่สุด" }
+addon.quests[89015].objective = { "78:1438512375:1860270912", "นำ Mammoth Shark Steak หนึ่งชิ้นไปให้ Berdun Cliffbrew ที่ Talrendis Point ใน Azshara" }
+addon.quests[84147] = addon.quests[84147] or {}
+addon.quests[84147].title = { "22:1183475074:147978204", "ข้อเสนอที่จริงใจ" }
+addon.quests[84147].objective = { "127:1264190172:1983695717", "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Wildheart Bracers ให้ Deliana ที่ Ironforge" }
+addon.quests[84148] = addon.quests[84148] or {}
+addon.quests[84148].title = { "22:1183475074:147978204", "ข้อเสนอที่จริงใจ" }
+addon.quests[84148].objective = { "133:1250378611:578092620", "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Beaststalker's Bindings ให้ Deliana ที่ Ironforge" }
+addon.quests[98462].objective = { "81:1552226283:836010589", "นำ Chillwind Chimaera Fur 5 ชิ้น และ Winterspring Owl Feathers 5 ชิ้นไปให้ Evie Whirlbrew" }
+addon.quests[91907] = addon.quests[91907] or {}
+addon.quests[91907].title = { "14:1980566332:1496368079", "ลังปิดผนึก" }
