@@ -3589,3 +3589,10 @@ Dev/NPC-Coverage.csv แยกตัวผู้พูดชนิด creature �
 หลังแก้ถ้อยคำไทย ให้รัน Dev/BuildFonts.py ด้วย Python ที่มี Pillow, pythainlp, uharfbuzz และ freetype-py
 สคริปต์จะสร้าง Atlas.lua และภาพ Thai*.tga ใหม่จากข้อความใน Catalog.lua, Events.lua และ Match.lua
 ตรวจ /fth test และเปิดเควสตัวอย่างอีกครั้ง ตัวเกมโหลดเฉพาะไฟล์ที่ระบุใน .toc การเล่นไม่ต้องติดตั้ง Python
+
+
+Cloud MAIN17 — own-ID title/objective source provenance
+QuestieDB Forever traces f0ad90875a6531368883904b0f157e7423c14f0b, src/corrections/Forever/traces/foreverQuestTraces.lua (generated2026-11-12): https://github.com/Questie/QuestieDB ; pinned LICENSE.md licensing retained by reference (GPLv3).
+Producer references: Questie/QuestieTrace8508e3b75d56e656f370c31586bfca488991313d and historical a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8. Own-ID quest-log second return supports only literal title/objective fields80411,80526,84147,84148,89015,91907,98462; exact per-row build unknown. No individual captures or extractor/tool code included.
+Ten fields separately corroborated against Efficient Games EG e0f8585914c134d9cb5d76756bd065b1e3e92ece, build1.60.1.70888. Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ ; Thai translations and matching are adaptations. Existing source credits retained.
+These sources do not prove complete accept/progress/completion phases, current-enabled inventory or real game testing.

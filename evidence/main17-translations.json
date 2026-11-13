@@ -727,7 +727,7 @@
   "new_ownID_entries": 6,
   "build": "unknown per generated trace row; ten fields separately match EG1.60.1.70888 exactly",
   "ordering": "Known L50 thenL56 thenL60;91907title has no proven level, placed last without inventing a level.",
-  "root_wording_review": "pending; no font/version/package17",
+  "root_wording_review": "approved unchanged main0d7e3b79",
   "limitations": [
     "Only title/objective fields actually present imported. No accept/progress/completion inferred.",
     "Not a current enabled full-game inventory or in-game proof."
