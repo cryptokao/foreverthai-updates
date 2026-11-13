@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "candidate_sha256": "4deb827926951164568f3354ee25072c40dd4f6ab1aa012f4136be53012479c8",
+  "build": "70938",
+  "speech_unique_templates": 16,
+  "speech_positive_executions": 17,
+  "speech_negative_executions": 38,
+  "speech_timer_passed": true,
+  "speech_old_build_gate_checks": [
+    {
+      "build": "70862",
+      "locale": "enUS",
+      "supported": true
+    },
+    {
+      "build": "70888",
+      "locale": "enUS",
+      "supported": true
+    },
+    {
+      "build": "70938",
+      "locale": "enGB",
+      "supported": true
+    },
+    {
+      "build": "70939",
+      "locale": "enUS",
+      "supported": false
+    },
+    {
+      "build": "70938",
+      "locale": "frFR",
+      "supported": false
+    }
+  ],
+  "quest_title70938": true,
+  "tracker_questie_absent_safe": true,
+  "tracker_questie_present_actual_bitmap_markup": true,
+  "native_tracker_actual_bitmap_markup_without_questie": true,
+  "tracker_settings_and_secret_failclosed": true,
+  "perception_screenshot_builds": [
+    "70862",
+    "70888"
+  ],
+  "perception_old_replay_scope": "Two narrow exact original action-tooltip screenshot cases on this ZIP, required receipt fields; not old nine-case/full suite.",
+  "scope": "Focused changed70938Speech path plus Quest/optionalQuestie and required receipt compatibility. No686/full fonts/source audits or game proof."
+}

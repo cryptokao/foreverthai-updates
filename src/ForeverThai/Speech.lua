@@ -37,7 +37,7 @@ local function supported()
     local version, build, _, interface = GetBuildInfo()
     local locale = GetLocale()
     return version == "1.60.1" and interface == 16001
-        and (build == "70862" or build == "70888")
+        and (build == "70862" or build == "70888" or build == "70938")
         and (locale == "enUS" or locale == "enGB")
 end
 local function show(name, text, key)

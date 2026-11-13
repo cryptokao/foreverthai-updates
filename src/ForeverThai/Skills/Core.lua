@@ -25,7 +25,7 @@ end
 function S.Compatible()
     if type(GetBuildInfo) ~= "function" then return false end
     local version, build, _, interface = GetBuildInfo()
-    return version == "1.60.1" and (build == "70862" or build == "70888") and interface == 16001
+    return version == "1.60.1" and (build == "70862" or build == "70888" or build == "70938") and interface == 16001
         and type(GetLocale) == "function" and GetLocale() == "enUS"
 end
 function S.Initialize()
