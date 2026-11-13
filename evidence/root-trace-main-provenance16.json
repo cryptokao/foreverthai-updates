@@ -1,0 +1,31 @@
+{
+  "scope": "Targeted provenance for next MAIN-only title/objective candidates, not whole-game inventory",
+  "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+  "generated_at": "2026-11-12T13:30:56.621Z",
+  "correction_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+  "trace_head": "8508e3b75d56e656f370c31586bfca488991313d",
+  "historical_objective_observer_commit": "a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8",
+  "observer_current_blob": "ee0d69b232a081d979a26aff4ffbb4df55167488",
+  "observer_historical_blob": "ee0d69b232a081d979a26aff4ffbb4df55167488",
+  "historical_collector_blob": "5a92503b77943d913551b8e14384ebfaead1c5ad",
+  "findings": [
+    "objectivesText observer reads the second tuple return from recorded GetQuestLogQuestText keyed by quest ID; it does not copy a generic Questie DB description.",
+    "Collector probes GetQuestLogQuestText at the quest log index and saves tuple under quest ID; player-name sanitation occurs first.",
+    "name observer prioritizes quest-dialog title and otherwise keyed C_QuestLog.GetInfo; English locale filter exists.",
+    "Generated Forever trace rows include exact own-ID names/objectives with giver/finisher relations. Absence from old ForeverThai Catalog is not a reason by itself to reject new translation.",
+    "Need inspect each candidate for literal complete field text, no privacy/placeholder issues, match/new-entry safety and any corroboration conflicts. This does not establish every quest's current availability or all phases."
+  ],
+  "target_ids": [
+    80411,
+    80526,
+    84147,
+    84148,
+    89015,
+    91907,
+    98462
+  ],
+  "limitations": [
+    "No access to original individual trace sessions; generated timestamps and aggregate producer code alone do not establish exact per-row collection build.",
+    "No proof of full-game current enabled inventory, real game tests or missing accept/progress/completion bodies."
+  ]
+}
