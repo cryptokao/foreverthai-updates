@@ -170,5 +170,8 @@
   "fonts_generated": false,
   "main18_join_or_runtime_suites_rerun": false,
   "customer_feed_changed": false,
-  "windows_mac_m2_in_game_verified": false
+  "windows_mac_m2_in_game_verified": false,
+  "source_commit": "2678500dd147c098c547aaec7506b0d2f3b6e57d",
+  "runtime_git_tree": "9cd4c87e89a4575bc5ea4f7db323ba8ceab2d9ed",
+  "root_review": "main0f7a1843"
 }

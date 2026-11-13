@@ -549,5 +549,9 @@
   "immutable_private17_retained": true,
   "vo_status": "Root reports still3467/no delta; Cloud did not fetch again.",
   "next_scope": "No known source-ready field remains in this qualified pinned domain. Await genuinely new own-ID MAIN source/typed proof or actual game feedback. Do not poll old queues, rerun audits/tests, add auxiliary work or bump versions.",
-  "stop_after_delivery": true
+  "stop_after_delivery": true,
+  "delivery_verified": true,
+  "delivery_reference": "candidate18-delivery.json",
+  "artifact_commit": "a05bd8be08398c89af9184c6be277db60afe6f71",
+  "runtime_source_commit": "2678500dd147c098c547aaec7506b0d2f3b6e57d"
 }
