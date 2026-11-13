@@ -1,0 +1,553 @@
+{
+  "scope": "Final bounded MAIN18 checkpoint, not full-game completeness.",
+  "qualified_source": {
+    "commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+    "path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+    "name_fields": 1492,
+    "joined_objective_fields": 1394,
+    "total_fields": 2886,
+    "already_supported_before18": 2883,
+    "new_titles18": 3,
+    "new_objectives18": 0,
+    "remaining_source_ready_in_this_pinned_domain": 0,
+    "join_executions": 1
+  },
+  "combined16_18": {
+    "newly_supported_fields": 24,
+    "unique_quest_ids": 19,
+    "new_thai_fields": 14,
+    "reused_fields": 10,
+    "complete_quests_claimed": false
+  },
+  "remaining_groups": [
+    {
+      "group": "Typed-role proof missing for normalized source variants",
+      "count": 19,
+      "records": [
+        {
+          "quest_id": 94490,
+          "field": "description",
+          "level": 12,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "23a095f73fd0dab3c44536b6d8c667c738695dbb078d80c6491f419c3360faf0",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3430,
+              47
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 96294,
+          "field": "description",
+          "level": 30,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "7f6f79d24eac00556d9abc474dcaa5e9a0a3ff75f64bd6f98d7d781536e95e1c",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3430,
+              202
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 95603,
+          "field": "completion",
+          "level": 38,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "a8bc85ff99459dbfca4565a18bbd68bc7bfa4719e134044dc83a6c93331f7f0d",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3432,
+              2
+            ],
+            [
+              3434,
+              2
+            ],
+            [
+              3438,
+              350
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 92485,
+          "field": "description",
+          "level": 2,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "bf2e536830b77d4d71cb24f5471304d5c5071aaf4a25e8f214d2bd4f5af64ed3",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3432,
+              51
+            ],
+            [
+              3434,
+              51
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 98581,
+          "field": "description",
+          "level": 1,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "999dbf94e7ca5f1d8d5d0d6c8daa2dce587ab8fba88b8853abab655efafd3859",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3432,
+              61
+            ],
+            [
+              3434,
+              61
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 94373,
+          "field": "description",
+          "level": 4,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "8fb1d92070bc099ee68eadc3e943d9edbb719dbbbd6870b515aeda5d27734e44",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3432,
+              130
+            ],
+            [
+              3434,
+              130
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 94374,
+          "field": "description",
+          "level": 4,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "1b364db6e50808fbf968d4d56aae8c647267de2017122a9bdc21946831b7a381",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3432,
+              134
+            ],
+            [
+              3434,
+              134
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 1199,
+          "field": "progress",
+          "level": 25,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "58f398099bf9a53bf2a2072f77381db192e86f7856a834b207c2a359b11388fa",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3433,
+              317
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$r"
+          ]
+        },
+        {
+          "quest_id": 583,
+          "field": "description",
+          "level": 30,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "0b44c9c567e287142baad4ab87f95a82f29dd0405b458be3ed91e46b8ede8363",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3433,
+              398
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 3376,
+          "field": "progress",
+          "level": 5,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "11d9d2f3ed91206d97c1ddf2d0f790c1921c4bbd293f41180ec089aac6ee0f4f",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3437,
+              9
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$N",
+            "$r"
+          ]
+        },
+        {
+          "quest_id": 4921,
+          "field": "description",
+          "level": 20,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "25334d8d18cd73d94987ec29c3fb0be99da9a92a730b4e784f99de00a7c13085",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3437,
+              68
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c",
+            "$r"
+          ]
+        },
+        {
+          "quest_id": 98340,
+          "field": "description",
+          "level": 20,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3437,
+              165
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 92457,
+          "field": "description",
+          "level": 33,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "c4ff134a43b3ca7661b0a3bc85b31fefd50fa8cfd1a0d901f28a1db69ffc5239",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3438,
+              215
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 97048,
+          "field": "completion",
+          "level": 38,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "9e5cb6220a453c199ed120d75e94a98cd1672e31e5be5d24df9d15ba4fda8bbc",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3438,
+              240
+            ],
+            [
+              3459,
+              67
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$N"
+          ]
+        },
+        {
+          "quest_id": 93585,
+          "field": "completion",
+          "level": 34,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "c7f4edc2e361be7da823c90f2aa1afea35023a4fb267b4a68b710657102ee27a",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3438,
+              277
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$r"
+          ]
+        },
+        {
+          "quest_id": 93464,
+          "field": "description",
+          "level": 38,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "e923914e4725dfabef34fb150f42fa5f387ab1ee5b6243c55a4b0256d24f1545",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3438,
+              278
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$N",
+            "$r"
+          ]
+        },
+        {
+          "quest_id": 95883,
+          "field": "description",
+          "level": 23,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "e80de5cdc8bc0d4ec1061aa660222e3a18a38dfad65a8121a9c5683b8b80a254",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3445,
+              18
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$r"
+          ]
+        },
+        {
+          "quest_id": 65604,
+          "field": "description",
+          "level": 20,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "a601055d493f478cfcb96d02b0c733b8b999dfeab1c4db93a6efacd02f802091",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3446,
+              12
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$N",
+            "$c"
+          ]
+        },
+        {
+          "quest_id": 1458,
+          "field": "progress",
+          "level": 33,
+          "status": "held_identity_tokens",
+          "source_kind": "vo",
+          "english_sha256": "90112c3cdfd37cc68c9986a824a97302af638b60b24c65cc99ba4b9cbfb04fd6",
+          "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+          "origins": [
+            [
+              3459,
+              2
+            ]
+          ],
+          "origin": null,
+          "unproven_token_types": [
+            "$r"
+          ]
+        }
+      ],
+      "needed": "Exact own-ID/phase full current body plus independently typed player-name/class/race binding for each occurrence. Existing supported canonicals retained; these are variants, not whole untranslated fields."
+    },
+    {
+      "group": "Captured-name literal cases held privately",
+      "count": 2,
+      "records": [
+        {
+          "quest_id": 257,
+          "field": "completion",
+          "level": 16,
+          "status": "literal_candidate",
+          "source_kind": "vo",
+          "english_sha256": "d881e416c918671478033c982638dc4ff4f3558f29558654429c258e4d1ae5f5",
+          "reason": "Raw captured character-name mismatch; need own-ID full source with explicitly typed name position. Raw body/name withheld.",
+          "origins": [
+            [
+              3433,
+              101
+            ]
+          ],
+          "origin": null
+        },
+        {
+          "quest_id": 258,
+          "field": "description",
+          "level": 17,
+          "status": "literal_candidate",
+          "source_kind": "vo",
+          "english_sha256": "d4c7c0bba269d50883f9e772283cca8d61043a9fc701ea02d15d6be315e17571",
+          "reason": "Raw captured character-name mismatch; need own-ID full source with explicitly typed name position. Raw body/name withheld.",
+          "origins": [
+            [
+              3433,
+              102
+            ]
+          ],
+          "origin": null
+        }
+      ],
+      "needed": "Own-ID full typed source for q257completion/q258description. Raw character names and captures not published."
+    },
+    {
+      "group": "Blank progress/no prose",
+      "count": 3,
+      "records": [
+        {
+          "quest_id": 92910,
+          "field": "progress",
+          "level": 15,
+          "status": "blank",
+          "source_kind": "vo",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "reason": "Blank progress, not missing translatable prose.",
+          "origins": [
+            [
+              3431,
+              67
+            ]
+          ],
+          "origin": null
+        },
+        {
+          "quest_id": 1465,
+          "field": "progress",
+          "level": 33,
+          "status": "blank",
+          "source_kind": "vo",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "reason": "Blank progress, not missing translatable prose.",
+          "origins": [
+            [
+              3459,
+              6
+            ]
+          ],
+          "origin": null
+        },
+        {
+          "quest_id": 993,
+          "field": "progress",
+          "level": 20,
+          "status": "blank",
+          "source_kind": "vo",
+          "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "reason": "Blank progress, not missing translatable prose.",
+          "origins": [
+            [
+              3461,
+              12
+            ]
+          ],
+          "origin": null
+        }
+      ],
+      "needed": "Only actual nonempty own-ID progress body if that phase exists; blanks are not translated content."
+    },
+    {
+      "group": "Outside EG cache IDs without qualified own-ID trace proof",
+      "quest_ids": [
+        81770,
+        81778,
+        81788,
+        81820,
+        81826,
+        81832,
+        81835,
+        81837,
+        81856,
+        84152,
+        84377
+      ],
+      "needed": "New authoritative/direct own-ID title/objective/current phase proof; Root found no matching rows for these11IDs. Do not repeat36EGheld audit."
+    },
+    {
+      "group": "Explicit developer markers",
+      "quest_ids": [
+        2868,
+        5207
+      ],
+      "needed": "Do not import <TXT>/<NYI> records as playable content."
+    },
+    {
+      "group": "Current full phase/usage inventory and build association",
+      "needed": "Current enabled/playable quest-ID and phase inventory; exact per-row trace build/session evidence unavailable. Title/objective source does not prove accept/progress/completion or current-enabled status."
+    }
+  ],
+  "actual_game_status": "Windows/MacM2 not yet verified; no new result, no repeated user request.",
+  "current_feed": "0.463.1 unchanged",
+  "immutable_private17_retained": true,
+  "vo_status": "Root reports still3467/no delta; Cloud did not fetch again.",
+  "next_scope": "No known source-ready field remains in this qualified pinned domain. Await genuinely new own-ID MAIN source/typed proof or actual game feedback. Do not poll old queues, rerun audits/tests, add auxiliary work or bump versions.",
+  "stop_after_delivery": true
+}

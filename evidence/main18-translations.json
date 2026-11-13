@@ -77,7 +77,7 @@
   "unique_quest_ids": 3,
   "new_objective_fields": 0,
   "source_ready_remaining_in_this_join": 0,
-  "root_wording_review": "pending; no font/version/package18",
+  "root_wording_review": "approved unchanged main0f7a1843",
   "limitations": [
     "These are three titles only, not three fully translated quests. No objective/description/progress/completion or unknown level invented.",
     "Per-row trace build unknown; one title corroborated EG70888. Not current-enabled full-game inventory."
