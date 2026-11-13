@@ -71305,3 +71305,19 @@ addon.quests[8442].completion.variants = addon.quests[8442].completion.variants 
 addon.quests[8442].completion.variants[#addon.quests[8442].completion.variants + 1] = { "16:1549935302:71513149 N 84:792529081:126367881", "ยอดเยี่ยม {name}! ตราบใดที่เรายังคุม Arathi Basin คลังเสบียงของเราก็จะมีของเพียงพอ" }
 addon.quests[7801].completion.variants = addon.quests[7801].completion.variants or {}
 addon.quests[7801].completion.variants[#addon.quests[7801].completion.variants + 1] = { "N 116:235670301:1132531488", "{name} หากไม่มีวีรชนเช่นเจ้าคอยทำงานเพื่อ Darnassus เราคงทุกข์ยากแน่ ขอบคุณที่เจ้ายังทุ่มเทช่วยเหลือ!" }
+
+-- Cloud main16: incremental Forever source delta; preserve all prior canonical/aliases.
+addon.quests[1150].completion.variants = addon.quests[1150].completion.variants or {}
+addon.quests[1150].completion.variants[#addon.quests[1150].completion.variants + 1] = { "281:577588604:2063540034", "Grenka ทรงพลัง แม้เทียบมาตรฐานของชาว skyborne เจ้าควรภูมิใจในผลงานวันนี้\n\nบททดสอบศรัทธาแสดงความเข้มแข็งของวิญญาณ และการต่อสู้กับฮาร์ปี Roguefeather แสดงความอดทน แต่ถึงเวลาทดสอบใหม่แล้ว" }
+addon.quests[4602].completion.variants = addon.quests[4602].completion.variants or {}
+addon.quests[4602].completion.variants[#addon.quests[4602].completion.variants + 1] = { "333:2049643956:273434384", "เจ้าใส่ของคราบกรังกับเหรียญเงินสามเหรียญใน Sparklematic 5200 เครื่องติดอย่างบ้าคลั่งเพื่อขจัดคราบจากของปริศนา เสียงปั่นรุนแรงดังจากหัวใจเครื่อง โครงโลหะครางเอี๊ยดขณะโยกไปมา..." }
+addon.quests[194].completion.variants = addon.quests[194].completion.variants or {}
+addon.quests[194].completion.variants[#addon.quests[194].completion.variants + 1] = { "22:1310954048:991835446", "ทำได้ดีมาก สหาย!" }
+addon.quests[8160].description.variants = addon.quests[8160].description.variants or {}
+addon.quests[8160].description.variants[#addon.quests[8160].description.variants + 1] = { "298:158734770:280274083 N 185:139564079:2003354093", "สันนิบาตอาราธอร์ทุ่มสุดตัวเพื่อชิงอาราธีคืน พวกมันและทุกเผ่าของอัลไลแอนซ์กำลังหลั่งไหลมายังดินแดนไกลแห่งนี้ หวังขยายพื้นที่จาก Refuge Pointe เราต้องหยุดพวกมัน และวิธีที่ดีที่สุดคือยึดเสบียงของมัน\n\nเจ้าช่วยเราได้ {name} เข้าสู่ Arathi Basin ที่ขึ้นชื่อเรื่องเหมืองอุดมสมบูรณ์ ผืนดินอุดม และช่างฝีมือ ยึดและครองทุกฐานที่ทำได้ ชนะการรบ แล้วนำทรัพยากรที่ได้กลับมาให้ข้า" }
+addon.quests[5383].objective = { "55:241709789:1367555075", "นำ Bag of Horrors ไปให้ Eva Sarkhoff บนเกาะ Caer Darrow" }
+addon.quests[7632].objective.variants = addon.quests[7632].objective.variants or {}
+addon.quests[7632].objective.variants[#addon.quests[7632].objective.variants + 1] = { "57:553535700:1206269004 N 19:1447327019:962550621", "ตามหาเจ้าของ Ancient Petrified Leaf ขอให้โชคดี {name} โลกนี้กว้างใหญ่นัก" }
+addon.quests[97169].objective = { "301:353644423:691905324", "ใช้ Divination Scryer ที่ใจกลางชั้นใต้ดินของ Great Ossuary ใน Scholomance เพื่อเรียกวิญญาณออกมาต่อสู้ เมื่อปราบวิญญาณเหล่านี้ได้ Death Knight Darkreaver จะปรากฏตัว จงสังหารเขา\n\nนำ Darkreaver's Head ไปให้ Eldrun Stormbreaker ที่ Forlorn Caverns ใน Ironforge" }
+addon.quests[97184].objective = { "110:1593933251:2140199616", "นำ Azerothian Diamond หนึ่งเม็ดและ Pristine Black Diamond หนึ่งเม็ดไปให้ Danitha Morr ที่ Bandarion Keep ใน Tirisfal Glades" }
+addon.quests[99218].objective = { "61:1997681347:26659513", "ตรวจดูแรปเตอร์ขี่หุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า" }
