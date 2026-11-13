@@ -1,0 +1,17 @@
+Alphaverse THAI SUB — ForeverThai0.464.0 PRIVATE TEST (main16)
+ไฟล์ ForeverThai-0.464.0-cloud-main16-PRIVATE-TEST.zip
+ขนาด 17814018 bytes /139ไฟล์
+SHA256 0c417e53af577e73b505da7c2eec224d2849db6e5e76af9d840808a72acc0b29
+Source 1e04b81e0374c8c282c70b54508cf6c8dcc98a37
+
+แพ็กทดสอบส่วนตัว ไม่ได้เผยแพร่ผ่านLauncher feed ลูกค้ายังคง0.463.1 รอบปกติทุกสิบเวอร์ชันไม่เปลี่ยน ชุดนี้ไม่ใช่PCdraft0.463.0
+รวมQuest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settingsครบ จาก0.463.1ที่รองรับclient1.60.1 build70938 คงCore/Speechและprotected28assetsทุกbyte
+เพิ่มรองรับmain9ฟิลด์/9IDs:คำไทยใหม่6ฟิลด์และreuseเดิม3ฟิลด์ ไม่ใช่9เควสต์แปลใหม่ทั้งเควสต์ Rootตรวจแล้วและปรับเฉพาะ1150/99218 คง7คู่อื่น/oldcanonicalทั้งหมด
+เพิ่มเฉพาะ14Thai runs/72glyphsในThai91.tga เก็บAtlas/glyph/run/pageเก่าทุกส่วน
+
+ติดตั้งด้วยตนเองเมื่อพร้อมทดสอบ:ปิดเกม สำรองForeverThaiเดิม เก็บSavedVariables/WTFไว้ เปิดตำแหน่งclientจริงผ่านBattle.net (Open in Explorer/Show in Finder) เลือกโฟลเดอร์ที่มีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว แตกZIPแล้ววางForeverThaiลงInterface/AddOns ให้เป็นInterface/AddOns/ForeverThai/ForeverThai.toc ห้ามซ้อนโฟลเดอร์หรือเปลี่ยนชื่อForeverThai/Fonts ไม่ล้างค่าตั้งเดิม ไม่ต้องรันPython/สคริปต์พัฒนา/โปรแกรมWindowsบนMac
+
+ผลCloud:หลังแก้คำสองcaseผ่าน2positive/4negative;อีก7คู่ไม่เปลี่ยน รายงานก่อนreview9positive/24negativeคงแยกไว้ ตรวจaffectedbitmap9ข้อความจริงและglyphใหม่ผ่าน แพ็กจริงTOC24/settings70938/Speechgateผ่าน เทียบ0.463.1คง135ไฟล์เดิม เปลี่ยนเฉพาะCatalog/Atlas/TOC เพิ่มThai91ไม่มีลบ SavedVariables/Questieครบ ดาวน์โหลดกลับเทียบทุกbyteตามdeliveryreport
+ไม่rerun9Skills/NPC686/party/fullsuiteเดิม ไม่ติดตั้งหรือควบคุมเกม Windows/MacM2ในเกมจริงยังไม่ยืนยัน ไม่อ้างครบทั้งเกม
+ดูpackage-manifest.json /final-text-hashes.json และPR https://github.com/cryptokao/foreverthai-updates/pull/1
+Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ เครดิตอื่นคงในSOURCES-TH.txt คำแปลไทยและการจับคู่เป็นการดัดแปลง
