@@ -7,7 +7,7 @@
       "class_name": "Druid",
       "race": "Night Elf",
       "english": "Grenka was powerful, even by skyborne standards. You should be proud of your accomplishment this day.\n\nDuring your test of faith you displayed strength of spirit, and now you have shown endurance in battle by taking on the Roguefeather harpies, but the time has come for a new test.",
-      "expected": "Grenka ทรงพลัง แม้เทียบมาตรฐานของชาว skyborne เจ้าควรภูมิใจในผลงานวันนี้\n\nบททดสอบศรัทธาแสดงความเข้มแข็งของวิญญาณ และการต่อสู้กับฮาร์ปี Roguefeather แสดงความอดทน แต่ถึงเวลาทดสอบใหม่แล้ว"
+      "expected": "แม้จะเทียบกับมาตรฐานของ skyborne แล้ว Grenka ก็ยังถือว่าทรงพลัง เจ้าควรภูมิใจกับสิ่งที่ทำสำเร็จในวันนี้\n\nระหว่างบททดสอบศรัทธา เจ้าได้แสดงความเข้มแข็งทางจิตวิญญาณ และตอนนี้เจ้าได้พิสูจน์ความทรหดในการต่อสู้ด้วยการเผชิญหน้ากับเหล่าฮาร์ปี Roguefeather แล้ว แต่ถึงเวลาสำหรับบททดสอบใหม่แล้ว"
     },
     {
       "quest_id": 4602,
@@ -79,7 +79,7 @@
       "class_name": "Druid",
       "race": "Night Elf",
       "english": "Inspect the armored riding raptors to choose your epic mount.",
-      "expected": "ตรวจดูแรปเตอร์ขี่หุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า"
+      "expected": "ตรวจดูเหล่าแรปเตอร์ติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า"
     }
   ]
 }

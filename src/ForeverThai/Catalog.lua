@@ -71308,7 +71308,7 @@ addon.quests[7801].completion.variants[#addon.quests[7801].completion.variants +
 
 -- Cloud main16: incremental Forever source delta; preserve all prior canonical/aliases.
 addon.quests[1150].completion.variants = addon.quests[1150].completion.variants or {}
-addon.quests[1150].completion.variants[#addon.quests[1150].completion.variants + 1] = { "281:577588604:2063540034", "Grenka ทรงพลัง แม้เทียบมาตรฐานของชาว skyborne เจ้าควรภูมิใจในผลงานวันนี้\n\nบททดสอบศรัทธาแสดงความเข้มแข็งของวิญญาณ และการต่อสู้กับฮาร์ปี Roguefeather แสดงความอดทน แต่ถึงเวลาทดสอบใหม่แล้ว" }
+addon.quests[1150].completion.variants[#addon.quests[1150].completion.variants + 1] = { "281:577588604:2063540034", "แม้จะเทียบกับมาตรฐานของ skyborne แล้ว Grenka ก็ยังถือว่าทรงพลัง เจ้าควรภูมิใจกับสิ่งที่ทำสำเร็จในวันนี้\n\nระหว่างบททดสอบศรัทธา เจ้าได้แสดงความเข้มแข็งทางจิตวิญญาณ และตอนนี้เจ้าได้พิสูจน์ความทรหดในการต่อสู้ด้วยการเผชิญหน้ากับเหล่าฮาร์ปี Roguefeather แล้ว แต่ถึงเวลาสำหรับบททดสอบใหม่แล้ว" }
 addon.quests[4602].completion.variants = addon.quests[4602].completion.variants or {}
 addon.quests[4602].completion.variants[#addon.quests[4602].completion.variants + 1] = { "333:2049643956:273434384", "เจ้าใส่ของคราบกรังกับเหรียญเงินสามเหรียญใน Sparklematic 5200 เครื่องติดอย่างบ้าคลั่งเพื่อขจัดคราบจากของปริศนา เสียงปั่นรุนแรงดังจากหัวใจเครื่อง โครงโลหะครางเอี๊ยดขณะโยกไปมา..." }
 addon.quests[194].completion.variants = addon.quests[194].completion.variants or {}
@@ -71320,4 +71320,4 @@ addon.quests[7632].objective.variants = addon.quests[7632].objective.variants or
 addon.quests[7632].objective.variants[#addon.quests[7632].objective.variants + 1] = { "57:553535700:1206269004 N 19:1447327019:962550621", "ตามหาเจ้าของ Ancient Petrified Leaf ขอให้โชคดี {name} โลกนี้กว้างใหญ่นัก" }
 addon.quests[97169].objective = { "301:353644423:691905324", "ใช้ Divination Scryer ที่ใจกลางชั้นใต้ดินของ Great Ossuary ใน Scholomance เพื่อเรียกวิญญาณออกมาต่อสู้ เมื่อปราบวิญญาณเหล่านี้ได้ Death Knight Darkreaver จะปรากฏตัว จงสังหารเขา\n\nนำ Darkreaver's Head ไปให้ Eldrun Stormbreaker ที่ Forlorn Caverns ใน Ironforge" }
 addon.quests[97184].objective = { "110:1593933251:2140199616", "นำ Azerothian Diamond หนึ่งเม็ดและ Pristine Black Diamond หนึ่งเม็ดไปให้ Danitha Morr ที่ Bandarion Keep ใน Tirisfal Glades" }
-addon.quests[99218].objective = { "61:1997681347:26659513", "ตรวจดูแรปเตอร์ขี่หุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า" }
+addon.quests[99218].objective = { "61:1997681347:26659513", "ตรวจดูเหล่าแรปเตอร์ติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า" }

@@ -1,0 +1,110 @@
+{
+  "scope": "NEXT only after main16 freeze; no new audit executed while packaging.",
+  "source_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+  "records": [
+    {
+      "quest_id": 91907,
+      "field": "title",
+      "english": "A Sealed Crate",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/foreverQuestFixes.lua"
+    },
+    {
+      "quest_id": 80411,
+      "field": "title",
+      "english": "The Talisman of Kazdor",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 80411,
+      "field": "objective",
+      "english": "Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 80526,
+      "field": "title",
+      "english": "Fool Me Twice",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 80526,
+      "field": "objective",
+      "english": "Speak to Fahrad when you're ready to hear his plan.",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 84147,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 84147,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 84148,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 84148,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 89015,
+      "field": "title",
+      "english": "Deadliest Catch",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 89015,
+      "field": "objective",
+      "english": "Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 91907,
+      "field": "title",
+      "english": "A Sealed Crate",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    },
+    {
+      "quest_id": 98462,
+      "field": "objective",
+      "english": "Bring 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers to Evie Whirlbrew.",
+      "status": "held_metadata_needs_ownID_current_prose_usage",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+    }
+  ],
+  "record_count": 13,
+  "unique_quest_ids": [
+    80411,
+    80526,
+    84147,
+    84148,
+    89015,
+    91907,
+    98462
+  ],
+  "root_direction": "Do not reject solely because absent from old Catalog. Examine real Forever trace own-ID/name/objectivesText/startedBy/finishedBy provenance and exact EG own-ID corroboration. Root is reviewing extractor provenance; no blanket source invalidity conclusion.",
+  "status": "targeted_next_candidate_pending",
+  "runtime_changed_for_these": false
+}
