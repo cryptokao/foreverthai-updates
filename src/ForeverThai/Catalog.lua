@@ -71341,3 +71341,11 @@ addon.quests[84148].objective = { "133:1250378611:578092620", "หา Winterspri
 addon.quests[98462].objective = { "81:1552226283:836010589", "นำ Chillwind Chimaera Fur 5 ชิ้น และ Winterspring Owl Feathers 5 ชิ้นไปให้ Evie Whirlbrew" }
 addon.quests[91907] = addon.quests[91907] or {}
 addon.quests[91907].title = { "14:1980566332:1496368079", "ลังปิดผนึก" }
+
+-- Cloud main18: exact literal titles from one bounded qualified Forevertrace join.
+addon.quests[91902] = addon.quests[91902] or {}
+addon.quests[91902].title = { "14:1980566332:1496368079", "ลังปิดผนึก" }
+addon.quests[86747] = addon.quests[86747] or {}
+addon.quests[86747].title = { "13:571814782:439817753", "เขาของ Legashi" }
+addon.quests[93162] = addon.quests[93162] or {}
+addon.quests[93162].title = { "23:1320725935:240441061", "ศีรษะของ Obliterator" }
