@@ -1,0 +1,693 @@
+{
+  "schema": 1,
+  "source23_file_sha256": "2c8412fd62dda79bafdb716ee425eafe38d84c94c3f0aead5a5d358460615554",
+  "expected_build": 70938,
+  "expected_magic": "TSQW",
+  "expected_locale": "enUS",
+  "max_input_bytes": 1048576,
+  "expected_records": [
+    {
+      "id": 116,
+      "payload_bytes": 1335,
+      "payload_sha256": "cb57f1ab91dbf495d0bf3ea90fa97391da33c54b1b47992303198207691b091f",
+      "untyped_spans": []
+    },
+    {
+      "id": 70,
+      "payload_bytes": 1159,
+      "payload_sha256": "a13088cadd8201e7cd8a15488be2e59c788c200416d88f5c0dde30cb7219deee",
+      "untyped_spans": []
+    },
+    {
+      "id": 249,
+      "payload_bytes": 1126,
+      "payload_sha256": "415e1d2ae2f049b1668ccbc9ef3d0c8589821620f26fcb373290358f315e0ff1",
+      "untyped_spans": []
+    },
+    {
+      "id": 228,
+      "payload_bytes": 904,
+      "payload_sha256": "2dbae4c1ddf8c9d9b8a4a939f19843e4b4d18be805873e792db89a370d37c6cf",
+      "untyped_spans": []
+    },
+    {
+      "id": 2923,
+      "payload_bytes": 903,
+      "payload_sha256": "63d5c9064d42c69b87cca2e968a4f3d4dbc682fd3260f9f08e334cb1fc0c8d74",
+      "untyped_spans": []
+    },
+    {
+      "id": 156,
+      "payload_bytes": 1102,
+      "payload_sha256": "f1f03f49190fff81feced9fe7ed6bf6f11a90029ff454f5759702fb312eabab8",
+      "untyped_spans": []
+    },
+    {
+      "id": 353,
+      "payload_bytes": 1125,
+      "payload_sha256": "c5ab913de2fe3779c6d84f9c197c6252fa81518e694547ab3beae59e6346dc6a",
+      "untyped_spans": []
+    },
+    {
+      "id": 8374,
+      "payload_bytes": 1170,
+      "payload_sha256": "21d4b0bac08d7f79057c9cc9b3bbb08858adba9f02a528fd8b3188d812dea272",
+      "untyped_spans": []
+    },
+    {
+      "id": 1078,
+      "payload_bytes": 1130,
+      "payload_sha256": "8757500a7c319766b63470c993404963de52a9d0ce69f3f64c28400fe1473003",
+      "untyped_spans": []
+    },
+    {
+      "id": 253,
+      "payload_bytes": 1149,
+      "payload_sha256": "f5ea75da7dfc2900325936e8e39575f611022a445859c94fa401de3feb74d322",
+      "untyped_spans": []
+    },
+    {
+      "id": 948,
+      "payload_bytes": 867,
+      "payload_sha256": "ef95117a4453e69837b4f314c8bcfc1634309b32d2a2d0039b4fdc8fbda88e9c",
+      "untyped_spans": []
+    },
+    {
+      "id": 2928,
+      "payload_bytes": 1088,
+      "payload_sha256": "685d37608d39d82fece4a6d9683673326f3a7ced1116c10e868fec224c528005",
+      "untyped_spans": []
+    },
+    {
+      "id": 1653,
+      "payload_bytes": 1064,
+      "payload_sha256": "e4a1a2e2e29c256d97b35ba454aaac11cb78a5ea09b5e34b5ac28e983dc457fa",
+      "untyped_spans": []
+    },
+    {
+      "id": 97894,
+      "payload_bytes": 1226,
+      "payload_sha256": "1bb96723dcd22186df1be1c0bacda88355862c1b9e12c8ff79a47978ac2cd189",
+      "untyped_spans": []
+    },
+    {
+      "id": 337,
+      "payload_bytes": 952,
+      "payload_sha256": "63af618cd622c12de22a5410ff4e67c440436221854600fc132611c8b9b41fdb",
+      "untyped_spans": []
+    },
+    {
+      "id": 729,
+      "payload_bytes": 1084,
+      "payload_sha256": "562eb9a4d50e4eaf36a5ceabf657db4030ea943e6d920469584e6bdf98c01fd2",
+      "untyped_spans": []
+    },
+    {
+      "id": 453,
+      "payload_bytes": 876,
+      "payload_sha256": "dfbd4b22526def4841b1bf2b304a599e01d54ac5325af486f5644371b2998fe0",
+      "untyped_spans": []
+    },
+    {
+      "id": 79008,
+      "payload_bytes": 811,
+      "payload_sha256": "8ffd783d1f228df87c7516edc531d42210ea9edcc4e25d9cd507ea5571439882",
+      "untyped_spans": []
+    },
+    {
+      "id": 8399,
+      "payload_bytes": 1138,
+      "payload_sha256": "23b2c866b953bf24d53f579cd7db22e92fe37f64a23a1b3fd6875030a2931b22",
+      "untyped_spans": []
+    },
+    {
+      "id": 386,
+      "payload_bytes": 1123,
+      "payload_sha256": "ef4cb9a94a0ca356deb58f29c8fe790e93a2ceddba1a706c160711c84710b62e",
+      "untyped_spans": []
+    },
+    {
+      "id": 221,
+      "payload_bytes": 976,
+      "payload_sha256": "9f23550fa36601dbdad992cd20df86e7b82a07fb1affb2f64ac9f0d71ec78939",
+      "untyped_spans": []
+    },
+    {
+      "id": 177,
+      "payload_bytes": 937,
+      "payload_sha256": "efa289ea1a0144d9af4ec1d67e53d05ec56f5aba14810cbac8db549c5ee8a612",
+      "untyped_spans": []
+    },
+    {
+      "id": 1003,
+      "payload_bytes": 1171,
+      "payload_sha256": "a14a5a24f83a7492bdf7a0fab1b0e9d43ab851df4365b4cac8aa03221a905e8c",
+      "untyped_spans": []
+    },
+    {
+      "id": 142,
+      "payload_bytes": 930,
+      "payload_sha256": "3e078590d2003bc5d8032849b0f940f0f90159605fe52c3e63c1fbb2561fe594",
+      "untyped_spans": []
+    },
+    {
+      "id": 92489,
+      "payload_bytes": 1164,
+      "payload_sha256": "ac1faeff1cdbab33d3da4bc0a0541373204e0562f2aa44eff723a2bbdd437570",
+      "untyped_spans": []
+    },
+    {
+      "id": 240,
+      "payload_bytes": 645,
+      "payload_sha256": "2614dac2b9f67728ac768365c6412c3934a12389075918bdcb42bd9bc819044f",
+      "untyped_spans": []
+    },
+    {
+      "id": 97920,
+      "payload_bytes": 1109,
+      "payload_sha256": "83cd5ce8df594b6133258642f258895f1ccb69095d6a3e5fbfdfc4fab4cfb716",
+      "untyped_spans": []
+    }
+  ],
+  "expected_titles": {
+    "70": {
+      "title_sha256": "e3a04501e605e5d7e473f05a6a53bb5a3ec04ed19d8b412a0fafb02c10a62290",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "e3a04501e605e5d7e473f05a6a53bb5a3ec04ed19d8b412a0fafb02c10a62290",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "e3a04501e605e5d7e473f05a6a53bb5a3ec04ed19d8b412a0fafb02c10a62290",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "116": {
+      "title_sha256": "2cee2c7ee14023357e916b115ce721dbf9990c96eaa17ee4f4ee9fe91367beac",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "2cee2c7ee14023357e916b115ce721dbf9990c96eaa17ee4f4ee9fe91367beac",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "2cee2c7ee14023357e916b115ce721dbf9990c96eaa17ee4f4ee9fe91367beac",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "142": {
+      "title_sha256": "9deb31f1a6d5e48f9ad824ea2fefcb0b9c9ac6f5c235481e41d8bff94f8a80ae",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "9deb31f1a6d5e48f9ad824ea2fefcb0b9c9ac6f5c235481e41d8bff94f8a80ae",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "9deb31f1a6d5e48f9ad824ea2fefcb0b9c9ac6f5c235481e41d8bff94f8a80ae",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "156": {
+      "title_sha256": "1a3fe122c60d50fe166541ced68f679c55645a4379d56d315c43ba2dcdd28743",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "1a3fe122c60d50fe166541ced68f679c55645a4379d56d315c43ba2dcdd28743",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "1a3fe122c60d50fe166541ced68f679c55645a4379d56d315c43ba2dcdd28743",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "177": {
+      "title_sha256": null,
+      "status": "held_conflicting_or_missing_or_developer_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "f4d54e97bab310d570d996e339adc2d875aebe2b06dcfa5ac4197898e6229bc6",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "514218a2af360f22e668f0eadb170c01e26d2ca83e074660ac1386d2adc9c7d7",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "221": {
+      "title_sha256": "13f372060b7cf46d1da447a6bfecff4cf55784d0a681308edd8ae24437cf9f79",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "13f372060b7cf46d1da447a6bfecff4cf55784d0a681308edd8ae24437cf9f79",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "13f372060b7cf46d1da447a6bfecff4cf55784d0a681308edd8ae24437cf9f79",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "228": {
+      "title_sha256": "270e417b1effc17ec20a14a74b22c914035b646ba88f0ae065a58a38ee249d1c",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "270e417b1effc17ec20a14a74b22c914035b646ba88f0ae065a58a38ee249d1c",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "270e417b1effc17ec20a14a74b22c914035b646ba88f0ae065a58a38ee249d1c",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "240": {
+      "title_sha256": "c45503f190d484e3f8a1e08e23ec2a188834737a33846f56c42a05063f327ed5",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "c45503f190d484e3f8a1e08e23ec2a188834737a33846f56c42a05063f327ed5",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "c45503f190d484e3f8a1e08e23ec2a188834737a33846f56c42a05063f327ed5",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "249": {
+      "title_sha256": "d2908f9936811c13aad0c1195986e396ff3411de18dc622038b85dcba8c03b28",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "d2908f9936811c13aad0c1195986e396ff3411de18dc622038b85dcba8c03b28",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "d2908f9936811c13aad0c1195986e396ff3411de18dc622038b85dcba8c03b28",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "253": {
+      "title_sha256": "a8bd9cba51df3b0cc2ac1d678f06adace809e90fc50288891dc54e8f45ab2599",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "a8bd9cba51df3b0cc2ac1d678f06adace809e90fc50288891dc54e8f45ab2599",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "a8bd9cba51df3b0cc2ac1d678f06adace809e90fc50288891dc54e8f45ab2599",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "337": {
+      "title_sha256": "9b1c6aed340353463e5ca285719408fbbfeae0192433cb8a97d796ef51a20ae3",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "9b1c6aed340353463e5ca285719408fbbfeae0192433cb8a97d796ef51a20ae3",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "9b1c6aed340353463e5ca285719408fbbfeae0192433cb8a97d796ef51a20ae3",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "353": {
+      "title_sha256": "15a7baac198d557e1be785a54e0db39c678a8b26afe121bed6ad9df6800d76c5",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "15a7baac198d557e1be785a54e0db39c678a8b26afe121bed6ad9df6800d76c5",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "15a7baac198d557e1be785a54e0db39c678a8b26afe121bed6ad9df6800d76c5",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "386": {
+      "title_sha256": "cc46f1be3170932e2fb5a45e130334c873de18db08b78de3f2003f2ef755f388",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "cc46f1be3170932e2fb5a45e130334c873de18db08b78de3f2003f2ef755f388",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "cc46f1be3170932e2fb5a45e130334c873de18db08b78de3f2003f2ef755f388",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "453": {
+      "title_sha256": "5019276f3f8f0ce0280e15576a5f1f2032e2a9f628bfea0ab1d4ed657fd7302d",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "5019276f3f8f0ce0280e15576a5f1f2032e2a9f628bfea0ab1d4ed657fd7302d",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "5019276f3f8f0ce0280e15576a5f1f2032e2a9f628bfea0ab1d4ed657fd7302d",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "729": {
+      "title_sha256": "c28d6dd4a5c1b5a33f133216ba331ebea4aa9eaf827832815e9e808453309ec6",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "c28d6dd4a5c1b5a33f133216ba331ebea4aa9eaf827832815e9e808453309ec6",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "c28d6dd4a5c1b5a33f133216ba331ebea4aa9eaf827832815e9e808453309ec6",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "948": {
+      "title_sha256": "524ef8bbce7daf6803870950bf5c16c0f769fad73de3ab7f83032f9c6193a8a1",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "524ef8bbce7daf6803870950bf5c16c0f769fad73de3ab7f83032f9c6193a8a1",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "524ef8bbce7daf6803870950bf5c16c0f769fad73de3ab7f83032f9c6193a8a1",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "1003": {
+      "title_sha256": "0f6715ee480cfe1bd5012a37579b5cdda43a2b4007e41be7ab4bd65a76402a6d",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "0f6715ee480cfe1bd5012a37579b5cdda43a2b4007e41be7ab4bd65a76402a6d",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "0f6715ee480cfe1bd5012a37579b5cdda43a2b4007e41be7ab4bd65a76402a6d",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "1078": {
+      "title_sha256": "c456a2787e5d9b918791966ee767992f57d721322abf8e92b75e3957abb13b1c",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "c456a2787e5d9b918791966ee767992f57d721322abf8e92b75e3957abb13b1c",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "c456a2787e5d9b918791966ee767992f57d721322abf8e92b75e3957abb13b1c",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "1653": {
+      "title_sha256": "33e724a8643bba038175b62a999bc802557311f24d218b99035b2a82f15e4d8e",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "33e724a8643bba038175b62a999bc802557311f24d218b99035b2a82f15e4d8e",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "33e724a8643bba038175b62a999bc802557311f24d218b99035b2a82f15e4d8e",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "2923": {
+      "title_sha256": "8f1ad791b37f0f93f628c51761df57bf8842ea139b5e757feca79f7eee552915",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "8f1ad791b37f0f93f628c51761df57bf8842ea139b5e757feca79f7eee552915",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "8f1ad791b37f0f93f628c51761df57bf8842ea139b5e757feca79f7eee552915",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "2928": {
+      "title_sha256": "13ed9122015169bb71530cef3b004429b9c7faf0a563e29cdb1f7c5eab740544",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "13ed9122015169bb71530cef3b004429b9c7faf0a563e29cdb1f7c5eab740544",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "13ed9122015169bb71530cef3b004429b9c7faf0a563e29cdb1f7c5eab740544",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "8374": {
+      "title_sha256": "5840f5f2055c9cc49ed6e8a612eaf270d5338b1eac93333a3f2d4ad96c711d45",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "5840f5f2055c9cc49ed6e8a612eaf270d5338b1eac93333a3f2d4ad96c711d45",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "5840f5f2055c9cc49ed6e8a612eaf270d5338b1eac93333a3f2d4ad96c711d45",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "8399": {
+      "title_sha256": "dae743488be38618d50a8c2ed13d6a21f6034d3d034af7ccae187a76b34a25a1",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "dae743488be38618d50a8c2ed13d6a21f6034d3d034af7ccae187a76b34a25a1",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "data/Forever/foreverQuestDB.lua"
+        },
+        {
+          "title_sha256": "dae743488be38618d50a8c2ed13d6a21f6034d3d034af7ccae187a76b34a25a1",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "79008": {
+      "title_sha256": "eaf4fac28c63aa842f3695de099035904d856a4d7370d2c5dcd7d917a1fd8f05",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "eaf4fac28c63aa842f3695de099035904d856a4d7370d2c5dcd7d917a1fd8f05",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+        },
+        {
+          "title_sha256": "eaf4fac28c63aa842f3695de099035904d856a4d7370d2c5dcd7d917a1fd8f05",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "92489": {
+      "title_sha256": "1cd333ed1d6c05bf6935aedd01e369333a38c50f13094cf1b3af8ee367a79ec5",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "1cd333ed1d6c05bf6935aedd01e369333a38c50f13094cf1b3af8ee367a79ec5",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+        },
+        {
+          "title_sha256": "1cd333ed1d6c05bf6935aedd01e369333a38c50f13094cf1b3af8ee367a79ec5",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "97894": {
+      "title_sha256": "e3d8eb55257a4f49f8bd35f8a7f66d67b3a5b5f7a70934a9859f86e44530d0d2",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "e3d8eb55257a4f49f8bd35f8a7f66d67b3a5b5f7a70934a9859f86e44530d0d2",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+        },
+        {
+          "title_sha256": "e3d8eb55257a4f49f8bd35f8a7f66d67b3a5b5f7a70934a9859f86e44530d0d2",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    },
+    "97920": {
+      "title_sha256": "f6f602d61be630c3d98d3b8350d04e65422f2ac4e2125943aa008a1050930923",
+      "status": "confirmed_unique_metadata_title",
+      "source_title_hashes": [
+        {
+          "title_sha256": "f6f602d61be630c3d98d3b8350d04e65422f2ac4e2125943aa008a1050930923",
+          "repository": "Questie/QuestieDB",
+          "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+          "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+        },
+        {
+          "title_sha256": "f6f602d61be630c3d98d3b8350d04e65422f2ac4e2125943aa008a1050930923",
+          "repository": "JIVESCORP/eg-link-output-wowf",
+          "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json"
+        }
+      ]
+    }
+  },
+  "metadata_pins": [
+    {
+      "repository": "questiedb",
+      "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+      "path": "data/Forever/foreverQuestDB.lua",
+      "sha256": "621d4a1670232c047e7d171d8f1fdbd31581458935ee59dd70836016838dc942"
+    },
+    {
+      "repository": "questiedb",
+      "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+      "path": "src/corrections/Forever/foreverQuestFixes.lua",
+      "sha256": "1eb0e19f70a321cb66304032fe5791896bbc2c30621941e06320787475ee9274"
+    },
+    {
+      "repository": "questiedb",
+      "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "sha256": "501d407c14e700dfa9e90b76e802a4f4d216c5658eceafc6f3071ec292d7ca55"
+    },
+    {
+      "repository": "eg",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+      "sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99"
+    },
+    {
+      "repository": "eg",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+      "sha256": "66d1fbf83e51d353051efe22e4b578fc0f7b3859eb96a80602c9ec81e2d6bde4"
+    }
+  ],
+  "scope": "Only27ownIDs; hashes are known title binding, not current enabled/whole inventory proof. Exact UTF8 raw title hash; no case/role normalization."
+}

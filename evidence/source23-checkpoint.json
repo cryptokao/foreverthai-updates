@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE23_BOUNDED_PUBLIC_INTAKE_AND_OWNED_HELPER_READY_FOR_ROOT_REVIEW",
+  "public_ids": 11,
+  "public_fields": 33,
+  "public_counts": {
+    "already_supported_exact": 32,
+    "held_raw_macro_roles_unconfirmed": 1
+  },
+  "ready_literal_fields": 0,
+  "new_thai_fields": 0,
+  "held": {
+    "quest_id": 92645,
+    "field": "description",
+    "reason": "raw $c not interpreted from normalized/historical export; canonical retained"
+  },
+  "local_cache": "not present on Cloud; no actual decode claimed",
+  "local_snapshot_sha256": "2c8412fd62dda79bafdb716ee425eafe38d84c94c3f0aead5a5d358460615554",
+  "local_envelope_records": 27,
+  "expected_known_title_qualified": 26,
+  "title_conflict_held_ids": [
+    177
+  ],
+  "owned_helper": "tools/source23_wdb_readonly.py",
+  "expected_title_file": "source_inputs/source23-expected-title-hashes.json",
+  "instructions": "source_inputs/SOURCE23-READONLY-DECODER.md",
+  "synthetic_report": "evidence/source23-decoder-synthetic.json",
+  "runtime_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "runtime_unchanged_vs_delivered_source": true,
+  "books22_still_held_not_restored": true,
+  "fonts_version_zip_feed_changed": false,
+  "next_action": "Root review helper/expected hashes, then one authorized light local extraction, return only privacy-screened metadata/selected qualified text. No source polling or unrelated audits.",
+  "full_GOAL_complete": false
+}
