@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "unique_fields": 29,
+  "actual_native_and_questie_bitmap_markup_executions": 58,
+  "real_current_atlas": true,
+  "synthetic_glyphs": false,
+  "font_fallback_fields_remaining": 0,
+  "catalog_sha256": "29d0c0643fb88c16d3bb456a3d1de7f2fa8b431dc6086d815d8a2d941b189b21",
+  "scope": "Only29affected labels after missing-run append. No old matcher/Skills/NPC/party/full suite.",
+  "settings_off_wrongID_negative_executions": 116
+}

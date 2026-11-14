@@ -55,12 +55,12 @@
         "x": "Great! Thanks to your help I'll have this order filled and sent off to Director Riddlevox on the next boat to Undermine. Ahead of schedule, even!\n\nFor all your hard work, here, I made some extras, so take a pair, and some armor patches too. It's on Drizzlik.\n\nAnd remember, there's no boot so fine as one of Drizzlik's Excelsior line!"
       },
       "source_kind": "ForeverVO_literal_quest_phase",
-      "thai": "เยี่ยม! เพราะเจ้าช่วย ข้าจึงทำคำสั่งซื้อนี้เสร็จ ส่งให้ Director Riddlevox กับเรือเที่ยวหน้าไป Undermine ได้ ก่อนกำหนดเสียอีก!\n\nสำหรับงานหนักทั้งหมด เอ้า ข้าทำเผื่อไว้ เอาไปคู่หนึ่ง พร้อมแผ่นเสริมเกราะด้วย Drizzlik ให้ฟรี\n\nจำไว้ ไม่มีรองเท้าใดงามเท่า Excelsior ของ Drizzlik!",
+      "thai": "เยี่ยม! ด้วยความช่วยเหลือของเจ้า ข้าจะทำสินค้าตามคำสั่งซื้อนี้ให้ครบ แล้วส่งไปให้ Director Riddlevox กับเรือเที่ยวหน้าไป Undermine ได้ ก่อนกำหนดเสียอีก!\n\nเพื่อตอบแทนที่เจ้าช่วยงานอย่างหนัก เอ้านี่ ข้าทำเผื่อไว้เพิ่ม รับไปคู่หนึ่งได้เลย พร้อมแผ่นเสริมเกราะด้วย Drizzlik ยกให้ฟรี!\n\nแล้วจำไว้ ไม่มีรองเท้าใดดีเท่ารุ่น Excelsior ของ Drizzlik!",
       "reuse_from": null,
       "new_thai": true,
       "signature": "332:1890242518:121250019",
       "english_sha256": "31b13b38b35c987c179839e1b199df5eacf48a144f71be3d41c6d4630be55204",
-      "thai_sha256": "b255e865caf88f155b002b19b00781019e02743e71808bb77e366f6ccf62ec9f",
+      "thai_sha256": "07d0a715fb10b3a8258a7d59ae8393940d68c8d91bda030e99784c823c182cc6",
       "original_source_record_sha256": "779d34273fa7c7a0245405cd144ff4e924014527415946f9b5e542e06dcda3f7",
       "export_header_build": "70938",
       "export_header_locale": null,
@@ -1015,7 +1015,7 @@
       "per_row_build": "unknown"
     }
   ],
-  "root_wording_review": "pending; no fonts/version/package19",
+  "root_wording_review": "approved main ef2d6a22; only628requested wording applied",
   "scope": "Selected literal fields only; no normalized roles inferred, no other phases/current-enabled inventory claimed. Trace row build and FVO row build/locale association remain limited as recorded.",
   "source_credit": "QuestieDB Forever traces/direct producer provenance as17/18; existing EG CC BY4.0 and QuestieDB licensing/source credits retained."
 }

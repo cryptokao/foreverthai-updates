@@ -71352,7 +71352,7 @@ addon.quests[93162].title = { "23:1320725935:240441061", "ศีรษะขอ�
 
 -- Cloud main19: new VO literal phases and qualified own-ID Forever trace delta.
 addon.quests[628].completion.variants = addon.quests[628].completion.variants or {}
-addon.quests[628].completion.variants[#addon.quests[628].completion.variants + 1] = { "332:1890242518:121250019", "เยี่ยม! เพราะเจ้าช่วย ข้าจึงทำคำสั่งซื้อนี้เสร็จ ส่งให้ Director Riddlevox กับเรือเที่ยวหน้าไป Undermine ได้ ก่อนกำหนดเสียอีก!\n\nสำหรับงานหนักทั้งหมด เอ้า ข้าทำเผื่อไว้ เอาไปคู่หนึ่ง พร้อมแผ่นเสริมเกราะด้วย Drizzlik ให้ฟรี\n\nจำไว้ ไม่มีรองเท้าใดงามเท่า Excelsior ของ Drizzlik!" }
+addon.quests[628].completion.variants[#addon.quests[628].completion.variants + 1] = { "332:1890242518:121250019", "เยี่ยม! ด้วยความช่วยเหลือของเจ้า ข้าจะทำสินค้าตามคำสั่งซื้อนี้ให้ครบ แล้วส่งไปให้ Director Riddlevox กับเรือเที่ยวหน้าไป Undermine ได้ ก่อนกำหนดเสียอีก!\n\nเพื่อตอบแทนที่เจ้าช่วยงานอย่างหนัก เอ้านี่ ข้าทำเผื่อไว้เพิ่ม รับไปคู่หนึ่งได้เลย พร้อมแผ่นเสริมเกราะด้วย Drizzlik ยกให้ฟรี!\n\nแล้วจำไว้ ไม่มีรองเท้าใดดีเท่ารุ่น Excelsior ของ Drizzlik!" }
 addon.quests[79242].completion.variants = addon.quests[79242].completion.variants or {}
 addon.quests[79242].completion.variants[#addon.quests[79242].completion.variants + 1] = { "75:535958831:1892879889", "<ภายในที่ซ่อน เจ้าพบเหรียญอยู่ไม่น้อย ไม่ต้องสงสัยเลยว่านี่คือเงินเปื้อนเลือด>" }
 addon.quests[96078].completion.variants = addon.quests[96078].completion.variants or {}

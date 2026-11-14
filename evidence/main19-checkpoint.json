@@ -1,6 +1,6 @@
 {
   "snapshot": "NEWINPUT November14 MAIN19",
-  "status": "PROGRESS / Root wording review pending",
+  "status": "PROGRESS delivered candidate after Root review",
   "newly_supported_fields": 33,
   "unique_quest_ids": 20,
   "new_thai_fields": 16,
@@ -481,10 +481,10 @@
   ],
   "remaining_source_ready_in_this_evaluated_snapshot": 0,
   "limitations": [
-    "Root review pending for all33English/Thai pairs before fonts/package19.",
     "VO selected4literal rows have export build70938 but no locale/line build evidence; exact row build unknown, English body preserved without identity inference.",
     "Trace per-row build/current eligibility unknown. Old canonical support is separate from normalized-role holds.",
-    "No whole-game denominator or real Windows/MacM2 acceptance."
+    "No whole-game denominator or real Windows/MacM2 acceptance.",
+    "No newready remains in evaluated13issues/twofiledelta; this is not all main-phase/game completeness."
   ],
   "runtime_preservation": "through18Catalog exactprefix;139otherfiles/Atlas/fonts/28protected/CoreSpeech70938/Questie/settings unchanged",
   "not_run": [
@@ -495,5 +495,26 @@
     "fullfontgeneration",
     "gamecontrol"
   ],
-  "candidate_policy": "No version/font/package yet. Consider0.466.0 only after Root reviews actual new/expanded prose; no feed change."
+  "candidate_policy": "0.466.0 PRIVATE TEST only after Root review; feed remains0.463.1, normal milestone cadence retained.",
+  "root_review": "main ef2d6a22",
+  "source_ready_remaining_in_this_snapshot": 0,
+  "fonts": "append32runs/127glyphs/Thai93 only",
+  "affected_bitmap33passed": true,
+  "tracker29_actual_bitmap_routes": 58,
+  "tracker_settings_wrongID_negatives": 116,
+  "prior139runtimefiles_note": "During pre-font data stage; final package separately allows Catalog/Atlas/TOC/SOURCES andThai93 only.",
+  "stop_after_immutable_delivery": true,
+  "unqualified_external_leads": [
+    {
+      "source": "ForeverDiff",
+      "root_observation": "References70532/pfQuestClassicbaseline;86752no contribution text",
+      "status": "not qualified new source, not audited by Cloud this round"
+    },
+    {
+      "source": "Warcraftforever.games/quests",
+      "root_observation": "1609beta records, parser no rows/phase export",
+      "status": "not qualified new source, not audited by Cloud this round"
+    }
+  ],
+  "next_scope": "Only genuinely new own-ID MAIN sources/typed proof or actual game feedback; no re-poll old held/365/592/2886/36EG."
 }

@@ -3596,3 +3596,9 @@ QuestieDB Forever traces f0ad90875a6531368883904b0f157e7423c14f0b, src/correctio
 Producer references: Questie/QuestieTrace8508e3b75d56e656f370c31586bfca488991313d and historical a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8. Own-ID quest-log second return supports only literal title/objective fields80411,80526,84147,84148,89015,91907,98462; exact per-row build unknown. No individual captures or extractor/tool code included.
 Ten fields separately corroborated against Efficient Games EG e0f8585914c134d9cb5d76756bd065b1e3e92ece, build1.60.1.70888. Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ ; Thai translations and matching are adaptations. Existing source credits retained.
 These sources do not prove complete accept/progress/completion phases, current-enabled inventory or real game testing.
+
+
+Cloud MAIN19 — reviewed field-only additions (2026-11-14)
+QuestieDB Forever traces4dbb82440a27856f8dccf57094a5d792cdc7cc9b delta fromf0ad908: literal own-ID titles/objective summaries, using independently qualified QuestieTrace direct quest-log producer. https://github.com/Questie/QuestieDB ; licensing as pinned LICENSE.md. No full-phase/current-enabled inventory claim; exact per-row trace build unknown.
+Four literal quest completion bodies from Forever-VO new issue range3468–3480: https://github.com/quinn-dougherty/forever-vo ; selected rows3479/3480, own-ID628/79242/96078/93594. Export header70938 is not per-row build proof; locale absent. No reader identity/normalized token inference or raw captures included.
+Corroborating cached Efficient Games e0f8585914c134d9cb5d76756bd065b1e3e92ece retained: Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ . Thai translations and matching are adaptations. Existing credits and every earlier runtime alias retained.
