@@ -284,5 +284,8 @@
   ],
   "runtime_changed": false,
   "fonts_version_feed_changed": false,
-  "selection_policy": "Four low custom-chain probes plus four explicitly evidenced Hunter/Druid probes, sorted by known level. Not an assertion these progress phases exist."
+  "selection_policy": "Four low custom-chain probes plus four explicitly evidenced Hunter/Druid probes, sorted by known level. Not an assertion these progress phases exist.",
+  "request_status": "Completed by Root via light fallback; privacy-screened details received at mainfaa4962. No more requests/crawl.",
+  "result_reference": "main20-safe-details-comparison.json",
+  "result_summary": "18literal fields already supported;4descriptionfields withheld;0Progressheadings does not prove no game progress."
 }
