@@ -1,0 +1,812 @@
+{
+  "status": "ROOT_REVIEWED_DELIVERED_COMBINED_PRIVATE_0_467_MAIN24",
+  "review_date": "2026-11-15",
+  "source_commit": "c41f3def0acad96f4386e1d92fc1ff6258651c34",
+  "artifact_commit": "bb7fbd96b5d078a2807bfffe87d2b5fe83806af1",
+  "delivery_checkpoint": "dfb0b202bc65ca1a125cf3a68901fdc206db09e7",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/ForeverThai-0.467.0-cloud-main24-PRIVATE-TEST.zip",
+  "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/INSTALL-0.467.0-PRIVATE-TH.txt",
+  "bytes": 18261923,
+  "sha256": "dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e",
+  "runtime_files": 145,
+  "Catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "Atlas_sha256": "c41c4f3494cdf38dc159528ee714da97ecf76c4822b1be5445a55630a8f7819a",
+  "new_supported_fields": 122,
+  "quest_ids": 57,
+  "new_Thai_fields": 90,
+  "verbatim_reviewed_reuse_fields": 31,
+  "proper_name_passthrough_fields": 1,
+  "all122_final_text_hashes_match_Root_full_pair_reviews": true,
+  "Root_independent_source_Git_blob_inventory": {
+    "actual_source_old_files": 141,
+    "actual_source_new_files": 145,
+    "changed_git_blobs": [
+      "ForeverThai/Atlas.lua",
+      "ForeverThai/Catalog.lua",
+      "ForeverThai/ForeverThai.toc",
+      "ForeverThai/SOURCES-TH.txt"
+    ],
+    "added_git_blobs": [
+      "ForeverThai/Fonts/Thai94.tga",
+      "ForeverThai/Fonts/Thai95.tga",
+      "ForeverThai/Fonts/Thai96.tga",
+      "ForeverThai/Fonts/Thai97.tga"
+    ],
+    "old_fonts_108_unchanged": true,
+    "protected_asset_count": 28,
+    "all_protected_git_blobs_unchanged": true,
+    "all145_source_sizes_and_paths_match_manifest": true,
+    "unchanged_engine_git_blobs": true,
+    "source_dirs_blob_inventory": [
+      {
+        "path": "src/ForeverThai/Atlas.lua",
+        "sha": "51c0e01595c8b6e1925d43b02dc19a6fb1783f63",
+        "bytes": 13891968
+      },
+      {
+        "path": "src/ForeverThai/Bitmap.lua",
+        "sha": "ae70edab280e6f08137b810c94c9716d11940a2b",
+        "bytes": 4733
+      },
+      {
+        "path": "src/ForeverThai/Catalog.lua",
+        "sha": "ccb670c585a3061b28b41cc34476d306016a50bf",
+        "bytes": 16968349
+      },
+      {
+        "path": "src/ForeverThai/Events.lua",
+        "sha": "d5d9cab689277168afbded8d592c9292754c6caf",
+        "bytes": 26306
+      },
+      {
+        "path": "src/ForeverThai/ForeverThai.toc",
+        "sha": "db339d0c386d433e05a4e243cc2105ee6807a582",
+        "bytes": 784
+      },
+      {
+        "path": "src/ForeverThai/INSTALL-MAC-TH.txt",
+        "sha": "74e5613cbc4080bff5f5ac92102abc0653f96cd7",
+        "bytes": 11776
+      },
+      {
+        "path": "src/ForeverThai/INSTALL-TH.txt",
+        "sha": "a7ce63800a415ab8742a2e0415ef5aaac91823a3",
+        "bytes": 75689
+      },
+      {
+        "path": "src/ForeverThai/Match.lua",
+        "sha": "50cb4acf095863ed2f5d54f048deb5b2e260cc8d",
+        "bytes": 5763
+      },
+      {
+        "path": "src/ForeverThai/Observe.lua",
+        "sha": "3b6c13c414d2973bf1e9e406015e26717ed1e2b0",
+        "bytes": 4025
+      },
+      {
+        "path": "src/ForeverThai/PLAY-DRUID-HUNTER-TH.txt",
+        "sha": "2f69626a28dd357dfd8a6b84fea2c26eed68c6a3",
+        "bytes": 285223
+      },
+      {
+        "path": "src/ForeverThai/Panel.lua",
+        "sha": "f66f58a597e369279414ca422da5cff0bfc4c0e5",
+        "bytes": 3088
+      },
+      {
+        "path": "src/ForeverThai/SKILLS-INSTALL-TH.txt",
+        "sha": "9db7e9a1109c746984d541c88a4110e7d831cb87",
+        "bytes": 840
+      },
+      {
+        "path": "src/ForeverThai/SKILLS-SOURCES-TH.txt",
+        "sha": "cc53eae42a423522ef11d0e1f39362917178d9e5",
+        "bytes": 39991
+      },
+      {
+        "path": "src/ForeverThai/SOURCES-TH.txt",
+        "sha": "c32517b30245d3807a2a100a8c671f132ff51a0e",
+        "bytes": 424600
+      },
+      {
+        "path": "src/ForeverThai/Speech.lua",
+        "sha": "7d80027cb940d9bf30e13ba7570b61dd8ff67ea5",
+        "bytes": 10477
+      },
+      {
+        "path": "src/ForeverThai/SpeechData.lua",
+        "sha": "d31767a94f7edb897444f1391201127ca550287f",
+        "bytes": 135847
+      },
+      {
+        "path": "src/ForeverThai/TESTS-TH.txt",
+        "sha": "cf29de4ec8deee4b759e8b4443441b840848c380",
+        "bytes": 451782
+      },
+      {
+        "path": "src/ForeverThai/Tracker.lua",
+        "sha": "c3f303c01d970f491bb5e561a8528ea0963d1c7d",
+        "bytes": 13119
+      },
+      {
+        "path": "src/ForeverThai/UPDATE-TH.txt",
+        "sha": "35a4501dcf65d8c451627fc7ef8e5c55c0bca6e5",
+        "bytes": 511772
+      },
+      {
+        "path": "src/ForeverThai/Fonts/OFL.txt",
+        "sha": "a7d3a1261866388dac5f9dc2c51982121c1e0c07",
+        "bytes": 4387
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Sarabun-Regular.ttf",
+        "sha": "161c9ac9a14e26dba0b9be14496fae451e5c2e24",
+        "bytes": 90220
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai1.tga",
+        "sha": "a7f15767583750113141c34b3f293330b04db0b8",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai10.tga",
+        "sha": "6a04a3356e9d6ce1573bbd5ea408d0b530553b2a",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai11.tga",
+        "sha": "2754631da0e2b7927a304080a47681c894a2185a",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai12.tga",
+        "sha": "f196ea624e996ffd06f82f7b7878fe083302c674",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai13.tga",
+        "sha": "1668fe0b2e47b6aac68483ac8cf28044e7c5e1cf",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai2.tga",
+        "sha": "cbe00a47b045d27fe1c3743673944ce2dbaeb2d6",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai3.tga",
+        "sha": "6d0d2c1853078b26e27a840acd689f5aaa7d5b93",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai4.tga",
+        "sha": "d5203cff7f4a51c0c00939cfcd10ca228e97f210",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai5.tga",
+        "sha": "2b26d18226b306b04a4da01db4e966376574aacb",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai6.tga",
+        "sha": "0929223c100b806a61c978625592e5836b9939e7",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai7.tga",
+        "sha": "fdbf5ee246a7c5791379795ced44285898adf4bd",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai8.tga",
+        "sha": "6e51fb6f3028b723a1ccf51e6387e3f71c141cb6",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/SkillsThai9.tga",
+        "sha": "e04ba1cf039b5cef12463b0bad2e847b299338d7",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai1.tga",
+        "sha": "cc81f780a838e50162f898ece78574d66dc2e133",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai10.tga",
+        "sha": "1b7d24e3fea5bede8bf836607171953021742f90",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai11.tga",
+        "sha": "8e8523562cf4d04c400dc60fb2ede0ad8d7ee8ce",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai12.tga",
+        "sha": "aa7c2cde95b3dd301e182137f72900255cb3c885",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai13.tga",
+        "sha": "b9a1a52c4b132382d78c8088ee6dc8dadf183b0f",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai14.tga",
+        "sha": "a54145104ef55409288078324b709d558f917c1b",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai15.tga",
+        "sha": "18ced94bdf4ccded69522d09f7c57b35b94779b1",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai16.tga",
+        "sha": "c05773b85ac7e65500381477ee59775fce9ccbf0",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai17.tga",
+        "sha": "2153ee5d9e8f17275b46ccbcc0853cdadf92914d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai18.tga",
+        "sha": "b28e777f8d84976d1e14e16bcaf3a175fbdf0e48",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai19.tga",
+        "sha": "cd3d7de3aeba791442e8a3497483c5a1cb5f8628",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai2.tga",
+        "sha": "96ba42bd9af4244e1c1b80dd7f391b824a1276e1",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai20.tga",
+        "sha": "34534c63b9cb107f30f9ea6fc0a4a3ab979341c3",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai21.tga",
+        "sha": "3c6c7e29ac4a1c6c3003468aa66c32ada496252d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai22.tga",
+        "sha": "47e4c26aa87e620a545ef427ddb28cd5adff0e35",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai23.tga",
+        "sha": "d300a7ad132630d10ea681b1a69eefb5d18cc8f2",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai24.tga",
+        "sha": "7322c83e7849780e4f4babd8206101d609752cce",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai25.tga",
+        "sha": "c81b6e081c2af6fdc890bf011ab000664a5fc666",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai26.tga",
+        "sha": "8c3dd5a898a32a5461c8cb511e80fe3a84f0369b",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai27.tga",
+        "sha": "5bd74303c39b4cb57135ca41e80c07444e5dda79",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai28.tga",
+        "sha": "5f1434e1b3ef8b30086bf1b6647541e4c5f40e72",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai29.tga",
+        "sha": "751d06dba6ee63122670b4936bef256ed34a85e4",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai3.tga",
+        "sha": "0e05d11a9e6a00e2d943f5ea64d8a029ed91434a",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai30.tga",
+        "sha": "2475840525ead838da71fc47f72dd5870104ecb6",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai31.tga",
+        "sha": "d260339253c939be92ac7250a0431f75a0c77004",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai32.tga",
+        "sha": "185474566389638bc685da3debabbb7b6b7bad9f",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai33.tga",
+        "sha": "00f7e1083ad1cef2787b8f4b8f2b608be09e2770",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai34.tga",
+        "sha": "3cb0e128eb2c225525c2f00821217686d12c7b76",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai35.tga",
+        "sha": "90b93a167425509c00078852c87117abd20e2ea2",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai36.tga",
+        "sha": "94566567e58e4691258ef431c449cba2335e3bf3",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai37.tga",
+        "sha": "b39c6f7c01f7f11966ff6238d910cfa6e4e7b584",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai38.tga",
+        "sha": "a0a3d2b8123d0d89f9358e4e73229f2bfc70a770",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai39.tga",
+        "sha": "d17b2f06e55e18551c4a84ade59c6588b48fe613",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai4.tga",
+        "sha": "61e3e9e18c0e1b368152ec47a668d0a8fd8bd3f6",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai40.tga",
+        "sha": "65ae260a78709cfdb386668909744688bb0db697",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai41.tga",
+        "sha": "6fe6f573de29592f80c4d28c1c03d09f047cdfbd",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai42.tga",
+        "sha": "2f2fd2c356a7165d932bbca2be72da88bf4a847d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai43.tga",
+        "sha": "136ca37d940624bf0c516dd126cfe717260957d4",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai44.tga",
+        "sha": "8d50b91c207cec4e0ade6866756a717b41dda2f8",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai45.tga",
+        "sha": "eea06ed38e966087e2acb5e0da6cc0feb296479e",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai46.tga",
+        "sha": "2f5a5f8ab5b346351de7af926d6cc875b102275c",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai47.tga",
+        "sha": "c8f95c065b639ca7264f20c097c63acbde3a61d0",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai48.tga",
+        "sha": "1b619340a9b632dd2103ddcd1fdba097259d322b",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai49.tga",
+        "sha": "431a9e1614c71cef1341b09c4278ca231ce4d68d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai5.tga",
+        "sha": "a78f4083a1d0e3a9aacf863cdbd6426f6b48541e",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai50.tga",
+        "sha": "31c0ee3b4205d66764253fdaf562e3919980fc8a",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai51.tga",
+        "sha": "7ef7467ffee9f23c139ffc4dd0c61eb35690d31d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai52.tga",
+        "sha": "9375035ea1520d0a4bb53f46d7bf89b4aebcdd25",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai53.tga",
+        "sha": "94c87c06bd586ec820968bb2ff218ca583b60932",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai54.tga",
+        "sha": "f5ff375a27f1fecfb4c8104cd567a250da69b26b",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai55.tga",
+        "sha": "c6c72d0f63f81c18eaced48552d1b57de1c0e286",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai56.tga",
+        "sha": "c6534c14c22063b19921f339457edfd9b5f2347a",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai57.tga",
+        "sha": "c70d6876529a6a2d57a478581a7cce76d73fe4ae",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai58.tga",
+        "sha": "af6138ecfd807f39ebed38e46ea918be0d947477",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai59.tga",
+        "sha": "2d1a58e1bc3b719acddbfb9ce2dcfb0a5cf01d53",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai6.tga",
+        "sha": "6ab6c39d33933eee9b2046bf843d36a599a708fd",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai60.tga",
+        "sha": "b35537b039a24433c7443a6abee86b50ec063ea2",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai61.tga",
+        "sha": "ded347c776a915a3f4c9ba146b532b9ed6a13fd4",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai62.tga",
+        "sha": "5d8677cd88a32bc8b455cf3f03ccba808c48d139",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai63.tga",
+        "sha": "031c55e0f1853860de141721aad87d0def93f1b6",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai64.tga",
+        "sha": "9291352285313c6f018609311d8d26f509ffd580",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai65.tga",
+        "sha": "f4b6efbdd4d76ee219845241f6623cf7b43cb33a",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai66.tga",
+        "sha": "607b581a854320a5315571fcacee2814dc732a34",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai67.tga",
+        "sha": "65ab283af623c68bcd61bc9fbfd375967efb9440",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai68.tga",
+        "sha": "7be125e6dba9ec05693871032e7eb084728db93f",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai69.tga",
+        "sha": "ac39eb754363bae479fff9844b4ca6efa11400e4",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai7.tga",
+        "sha": "489d065b5a487ee0e7e697d6c2d1ad70446ca8f9",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai70.tga",
+        "sha": "4e8937fa9bc1fa01bba0323209879b8117c1d398",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai71.tga",
+        "sha": "8417f750b29b1ba806cca510c1e0476977dee70c",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai72.tga",
+        "sha": "faa8045725f95f235aa9e6d78fb7308eefc6cd88",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai73.tga",
+        "sha": "25fd90b5e074b7a588242cb3cd79381915a6e519",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai74.tga",
+        "sha": "391077db0ac6630126121c04ecc25d2262729c02",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai75.tga",
+        "sha": "1727a84cb2cfa5cd571b01b4b7cffcb9ed77e199",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai76.tga",
+        "sha": "821b5bb7e1ab8b7b2d28f2a278cef461c5d138c7",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai77.tga",
+        "sha": "a916f05e7030c0932235be05d4648c32f8edee15",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai78.tga",
+        "sha": "bf7cdb7849b01719f419047aa9deaf665aa44bbd",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai79.tga",
+        "sha": "c9ce6cb83349be9d35bfc28266a0eb4f9f7bc429",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai8.tga",
+        "sha": "5b98f8f104602ce049fe2e3fc174f631217469e4",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai80.tga",
+        "sha": "d014585b80e5e261fb4030c45bfc8b8e0cffd043",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai81.tga",
+        "sha": "58fec81296a65108fc362b2a1d5826b093a87e65",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai82.tga",
+        "sha": "de2d39ed424c22215093629648f992476f41759d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai83.tga",
+        "sha": "9da3097cb629623aede3c385c51b95e5b26b2257",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai84.tga",
+        "sha": "31b0dacc22003e5dcda6adece1f2f02f7c670d5d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai85.tga",
+        "sha": "b58be54d7a431670397855a482825fc78f2da80d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai86.tga",
+        "sha": "f6987f4c54b1214d1f0310e1f32283d78110bd6b",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai87.tga",
+        "sha": "1042c6ca335be09c58a114a73f6a656bc5e2e4b9",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai88.tga",
+        "sha": "2747897ab782990da04de5e7d25dc954e705827b",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai89.tga",
+        "sha": "e87ad02b4e0fbfae5a3c98def3ed9292a8741d1d",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai9.tga",
+        "sha": "a9cf4fce076e0a8dc85890b11adf688510a8db75",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai90.tga",
+        "sha": "5ffa619e564654d8f3a479d9e35b69952aed8513",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai91.tga",
+        "sha": "4fa693e622c7c71dbf38d235ee658cf15fdb7d50",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai92.tga",
+        "sha": "da2b11ed7df55b99f00977f0d577789cb348f362",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai93.tga",
+        "sha": "1e854ebeda9b2f6d3309a529279d50d2343373e2",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai94.tga",
+        "sha": "b0f09f38c24c594a6c7b55540f18480705a511d7",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai95.tga",
+        "sha": "20e1ba0afe55099700660018bd37427b2b4f8648",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai96.tga",
+        "sha": "d3bb793572bed8cd52bab5e007ff994ab9b82c98",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Fonts/Thai97.tga",
+        "sha": "a7785512dc2a4381a447b79b1594d6790d44c19f",
+        "bytes": 4194348
+      },
+      {
+        "path": "src/ForeverThai/Skills/Adapter.lua",
+        "sha": "db39a10957ae1b1d0f5138eeb0f91a19942e341b",
+        "bytes": 80415
+      },
+      {
+        "path": "src/ForeverThai/Skills/BitmapData.lua",
+        "sha": "33db648b5f24ca8c306949dd9076bbf103d93e52",
+        "bytes": 1421322
+      },
+      {
+        "path": "src/ForeverThai/Skills/Core.lua",
+        "sha": "7b8d4f10ca0e479568b2bca0dfd34a9174a73593",
+        "bytes": 5586
+      },
+      {
+        "path": "src/ForeverThai/Skills/Data.lua",
+        "sha": "47f1520ab2cb09da27d937e112dfed2b27e707d4",
+        "bytes": 6584025
+      },
+      {
+        "path": "src/ForeverThai/Skills/ItemEffects.lua",
+        "sha": "87aec9a32aec2f33cd92773494ff8b31cf9b5a21",
+        "bytes": 17827
+      },
+      {
+        "path": "src/ForeverThai/Skills/LongText.lua",
+        "sha": "b356a9e73ed9ef833390b230104e986108538ff7",
+        "bytes": 4355
+      },
+      {
+        "path": "src/ForeverThai/Skills/RawText.lua",
+        "sha": "d6abebdc208f37e4de81d94acbc54b7ea57c541f",
+        "bytes": 9180
+      },
+      {
+        "path": "src/ForeverThai/Skills/RecipeData.lua",
+        "sha": "720bc57eecf2a344c5713aa1fbc7afab48019804",
+        "bytes": 381171
+      },
+      {
+        "path": "src/ForeverThai/Skills/Recipes.lua",
+        "sha": "1b220f8d6995d2db57b3bc62a10a5c36c2df0360",
+        "bytes": 13725
+      },
+      {
+        "path": "src/ForeverThai/Skills/Settings.lua",
+        "sha": "67155468b25a079e49de07f689818b4f1cac0d80",
+        "bytes": 6004
+      },
+      {
+        "path": "src/ForeverThai/Skills/TalentTreeLabels.lua",
+        "sha": "c1183c26cddcbefd8b96a8a2424aaaad4dfce267",
+        "bytes": 6326
+      },
+      {
+        "path": "src/ForeverThai/Skills/TalentTreeNames.lua",
+        "sha": "14cc4ea28aa996396d0b2e65d157aa824e95ebfe",
+        "bytes": 2191
+      },
+      {
+        "path": "src/ForeverThai/Skills/TextBlock.lua",
+        "sha": "395fae63e847404fd796e9e5eea14e482b575b6b",
+        "bytes": 2018
+      },
+      {
+        "path": "src/ForeverThai/Skills/Tooltip.lua",
+        "sha": "ae5da6d45f7a8f839c9a042e9fefb4a3f5b0d512",
+        "bytes": 26253
+      }
+    ]
+  },
+  "Root_independent_manifest_delta": {
+    "changed": [
+      "ForeverThai/Atlas.lua",
+      "ForeverThai/Catalog.lua",
+      "ForeverThai/ForeverThai.toc",
+      "ForeverThai/SOURCES-TH.txt"
+    ],
+    "removed": [],
+    "added": [
+      "ForeverThai/Fonts/Thai94.tga",
+      "ForeverThai/Fonts/Thai95.tga",
+      "ForeverThai/Fonts/Thai96.tga",
+      "ForeverThai/Fonts/Thai97.tga"
+    ],
+    "unchanged": 137
+  },
+  "Cloud_actual_downloadback": {
+    "checkpoint": "dfb0b202bc65ca1a125cf3a68901fdc206db09e7",
+    "all145bytes": true,
+    "TOC24": true,
+    "guide_manifest_receipt_finalhashes_verified": true,
+    "protected28": true,
+    "old_fonts108": true
+  },
+  "fresh_evidence": {
+    "last42_text": "42positive/210negative at final Catalog; previous80 not relabeled as rerun",
+    "font": "242runs/623glyphs/Thai94-97; old102656runs13710slots108fontassets retained; actualBitmapLayer122draws121Thai1Latin0Thai-livefontfallback",
+    "Tracker": "89fields native/Questie178executions174Thai2Latin2knownmultilineEnglish;356off/wrongIDnegative",
+    "package": "Actual ZIP all145sourcebytes, safe paths, TOC24, referencedtextures, basicTOCsettings70938",
+    "Root94302": "Independent primary own-ID complete body equals reviewed text; no NPC gender/reader template inferred"
+  },
+  "not_rerun": "Unchanged Skills9/NPC686/party/fulloldfont suites; old matching checks retained at preserved prefixes. Root ran no local addon/AI/game tests.",
+  "limitations": [
+    "84213objective is multiline: full quest text BitmapLayer Thai works; unchanged native/QuestieTracker safeguard leaves this objective English.",
+    "81781description ForestSong vsobjective Satyrnaar kept exactly per source; no live route correctness claim.",
+    "2752held identity variant excluded; old canonical unchanged.",
+    "No current enabled inventory/completequest/fullgame%/realWindowsMacM2 acceptance proof."
+  ],
+  "customer_publication": false,
+  "current_feed_last_verified": "0.463.1; no claim of a fresh live-feed reread in this review",
+  "normal_publication_milestone": "0.470.0",
+  "whole_GOAL_complete": false,
+  "next_source_work": "MAIN25: new FVO captures3488–3501 already discovered, not fetched/audited byCloud; bounded main-only fresh input after completed EG literal122. If needed thereafter, target genuinely missing main raw-template fields from the1501hold queue using exactcurrentquery+primaryDATASETSroleproof, not diagnostic guessing. No Source23/11144 literal re-audit.",
+  "additional_holds": "2752unproven identity;81781source location disagreement;books22user-text request pending; whole enabledinventory and liveWindowsMacM2 remain unproven."
+}
