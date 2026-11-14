@@ -20,12 +20,20 @@
         },
         {
           "url": "https://warcraftforever.games/quests/4641",
-          "result": "Has objectives/description/completion; description contains resolved captured player name and class. Do not publish raw name or infer new dynamic roles. Completion is literal English."
+          "result": "Objectives and completion are literal English. Description includes an actual captured name/class, which were not copied here. Recorded beta/ForeverLog per footer; per-row build unknown.",
+          "browser_verified_fields": [
+            "objective",
+            "description",
+            "completion"
+          ]
         }
       ],
-      "next_action": "After main19 freeze, one bounded primary-source accessibility/provenance probe: determine public data export/index and phase attribution, then compare safe literal MAIN bodies against through19. Do not crawl1609detailpages or claim this is a current-enabled inventory; unknown beta words may at most support exact observed variants with proven roles.",
-      "limitations": "No whole-game percentage, source-ready count, coverage or current build claim has been established for this site."
+      "next_action": "After main19freeze, bounded public data access/provenance probe: inspect public HTML/data references for an existing bulk export rather than crawling1609pages, parse only data without executing third-party scripts, compare safe literal own-ID MAIN phases against through19, and hold unresolved personal/role placeholders. Start with a few representative recorded rows; report readiness separately from beta availability.",
+      "limitations": "No whole-game percentage, source-ready count, coverage or current build claim has been established for this site.",
+      "browser_verified": true,
+      "index_ui": "After hydration the public browser displays1609rows, search/zone/level controls, first100links and a Show100more button. Query98581title-only stays without additional phases after hydration."
     }
   ],
-  "privacy": "No actual captured player name, raw capture, credentials or personal files copied to this report."
+  "privacy": "No actual captured player name, raw capture, credentials or personal files copied to this report.",
+  "updated": "2026-11-14 browser hydration verified"
 }
