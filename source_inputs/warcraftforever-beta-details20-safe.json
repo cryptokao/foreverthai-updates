@@ -1,0 +1,237 @@
+{
+  "source": "https://warcraftforever.games/quests",
+  "status": "Public Beta ForeverLog detail pages; per-row build/current enabled inventory unconfirmed. logged=true is only a site flag.",
+  "method": "Authorized light local read after Cloud CONNECT403; normal Windows HTTPS trust, no TLS bypass, no external JS execution. Own stdlib HTML parser extracts visible h2-labelled paragraph text; HTML/raw records remain private outside repo.",
+  "scope": "Eight IDs selected by Cloud metadata pass; all retrieved before receipt of final representative-only format gate. No remaining crawl or duplicate requests. Inspect these new literal bodies once with actualTranslate, count only unsupported qualified fields, not already supported canonical fields.",
+  "phase_gate": "None of these eight pages renders a Progress heading. This does not prove no game progress exists and must not populate empty slots. Four description fields withheld in full for resolved player-name data. Class/race words in retained fields remain literal; use only independently established literal/typed proof, no guessed roles.",
+  "details": [
+    {
+      "quest_id": 91209,
+      "url": "https://warcraftforever.games/quests/91209",
+      "page_title": "[4]Continue Your Training",
+      "html_sha256": "db51c71ff8f6b723dc8034ca4b934d5d69a2730359ae8020f8b3aae4f908dc24",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Follow the road east out of Deathknell to find the town of Brill. Report to Shari Stilwell to continue your training.",
+          "source_sha256": "4243b9869144c608a2cb5a8099df1260ae296c1f92b76c79db66fdaa1cf3cf4a"
+        },
+        {
+          "source_heading": "Description",
+          "english": "Lordaeron may not be what it used to be, but our home still needs protection from all manner of threats and it's time for you to go out and face the world. Your next stop should be the town of Brill in central Tirisfal Glades. Go and meet with Shari Stilwell there. She can see to your continued training. \r\n\r\nOne last bit of advice before you go--take extra care as a paladin traveling through Forsaken lands. There are many in the Dark Lady's service who distrust us and our proximity to the light.",
+          "source_sha256": "fdc9cd0d7fbae93a9db9cb5299a9c7d977bef445f8784c39e7df0f54eb075aa3"
+        },
+        {
+          "source_heading": "Completion",
+          "english": "Welcome aboard, paladin. It's always encouraging to see more of our number roaming these lands. There are many here in Brill in need of assistance from adventurers such as yourself. Seek employment and grow stronger in the light. Return to me whenever you need training. \r\n\r\nWhen you've proven yourself to myself and the people of Brill, I will provide guidance for the next leg of your journey.\r\n\r\nGo with the light, paladin.",
+          "source_sha256": "bfb35bc5deb549273d3f92be568125a720c23b48601da8b5a60df1ab0dbf3863"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description",
+        "Completion"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 96656,
+      "url": "https://warcraftforever.games/quests/96656",
+      "page_title": "[6]The Adventurer",
+      "html_sha256": "6bd48737a08402f338c34ac70fd6f1741786387c1e818ba7c59477d332725d08",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Speak to Eleanor Shackleton near Brill.",
+          "source_sha256": "098ab83478eb8a4dec2cd03055cccf4e2075d1d74d72c2ba2be05e2a7fc005a3"
+        },
+        {
+          "source_heading": "Completion",
+          "english": "I'm not affiliated with the Scarlet Crusade, if you couldn't tell. I'm just an adventurer stopping by before my next venture into the wilderness.\r\n\r\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
+          "source_sha256": "0a0986559567b524fd6b306847b1328afaa4c9d16860f5ce2f1299daebc10fa9"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description",
+        "Completion"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 99144,
+      "url": "https://warcraftforever.games/quests/99144",
+      "page_title": "[7]Seeking Refuge",
+      "html_sha256": "72371949f0f8f7e39206294586598159a290bada34c00723c6e2eddc83a21e5a",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Help Bareth Dawnstone escape Crusader's Outpost, and report his safety to Shari Stilwell in Brill.",
+          "source_sha256": "5d6a5b04d52a9c5b78946a0c619e45b69bdaba39cf5edc33892b421e70ce5493"
+        },
+        {
+          "source_heading": "Description",
+          "english": "Light bless you for finding me. I was on my way from Bandarion Keep to deliver a message to Shari Stilwell in Brill when these monsters captured me. They wield the Light with a hatred in their hearts that makes what's left of my blood seethe. It goes against all I meditate for... all I strive to protect!\r\n\r\n<Bareth Dawnstone steadies himself.>\r\n\r\nI know some still take issue with my kind, but I assure you our intentions are pure. If you would aid me in escaping this place, I would be forever grateful.",
+          "source_sha256": "d330a69b84933c31186f3090614a6ed50d1e50156332bde15f322236b2829b62"
+        },
+        {
+          "source_heading": "Completion",
+          "english": "Blessings upon you for aiding Dawnstone. Our order is still taking root here and it would be devastating to lose one so promising before his time.\r\n\r\nPlease accept this as a token of our thanks. Should you ever take an interest in our ways, our monastery Bandarion Keep lies on the bluffs northwest of the Solliden Farmstead. We welcome all who seek guidance in the Light.",
+          "source_sha256": "2e5677611a830e2fdc9d22582a214f1af7f40121104647dea12b0616e78ad531"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description",
+        "Completion"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 92529,
+      "url": "https://warcraftforever.games/quests/92529",
+      "page_title": "[8]Falaath Village",
+      "html_sha256": "2deb4f75933904be58b6ef5aec4353301c344bbec47229b3c0c305dc190a918f",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Report to Missionary Jasaan near the entrance to Falaath Village.\r\n\r\nIf you lose your Mark of Akir, speak with Sania Silverstream in Shen'dar Village to regain the effect.",
+          "source_sha256": "e6b1e331b7a3b5ce709a3f60d027d8a1aaf125c58d74a3c6091e656788bfea00"
+        },
+        {
+          "source_heading": "Description",
+          "english": "It gladdens my heart that you wish to serve Al'Akir. Our current trials as a people stem from our own complacency. We grew prideful and took the bounty of the winds for granted. The stagnation that followed is the reason the spirits of the wind abandoned us.\r\n\r\nOnly through acts of contrition may we feel the wind's caress once more. If you seek the fellowship of like-minded shen'dorei, go to Falaath Village and find Missionary Jasaan there. I will mark you so that the faithful will know you as a recruit.",
+          "source_sha256": "578a149847cd61165b17525ae096da866d8b4de90ad79d5e0ec10d5b34be68a8"
+        },
+        {
+          "source_heading": "Completion",
+          "english": "What is this? A new acolyte seeking to serve the windlord sent by sister Sania? Truly we are blessed by the touch of the four winds this day!\r\n\r\nWe welcome all who seek to bask in the blessings of Al'Akir.",
+          "source_sha256": "d6a4086f54fa01aba2514cce5000fa7a9af590ac1efa369cd976d2572aec4e13"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description",
+        "Completion"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 94913,
+      "url": "https://warcraftforever.games/quests/94913",
+      "page_title": "[10]Moonglade",
+      "html_sha256": "4dc4fe93c19152a708ce19431976403bb4e299071302c92936aa4f94f0b7af65",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Use the spell \"Teleport: Moonglade\" to travel to Moonglade.  When you arrive, speak with Dendrite Starblaze in the village of Nighthaven.",
+          "source_sha256": "6ddd380c801a668d8bbc58a289c26c075ec67e0f8c2dbd3ada85579c06d75847"
+        },
+        {
+          "source_heading": "Description",
+          "english": "All druids are welcomed to the sacred lands of Moonglade.  Keeper Remulos - Moonglade's guardian - keeps watch over all druids who hibernate there. I'll teach you the spell that lets you transport yourself there. Cast it whenever you seek Moonglade's knowledge or solace.\n\nAs for your first lesson here on Azeroth, travel to Moonglade and speak with Dendrite Starblaze in Nighthaven about the path you're now on. Good luck, young druid.",
+          "source_sha256": "697ff504c9967fae36d80c6f5a069ded223e57d2b1490ea3cd5ede25b9ae4e37"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 94006,
+      "url": "https://warcraftforever.games/quests/94006",
+      "page_title": "[10]The Great Ursera Spirit",
+      "html_sha256": "ff7670637258eeaf1456f24697e60d438ab6f357b1aa5d1e3142545b375a35aa",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Speak with Urs'endris near the falls northeast of Valanaar.",
+          "source_sha256": "3aa88bc0bdb216d33eba4056bc86c3bcdee45a36b89d941c34d227d5e9a836ed"
+        },
+        {
+          "source_heading": "Completion",
+          "english": "So, you wish to embrace the way of the claw, child? Very well. Let us speak.",
+          "source_sha256": "35d6ebeaccb420032740cd23580ec238df31836c5f02c421c68e150e184f892f"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description",
+        "Completion"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 6081,
+      "url": "https://warcraftforever.games/quests/6081",
+      "page_title": "[10]Training the Beast",
+      "html_sha256": "b7fbcb7b8057993e1f328a9a59e39c1515986f45634449701f77ac971819f753",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Speak with Ormak Grimshot in Orgrimmar.",
+          "source_sha256": "ccd2bf214787e6c036ce9368b182303aba7046121c2536df235c72ec0eabbfaa"
+        },
+        {
+          "source_heading": "Completion",
+          "english": "A young hunter, I see. Yes, I will grant you the skills you need to train and guide your pet. Not only will you be able to teach your pet new abilities, you will now be able to feed your pet, as well as revive it, should it fall in battle.\n\nNow, go, hunter. We will speak again, at a later date.\r\n",
+          "source_sha256": "ab05e66d4da846c3b0c915a425f5395ad6756edfa6fb6c034672f4f62c69ca38"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description",
+        "Completion"
+      ],
+      "progress_rendered": false
+    },
+    {
+      "quest_id": 6126,
+      "url": "https://warcraftforever.games/quests/6126",
+      "page_title": "[14]Lessons Anew",
+      "html_sha256": "8a3cd39bb27c78acc278d513ee846da7e9fd6ceb5e6b37e0676f12ecb12b00c9",
+      "phases": [
+        {
+          "source_heading": "Objectives",
+          "english": "Travel to Moonglade and speak with Dendrite Starblaze in the village of Nighthaven.",
+          "source_sha256": "faa3aa2717469b0f61663191aa11fab95dcf6831e5f1c5129ad53c1710cf4853"
+        }
+      ],
+      "rendered_phase_headings": [
+        "Objectives",
+        "Description"
+      ],
+      "progress_rendered": false
+    }
+  ],
+  "held_fields": [
+    {
+      "quest_id": 96656,
+      "source_heading": "Description",
+      "source_sha256": "c183dff8ac4ca6915821702c12c8b86c2196bb4581f6140cdecd5457424ce4f7",
+      "reason": "Contains resolved reader-name string; entire field withheld. No identity slot guessed or raw player name published."
+    },
+    {
+      "quest_id": 94006,
+      "source_heading": "Description",
+      "source_sha256": "a1bda441390de8bb026b62cd9948e4fdfdf45f21e148e8966446f0a0f6bb1281",
+      "reason": "Contains resolved reader-name string; entire field withheld. No identity slot guessed or raw player name published."
+    },
+    {
+      "quest_id": 6081,
+      "source_heading": "Description",
+      "source_sha256": "3472d29c578ad3236b4e93a4459fcf33ae553aaa320dfa5cae354f003c1132d5",
+      "reason": "Contains resolved reader-name string; entire field withheld. No identity slot guessed or raw player name published."
+    },
+    {
+      "quest_id": 6126,
+      "source_heading": "Description",
+      "source_sha256": "c83f1ca1ad95426168323f3d0de4e4799580567d1579f1d7f213d3acc44c92e5",
+      "reason": "Contains resolved reader-name string; entire field withheld. No identity slot guessed or raw player name published."
+    }
+  ],
+  "ready_translation_claim": false,
+  "raw_capture_published": false
+}
