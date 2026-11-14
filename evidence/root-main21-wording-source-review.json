@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-14",
+  "candidate_commit": "f545a0848e9c7dddd369a804c3c91d509016a5cb",
+  "decision": "Approve exact source-only q94233.progress signature variant with existing reviewed Thai; no package/publication in this round.",
+  "field": {
+    "quest_id": 94233,
+    "phase": "progress",
+    "english_sha256": "1745c1e1c895e792c1094d83a9749deb302cb73165d7b85ab8936f2ee7d11a03",
+    "thai_sha256": "e96e11355e7994f8d052f5134b93bb68ae406d55caa18aa0e4f9df4aa9412a62",
+    "signature": "179:359504858:1889618361"
+  },
+  "root_review": {
+    "read_full_english_and_thai": true,
+    "meaning_preserved": [
+      "Witnessed whole place burned to the ground",
+      "Keep toppled",
+      "Glorious/satisfaction reaction",
+      "Unexpected bandits attempting to use the place as a base"
+    ],
+    "old_wording_retained": true,
+    "identity_counter_tokens": 0,
+    "checked_append_only_catalog_patch": true,
+    "shared_matcher_changed": false
+  },
+  "source_attribution": {
+    "export_issue": 3481,
+    "source_line_index": 187,
+    "reported_collector_version": "0.1.11",
+    "root_primary_TOC_blob": "38ff052411aa08236ab568d9f82b9dd84def9976",
+    "root_primary_Events_blob": "4f59bda0c2124dbdc8a1c8d16b69414db9d762a8",
+    "root_primary_Capture_blob": "800225bbb17a24b4db93bd22cefdb7af635ed6df",
+    "root_primary_Export_blob": "7c28c454aeb8cd8df5d1d7d2c8c711b2433f83f2",
+    "published_API_path": "QUEST_PROGRESS -> GetProgressText -> QueueQuest -> GetQuestID/GetTitleText in same event -> capture -> export q/e/t/x. No source text or title rewritten based on theme.",
+    "root_independent_Questie_record": {
+      "commit": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+      "path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "quest_id": 94233,
+      "name": "Craftsman's Writ: Practice Lock",
+      "questLevel": 60,
+      "finishedBy_add": [
+        [
+          261932
+        ]
+      ],
+      "observed_capture_npc": "261932",
+      "result": "Own-ID title and finisher match capture; metadata corroborates binding despite unusual prose."
+    },
+    "limits": [
+      "Published collector path and self-reported header do not prove per-row addon/client build.",
+      "Do not claim the unusual prose is intentional generic server text or identify a game bug.",
+      "Current enabled inventory and actual game behavior remain unproven."
+    ]
+  },
+  "validation": {
+    "cloud_affected_positive": 1,
+    "cloud_affected_negative": 3,
+    "root_reran_tests": false,
+    "old_catalog_prefix_preserved_by_Cloud_check": true,
+    "other_140_runtime_files_unchanged_by_Cloud_byte_check": true
+  },
+  "coverage": {
+    "new_matching_variants": 1,
+    "new_quest_entries": 0,
+    "new_thai_fields": 0,
+    "new_prose_bodies": 0,
+    "whole_quests_completed_claim": 0
+  },
+  "distribution": {
+    "source_only_approved": true,
+    "immutable_0_466_MAIN19_ZIP_excludes_MAIN21_variant": true,
+    "no_new_fonts_version_ZIP_or_customer_feed": true,
+    "next_package_must_include_this_approved_Catalog_variant_and_all_components": true,
+    "public_feed_last_verified": "0.463.1",
+    "standing_public_milestone": "0.470.0"
+  },
+  "goal": "active/incomplete; no whole-game completion claim"
+}
