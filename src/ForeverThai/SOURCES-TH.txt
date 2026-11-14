@@ -3602,3 +3602,11 @@ Cloud MAIN19 — reviewed field-only additions (2026-11-14)
 QuestieDB Forever traces4dbb82440a27856f8dccf57094a5d792cdc7cc9b delta fromf0ad908: literal own-ID titles/objective summaries, using independently qualified QuestieTrace direct quest-log producer. https://github.com/Questie/QuestieDB ; licensing as pinned LICENSE.md. No full-phase/current-enabled inventory claim; exact per-row trace build unknown.
 Four literal quest completion bodies from Forever-VO new issue range3468–3480: https://github.com/quinn-dougherty/forever-vo ; selected rows3479/3480, own-ID628/79242/96078/93594. Export header70938 is not per-row build proof; locale absent. No reader identity/normalized token inference or raw captures included.
 Corroborating cached Efficient Games e0f8585914c134d9cb5d76756bd065b1e3e92ece retained: Data from Efficient Games (https://efficient.games), CC BY4.0 https://creativecommons.org/licenses/by/4.0/ . Thai translations and matching are adaptations. Existing credits and every earlier runtime alias retained.
+
+
+Alphaverse THAI SUB 0.467.0 MAIN24 PRIVATE TEST
+แปลเฉพาะ122ฟิลด์ตรงown-IDจาก EG ea970da071079b32e56f349e09648ff0e314b351 (70888/70938quests/texts delta) ตามRootreviews7f84daec/469c4b0a/24860a9f:90คำไทยใหม่31reuseเดิม1ชื่อpropername ไม่ใช่57เควสต์ครบทุกphaseหรือทั้งเกมครบ
+Data from Efficient Games (https://efficient.games), licensed under CC BY4.0 https://creativecommons.org/licenses/by/4.0/ . คงเครดิตQuestieDB/Forever-VOและแหล่งเดิมข้างต้น
+81781เก็บสถานที่คนละช่องตามต้นฉบับForestSong/Satyrnaar ไม่แก้เอง;2752unprovenidentityยังhold/canonicalเดิม;94302เป็นcapturedcompleteไม่ใช่completionLogและไม่อนุมานNPCgender/playeridentityจากreadersex
+เพิ่มเฉพาะ242Thai runs/623glyphsในThai94–97 เก็บAtlasrecordsและ108fontassetsเดิมทุกbyte รวมSkillsครบ ไม่รวมbooks22ที่ยังรอต้นฉบับจากผู้ใช้
+ข้อจำกัดTrackerเดิม:84213objectiveไทยหลายบรรทัดแสดงเต็มผ่านหน้าข้อความ/BitmapLayerได้ แต่native/QuestieTrackerคงอังกฤษเพราะguardปฏิเสธnewline ไม่มีการแก้engine ไม่อ้างผลเล่นจริงWindows/MacM2/currentenabledinventory

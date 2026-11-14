@@ -1,0 +1,615 @@
+{
+  "fields": [
+    {
+      "quest_id": 81769,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วมุ่งหน้าไปยังเขต Nightmare Incursion ที่ Warsong Lumber Camp ปราบพวกเทรแอนต์ที่นั่น แล้วกลับมาหาข้า"
+    },
+    {
+      "quest_id": 81769,
+      "field": "objective",
+      "thai": "ปราบ Vengeful Ancients จำนวน 7 ตน ในเขต Ashenvale Nightmare Incursion ที่ Warsong Lumber Camp แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81769,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale II: ปราบเทรแอนต์"
+    },
+    {
+      "quest_id": 81774,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วมุ่งหน้าไปยังเขต Nightmare Incursion ที่ Warsong Lumber Camp นำวัตถุทรงพลังที่เรียกว่า Dreamengine กลับมาให้ข้า"
+    },
+    {
+      "quest_id": 81774,
+      "field": "objective",
+      "thai": "นำ Dreamengine จากโรงตีเหล็กที่ Warsong Lumber Camp ในเขต Ashenvale Nightmare Incursion กลับคืนมา แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81774,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale VII: นำ Dreamengine กลับคืน"
+    },
+    {
+      "quest_id": 81775,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วมุ่งหน้าไปยังเขต Nightmare Incursion ที่ Satyrnaar นำม้วนคัมภีร์ที่สูญหายซึ่งเรียกว่า Azsharan Prophecy กลับมาให้ข้า"
+    },
+    {
+      "quest_id": 81775,
+      "field": "objective",
+      "thai": "นำ Azsharan Prophecy จากกระโจมเล็กใน Satyrnaar ภายในเขต Ashenvale Nightmare Incursion กลับคืนมา แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81775,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale VIII: นำ Azsharan Prophecy กลับคืน"
+    },
+    {
+      "quest_id": 81777,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วเก็บ Dreamroot จากภายในเขต Nightmare Incursion เราใช้พลังเวทของมันย้อนคืนความเสียหายนี้ได้ เจ้าจะต้องขอความช่วยเหลือจากนักสมุนไพร"
+    },
+    {
+      "quest_id": 81777,
+      "field": "objective",
+      "thai": "เก็บ Dreamroot จำนวน 10 ชิ้น ในเขต Ashenvale Nightmare Incursion แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81777,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale X: Dreamroot"
+    },
+    {
+      "quest_id": 81780,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วมุ่งหน้าไปยังเขต Nightmare Incursion ใน Forest Song ปราบมังกร Larsera ที่นั่น แล้วกลับมาหาข้า"
+    },
+    {
+      "quest_id": 81780,
+      "field": "objective",
+      "thai": "ปราบ Larsera ที่นอกซากโบราณสถานตรงกลาง Forest Song ภายในเขต Ashenvale Nightmare Incursion แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81780,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale XIII: ปราบ Larsera"
+    },
+    {
+      "quest_id": 81781,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วมุ่งหน้าไปยังเขต Nightmare Incursion ใน Forest Song ปราบซาเทียร์ Zalius ที่นั่น แล้วกลับมาหาข้า"
+    },
+    {
+      "quest_id": 81781,
+      "field": "objective",
+      "thai": "ปราบ Zalius ที่ฐานซิกกูแรตใน Satyrnaar ภายในเขต Ashenvale Nightmare Incursion แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81781,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale XIV: ปราบ Zalius"
+    },
+    {
+      "quest_id": 81784,
+      "field": "description",
+      "thai": "ขณะที่ปีศาจเหล่านี้ดึงความสนใจเราไว้ที่นี่ Emerald Dream ก็กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย รีบเดินทางผ่านประตูมิติ Emerald Dream ใน Bough Shadow แล้วมุ่งหน้าไปยังเขต Nightmare Incursion ใน Forest Song ตามหา Doran Dreambough ดรูอิดแห่งกรงเล็บที่กำลังหลับอยู่ที่นั่น และคุ้มกันเขาออกมาให้ปลอดภัย จากนั้นกลับมาหาข้า"
+    },
+    {
+      "quest_id": 81784,
+      "field": "objective",
+      "thai": "ช่วย Doran Dreambough จากเขต Ashenvale Nightmare Incursion ณ ศาลาใต้แสงจันทร์ใน Forest Song แล้วกลับไปหา Field Captain Hannalah"
+    },
+    {
+      "quest_id": 81784,
+      "field": "title",
+      "thai": "ภารกิจ Ashenvale XVII: ช่วย Doran Dreambough"
+    },
+    {
+      "quest_id": 82083,
+      "field": "description",
+      "thai": "กระดูกสะบักที่อยู่ในสภาพสมบูรณ์ชิ้นนี้ดูคุ้นเคยเสียเหลือเกิน -- Hakkar ถูกอัญเชิญมาสู่โลกกายภาพและถูกปราบลงแล้ว เหล่าโทรลล์บน Yojamba Island คงอยากฟังเพิ่มเติมว่าเกิดอะไรขึ้นภายใน Sunken Temple"
+    },
+    {
+      "quest_id": 82083,
+      "field": "objective",
+      "thai": "นำ Scapula of the Fallen Avatar ไปให้ Molthor บน Yojamba Isle"
+    },
+    {
+      "quest_id": 82083,
+      "field": "title",
+      "thai": "พิธีกรรมที่ล้มเหลว"
+    },
+    {
+      "quest_id": 80411,
+      "field": "description",
+      "thai": "จากจดหมายฉบับล่าสุดที่เราสกัดมาได้ ดูเหมือนวัตถุชิ้นสุดท้ายที่ Caius ต้องการคือ Talisman of Kazdor ในจดหมายระบุว่าเครื่องรางนี้อยู่ที่ไหนสักแห่งภายใน Zul'Farrak\n\nข้าต้องการให้เจ้าทำงานนี้ให้สำเร็จตามคำสั่งของ Caius เพื่อไม่ให้เขาสงสัย นั่นหมายความว่าเจ้าต้องเข้าไปใน Zul'Farrak เพียงลำพังเหมือนเคย\n\nแต่ก่อนจะส่งเครื่องรางให้เขา ให้นำกลับมาที่นี่ก่อน เราจะมอบอะไรให้ Caius มากกว่าที่เขาขอไว้อีกหน่อย"
+    },
+    {
+      "quest_id": 80453,
+      "field": "description",
+      "thai": "นำเครื่องรางลงไปหา Zan Shivsprocket ที่ห้องใต้ดิน ข้าได้ขอให้เขาติดตั้งกลไกไว้ในวัตถุชิ้นนี้ เพื่อตรวจจับความพยายามส่งพลังเวทเข้าไปหรือดึงพลังเวทออกมา\n\nกลไกนี้แทบมองไม่เห็นด้วยตาเปล่า และจะระเบิดเมื่อถูกกระตุ้น หากโชคดี Caius จะตายในแรงระเบิด อย่างน้อยที่สุด แผนที่เขาวางไว้กับเครื่องรางก็จะต้องล้มเหลว"
+    },
+    {
+      "quest_id": 80453,
+      "field": "objective",
+      "thai": "นำ Talisman of Kazdor ไปให้ Zan Shivsprocket ที่ห้องใต้ดินของ Ravenholdt Manor"
+    },
+    {
+      "quest_id": 80453,
+      "field": "title",
+      "thai": "แผนที่วางไว้อย่างดี"
+    },
+    {
+      "quest_id": 82068,
+      "field": "description",
+      "thai": "ทำภารกิจ Nightmare Incursion ใน Feralas หรือ Hinterlands ให้สำเร็จวันนี้ แล้วเจ้าจะได้รับรางวัลพิเศษ"
+    },
+    {
+      "quest_id": 82068,
+      "field": "objective",
+      "thai": "ทำภารกิจ Nightmare Incursion ใน Feralas หรือ Hinterlands ให้สำเร็จ แล้วไปรายงานตัวกับ Field Captain Korlian หรือ Field Captain Arunnel"
+    },
+    {
+      "quest_id": 82068,
+      "field": "title",
+      "thai": "ต่อสู้กับการรุกรานแห่งฝันร้าย"
+    },
+    {
+      "quest_id": 86777,
+      "field": "description",
+      "thai": "มีซาเทียร์มากมายทำให้ Azshara แปดเปื้อน แต่ไม่มีพวกใดน่าหวาดหวั่นเท่า Legashi ภายใต้การนำของ Varrox Bleakhoof พวกมันตั้งค่ายกระจายทั่วคาบสมุทรทางเหนือ มันขับไล่พวกเราออกจากบ้าน และข้ากลัวว่าอีกไม่นานมันจะปล้นสะดม Ursolan\n\nเราต้องโต้กลับ หากหวังจะมีโอกาสรอดชีวิต\n\nMaster Feardred ผู้รับใช้ของ Varrox ดูแลค่ายใกล้ๆ ทางใต้ เจ้าสามารถมองเห็นได้จากที่นี่ Feardred เป็นเป้าหมายสำคัญในการบั่นทอนกำลังของ Varrox จงฆ่าเขาแล้วนำเครื่องรางของเขามาให้ข้า"
+    },
+    {
+      "quest_id": 86777,
+      "field": "objective",
+      "thai": "ฆ่า Master Feardred แล้วนำเครื่องรางของเขาไปให้ Korsa"
+    },
+    {
+      "quest_id": 86777,
+      "field": "title",
+      "thai": "Master Feardred"
+    },
+    {
+      "quest_id": 86791,
+      "field": "description",
+      "thai": "ไม่นานมานี้ ข้าส่งหน่วยลาดตระเวนไปหาข้อมูลเกี่ยวกับฐานที่มั่นของ Legashi และอาจตามหาหัวหน้าเผ่าของเราด้วย พวกเขายังไม่กลับมา ข้าเริ่มหวั่นใจว่าจะเกิดเรื่องร้ายที่สุดขึ้นแล้ว\n\nLegashi มีค่ายอยู่หลายแห่งทางตะวันออกของที่นี่ หากยังมีสมาชิกในกลุ่มรอดชีวิตอยู่ ก็น่าจะอยู่ที่ไหนสักแห่งใกล้ๆ นี้"
+    },
+    {
+      "quest_id": 86791,
+      "field": "objective",
+      "thai": "ตามหาหน่วยลาดตระเวน Blackmaw ใกล้ค่าย Legashi ทางตะวันออกของ Ursolan"
+    },
+    {
+      "quest_id": 86791,
+      "field": "title",
+      "thai": "หน่วยลาดตระเวน Blackmaw ที่หายไป"
+    },
+    {
+      "quest_id": 86797,
+      "field": "description",
+      "thai": "เมื่อฐานที่มั่นของ Legashi อ่อนกำลังลงแล้ว เราก็กลับไปยัง Ursolan ได้อย่างมีเกียรติ\n\nจงล่วงหน้าไปก่อนข้า แล้วแจ้งสถานการณ์ที่นี่ให้ Gatekeeper Rageroar ทราบ"
+    },
+    {
+      "quest_id": 86797,
+      "field": "objective",
+      "thai": "กลับไปหา Gatekeeper Rageroar ที่ Ursolan"
+    },
+    {
+      "quest_id": 86797,
+      "field": "title",
+      "thai": "กลับไปหา Rageroar"
+    },
+    {
+      "quest_id": 86804,
+      "field": "description",
+      "thai": "Furze ไม่ใช่คนแรกที่มีอาการเช่นนี้ นับตั้งแต่ Legashi เริ่มโจมตีเรา ชาว Blackmaw หลายคนก็แสดงอาการป่วยคล้ายกัน ในที่สุดแต่ละคนต่างตกอยู่ใต้อำนาจความเสื่อมทราม กลายเป็นพวกไร้สติที่เอาแต่ทำลายล้าง\n\nข้าพยายามหาวิธีรักษาอยู่ ผลการศึกษาของข้าชี้ว่าอาจปรุงยารักษาได้ด้วยการแปรสภาพ firewater ของพวก Legashi เอง แต่ข้าไม่อาจไปเอามาได้ด้วยตัวเอง\n\nเจ้าอาจพบ firewater หรือวิธีปรุงมันในค่าย Legashi ทางตะวันออก หากเจ้าช่วยเรื่องนี้ได้ ก็จะเป็นประโยชน์อย่างยิ่ง"
+    },
+    {
+      "quest_id": 86813,
+      "field": "objective",
+      "thai": "ให้ Bramblesnap's Panacea แก่ Furze"
+    },
+    {
+      "quest_id": 86813,
+      "field": "title",
+      "thai": "ว่าที่ยาครอบจักรวาล"
+    },
+    {
+      "quest_id": 86925,
+      "field": "description",
+      "thai": "ดูเหมือนหม้อต้มนี้จะใช้ปรุง firewater ที่ Elder Bramblesnap ต้องการได้\n\nถ้าเพียงแต่เจ้ารู้วิธีทำ ซาเทียร์สักตนใน Legashi Encampment ต้องมีตำราอยู่กับตัวแน่"
+    },
+    {
+      "quest_id": 86926,
+      "field": "description",
+      "thai": "ในตำราเขียนไว้ว่า:\n\nจงเก็บหน่อแห่งนรกมา\nรวบไว้ห้าหน่อ ก็ใช้ได้ดี\nผสมด้วยละอองพลังแห่งปีศาจ\nจักพาพวกมันสู่วาระสุดท้าย"
+    },
+    {
+      "quest_id": 86926,
+      "field": "title",
+      "thai": "เพลิงเฟลลุกโชน หม้อยาเดือดพล่าน"
+    },
+    {
+      "quest_id": 86927,
+      "field": "description",
+      "thai": "เมื่อ satyrweed กับ fel mote กระเซ็นลงในของเหลวที่กำลังเดือด กลุ่มก๊าซพิษก็พวยพุ่งขึ้นมา\n\nปิดจมูกไว้จะดีกว่า รีบเก็บตัวอย่าง แล้วนำกลับไปให้ Elder Bramblesnap"
+    },
+    {
+      "quest_id": 86927,
+      "field": "objective",
+      "thai": "นำ Legashi Firewater ไปให้ Elder Bramblesnap ที่ Ursolan"
+    },
+    {
+      "quest_id": 86927,
+      "field": "title",
+      "thai": "วิ่งส่งน้ำเพลิง"
+    },
+    {
+      "quest_id": 81944,
+      "field": "title",
+      "thai": "จุดมุ่งหมายที่เพิ่งค้นพบ..."
+    },
+    {
+      "quest_id": 86796,
+      "field": "objective",
+      "thai": "ช่วย Graal ฝ่าออกจากฐานที่มั่น Legashi แล้วแจ้งข่าวให้ Korsa ที่อยู่ด้านนอกฐานที่มั่น Legashi ทราบ"
+    },
+    {
+      "quest_id": 86796,
+      "field": "title",
+      "thai": "แล้วเจอกัน ซาเทียร์"
+    },
+    {
+      "quest_id": 87346,
+      "field": "description",
+      "thai": "ตอนที่ Legashi เอาชนะ Blackmaw ได้ พวก Timbermaw ที่เหลือก็ปิดทางเข้าสู่ที่มั่นของตนเพื่อกันซาเทียร์ออกไป เราไม่รู้เลยว่าพวกเขายังมีชีวิตอยู่ในฐานะผู้ลี้ภัย\n\nข้ายินดีช่วยพี่น้องของข้า แต่เราก็กำลังสู้ศึกของเราเอง เช่นเดียวกับที่ Legashi คุกคาม Blackmaw พวก Deadwood ก็คุกคามเรา เรามีนักรบเหลือให้แบ่งไปช่วยไม่มากนัก\n\nBloodmaw หัวหน้าเผ่า Deadwood อยู่ที่ Felpaw Village ทางใต้ หากกำจัดเขาได้ การต่อสู้ของเราจะเบาลงมาก นำกระบองของเขามาให้ข้า แล้วเจ้าจะได้รับความช่วยเหลือจากเรา"
+    },
+    {
+      "quest_id": 87346,
+      "field": "objective",
+      "thai": "ฆ่า Chieftain Bloodmaw แล้วนำกระบองของเขาไปให้ Gorn One Eye ใน Timbermaw Hold"
+    },
+    {
+      "quest_id": 87346,
+      "field": "title",
+      "thai": "หัวหน้าเผ่า Bloodmaw"
+    },
+    {
+      "quest_id": 86798,
+      "field": "objective",
+      "thai": "พูดกับ Gorn One Eye ใน Timbermaw Hold และขอให้เขาส่งกำลังเสริมมา"
+    },
+    {
+      "quest_id": 86798,
+      "field": "title",
+      "thai": "กำลังเสริมจาก Timbermaw"
+    },
+    {
+      "quest_id": 89015,
+      "field": "description",
+      "thai": "ถ้าเจ้าคิดว่าตัวเองเป็นยอดนักตกปลา แถวนี้ยังมีปลาที่ใหญ่เกินกว่าจะตกขึ้นมาด้วยคันเบ็ดอยู่\n\nMammoth Sharks ซุ่มอยู่ในน่านน้ำที่ลึกที่สุดนอกชายฝั่งทางเหนือและใต้ พวกมันว่ายอยู่ไกลออกไป ตรงก่อนที่พื้นทะเลจะลาดตกลงสู่มหาสมุทรกว้าง\n\nพวกมันตัวใหญ่มาก ข้าแนะนำให้เจ้าพากลุ่มนักตกปลาไปด้วย\n\nคนแคระอย่างข้าน่ะหรือ ข้าขออยู่บนบกดีกว่า ฉลามพวกนั้นคงกลืนข้าได้ในคำเดียว\n\nหากเจ้าออกไปล่ามันจริงๆ ช่วยนำเนื้อสักชิ้นกลับมาให้ข้าด้วย ข้าจะขอบใจมาก"
+    },
+    {
+      "quest_id": 82062,
+      "field": "description",
+      "thai": "ข้าต้องแน่ใจเสียก่อนว่าเราไว้ใจเจ้าได้ สหายแบบนี้ไม่ได้หากันง่ายๆ\n\nมีสิ่งชั่วร้ายกำลังเติบโตขึ้น เป็นกลุ่มอำนาจอันมุ่งร้ายภายใน Azeroth ทั้ง Horde และ Alliance ต่างก็กำลังเดินหน้าไปสู่จุดหมายของตนโดยไม่รู้ตัว เรามีทรัพยากรเพียงพอแค่คอยชะลอการรุกคืบของพวกเขาและสร้างเครือข่ายข่าวสาร\n\nรับนี่ไป ให้มันช่วยปลุกขวัญเจ้า และหวนรำลึกถึงวันวานที่ดีกว่า อีกไม่นานคงถึงเวลาที่เราต้องใช้กำลังคนที่เพิ่มขึ้นนี้แสดงแสนยานุภาพ"
+    },
+    {
+      "quest_id": 84394,
+      "field": "title",
+      "thai": "มิตรผู้เกื้อหนุนหอสมุด"
+    },
+    {
+      "quest_id": 84332,
+      "field": "title",
+      "thai": "คำขอบคุณจาก Thane"
+    },
+    {
+      "quest_id": 99210,
+      "field": "objective",
+      "thai": "ตรวจดูเหล่าแกะติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า"
+    },
+    {
+      "quest_id": 8961,
+      "field": "description",
+      "thai": "เพื่ออัญเชิญ Lord Valthalak ก่อนอื่นเราต้องรวบรวมอีกสองในสามส่วนที่เหลือของเครื่องราง โดยต้องหากระถางไฟกับถ่านพิเศษมาเผาในนั้น\n\nมีผู้สูงศักดิ์แห่งไฟสามตนที่มีสิ่งซึ่งเราต้องการ ได้แก่ Lord Incedius ใน Blackrock Depths, Pyroguard Emberseer ใน Blackrock Spire และ Executor Asharell ใน Steppes จงเก็บชิ้นส่วนจากซากของแต่ละตน แล้วกลับมาหาข้าพร้อม Hallowed Brazier ซึ่งซื้อได้จาก Argent Dawn หากเจ้ามีชื่อเสียงกับพวกเขาถึงระดับ Honored"
+    },
+    {
+      "quest_id": 8961,
+      "field": "objective",
+      "thai": "รวบรวม Incendicite of Incendius, Ember of Emberseer และ Ash of Asharell พร้อมกับ Hallowed Brazier แล้วนำกลับไปให้ Bodley ภายใน Blackrock Mountain"
+    },
+    {
+      "quest_id": 84211,
+      "field": "description",
+      "thai": "เมื่อหยิบถุงขึ้นมา เจ้าก็สังเกตได้ทันทีว่ามันแทบจะว่างเปล่า เจ้ารู้สึกอย่างบอกไม่ถูกว่า Nami คงไม่ยอมแลกหนังสือกับถุงใบนี้เพียงอย่างเดียว แต่สิ่งที่ไม่ได้ว่างเปล่าก็คือค่ายนี้ เจ้าควรป้องกันตัว และคอยมองหาของพวกนี้เพิ่มเติมให้ดี"
+    },
+    {
+      "quest_id": 84211,
+      "field": "objective",
+      "thai": "เก็บวัสดุส่วนที่เหลือ แล้วกลับไปหา Nami ที่ Everlook"
+    },
+    {
+      "quest_id": 84211,
+      "field": "title",
+      "thai": "รังของพวกลอบล่าสัตว์"
+    },
+    {
+      "quest_id": 99211,
+      "field": "objective",
+      "thai": "ตรวจดูเหล่าม้าศึกอันเดดติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า"
+    },
+    {
+      "quest_id": 6568,
+      "field": "objective",
+      "thai": "นำ Rexxar's Testament ไปให้ Myranda the Hag ใน Western Plaguelands"
+    },
+    {
+      "quest_id": 84212,
+      "field": "description",
+      "thai": "Nami ส่งหนังสือของ Jurgens ให้เจ้า เมื่อเก็บมันไว้อย่างปลอดภัยแล้ว เจ้าก็เริ่มการเดินทางอันยาวไกลกลับไปยังอีกฟากหนึ่งของโลก"
+    },
+    {
+      "quest_id": 84212,
+      "field": "objective",
+      "thai": "กลับไปยังห้องปฏิบัติการ D.E.L.T.A พร้อมหนังสือที่ Jurgens กำลังตามหา"
+    },
+    {
+      "quest_id": 84212,
+      "field": "title",
+      "thai": "หอบหนังสือกลับ"
+    },
+    {
+      "quest_id": 84135,
+      "field": "description",
+      "thai": "ริมฝั่งมีเครื่องกลโลหะแปลกประหลาดนอนอยู่ ถูกละอองน้ำยามบ่ายบดบังไว้ครึ่งหนึ่ง มันดูเหมือนหุ่นกลชนิดหนึ่ง แต่เจ้าไม่เคยเห็นอะไรเช่นนี้มาก่อน เจ้าสังเกตเห็นป้ายที่ด้านข้างเขียนว่า \"ทรัพย์สินของ D.E.L.T.A.: Deepsea Exploration and Liquefaction Technologies Alliance\" และยังเห็นช่องเก็บของเล็กๆ ที่เจ้าอาจเปิดได้"
+    },
+    {
+      "quest_id": 84135,
+      "field": "objective",
+      "thai": "ใช้ก้อนหินหรืออะไรสักอย่างงัดชิ้นส่วนของหุ่นกลให้หลุดออกมา"
+    },
+    {
+      "quest_id": 84135,
+      "field": "title",
+      "thai": "หุ่นกลริมชายหาด"
+    },
+    {
+      "quest_id": 84377,
+      "field": "description",
+      "thai": "งานสำเร็จแล้ว Dal'rend Blackhand จอมทัพแห่ง Dark Horde นอนตายอยู่แทบเท้าเจ้า\n\nนำศีรษะของเขาไปมอบให้ Master Shaw"
+    },
+    {
+      "quest_id": 84377,
+      "field": "objective",
+      "thai": "นำ Head of Rend Blackhand ไปให้ Master Mathias Shaw ใน Stormwind"
+    },
+    {
+      "quest_id": 84377,
+      "field": "title",
+      "thai": "จุดจบของฮอร์ดทมิฬ"
+    },
+    {
+      "quest_id": 84149,
+      "field": "objective",
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Magister's Bindings ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84149,
+      "field": "title",
+      "thai": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84152,
+      "field": "objective",
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Shadowcraft Bracers ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84152,
+      "field": "title",
+      "thai": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84153,
+      "field": "objective",
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Dreadmist Bracers ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84153,
+      "field": "title",
+      "thai": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84166,
+      "field": "description",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาให้ ข้าว่าควรมีรางวัลให้เจ้าสักหน่อย ถ้าข้ายังอยากให้เจ้าช่วยรักษาชีวิตข้าต่อ เอาเข็มขัดกับถุงมือเกราะคู่ที่อยากยกระดับมาให้ข้า รับรองว่าของที่ให้คืนจะดีกว่ามาก"
+    },
+    {
+      "quest_id": 84166,
+      "field": "objective",
+      "thai": "นำ เข็มขัดหลอมแสง และ ถุงมือเกราะหลอมแสง ไปให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84166,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84167,
+      "field": "description",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+    },
+    {
+      "quest_id": 84167,
+      "field": "objective",
+      "thai": "นำ เข็มขัดแห่งศรัทธา และ ถุงมือแห่งศรัทธา ไปให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84167,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84170,
+      "field": "description",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาให้ ข้าว่าควรมีรางวัลให้เจ้าสักหน่อย ถ้าข้ายังอยากให้เจ้าช่วยรักษาชีวิตข้าต่อ เอาเข็มขัดกับถุงมือเกราะคู่ที่อยากยกระดับมาให้ข้า รับรองว่าของที่ให้คืนจะดีกว่ามาก"
+    },
+    {
+      "quest_id": 84170,
+      "field": "objective",
+      "thai": "นำ เข็มขัดแห่งความกล้า และ ถุงมือเกราะแห่งความกล้า ไปให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84170,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 97448,
+      "field": "objective",
+      "thai": "นำ Cord of the Elements และ Gauntlets of the Elements หนึ่งชุด ไปให้ Deliana ใน Ironforge"
+    },
+    {
+      "quest_id": 84159,
+      "field": "objective",
+      "thai": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Shadowcraft Bracers ให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84159,
+      "field": "title",
+      "thai": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84171,
+      "field": "objective",
+      "thai": "นำ Wildheart Belt และ Wildheart Gloves ไปให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84171,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84172,
+      "field": "objective",
+      "thai": "นำ Beaststalker's Belt และ Beaststalker's Gloves ไปให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84172,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84175,
+      "field": "objective",
+      "thai": "นำ เข็มขัดช่างเงา และ ถุงมือช่างเงา ไปให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84175,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84176,
+      "field": "objective",
+      "thai": "นำ Cord of the Elements และ Gauntlets of the Elements หนึ่งชุด ไปให้ Mokvar ใน Orgrimmar"
+    },
+    {
+      "quest_id": 84176,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84177,
+      "field": "objective",
+      "thai": "นำ เข็มขัดหมอกสยอง และ ผ้าพันมือหมอกสยอง ไปให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84177,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 84178,
+      "field": "objective",
+      "thai": "นำ เข็มขัดแห่งความกล้า และ ถุงมือเกราะแห่งความกล้า ไปให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84178,
+      "field": "title",
+      "thai": "ค่าตอบแทนที่เหมาะสม"
+    },
+    {
+      "quest_id": 97412,
+      "field": "objective",
+      "thai": "นำ เข็มขัดหลอมแสง และ ถุงมือเกราะหลอมแสง ไปให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 99215,
+      "field": "objective",
+      "thai": "ตรวจดูเหล่าหมาป่าติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า"
+    },
+    {
+      "quest_id": 84137,
+      "field": "description",
+      "thai": "เจ้าสงสัยว่าทำไมหุ่นกลตัวนี้จึงมาตกอยู่ที่นี่ และของเหลวนี้มีไว้ทำอะไร บางทีเจ้าอาจใช้มันไปยังเกาะใกล้ๆ และแท่นขุดเจาะน้ำมันที่ดูเหมือนเกี่ยวข้องกับองค์กรลึกลับนี้ได้ เมื่อเปิดขวด กลิ่นผลไม้ที่ชวนให้มึนเมาเล็กน้อยก็ลอยมาแตะจมูกเจ้า"
+    },
+    {
+      "quest_id": 84137,
+      "field": "objective",
+      "thai": "หาทางใช้ Guided Buoyancy Accelerant"
+    },
+    {
+      "quest_id": 84137,
+      "field": "title",
+      "thai": "รักจักรกล"
+    },
+    {
+      "quest_id": 84138,
+      "field": "description",
+      "thai": "ข้าคือหัวหน้าวิศวกร ผู้ก่อตั้ง และหัวหน้านักวิจัยของ Deepsea Exploration and Liquefaction Technologies Alliance การทดลองล่าสุดของข้าใกล้เสร็จแล้ว และข้าต้องการความช่วยเหลือจากเจ้า! ข้ากำลังสร้างอุปกรณ์พิเศษเพื่อระบุตำแหน่งมิติที่อุดมด้วยทรัพยากร\n\nเพื่อสร้างมันให้เสร็จ ข้าต้องได้ของบางอย่างคืนมา นั่นคือหนังสือสูตรเวทอาร์เคนที่ให้ Nami เพื่อนร่วมงานเก่าของข้ายืมไป เธอยังคงทำงานอยู่ที่ Winterspring\n\nนำหนังสือกลับมาให้ข้า แล้วเจ้าจะมีชื่อเป็นผู้ร่วมสนับสนุนในผลงานที่ตีพิมพ์!"
+    },
+    {
+      "quest_id": 84138,
+      "field": "objective",
+      "thai": "อธิบายเรื่องหนังสือให้ Nami เพื่อนร่วมงานของ Doctor Jurgens ใน Winterspring ฟัง"
+    },
+    {
+      "quest_id": 84138,
+      "field": "title",
+      "thai": "น้ำใจในแดนหนาว"
+    },
+    {
+      "quest_id": 99234,
+      "field": "objective",
+      "thai": "คุยกับ Griniblix the Spectator ที่อยู่เหนือ Maul ใน Dire Maul"
+    },
+    {
+      "quest_id": 99216,
+      "field": "objective",
+      "thai": "ตรวจดูเหล่าสไตรเดอร์ติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า"
+    },
+    {
+      "quest_id": 94302,
+      "field": "completion",
+      "thai": "บ้านใหม่ของข้ารายล้อมไปด้วยเต่า แต่ข้าไม่รู้วิธีปรุงเนื้อของพวกมันอย่างถูกต้อง หรือประดิษฐ์อุปกรณ์จากเกล็ดของมันเลย\n\nแม้จะรู้สึกน่าละอาย แต่ข้ารอดชีวิตมาได้เพราะความช่วยเหลือจากคนนอกเผ่า ข้ารู้สึกถ่อมตนลงเมื่อได้เห็นน้ำใจของคนแปลกหน้า และวิธีเรียบง่ายแต่ได้ผลที่พวกเขาสอนให้ข้า\n\nข้าหวังว่าจะได้เรียนรู้จากเสื้อเกราะเกล็ดเต่าตัวนี้ในลักษณะเดียวกัน"
+    },
+    {
+      "quest_id": 84213,
+      "field": "description",
+      "thai": "มาร่วมการทดลองครั้งประวัติศาสตร์นี้กับข้า แล้วชมความมหัศจรรย์ของสิ่งประดิษฐ์ของข้า! ข้าคำนวณตำแหน่งที่มีพลังงานชีวฟลักซ์จากความร้อนใต้พิภพเหมาะสมไว้สองแห่งแล้ว ด้วยเฟเซอร์แบบล็อกแมนนวล-อัตโนมัติ ข้าพร้อมส่งพวกเราไปยังพิกัดในเขตพื้นที่ที่เข้ากันได้แล้ว\n\nเมื่อเจ้าอยู่ที่พิกัดที่เข้ากันได้ ให้ใช้เครื่องส่งสัญญาณระยะไกลนี้ส่งสัญญาณมาหาข้า ข้าจะปรับเครื่องส่งวาร์ปให้พับห้วงอวกาศระหว่างที่นี่กับที่นั่นเข้าหากัน\n\nที่ข้าจะบอกก็คือ ข้าจะไปพบเจ้าเมื่อเจ้าบอกว่าพร้อมแล้ว!"
+    },
+    {
+      "quest_id": 84213,
+      "field": "objective",
+      "thai": "ใช้ Distant Communication Device ส่งสัญญาณไปให้ Jurgens ที่ Tirisfal Glades หรือ Westfall แห่งใดแห่งหนึ่ง\nจากนั้นช่วยเขาสาธิตความสามารถของเครื่องส่งสัญญาณ elecro ของเขา"
+    },
+    {
+      "quest_id": 84213,
+      "field": "title",
+      "thai": "ข้ามรอยแยก"
+    }
+  ],
+  "scope": "Exactly122Root-approved literal main fields; no identity variants or new roles. Only missing Thai runs appended by existing helper."
+}

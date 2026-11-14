@@ -1,0 +1,46 @@
+{
+  "status": "PASSED_AFFECTED122_BITMAP_AND_FONT_PRESERVATION",
+  "baseline_artifact": "d9208f6710ef3867d3dd728c1db52055185fd009",
+  "baseline_zip_sha256": "279efca27ec2b9a96743cfc39a8512d846ac9e055b527e53fb9dc2371ce157d5",
+  "old_Atlas_prefix_sha256": "6ff8e159f5cbff9db40a25f06d764a111c4084221868536b4ff2efff5ffe3d63",
+  "old_font_assets_exact_bytes_preserved": 108,
+  "protected_assets_exact_bytes_preserved": 28,
+  "old_runs_preserved": 102656,
+  "old_glyph_slots_preserved": 13710,
+  "new_Thai_runs": 242,
+  "new_glyph_slots": 623,
+  "new_font_pages": [
+    {
+      "path": "Fonts/Thai94.tga",
+      "bytes": 4194348,
+      "sha256": "97c03982b12aa2ed0ee6e3a4e9e95a30124c3aa88690713821ac56c60a1912bd"
+    },
+    {
+      "path": "Fonts/Thai95.tga",
+      "bytes": 4194348,
+      "sha256": "d712e329d1fe1e1a5eade586fab85af9db1c8b7bf4e422713680c2a2196c70d5"
+    },
+    {
+      "path": "Fonts/Thai96.tga",
+      "bytes": 4194348,
+      "sha256": "b6ba24a7c4e0637ed4f31f3edc59a7cf933e8b77795f3ef759ce16a7cde784a0"
+    },
+    {
+      "path": "Fonts/Thai97.tga",
+      "bytes": 4194348,
+      "sha256": "16d141f6b6422762bf27648f7cf610418bf3bfe2069d3d1f51866824ae883110"
+    }
+  ],
+  "actual_BitmapLayer_field_draws": 122,
+  "Thai_rendered_fields": 121,
+  "propername_Latin_passthrough_fields": 1,
+  "Thai_font_fallbacks": 0,
+  "font_ready": true,
+  "Catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "Atlas_sha256": "c41c4f3494cdf38dc159528ee714da97ecf76c4822b1be5445a55630a8f7819a",
+  "font_helper_sha256": "e7b669cb64b88a33f98c509d5880f39b8e6017a7ad402cea3d94aa3af70f2cb3",
+  "runtime_engine_changed": false,
+  "old_NPC_Skill_party_suites_rerun": false,
+  "real_game_verified": false,
+  "counting_note": "String-keyed Lua run table counted by pairs, not array-length operator; prior122draw/pixel/data-preservation results retained, not rerun."
+}

@@ -1,0 +1,367 @@
+{
+  "status": "PASSED_SOURCE_INTEGRATED122_TEXT_ONLY_PENDING_BITMAP_FONTS",
+  "baseline_source": "e2d39553edd3c73b7adc6453927233fecde80221",
+  "unique_affected03_cases": 42,
+  "positive_executions": 42,
+  "negative_executions": 210,
+  "independent_negative_attribution_oracles": [
+    {
+      "quest_id": 84152,
+      "field": "objective",
+      "wrong_known_quest_id": 84153,
+      "wrong_field": "description",
+      "english_sha256": "501c0f1318b76a1f5dc699dccb26172d993164224734f18665e6d4e5349aad1e",
+      "thai_sha256": "8fd4e6e7f6f75f2e94208fc8ae1a500d08da0c4277632388c6e8ce71874b17e8"
+    },
+    {
+      "quest_id": 84152,
+      "field": "title",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "description",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71"
+    },
+    {
+      "quest_id": 84153,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "81dc726f81da843028d444d87d14b5c0a71ecab0607563c69c8da1f7abdc5be9",
+      "thai_sha256": "d2d6123c63f5dfd8c1f4bed0327c1138d6e7dde4c39ba7e86dd323f574f65b0c"
+    },
+    {
+      "quest_id": 84153,
+      "field": "title",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "description",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71"
+    },
+    {
+      "quest_id": 84166,
+      "field": "description",
+      "wrong_known_quest_id": 84167,
+      "wrong_field": "objective",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "thai_sha256": "59456131c1eb8e2280e972dcae9d5dc81a81aed4e8ea947dc503b8fc6a7194c3"
+    },
+    {
+      "quest_id": 84166,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "e60c2db2c5297e4fd397d4d5b9f229eed457c2e6c8de23f92e3913638c9ca3a2",
+      "thai_sha256": "0d470a6068238691604c8cef31dcceaaeb00be7ff5ab86055d6065679ef4a366"
+    },
+    {
+      "quest_id": 84166,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84167,
+      "field": "description",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "objective",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "thai_sha256": "f61361c9e27f80788f41317f9238d3cc878e8511a4f01f3a6cc3fd2b8a51cca0"
+    },
+    {
+      "quest_id": 84167,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "4af36cc8991e4ff288530960de60c0a8b1b80fd1a84ac0ae2543aa70f48e00b8",
+      "thai_sha256": "7a8b7b1e3b884238702f750f6200069f739839619fd2419fb23da9bf1034d63a"
+    },
+    {
+      "quest_id": 84167,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84170,
+      "field": "description",
+      "wrong_known_quest_id": 84167,
+      "wrong_field": "objective",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "thai_sha256": "59456131c1eb8e2280e972dcae9d5dc81a81aed4e8ea947dc503b8fc6a7194c3"
+    },
+    {
+      "quest_id": 84170,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "ad2d568ba1cd61564f389ec82acca85b221dc12c4add3bd9b757a1685acd52b2",
+      "thai_sha256": "741c7d32a7dd584eb841239adb8248d54261da1aa6801b978b53edef8fe8fd0e"
+    },
+    {
+      "quest_id": 84170,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 97448,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "2fa13409d1236ddaa75732efce6cd49f29b86277397c0d974faef471709d442f",
+      "thai_sha256": "0aed3fa731b0fc5ba3ece01eea6e8c05750f430c3f970abf42b783dd8639b314"
+    },
+    {
+      "quest_id": 84159,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "01f0d1ee8699e625eb6e22210cc9300535d199ae5936d1bc7460573f43608a6f",
+      "thai_sha256": "914ef5a2b3dc50ce9b24ae3a1894727421e8402ed2e49465c1b35e5edc3860e4"
+    },
+    {
+      "quest_id": 84159,
+      "field": "title",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "description",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71"
+    },
+    {
+      "quest_id": 84171,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "1e7aa48097d1a68044b87157171a1632e54be9a4f6ed77436c082d7e40ec8db2",
+      "thai_sha256": "325702600fcc1fc5a5d9add131fcb35bfd6269468b23a6b8bc790d5bd9c6a7c9"
+    },
+    {
+      "quest_id": 84171,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84172,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "5e1626f5952b0ffbb6533e746f2545dc1d8e1ad87ba55100e0aceb62a6a13094",
+      "thai_sha256": "c2244bc156b8fe48e77a8e567fafd9750353bdf3dfba724cc62f6a4a5e5931d3"
+    },
+    {
+      "quest_id": 84172,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84175,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "5826e11cf8fc7f2aba245da7f956b60ea875c07bd27828f0fd412fb69c7a23f6",
+      "thai_sha256": "4d32c59bb7cdc116a19f4fd00a0d07b24ed4bc4e2da5b4665565e5390564d3af"
+    },
+    {
+      "quest_id": 84175,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84176,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "9c9d06e7d50899981cf3cd5f7e43334d44c50a0dae10fd50fba5a406ae7698ca",
+      "thai_sha256": "13675e38ea072856db2afaf471d1fb43b200c213fc07911b1523d9a331d9ebef"
+    },
+    {
+      "quest_id": 84176,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84177,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "74e718e95debcf6703db26f8406a519f70d7e0856cda554c889dd6423bb37d9c",
+      "thai_sha256": "8c6270aa3d648ccf7f0a05ca705ac3d15ce27423a0e7557bcfcdeab470327137"
+    },
+    {
+      "quest_id": 84177,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 84178,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "4a08c0f1c0fe4e19488825fa05fc7e0cdcbeed8182789d0f4c9657af77f37e7c",
+      "thai_sha256": "efc6d515703351e1502acc72211f4ea16894ba007f771ea124a8932a0ec96ea0"
+    },
+    {
+      "quest_id": 84178,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "quest_id": 97412,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "299bb6af79a333ca64fec98e30e59230ac4ef052c9cd64ef82b07512a284ee0c",
+      "thai_sha256": "07c371fd9d3a615296928ec5f9bc07ecb0d070b98cd590d9f4c3f5e78a6dd688"
+    },
+    {
+      "quest_id": 99215,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "40d2eb5b279608bf5bbfec56483028a4054ca039af2ece15eded400068ec4aa7",
+      "thai_sha256": "c5096bec25de872bf6dbacf26383f9ecb6a2e8a3bd6b3c1daa3409562f62748e"
+    },
+    {
+      "quest_id": 84137,
+      "field": "description",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "objective",
+      "english_sha256": "1c7af6dc5d10fb99d7c3c7c661d4b151fcff95225b4cf85099e378d6e65d8edb",
+      "thai_sha256": "5d20c47da04e84d2b674253f5e339431f7788c3d7a8996c6773c65b377b09ed5"
+    },
+    {
+      "quest_id": 84137,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "1c988e127d2d23bf1f270befd2e0e0af1a648d7478ac457f44afcc6b16ef3e3f",
+      "thai_sha256": "5f1649a1822c1be2e89289fe510ebd9072054e8684fb455e4213da4b04bad423"
+    },
+    {
+      "quest_id": 84137,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "thai_sha256": "545a14e819346a9dc9b0052b05c9b12f372e2af0cf5f31067ced38b496287dd1"
+    },
+    {
+      "quest_id": 84138,
+      "field": "description",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "objective",
+      "english_sha256": "de9df630b1ab2c99ab06857a4a6622291828f89ecfbf0913cd22bd0bf1839c0c",
+      "thai_sha256": "c23cdaf40e43d7467f73a3f634d921bbfac12b88ba27989b276c78c5046c1c1f"
+    },
+    {
+      "quest_id": 84138,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "9c6de55121e3dc906399f2288702515a79323446f055b0aa714e987cca0a2a8c",
+      "thai_sha256": "d1f23066bc8072a8afbe7ca0efa04f60969bb8da9cc8120f227ddf86a08a3c15"
+    },
+    {
+      "quest_id": 84138,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "thai_sha256": "76571bd1f416e25c69b66bf9b0c307a7980dcb9d0882f117ed3e972cdd757414"
+    },
+    {
+      "quest_id": 99234,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "89e4390a603f5e21306dd062d00fd7813c8ef833f0b5749a0296f21b54c5f11a",
+      "thai_sha256": "59bb8055392a5a48f443c3d88d4bc12719ea9cf0f8cc18844c01592ae6a15400"
+    },
+    {
+      "quest_id": 99216,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "754dd540e699c6ec377532086caedf0a0165712c9abefd70fe9699baad1c42d8",
+      "thai_sha256": "e8ace4602df0f0a04361e969d507b6cc1bebaad3e84cc1b28a31f86a79b6b5e4"
+    },
+    {
+      "quest_id": 94302,
+      "field": "completion",
+      "wrong_known_quest_id": 94233,
+      "wrong_field": "description",
+      "english_sha256": "c808095f1d0da1b7ba9fd7d15889768d1014684d982dd2b0b7d445bbf7fe8ffb",
+      "thai_sha256": "0bb75d7c8191260acc8240e301295e882c5c683176569aeda61c28a2b98cc45b"
+    },
+    {
+      "quest_id": 84213,
+      "field": "description",
+      "wrong_known_quest_id": 84166,
+      "wrong_field": "objective",
+      "english_sha256": "45d6c55f8af26ff8497c635465d659f8fd04b338590c575c35b0bf65ba27aca5",
+      "thai_sha256": "7ffff3c92a3c7296321400ca6df37a6dcdb8f4923d5f5599fec44932c2322662"
+    },
+    {
+      "quest_id": 84213,
+      "field": "objective",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "209a49b3d706187e32730f6b6cbeee4d1a7d97282e0319941448bc567f2792de",
+      "thai_sha256": "0f5e6d6d229ef5a1df63e3a2d4ce950cb2e37f30e9f2ee30e0f37ca94c738248"
+    },
+    {
+      "quest_id": 84213,
+      "field": "title",
+      "wrong_known_quest_id": 84152,
+      "wrong_field": "description",
+      "english_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "thai_sha256": "adda2f4d06071b46d49d88f522330a706d00d50aef68c77efffd1e66484c38aa"
+    }
+  ],
+  "wrongphase_selection": "Fixed description\u2192objective; title/objective\u2192description. Not selected by matcher outcome.",
+  "existing_canonical_slots_preserved": 0,
+  "old_Catalog_prefix_preserved": true,
+  "prior80_matching_rerun": false,
+  "prior80_field_keys_disjoint_from42": true,
+  "MAIN21_and2752_preserved": true,
+  "unchanged_other_runtime_files": 139,
+  "runtime_files": 145,
+  "baseline_runtime_files": 141,
+  "old_Atlas_prefix_preserved": true,
+  "authorized_added_font_pages": [
+    "Fonts/Thai94.tga",
+    "Fonts/Thai95.tga",
+    "Fonts/Thai96.tga",
+    "Fonts/Thai97.tga"
+  ],
+  "protected28_CoreSpeech70938_Questie_settings_fonts": "139nonCatalog/nonAtlas files byte-identical, oldAtlas prefix retained; append-only fonts separately checked",
+  "final_Catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "font_append_preceded_final_fixture_completion": true,
+  "initial_fixture_issue": "Only one completion source case; fixed independent wrongknownQuestID94233, no engine/runtime text change",
+  "fonts_bitmap_build_ZIP_game_checks": false,
+  "old_suites_rerun": false
+}
