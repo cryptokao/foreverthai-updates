@@ -44,7 +44,10 @@
   "newly_supported_source_variants": 1,
   "new_quest_entries": 0,
   "typed_holds": 1,
-  "root_review": "pending before any package; reuse-only not substantive0.467work",
+  "root_review": "APPROVED_SOURCE_ONLY mainb7cb1abe5ee7c25785284515d28c7064fdd6fc26; no package/publication",
   "font_version_package_feed_changed": false,
-  "scope": "One exact literal source variant only, not a new whole quest/phase-body translation or whole-game coverage."
+  "scope": "One exact literal source variant only, not a new whole quest/phase-body translation or whole-game coverage.",
+  "approved_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "pending_next_substantive_combined_package": true,
+  "latest_immutable_private19_includes_this_variant": false
 }

@@ -98,8 +98,10 @@
     "new_thai": 0,
     "new_prose": 0,
     "reused_existing_ownID_Thai": true,
-    "pending_root_review": true,
-    "evidence": "main21-literal-progress-reuse.json"
+    "pending_root_review": false,
+    "evidence": "main21-literal-progress-reuse.json",
+    "source_only_approval": "mainb7cb1abe5ee7c25785284515d28c7064fdd6fc26",
+    "packaging_or_publication_approved": false
   },
   "known_ready_unimplemented_source_variants_remaining": 0,
   "typed_holds_remaining": 1
