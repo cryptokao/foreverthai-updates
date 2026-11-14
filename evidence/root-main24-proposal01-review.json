@@ -1,0 +1,331 @@
+{
+  "status": "ROOT_FULL_ENGLISH_THAI_MEANING_REVIEW_APPROVED_FOR_EXACT_SOURCE_INTEGRATION",
+  "review_date": "2026-11-14",
+  "proposal_commit": "86c449ac6f01568edd3c79a7c48ddf80a4e7ca80",
+  "proposal_path": "evidence/main24-proposal01.json",
+  "proposal_blob": "ca56d1cd5293cd43356434971648c1655179ec0e",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "fields_approved": 38,
+  "quest_ids": 14,
+  "new_Thai_wording_fields": 37,
+  "proper_name_passthrough_fields": 1,
+  "full_quest_completion_claim": false,
+  "English_phase_provenance": "All38 are same-own-ID query title/objectivesText/description in pinned70938 dataset, exact source-pointer checks supplied by Cloud. Root read primary DATASETS cache/quest/text/scan semantics and all38 full English/Thai pairs. No completionLog/endText/progress/reward binding.",
+  "meaning_review": "Preserved instructions, targets, item/NPC/place names, rewards and order. Independently read explicit7Ancients/10Dreamroot,7roman mission numbers, herbalist requirement, solo ZulFarrak, before-delivery return, magic in/out detonation, today/or branches, scout rescue and escort-safe-return instructions. No prose edits required.",
+  "source_internal_81781_discrepancy": {
+    "description": "Forest Song",
+    "objective": "Satyrnaar",
+    "decision": "APPROVE each exact field as written; preserve distinct source instructions and document upstream discrepancy in evidence. Do not silently repair or infer the actual location; no live-route correctness claim."
+  },
+  "held2752": "Excluded resolved/unproven race address. Canonical unchanged; no literal alias, no reader/race/name expansion.",
+  "privacy": "All38 full bodies read; names are literal game NPC/item/place/group references in query text. No captured reader/player identity or variable substitution approved.",
+  "technical_scope": "Text/source review only. Integration, affected matching/bitmap/Tracker and combined ZIP not yet verified; Windows/MacM2 game acceptance unverified.",
+  "preservation": "Retain old canonical/aliases, MAIN21r1 variant, all141 baseline files except explicitly reviewed additive Catalog/Atlas/font/TOC changes, protected28/CoreSpeech70938/Questie/settings; no books22 restore.",
+  "next_action": "Cloud integrate exactly38 approved fields preserving existing entries; verify affected text/bitmap/native+Questie Tracker and unchanged protected hashes. Keep next84 literal forms source queue; no old source23/source tests rerun or version padding.",
+  "fields": [
+    {
+      "case_id": "MAIN24-01",
+      "quest_id": 81769,
+      "field": "description",
+      "english_sha256": "20df5c43d8997ef58a04f71c52ad8b2b3ab1bc2e3e2a7724993f88613ee7f6ed",
+      "thai_sha256": "3bda2cf7c7cfaf815181575d05f0681c1200e6ce6b5f23169de30f72ccdcf4b9",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-02",
+      "quest_id": 81769,
+      "field": "objective",
+      "english_sha256": "9dbebc2007dc03c50f57cf9b1183f66284794ef00e7db134b2a24b54d061aff6",
+      "thai_sha256": "34ca01c95da241fc45b160662094a9d96642dc75ca442429df49f50de928878f",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-03",
+      "quest_id": 81769,
+      "field": "title",
+      "english_sha256": "a3e3f1f8e6b9eb1bee651606802a122d3e9accf520eb15da90b199002b9db057",
+      "thai_sha256": "0dea2d780582e226f35c16af17faa057444659acb87de84948e39e7c94938264",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-04",
+      "quest_id": 81774,
+      "field": "description",
+      "english_sha256": "04c25713a5f5feddbb4658e18a035b8f375efc199858e6ef93726f18668997e5",
+      "thai_sha256": "cf409111f17cb11d681c11f2cf97c171d8ee9e41022483a6935c5c04330032d2",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-05",
+      "quest_id": 81774,
+      "field": "objective",
+      "english_sha256": "f177f1972ecb3b42001ce699851ad790b1ce63823e34834f3d5d755f0878fe29",
+      "thai_sha256": "be41ae332312259fb10715118ff54900d44500766b1c7095af7fcdf2d438b336",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-06",
+      "quest_id": 81774,
+      "field": "title",
+      "english_sha256": "a105b3adebf6d76da56838cf43b6b3499e80b8448fc397ab92d7860f6e225100",
+      "thai_sha256": "fb5904e66340ee6e3222c75a1532f88aa60c8d19b5495d53fe067a4bba52e84b",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-07",
+      "quest_id": 81775,
+      "field": "description",
+      "english_sha256": "4056f938dc327b8be9edab4e801be3716d1aa74118c7fa576970bec09ab6409e",
+      "thai_sha256": "4b54d9d50193fc2845ea4f8a9401c4fc5c93df6c42ea7022bf2c39bbe7d85d6c",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-08",
+      "quest_id": 81775,
+      "field": "objective",
+      "english_sha256": "763e429a2a4a0d9f0fb11af1e00129be69469ae20921b57362c063414801070d",
+      "thai_sha256": "0e6231ec24a2a8cc4af6cca267c265c8c44712e0d1ec2ed84e212518d3bbf710",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-09",
+      "quest_id": 81775,
+      "field": "title",
+      "english_sha256": "9fece7529cf8d3402ec36f852da788e16dac12b837fb4f16a1465efe95351875",
+      "thai_sha256": "b08867a3e6c2fdb02eb26ad0aa9a273f7f9e4221b5beabcff669baaf821e0f9c",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-10",
+      "quest_id": 81777,
+      "field": "description",
+      "english_sha256": "8fa51ab8e410f6b487bf16c192bb0d8c6944f5351aeb9f3c3b79ee215869995d",
+      "thai_sha256": "c3d205de42a31e5d536dccc2988894a2c1e2a250f532f1c55e8d618ee64cf895",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-11",
+      "quest_id": 81777,
+      "field": "objective",
+      "english_sha256": "a74ebdc61b0185d3424a003b90925325156c49e0101059cd7970576d52eca5d6",
+      "thai_sha256": "c6e47a343d45dc1b56a5eb541fd48318daf5997f0cc773bdd5f0534734d790c8",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-12",
+      "quest_id": 81777,
+      "field": "title",
+      "english_sha256": "2da338f30afe74887f7fc0f75d3006e8443a303a5a2f0dda6cad56cfa10fec78",
+      "thai_sha256": "27ddcb979ef39ff25af47331d7daa4d828ac66151efcc5e3a20efafbc432e655",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-13",
+      "quest_id": 81780,
+      "field": "description",
+      "english_sha256": "9a1702c0bbbe81918020555c9b4f88efe0fa4b2c1697647c0697d994fc1658e2",
+      "thai_sha256": "88509748ef50c320f2a72281c62cd7f92820dd0fae5ebdf765d9a4d759065ff8",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-14",
+      "quest_id": 81780,
+      "field": "objective",
+      "english_sha256": "f17ddf9238b704c89539a5ec04a2e2ebb2448171eab3a85da10b1b9aa957d504",
+      "thai_sha256": "022a809ed415b2f91a39ad49f51db300933112db5d1d46e9c821b42e0ac8d3c7",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-15",
+      "quest_id": 81780,
+      "field": "title",
+      "english_sha256": "7620516787b56ef553cdb32b19bd7ee55d60794eee22c0dc9e9e119072fe7e20",
+      "thai_sha256": "227658f5649d6354460bc10ec80fba1581e8cd9e864e98af2827db092175112f",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-16",
+      "quest_id": 81781,
+      "field": "description",
+      "english_sha256": "9f5e4e0b6f2a2138a23e46d529838a1142b8e78cd68ff3f60aa77cf74acf6365",
+      "thai_sha256": "54925990d48b56a28a42b6f13b99283a7794ce59f056f81aaa83c8981ad6d0f6",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-17",
+      "quest_id": 81781,
+      "field": "objective",
+      "english_sha256": "86ff7e32f0db5a15dbb7fc9930aef19c1b84a2c0e47e472d2d985312e9b56e34",
+      "thai_sha256": "915bb04c3de662392269e12dc1a5b292521851937ae0ca0ee62332ba325ad289",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-18",
+      "quest_id": 81781,
+      "field": "title",
+      "english_sha256": "8d73dfa5385ab860fa1d91d0c696bf46f13321fdb32d76d62d68f8e832a51b45",
+      "thai_sha256": "0534019da3005b37310d8097bd557eda3c4652a382d1878ffc14a8af36b6a27e",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-19",
+      "quest_id": 81784,
+      "field": "description",
+      "english_sha256": "bf7bc24e59776c86086c0d2629592e8f4e2f912e815e8a22a16fc9671e211840",
+      "thai_sha256": "248480cf1073ccbf2754d02675e361ab079fba9844275aefb17bb7f25cdde155",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-20",
+      "quest_id": 81784,
+      "field": "objective",
+      "english_sha256": "fb62e23157fb79133a5159f73d41c58aafeb240a2a49a54ae4f37f6c9c7d538c",
+      "thai_sha256": "724089e47ab9b108b3fdbf45b159173039c295a9b432a31fccb30d56dda64315",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-21",
+      "quest_id": 81784,
+      "field": "title",
+      "english_sha256": "2a65f20c3273eeda75a4c397f472b109175be31a7a0901962e7a2cdbb7fcba6b",
+      "thai_sha256": "6d0738990682bc4a628f210cd3565baeb4363a12edc6710d4e61ef8046ac10bd",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-22",
+      "quest_id": 82083,
+      "field": "description",
+      "english_sha256": "782a294fb375c9d90b4e89e69bc130a5e98f02ec6c2b358e216c979afc38fec9",
+      "thai_sha256": "75ba7955d789c28c7f2fe06d4915914625fe088ce54ab1ea29012e67e87d881d",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-23",
+      "quest_id": 82083,
+      "field": "objective",
+      "english_sha256": "4d6d4377e437e599bcbca4a188bffe12ffdaf571bc4c54dec97223087e25b5f7",
+      "thai_sha256": "1b7d9ce2d66950f92bcfba2985e652f4a28c567a7f0589b7776798409b07869e",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-24",
+      "quest_id": 82083,
+      "field": "title",
+      "english_sha256": "685c0c364e3eff4f23ffdd80f3d5ce83e92802a5eacbc4c14cd0c29e92d89452",
+      "thai_sha256": "f40d256903d5caf96b3736682ef69d8e8bc5011f03520d0185265ebe023edfa7",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-25",
+      "quest_id": 80411,
+      "field": "description",
+      "english_sha256": "5d25cd01684f23234a2d050abb4a53025a4f661ced5e6864cdc76b504c2b49bc",
+      "thai_sha256": "6bde6644dfce4546e3ebcd0e0f671bdf553dbe37d85a75530f2e78cb52802164",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-26",
+      "quest_id": 80453,
+      "field": "description",
+      "english_sha256": "117984f349265432d2560a9a62ea3f5c9d4a987fbd502f596e8e327f6a594d3d",
+      "thai_sha256": "b4eee5b3b4988246d240358b25f1e4aae08632a3d25c6698d0c226d666759684",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-27",
+      "quest_id": 80453,
+      "field": "objective",
+      "english_sha256": "306a6f2b0578475b20a5f1c449177939fa266ecc04730658dea38a4d30a020be",
+      "thai_sha256": "7ea706e5ab71b6cf28b52b5e0c7f2166ffa9288cb75888af038d9adad4826747",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-28",
+      "quest_id": 80453,
+      "field": "title",
+      "english_sha256": "593e5289eb317273a6d362a688837fc9fdd20f37423db9a4e11b52992eebaa5c",
+      "thai_sha256": "ecdfbd0eb65f6ee747c2f48be5559b1a26cf60a7b8b41fa49cd287bad5baf523",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-29",
+      "quest_id": 82068,
+      "field": "description",
+      "english_sha256": "0e27a67650976c046cc46ad83e8343ea4c6c9796c729ff4c884562f37bb42e45",
+      "thai_sha256": "4d15664d8576f422be0696260c4805c282c75b5466d6beea1a154229b40a0eea",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-30",
+      "quest_id": 82068,
+      "field": "objective",
+      "english_sha256": "ad1756949bcb17c48d4482dc2ab056c32b5f7d1e3c2bf8b5023a3727b99fb636",
+      "thai_sha256": "4e56f17eb01b500456a6183fdcb6ed65ca998a6d08aad6c20e7dcf3743b711f1",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-31",
+      "quest_id": 82068,
+      "field": "title",
+      "english_sha256": "9e9d80e017a7717316762fec1ba85d5d2e43990cb3190c5590d9919f77fcbbcd",
+      "thai_sha256": "f0eb36876d484f4e254369b7caa39a3bbfed712d539e48a650d93204300b6466",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-32",
+      "quest_id": 86777,
+      "field": "description",
+      "english_sha256": "0d9ecaa8f1183015a8323fdfda83a19a86cfc05251f6917ea06ab38486e2f48e",
+      "thai_sha256": "87a54b9ecc33232f3417823cbf5ced952c550d920119cc3e9c4647cc9d63ff11",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-33",
+      "quest_id": 86777,
+      "field": "objective",
+      "english_sha256": "114a5c7f56ff667479c645f7ec57eccdd374dceb3fa69dea86f5ca86a290d083",
+      "thai_sha256": "ca2eb774fd15924b9dbd32aa3b62515ee001e50558f2fc79119fa74c37790620",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-34",
+      "quest_id": 86777,
+      "field": "title",
+      "english_sha256": "3e125972507f0ec1434625132a6ff6b5fb2bf3a880bff7d98865a05c51ab3416",
+      "thai_sha256": "3e125972507f0ec1434625132a6ff6b5fb2bf3a880bff7d98865a05c51ab3416",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-35",
+      "quest_id": 86791,
+      "field": "description",
+      "english_sha256": "b59aaba592a35d931ca05fb535a57a131180d146edb8501d46cc29c7d0bf9698",
+      "thai_sha256": "04c5c3efce586a4b3d08f22e47aede53ed94cdb48b146f534e1685a98e20b3eb",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-36",
+      "quest_id": 86791,
+      "field": "objective",
+      "english_sha256": "a8933f7d96c1b27912f61c0c9974019d235cf674dbf13621d45a0752cbede7d9",
+      "thai_sha256": "12ab297ad84be2e682c4c694d3e64eec4bbe61b3e11aea807a368bae679c7606",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-37",
+      "quest_id": 86791,
+      "field": "title",
+      "english_sha256": "3ad7703cf464ce8d5b718f0221337dc8e18cd2eaa4b6bc6e856db3a8a5878916",
+      "thai_sha256": "00b9d04fd390d49013b47ae7d3b099d3f86ef6d1f98624105e7ec169da2aad18",
+      "decision": "approved_exact"
+    },
+    {
+      "case_id": "MAIN24-38",
+      "quest_id": 86797,
+      "field": "description",
+      "english_sha256": "c69aa3d8dc4ad1831abbcf678c97071a4a74993bef3184043f1c1eab8da5ebac",
+      "thai_sha256": "d6332616717c5f69fd9ec84a701d9f8c5f673f5d24ea9a6c2378e2d3d7d9c0e2",
+      "decision": "approved_exact"
+    }
+  ]
+}
