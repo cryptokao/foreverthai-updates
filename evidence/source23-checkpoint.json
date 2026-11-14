@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE23_BOUNDED_PUBLIC_INTAKE_AND_OWNED_HELPER_READY_FOR_ROOT_REVIEW",
+  "status": "V1_SUPERSEDED_UNUSED_BEFORE_ANY_ACTUAL_DECODER_EXECUTION",
   "public_ids": 11,
   "public_fields": 33,
   "public_counts": {
@@ -28,6 +28,7 @@
   "runtime_unchanged_vs_delivered_source": true,
   "books22_still_held_not_restored": true,
   "fonts_version_zip_feed_changed": false,
-  "next_action": "Root review helper/expected hashes, then one authorized light local extraction, return only privacy-screened metadata/selected qualified text. No source polling or unrelated audits.",
-  "full_GOAL_complete": false
+  "next_action": "Do not run old27cfg; use v2bindings and v2checkpoint after Root diff review.",
+  "full_GOAL_complete": false,
+  "superseded_by": "evidence/source23-v2-checkpoint.json"
 }

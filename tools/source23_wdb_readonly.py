@@ -25,7 +25,7 @@ import tempfile
 MAX_INPUT = 1024 * 1024
 MAX_EXPECTED = 256 * 1024
 MAX_PAYLOAD = 65536
-MAX_RECORDS = 64
+MAX_RECORDS = 217
 FIELDS = (
     ('title', 9), ('logDescription', 12), ('questDescription', 12),
     ('areaDescription', 9), ('portraitGiverText', 10), ('portraitGiverName', 8),
@@ -314,7 +314,7 @@ def write_private(decoded, input_path, expected_path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('input', type=Path, help='One exact snapshot file, opened rb only; never a directory.')
-    ap.add_argument('--expected', type=Path, required=True, help='Reviewed27-ID hash/envelope manifest.')
+    ap.add_argument('--expected', type=Path, required=True, help='Reviewed snapshot-specific hash/envelope manifest (frozen v2:217IDs).')
     ap.add_argument('--private-decoded', action='store_true', help='Optional raw strings ONLY in fresh protected system-temp folder; no stdout text.')
     args = ap.parse_args()
     try:

@@ -178,6 +178,23 @@ class StrictWDB(unittest.TestCase):
     def test_one_mib_bound(self):
         self.rejected(b'X'*(1024*1024+1),{},'input_size_out_of_bounds')
 
+    def test_v2_manifest_bound_and_record_limit217(self):
+        cfgpath=ROOT/'source_inputs/source23-v2-expected-title-hashes.json'
+        raw=cfgpath.read_bytes();cfg=json.loads(raw)
+        self.assertLessEqual(len(raw),m.MAX_EXPECTED)
+        self.assertEqual(len(cfg['expected_records']),217)
+        self.assertEqual(len(cfg['expected_titles']),217)
+        self.assertEqual(cfg['source23_file_sha256'],
+                         '26612489c7f5015c7958b84703b295760b7096c058a00c3c170ff3ae6a6baf00')
+        self.assertEqual(m.MAX_RECORDS,217)
+        # Synthetic217-record wire input accepted within unchanged oneMiB bound.
+        data,expected=snapshot([(q,payload(qid=q)) for q in range(1,218)])
+        metadata,_=m.extract(data,expected)
+        self.assertEqual(metadata['envelopes_validated'],217)
+        self.assertEqual(metadata['counts'],{'unique_structure_raw_only_pending_review':217})
+        too_many,expected=snapshot([(q,payload(qid=q)) for q in range(1,219)])
+        self.rejected(too_many,expected,'invalid_expected_envelopes')
+
     def test_snapshot_hash_binding(self):
         d,e=snapshot();self.rejected(d+b'X',e,'input_snapshot_sha256_mismatch')
 
