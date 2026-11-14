@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "baseline_source": "2678500dd147c098c547aaec7506b0d2f3b6e57d",
+  "catalog_sha256": "b7374dab4c028d2f95a4590f05c4601f97c89204f5fd231b71886be98eeb1771",
+  "old_catalog_exact_prefix_preserved": true,
+  "unchanged_other_runtime_files": 139,
+  "unique_source_cases": 33,
+  "independent_static_oracles": 33,
+  "new_thai_fields": 16,
+  "reused_thai_fields": 17,
+  "unique_quest_ids": 20,
+  "new_ownID_entries": 15,
+  "matcher_positive_executions": 34,
+  "matcher_negative_executions": 92,
+  "fixed_Darkspear_not_player_race_case": true,
+  "tracker_native_questie_routing_executions": 58,
+  "tracker_settings_wrongID_negative_executions": 116,
+  "real_existing_atlas_bitmap_executions": 38,
+  "no_unproven_phases_created": true,
+  "fonts_version_package_unchanged": true,
+  "root_wording_review": "pending",
+  "scope": "New33MAINfields only; prior tests not rerun. Real Atlas pre-font fallback separately counted; no NPC/Skills/party/fullfonts or game proof.",
+  "pending_tracker_font_fields": [
+    {
+      "quest_id": 86799,
+      "field": "title"
+    },
+    {
+      "quest_id": 86799,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86804,
+      "field": "title"
+    },
+    {
+      "quest_id": 86804,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86925,
+      "field": "title"
+    },
+    {
+      "quest_id": 86925,
+      "field": "objective"
+    },
+    {
+      "quest_id": 82062,
+      "field": "title"
+    },
+    {
+      "quest_id": 84319,
+      "field": "title"
+    },
+    {
+      "quest_id": 84319,
+      "field": "objective"
+    },
+    {
+      "quest_id": 97271,
+      "field": "title"
+    }
+  ],
+  "completion_bitmap_not_executed_before_review": true
+}
