@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED38_SOURCE_INTEGRATED_TEXT_ONLY_AND_NEXT42_FULL_PAIRS_PENDING_ROOT",
+  "status": "PROPOSAL02_APPROVED_SOURCE_INTEGRATED_SUPERSEDED_BY_INTEGRATION80_PROPOSAL03",
   "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
   "Root_approved_proposal01": "main7f84daec305be3051042c2ac0e5bd5a0849f08da",
   "integrated_fields": 38,
@@ -38,5 +38,6 @@
   "source23_FVO_typed1501_oldtests_font_version_ZIP_feed_work": false,
   "next_action": "Root review42fullpairs, then integrate approved02/additive variants only. Continue final42literal proposal; only after finite122reviewed/integrated perform one append-only fonts/affectedbitmap/nativeQuestie+combined0.467private freeze. Feed0.463.1/normal0.470milestone unchanged.",
   "full_GOAL_complete": false,
-  "current_enabled_inventory_and_actual_Windows_MacM2_acceptance": "unproven"
+  "current_enabled_inventory_and_actual_Windows_MacM2_acceptance": "unproven",
+  "latest_checkpoint": "evidence/main24-integration80-proposal03-checkpoint.json"
 }

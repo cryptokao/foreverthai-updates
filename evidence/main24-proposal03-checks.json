@@ -1,0 +1,540 @@
+{
+  "status": "FINAL42_PROPOSAL_STATIC_SOURCE_CONDITION_CHECKS_PASSED_PENDING_ROOT",
+  "source_fields": 42,
+  "pinned_source_pointer_checks": 42,
+  "new_Thai_fields": 15,
+  "exact_reviewed_Thai_reuse": 27,
+  "reuse_values_copied_verbatim": true,
+  "explicit_condition_oracles": [
+    {
+      "quest_id": 84152,
+      "field": "objective",
+      "english_required": [
+        "15",
+        "20",
+        "Winterspring Blood Samples",
+        "Shadowcraft Bracers",
+        "Deliana",
+        "Ironforge"
+      ],
+      "thai_required": [
+        "15",
+        "20",
+        "Winterspring Blood Samples",
+        "Shadowcraft Bracers",
+        "Deliana",
+        "Ironforge"
+      ]
+    },
+    {
+      "quest_id": 84153,
+      "field": "objective",
+      "english_required": [
+        "15",
+        "20",
+        "Dreadmist Bracers"
+      ],
+      "thai_required": [
+        "15",
+        "20",
+        "Dreadmist Bracers"
+      ]
+    },
+    {
+      "quest_id": 84159,
+      "field": "objective",
+      "english_required": [
+        "15",
+        "20",
+        "Silithus Venom Samples",
+        "Shadowcraft Bracers",
+        "Mokvar",
+        "Orgrimmar"
+      ],
+      "thai_required": [
+        "15",
+        "20",
+        "Silithus Venom Samples",
+        "Shadowcraft Bracers",
+        "Mokvar",
+        "Orgrimmar"
+      ]
+    },
+    {
+      "quest_id": 97448,
+      "field": "objective",
+      "english_required": [
+        "Cord of the Elements",
+        "Gauntlets of the Elements",
+        "Deliana",
+        "Ironforge"
+      ],
+      "thai_required": [
+        "Cord of the Elements",
+        "Gauntlets of the Elements",
+        "Deliana",
+        "Ironforge"
+      ]
+    },
+    {
+      "quest_id": 84176,
+      "field": "objective",
+      "english_required": [
+        "Cord of the Elements",
+        "Gauntlets of the Elements",
+        "Mokvar",
+        "Orgrimmar"
+      ],
+      "thai_required": [
+        "Cord of the Elements",
+        "Gauntlets of the Elements",
+        "Mokvar",
+        "Orgrimmar"
+      ]
+    },
+    {
+      "quest_id": 97412,
+      "field": "objective",
+      "english_required": [
+        "Lightforge Belt",
+        "Lightforge Gauntlets",
+        "Mokvar",
+        "Orgrimmar"
+      ],
+      "thai_required": [
+        "เข็มขัดหลอมแสง",
+        "ถุงมือเกราะหลอมแสง",
+        "Mokvar",
+        "Orgrimmar"
+      ]
+    },
+    {
+      "quest_id": 84172,
+      "field": "objective",
+      "english_required": [
+        "Beaststalker's Belt",
+        "Beaststalker's Gloves",
+        "Mokvar"
+      ],
+      "thai_required": [
+        "Beaststalker's Belt",
+        "Beaststalker's Gloves",
+        "Mokvar"
+      ]
+    },
+    {
+      "quest_id": 84177,
+      "field": "objective",
+      "english_required": [
+        "Dreadmist Belt",
+        "Dreadmist Wraps",
+        "Mokvar"
+      ],
+      "thai_required": [
+        "เข็มขัดหมอกสยอง",
+        "ผ้าพันมือหมอกสยอง",
+        "Mokvar"
+      ]
+    },
+    {
+      "quest_id": 99215,
+      "field": "objective",
+      "english_required": [
+        "armored riding wolves",
+        "epic mount"
+      ],
+      "thai_required": [
+        "หมาป่าติดเกราะ",
+        "พาหนะระดับมหากาพย์"
+      ]
+    },
+    {
+      "quest_id": 99216,
+      "field": "objective",
+      "english_required": [
+        "armored riding striders",
+        "epic mount"
+      ],
+      "thai_required": [
+        "สไตรเดอร์ติดเกราะ",
+        "พาหนะระดับมหากาพย์"
+      ]
+    },
+    {
+      "quest_id": 84137,
+      "field": "description",
+      "english_required": [
+        "Maybe",
+        "nearby islands and oil rig",
+        "mildly intoxicating fruity aroma"
+      ],
+      "thai_required": [
+        "บางที",
+        "เกาะใกล้ๆ และแท่นขุดเจาะน้ำมัน",
+        "กลิ่นผลไม้ที่ชวนให้มึนเมาเล็กน้อย"
+      ]
+    },
+    {
+      "quest_id": 84138,
+      "field": "description",
+      "english_required": [
+        "a book of arcane formulas",
+        "Nami",
+        "Winterspring",
+        "published contributor"
+      ],
+      "thai_required": [
+        "หนังสือสูตรเวทอาร์เคน",
+        "Nami",
+        "Winterspring",
+        "ผลงานที่ตีพิมพ์"
+      ]
+    },
+    {
+      "quest_id": 94302,
+      "field": "completion",
+      "english_required": [
+        "prepare their meat",
+        "craft equipment with their scales",
+        "others outside my tribe",
+        "simple yet effective techniques"
+      ],
+      "thai_required": [
+        "ปรุงเนื้อ",
+        "ประดิษฐ์อุปกรณ์จากเกล็ด",
+        "คนนอกเผ่า",
+        "วิธีเรียบง่ายแต่ได้ผล"
+      ]
+    },
+    {
+      "quest_id": 84213,
+      "field": "description",
+      "english_required": [
+        "two locations",
+        "manual-auto-locking phasers",
+        "Once",
+        "when you say"
+      ],
+      "thai_required": [
+        "สองแห่ง",
+        "เฟเซอร์แบบล็อกแมนนวล-อัตโนมัติ",
+        "เมื่อเจ้าอยู่",
+        "เมื่อเจ้าบอก"
+      ]
+    },
+    {
+      "quest_id": 84213,
+      "field": "objective",
+      "english_required": [
+        "either Tirisfal Glades or Westfall",
+        "Then",
+        "elecro transmitter"
+      ],
+      "thai_required": [
+        "Tirisfal Glades หรือ Westfall แห่งใดแห่งหนึ่ง",
+        "จากนั้น",
+        "elecro"
+      ]
+    }
+  ],
+  "final_text_hashes": [
+    {
+      "case_id": "MAIN24-03-01",
+      "quest_id": 84152,
+      "field": "objective",
+      "english_sha256": "501c0f1318b76a1f5dc699dccb26172d993164224734f18665e6d4e5349aad1e",
+      "thai_sha256": "8fd4e6e7f6f75f2e94208fc8ae1a500d08da0c4277632388c6e8ce71874b17e8"
+    },
+    {
+      "case_id": "MAIN24-03-02",
+      "quest_id": 84152,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71"
+    },
+    {
+      "case_id": "MAIN24-03-03",
+      "quest_id": 84153,
+      "field": "objective",
+      "english_sha256": "81dc726f81da843028d444d87d14b5c0a71ecab0607563c69c8da1f7abdc5be9",
+      "thai_sha256": "d2d6123c63f5dfd8c1f4bed0327c1138d6e7dde4c39ba7e86dd323f574f65b0c"
+    },
+    {
+      "case_id": "MAIN24-03-04",
+      "quest_id": 84153,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71"
+    },
+    {
+      "case_id": "MAIN24-03-05",
+      "quest_id": 84166,
+      "field": "description",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "thai_sha256": "59456131c1eb8e2280e972dcae9d5dc81a81aed4e8ea947dc503b8fc6a7194c3"
+    },
+    {
+      "case_id": "MAIN24-03-06",
+      "quest_id": 84166,
+      "field": "objective",
+      "english_sha256": "e60c2db2c5297e4fd397d4d5b9f229eed457c2e6c8de23f92e3913638c9ca3a2",
+      "thai_sha256": "0d470a6068238691604c8cef31dcceaaeb00be7ff5ab86055d6065679ef4a366"
+    },
+    {
+      "case_id": "MAIN24-03-07",
+      "quest_id": 84166,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-08",
+      "quest_id": 84167,
+      "field": "description",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "thai_sha256": "f61361c9e27f80788f41317f9238d3cc878e8511a4f01f3a6cc3fd2b8a51cca0"
+    },
+    {
+      "case_id": "MAIN24-03-09",
+      "quest_id": 84167,
+      "field": "objective",
+      "english_sha256": "4af36cc8991e4ff288530960de60c0a8b1b80fd1a84ac0ae2543aa70f48e00b8",
+      "thai_sha256": "7a8b7b1e3b884238702f750f6200069f739839619fd2419fb23da9bf1034d63a"
+    },
+    {
+      "case_id": "MAIN24-03-10",
+      "quest_id": 84167,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-11",
+      "quest_id": 84170,
+      "field": "description",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "thai_sha256": "59456131c1eb8e2280e972dcae9d5dc81a81aed4e8ea947dc503b8fc6a7194c3"
+    },
+    {
+      "case_id": "MAIN24-03-12",
+      "quest_id": 84170,
+      "field": "objective",
+      "english_sha256": "ad2d568ba1cd61564f389ec82acca85b221dc12c4add3bd9b757a1685acd52b2",
+      "thai_sha256": "741c7d32a7dd584eb841239adb8248d54261da1aa6801b978b53edef8fe8fd0e"
+    },
+    {
+      "case_id": "MAIN24-03-13",
+      "quest_id": 84170,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-14",
+      "quest_id": 97448,
+      "field": "objective",
+      "english_sha256": "2fa13409d1236ddaa75732efce6cd49f29b86277397c0d974faef471709d442f",
+      "thai_sha256": "0aed3fa731b0fc5ba3ece01eea6e8c05750f430c3f970abf42b783dd8639b314"
+    },
+    {
+      "case_id": "MAIN24-03-15",
+      "quest_id": 84159,
+      "field": "objective",
+      "english_sha256": "01f0d1ee8699e625eb6e22210cc9300535d199ae5936d1bc7460573f43608a6f",
+      "thai_sha256": "914ef5a2b3dc50ce9b24ae3a1894727421e8402ed2e49465c1b35e5edc3860e4"
+    },
+    {
+      "case_id": "MAIN24-03-16",
+      "quest_id": 84159,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71"
+    },
+    {
+      "case_id": "MAIN24-03-17",
+      "quest_id": 84171,
+      "field": "objective",
+      "english_sha256": "1e7aa48097d1a68044b87157171a1632e54be9a4f6ed77436c082d7e40ec8db2",
+      "thai_sha256": "325702600fcc1fc5a5d9add131fcb35bfd6269468b23a6b8bc790d5bd9c6a7c9"
+    },
+    {
+      "case_id": "MAIN24-03-18",
+      "quest_id": 84171,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-19",
+      "quest_id": 84172,
+      "field": "objective",
+      "english_sha256": "5e1626f5952b0ffbb6533e746f2545dc1d8e1ad87ba55100e0aceb62a6a13094",
+      "thai_sha256": "c2244bc156b8fe48e77a8e567fafd9750353bdf3dfba724cc62f6a4a5e5931d3"
+    },
+    {
+      "case_id": "MAIN24-03-20",
+      "quest_id": 84172,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-21",
+      "quest_id": 84175,
+      "field": "objective",
+      "english_sha256": "5826e11cf8fc7f2aba245da7f956b60ea875c07bd27828f0fd412fb69c7a23f6",
+      "thai_sha256": "4d32c59bb7cdc116a19f4fd00a0d07b24ed4bc4e2da5b4665565e5390564d3af"
+    },
+    {
+      "case_id": "MAIN24-03-22",
+      "quest_id": 84175,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-23",
+      "quest_id": 84176,
+      "field": "objective",
+      "english_sha256": "9c9d06e7d50899981cf3cd5f7e43334d44c50a0dae10fd50fba5a406ae7698ca",
+      "thai_sha256": "13675e38ea072856db2afaf471d1fb43b200c213fc07911b1523d9a331d9ebef"
+    },
+    {
+      "case_id": "MAIN24-03-24",
+      "quest_id": 84176,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-25",
+      "quest_id": 84177,
+      "field": "objective",
+      "english_sha256": "74e718e95debcf6703db26f8406a519f70d7e0856cda554c889dd6423bb37d9c",
+      "thai_sha256": "8c6270aa3d648ccf7f0a05ca705ac3d15ce27423a0e7557bcfcdeab470327137"
+    },
+    {
+      "case_id": "MAIN24-03-26",
+      "quest_id": 84177,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-27",
+      "quest_id": 84178,
+      "field": "objective",
+      "english_sha256": "4a08c0f1c0fe4e19488825fa05fc7e0cdcbeed8182789d0f4c9657af77f37e7c",
+      "thai_sha256": "efc6d515703351e1502acc72211f4ea16894ba007f771ea124a8932a0ec96ea0"
+    },
+    {
+      "case_id": "MAIN24-03-28",
+      "quest_id": 84178,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d"
+    },
+    {
+      "case_id": "MAIN24-03-29",
+      "quest_id": 97412,
+      "field": "objective",
+      "english_sha256": "299bb6af79a333ca64fec98e30e59230ac4ef052c9cd64ef82b07512a284ee0c",
+      "thai_sha256": "07c371fd9d3a615296928ec5f9bc07ecb0d070b98cd590d9f4c3f5e78a6dd688"
+    },
+    {
+      "case_id": "MAIN24-03-30",
+      "quest_id": 99215,
+      "field": "objective",
+      "english_sha256": "40d2eb5b279608bf5bbfec56483028a4054ca039af2ece15eded400068ec4aa7",
+      "thai_sha256": "c5096bec25de872bf6dbacf26383f9ecb6a2e8a3bd6b3c1daa3409562f62748e"
+    },
+    {
+      "case_id": "MAIN24-03-31",
+      "quest_id": 84137,
+      "field": "description",
+      "english_sha256": "1c7af6dc5d10fb99d7c3c7c661d4b151fcff95225b4cf85099e378d6e65d8edb",
+      "thai_sha256": "5d20c47da04e84d2b674253f5e339431f7788c3d7a8996c6773c65b377b09ed5"
+    },
+    {
+      "case_id": "MAIN24-03-32",
+      "quest_id": 84137,
+      "field": "objective",
+      "english_sha256": "1c988e127d2d23bf1f270befd2e0e0af1a648d7478ac457f44afcc6b16ef3e3f",
+      "thai_sha256": "5f1649a1822c1be2e89289fe510ebd9072054e8684fb455e4213da4b04bad423"
+    },
+    {
+      "case_id": "MAIN24-03-33",
+      "quest_id": 84137,
+      "field": "title",
+      "english_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "thai_sha256": "545a14e819346a9dc9b0052b05c9b12f372e2af0cf5f31067ced38b496287dd1"
+    },
+    {
+      "case_id": "MAIN24-03-34",
+      "quest_id": 84138,
+      "field": "description",
+      "english_sha256": "de9df630b1ab2c99ab06857a4a6622291828f89ecfbf0913cd22bd0bf1839c0c",
+      "thai_sha256": "c23cdaf40e43d7467f73a3f634d921bbfac12b88ba27989b276c78c5046c1c1f"
+    },
+    {
+      "case_id": "MAIN24-03-35",
+      "quest_id": 84138,
+      "field": "objective",
+      "english_sha256": "9c6de55121e3dc906399f2288702515a79323446f055b0aa714e987cca0a2a8c",
+      "thai_sha256": "d1f23066bc8072a8afbe7ca0efa04f60969bb8da9cc8120f227ddf86a08a3c15"
+    },
+    {
+      "case_id": "MAIN24-03-36",
+      "quest_id": 84138,
+      "field": "title",
+      "english_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "thai_sha256": "76571bd1f416e25c69b66bf9b0c307a7980dcb9d0882f117ed3e972cdd757414"
+    },
+    {
+      "case_id": "MAIN24-03-37",
+      "quest_id": 99234,
+      "field": "objective",
+      "english_sha256": "89e4390a603f5e21306dd062d00fd7813c8ef833f0b5749a0296f21b54c5f11a",
+      "thai_sha256": "59bb8055392a5a48f443c3d88d4bc12719ea9cf0f8cc18844c01592ae6a15400"
+    },
+    {
+      "case_id": "MAIN24-03-38",
+      "quest_id": 99216,
+      "field": "objective",
+      "english_sha256": "754dd540e699c6ec377532086caedf0a0165712c9abefd70fe9699baad1c42d8",
+      "thai_sha256": "e8ace4602df0f0a04361e969d507b6cc1bebaad3e84cc1b28a31f86a79b6b5e4"
+    },
+    {
+      "case_id": "MAIN24-03-39",
+      "quest_id": 94302,
+      "field": "completion",
+      "english_sha256": "c808095f1d0da1b7ba9fd7d15889768d1014684d982dd2b0b7d445bbf7fe8ffb",
+      "thai_sha256": "0bb75d7c8191260acc8240e301295e882c5c683176569aeda61c28a2b98cc45b"
+    },
+    {
+      "case_id": "MAIN24-03-40",
+      "quest_id": 84213,
+      "field": "description",
+      "english_sha256": "45d6c55f8af26ff8497c635465d659f8fd04b338590c575c35b0bf65ba27aca5",
+      "thai_sha256": "7ffff3c92a3c7296321400ca6df37a6dcdb8f4923d5f5599fec44932c2322662"
+    },
+    {
+      "case_id": "MAIN24-03-41",
+      "quest_id": 84213,
+      "field": "objective",
+      "english_sha256": "209a49b3d706187e32730f6b6cbeee4d1a7d97282e0319941448bc567f2792de",
+      "thai_sha256": "0f5e6d6d229ef5a1df63e3a2d4ce950cb2e37f30e9f2ee30e0f37ca94c738248"
+    },
+    {
+      "case_id": "MAIN24-03-42",
+      "quest_id": 84213,
+      "field": "title",
+      "english_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "thai_sha256": "adda2f4d06071b46d49d88f522330a706d00d50aef68c77efffd1e66484c38aa"
+    }
+  ],
+  "manual_privacy_read_all42": true,
+  "source94302_complete_fullbody_and_phase_screened": true,
+  "runtime_integration_from_this_proposal": false,
+  "not_matcher_bitmap_font_game_proof": true
+}
