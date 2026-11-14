@@ -1,0 +1,513 @@
+{
+  "snapshot": "MAIN22 issues3482–3487 one claimed151-record export",
+  "baseline_source": "f2a469dbff82a2b68d569bbb2b16ad2041a74ba4",
+  "baseline_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "approved94233_MAIN21_preserved": true,
+  "source_parts": [
+    {
+      "issue": 3482,
+      "part": 1,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3482",
+      "created_at": "2026-11-14T07:59:11Z",
+      "updated_at": "2026-11-14T07:59:11Z",
+      "comments": 0,
+      "body_sha256": "017cc560fd48bb6e3e3c623d31494bb030181ead75de5fdd0d16dfdc69545169",
+      "body_chars": 4772,
+      "compressed_sha256": "6d9ac44498a5f05e11fd7eeb818e03b52000f2a96d24e2dac77eafa6646835d8",
+      "decoded_sha256": "a1b350dabdf6a3e70023a4d657a01869a26830c989f315eac08e706367d362a0",
+      "decoded_bytes": 10344,
+      "records": 23,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3483,
+      "part": 2,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3483",
+      "created_at": "2026-11-14T07:59:28Z",
+      "updated_at": "2026-11-14T07:59:28Z",
+      "comments": 0,
+      "body_sha256": "7e5dfcad314cf89730b2f50709b44abf6b89020e7196a0f8478f6a52d2cdd644",
+      "body_chars": 4732,
+      "compressed_sha256": "dba67709f5de4a9b8923102972f1b985851170f9578c9000547d5bdc196d385b",
+      "decoded_sha256": "fbe7af249c747974b1ebf296932c5b89df3710b745f098e67215c1b7f6cd93fe",
+      "decoded_bytes": 10279,
+      "records": 25,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3484,
+      "part": 3,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3484",
+      "created_at": "2026-11-14T07:59:41Z",
+      "updated_at": "2026-11-14T07:59:41Z",
+      "comments": 0,
+      "body_sha256": "1b40d916e73c50de3523025952cca54a5dfafb7b0f2bb817218004d4fea6f3f7",
+      "body_chars": 4876,
+      "compressed_sha256": "a20f6429732675db88fb157b06131dbfb30f5662afb5a477e6f85f04548bce07",
+      "decoded_sha256": "36c854a3a0c23aab481eaf4f1725c3af4cdadd3ac83b104878b55bea94067f18",
+      "decoded_bytes": 12496,
+      "records": 34,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3485,
+      "part": 4,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3485",
+      "created_at": "2026-11-14T08:00:10Z",
+      "updated_at": "2026-11-14T08:00:10Z",
+      "comments": 0,
+      "body_sha256": "e2c586256941723d85bb680cd3dd8e724dd5b07dd62fdfbd5d31788af80e6371",
+      "body_chars": 4788,
+      "compressed_sha256": "e42624bf14e4b2d4cac18de7cf39a33a91f48241ae61a2921e6c14b587ffb11d",
+      "decoded_sha256": "a6009e2f8ae06b62c7ec302ab38e388f3fc0defb4b735585dabaab6e18830745",
+      "decoded_bytes": 9925,
+      "records": 20,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3486,
+      "part": 5,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3486",
+      "created_at": "2026-11-14T08:00:22Z",
+      "updated_at": "2026-11-14T08:00:22Z",
+      "comments": 0,
+      "body_sha256": "a84adf9074abea2fa21c162a9d0e952f50f0ea12224dc38d6c3890e4f2b38d08",
+      "body_chars": 4848,
+      "compressed_sha256": "e8d6e5b00f7e65fc0b206c66caeabfe4564ec4b9d04a557d07e239c305f7d1af",
+      "decoded_sha256": "001d9f1e1ff0ca18b9e1fb6c0dd576687f13f75618da95d492c6828d6b204237",
+      "decoded_bytes": 10927,
+      "records": 26,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3487,
+      "part": 6,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3487",
+      "created_at": "2026-11-14T08:00:39Z",
+      "updated_at": "2026-11-14T08:00:39Z",
+      "comments": 0,
+      "body_sha256": "9c86dd3c4c523292d586e21223e8ec0808a5058b34dfd0dd372ea6733284c99b",
+      "body_chars": 3572,
+      "compressed_sha256": "e0d61484e67e1b74f9ccb8729723ab8130629ad83d74f6d3652ab1d7314d82b2",
+      "decoded_sha256": "cca96a1ae24bd3d6acb59968d9d6824bdeccf1b24f84316b08d292c9b1010cd8",
+      "decoded_bytes": 8816,
+      "records": 23,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    }
+  ],
+  "split_validation": {
+    "parts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "claimed_total_parts": 6,
+    "part_sizes": [
+      23,
+      25,
+      34,
+      20,
+      26,
+      23
+    ],
+    "total_records": 151,
+    "consistent_export_header": true,
+    "group_claim": "Sixpart titles and Root input identify one export; no independent session identity inferred."
+  },
+  "export_header": {
+    "v": 1,
+    "addon": "0.1.11",
+    "build": "70938",
+    "locale": "enUS"
+  },
+  "per_row_addon_client_build": "not independently proven by export header",
+  "kind_occurrences": {
+    "quest": 30,
+    "gossip": 103,
+    "book": 18
+  },
+  "main_phase_occurrences": {
+    "accept": 7,
+    "progress": 15,
+    "complete": 8
+  },
+  "unique_main_forms": 30,
+  "main_counts": {
+    "diagnostic_substitution_supported": 7,
+    "supported_exact": 23,
+    "held_unproven_normalized_roles": 0,
+    "blank_no_prose": 0,
+    "literal_unmatched_needs_qualification": 0,
+    "duplicate_main_occurrences": 0
+  },
+  "unmatched_main": [],
+  "non_main_source_readiness_totals": {
+    "gossip": {
+      "unique_records": 103,
+      "literal_with_source_keys_unreviewed": 89,
+      "held_role_or_privacy_tokens": 14,
+      "duplicate_occurrences": 0,
+      "blank": 0
+    },
+    "book": {
+      "unique_records": 18,
+      "literal_with_source_keys_unreviewed": 18,
+      "duplicate_occurrences": 0,
+      "blank": 0
+    }
+  },
+  "non_main_scope": "Kind/key/literal-token totals only, not translation-matching or NPC/book source audit. Literal-with-keys does NOT mean new translation or independently reviewed content; Root may decide GOAL7next.",
+  "new_thai_fields": 0,
+  "new_main_prose": 0,
+  "runtime_changed": false,
+  "font_version_package_feed_changed": false,
+  "scope": "Only six newparts decoded/deduplicated once. No Questie/EGpull/re-audit, oldsource20/oldholds, theme/caller re-audit, auxiliarytests/clientgate/glyph work. Raw/player context ignored/private.",
+  "main_safe_source_rows": [
+    {
+      "quest_id": 109,
+      "field": "description",
+      "issue": 3482,
+      "line_index": 0,
+      "english_sha256": "1a4a1e5de44a168bb2a30cbcc5689c3f42c4c557419390848271320fa6a67bee",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 579,
+      "field": "progress",
+      "issue": 3482,
+      "line_index": 11,
+      "english_sha256": "c28459b03479b66bb985c2fad5f2466d75d6c11a440b8c4956b93e2ea56945ff",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 79093,
+      "field": "progress",
+      "issue": 3482,
+      "line_index": 13,
+      "english_sha256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 79093,
+      "field": "completion",
+      "issue": 3482,
+      "line_index": 14,
+      "english_sha256": "ec65130b6ae98199c72e72c8cd91d8421c5d5d4f9d5207a0678a8b6040103a3d",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 92749,
+      "field": "description",
+      "issue": 3483,
+      "line_index": 13,
+      "english_sha256": "1a03d4005643012c8e54f328f1ffa74c9cf290826462c393358abccb95ef7fb6",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 92751,
+      "field": "progress",
+      "issue": 3483,
+      "line_index": 15,
+      "english_sha256": "4104053837cb1630d9a2c5d4e912b06dc4da523293d35ea9ed3051f53ee71774",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 92751,
+      "field": "completion",
+      "issue": 3483,
+      "line_index": 16,
+      "english_sha256": "24a652bc65fe79ba1f885df5b5494d85d85b2a3e7d91a6ff5a217e4806fed615",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 92749,
+      "field": "progress",
+      "issue": 3483,
+      "line_index": 17,
+      "english_sha256": "c62523205ff2d0e1103b22c176ba0d682179c0808103ce6e1fdb490f86b823a8",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 92749,
+      "field": "completion",
+      "issue": 3483,
+      "line_index": 18,
+      "english_sha256": "25f18318fc41ef47679fe5900d640e879b98c94615402ba5dc0ea4301841ff0e",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 97894,
+      "field": "description",
+      "issue": 3483,
+      "line_index": 21,
+      "english_sha256": "4e1d82ab14731d84bad0d090221f0567f68f602ad970627d376a79cf2423da7a",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 92752,
+      "field": "progress",
+      "issue": 3484,
+      "line_index": 2,
+      "english_sha256": "48fcc16a0fbfb63336e166dd678ce1b88094ff5ccf1c5cc800819e23db46373b",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 92753,
+      "field": "description",
+      "issue": 3484,
+      "line_index": 4,
+      "english_sha256": "6fb02c70fd5c5046a2d55c4b44216bbb2bb151d7dc8a9f384af4d3f0aefb7a39",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 79008,
+      "field": "description",
+      "issue": 3484,
+      "line_index": 5,
+      "english_sha256": "17d5dc6f3efc4086597c090788395856e84a0b1aeca970b00e0b95a7a681cc4c",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 92753,
+      "field": "completion",
+      "issue": 3484,
+      "line_index": 25,
+      "english_sha256": "1e3ee40fb85bb4f9535c6b936f1f43b01e4bdccb9589e7cec4a96eda699bf41e",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 79008,
+      "field": "completion",
+      "issue": 3484,
+      "line_index": 27,
+      "english_sha256": "2a626a62c0e3674e9e266b3dd4eef0d23c90914840206efeb0f5f91fe9298071",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 79192,
+      "field": "description",
+      "issue": 3484,
+      "line_index": 28,
+      "english_sha256": "31f250cb73e1faa02ff6ff2e586e7345c8095ea7fc923770c0e9cab7ca6effdc",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7894,
+      "field": "progress",
+      "issue": 3485,
+      "line_index": 9,
+      "english_sha256": "2d6fccfd22c0ef18e391316c1f34331cee59867eee26ba9a727306776118e58e",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7895,
+      "field": "progress",
+      "issue": 3485,
+      "line_index": 11,
+      "english_sha256": "5f13aae5b7fdedaf7d425f101471702ac591e53ede31a8e0b596e5c8c50ddcff",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 7890,
+      "field": "progress",
+      "issue": 3485,
+      "line_index": 17,
+      "english_sha256": "8d4ce9b400323b59993a2af9bb70b4150d273bf3144415e0d8f41403b3ac9632",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7900,
+      "field": "progress",
+      "issue": 3485,
+      "line_index": 18,
+      "english_sha256": "e02450089d595fac33dc0a07a9f21bc7ce87397cde4199ba96130ca6329b4cc9",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7899,
+      "field": "progress",
+      "issue": 3486,
+      "line_index": 0,
+      "english_sha256": "b92868770567101b5e840622912581685483efd14e452133ea76be68e624b9ab",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7889,
+      "field": "progress",
+      "issue": 3486,
+      "line_index": 2,
+      "english_sha256": "dcec882774ddcfd058a2d7a233202ead557acdf06b27153f7641b21041d4637b",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7882,
+      "field": "progress",
+      "issue": 3486,
+      "line_index": 13,
+      "english_sha256": "2d9ce968d4da4b521e2583292e5f853204e9483adc4f304acdf128667f3df0c1",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7881,
+      "field": "progress",
+      "issue": 3486,
+      "line_index": 15,
+      "english_sha256": "a1d6c71fc18fc6a832bdbb692b7e6c4799e36fd9e67383732191af694b924af8",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 7881,
+      "field": "completion",
+      "issue": 3486,
+      "line_index": 16,
+      "english_sha256": "ade568818da61176362d6b0ef9ee11444743e11948b215b9297242cd16b0d2c7",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 1097,
+      "field": "description",
+      "issue": 3486,
+      "line_index": 20,
+      "english_sha256": "0336d100d9aa5cea0bc5209afa26813fae2a7314cb5873a38a0f592cc5bbb9f7",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 91899,
+      "field": "progress",
+      "issue": 3487,
+      "line_index": 1,
+      "english_sha256": "623bd46bc28cb3f0924f4f299e55a7874edbf05681c506b51bff6614c5ea53a0",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 91899,
+      "field": "completion",
+      "issue": 3487,
+      "line_index": 2,
+      "english_sha256": "115f88aa8da947696891d50e0233c33335f9eafd8f843e7cbee8c43ec0c56b72",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 79092,
+      "field": "progress",
+      "issue": 3487,
+      "line_index": 19,
+      "english_sha256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+      "status": "supported_exact",
+      "unproven_tokens": []
+    },
+    {
+      "quest_id": 79092,
+      "field": "completion",
+      "issue": 3487,
+      "line_index": 20,
+      "english_sha256": "ec65130b6ae98199c72e72c8cd91d8421c5d5d4f9d5207a0678a8b6040103a3d",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    }
+  ],
+  "main_distinct_quest_ids": 21,
+  "eligible_unmatched_main_fields": 0,
+  "held_main_ids": [],
+  "new_ready_main_fields": 0,
+  "non_main_translation_status": "Not compared or audited; only counts/key/token readiness from this NEW151record snapshot. Do not treat107literal records as107new translations."
+}

@@ -1,0 +1,152 @@
+{
+  "snapshot": "MAIN22 new6parts3482\u20133487 only",
+  "source_parts": 6,
+  "source_records": 151,
+  "main_forms": 30,
+  "main_phases": {
+    "accept": 7,
+    "progress": 15,
+    "complete": 8
+  },
+  "main_counts": {
+    "diagnostic_substitution_supported": 7,
+    "supported_exact": 23,
+    "held_unproven_normalized_roles": 0,
+    "blank_no_prose": 0,
+    "literal_unmatched_needs_qualification": 0,
+    "duplicate_main_occurrences": 0
+  },
+  "main_quest_ids": [
+    109,
+    579,
+    1097,
+    7881,
+    7882,
+    7889,
+    7890,
+    7894,
+    7895,
+    7899,
+    7900,
+    79008,
+    79092,
+    79093,
+    79192,
+    91899,
+    92749,
+    92751,
+    92752,
+    92753,
+    97894
+  ],
+  "eligible_main_fields": 0,
+  "new_thai_fields": 0,
+  "new_source_variants": 0,
+  "held_main_ids": [],
+  "diagnostic_only": [
+    {
+      "quest_id": 109,
+      "field": "description",
+      "issue": 3482,
+      "line_index": 0,
+      "english_sha256": "1a4a1e5de44a168bb2a30cbcc5689c3f42c4c557419390848271320fa6a67bee",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 79093,
+      "field": "completion",
+      "issue": 3482,
+      "line_index": 14,
+      "english_sha256": "ec65130b6ae98199c72e72c8cd91d8421c5d5d4f9d5207a0678a8b6040103a3d",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 92749,
+      "field": "progress",
+      "issue": 3483,
+      "line_index": 17,
+      "english_sha256": "c62523205ff2d0e1103b22c176ba0d682179c0808103ce6e1fdb490f86b823a8",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 7895,
+      "field": "progress",
+      "issue": 3485,
+      "line_index": 11,
+      "english_sha256": "5f13aae5b7fdedaf7d425f101471702ac591e53ede31a8e0b596e5c8c50ddcff",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 7881,
+      "field": "completion",
+      "issue": 3486,
+      "line_index": 16,
+      "english_sha256": "ade568818da61176362d6b0ef9ee11444743e11948b215b9297242cd16b0d2c7",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 91899,
+      "field": "completion",
+      "issue": 3487,
+      "line_index": 2,
+      "english_sha256": "115f88aa8da947696891d50e0233c33335f9eafd8f843e7cbee8c43ec0c56b72",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 79092,
+      "field": "completion",
+      "issue": 3487,
+      "line_index": 20,
+      "english_sha256": "ec65130b6ae98199c72e72c8cd91d8421c5d5d4f9d5207a0678a8b6040103a3d",
+      "status": "diagnostic_substitution_supported",
+      "unproven_tokens": [
+        "$N"
+      ]
+    }
+  ],
+  "non_main_kind_counts": {
+    "gossip": 103,
+    "book": 18
+  },
+  "non_main_readiness_totals": {
+    "gossip": {
+      "unique_records": 103,
+      "literal_with_source_keys_unreviewed": 89,
+      "held_role_or_privacy_tokens": 14,
+      "duplicate_occurrences": 0,
+      "blank": 0
+    },
+    "book": {
+      "unique_records": 18,
+      "literal_with_source_keys_unreviewed": 18,
+      "duplicate_occurrences": 0,
+      "blank": 0
+    }
+  },
+  "non_main_action": "Root decision required for GOAL7; no content/translation matching or auxiliary work started.",
+  "baseline_source": "f2a469dbff82a2b68d569bbb2b16ad2041a74ba4",
+  "catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "approved94233_MAIN21_in_source_not_latestZIP": true,
+  "runtime_changed": false,
+  "font_build_version_package_feed_changed": false,
+  "scope": "0eligibleMAIN in this bounded snapshot, not whole-game completeness. GlobalGOALactive/incomplete; currentenabled inventory/unknownphase/liveWindowsMacM2 acceptance unproven.",
+  "stop_rule": "MAINstep finished. Do not poll oldsources/holds/source20 or rerun tests/glyphs/clientgates. No0.467 from this snapshot."
+}
