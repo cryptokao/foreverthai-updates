@@ -112,19 +112,20 @@
       "prefix_candidate_matches": []
     }
   ],
-  "status": "HELD_USER_PROVIDED_SOURCE_OR_APPLICABLE_PERMISSION_REQUIRED",
+  "status": "HELD_AWAITING_USER_PROVIDED_SOURCE",
   "license_check": {
     "source_document_archive_path": "ForeverThai/SOURCES-TH.txt",
     "source_document_sha256": "f3f6cddbbdef33e34eb8543b79d9452a3cb8364593b7a0857929caf2c6a8be65",
     "explicit_applicable_underlying_book_permission_found": false,
     "scope": "Preserved author archive credit/license metadata reviewed; collector code/data attribution and font licenses are not treated as a grant covering this underlying book. No external rights grant established."
   },
-  "next_action": "Hold all17 pages. User must provide the source passages or applicable permission before further transformation/review/font/build/package. No summaries substituted.",
+  "next_action": "Await user-provided source; no further transformation/review/fonts/build/package or substitute summaries. Retain only page hashes and source provenance.",
   "preservation": {
     "runtime_changed": false,
-    "catalog_sha256": "4e98cc313f1e9e6ad95a803355e25b4dba07b791d7aa57ab5c15e2af607af981",
+    "catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
     "prior_canonical_MAIN21_Skills_preserved": true,
-    "existing_unapproved_books22_source_and_evidence_preserved_not_newly_republished": true
+    "runtime_restored_to_prebook": "1db81c986f6f005a4f5db2dcbce261028bf7c018",
+    "existing_unapproved_payload_removed_from_current_branch": true
   },
   "tests_fonts_build_zip_version_customer_publication": false
 }

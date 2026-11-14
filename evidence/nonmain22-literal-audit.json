@@ -158,13 +158,12 @@
   "input_records": 107,
   "excluded_token_held_gossip": 14,
   "counts": {
-    "gossip_supported": 89,
-    "book_supported": 1,
-    "new_qualified_book_pages": 17,
-    "new_qualified_gossip": 0,
-    "unproven": 0,
-    "privacy_held_within_selected_literals": 0,
-    "unsupported_route": 0
+    "gossip_already_supported": 89,
+    "book_already_supported": 1,
+    "book_awaiting_user_provided_source": 17,
+    "approved_additions": 0,
+    "main_additions": 0,
+    "source_ready": 0
   },
   "runtime_routes": "Full actual Events.lua registered GOSSIP_SHOW/QUEST_GREETING/ITEM_TEXT_READY handlers; Catalog/Match own-ID or title/page/fullbody lookup; mocked UI output only, no Speech namespace",
   "book_reuse_audit": {
@@ -175,9 +174,8 @@
     "new_title_key": true
   },
   "main_new_fields": 0,
-  "new_thai_pages": 17,
+  "new_thai_pages": 0,
   "reused_thai_pages": 0,
-  "review_batch_size": 17,
   "remaining_qualified_items_outside_batch": 0,
   "source_api": {
     "repository": "quinn-dougherty/forever-vo",
@@ -334,7 +332,7 @@
       },
       "english_sha256": "0d743ef2a5a15b0eaac6819ff6d4ee9fa152ff76165ead29e5afcbeafa9f014d",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 1
     },
@@ -346,7 +344,7 @@
       },
       "english_sha256": "0a434724ceb51fa925ab313f83cb09676d8b8640db3e8d0f2c567e3c5a2a916a",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 2
     },
@@ -358,7 +356,7 @@
       },
       "english_sha256": "c4c53468131f92ea2f101cc01ea509f8a02ad1b25f13920ceec47b846353dd5d",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 3
     },
@@ -370,7 +368,7 @@
       },
       "english_sha256": "e1a1d9e3f278e3830cff8d2d6131329ec0497fea72d4e0ddcb8e3d53a522f650",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 5
     },
@@ -382,7 +380,7 @@
       },
       "english_sha256": "5fd25d3940d0d257e8169228b7ddc89bb12be7aff3590bb0b0c998c268d52dd7",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 4
     },
@@ -394,7 +392,7 @@
       },
       "english_sha256": "47c24dd34c8884f15ab44e6141924bf634db837ca565da9c100934f49fbe3ddc",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 6
     },
@@ -406,7 +404,7 @@
       },
       "english_sha256": "8cef8123316db59f082aa97e4a8029625b711ec5b6ea14640d52e31986a6164d",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 9
     },
@@ -418,7 +416,7 @@
       },
       "english_sha256": "3a712f09c8252c676493f0067f0f61d8e11fec57311be4d89f7e263a97a8bc85",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 11
     },
@@ -430,7 +428,7 @@
       },
       "english_sha256": "6496856b680d71b6f04ca3f1aeeb9cb07110200cae0765fb00878a7a1097ef2c",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 8
     },
@@ -442,7 +440,7 @@
       },
       "english_sha256": "303161670026f4185166ac1023822b51e0e99e24a911f1cf53be509fdfa48f0b",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 7
     },
@@ -454,7 +452,7 @@
       },
       "english_sha256": "398df62b9bb362619d3941179fe8f07f74383dd5835710b45aea6ba02772f1fe",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 10
     },
@@ -466,7 +464,7 @@
       },
       "english_sha256": "a08e185a3da7abccf04ce35d7877f8149bc173dc8de13dd4c8293ea73c96e8bb",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 12
     },
@@ -478,7 +476,7 @@
       },
       "english_sha256": "c006f26a95e40da9bbcf9b468970209cc87e8884bc5cfc007db9a73289266db7",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 15
     },
@@ -490,7 +488,7 @@
       },
       "english_sha256": "e24e73b86f1c3ee088961aea3010afb75ddeb0390c69bdc3654a3e13c7fa1dac",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 17
     },
@@ -502,7 +500,7 @@
       },
       "english_sha256": "cf2bfb08ec9a95ec54b4e6e17616fb7317229b9e97c49aaed2777d5aaea67c7d",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 13
     },
@@ -514,7 +512,7 @@
       },
       "english_sha256": "51991c022b5e6816ada9f9eb52151d920a521346bd3de060d218876ee3f56dcd",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 14
     },
@@ -526,7 +524,7 @@
       },
       "english_sha256": "06c27020362738b8d29ae351e9b9a221638e51d9135fb676fc8347f28ee429ca",
       "event_hook": "ITEM_TEXT_READY",
-      "status": "qualified_new_book_page_pending_wording_review",
+      "status": "held_awaiting_user_provided_source",
       "book_title": "The Dark Portal and the Fall of Stormwind",
       "page": 16
     },
@@ -1478,5 +1476,17 @@
       "npc_or_object_id": 2455,
       "namespace": "npcs"
     }
-  ]
+  ],
+  "current_status": "HELD_AWAITING_USER_PROVIDED_SOURCE",
+  "historical_counts_before_source_provenance_hold": {
+    "gossip_supported": 89,
+    "book_supported": 1,
+    "new_qualified_book_pages": 17,
+    "new_qualified_gossip": 0,
+    "unproven": 0,
+    "privacy_held_within_selected_literals": 0,
+    "unsupported_route": 0
+  },
+  "historical_unapproved_draft_pages": 17,
+  "historical_draft_review_batch_size": 17
 }

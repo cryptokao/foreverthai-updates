@@ -2,6 +2,8 @@
 Pinned pre-books22 source; raw outputs remain work/private. Not a corpus/source refresh.
 Run only when this classification needs reproduction; not part of book regression.
 """
+raise SystemExit("HELD: books22 source not user-provided; historical107-input reproduction disabled. Do not consume held payloads.")
+
 import pathlib,json,re,collections,hashlib,subprocess
 from lupa.lua51 import LuaRuntime
 R=pathlib.Path(__file__).resolve().parents[1];BASE="f2a469dbff82a2b68d569bbb2b16ad2041a74ba4";l=LuaRuntime(unpack_returned_tuples=True);a=l.table()

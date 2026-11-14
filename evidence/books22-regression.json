@@ -1,5 +1,5 @@
 {
-  "status": "passed_text_routes_pending_Root_wording_review",
+  "status": "HISTORICAL_UNAPPROVED_DRAFT_NOT_CURRENT_RELEASE_PROOF",
   "unique_book_source_cases": 17,
   "positive_executions": 17,
   "negative_executions": 102,
@@ -14,7 +14,6 @@
   "actual_hook": "full unchanged Events.lua registered ITEM_TEXT_READY, real Catalog/Match; mocked UI sink, not bitmap or livegame",
   "baseline_source": "f2a469dbff82a2b68d569bbb2b16ad2041a74ba4",
   "baseline_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
-  "final_catalog_sha256": "4e98cc313f1e9e6ad95a803355e25b4dba07b791d7aa57ab5c15e2af607af981",
   "old_catalog_exact_prefix_preserved": true,
   "unchanged_runtime_files": 140,
   "runtime_files": 141,
@@ -108,9 +107,13 @@
     }
   ],
   "new_main_fields": 0,
-  "new_thai_book_pages": 17,
+  "new_thai_book_pages": 0,
   "thai_reuse_pages": 0,
   "fonts_build_version_package_feed": "unchanged; not tested/claimed ready",
   "whole_book_total_proven": false,
-  "old_suites_rerun": false
+  "old_suites_rerun": false,
+  "current_runtime_applicable": false,
+  "scope_note": "17positive/102negative were historical unapproved draft text-route results only. Draft payload removed; current runtime restored to prebook1db81c9. Not rerun and not package/release proof.",
+  "historical_draft_catalog_sha256": "4e98cc313f1e9e6ad95a803355e25b4dba07b791d7aa57ab5c15e2af607af981",
+  "historical_unapproved_draft_pages": 17
 }
