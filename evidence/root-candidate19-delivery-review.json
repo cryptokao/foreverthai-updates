@@ -1,0 +1,30 @@
+{
+  "version": "0.466.0",
+  "artifact_commit": "50ef03017dccb9ff8ab8ff00c62f3cb2e4ee4bdb",
+  "source_commit": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "bytes": 17897497,
+  "sha256": "9721987d00e96dcc595faf1c2cbcce4af82884d5c29f8118788a38eeb270bec5",
+  "files": 141,
+  "changed": [
+    "ForeverThai/Atlas.lua",
+    "ForeverThai/Catalog.lua",
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "added": [
+    "ForeverThai/Fonts/Thai93.tga"
+  ],
+  "removed": [],
+  "all_33_final_english_thai_hashes_match_review": true,
+  "other_32_pairs_unchanged": true,
+  "protected_skill_assets_unchanged": 28,
+  "core_speech70938_retained": true,
+  "cloud_exact_zip_download_back": true,
+  "root_no_local_addon_execution": true,
+  "customer_feed_changed": false,
+  "in_game_windows_mac_unverified": true,
+  "new_thai_fields": 16,
+  "reused_fields": 17,
+  "newly_supported_fields": 33,
+  "unique_quest_ids": 20
+}
