@@ -1,0 +1,116 @@
+{
+  "status": "passed_text_routes_pending_Root_wording_review",
+  "unique_book_source_cases": 17,
+  "positive_executions": 17,
+  "negative_executions": 102,
+  "negative_kinds": [
+    "wrong exact title",
+    "wrong page",
+    "page zero",
+    "changed fullbody",
+    "secret fullbody",
+    "nil fullbody"
+  ],
+  "actual_hook": "full unchanged Events.lua registered ITEM_TEXT_READY, real Catalog/Match; mocked UI sink, not bitmap or livegame",
+  "baseline_source": "f2a469dbff82a2b68d569bbb2b16ad2041a74ba4",
+  "baseline_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "final_catalog_sha256": "4e98cc313f1e9e6ad95a803355e25b4dba07b791d7aa57ab5c15e2af607af981",
+  "old_catalog_exact_prefix_preserved": true,
+  "unchanged_runtime_files": 140,
+  "runtime_files": 141,
+  "protected28_Core_Speech70938_preserved": "all140 non-Catalog files byte-equal to approved f2 source; no gates/settings/Questie/font change",
+  "approved_MAIN21_preserved": true,
+  "final_text_hashes": [
+    {
+      "page": 1,
+      "english_sha256": "0d743ef2a5a15b0eaac6819ff6d4ee9fa152ff76165ead29e5afcbeafa9f014d",
+      "thai_sha256": "1ebe13392167ab44141392026fac19c1c91c76e53bd9dd1fa169220cb3ce77f4"
+    },
+    {
+      "page": 2,
+      "english_sha256": "0a434724ceb51fa925ab313f83cb09676d8b8640db3e8d0f2c567e3c5a2a916a",
+      "thai_sha256": "f188b2fc4d7c0bebec10d73739599740f9d17bea0b82dea70f608f63be618717"
+    },
+    {
+      "page": 3,
+      "english_sha256": "c4c53468131f92ea2f101cc01ea509f8a02ad1b25f13920ceec47b846353dd5d",
+      "thai_sha256": "1335202fbe3183757e2b6125f6846d99ab4cabe9479d3b052f9b9ec5bc0db175"
+    },
+    {
+      "page": 4,
+      "english_sha256": "5fd25d3940d0d257e8169228b7ddc89bb12be7aff3590bb0b0c998c268d52dd7",
+      "thai_sha256": "7d03a4a8a07a9d671ac872626b2dee43a345b462171aa2584fb5441b1d6ca333"
+    },
+    {
+      "page": 5,
+      "english_sha256": "e1a1d9e3f278e3830cff8d2d6131329ec0497fea72d4e0ddcb8e3d53a522f650",
+      "thai_sha256": "352c0c0cfb7df3e48c28079127cc3974540d0d76e5e8ca7fb1a10e4494fd0cab"
+    },
+    {
+      "page": 6,
+      "english_sha256": "47c24dd34c8884f15ab44e6141924bf634db837ca565da9c100934f49fbe3ddc",
+      "thai_sha256": "60d1053b6289af9e4f2c204c17b46d9a18968b86e2a022adeda63960044c6c6c"
+    },
+    {
+      "page": 7,
+      "english_sha256": "303161670026f4185166ac1023822b51e0e99e24a911f1cf53be509fdfa48f0b",
+      "thai_sha256": "61b0ad36f23a3a03ea541b5ef3ed0a5f921f907f3638933d613596f8309e65b4"
+    },
+    {
+      "page": 8,
+      "english_sha256": "6496856b680d71b6f04ca3f1aeeb9cb07110200cae0765fb00878a7a1097ef2c",
+      "thai_sha256": "0222c42e18484685199bb9005b71df081cc9e7605ad6bcffba2c972fe07fb186"
+    },
+    {
+      "page": 9,
+      "english_sha256": "8cef8123316db59f082aa97e4a8029625b711ec5b6ea14640d52e31986a6164d",
+      "thai_sha256": "43b1a2f6f717eba9ba478cf1faa7b93966a2d9f0b6dc1fd17e6ae0ae99f8d2f8"
+    },
+    {
+      "page": 10,
+      "english_sha256": "398df62b9bb362619d3941179fe8f07f74383dd5835710b45aea6ba02772f1fe",
+      "thai_sha256": "72a6473ac6208561e038a74aad1755ba2fa8aba1804acec6813dc98b1e069b5c"
+    },
+    {
+      "page": 11,
+      "english_sha256": "3a712f09c8252c676493f0067f0f61d8e11fec57311be4d89f7e263a97a8bc85",
+      "thai_sha256": "c10fe4a4cca479b9e974683ee0e4ab948f1d2369f27913d199a53e9bdd399638"
+    },
+    {
+      "page": 12,
+      "english_sha256": "a08e185a3da7abccf04ce35d7877f8149bc173dc8de13dd4c8293ea73c96e8bb",
+      "thai_sha256": "12a44d4c25f0ca27f668648da7cc0a923d7ffb1a524bdeb9031034d07f580d10"
+    },
+    {
+      "page": 13,
+      "english_sha256": "cf2bfb08ec9a95ec54b4e6e17616fb7317229b9e97c49aaed2777d5aaea67c7d",
+      "thai_sha256": "5167e7bc85800863a7094764968f1425fec2695eec19b57df93500879d7b7bcf"
+    },
+    {
+      "page": 14,
+      "english_sha256": "51991c022b5e6816ada9f9eb52151d920a521346bd3de060d218876ee3f56dcd",
+      "thai_sha256": "78dd6a6cf4b300e0da0acb026bb84f3eb40bac9946da07a0a524ff74bf1d69cd"
+    },
+    {
+      "page": 15,
+      "english_sha256": "c006f26a95e40da9bbcf9b468970209cc87e8884bc5cfc007db9a73289266db7",
+      "thai_sha256": "426ee9982dbddbd8c9d8f7a48b377a6a8a0a3e7871063e4a89a86caa870bf9d3"
+    },
+    {
+      "page": 16,
+      "english_sha256": "06c27020362738b8d29ae351e9b9a221638e51d9135fb676fc8347f28ee429ca",
+      "thai_sha256": "06f46416323c50ff742dc893f2a7e6314e0796c89e42cbd6e0162c50bd2efd6e"
+    },
+    {
+      "page": 17,
+      "english_sha256": "e24e73b86f1c3ee088961aea3010afb75ddeb0390c69bdc3654a3e13c7fa1dac",
+      "thai_sha256": "b225115f892a19b3acf68ca298e8dad35d56e900bc029a3ff9b63cda78e3edcb"
+    }
+  ],
+  "new_main_fields": 0,
+  "new_thai_book_pages": 17,
+  "thai_reuse_pages": 0,
+  "fonts_build_version_package_feed": "unchanged; not tested/claimed ready",
+  "whole_book_total_proven": false,
+  "old_suites_rerun": false
+}

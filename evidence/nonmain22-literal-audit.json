@@ -1,0 +1,1482 @@
+{
+  "batch": "GOAL7 NEW nonMAIN22 literal107",
+  "baseline_source": "f2a469dbff82a2b68d569bbb2b16ad2041a74ba4",
+  "baseline_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "source_parts": [
+    {
+      "issue": 3482,
+      "part": 1,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3482",
+      "created_at": "2026-11-14T07:59:11Z",
+      "updated_at": "2026-11-14T07:59:11Z",
+      "comments": 0,
+      "body_sha256": "017cc560fd48bb6e3e3c623d31494bb030181ead75de5fdd0d16dfdc69545169",
+      "body_chars": 4772,
+      "compressed_sha256": "6d9ac44498a5f05e11fd7eeb818e03b52000f2a96d24e2dac77eafa6646835d8",
+      "decoded_sha256": "a1b350dabdf6a3e70023a4d657a01869a26830c989f315eac08e706367d362a0",
+      "decoded_bytes": 10344,
+      "records": 23,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3483,
+      "part": 2,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3483",
+      "created_at": "2026-11-14T07:59:28Z",
+      "updated_at": "2026-11-14T07:59:28Z",
+      "comments": 0,
+      "body_sha256": "7e5dfcad314cf89730b2f50709b44abf6b89020e7196a0f8478f6a52d2cdd644",
+      "body_chars": 4732,
+      "compressed_sha256": "dba67709f5de4a9b8923102972f1b985851170f9578c9000547d5bdc196d385b",
+      "decoded_sha256": "fbe7af249c747974b1ebf296932c5b89df3710b745f098e67215c1b7f6cd93fe",
+      "decoded_bytes": 10279,
+      "records": 25,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3484,
+      "part": 3,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3484",
+      "created_at": "2026-11-14T07:59:41Z",
+      "updated_at": "2026-11-14T07:59:41Z",
+      "comments": 0,
+      "body_sha256": "1b40d916e73c50de3523025952cca54a5dfafb7b0f2bb817218004d4fea6f3f7",
+      "body_chars": 4876,
+      "compressed_sha256": "a20f6429732675db88fb157b06131dbfb30f5662afb5a477e6f85f04548bce07",
+      "decoded_sha256": "36c854a3a0c23aab481eaf4f1725c3af4cdadd3ac83b104878b55bea94067f18",
+      "decoded_bytes": 12496,
+      "records": 34,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3485,
+      "part": 4,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3485",
+      "created_at": "2026-11-14T08:00:10Z",
+      "updated_at": "2026-11-14T08:00:10Z",
+      "comments": 0,
+      "body_sha256": "e2c586256941723d85bb680cd3dd8e724dd5b07dd62fdfbd5d31788af80e6371",
+      "body_chars": 4788,
+      "compressed_sha256": "e42624bf14e4b2d4cac18de7cf39a33a91f48241ae61a2921e6c14b587ffb11d",
+      "decoded_sha256": "a6009e2f8ae06b62c7ec302ab38e388f3fc0defb4b735585dabaab6e18830745",
+      "decoded_bytes": 9925,
+      "records": 20,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3486,
+      "part": 5,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3486",
+      "created_at": "2026-11-14T08:00:22Z",
+      "updated_at": "2026-11-14T08:00:22Z",
+      "comments": 0,
+      "body_sha256": "a84adf9074abea2fa21c162a9d0e952f50f0ea12224dc38d6c3890e4f2b38d08",
+      "body_chars": 4848,
+      "compressed_sha256": "e8d6e5b00f7e65fc0b206c66caeabfe4564ec4b9d04a557d07e239c305f7d1af",
+      "decoded_sha256": "001d9f1e1ff0ca18b9e1fb6c0dd576687f13f75618da95d492c6828d6b204237",
+      "decoded_bytes": 10927,
+      "records": 26,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    },
+    {
+      "issue": 3487,
+      "part": 6,
+      "total_parts": 6,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3487",
+      "created_at": "2026-11-14T08:00:39Z",
+      "updated_at": "2026-11-14T08:00:39Z",
+      "comments": 0,
+      "body_sha256": "9c86dd3c4c523292d586e21223e8ec0808a5058b34dfd0dd372ea6733284c99b",
+      "body_chars": 3572,
+      "compressed_sha256": "e0d61484e67e1b74f9ccb8729723ab8130629ad83d74f6d3652ab1d7314d82b2",
+      "decoded_sha256": "cca96a1ae24bd3d6acb59968d9d6824bdeccf1b24f84316b08d292c9b1010cd8",
+      "decoded_bytes": 8816,
+      "records": 23,
+      "document_keys": [
+        "addon",
+        "build",
+        "lines",
+        "locale",
+        "npcs",
+        "v"
+      ],
+      "attachment_urls": []
+    }
+  ],
+  "header": {
+    "v": 1,
+    "addon": "0.1.11",
+    "build": "70938",
+    "locale": "enUS"
+  },
+  "per_row_build": "unknown; export header is not per-row proof",
+  "input_records": 107,
+  "excluded_token_held_gossip": 14,
+  "counts": {
+    "gossip_supported": 89,
+    "book_supported": 1,
+    "new_qualified_book_pages": 17,
+    "new_qualified_gossip": 0,
+    "unproven": 0,
+    "privacy_held_within_selected_literals": 0,
+    "unsupported_route": 0
+  },
+  "runtime_routes": "Full actual Events.lua registered GOSSIP_SHOW/QUEST_GREETING/ITEM_TEXT_READY handlers; Catalog/Match own-ID or title/page/fullbody lookup; mocked UI output only, no Speech namespace",
+  "book_reuse_audit": {
+    "existing_title_keys": 292,
+    "existing_numeric_page_records": 879,
+    "unmatched_full_bodies_compared": 17,
+    "matching_prior_full_bodies": 0,
+    "new_title_key": true
+  },
+  "main_new_fields": 0,
+  "new_thai_pages": 17,
+  "reused_thai_pages": 0,
+  "review_batch_size": 17,
+  "remaining_qualified_items_outside_batch": 0,
+  "source_api": {
+    "repository": "quinn-dougherty/forever-vo",
+    "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+    "Events_blob": "4f59bda0c2124dbdc8a1c8d16b69414db9d762a8",
+    "Capture_blob": "800225bbb17a24b4db93bd22cefdb7af635ed6df",
+    "Export_blob": "7c28c454aeb8cd8df5d1d7d2c8c711b2433f83f2",
+    "book": "ITEM_TEXT_READY reads title/page/fulltext and records kind book, event page; export preserves t/p/x. No reader identity used.",
+    "gossip": "GOSSIP_SHOW reads C_GossipInfo.GetText; QUEST_GREETING reads GetGreetingText. CurrentSpeaker signed GUID key is stored as npc and exported n. Compared only through runtime npcs/objects route."
+  },
+  "limitations": [
+    "Book page numbers are observed; capture arrival order is not page order. Observed pages1–17 do not prove total pages/fullbook completeness.",
+    "No quest/level/zone/story association inferred. No current-enabled inventory or real Windows/MacM2 game validation.",
+    "No new font/build/version/package/feed at wording-review stage. MAIN21 approved variant preserved. Raw capture/reader metadata stays private."
+  ],
+  "rows": [
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 1
+      },
+      "english_sha256": "8d2a5dab012e533934e568da1d644cb51bffa0e78bb28b6045a63f28152a5509",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 238,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 3
+      },
+      "english_sha256": "ad1c92f94bd317af00749ad6f2cf399a73076a05a9ed43824f6c96f854cc3907",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 234,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 4
+      },
+      "english_sha256": "09888d28d90660fb5917457153384986ff377a5a4dbb4601db6cbba0f74a312a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2457,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 5
+      },
+      "english_sha256": "ba84be8b227f0fb5603ac0b0e724e8fcb9ac5b64606edfbe5f6d89a56fc974b0",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 68,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 6
+      },
+      "english_sha256": "452bbbaa06533c38c662f21f0d77f116e738ada9210251a197686ab16691fe49",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2327,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 7
+      },
+      "english_sha256": "07f526ba423c0c0f490ddbcf40b8de1d49b4809caf563b8fc87a3bf3e6a65293",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5505,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 8
+      },
+      "english_sha256": "3807128d2606a9f3774e3687f1b8325c041d7815611415e7f6eeca46da06dceb",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1292,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 9
+      },
+      "english_sha256": "943d62abc577d8d79feb8376f61d4052921da8441359550e1d92adb8623dd04d",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "supported",
+      "book_title": "The New Horde",
+      "page": 1
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 10
+      },
+      "english_sha256": "1b6d1db21b90d9aafdb03d182bfa0b5e821572088e3ea064aa55a95f2e0d9aaf",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2504,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 12
+      },
+      "english_sha256": "2c0e09eb1ac6a3714fb6b11fcb15ce67caf1fc0e3504cbeaf2f3929febc81260",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 268568,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 16
+      },
+      "english_sha256": "c99d153f183f64cc9a066fd8e3a8e5eab15b8b62cbcfa1cfd46cae27f7ed3606",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 235,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 17
+      },
+      "english_sha256": "0d743ef2a5a15b0eaac6819ff6d4ee9fa152ff76165ead29e5afcbeafa9f014d",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 1
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 18
+      },
+      "english_sha256": "0a434724ceb51fa925ab313f83cb09676d8b8640db3e8d0f2c567e3c5a2a916a",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 2
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 19
+      },
+      "english_sha256": "c4c53468131f92ea2f101cc01ea509f8a02ad1b25f13920ceec47b846353dd5d",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 3
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 20
+      },
+      "english_sha256": "e1a1d9e3f278e3830cff8d2d6131329ec0497fea72d4e0ddcb8e3d53a522f650",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 5
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 21
+      },
+      "english_sha256": "5fd25d3940d0d257e8169228b7ddc89bb12be7aff3590bb0b0c998c268d52dd7",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 4
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3482,
+        "line_index": 22
+      },
+      "english_sha256": "47c24dd34c8884f15ab44e6141924bf634db837ca565da9c100934f49fbe3ddc",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 6
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 0
+      },
+      "english_sha256": "8cef8123316db59f082aa97e4a8029625b711ec5b6ea14640d52e31986a6164d",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 9
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 1
+      },
+      "english_sha256": "3a712f09c8252c676493f0067f0f61d8e11fec57311be4d89f7e263a97a8bc85",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 11
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 2
+      },
+      "english_sha256": "6496856b680d71b6f04ca3f1aeeb9cb07110200cae0765fb00878a7a1097ef2c",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 8
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 3
+      },
+      "english_sha256": "303161670026f4185166ac1023822b51e0e99e24a911f1cf53be509fdfa48f0b",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 7
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 4
+      },
+      "english_sha256": "398df62b9bb362619d3941179fe8f07f74383dd5835710b45aea6ba02772f1fe",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 10
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 5
+      },
+      "english_sha256": "a08e185a3da7abccf04ce35d7877f8149bc173dc8de13dd4c8293ea73c96e8bb",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 12
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 6
+      },
+      "english_sha256": "c006f26a95e40da9bbcf9b468970209cc87e8884bc5cfc007db9a73289266db7",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 15
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 7
+      },
+      "english_sha256": "e24e73b86f1c3ee088961aea3010afb75ddeb0390c69bdc3654a3e13c7fa1dac",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 17
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 8
+      },
+      "english_sha256": "cf2bfb08ec9a95ec54b4e6e17616fb7317229b9e97c49aaed2777d5aaea67c7d",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 13
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 9
+      },
+      "english_sha256": "51991c022b5e6816ada9f9eb52151d920a521346bd3de060d218876ee3f56dcd",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 14
+    },
+    {
+      "kind": "book",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 10
+      },
+      "english_sha256": "06c27020362738b8d29ae351e9b9a221638e51d9135fb676fc8347f28ee429ca",
+      "event_hook": "ITEM_TEXT_READY",
+      "status": "qualified_new_book_page_pending_wording_review",
+      "book_title": "The Dark Portal and the Fall of Stormwind",
+      "page": 16
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 14
+      },
+      "english_sha256": "1030b3e9a45c53f8083c7c97b64b8fab6e14eb2031eb537ee5db823bad3638aa",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1325,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 19
+      },
+      "english_sha256": "289740f14eaae5dd11bf732ba35de79085ae51311a546ee0b0ec525900f10add",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11026,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 20
+      },
+      "english_sha256": "cef0297d947b5473805edf186acd853fa257c06224170197986050e8560bba37",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 7232,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 22
+      },
+      "english_sha256": "300d2412ebeb5174568b58d10ffb8111ce2ba6d49637b66d512e8a65ef486997",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1416,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 23
+      },
+      "english_sha256": "373574788ad138b472813c01a58ea0aed819628044af22a175a6bd235c8b757a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11799,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3483,
+        "line_index": 24
+      },
+      "english_sha256": "8a651bfb9e91e52491044d2b62994c6097d6417d7f6a5177ba0638ff0e0efee4",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11832,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 0
+      },
+      "english_sha256": "3ca1326283588772360d04a05732b5513ddfefc7b76a4f99c8c6f6ca0c53960a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11800,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 1
+      },
+      "english_sha256": "f10b4b95cff6ea35238610f3333e677a7a13ecb608e70a255f93cf2e297ccb3f",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 8931,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 3
+      },
+      "english_sha256": "268ebd438ef451a1fbe0f34733f33e0f17213aec1dccbd7722389ea4beafcae1",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 253092,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 7
+      },
+      "english_sha256": "97e271075a465855e1af0b2af2652d8e9137ab8384b3c42f9041382f55c9ee7a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11800,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 8
+      },
+      "english_sha256": "524b0e4986cd8f10f184ded0a2568bef456dd430bc4cb7714db1b916849839d9",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 10118,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 10
+      },
+      "english_sha256": "5f016dc60d91df973bc235146c3f86b9975ee170966ccbbd1be95415a5179faf",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 3607,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 11
+      },
+      "english_sha256": "1fb1983199ec44505d2c4d2a2c002e6dea5d760e57b851f956a5d88d0c892b30",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 3838,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 12
+      },
+      "english_sha256": "c54bbcc2fd09f9e43d3b76ec833d4295cdf55719b6ed6de64e3e74450cf9537f",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 68,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 13
+      },
+      "english_sha256": "5f016dc60d91df973bc235146c3f86b9975ee170966ccbbd1be95415a5179faf",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1680,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 14
+      },
+      "english_sha256": "b0da286f0e31bd883ba16a021102e931a161690c6364f75bb8879ae0890e8f90",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 68,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 15
+      },
+      "english_sha256": "82dc9b5ddeeb74afa901fe6b3a113666d21e51244aba742228062bf779abf0af",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 68,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 16
+      },
+      "english_sha256": "bb1e20694d34a87bed892dcafb0758d3d2b42a83fe5621029e06613e4ac7df68",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 68,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 17
+      },
+      "english_sha256": "0bed2ea02696799c3e7953ed655aa53ae569b1786a7c656d2eb8d0877c70ee52",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5494,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 18
+      },
+      "english_sha256": "0863825818667fdcfde8f484d6e26027643f6e163e1c6ff517a635d2f24f8b8b",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5494,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 19
+      },
+      "english_sha256": "20826f79169bb801fbb548ac9af5e474fb919203e4689caa31d3b5f8f80a7177",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5493,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 20
+      },
+      "english_sha256": "951bf98b3c872892b8b04103171fbb505747ec059f2febc17343d0d46ba05413",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5482,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 21
+      },
+      "english_sha256": "044625bcb03d33eab1be991d95a8e8314166edc81207b0dc4fafe27040adec65",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1327,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 22
+      },
+      "english_sha256": "08f01a297fcb103381f01bc3066224cfa8cd31d20683a69b6763b0aefa6bca43",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5483,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 23
+      },
+      "english_sha256": "a27c46c1d03ebbc01c86070d7fb4de5bc5c56c8d6c94893b6e797422734a9fd6",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5482,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 24
+      },
+      "english_sha256": "0bed2ea02696799c3e7953ed655aa53ae569b1786a7c656d2eb8d0877c70ee52",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1286,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 26
+      },
+      "english_sha256": "433dca5a36b7966b3a3436ebe83a5ec08d76e0ca1544ba608535f74de553608a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1571,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 29
+      },
+      "english_sha256": "0863825818667fdcfde8f484d6e26027643f6e163e1c6ff517a635d2f24f8b8b",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1285,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 30
+      },
+      "english_sha256": "0bed2ea02696799c3e7953ed655aa53ae569b1786a7c656d2eb8d0877c70ee52",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1287,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 31
+      },
+      "english_sha256": "8e070c1c3c63d59d5a0d12d25e449f1f45713ed026e1ef7e3ab9a0ed07231abc",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 1646,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 32
+      },
+      "english_sha256": "a696698ee1f093ac4862ee2421103e8d0fd17ebb8d4dee068b1030b163da44e8",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 491,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3484,
+        "line_index": 33
+      },
+      "english_sha256": "f4958e44c588c248907cfa10c0d08ca87f3e033baf4ec879de8445643ae697af",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5595,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 0
+      },
+      "english_sha256": "85775bea7267a7d54fbf91231e51bc9fc72eec5822751019496cc69fc0d839c2",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1572,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 1
+      },
+      "english_sha256": "0863825818667fdcfde8f484d6e26027643f6e163e1c6ff517a635d2f24f8b8b",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 3518,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 3
+      },
+      "english_sha256": "e60241ec6e9ea4b6cc3e3c54f911e6b9b643473ab6e3075af37dfbcdf92db49e",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14822,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 4
+      },
+      "english_sha256": "6b4d016e370c1adfabfcd84dc507f1d64509053dc7a278e05a7d6f2f45dc528f",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14822,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 7
+      },
+      "english_sha256": "8eade5b099b5ec12b8ba48bf2b51f2dbd4886d7603c1fdec5e6022624fae926f",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14844,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 8
+      },
+      "english_sha256": "f46a90f6a29747722da4aa0a7657e9f85e7f6bf146ac9f737f08a93d6703fb58",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14845,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 10
+      },
+      "english_sha256": "b3e1151f18eb49dd7bf0e8d396a9e85b5740d6640e1f48c5363c828b37b9106e",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14841,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 12
+      },
+      "english_sha256": "7243531b16cbe244a0c58176585b9a3ada1b6ddd6db3ccefe503c76aa407ace3",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14847,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 13
+      },
+      "english_sha256": "ec70e453f6e663ea180ce22415fecce4fc6b37211c1d48d01b127d0f3185ef3c",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14846,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 15
+      },
+      "english_sha256": "2b3dd2cf37c5c4b4f3bc5a5846baa67aa86cc4d35b345401032bc3ada177852a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 10445,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 16
+      },
+      "english_sha256": "298186cc3639b70d77470183c0be10d615f92740f94b76a767927a56950704bd",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14828,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3485,
+        "line_index": 19
+      },
+      "english_sha256": "7893c885e5cb8414916c6ba4885bb361726c251494ccde13b78ed44743adf294",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14829,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 3
+      },
+      "english_sha256": "1080775b56bab608544a8d68bc9db10d18d5221a90c062d613fb651484e6b472",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14844,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 4
+      },
+      "english_sha256": "e4cb33d40059f201190361517dae86c0ea9c5d302766bf3fb57072d10063cb2c",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14845,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 5
+      },
+      "english_sha256": "2511d717bf441542648278ed655be9f07aaf5f1350264a60bb8ff49ae7ae794c",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 15303,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 6
+      },
+      "english_sha256": "8c1f84b20d09f73c28825a083a14cd7bed4c9c19cb3c2ff3ccb8aa6879a0c994",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 15303,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 7
+      },
+      "english_sha256": "17796f96f6be30efc63b022f8fc0be0539b00b27bd780bb95040f4ffbd9ae3f5",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2456,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 8
+      },
+      "english_sha256": "eaeceab9f2ffebb26f2f74f13ab456f2e03a3afa6e4a95ed78a571685bc9b999",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 352,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 9
+      },
+      "english_sha256": "58938c0b91088b4c452695551bc49c976fe3c19ff20c0d405c9c5ac21cbd9b54",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 249713,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 10
+      },
+      "english_sha256": "f10b4b95cff6ea35238610f3333e677a7a13ecb608e70a255f93cf2e297ccb3f",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 6740,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 11
+      },
+      "english_sha256": "12b7f729ffb23e41d0aaa10a896e6ff8f59deb467b9d04692416212280f17e9a",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 656,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 12
+      },
+      "english_sha256": "96f3e475fd253ccf6a4dca488a789eae1eaeec2d70333453db20311735264e94",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11096,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 14
+      },
+      "english_sha256": "42f6d019136616d2d5763085aba877484827f389de15a59564893a5a9f4c883a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 14833,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 17
+      },
+      "english_sha256": "09888d28d90660fb5917457153384986ff377a5a4dbb4601db6cbba0f74a312a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2456,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 18
+      },
+      "english_sha256": "91ea5a053493f8f45d40afe73c5beacab87162915f8ba7f0a36065db28bf68fd",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 1070,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 19
+      },
+      "english_sha256": "6784ec722fc72c0a61dc95ce3375ec64d416a8991ff2c28fdea399113104f817",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 415,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 22
+      },
+      "english_sha256": "baba3468726e7c84985b091b46ff19548524294f8499dcea0bdbeabbd59c3b34",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 8965,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 23
+      },
+      "english_sha256": "64b63fe103c3f8cbcec0e6bc22d6df6eef860e7bdc43a357c6524c7bf7fb59bf",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 8962,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3486,
+        "line_index": 25
+      },
+      "english_sha256": "60694ce33b9d446e7d9d6bee4f091ef00f459ba99bd2622dbb0bbd5df5d1cd20",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 352,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 0
+      },
+      "english_sha256": "6d6eba42560d367cd4c539e5d531c54ef796e5781df673c314609049e9deafb1",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 256390,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 3
+      },
+      "english_sha256": "c00187ec9ea1d0db6d35b9348f4c3014848a20e336c7984df9cf1b36be460fa8",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 256734,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 4
+      },
+      "english_sha256": "04b0da2108d266653ef2195b36c8ba4ec0a7837cb7f3db5587d8c9980520ec4c",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11096,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 5
+      },
+      "english_sha256": "ff0bb0d5c57549e06b3a4855c87fd27fc12feca43191d079324be613421e3689",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5564,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 6
+      },
+      "english_sha256": "08f01a297fcb103381f01bc3066224cfa8cd31d20683a69b6763b0aefa6bca43",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5565,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 7
+      },
+      "english_sha256": "0863825818667fdcfde8f484d6e26027643f6e163e1c6ff517a635d2f24f8b8b",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1286,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 8
+      },
+      "english_sha256": "17796f96f6be30efc63b022f8fc0be0539b00b27bd780bb95040f4ffbd9ae3f5",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2455,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 9
+      },
+      "english_sha256": "cc0074329b78eb2bce44427df13c548eb2d560ba26ef3b58956d828f3e112c0e",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 6491,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 10
+      },
+      "english_sha256": "febf8c755ba0aab73bcf2de18a68c6dbc9ca4edb35029df93ea1bdbf682b17e0",
+      "event_hook": "QUEST_GREETING",
+      "status": "supported",
+      "npc_or_object_id": 382,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 11
+      },
+      "english_sha256": "433dca5a36b7966b3a3436ebe83a5ec08d76e0ca1544ba608535f74de553608a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 931,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 12
+      },
+      "english_sha256": "38dad38c27d478f0bfeed803d54f590f4369875a8c4bac4930f096be99118b33",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 523,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 13
+      },
+      "english_sha256": "0863825818667fdcfde8f484d6e26027643f6e163e1c6ff517a635d2f24f8b8b",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1287,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 14
+      },
+      "english_sha256": "6743f5c69b22793112bb4ee7b07da7e7fab0905f3abdce93337b1dbc8fe64f9c",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11865,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 16
+      },
+      "english_sha256": "fbe6bff10c2bd025b445ec0d8fc11bfb364b53c6a7e0a3001bdc0bdcb6eeacfd",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 13084,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 17
+      },
+      "english_sha256": "2f48e40ab5274d72c5a355ef7aaad7d81aa7fce2ea4479cf86d1184e6c77359c",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 1348,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 18
+      },
+      "english_sha256": "07f526ba423c0c0f490ddbcf40b8de1d49b4809caf563b8fc87a3bf3e6a65293",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 5504,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 21
+      },
+      "english_sha256": "d81a25f04dee55dd4498c06f1cc7de265c3e0e3db2bb7ad3d0016a350dae1ae1",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 11867,
+      "namespace": "npcs"
+    },
+    {
+      "kind": "gossip",
+      "source_position": {
+        "issue": 3487,
+        "line_index": 22
+      },
+      "english_sha256": "09888d28d90660fb5917457153384986ff377a5a4dbb4601db6cbba0f74a312a",
+      "event_hook": "GOSSIP_SHOW",
+      "status": "supported",
+      "npc_or_object_id": 2455,
+      "namespace": "npcs"
+    }
+  ]
+}
