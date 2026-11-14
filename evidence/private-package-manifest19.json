@@ -174,5 +174,8 @@
   "windows_mac_m2_in_game_verified": false,
   "actual_game_or_launcher_run": false,
   "final_catalog_sha256": "29d0c0643fb88c16d3bb456a3d1de7f2fa8b431dc6086d815d8a2d941b189b21",
-  "unique_quest_ids": 20
+  "unique_quest_ids": 20,
+  "source_commit": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "runtime_git_tree": "f1a166910d91323937bb739ab869f4dfd87fc1c3",
+  "candidate_revision": "private-main19-0.466.0"
 }
