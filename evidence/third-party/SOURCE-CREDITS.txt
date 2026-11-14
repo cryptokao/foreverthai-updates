@@ -1,5 +1,0 @@
-Audit inputs only; no snapshot is merged into runtime.
-Main data: tyler3497/forever-quests, pin 9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af, GPL-3.0.
-Derived from QuestieDB, TrinityCore Forever and NorgannonDB as described in upstream README/manifest.
-Separate ForeverDB snapshot: Data from ForeverDB.net (https://foreverdb.net), build1.60.1.70707, 3862 listed IDs; API meta6614 is not coverage.
-Historical/emulation records and Classic fallbacks do not prove current Forever text or playability.
