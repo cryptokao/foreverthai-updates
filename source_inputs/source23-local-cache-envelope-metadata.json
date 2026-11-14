@@ -1,0 +1,188 @@
+{
+  "source_label": "Readonly local Forever QuestCache snapshot; raw bytes remain private",
+  "bytes": 28512,
+  "sha256": "2c8412fd62dda79bafdb716ee425eafe38d84c94c3f0aead5a5d358460615554",
+  "magic": "TSQW",
+  "header_build": 70938,
+  "header_bytes": 24,
+  "envelope_validation": "27record IDs equal firstpayloadID; complete bounds/sentinel consumed",
+  "records": [
+    {
+      "id": 116,
+      "payload_bytes": 1335,
+      "payload_sha256": "cb57f1ab91dbf495d0bf3ea90fa97391da33c54b1b47992303198207691b091f",
+      "untyped_spans": []
+    },
+    {
+      "id": 70,
+      "payload_bytes": 1159,
+      "payload_sha256": "a13088cadd8201e7cd8a15488be2e59c788c200416d88f5c0dde30cb7219deee",
+      "untyped_spans": []
+    },
+    {
+      "id": 249,
+      "payload_bytes": 1126,
+      "payload_sha256": "415e1d2ae2f049b1668ccbc9ef3d0c8589821620f26fcb373290358f315e0ff1",
+      "untyped_spans": []
+    },
+    {
+      "id": 228,
+      "payload_bytes": 904,
+      "payload_sha256": "2dbae4c1ddf8c9d9b8a4a939f19843e4b4d18be805873e792db89a370d37c6cf",
+      "untyped_spans": []
+    },
+    {
+      "id": 2923,
+      "payload_bytes": 903,
+      "payload_sha256": "63d5c9064d42c69b87cca2e968a4f3d4dbc682fd3260f9f08e334cb1fc0c8d74",
+      "untyped_spans": []
+    },
+    {
+      "id": 156,
+      "payload_bytes": 1102,
+      "payload_sha256": "f1f03f49190fff81feced9fe7ed6bf6f11a90029ff454f5759702fb312eabab8",
+      "untyped_spans": []
+    },
+    {
+      "id": 353,
+      "payload_bytes": 1125,
+      "payload_sha256": "c5ab913de2fe3779c6d84f9c197c6252fa81518e694547ab3beae59e6346dc6a",
+      "untyped_spans": []
+    },
+    {
+      "id": 8374,
+      "payload_bytes": 1170,
+      "payload_sha256": "21d4b0bac08d7f79057c9cc9b3bbb08858adba9f02a528fd8b3188d812dea272",
+      "untyped_spans": []
+    },
+    {
+      "id": 1078,
+      "payload_bytes": 1130,
+      "payload_sha256": "8757500a7c319766b63470c993404963de52a9d0ce69f3f64c28400fe1473003",
+      "untyped_spans": []
+    },
+    {
+      "id": 253,
+      "payload_bytes": 1149,
+      "payload_sha256": "f5ea75da7dfc2900325936e8e39575f611022a445859c94fa401de3feb74d322",
+      "untyped_spans": []
+    },
+    {
+      "id": 948,
+      "payload_bytes": 867,
+      "payload_sha256": "ef95117a4453e69837b4f314c8bcfc1634309b32d2a2d0039b4fdc8fbda88e9c",
+      "untyped_spans": []
+    },
+    {
+      "id": 2928,
+      "payload_bytes": 1088,
+      "payload_sha256": "685d37608d39d82fece4a6d9683673326f3a7ced1116c10e868fec224c528005",
+      "untyped_spans": []
+    },
+    {
+      "id": 1653,
+      "payload_bytes": 1064,
+      "payload_sha256": "e4a1a2e2e29c256d97b35ba454aaac11cb78a5ea09b5e34b5ac28e983dc457fa",
+      "untyped_spans": []
+    },
+    {
+      "id": 97894,
+      "payload_bytes": 1226,
+      "payload_sha256": "1bb96723dcd22186df1be1c0bacda88355862c1b9e12c8ff79a47978ac2cd189",
+      "untyped_spans": []
+    },
+    {
+      "id": 337,
+      "payload_bytes": 952,
+      "payload_sha256": "63af618cd622c12de22a5410ff4e67c440436221854600fc132611c8b9b41fdb",
+      "untyped_spans": []
+    },
+    {
+      "id": 729,
+      "payload_bytes": 1084,
+      "payload_sha256": "562eb9a4d50e4eaf36a5ceabf657db4030ea943e6d920469584e6bdf98c01fd2",
+      "untyped_spans": []
+    },
+    {
+      "id": 453,
+      "payload_bytes": 876,
+      "payload_sha256": "dfbd4b22526def4841b1bf2b304a599e01d54ac5325af486f5644371b2998fe0",
+      "untyped_spans": []
+    },
+    {
+      "id": 79008,
+      "payload_bytes": 811,
+      "payload_sha256": "8ffd783d1f228df87c7516edc531d42210ea9edcc4e25d9cd507ea5571439882",
+      "untyped_spans": []
+    },
+    {
+      "id": 8399,
+      "payload_bytes": 1138,
+      "payload_sha256": "23b2c866b953bf24d53f579cd7db22e92fe37f64a23a1b3fd6875030a2931b22",
+      "untyped_spans": []
+    },
+    {
+      "id": 386,
+      "payload_bytes": 1123,
+      "payload_sha256": "ef4cb9a94a0ca356deb58f29c8fe790e93a2ceddba1a706c160711c84710b62e",
+      "untyped_spans": []
+    },
+    {
+      "id": 221,
+      "payload_bytes": 976,
+      "payload_sha256": "9f23550fa36601dbdad992cd20df86e7b82a07fb1affb2f64ac9f0d71ec78939",
+      "untyped_spans": []
+    },
+    {
+      "id": 177,
+      "payload_bytes": 937,
+      "payload_sha256": "efa289ea1a0144d9af4ec1d67e53d05ec56f5aba14810cbac8db549c5ee8a612",
+      "untyped_spans": []
+    },
+    {
+      "id": 1003,
+      "payload_bytes": 1171,
+      "payload_sha256": "a14a5a24f83a7492bdf7a0fab1b0e9d43ab851df4365b4cac8aa03221a905e8c",
+      "untyped_spans": []
+    },
+    {
+      "id": 142,
+      "payload_bytes": 930,
+      "payload_sha256": "3e078590d2003bc5d8032849b0f940f0f90159605fe52c3e63c1fbb2561fe594",
+      "untyped_spans": []
+    },
+    {
+      "id": 92489,
+      "payload_bytes": 1164,
+      "payload_sha256": "ac1faeff1cdbab33d3da4bc0a0541373204e0562f2aa44eff723a2bbdd437570",
+      "untyped_spans": []
+    },
+    {
+      "id": 240,
+      "payload_bytes": 645,
+      "payload_sha256": "2614dac2b9f67728ac768365c6412c3934a12389075918bdcb42bd9bc819044f",
+      "untyped_spans": []
+    },
+    {
+      "id": 97920,
+      "payload_bytes": 1109,
+      "payload_sha256": "83cd5ce8df594b6133258642f258895f1ccb69095d6a3e5fbfdfc4fab4cfb716",
+      "untyped_spans": []
+    }
+  ],
+  "privacy": "No raw English, player names, context, coordinates, paths, account or character data uploaded. Hash/ID/macro-marker metadata only.",
+  "limitations": "ASCII candidate spans are UNTYPEd; not a field mapping. Exact/diagnostic hash joins alone are not approval or slot-role proof. Diagnostic strips whitespace, renders $B as newline and folds only macro-code N/C/R case; never replaces literal class/race/player words. Whole-source/phase and macro semantics must be independently qualified.",
+  "primary_reference": {
+    "repository": "Stein-N/WoW-Quest-Database",
+    "commit": "8153cf7536636208c91bc88e34082d1dc1bdeac0",
+    "parser": "etl/questcache.py",
+    "blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+    "finding": "Bit-packed lengths and concatenated UTF8 tail strings explain zero ASCII-NUL spans; no field interpretation has been made by Root."
+  },
+  "public_historical_input": {
+    "path": "etl/corrections/questcache/forever/enUS.json",
+    "records": 11,
+    "build": 70124,
+    "current_enabled_inventory": false
+  }
+}
