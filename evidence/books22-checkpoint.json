@@ -14,7 +14,7 @@
   "audit": "evidence/nonmain22-literal-audit.json",
   "regression": "evidence/books22-regression.json",
   "fonts_build_version_package_feed_changed": false,
-  "latest_immutable_private": "0.466.0 MAIN19; does not include approvedMAIN21 or pendingbooks22",
+  "latest_immutable_private": "0.466.0 MAIN21 revision1 artifactd9208f6710ef3867d3dd728c1db52055185fd009; includes approvedMAIN21, excludesbooks22",
   "next_action": "Bounded cleanup finished. Await user-provided source; no polling, new audits, tests/fonts/build/version/ZIP/feed. Full GOAL incomplete.",
   "limitations": "No current enabled inventory/fullbook total/per-rowbuild/realgame acceptance proof.",
   "provenance_check": "evidence/books22-transferred-source-provenance.json",

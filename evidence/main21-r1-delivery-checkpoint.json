@@ -1,0 +1,71 @@
+{
+  "status": "PRIVATE_MAIN21_R1_DELIVERED_DOWNLOAD_BACK_VERIFIED_BOUNDED_TASK_FINISHED",
+  "version": "0.466.0",
+  "revision": "MAIN21 r1",
+  "source_commit": "814e4c7c289f46bc58b2ead3ef2a40e00a5cdb13",
+  "artifact_commit": "d9208f6710ef3867d3dd728c1db52055185fd009",
+  "artifact_branch": "codex/private-0-466-0-main21-r1-artifacts",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/ForeverThai-0.466.0-cloud-main21-r1-PRIVATE-TEST.zip",
+  "bytes": 17897675,
+  "sha256": "279efca27ec2b9a96743cfc39a8512d846ac9e055b527e53fb9dc2371ce157d5",
+  "runtime_files": 141,
+  "Catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "approved_MAIN21_exact_variant_now_installable": true,
+  "new_thai_fields_this_delivery": 0,
+  "new_prose_this_delivery": 0,
+  "main22_approved_additions": 0,
+  "books22_included": false,
+  "immutable_MAIN19_preserved": true,
+  "feed_changed": false,
+  "standing_customer_feed": "0.463.1",
+  "standing_publication_milestone": "0.470.0",
+  "verification": "Fresh actual ZIP/download-back141sourcebytes/safe paths/TOC24/module/texture references/guide/manifest/receipt/protected28. Borrowed sameCatalog MAIN21 historical1positive3negative explicitly; no fresh matcher/old suites/font generation/game execution.",
+  "remaining_source_gaps": [
+    {
+      "group": "Current enabled whole-game inventory and unknown main phases",
+      "state": "unproven",
+      "needed": "Authoritative current enabled/eligible quest+phase inventory; no percentage or missing-whole-quest denominator inferred."
+    },
+    {
+      "group": "MAIN19 held forms",
+      "state": "21typed variants and2blank rows in that bounded snapshot; not21 wholly untranslated quests",
+      "reference": "evidence/main19-checkpoint.json",
+      "needed": "Exact own-ID full typed phase source for held normalized forms; real body for blank only when phase exists."
+    },
+    {
+      "group": "MAIN21 typed description hold",
+      "quest_id": 1823,
+      "field": "description",
+      "state": "unproven normalized $c role; canonical retained",
+      "reference": "evidence/main21-issue3481-audit.json",
+      "needed": "Independent exact own-ID typed source, no role inferred from capture reader context."
+    },
+    {
+      "group": "MAIN22 sixpart MAIN",
+      "state": "30forms23exact+7diagnostic;0eligible newMAIN",
+      "reference": "evidence/main22-sixpart-audit.json",
+      "needed": "No ready main input within this assessed snapshot; diagnostic substitution is not typed source proof."
+    },
+    {
+      "group": "NEW supporting literals",
+      "state": "Gossip89already/book1already;17book pages await user-provided source,14token-held Gossip untouched",
+      "reference": "evidence/books22-checkpoint.json",
+      "needed": "User-provided book text; held identity sources require actual typed proof. No automated retry or summaries."
+    },
+    {
+      "group": "Historical missing-main phase/source variants",
+      "state": "Historical73held variants include59withcanonical already; not73missing complete quests",
+      "reference": "evidence/current-missing-inputs12.json",
+      "needed": "Exact source-record-specific typed/current full bodies; no old audit reopened."
+    },
+    {
+      "group": "Real Windows/MacM2 acceptance",
+      "state": "not yet tested by user, not failed",
+      "reference": "evidence/user-game-test-status.json",
+      "needed": "Actual user gameplay acceptance remains absent; technical integrity is not livegame validation."
+    }
+  ],
+  "known_source_ready_remaining_within_assessed_snapshots": 0,
+  "full_GOAL_complete": false,
+  "next_action": "End this bounded Cloud delivery task. No waits/polls/new audits/bookdraft retry/customer publication."
+}
