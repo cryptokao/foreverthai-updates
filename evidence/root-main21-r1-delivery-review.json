@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-14",
+  "source_checkpoint": "383cb00416b0b1069e3801c5532cadc685f3dd84",
+  "artifact": {
+    "manifest_vs_restored_source_all141_exact": true,
+    "protected_files": 28,
+    "unsafe_paths": 0,
+    "receipt_downloadback_metadata_consistent": true,
+    "artifact_commit": "d9208f6710ef3867d3dd728c1db52055185fd009",
+    "source_commit": "814e4c7c289f46bc58b2ead3ef2a40e00a5cdb13",
+    "bytes": 17897675,
+    "sha256": "279efca27ec2b9a96743cfc39a8512d846ac9e055b527e53fb9dc2371ce157d5",
+    "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/ForeverThai-0.466.0-cloud-main21-r1-PRIVATE-TEST.zip",
+    "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/INSTALL-0.466.0-MAIN21-R1-PRIVATE-TH.txt",
+    "books22_included": false,
+    "main21_variants": 1,
+    "new_thai": 0,
+    "independent_vs_MAIN19_manifest": {
+      "changed": [
+        "ForeverThai/Catalog.lua"
+      ],
+      "removed": [],
+      "unchanged": 140,
+      "font_files_identical": 108
+    }
+  },
+  "root_checks": {
+    "all141_manifest_hashes_and_sizes_equal_approved_restored_runtime": true,
+    "all28_protected_Skills_fonts_preserved": true,
+    "compared_immutable_MAIN19_hash_manifest_only_Catalog_changed": true,
+    "all108_font_files_unchanged": true,
+    "read_Thai_install_guide": true,
+    "read_Cloud_downloadback_receipt_and_matching_proof_scope": true,
+    "root_reran_tests_or_downloaded_binary": false
+  },
+  "scope": {
+    "new_thai_fields_this_revision": 0,
+    "new_main21_matching_variants_now_packaged": 1,
+    "new_approved_MAIN22_fields": 0,
+    "book17_draft_excluded_from_current_source_and_zip": true,
+    "book17_source_request_pending": true,
+    "main22_forms": 30,
+    "main22_supported_exact": 23,
+    "main22_diagnostic_only": 7,
+    "nonmain22_gossip_already_supported": 89,
+    "nonmain22_book_already_supported": 1,
+    "token_held_not_retried": 14
+  },
+  "limitations": [
+    "No current whole-game enabled inventory.",
+    "Missing main phase/typed-source proof remains.",
+    "No actual Windows/Mac M2 gameplay acceptance.",
+    "No customer publication or new semantic version."
+  ],
+  "next_source_lead": {
+    "local_readonly_questcache_header_build": 70938,
+    "records_envelopes": 27,
+    "bytes": 28512,
+    "sha256": "2c8412fd62dda79bafdb716ee425eafe38d84c94c3f0aead5a5d358460615554",
+    "fields_not_yet_mapped": true,
+    "raw_not_uploaded": true,
+    "new_primary_repo": "Stein-N/WoW-Quest-Database",
+    "pin": "8153cf7536636208c91bc88e34082d1dc1bdeac0",
+    "parser_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+    "public_enUS_cache_records": 11,
+    "public_enUS_build": 70124,
+    "not_claimed_ready_or_current_inventory": true
+  },
+  "goal": "active/incomplete; Source23 probe is an actual new primary lead, not an old audit"
+}
