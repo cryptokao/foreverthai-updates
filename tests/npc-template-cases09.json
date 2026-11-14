@@ -1,0 +1,8 @@
+[
+  {"npc_id":217412,"class":"Druid","class_id":"DRUID","english":"I can't chat for long, Druid. My subjects require constant observation.","thai":"ข้าคุยด้วยนานไม่ได้ ดรูอิด สิ่งที่ข้าศึกษาต้องได้รับการเฝ้าสังเกตอยู่เสมอ"},
+  {"npc_id":217412,"class":"Mage","class_id":"MAGE","english":"I can't chat for long, Mage. My subjects require constant observation.","thai":"ข้าคุยด้วยนานไม่ได้ จอมเวท สิ่งที่ข้าศึกษาต้องได้รับการเฝ้าสังเกตอยู่เสมอ"},
+  {"npc_id":217412,"class":"Warrior","class_id":"WARRIOR","english":"I can't chat for long, Warrior. My subjects require constant observation.","thai":"ข้าคุยด้วยนานไม่ได้ นักรบ สิ่งที่ข้าศึกษาต้องได้รับการเฝ้าสังเกตอยู่เสมอ"},
+  {"npc_id":2519,"class":"Druid","class_id":"DRUID","english":"What can these old bones do for you, Druid? Perhaps you would like to hear of a troll legend?","thai":"คนแก่คนนี้พอจะช่วยอะไรเจ้าได้บ้าง ดรูอิด? หรือเจ้าอยากฟังตำนานของโทรลล์?"},
+  {"npc_id":2519,"class":"Mage","class_id":"MAGE","english":"What can these old bones do for you, Mage? Perhaps you would like to hear of a troll legend?","thai":"คนแก่คนนี้พอจะช่วยอะไรเจ้าได้บ้าง จอมเวท? หรือเจ้าอยากฟังตำนานของโทรลล์?"},
+  {"npc_id":2519,"class":"Warrior","class_id":"WARRIOR","english":"What can these old bones do for you, Warrior? Perhaps you would like to hear of a troll legend?","thai":"คนแก่คนนี้พอจะช่วยอะไรเจ้าได้บ้าง นักรบ? หรือเจ้าอยากฟังตำนานของโทรลล์?"}
+]

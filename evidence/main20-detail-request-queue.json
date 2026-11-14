@@ -1,0 +1,291 @@
+{
+  "scope": "Metadata-only detail selection after ONE1609row title comparison; no host fetch/body translation/version/tests.",
+  "safe_input_commit": "5310edf09efd819f3d7a0f3ca96ee6b0d9ef6914",
+  "safe_input_sha256": "45aade61c0465599386996e796f3c451d8b645fbb0e47b47777b59b4b9dd66a3",
+  "source_refs": {
+    "index": "https://warcraftforever.games/quests",
+    "Root_public_detail_link_format": "https://warcraftforever.games/quests/{id}",
+    "Root_verified_examples": [
+      4641,
+      98581
+    ]
+  },
+  "counts": {
+    "rows": 1609,
+    "logged_true": 496,
+    "logged_false": 1113,
+    "logged_true_title_supported": 496,
+    "logged_true_title_unmatched": 0,
+    "logged_false_title_supported": 1109,
+    "logged_false_title_unmatched": 4,
+    "logged_true_missing_progress_ids": 86,
+    "logged_true_missing_objective": 0,
+    "logged_true_missing_description": 0,
+    "logged_true_missing_completion": 0
+  },
+  "false_unmatched_disposition": [
+    {
+      "quest_id": 1,
+      "title": "The \"Chow\" Quest (123)aa",
+      "reason": "known_developer_id"
+    },
+    {
+      "quest_id": 94898,
+      "title": "Violent Winds (Temp Disabled)",
+      "reason": "disabled_marker"
+    },
+    {
+      "quest_id": 92534,
+      "title": "jktestquest1a",
+      "reason": "explicit_developer_test_label"
+    },
+    {
+      "quest_id": 96735,
+      "title": "Toast!?",
+      "reason": "logged=false query-only, needs qualified observed own-ID proof; not auto-imported"
+    }
+  ],
+  "selected_requests": [
+    {
+      "quest_id": 91209,
+      "level": 4,
+      "title": "Continue Your Training",
+      "url": "https://warcraftforever.games/quests/91209",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L4 early custom training chain; existing authored correction ties an interaction objective. No Druid/Hunter or race claim.",
+      "priority_metadata": {
+        "cached_EG_category": 141,
+        "authored_correction_context": "-- Continue Your Training\n            [questKeys.preQuestSingle] = {},\n            [questKeys.objectives] = {{{246152,nil,Questie.ICON_TYPE_INTERACT}}},\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 96656,
+      "level": 6,
+      "title": "The Adventurer",
+      "url": "https://warcraftforever.games/quests/96656",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L6 custom Adventurer chain/breadcrumb with authored next-quest links.",
+      "priority_metadata": {
+        "cached_EG_category": 666,
+        "authored_correction_context": "-- The Adventurer\n            [questKeys.preQuestSingle] = {382},\n            [questKeys.breadcrumbForQuestId] = 96607,\n            [questKeys.nextQuestInChain] = 96607,\n            [questKeys.exclusiveTo] = {96627,96628,96630,96638,96652,96659},\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 99144,
+      "level": 7,
+      "title": "Seeking Refuge",
+      "url": "https://warcraftforever.games/quests/99144",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L7 custom escort chain; authored triggerEnd explicitly describes escort, useful observed progress-phase check.",
+      "priority_metadata": {
+        "cached_EG_category": null,
+        "authored_correction_context": "-- Seeking Refuge\n            [questKeys.triggerEnd] = {\"Escort Bareth Dawnstone out of Crusader's Outpost\", {[zoneIDs.TIRISFAL_GLADES] = {{39,48.75}}}},\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 92529,
+      "level": 8,
+      "title": "Falaath Village",
+      "url": "https://warcraftforever.games/quests/92529",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L8 Falaath Village chain, authored predecessor/next-quest links.",
+      "priority_metadata": {
+        "cached_EG_category": null,
+        "authored_correction_context": "-- Falaath Village\n            [questKeys.preQuestSingle] = {93036},\n            [questKeys.nextQuestInChain] = 92528,\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 6081,
+      "level": 10,
+      "title": "Training the Beast",
+      "url": "https://warcraftforever.games/quests/6081",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L10 Hunter priority: cached own-ID category261 plus literal hunter wording, not reader identity.",
+      "priority_metadata": {
+        "cached_EG_category": 261,
+        "authored_correction_context": null
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 94006,
+      "level": 10,
+      "title": "The Great Ursera Spirit",
+      "url": "https://warcraftforever.games/quests/94006",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L10 new-race/Druid priority: authored classIDs.DRUID and SKYBORNE_ALLIANCE+SKYBORNE_HORDE.",
+      "priority_metadata": {
+        "cached_EG_category": 263,
+        "authored_correction_context": "-- The Great Ursera Spirit\n            [questKeys.requiredClasses] = classIDs.DRUID,\n            [questKeys.nextQuestInChain] = 94638,\n            [questKeys.requiredRaces] = raceIDs.SKYBORNE_ALLIANCE + raceIDs.SKYBORNE_HORDE,\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 94913,
+      "level": 10,
+      "title": "Moonglade",
+      "url": "https://warcraftforever.games/quests/94913",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L10 Druid priority: authored classIDs.DRUID; cached own-ID category263.",
+      "priority_metadata": {
+        "cached_EG_category": 263,
+        "authored_correction_context": "-- Moonglade\n            [questKeys.requiredClasses] = classIDs.DRUID,\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    },
+    {
+      "quest_id": 6126,
+      "level": 14,
+      "title": "Lessons Anew",
+      "url": "https://warcraftforever.games/quests/6126",
+      "requested_phase": "progress",
+      "runtime_missing_fields": [
+        "progress"
+      ],
+      "canonical_presence": {
+        "quest": true,
+        "title": true,
+        "title_exact_match": true,
+        "objective": true,
+        "description": true,
+        "progress": false,
+        "completion": true
+      },
+      "priority": "L14 Druid priority: cached own-ID category263 and literal druid wording; authored giver relation.",
+      "priority_metadata": {
+        "cached_EG_category": 263,
+        "authored_correction_context": "-- Lessons Anew\n            [questKeys.startedBy_add] = {{262560}},\n        },"
+      },
+      "phase_readiness": "UNPROVEN: missing runtime slot does not establish a nonempty site/game progress phase.",
+      "giver": "Not in safeindex; Root must verify recorded giver/own-ID on page, do not infer.",
+      "source_requirement": "Only actual own-ID progress body/phase label if present; hold resolved player-name/class/race data pending independent typed proof. No raw personal capture publication."
+    }
+  ],
+  "selected_count": 8,
+  "selection_order": "Known levels4→6→7→8→10→14; focused custom chains plus explicit Druid/Hunter/Skyborne metadata. Low generic intro/turn-in slots deprioritized; no guessed levels.",
+  "already_observed_examples_not_re_requested": [
+    {
+      "quest_id": 4641,
+      "reason": "Root observed objective/description/completion, no raw progress provided; do not repeatedly fetch known sample merely because runtime progress is absent."
+    },
+    {
+      "quest_id": 98581,
+      "reason": "Root title-only sample; runtime metadata does not justify repeated old role-body request."
+    }
+  ],
+  "format_gate": "Inspect one selected representative first for an explicitly labelled progress field and any shared record schema. If a shared schema is proven not to export progress, stop progress-only requests. Absence on one quest page alone does not prove other pages lack that phase; mark that sample no-source and stay within this eight-ID queue. Never relabel description/completion as progress.",
+  "new_ready_translation_fields": 0,
+  "unknowns": [
+    "Site metadata logged boolean is not raw phase/body/build proof.",
+    "Per-row build/current enabled inventory unknown;1609is not a game denominator.",
+    "No newly untranslated objective/description/completion is established by metadata; this step requests phase evidence only."
+  ],
+  "runtime_changed": false,
+  "fonts_version_feed_changed": false,
+  "selection_policy": "Four low custom-chain probes plus four explicitly evidenced Hunter/Druid probes, sorted by known level. Not an assertion these progress phases exist.",
+  "request_status": "Completed by Root via light fallback; privacy-screened details received at mainfaa4962. No more requests/crawl.",
+  "result_reference": "main20-safe-details-comparison.json",
+  "result_summary": "18literal fields already supported;4descriptionfields withheld;0Progressheadings does not prove no game progress."
+}

@@ -1,0 +1,126 @@
+{
+  "scope": "ONE qualified pinned Forevertrace name/objectivesText join only, against actual runtime after17. No Classic/old365/592/686, source polling or auxiliary audits.",
+  "source_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+  "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+  "source_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+  "baseline_source": "f32eb64fec3047a288d1963c3476f97e2c4858af",
+  "fields_scanned": {
+    "name": 1492,
+    "objectivesText": 1394
+  },
+  "initial_counts": {
+    "already_supported_actualTranslate": 2883,
+    "unmatched_literal_for_targeted_EG": 3
+  },
+  "unmatched_literal_ids": [
+    86747,
+    91902,
+    93162
+  ],
+  "targeted_EG_commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+  "targeted_EG_file_pins": [
+    {
+      "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+      "build": "1.60.1.70888",
+      "sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99"
+    }
+  ],
+  "final_unmatched_counts": {
+    "source_ready_literal": 3
+  },
+  "records": [
+    {
+      "quest_id": 91902,
+      "field": "title",
+      "level": 60,
+      "title": "A Sealed Crate",
+      "english": "A Sealed Crate",
+      "objective_lines": null,
+      "source_row": "\n            [questKeys.name] = \"A Sealed Crate\",\n            [questKeys.startedBy_add] = {{256386,256390}},\n            [questKeys.finishedBy_add] = {{256386,256390}},\n        },\n",
+      "english_sha256": "2c5510f81eae91f6ccd6ce4a899c4272c9dae79e4ae79e2c2dbd2ed7d97d8004",
+      "status": "source_ready_literal",
+      "canonical_present": false,
+      "eg_query_level": 60,
+      "eg_comparison": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "kind": "query",
+          "english": "A Sealed Crate",
+          "exact_normalized": true
+        }
+      ],
+      "level_source": "targeted EG own-ID query",
+      "reuse_matches": [
+        {
+          "quest_id": 91907,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        },
+        {
+          "quest_id": 91900,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        },
+        {
+          "quest_id": 91904,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        },
+        {
+          "quest_id": 91905,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        },
+        {
+          "quest_id": 91906,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        },
+        {
+          "quest_id": 91901,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        },
+        {
+          "quest_id": 91899,
+          "field": "title",
+          "thai": "ลังปิดผนึก"
+        }
+      ]
+    },
+    {
+      "quest_id": 86747,
+      "field": "title",
+      "level": null,
+      "title": "Legashi Horns",
+      "english": "Legashi Horns",
+      "objective_lines": null,
+      "source_row": "\n            [questKeys.name] = \"Legashi Horns\",\n            [questKeys.finishedBy_add] = {{235903}},\n        },\n",
+      "english_sha256": "9d0a82f4d333e2bb4a73092c90e87271a67f8674a1c92d8c981535e00f332d6b",
+      "status": "source_ready_literal",
+      "canonical_present": false,
+      "eg_comparison": [],
+      "reuse_matches": []
+    },
+    {
+      "quest_id": 93162,
+      "field": "title",
+      "level": null,
+      "title": "Head of the Obliterator",
+      "english": "Head of the Obliterator",
+      "objective_lines": null,
+      "source_row": "\n            [questKeys.name] = \"Head of the Obliterator\",\n        },\n",
+      "english_sha256": "58552873047c64d3890eb6d22c487ef4e03435622ca7e8d33ccd75ebe5b55b3c",
+      "status": "source_ready_literal",
+      "canonical_present": false,
+      "eg_comparison": [],
+      "reuse_matches": []
+    }
+  ],
+  "limitations": [
+    "Unknown per-row trace build; producer provenance as17 does not prove current-enabled whole-game inventory.",
+    "Joined objective lines retain internal blank paragraphs. Only literals without roles/markers accepted; no new identity inference."
+  ],
+  "baseline_catalog_sha256": "21cacc33ac3bd9745c756d5beba4b5967370e130003607f3d3bdab8630c426cb",
+  "reproducibility": "Parser pins Catalog/Match to delivered sourcef32eb64; the single actual run used those same bytes before18append. No second join executed."
+}

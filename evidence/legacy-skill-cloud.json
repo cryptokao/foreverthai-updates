@@ -1,0 +1,52 @@
+{
+  "candidate_path": "ForeverThai-0.462.0-cloud-through-batch04-PRIVATE-TEST.zip",
+  "candidate_sha256": "785138246d531eae7d22286e26cb5ee301eb16b334c11fdfe7861caa59bf2796",
+  "source_manifest_sha256": "a8604f8394b68e7bce16c3e79fdd0b14cc514b58db9f27a2ea658c7b99f2c338",
+  "fixture_zip_sha256": "ca3559f718c688054a2f870117ad77007ad3fa3c6c8bcff0278eda38ed5706ab",
+  "scope": "Recovered nine selected Skill UI simulations plus original full-TOC bitmap/tooltip/build gates. Not NPC686 or in-game verification.",
+  "status": "passed",
+  "selected_tests_passed": 9,
+  "toc_modules": 24,
+  "stoneform_real_bitmap_passed": true,
+  "devotion_aura_160_armor_30_yards_passed": true,
+  "perception_builds_passed": [
+    "70862",
+    "70888"
+  ],
+  "unsupported_build_and_locale_gates_passed": true,
+  "fixture_manifest": [
+    {
+      "path": "tests/test_recipe_panel.py",
+      "bytes": 28323,
+      "sha256": "b6dccc017798029d95d3eaabd7e4ae82d108e9b7039ed93f14291710a8f8f563"
+    },
+    {
+      "path": "tests/test_item_tooltip.py",
+      "bytes": 84979,
+      "sha256": "6e6d3af7e5ba5568372a7bac3344bee86e35fd67adffb511f37af2c5993a7397"
+    },
+    {
+      "path": "tests/test_spellbook_metadata.py",
+      "bytes": 295077,
+      "sha256": "f3f3e54fa75995c921e25dccd104e7ec9ef51d1b3792d34837c31f087b217176"
+    },
+    {
+      "path": "reference/check_combined_launcher.py",
+      "bytes": 12440,
+      "sha256": "5d25e4eba4f239e2906fd1d9ce9a1b1217d0008b08ce0a95151e6fdb27847dd6"
+    }
+  ],
+  "selected_cases": [
+    "test_all_compiled_reviewed_recipe_names_obey_exact_lookup_gates",
+    "test_recipe_list_hover_matches_current_rank_and_clears_on_recycling",
+    "test_toc_loads_name_data_and_companion_in_dependency_order",
+    "test_real_compiled_effect_through_tooltip_callback",
+    "test_wrong_kind_wrong_item_and_replaced_live_text_fall_back",
+    "test_reviewed_base_casts_require_full_native_text_and_preserve_visible_values",
+    "test_profession_helper_titles_require_the_current_native_player_spellbook_entry",
+    "test_combat_reader_translates_only_exact_native_action_cards",
+    "test_completed_talent_reads_visible_requirements_and_preserves_native_tooltip"
+  ],
+  "source_git_commit": "20f5551",
+  "runtime_git_tree": "217a91dd4ecb4ff165b5bb5e5d21ae997d47a893"
+}

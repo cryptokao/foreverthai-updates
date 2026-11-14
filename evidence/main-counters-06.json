@@ -1,0 +1,1770 @@
+{
+  "batch": "cloud-main-counters-06",
+  "new_canonical_fields": 0,
+  "new_thai_prose_translations": 0,
+  "new_dynamic_source_forms": 34,
+  "source_repository": "https://github.com/JIVESCORP/eg-link-output-wowf",
+  "source_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "source_path": "data/wowf/1.60.1.70888/quests.enUS.json",
+  "source_file_sha256": "433fc57290a162eca1c688c277a96234d39b7198edb1326ed4d6ec8fa4a65d60",
+  "font_changes": false,
+  "scope": "All34 actionable explicit-query amount forms from compact queue, low-to-high L57–60. Existing fixed counts/wording/aliases retained. Not34 new prose translations.",
+  "fields": [
+    {
+      "quest_id": 93952,
+      "level": 57,
+      "field": "objective",
+      "english": "Defeat $1oa Deadwood Den Guardians and return to Brerufa.",
+      "thai": "กำจัดผู้พิทักษ์รัง Deadwood {world1} ตัว แล้วกลับไปหา Brerufa",
+      "signature": "7:1265997621:1189804897 W1 46:256393804:564742459",
+      "source_record": {
+        "description": "Barkskin stand on weak roots. Deadwood claw at our land, each day their rot digs deep, sinks more. We cannot hold alone. \r\n\r\nDeadwood Den guards are the brunt of their strength. If you seek our trust, strike down those who foul the wood. When their Guardians fall, the rest of their tribe will weaken. We even our odds.\r\n\r\nBring them down, for balance, and help keep Hyjal whole.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 9,
+            "id": 469631,
+            "objectId": 252063,
+            "storageIndex": 1,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Defeat $1oa Deadwood Den Guardians and return to Brerufa.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 11813,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 40000,
+              "tier": 6
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Balance Through Strength",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "9 ตัว",
+          "{world1} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95317,
+      "level": 57,
+      "field": "objective",
+      "english": "Find $1oa Fel Ash Experimentation Notes.",
+      "thai": "หาบันทึกการทดลองเถ้าเฟล {world1} ฉบับ",
+      "signature": "5:72389936:1525592206 W1 31:997526818:549721004",
+      "source_record": {
+        "conditionalDescriptions": [
+          {
+            "playerConditionId": 155127,
+            "text": "Listen, demon caster. There have been some awfully noisy visitors just up the mountain. Like you, they taint the land with their foul demon magic and experimenting with piles of ash. It's high time we investigate.\r\n\r\nBy we, I mean you.\r\n\r\nI want you to poke around and investigate their camp! See if you can bring me some notes on what your fellows have been up to. Surely with egos that large they've written something we can utilize. Perhaps they are carrying something on their person?"
+          }
+        ],
+        "description": "Listen, $c. There have been some awfully noisy visitors just up the mountain. They are tainting the land with their foul demon magic and experimenting with piles of ash. It's high time we investigate.\r\n\r\nBy we, I mean you.\r\n\r\nI want you to poke around and investigate their camp! See if you can bring me some notes on what our mysterious fel 'friends' have been up to. Surely with egos that large they've written something we can utilize. Perhaps they are carrying something on their person?",
+        "flags": 3145736,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 473176,
+            "objectId": 274396,
+            "storageIndex": 4,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Find $1oa Fel Ash Experimentation Notes.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 15750,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Notation, Notation, Notation",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "12 ฉบับ",
+          "{world1} ฉบับ"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95318,
+      "level": 57,
+      "field": "objective",
+      "english": "Slay $1oa Ashen Acolytes.",
+      "thai": "สังหารสาวกเถ้าถ่าน {world1} คน",
+      "signature": "5:1000000866:1065647852 W1 16:817327749:208105072",
+      "source_record": {
+        "description": "So in order to really disrupt operations here and get me out of this cage, we're going to have to kill four very powerful mortals. This cage has demonic wards on it that won't be dispelled until all four are dead, and that key can't be used until the wards are down.\r\n\r\nLook, you seem like |5$r that can hold your own but I'm going to need a bit more convincing that you can actually take on these stupid warlocks before I give you any good info.\r\n\r\nLike killing a ton of these warlocks for starters. Easy, no?",
+        "flags": 36700168,
+        "level": 57,
+        "minLevel": 54,
+        "nextQuestId": 95319,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 470268,
+            "objectId": 260422,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Slay $1oa Ashen Acolytes.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275836
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Taste of Ash",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "12 คน",
+          "{world1} คน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95319,
+      "level": 57,
+      "field": "objective",
+      "english": "Gather $1oa Fel-Slime Crystals and $2oa Pristine Fel-Slime Crystal.",
+      "thai": "เก็บผลึกเมือกเฟล {world1} ชิ้นและผลึกเมือกเฟลไร้ตำหนิ {world2} ชิ้น",
+      "signature": "7:451016854:1830523975 W1 24:574409986:1683979551 W2 28:1467765570:288159424",
+      "source_record": {
+        "description": "Listen, I know you can smell the fel blood pools behind me and I'm sure you've seen the crystals that grow out of them. These crystals have special properties from the ashes of Archimonde that rain down on this side of the hill.\r\n\r\nSomething about how they are formed makes them especially good at draining fel energies, which is a big problem for someone like me, but they can still have their uses.\r\n\r\nI want you to gather some for me. Try and get a few kinds. I'll know what I need when I see it.",
+        "flags": 36700168,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 472384,
+            "objectId": 274412,
+            "storageIndex": 3,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 1,
+            "id": 473186,
+            "objectId": 268990,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa Fel-Slime Crystals and $2oa Pristine Fel-Slime Crystal.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 15750,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Crystalline Collection",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "ผลึกเมือกเฟล 8 ชิ้น",
+          "ผลึกเมือกเฟล {world1} ชิ้น"
+        ],
+        [
+          "ผลึกเมือกเฟลไร้ตำหนิ 1 ชิ้น",
+          "ผลึกเมือกเฟลไร้ตำหนิ {world2} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95380,
+      "level": 57,
+      "field": "objective",
+      "english": "Gather $1oa Fel-Slime Ooze.",
+      "thai": "เก็บเมือกเฟล {world1} ก้อน",
+      "signature": "7:451016854:1830523975 W1 16:989111548:242391807",
+      "source_record": {
+        "description": "Listen here, $c. It seems we're in quite the sticky situation. I knew those blasted demon casters were up to no good, but this is far worse than I had expected.\r\n\r\nGood thing I have an idea!\r\n\r\nFor this to work I will need fel-slime from the surrounding slime creatures that can be found in the fel blood pools behind me. Not the bones or bits, just the slime! Make sure you wipe your hands after handling it. It seems to be corrosive.\r\n\r\nNot to fear, I'm sure you'll find a way to bring it back to me.",
+        "flags": 36700168,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 470469,
+            "objectId": 273008,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa Fel-Slime Ooze.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 15750,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "A Prolific Source",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "8 ก้อน",
+          "{world1} ก้อน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96262,
+      "level": 57,
+      "field": "objective",
+      "english": "Collect $1oa Prickly Pinecones under healthy trees.",
+      "thai": "เก็บลูกสนหนาม {world1} ลูกจากใต้ต้นไม้ที่ยังสมบูรณ์",
+      "signature": "8:1089852795:1107240600 W1 39:431720445:2091205256",
+      "source_record": {
+        "description": "I've known these hills since I was a hatchling. If there is one thing I know, it's that pinecones can solve a lot of problems.\r\n\r\nProbably not what you expected, eh?\r\n\r\n<The crow winks at you, conspiratorially.>\r\n\r\nGo fetch me some; it's part of a little scheme I'm hatching. I promise you it will be worth the effort.\r\n\r\nYou should be able to find them under any healthy or living tree nearby. Stay away from those corrupted ones though, those pinecones aren't any good!",
+        "flags": 34603016,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 10,
+            "id": 472654,
+            "objectId": 273304,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Prickly Pinecones under healthy trees.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 11813,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Prickly Pinecones",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "10 ลูก",
+          "{world1} ลูก"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96616,
+      "level": 57,
+      "field": "objective",
+      "english": "Collect $1oa Hyjal Silphium.",
+      "thai": "เก็บ Hyjal Silphium {world1} ต้น",
+      "signature": "8:1089852795:1107240600 W1 16:1587581778:1168817513",
+      "source_record": {
+        "conditionalDescriptions": [
+          {
+            "playerConditionId": 157027,
+            "text": "<Ortak looks alarmed as you approach but calms as it becomes clear you aren't Scourge.>\r\n\r\nYou...you are not Scourge? But you are undead? How is this possible...?\r\n\r\nWell, stranger, if you are offering to aid us here I will not turn you away. We have been trapped here since the end of the war. With the Scourge remnants to the east we have been subject to constant raids and many have fallen victim to their corruption.\r\n\r\nI would ask a favor of you, if you are willing. In the valley north of here grows an herb with blue flowers that can alleviate the pains of the infection. Gather some and bring it to me so I may help the wounded."
+          }
+        ],
+        "description": "Could this be? Travelers have returned to Hyjal!\r\n\r\nI can hardly believe it! Perhaps with your aid we will finally be freed of this place. With the Scourge remnants to the east we have been subject to constant raids and many have fallen victim to their corruption.\r\n\r\nPlease, $c. I would ask a favor of you. In the valley north of here grows an herb with blue flowers that can alleviate the pains of the infection. Gather some and bring it to me so I may help the wounded.",
+        "flags": 36700168,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 473749,
+            "objectId": 274979,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Hyjal Silphium.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "money": 11813,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Herbs for the Bruised and Weary",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "12 ต้น",
+          "{world1} ต้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96992,
+      "level": 57,
+      "field": "objective",
+      "english": "Look through the burned buildings in the Cradle of Tranquility for $2oa Metal Brackets and $1oa Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+      "thai": "ค้นอาคารที่ถูกไฟไหม้ใน Cradle of Tranquility หา Metal Bracket {world2} ชิ้น และตะปู (Nails) {world1} ตัว แล้วนำกลับไปให้ Johun «Punchy» Dillas ใน Hyjal",
+      "signature": "67:1769196724:1172831083 W2 20:1167232608:188918535 W1 52:1517631221:1930193378",
+      "source_record": {
+        "description": "You know, they packed enough tools to get the essentials started, but there's never enough fastening material. Only so much cordage-winding my hands can take.\r\n\r\nResourcefulness is even better than being prepared.\r\n\r\nTake an empty bag to the burned-down remains of the alliance buildings around the Cradle of Tranquility southwest of here, and fill it with as many nails and brackets as you can find in the ashes.",
+        "flags": 33554440,
+        "level": 57,
+        "minLevel": 54,
+        "nextQuestId": 92593,
+        "objectives": [
+          {
+            "amount": 30,
+            "id": 474668,
+            "objectId": 276087,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 6,
+            "id": 474707,
+            "objectId": 276088,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Look through the burned buildings in the Cradle of Tranquility for $2oa Metal Brackets and $1oa Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 72,
+              "tier": 3
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Resupply",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "Metal Bracket 6 ชิ้น",
+          "Metal Bracket {world2} ชิ้น"
+        ],
+        [
+          "ตะปู (Nails) 30 ตัว",
+          "ตะปู (Nails) {world1} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 97119,
+      "level": 57,
+      "field": "objective",
+      "english": "Bring $1oa Savory Stag Sliders to Ortak Lomgok in Elderwild.",
+      "thai": "นำ Savory Stag Slider {world1} ชิ้นไปให้ Ortak Lomgok ใน Elderwild",
+      "signature": "6:1273960851:929420321 W1 50:1898821453:1337982466",
+      "source_record": {
+        "description": "In addition to seeing to the spiritual needs of the people here, I feed them as well. I'm not exactly a trained cook, but after five years, I've learned a thing or two about preparing food!\r\n\r\nI'm sure that folks here would love a taste of something different. I remember, before we assembled on the mountain, there was a goblin from Everlook who was serving platters of tiny, Savory Stag Sliders... I would love to taste one of those again. We have plenty of stags up here, too! Think you can cook some up?",
+        "flags": 3145736,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 475123,
+            "objectId": 250065,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Savory Stag Sliders to Ortak Lomgok in Elderwild.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 250179
+            },
+            {
+              "count": 2,
+              "itemId": 250071
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Now We're Cooking",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "6 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 90865,
+      "level": 58,
+      "field": "objective",
+      "english": "Retrieve $1oa Watcher's Eyes for Eluneth.",
+      "thai": "นำ Watcher's Eye {world1} ดวงกลับไปให้ Eluneth",
+      "signature": "9:1866698604:257786470 W1 28:386978272:467133438",
+      "source_record": {
+        "description": "Just north of here lies the ruins of battles past. A dwindling scourge presence remains.\r\n\r\nThough the mindless undead are a threat themselves, the watchers maintain a vigilant eye on those entering the area, making removal of the scourge threat even more difficult.\r\n\r\nRemove the threat by taking from these watchers that which they value most.",
+        "flags": 36700168,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 472683,
+            "objectId": 273322,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Retrieve $1oa Watcher's Eyes for Eluneth.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 17050,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Eyes of the Watchers",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "8 ดวง",
+          "{world1} ดวง"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92011,
+      "level": 58,
+      "field": "objective",
+      "english": "Scavenge the remains of the Horde base and return $1oa Frayed Wire, $2oa Scrap Metal, and $3oa Calcified Excrement to Kaylaena.",
+      "thai": "ค้นซากฐานฮอร์ด แล้วนำลวดเปื่อย {world1} เส้น เศษโลหะ {world2} ชิ้น และมูลสัตว์ที่แข็งเป็นหิน {world3} ก้อนไปให้ Kaylaena",
+      "signature": "50:330268696:322837727 W1 14:41421906:1015477557 W2 18:1174425431:1394189309 W3 33:696971179:2133647012",
+      "source_record": {
+        "description": "I'm going to need some time to sort out which plans to build first. Something I've been meaning to do is hike up to the old Horde base and see what kind of treasure can be made out of whatever trash is laying around there.\r\n\r\nIf you are heading up there, and have the space to carry it, keep your eyes peeled for scrap metal, wire, or chunks of bat... droppings! Look, it has its uses okay!\r\n\r\nYou can find the remains of the horde encampment far up the mountain, even beyond the Elderwild settlement.",
+        "flags": 264,
+        "level": 58,
+        "minLevel": 54,
+        "nextQuestId": 92328,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 463928,
+            "objectId": 250775,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 5,
+            "id": 470545,
+            "objectId": 269244,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 5,
+            "id": 470546,
+            "objectId": 269246,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Scavenge the remains of the Horde base and return $1oa Frayed Wire, $2oa Scrap Metal, and $3oa Calcified Excrement to Kaylaena.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275688
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Rubble Rummage",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "ลวดเปื่อย 5 เส้น",
+          "ลวดเปื่อย {world1} เส้น"
+        ],
+        [
+          "เศษโลหะ 5 ชิ้น",
+          "เศษโลหะ {world2} ชิ้น"
+        ],
+        [
+          "มูลสัตว์ที่แข็งเป็นหิน 5 ก้อน",
+          "มูลสัตว์ที่แข็งเป็นหิน {world3} ก้อน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92147,
+      "level": 58,
+      "field": "objective",
+      "english": "Slay $1oa Wormwing harpies on Mount Hyjal and bring their feathers to Phoebe Highfeather.",
+      "thai": "สังหารฮาร์ปี Wormwing {world1} ตัวบน Mount Hyjal แล้วนำขนของพวกมันไปให้ Phoebe Highfeather",
+      "signature": "5:1000000866:1065647852 W1 80:122454593:1057694147",
+      "source_record": {
+        "description": "I am one of the last of the Highfeathers, the true followers of Aviana. We respect and revere the Matron of the Skies, and we call the Druids of the Talon our allies.\r\n\r\nThe Wormwing harpies have overrun much of this plateau. They reject our protector Aviana, and seek only to despoil the lands around us.\r\n\r\nBlood has been spilled and must be repaid. Scatter their feathers to the wind.",
+        "flags": 36700168,
+        "level": 58,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 18,
+            "id": 470470,
+            "objectId": 268997,
+            "storageIndex": 3,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Slay $1oa Wormwing harpies on Mount Hyjal and bring their feathers to Phoebe Highfeather.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 20029,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Highfeather Helper",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "18 ตัว",
+          "{world1} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92449,
+      "level": 58,
+      "field": "objective",
+      "english": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+      "thai": "กำจัดทหารที่ถูกลืม {world1} นายและ Fleshflay Ravener {world2} ตัว",
+      "signature": "10:1223070807:902181099 W1 24:1505297700:407451765 W2 20:1083164469:198373251",
+      "source_record": {
+        "description": "Ever since we escaped the war we have struggled to secure our safety, surrounded by foes on all sides, beset by constant danger.\r\n\r\nOur old holdout to the east is overrun with undead. These scourge meander mindlessly--a sad but dangerous remnant. Without the guidance of their commanders, they are lost... but still deadly.\r\n\r\nThough we've tried, we have yet to succeed in eliminating their presence. At the very least, with your help, we can push them back to secure our safety... for now.",
+        "flags": 36700168,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 3,
+            "id": 472778,
+            "objectId": 249247,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 12,
+            "id": 472459,
+            "objectId": 249228,
+            "storageIndex": 4,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275438
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Blight No More",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "ทหารที่ถูกลืม 3 นาย",
+          "ทหารที่ถูกลืม {world1} นาย"
+        ],
+        [
+          "Fleshflay Ravener 12 ตัว",
+          "Fleshflay Ravener {world2} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 93827,
+      "level": 58,
+      "field": "objective",
+      "english": "Collect $1oa Enchanted Harpy Amulet and return to Thobon Sapclaw.",
+      "thai": "เก็บเครื่องรางฮาร์ปีลงมนตร์ {world1} ชิ้น แล้วกลับไปหา Thobon Sapclaw",
+      "signature": "8:1089852795:1107240600 W1 53:1970786859:59788036",
+      "source_record": {
+        "description": "The mountain winds bring dark signs. Harpies nest high where our paws do not go. The gems they wear hold strong power. Bound with our charms, they guard us from curse and bind the spirits to our wards.\r\n\r\nBut the climb is hard, and the harpies strike with claw and storm. If you are strong like they say, go to the high crags where the wind screams. Harpy grounds are in mid land Hyjal, we see them fly above us, in the north east. Take the charms from the sky witches and bring them to me.",
+        "flags": 8,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 16,
+            "id": 467538,
+            "objectId": 263028,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Enchanted Harpy Amulet and return to Thobon Sapclaw.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 21175,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 7
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Windswept Wards",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "16 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95026,
+      "level": 58,
+      "field": "objective",
+      "english": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+      "thai": "กำจัด Forgotten Soldier {world1} ตัว และ Fleshflay Ravener {world2} ตัว",
+      "signature": "10:1223070807:902181099 W1 24:1505297700:407451765 W2 20:1083164469:198373251",
+      "source_record": {
+        "description": "Escapin' war don't mean we be safe here. Dem creatures to da east been plaguin' da area all dis time.\r\n\r\nMaybe you be ready for a challenge, eh?\r\n\r\nStrike 'em down. Ain't nobody gonna be missin' dem after all.",
+        "flags": 36700168,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 3,
+            "id": 472793,
+            "objectId": 249247,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 12,
+            "id": 472465,
+            "objectId": 249228,
+            "storageIndex": 2,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 276341
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Blight No More",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "Forgotten Soldier 3 ตัว",
+          "Forgotten Soldier {world1} ตัว"
+        ],
+        [
+          "Fleshflay Ravener 12 ตัว",
+          "Fleshflay Ravener {world2} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96252,
+      "level": 58,
+      "field": "objective",
+      "english": "Collect $1oa Tarnished Highfeather Bangles from Wormwing Harpy nests.",
+      "thai": "เก็บ Tarnished Highfeather Bangle {world1} ชิ้นจากรังฮาร์ปี Wormwing",
+      "signature": "8:1089852795:1107240600 W1 57:1790649684:1322961952",
+      "source_record": {
+        "description": "$C, I would ask a favor of you. One that is deeply personal.\r\n\r\nWhen they ambushed and killed my sisters, the Wormwings took their jewelry claiming these treasures as trophies of battle. What's worse, they've stashed our treasures in their nests with their unborn young; further proof of their depravity.\r\n\r\nPlease collect my fallen sisters' treasures. Avoid harming the unhatched eggs if you can, but I'll lose no sleep over the broken eggs of our enemies.",
+        "flags": 36700168,
+        "itemDrops": [
+          {
+            "count": 1,
+            "itemId": 273164
+          }
+        ],
+        "level": 58,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 472623,
+            "objectId": 273164,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Tarnished Highfeather Bangles from Wormwing Harpy nests.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275831
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Tarnished Treasures",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "8 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96296,
+      "level": 58,
+      "field": "objective",
+      "english": "Find and remove $1oa Corrupted Knots from the trees nearby.",
+      "thai": "ค้นหาและแกะปุ่มปมที่แปดเปื้อน {world1} ปุ่มออกจากต้นไม้ใกล้ ๆ",
+      "signature": "16:2025424710:1027151333 W1 39:1217646959:2076089195",
+      "source_record": {
+        "description": "<The second you near the pulsing nodule it falls from the tree, exposing a weeping green sap. It seems the tree has corruption within its bark that has spread deep, but the tree is not yet dead.\r\n\r\nLooking around it is clear it has spread to some of the surrounding trees, but not all suffer from the same level of corruption.\r\n\r\nPerhaps it is not too late to save the infected trees nearby.\r\n\r\nSurely the Highfeathers would be grateful if you remove as many corrupted knots as you can find.>",
+        "flags": 36700168,
+        "level": 58,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 472745,
+            "objectId": 651430,
+            "storageIndex": 1,
+            "type": "gameObject",
+            "typeId": 2
+          }
+        ],
+        "objectivesText": "Find and remove $1oa Corrupted Knots from the trees nearby.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 12788,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Fetid Corruption",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "6 ปุ่ม",
+          "{world1} ปุ่ม"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96957,
+      "level": 58,
+      "field": "objective",
+      "english": "Collect $1oa Sun-Bleached Bones.",
+      "thai": "รวบรวม Sun-Bleached Bone {world1} ชิ้น",
+      "signature": "8:1089852795:1107240600 W1 20:2063730035:514959206",
+      "source_record": {
+        "description": "Listen, mortal. Though it may not appear a glorious job, those that are under my wing help keep the natural balance. We return many essential nutrients to the soil, allowing for new life.\r\n\r\nThese undead have disrupted the cycle here and have driven off those that seek shelter under my wings. While you are out there being the little murderous creature you are, would you collect some bones for me?\r\n\r\nI would like to rebuild the nests of my children and followers so we may feast when this blight has ended.",
+        "flags": 36700168,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 20,
+            "id": 474606,
+            "objectId": 275927,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Sun-Bleached Bones.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 12788,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Bone Sweet Bone",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "20 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 97264,
+      "level": 58,
+      "field": "objective",
+      "english": "Remove $1oa Elder Shardtooth from nearby areas, then return to Sarna Brownhorn.",
+      "thai": "กำจัดหมี Shardtooth แก่ {world1} ตัวในบริเวณใกล้เคียง แล้วกลับไปหา Sarna Brownhorn",
+      "signature": "7:180480527:620071683 W1 68:628232801:615756687",
+      "source_record": {
+        "description": "The Shardtooth are becoming more rabid every season. They compete with each other and the predators of the wilds for what limited food sources they can reach.\r\n\r\nMore often, they attack us, hunger driving their aggression in the bitter cold.\r\n\r\nThe bears are numerous and strong-willed. With their numbers reduced, the families that remain will grow stronger than ever.\r\n\r\nHelp them on their way. Cull the eldest of them.",
+        "flags": 8,
+        "level": 58,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 475661,
+            "objectId": 7445,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Remove $1oa Elder Shardtooth from nearby areas, then return to Sarna Brownhorn.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "money": 17050,
+          "reputation": [
+            {
+              "factionId": 81,
+              "tier": 3
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Shardtooth Pulling",
+        "zoneAreaId": 618
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "12 ตัว",
+          "{world1} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 91794,
+      "level": 59,
+      "field": "objective",
+      "english": "Collect $1oa Horde Flag and $2oa Scraps of Horde Heraldry for Kal'tinzan at Elderwild.",
+      "thai": "เก็บธงฮอร์ด {world1} ผืนและเศษตราสัญลักษณ์ฮอร์ด {world2} ชิ้นไปให้ Kal'tinzan ที่ Elderwild",
+      "signature": "8:1089852795:1107240600 W1 16:549303383:252963458 W2 54:1543158932:1352209388",
+      "source_record": {
+        "description": "We been stuck up here for years, always fighting against de Scourge, but we never lose hope. We fight to survive. We fight for da Horde. Da Alliance shares dis fight, but we never forget dat we still got history. Still got blood.\r\n\r\nFar to da east, at Dae'gun, dere are Horde flags from da war. Da demons carry scraps and remains as trophies from da battle, especially da tough ones. Bring me a flag and some heraldry so I can put it up and show da Alliance dat da Horde is still strong!",
+        "flags": 36700168,
+        "level": 59,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 473678,
+            "objectId": 253249,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 3,
+            "id": 473679,
+            "objectId": 274949,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Horde Flag and $2oa Scraps of Horde Heraldry for Kal'tinzan at Elderwild.",
+        "questInfoId": 1,
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 275742
+            },
+            {
+              "count": 1,
+              "itemId": 287077
+            }
+          ],
+          "xpDifficulty": 6,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Flags of Our Forebears",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "ธงฮอร์ด 1 ผืน",
+          "ธงฮอร์ด {world1} ผืน"
+        ],
+        [
+          "เศษตราสัญลักษณ์ฮอร์ด 3 ชิ้น",
+          "เศษตราสัญลักษณ์ฮอร์ด {world2} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92017,
+      "level": 59,
+      "field": "objective",
+      "english": "Collect $1oa Grand Hippogryph Feathers and $2oa Oily Chimaera Hair for Marn.",
+      "thai": "เก็บขนฮิปโปกริฟฟ์ใหญ่ {world1} ขนและขนไคมีรามันเยิ้ม {world2} เส้นให้ Marn",
+      "signature": "8:1089852795:1107240600 W1 31:412129462:2058705881 W2 29:1431126280:362602877",
+      "source_record": {
+        "description": "The flying creatures of the Summit still draw breath from the highest currents, where the corruption has not yet fully taken hold. Hippogryph feathers and chimaera hair drift through these winds, absorbing what the air remembers of an unspoiled land. I need these remnants to anchor and strengthen my purifying incense.\r\n\r\nGather them for me, so I may concentrate the wind's knowledge into cleansing smoke before we begin the ritual.",
+        "flags": 8,
+        "level": 59,
+        "minLevel": 56,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 463947,
+            "objectId": 274287,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 3,
+            "id": 463948,
+            "objectId": 274288,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Grand Hippogryph Feathers and $2oa Oily Chimaera Hair for Marn.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 15956,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Cleansing Winds",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "ขนฮิปโปกริฟฟ์ใหญ่ 5 ขน",
+          "ขนฮิปโปกริฟฟ์ใหญ่ {world1} ขน"
+        ],
+        [
+          "ขนไคมีรามันเยิ้ม 3 เส้น",
+          "ขนไคมีรามันเยิ้ม {world2} เส้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92169,
+      "level": 59,
+      "field": "objective",
+      "english": "Use the Staff of the Mountain on $1oa  members of the Blackthorne Pact on the Summit of Eternity to remove their wards and then kill them.",
+      "thai": "ใช้คทาแห่งขุนเขากับสมาชิก Blackthorne Pact {world1} คนที่ Summit of Eternity เพื่อสลายมนตร์คุ้มกัน แล้วจึงสังหารพวกมัน",
+      "signature": "33:1086693682:376932133 W1 100:522409538:1080978592",
+      "source_record": {
+        "description": "The Blackthorne Pact. That's what they call themselves. Apostate druids that have taken over Hyjal Summit. Violent, and extremist. They blame Malfurion Stormrage for robbing them of their immortality, and have sworn to reclaim the power that they were forced to relinquish. I did not understand the magic that empowered them before, but it's becoming clear now.\r\n\r\nTake the staff, use it on the Blackthorne druids around the mountain. It should respond to and dispel the wards protecting them.",
+        "flags": 36700160,
+        "level": 59,
+        "minLevel": 54,
+        "nextQuestId": 92833,
+        "objectives": [
+          {
+            "amount": 10,
+            "id": 480575,
+            "objectId": 7386,
+            "storageIndex": 1,
+            "text": "Slay Blackthorne Pact Members",
+            "typeId": 21
+          },
+          {
+            "amount": 1,
+            "id": 480576,
+            "objectId": 236501,
+            "storageIndex": 2,
+            "text": "Test the Staff of the Mountain",
+            "type": "criteriaTree",
+            "typeId": 14
+          },
+          {
+            "amount": 1,
+            "id": 480577,
+            "objectId": 267079,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Use the Staff of the Mountain on $1oa  members of the Blackthorne Pact on the Summit of Eternity to remove their wards and then kill them.",
+        "questInfoId": 1,
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 31769,
+          "reputation": [
+            {
+              "factionId": 2765,
+              "tier": 6
+            }
+          ],
+          "xpDifficulty": 6,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "startItemId": 267079,
+        "title": "Paying Back the Pact",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "10 คน",
+          "{world1} คน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92960,
+      "level": 59,
+      "field": "objective",
+      "english": "Retrieve $1oa Ephemeral Essences for Elaena Moonwhisper.",
+      "thai": "นำแก่นพลังชั่วครู่ {world1} ชิ้นไปให้ Elaena Moonwhisper",
+      "signature": "9:1866698604:257786470 W1 43:789239478:1770287331",
+      "source_record": {
+        "description": "A lingering demon presence remains to the east. Among them are the hellish beasts responsible for ravaging our kin, siphoning their power to use it against our allies.\r\n\r\nPenetrate their camp, locate these beasts and slay them. Retrieve any samples that remain.\r\n\r\nPerhaps there is something we can learn from these efforts.",
+        "flags": 36700168,
+        "level": 59,
+        "minLevel": 54,
+        "nextQuestId": 96003,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 471580,
+            "objectId": 271220,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Retrieve $1oa Ephemeral Essences for Elaena Moonwhisper.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 22713,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Siphoned Ephemeral Essence",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "6 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95793,
+      "level": 59,
+      "field": "objective",
+      "english": "Slay $1oa Felguard Sentinels in Dae'gun.",
+      "thai": "สังหารทหารยามเฟลการ์ด {world1} ตนใน Dae'gun",
+      "signature": "5:1000000866:1065647852 W1 31:324064037:1503807921",
+      "source_record": {
+        "description": "Ah, a $c. I see great strength and determination in you--qualities necessary to rid these lands of evil.\r\n\r\nThe demons that walked these lands during the great battle were defeated, yet some still remain. It is important to prevent them from escaping.\r\n\r\nThe ruins to the east are dangerous. Carry your strength into their den. Destroy the unwelcome before our lands perish.",
+        "flags": 36700168,
+        "level": 59,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 471579,
+            "objectId": 249229,
+            "storageIndex": 2,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Slay $1oa Felguard Sentinels in Dae'gun.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 20556,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Stemming the Demon Tide",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "12 ตน",
+          "{world1} ตน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96971,
+      "level": 59,
+      "field": "objective",
+      "english": "Collect $1oa Abandoned Supplies.",
+      "thai": "รวบรวม Abandoned Supplies {world1} ชุด",
+      "signature": "8:1089852795:1107240600 W1 20:86177217:718641492",
+      "source_record": {
+        "description": "Say, while you're out and about prancing in my lands, would you mind doing me a favor?\r\n\r\nOnce the war had been won, many of the various armies up and left. For whatever reason, they decided some of their supplies were not worth taking. That, or they all died. Who could say?\r\n\r\nRegardless, these supplies are of use to my kits and me. Unfortunately they also tend to be where the demons are. Take this tuft of fur with you and use it on the demons to distract them while you grab the tools.",
+        "flags": 36700160,
+        "itemDrops": [
+          {
+            "count": 1,
+            "itemId": 275957
+          }
+        ],
+        "level": 59,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 474622,
+            "objectId": 275958,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Abandoned Supplies.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 13800,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "startItemId": 275957,
+        "title": "To Outfox a Demon",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "8 ชุด",
+          "{world1} ชุด"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 97009,
+      "level": 59,
+      "field": "objective",
+      "english": "Bring $1oa Felhound Spikes to Maerion Thaelemaches in Dae'gun.",
+      "thai": "นำหนามเฟลฮาวด์ {world1} ชิ้นไปให้ Maerion Thaelemaches ที่ Dae'gun",
+      "signature": "6:1273960851:929420321 W1 52:1631233865:352917737",
+      "source_record": {
+        "description": "Left bleeding and abandoned--thrown aside so an army could flee. I was meant to die buying them moments. \r\n\r\nInstead, I was cursed to endure, forced to watch ever-burning demons finish what steel could not. This is my fate.\r\n\r\nBut something is changing. Horde and Alliance return to this desecrated mountain, and war stirs again.\r\n\r\nMy fury answers it. \r\n\r\nIf yours does as well, prove it. Bring me two handfuls of felhound spikes from these Defiling Hounds.\r\n\r\nThe pain will align our wills.",
+        "flags": 35651592,
+        "level": 59,
+        "minLevel": 56,
+        "nextQuestId": 97010,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 474726,
+            "objectId": 276100,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Felhound Spikes to Maerion Thaelemaches in Dae'gun.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 18400,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Maerion's Misery",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "12 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 97403,
+      "level": 59,
+      "field": "objective",
+      "english": "Kill $1oa Chillwind Ravagers and return to Rilan Howard in northern Winterspring.",
+      "thai": "สังหาร Chillwind Ravager {world1} ตัว แล้วกลับไปหา Rilan Howard ทางเหนือของ Winterspring",
+      "signature": "5:409775429:850574908 W1 72:1432929490:811863033",
+      "source_record": {
+        "description": "These chimaeras are a cruel joke. Two tongues, both foul, snarling frost and hunger. As if this wasteland needed more teeth.\r\n\r\nThis clearing is all we have, constantly overcome by storms before we can settle further. The two-headed Chillwind Ravagers circle us, testing our resolve, bleeding our time.\r\n\r\nWe spend more hours driving them back than building anything of worth.\r\n\r\nCull them. Break their presence here. With fewer prowling beasts, we may yet carve something lasting from this frozen waste.",
+        "flags": 8,
+        "level": 59,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 15,
+            "id": 475865,
+            "objectId": 7449,
+            "storageIndex": 1,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Kill $1oa Chillwind Ravagers and return to Rilan Howard in northern Winterspring.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "money": 18400,
+          "reputation": [
+            {
+              "factionId": 68,
+              "tier": 3
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Two-Headed Ravagers",
+        "zoneAreaId": 618
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "15 ตัว",
+          "{world1} ตัว"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 92859,
+      "level": 60,
+      "field": "objective",
+      "english": "Bring $1oa Winterspring Chimaera Fur and $2oa Winterspring Owl Feathers to Evie Whirlbrew.",
+      "thai": "นำขนไคมีราแห่ง Winterspring {world1} ชิ้นและขนนกฮูกแห่ง Winterspring {world2} ขนไปให้ Evie Whirlbrew",
+      "signature": "6:1273960851:929420321 W1 31:265937012:1456749158 W2 45:1695960425:400809076",
+      "source_record": {
+        "description": "Folks have been trying to get onto Mount Hyjal since the end of the war, but there's one big problem... all the demons in Darkwhisper Gorge!\r\n\r\nI think I have the solution. A concoction made from locally-sourced ingredients might be able to make the drinker blend in with the Winterspring surroundings so that creatures here can't see you as easily.\r\n\r\nI'd love to test this theory, if you're game for bringing me a few small things!",
+        "flags": 8,
+        "level": 60,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 477789,
+            "objectId": 281241,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 5,
+            "id": 477790,
+            "objectId": 281242,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Winterspring Chimaera Fur and $2oa Winterspring Owl Feathers to Evie Whirlbrew.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 3,
+              "itemId": 281234
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Shroud of the Winter Wilds",
+        "zoneAreaId": 618
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "ขนไคมีราแห่ง Winterspring 5 ชิ้น",
+          "ขนไคมีราแห่ง Winterspring {world1} ชิ้น"
+        ],
+        [
+          "ขนนกฮูกแห่ง Winterspring 5 ขน",
+          "ขนนกฮูกแห่ง Winterspring {world2} ขน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 93584,
+      "level": 60,
+      "field": "objective",
+      "english": "Kill $1oa Blackthorne Adepts and $2oa Wild-branded Cultists.",
+      "thai": "สังหาร Blackthorne Adept {world1} คน และ Wild-branded Cultist {world2} คน",
+      "signature": "5:409775429:850574908 W1 24:169406741:573264668 W2 23:1634452034:865251579",
+      "source_record": {
+        "description": "The lands surrounding the Well of Eternity are overrun with followers of the Wild King. Many once stood beside us, bound by the same oaths, but their devotion has curdled into reckless zeal. They actively hinder our efforts to tend Nordrassil and protect the Well.\r\n\r\nI will not pretend this is easy, nor that my hands will be clean. Still, we cannot allow them to harm our land or strike our flank when the greater incursion begins.\r\n\r\nThin their ranks swiftly, and may Elune forgive what necessity demands.",
+        "flags": 36700168,
+        "level": 60,
+        "minLevel": 56,
+        "objectives": [
+          {
+            "amount": 10,
+            "id": 470403,
+            "objectId": 249551,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 10,
+            "id": 472977,
+            "objectId": 264570,
+            "storageIndex": 1,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Kill $1oa Blackthorne Adepts and $2oa Wild-branded Cultists.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 24300,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Cult Closure",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "Blackthorne Adept 10 คน",
+          "Blackthorne Adept {world1} คน"
+        ],
+        [
+          "Wild-branded Cultist 10 คน",
+          "Wild-branded Cultist {world2} คน"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 95790,
+      "level": 60,
+      "field": "objective",
+      "english": "Collect $1oa Partially Digested Journal Pages from the Shaper's Terrace.",
+      "thai": "รวบรวม Partially Digested Journal Page {world1} แผ่นจาก Shaper's Terrace",
+      "signature": "8:1089852795:1107240600 W1 60:1075877959:337755293",
+      "source_record": {
+        "description": "<This journal seems to have been torn to shreds. From what little you can make out, it looks as if this was a field journal of one of the unfortunate Explorers' League adventurers.\r\n\r\nChew marks on the outside of the journal suggest it was likely raptors.\r\n\r\nPerhaps its pages can be found and reassembled.>",
+        "flags": 33554688,
+        "itemDrops": [
+          {
+            "count": 15,
+            "itemId": 271972
+          }
+        ],
+        "level": 60,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 15,
+            "id": 471874,
+            "objectId": 271972,
+            "storageIndex": 4,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Partially Digested Journal Pages from the Shaper's Terrace.",
+        "questInfoId": 81,
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 279931
+            },
+            {
+              "count": 1,
+              "itemId": 279901
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 47,
+              "tier": 5
+            },
+            {
+              "factionId": 72,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 2.675
+        },
+        "sources": 1,
+        "title": "Digestible Research",
+        "zoneAreaId": 16985
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "15 แผ่น",
+          "{world1} แผ่น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 96303,
+      "level": 60,
+      "field": "objective",
+      "english": "Use the Enchanted Branch to release $1oa wisps around Nordrassil.",
+      "thai": "ใช้กิ่งไม้ลงมนตร์ (Enchanted Branch) ปลดปล่อยวิสป์ {world1} ดวงรอบ Nordrassil",
+      "signature": "36:307772620:1032705918 W1 25:431300715:1676578315",
+      "source_record": {
+        "description": "$n, the ancestral spirits called to Hyjal during the great battle weren't all lost. Some linger still, drawn to Nordrassil after the great sacrifice. These wisps have stayed within the root canopy that hangs over the well, trapped in a state of purgatory between this world and the next.\r\n\r\nUse this enchanted branch to bring peace to these wisps, joining their memories with eternity.\r\n\r\nYou need not release them all yourself. Recover the will of five and return the branch to us.",
+        "flags": 0,
+        "level": 60,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 472842,
+            "objectId": 264715,
+            "storageIndex": 0,
+            "text": "Wisp released",
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 1,
+            "id": 472978,
+            "objectId": 273857,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Use the Enchanted Branch to release $1oa wisps around Nordrassil.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "startItemId": 273857,
+        "title": "Memory Mist",
+        "zoneAreaId": 616
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "5 ดวง",
+          "{world1} ดวง"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 97049,
+      "level": 60,
+      "field": "objective",
+      "english": "Gather $1oa Seeping Slime Essence in the Shaper's Terrace.",
+      "thai": "เก็บแก่นพลังจากเมือกไหลซึม {world1} ชิ้นใน Shaper's Terrace",
+      "signature": "7:451016854:1830523975 W1 47:44491591:943006579",
+      "source_record": {
+        "description": "If you're headed into Shaper's Terrace, I would ask a favor of you.\r\n\r\nThere are reports of slimes that live in the pools by the colorless Achromatic Crystal. I believe their essence could be of use in my experiments, and would like you to bring me some samples for study.\r\n\r\nI will make it worth your while.",
+        "flags": 33554696,
+        "level": 60,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 474904,
+            "objectId": 276235,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa Seeping Slime Essence in the Shaper's Terrace.",
+        "questInfoId": 81,
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 279932
+            },
+            {
+              "count": 1,
+              "itemId": 279902
+            }
+          ],
+          "money": 9000,
+          "reputation": [
+            {
+              "factionId": 68,
+              "tier": 5
+            },
+            {
+              "factionId": 76,
+              "tier": 3
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 2.675
+        },
+        "sources": 4,
+        "title": "Essence of Seeping Slimes",
+        "zoneAreaId": 16985
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "8 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 97327,
+      "level": 60,
+      "field": "objective",
+      "english": "Enter Blackmaw Hold and recover $1oa Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.",
+      "thai": "เข้า Blackmaw Hold แล้วเก็บถุงของชาว Blackmaw {world1} ใบไปให้ Ekkal ที่ซากเมือง Eldarath ใน Azshara",
+      "signature": "32:49483545:1190608395 W1 64:1574367342:1577456805",
+      "source_record": {
+        "description": "It breaks my heart to admit, but my brothers and sisters inside Blackmaw Hold are irreparably corrupted.\r\n\r\nIf you bring me some of their personal belongings, I can at least give their families something to remember them by. Every bundle you recover will serve as a symbol of your service to my people.",
+        "flags": 264,
+        "level": 60,
+        "minLevel": 55,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 475808,
+            "objectId": 273050,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Enter Blackmaw Hold and recover $1oa Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.",
+        "questInfoId": 81,
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 24300,
+          "reputation": [
+            {
+              "factionId": 576,
+              "tier": 6
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 2.0
+        },
+        "sources": 3,
+        "title": "Blackmaw Pouches",
+        "zoneAreaId": 16554
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "5 ใบ",
+          "{world1} ใบ"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    },
+    {
+      "quest_id": 98477,
+      "level": 60,
+      "field": "objective",
+      "english": "Bring $1oa Motes of Unstable Magic to Nuara Tremorhoof.",
+      "thai": "นำ Mote of Unstable Magic {world1} ชิ้นไปให้ Nuara Tremorhoof",
+      "signature": "6:1273960851:929420321 W1 45:406756204:1150997641",
+      "source_record": {
+        "description": "Any experienced shaman who attempts to scry the elemental plane can tell you that there is a blip of sorts, a distortion that you feel as you cross over to the other realms of existence.\r\n\r\nWe have need of adventurers like yourself to help us better understand this disturbance. Take this Elemental Attractor. You will be able to extract motes of unstable magic with it from the most skilled spellcasters and other powerful entities you may encounter. Bring me these motes so that we may study them.",
+        "flags": 0,
+        "level": 60,
+        "minLevel": 48,
+        "objectives": [
+          {
+            "amount": 10,
+            "id": 477857,
+            "objectId": 274964,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Motes of Unstable Magic to Nuara Tremorhoof.",
+        "questInfoId": 1,
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "money": 33900,
+          "reputation": [
+            {
+              "factionId": 2787,
+              "override": 50000,
+              "tier": 7
+            }
+          ],
+          "xpDifficulty": 6,
+          "xpMultiplier": 1.75
+        },
+        "sources": 3,
+        "startItemId": 281371,
+        "title": "Unstable Magic",
+        "zoneAreaId": 215
+      },
+      "reviewed_named_object_replacements": [
+        [
+          "10 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Assistant full own-ID English/Thai named-object/quantity review; explicit $ioa capture only, fixed translations retained; no live total or objective storage-index mapping inferred."
+    }
+  ]
+}

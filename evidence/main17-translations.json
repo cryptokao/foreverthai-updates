@@ -1,0 +1,736 @@
+{
+  "batch": "main17",
+  "baseline_runtime_source": "1e04b81e0374c8c282c70b54508cf6c8dcc98a37",
+  "root_source_proof": "main605beb4 plus independently verified evidence/main17-source-provenance.json",
+  "fields": [
+    {
+      "quest_id": 80411,
+      "level": 50,
+      "field": "title",
+      "english": "The Talisman of Kazdor",
+      "source_row": "\n            [questKeys.name] = \"The Talisman of Kazdor\",\n            [questKeys.questLevel] = 50,\n            [questKeys.objectivesText] = {\"Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.\"},\n            [questKeys.startedBy_add] = {{6707}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "categoryId": 162,
+            "description": "From the most recent letter we intercepted, it appears the final artifact Caius desires is the Talisman of Kazdor. The letter states this talisman is somewhere inside Zul'Farrak. \r\n\r\nI want you to complete the job as per Caius' instructions, as not to arouse his suspicion. This means you'll have to go into Zul'Farrak alone, as usual.  \r\n\r\nHowever, before you deliver the Talisman, bring it back here. We'll be giving Caius a little more than he asked for.",
+            "flags": 35651584,
+            "level": 50,
+            "minLevel": 45,
+            "nextQuestId": 80453,
+            "objectives": [
+              {
+                "amount": 1,
+                "id": 447907,
+                "objectId": 217609,
+                "storageIndex": 1,
+                "type": "item",
+                "typeId": 1
+              }
+            ],
+            "objectivesText": "Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "money": 10413,
+              "xpDifficulty": 5,
+              "xpMultiplier": 1.0
+            },
+            "sources": 2,
+            "title": "The Talisman of Kazdor"
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "เครื่องรางแห่ง Kazdor",
+      "new_thai": true,
+      "reuse_from": null,
+      "english_sha256": "1d22ceac3c10cf87b1136fe1cf147dcad14ce3fe101788d508b1c5ebcb1a4922",
+      "thai_sha256": "22676e29148c5cb5099c9544d1d70509fcbbee6dab2ea8ff816aeeababf06724",
+      "signature": "22:687814829:394621005"
+    },
+    {
+      "quest_id": 80411,
+      "level": 50,
+      "field": "objective",
+      "english": "Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+      "source_row": "\n            [questKeys.name] = \"The Talisman of Kazdor\",\n            [questKeys.questLevel] = 50,\n            [questKeys.objectivesText] = {\"Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.\"},\n            [questKeys.startedBy_add] = {{6707}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "categoryId": 162,
+            "description": "From the most recent letter we intercepted, it appears the final artifact Caius desires is the Talisman of Kazdor. The letter states this talisman is somewhere inside Zul'Farrak. \r\n\r\nI want you to complete the job as per Caius' instructions, as not to arouse his suspicion. This means you'll have to go into Zul'Farrak alone, as usual.  \r\n\r\nHowever, before you deliver the Talisman, bring it back here. We'll be giving Caius a little more than he asked for.",
+            "flags": 35651584,
+            "level": 50,
+            "minLevel": 45,
+            "nextQuestId": 80453,
+            "objectives": [
+              {
+                "amount": 1,
+                "id": 447907,
+                "objectId": 217609,
+                "storageIndex": 1,
+                "type": "item",
+                "typeId": 1
+              }
+            ],
+            "objectivesText": "Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "money": 10413,
+              "xpDifficulty": 5,
+              "xpMultiplier": 1.0
+            },
+            "sources": 2,
+            "title": "The Talisman of Kazdor"
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "ตามหา Talisman of Kazdor ภายใน Zul'Farrak แล้วนำไปให้ Fahrad ที่ Ravenholdt Manor เจ้าต้องทำงานนี้เพียงลำพัง",
+      "new_thai": true,
+      "reuse_from": null,
+      "english_sha256": "7aa8a4c1ac9641b8db1af53c84263f9418082dd6522e3b93e04500e5fd594460",
+      "thai_sha256": "51a83b5445e8708b40c922e60eb0a8f1db5ebc4eabc984706856189aa3f0997a",
+      "signature": "128:1343642016:2012775328"
+    },
+    {
+      "quest_id": 80526,
+      "level": 50,
+      "field": "title",
+      "english": "Fool Me Twice",
+      "source_row": "\n            [questKeys.name] = \"Fool Me Twice\",\n            [questKeys.questLevel] = 50,\n            [questKeys.objectivesText] = {\"Speak to Fahrad when you're ready to hear his plan.\"},\n            [questKeys.startedBy_add] = {{6707}},\n            [questKeys.finishedBy_add] = {{6707}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "categoryId": 162,
+            "description": "Not a moment too soon, $n\r\n \r\nThe manor has been keeping tabs on this \"C\" character you've been dealing with. \r\n \r\nC's true identity is Caius Blackwood; a powerful magic user working with the Syndicate. Our sources say he has been gathering artifacts for an unknown purpose. Only recently did we discover *you* were the one providing them.\r\n \r\nCaius must be stopped, and I believe the onus of doing so falls on you. Fortunately, I've devised a plan. Come speak to me when you're ready to clear your name.",
+            "flags": 35651840,
+            "level": 50,
+            "minLevel": 45,
+            "nextQuestId": 80411,
+            "objectivesText": "Speak to Fahrad when you're ready to hear his plan.",
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "xpDifficulty": 1,
+              "xpMultiplier": 1.0
+            },
+            "sources": 4,
+            "title": "Fool Me Twice"
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "หลอกข้าซ้ำสอง",
+      "new_thai": true,
+      "reuse_from": null,
+      "english_sha256": "1e2524303f5b5829207a428fcdcb2e4adc9ed862259b2f218f9bc0c31bb7fce7",
+      "thai_sha256": "179ebf2fc580591439c22c421259f7101783ac64ba4217e84b8ca910a97fe0c4",
+      "signature": "13:645177950:792098211"
+    },
+    {
+      "quest_id": 80526,
+      "level": 50,
+      "field": "objective",
+      "english": "Speak to Fahrad when you're ready to hear his plan.",
+      "source_row": "\n            [questKeys.name] = \"Fool Me Twice\",\n            [questKeys.questLevel] = 50,\n            [questKeys.objectivesText] = {\"Speak to Fahrad when you're ready to hear his plan.\"},\n            [questKeys.startedBy_add] = {{6707}},\n            [questKeys.finishedBy_add] = {{6707}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "categoryId": 162,
+            "description": "Not a moment too soon, $n\r\n \r\nThe manor has been keeping tabs on this \"C\" character you've been dealing with. \r\n \r\nC's true identity is Caius Blackwood; a powerful magic user working with the Syndicate. Our sources say he has been gathering artifacts for an unknown purpose. Only recently did we discover *you* were the one providing them.\r\n \r\nCaius must be stopped, and I believe the onus of doing so falls on you. Fortunately, I've devised a plan. Come speak to me when you're ready to clear your name.",
+            "flags": 35651840,
+            "level": 50,
+            "minLevel": 45,
+            "nextQuestId": 80411,
+            "objectivesText": "Speak to Fahrad when you're ready to hear his plan.",
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "xpDifficulty": 1,
+              "xpMultiplier": 1.0
+            },
+            "sources": 4,
+            "title": "Fool Me Twice"
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "คุยกับ Fahrad เมื่อเจ้าพร้อมฟังแผนของเขา",
+      "new_thai": true,
+      "reuse_from": null,
+      "english_sha256": "8cbbbaa4915dce0c3992f7298a0845b8bfefb4eef2cffb1561ed7ccf5533a3a3",
+      "thai_sha256": "dcfd8d926d123ca52b239419a662184fe54dfa16689d877b2454c901a05dd900",
+      "signature": "51:560459793:2009024547"
+    },
+    {
+      "quest_id": 89015,
+      "level": 56,
+      "field": "title",
+      "english": "Deadliest Catch",
+      "source_row": "\n            [questKeys.name] = \"Deadliest Catch\",\n            [questKeys.questLevel] = 56,\n            [questKeys.objectivesText] = {\"Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.\"},\n            [questKeys.startedBy_add] = {{240482}},\n            [questKeys.requiredRaces] = 4294967373,\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "description": "If ye fancy yourself a real angler, there's bigger fish out here than ye can catch with a rod.\r\n\r\nMammoth Sharks lurk in the deepest waters of the northern an' southern coasts. They swim far out, right before the sea floor drops away into the great ocean.\r\n\r\nThey're mighty big; I'd advise ye take a group of anglers with ye. \r\n\r\nDwarf like me? I prefer dry land. Those sharks'd swallow me in one bite.\r\n\r\nIf ye do go hunting one, bring me a cut o' the meat. I'd be mighty thankful.",
+            "flags": 36700168,
+            "level": 56,
+            "minLevel": 50,
+            "objectives": [
+              {
+                "amount": 1,
+                "id": 459532,
+                "objectId": 238507,
+                "storageIndex": 0,
+                "type": "item",
+                "typeId": 1
+              }
+            ],
+            "objectivesText": "Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.",
+            "questInfoId": 1,
+            "questType": 2,
+            "raceMask": "55155555b1354c4d",
+            "rewards": {
+              "choices": [
+                {
+                  "count": 1,
+                  "itemId": 260210
+                },
+                {
+                  "count": 1,
+                  "itemId": 260211
+                },
+                {
+                  "count": 1,
+                  "itemId": 260212
+                }
+              ],
+              "reputation": [
+                {
+                  "factionId": 47,
+                  "tier": 5
+                }
+              ],
+              "xpDifficulty": 5,
+              "xpMultiplier": 1.0
+            },
+            "sources": 4,
+            "title": "Deadliest Catch",
+            "zoneAreaId": 16
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "เหยื่อที่อันตรายที่สุด",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 91611,
+        "field": "title",
+        "thai": "เหยื่อที่อันตรายที่สุด"
+      },
+      "english_sha256": "ab46e65c794d4b68515c39cddaa78851e07f0cbe7162b6d473c669b832089d59",
+      "thai_sha256": "4a1106db37b77745dd5011c2f97cffcb4f1b33b50040aac3d723e6e733761b63",
+      "signature": "15:988937811:1741994180"
+    },
+    {
+      "quest_id": 89015,
+      "level": 56,
+      "field": "objective",
+      "english": "Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.",
+      "source_row": "\n            [questKeys.name] = \"Deadliest Catch\",\n            [questKeys.questLevel] = 56,\n            [questKeys.objectivesText] = {\"Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.\"},\n            [questKeys.startedBy_add] = {{240482}},\n            [questKeys.requiredRaces] = 4294967373,\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "description": "If ye fancy yourself a real angler, there's bigger fish out here than ye can catch with a rod.\r\n\r\nMammoth Sharks lurk in the deepest waters of the northern an' southern coasts. They swim far out, right before the sea floor drops away into the great ocean.\r\n\r\nThey're mighty big; I'd advise ye take a group of anglers with ye. \r\n\r\nDwarf like me? I prefer dry land. Those sharks'd swallow me in one bite.\r\n\r\nIf ye do go hunting one, bring me a cut o' the meat. I'd be mighty thankful.",
+            "flags": 36700168,
+            "level": 56,
+            "minLevel": 50,
+            "objectives": [
+              {
+                "amount": 1,
+                "id": 459532,
+                "objectId": 238507,
+                "storageIndex": 0,
+                "type": "item",
+                "typeId": 1
+              }
+            ],
+            "objectivesText": "Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.",
+            "questInfoId": 1,
+            "questType": 2,
+            "raceMask": "55155555b1354c4d",
+            "rewards": {
+              "choices": [
+                {
+                  "count": 1,
+                  "itemId": 260210
+                },
+                {
+                  "count": 1,
+                  "itemId": 260211
+                },
+                {
+                  "count": 1,
+                  "itemId": 260212
+                }
+              ],
+              "reputation": [
+                {
+                  "factionId": 47,
+                  "tier": 5
+                }
+              ],
+              "xpDifficulty": 5,
+              "xpMultiplier": 1.0
+            },
+            "sources": 4,
+            "title": "Deadliest Catch",
+            "zoneAreaId": 16
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "นำ Mammoth Shark Steak หนึ่งชิ้นไปให้ Berdun Cliffbrew ที่ Talrendis Point ใน Azshara",
+      "new_thai": true,
+      "reuse_from": null,
+      "english_sha256": "7661e73e303d455a3d9f6ec8173851d524b7656e44001dd2c0d8c76d51ad2e43",
+      "thai_sha256": "8ccbc608829ef82940ead7bbd08d5405dd47738f4192e8158b436907bd757a1a",
+      "signature": "78:1438512375:1860270912"
+    },
+    {
+      "quest_id": 84147,
+      "level": 60,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "source_row": "\n            [questKeys.name] = \"An Earnest Proposition\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{21928},{16714}}},\n            [questKeys.objectivesText] = {\"Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.\"},\n            [questKeys.startedBy_add] = {{230319}},\n            [questKeys.requiredRaces] = 4294967373,\n            [questKeys.finishedBy_add] = {{230319}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "description": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+            "flags": 264,
+            "level": 60,
+            "minLevel": 58,
+            "objectives": [
+              {
+                "amount": 15,
+                "id": 451790,
+                "objectId": 21928,
+                "storageIndex": 0,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 1,
+                "id": 451791,
+                "objectId": 16714,
+                "storageIndex": 1,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 200000,
+                "id": 451792,
+                "objectId": 0,
+                "storageIndex": -1,
+                "typeId": 8
+              }
+            ],
+            "objectivesText": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+            "questInfoId": 81,
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "choices": [
+                {
+                  "count": 1,
+                  "itemId": 226796
+                },
+                {
+                  "count": 1,
+                  "itemId": 226788
+                },
+                {
+                  "count": 1,
+                  "itemId": 226782
+                },
+                {
+                  "count": 1,
+                  "itemId": 226775
+                }
+              ],
+              "money": -200000,
+              "xpDifficulty": 5,
+              "xpMultiplier": 2.0
+            },
+            "sources": 3,
+            "title": "An Earnest Proposition",
+            "zoneAreaId": 1537
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "ข้อเสนอที่จริงใจ",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 8905,
+        "field": "title",
+        "thai": "ข้อเสนอที่จริงใจ"
+      },
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "signature": "22:1183475074:147978204"
+    },
+    {
+      "quest_id": 84147,
+      "level": 60,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+      "source_row": "\n            [questKeys.name] = \"An Earnest Proposition\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{21928},{16714}}},\n            [questKeys.objectivesText] = {\"Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.\"},\n            [questKeys.startedBy_add] = {{230319}},\n            [questKeys.requiredRaces] = 4294967373,\n            [questKeys.finishedBy_add] = {{230319}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "description": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+            "flags": 264,
+            "level": 60,
+            "minLevel": 58,
+            "objectives": [
+              {
+                "amount": 15,
+                "id": 451790,
+                "objectId": 21928,
+                "storageIndex": 0,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 1,
+                "id": 451791,
+                "objectId": 16714,
+                "storageIndex": 1,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 200000,
+                "id": 451792,
+                "objectId": 0,
+                "storageIndex": -1,
+                "typeId": 8
+              }
+            ],
+            "objectivesText": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+            "questInfoId": 81,
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "choices": [
+                {
+                  "count": 1,
+                  "itemId": 226796
+                },
+                {
+                  "count": 1,
+                  "itemId": 226788
+                },
+                {
+                  "count": 1,
+                  "itemId": 226782
+                },
+                {
+                  "count": 1,
+                  "itemId": 226775
+                }
+              ],
+              "money": -200000,
+              "xpDifficulty": 5,
+              "xpMultiplier": 2.0
+            },
+            "sources": 3,
+            "title": "An Earnest Proposition",
+            "zoneAreaId": 1537
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Wildheart Bracers ให้ Deliana ที่ Ironforge",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 8905,
+        "field": "objective",
+        "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Wildheart Bracers ให้ Deliana ที่ Ironforge"
+      },
+      "english_sha256": "c987b3776ef1b3ba3dfd756b12eea957e53e66cb64b97d78c83f46399a79bda2",
+      "thai_sha256": "6e28effad430c6d4ad7dd59be47636bbf1e0ba45dd35c9888073dc1eb69c620a",
+      "signature": "127:1264190172:1983695717"
+    },
+    {
+      "quest_id": 84148,
+      "level": 60,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "source_row": "\n            [questKeys.name] = \"An Earnest Proposition\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectivesText] = {\"Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.\"},\n            [questKeys.startedBy_add] = {{230319}},\n            [questKeys.requiredRaces] = 4294967373,\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "description": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+            "flags": 264,
+            "level": 60,
+            "minLevel": 58,
+            "objectives": [
+              {
+                "amount": 15,
+                "id": 451796,
+                "objectId": 21928,
+                "storageIndex": 0,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 1,
+                "id": 451797,
+                "objectId": 16681,
+                "storageIndex": 1,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 200000,
+                "id": 451798,
+                "objectId": 0,
+                "storageIndex": -1,
+                "typeId": 8
+              }
+            ],
+            "objectivesText": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.",
+            "questInfoId": 81,
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "items": [
+                {
+                  "count": 1,
+                  "itemId": 226885
+                }
+              ],
+              "money": -200000,
+              "xpDifficulty": 5,
+              "xpMultiplier": 2.0
+            },
+            "sources": 3,
+            "title": "An Earnest Proposition",
+            "zoneAreaId": 1537
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "ข้อเสนอที่จริงใจ",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 8905,
+        "field": "title",
+        "thai": "ข้อเสนอที่จริงใจ"
+      },
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "signature": "22:1183475074:147978204"
+    },
+    {
+      "quest_id": 84148,
+      "level": 60,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.",
+      "source_row": "\n            [questKeys.name] = \"An Earnest Proposition\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectivesText] = {\"Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.\"},\n            [questKeys.startedBy_add] = {{230319}},\n            [questKeys.requiredRaces] = 4294967373,\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "build": "1.60.1.70888",
+          "file_sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99",
+          "record": {
+            "description": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+            "flags": 264,
+            "level": 60,
+            "minLevel": 58,
+            "objectives": [
+              {
+                "amount": 15,
+                "id": 451796,
+                "objectId": 21928,
+                "storageIndex": 0,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 1,
+                "id": 451797,
+                "objectId": 16681,
+                "storageIndex": 1,
+                "type": "item",
+                "typeId": 1
+              },
+              {
+                "amount": 200000,
+                "id": 451798,
+                "objectId": 0,
+                "storageIndex": -1,
+                "typeId": 8
+              }
+            ],
+            "objectivesText": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.",
+            "questInfoId": 81,
+            "questType": 2,
+            "raceMask": "ffffffffffffffff",
+            "rewards": {
+              "items": [
+                {
+                  "count": 1,
+                  "itemId": 226885
+                }
+              ],
+              "money": -200000,
+              "xpDifficulty": 5,
+              "xpMultiplier": 2.0
+            },
+            "sources": 3,
+            "title": "An Earnest Proposition",
+            "zoneAreaId": 1537
+          }
+        }
+      ],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Beaststalker's Bindings ให้ Deliana ที่ Ironforge",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 8906,
+        "field": "objective",
+        "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Beaststalker's Bindings ให้ Deliana ที่ Ironforge"
+      },
+      "english_sha256": "a7f2a68c05aa0773e0682847079eedea2f241343cca5bedb11988bcd260ae26c",
+      "thai_sha256": "c0eb0a6d8234f472a588c714ab80cdd6dd07c23e8964e3a9e2045e760007ab8a",
+      "signature": "133:1250378611:578092620"
+    },
+    {
+      "quest_id": 98462,
+      "level": 60,
+      "field": "objective",
+      "english": "Bring 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers to Evie Whirlbrew.",
+      "source_row": "\n            [questKeys.name] = \"Shroud of the Winter Wilds\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{281241},{281242}}},\n            [questKeys.objectivesText] = {\"Bring 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers to Evie Whirlbrew.\"},\n            [questKeys.startedBy_add] = {{11188}},\n            [questKeys.finishedBy_add] = {{11188}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": false,
+      "thai": "นำ Chillwind Chimaera Fur 5 ชิ้น และ Winterspring Owl Feathers 5 ชิ้นไปให้ Evie Whirlbrew",
+      "new_thai": true,
+      "reuse_from": null,
+      "english_sha256": "40f12a68d89c40f5cc35c3878a538e116051e95ff72d2fd576c7b24ca49f7bf8",
+      "thai_sha256": "fd85114daeaeedef942e8325b5370e1622d6cb8a0c54ff36a04eaddbe54ace79",
+      "signature": "81:1552226283:836010589"
+    },
+    {
+      "quest_id": 91907,
+      "level": null,
+      "field": "title",
+      "english": "A Sealed Crate",
+      "source_row": "\n            [questKeys.name] = \"A Sealed Crate\",\n            [questKeys.startedBy_add] = {{256390}},\n            [questKeys.finishedBy_add] = {{256390}},\n        },\n",
+      "source_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+      "source_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+      "eg_corroboration": [],
+      "build": "unknown_per_trace_row",
+      "new_quest_entry_required": true,
+      "thai": "ลังปิดผนึก",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 91900,
+        "field": "title",
+        "thai": "ลังปิดผนึก"
+      },
+      "english_sha256": "2c5510f81eae91f6ccd6ce4a899c4272c9dae79e4ae79e2c2dbd2ed7d97d8004",
+      "thai_sha256": "a4926d982a5cbfcaf867e2643e6ef22c33d5303804a5123545e3f481959dec7a",
+      "signature": "14:1980566332:1496368079"
+    }
+  ],
+  "new_thai_fields": 6,
+  "reused_thai_fields": 6,
+  "newly_supported_fields": 12,
+  "unique_quest_ids": 7,
+  "new_ownID_entries": 6,
+  "build": "unknown per generated trace row; ten fields separately match EG1.60.1.70888 exactly",
+  "ordering": "Known L50 thenL56 thenL60;91907title has no proven level, placed last without inventing a level.",
+  "root_wording_review": "approved unchanged main0d7e3b79",
+  "limitations": [
+    "Only title/objective fields actually present imported. No accept/progress/completion inferred.",
+    "Not a current enabled full-game inventory or in-game proof."
+  ],
+  "source_credit": "QuestieDB Forever traces (GPLv3 licensing per pinned LICENSE.md), QuestieTrace producer references; corroborating EG data CC BY4.0. Thai translations/matching are adaptations."
+}

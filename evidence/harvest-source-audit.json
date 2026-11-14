@@ -1,0 +1,35 @@
+{
+  "source": "Pimptasty / LibQuestDB 0.1.0",
+  "license": "MIT",
+  "original_release": "https://www.curseforge.com/wow/addons/questdb/files/9014639",
+  "original_zip_sha256": "5da5f5b968521d60fc1f17ca6884118e2c41053a4d2aeb96440416662044e30b",
+  "supplement_sha256": "d28107f58f0e6facdd65de59b5e46217a096002695cc829a52e3a2dd05038a16",
+  "harvest_date": "2026-09-28",
+  "interface": 16001,
+  "exact_client_build": null,
+  "core_ids": 775,
+  "text_ids": 775,
+  "outside_catalog": [
+    94898
+  ],
+  "outside_prior_union": [],
+  "field_counts": {
+    "present_title": 775,
+    "already_supported": 1672,
+    "present_objective": 723,
+    "present_objective_line1": 137,
+    "present_objective_line2": 32,
+    "hold_snapshot_or_current_binding_unconfirmed": 9,
+    "hold_placeholder_not_prose": 1,
+    "present_objective_line3": 15,
+    "hold_explicit_disabled_or_development_marker": 2,
+    "present_objective_line4": 2
+  },
+  "current_own_id_candidates": [],
+  "forbidden_prose_fields_found": 0,
+  "library_or_third_party_scripts_executed": false,
+  "scope": "Only literal harvested title/log-summary/objective lines. No Classic dump accept/progress/completion imported; not a whole-game denominator or live verification.",
+  "new_translations": 0,
+  "new_runtime_fields": 0,
+  "original_zip_rehashed_on_cloud": false
+}

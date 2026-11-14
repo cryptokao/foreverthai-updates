@@ -1,0 +1,1667 @@
+{
+  "batch": "MAIN24 proposal02",
+  "status": "ROOT_FULL_MEANING_REVIEW_PENDING_BEFORE_INTEGRATION",
+  "integrated_proposal01_fields": 38,
+  "integrated_proposal01_Catalog_sha256": "4b156776ee733b5c0b116ce7833c7470bc49cefdeb84e0bc3bf2691a11a33fa2",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "source_attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY4.0 https://creativecommons.org/licenses/by/4.0/",
+  "counts": {
+    "proposed_fields": 42,
+    "unique_quest_ids": 23,
+    "new_Thai_wording_fields": 38,
+    "exact_reviewed_Thai_reuse_fields": 4,
+    "runtime_fields_integrated_from_this_proposal": 0
+  },
+  "field_counts": {
+    "objective": 15,
+    "title": 15,
+    "description": 12
+  },
+  "ordering": "Continue existing84queue first42 fields atL53→60, carrying adjacent quest context. Unknownmetadata not guessed.",
+  "ready_before_this_proposal": 84,
+  "remaining_ready_after_this_proposal": 42,
+  "total_main24_literal_domain": 122,
+  "review_state": "38approved/source-integrated;42pendingthisproposal;42stillunproposed. No font/build/ZIP yet.",
+  "fields": [
+    {
+      "case_id": "MAIN24-02-01",
+      "quest_id": 86797,
+      "field": "objective",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Return to Gatekeeper Rageroar at Ursolan.",
+      "thai": "กลับไปหา Gatekeeper Rageroar ที่ Ursolan",
+      "english_sha256": "00a80c0691cbb30e93ec4c3281c73926c19fd48a1db29e631d29b27bb5e09056",
+      "thai_sha256": "e765817a3f8e6a2e4b5993e8e842edc591c006fb4cfd3690f19218e69014ed61",
+      "signature": "41:76124504:1881034013",
+      "rendered_linebreak_English_sha256": "00a80c0691cbb30e93ec4c3281c73926c19fd48a1db29e631d29b27bb5e09056",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86797/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-02",
+      "quest_id": 86797,
+      "field": "title",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Return to Rageroar",
+      "thai": "กลับไปหา Rageroar",
+      "english_sha256": "2ffe1c5332adbd728657e30a13a910526a4cbeadd6907474b78f3da39efcf047",
+      "thai_sha256": "281f685f33a2d51679226ba34325336cc882253076d4849a9827fc0d268fd391",
+      "signature": "18:26545863:1315613498",
+      "rendered_linebreak_English_sha256": "2ffe1c5332adbd728657e30a13a910526a4cbeadd6907474b78f3da39efcf047",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86797/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-03",
+      "quest_id": 86804,
+      "field": "description",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Furze is not the first with his affliction. Since the Legashi's attacks against us began, many Blackmaw have presented with a similar illness. Each one eventually fell to corruption, becoming mindless and destructive.\r\n\r\nI have been working towards a cure. My studies indicate that one could possibly be made by transmuting the Legashi's own firewater, but I cannot acquire it myself.\r\n\r\nYou might find firewater, or a way to brew it, in the Legashi camps to the east. You would be a great help in doing so.",
+      "thai": "Furze ไม่ใช่คนแรกที่มีอาการเช่นนี้ นับตั้งแต่ Legashi เริ่มโจมตีเรา ชาว Blackmaw หลายคนก็แสดงอาการป่วยคล้ายกัน ในที่สุดแต่ละคนต่างตกอยู่ใต้อำนาจความเสื่อมทราม กลายเป็นพวกไร้สติที่เอาแต่ทำลายล้าง\n\nข้าพยายามหาวิธีรักษาอยู่ ผลการศึกษาของข้าชี้ว่าอาจปรุงยารักษาได้ด้วยการแปรสภาพ firewater ของพวก Legashi เอง แต่ข้าไม่อาจไปเอามาได้ด้วยตัวเอง\n\nเจ้าอาจพบ firewater หรือวิธีปรุงมันในค่าย Legashi ทางตะวันออก หากเจ้าช่วยเรื่องนี้ได้ ก็จะเป็นประโยชน์อย่างยิ่ง",
+      "english_sha256": "638f3756fea3cc3c84d4bc186ffcb533b54b568a19e81ee04e89819c52c68086",
+      "thai_sha256": "bd394f1abe9a9e147406c72151f0352194dc71e5c7fa311949334b3ae292b886",
+      "signature": "501:42351149:2021046158",
+      "rendered_linebreak_English_sha256": "638f3756fea3cc3c84d4bc186ffcb533b54b568a19e81ee04e89819c52c68086",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86804/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-04",
+      "quest_id": 86813,
+      "field": "objective",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Administer Bramblesnap's Panacea to Furze.",
+      "thai": "ให้ Bramblesnap's Panacea แก่ Furze",
+      "english_sha256": "27e8de20e9518d0474e0b95da095ca47aff5bb5ff8d5eac3b880675ac17848b3",
+      "thai_sha256": "61cc5d99a1faa5db5ddb2b4205c3e57d6de7b45c905e19d431d96ad70176bc57",
+      "signature": "42:125649973:270920727",
+      "rendered_linebreak_English_sha256": "27e8de20e9518d0474e0b95da095ca47aff5bb5ff8d5eac3b880675ac17848b3",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86813/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-05",
+      "quest_id": 86813,
+      "field": "title",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Potential Panacea",
+      "thai": "ว่าที่ยาครอบจักรวาล",
+      "english_sha256": "241b437ed2036c5dd8cdb1c7c8547c25d3fc03d8be1002e26f15b51bed9c32e0",
+      "thai_sha256": "36bb7c14857523474a9b72358f8eaff12baeefde7ac58e22906354d1719cdcd6",
+      "signature": "17:1299209994:74321320",
+      "rendered_linebreak_English_sha256": "241b437ed2036c5dd8cdb1c7c8547c25d3fc03d8be1002e26f15b51bed9c32e0",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86813/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-06",
+      "quest_id": 86925,
+      "field": "description",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "It appears this cauldron could be used to brew the firewater that Elder Bramblesnap is after.\r\n\r\nIf only you knew how. Surely, one of the satyr in the Legashi Encampment must carry a recipe.",
+      "thai": "ดูเหมือนหม้อต้มนี้จะใช้ปรุง firewater ที่ Elder Bramblesnap ต้องการได้\n\nถ้าเพียงแต่เจ้ารู้วิธีทำ ซาเทียร์สักตนใน Legashi Encampment ต้องมีตำราอยู่กับตัวแน่",
+      "english_sha256": "37f6d8dc8b468a6212b9c8fca8db0daa301ddc75065a1a7e27e250006fcb2593",
+      "thai_sha256": "b548245fe2304c9fb30bcf1a9b2cfc77317a30b3674f7881dbe0867b319a4be9",
+      "signature": "187:494124952:2019217118",
+      "rendered_linebreak_English_sha256": "37f6d8dc8b468a6212b9c8fca8db0daa301ddc75065a1a7e27e250006fcb2593",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86925/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-07",
+      "quest_id": 86926,
+      "field": "description",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "The recipe reads:\r\n\r\nHarvest ye the sprout of hell\r\nbushel o' five will serve ye well\r\nmixed with mote of demon's power\r\nshall usher in their final hour",
+      "thai": "ในตำราเขียนไว้ว่า:\n\nจงเก็บหน่อแห่งนรกมา\nรวบไว้ห้าหน่อ ก็ใช้ได้ดี\nผสมด้วยละอองพลังแห่งปีศาจ\nจักพาพวกมันสู่วาระสุดท้าย",
+      "english_sha256": "4daf1927250ba5887f7eae90222db5ec83ccfa73be2f26b602adc9d95480d8ec",
+      "thai_sha256": "3f0692759a4340d51656522d0458ac980d12034a690c71cf1d9723d94706c142",
+      "signature": "146:765990615:656283116",
+      "rendered_linebreak_English_sha256": "4daf1927250ba5887f7eae90222db5ec83ccfa73be2f26b602adc9d95480d8ec",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86926/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [
+        "Recipe verse retains explicit five; no objective item IDs, counter values or macro roles inferred from the verse. Root to review poetic/unit wording against full English."
+      ],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-08",
+      "quest_id": 86926,
+      "field": "title",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Felfire Burn, Cauldron Bubble",
+      "thai": "เพลิงเฟลลุกโชน หม้อยาเดือดพล่าน",
+      "english_sha256": "c978a526e7db6cfff0e354ffe3d32cf67a57ac81bbf49cff7cf232e6c1445248",
+      "thai_sha256": "b42fc8cefa38ae9a2269106e45353c405776411ba1d8c4969c05fd8845921d68",
+      "signature": "29:1281515391:499471922",
+      "rendered_linebreak_English_sha256": "c978a526e7db6cfff0e354ffe3d32cf67a57ac81bbf49cff7cf232e6c1445248",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86926/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-09",
+      "quest_id": 86927,
+      "field": "description",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "As the satyrweed and fel mote splash into the boiling liquid, a plume of noxious gas emerges.\r\n\r\nBest to hold your nose, quickly grab a sample, and bring it back to Elder Bramblesnap.",
+      "thai": "เมื่อ satyrweed กับ fel mote กระเซ็นลงในของเหลวที่กำลังเดือด กลุ่มก๊าซพิษก็พวยพุ่งขึ้นมา\n\nปิดจมูกไว้จะดีกว่า รีบเก็บตัวอย่าง แล้วนำกลับไปให้ Elder Bramblesnap",
+      "english_sha256": "939b3633807d5e6d3eac2db9493e9352c97300fd29bee9edd46a5d8c57ffcade",
+      "thai_sha256": "4da2ee48f1fc3fa5d803072fc741a61104ea305f997a13c5a32b4325f9648cbe",
+      "signature": "180:1236758414:1392368203",
+      "rendered_linebreak_English_sha256": "939b3633807d5e6d3eac2db9493e9352c97300fd29bee9edd46a5d8c57ffcade",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86927/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-10",
+      "quest_id": 86927,
+      "field": "objective",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Bring the Legashi Firewater to Elder Bramblesnap at Ursolan.",
+      "thai": "นำ Legashi Firewater ไปให้ Elder Bramblesnap ที่ Ursolan",
+      "english_sha256": "c0ea628bbcad2cd44b509833d5ad71138974227792f277e0912f86f635e5ede7",
+      "thai_sha256": "86f5789accef0feff1f51dae72482edcc090a33f65a4944dedb101c84ce10c20",
+      "signature": "60:937938160:654839425",
+      "rendered_linebreak_English_sha256": "c0ea628bbcad2cd44b509833d5ad71138974227792f277e0912f86f635e5ede7",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86927/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-11",
+      "quest_id": 86927,
+      "field": "title",
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Running Firewater",
+      "thai": "วิ่งส่งน้ำเพลิง",
+      "english_sha256": "bd911d941039d5229f245df1d452044e152a3675c07829304a5102dfd3dabdeb",
+      "thai_sha256": "d8691176d046260f53299863a45579da7f6d9e913031b917ab7cb95127f4c1e1",
+      "signature": "17:501905237:1983024461",
+      "rendered_linebreak_English_sha256": "bd911d941039d5229f245df1d452044e152a3675c07829304a5102dfd3dabdeb",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86927/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-12",
+      "quest_id": 81944,
+      "field": "title",
+      "level": 53,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "english": "A Newly Discovered Purpose...",
+      "thai": "จุดมุ่งหมายที่เพิ่งค้นพบ...",
+      "english_sha256": "cc09b7c352bced1cdc524b6b9b1ca665723b3b04da9779d8f01ce42f0430ba46",
+      "thai_sha256": "29093b31da9ddba98a8a8349c2883f82147f8370b7b91a8adc26862e5cd68e8b",
+      "signature": "29:1517478642:1956113391",
+      "rendered_linebreak_English_sha256": "cc09b7c352bced1cdc524b6b9b1ca665723b3b04da9779d8f01ce42f0430ba46",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/81944/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-13",
+      "quest_id": 86796,
+      "field": "objective",
+      "level": 54,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Help Graal break out of Legashi Stronghold, then inform Korsa outside Legashi Stronghold.",
+      "thai": "ช่วย Graal ฝ่าออกจากฐานที่มั่น Legashi แล้วแจ้งข่าวให้ Korsa ที่อยู่ด้านนอกฐานที่มั่น Legashi ทราบ",
+      "english_sha256": "9f887774dddc717f8ede03b539efab5518dc959e889d1d56ab69cac97ee65196",
+      "thai_sha256": "58ce1df35b4f97950060e2d7a965d7357feb6124786872a3b1ce1d4a2a577594",
+      "signature": "89:1803483708:217398184",
+      "rendered_linebreak_English_sha256": "9f887774dddc717f8ede03b539efab5518dc959e889d1d56ab69cac97ee65196",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86796/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-14",
+      "quest_id": 86796,
+      "field": "title",
+      "level": 54,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Later, Satyr",
+      "thai": "แล้วเจอกัน ซาเทียร์",
+      "english_sha256": "4355325469e5ce9672855381750d1a543d399318fb02accd365b52d45391a271",
+      "thai_sha256": "e117396622b3399f2397e88e5562d0cd948ad65a7f688fbd7265503443cf6387",
+      "signature": "12:1815685390:2076290046",
+      "rendered_linebreak_English_sha256": "4355325469e5ce9672855381750d1a543d399318fb02accd365b52d45391a271",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86796/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-15",
+      "quest_id": 87346,
+      "field": "description",
+      "level": 55,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "When the Legashi overran the Blackmaw, the rest of the Timbermaw sealed their passage to the hold to keep out the satyr. We had no idea they lived on as refugees.\r\n\r\nI would gladly aid my brethren, but we are fighting our own battles. Like the Legashi threaten the Blackmaw, the Deadwood do likewise to us. We haven't many warriors to spare.\r\n\r\nThe Deadwood chieftain, Bloodmaw, is in Felpaw Village to the south. Eliminating him would greatly ease our struggle. Bring me his mace, and you will have our aid.",
+      "thai": "ตอนที่ Legashi เอาชนะ Blackmaw ได้ พวก Timbermaw ที่เหลือก็ปิดทางเข้าสู่ที่มั่นของตนเพื่อกันซาเทียร์ออกไป เราไม่รู้เลยว่าพวกเขายังมีชีวิตอยู่ในฐานะผู้ลี้ภัย\n\nข้ายินดีช่วยพี่น้องของข้า แต่เราก็กำลังสู้ศึกของเราเอง เช่นเดียวกับที่ Legashi คุกคาม Blackmaw พวก Deadwood ก็คุกคามเรา เรามีนักรบเหลือให้แบ่งไปช่วยไม่มากนัก\n\nBloodmaw หัวหน้าเผ่า Deadwood อยู่ที่ Felpaw Village ทางใต้ หากกำจัดเขาได้ การต่อสู้ของเราจะเบาลงมาก นำกระบองของเขามาให้ข้า แล้วเจ้าจะได้รับความช่วยเหลือจากเรา",
+      "english_sha256": "25bc1f16aa14d2c487ac67ce7299d090494d33599884c8da4311cf33f6534d90",
+      "thai_sha256": "f1e15fbb4b66f2b9397882b61b086dd5945f0d25d500562df06d312875ab363c",
+      "signature": "502:972913079:741990870",
+      "rendered_linebreak_English_sha256": "25bc1f16aa14d2c487ac67ce7299d090494d33599884c8da4311cf33f6534d90",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/87346/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-16",
+      "quest_id": 87346,
+      "field": "objective",
+      "level": 55,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Kill Chieftain Bloodmaw and bring his mace to Gorn One Eye in Timbermaw Hold.",
+      "thai": "ฆ่า Chieftain Bloodmaw แล้วนำกระบองของเขาไปให้ Gorn One Eye ใน Timbermaw Hold",
+      "english_sha256": "ce74d269dee1065ef70c02bea3329a2ac348018d3720f84458440bcdab68c0b4",
+      "thai_sha256": "04100e4dc8f0ca58e542ceed09685320433049a3da2e72420044f813c3e109ec",
+      "signature": "77:1093920929:1269677040",
+      "rendered_linebreak_English_sha256": "ce74d269dee1065ef70c02bea3329a2ac348018d3720f84458440bcdab68c0b4",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/87346/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-17",
+      "quest_id": 87346,
+      "field": "title",
+      "level": 55,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "Chieftain Bloodmaw",
+      "thai": "หัวหน้าเผ่า Bloodmaw",
+      "english_sha256": "8f9c206a33759f8bf5cebeb2d0bbbd6978624463e7caaae7bab8b8f8524b7303",
+      "thai_sha256": "9f355fb62571e6e1dcf6bf3423e6c129f7e0953112bb4a1d3efcf356180f5cb1",
+      "signature": "18:920945038:967755993",
+      "rendered_linebreak_English_sha256": "8f9c206a33759f8bf5cebeb2d0bbbd6978624463e7caaae7bab8b8f8524b7303",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/87346/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-18",
+      "quest_id": 86798,
+      "field": "objective",
+      "level": 55,
+      "zone_area_id": 1769,
+      "required_class_mask": null,
+      "english": "Speak to Gorn One Eye in Timbermaw Hold and ask him to provide reinforcements.",
+      "thai": "พูดกับ Gorn One Eye ใน Timbermaw Hold และขอให้เขาส่งกำลังเสริมมา",
+      "english_sha256": "f43fbfebd2366a5aca591dcb1cafc0dee1369f44f39d647a0f0d864b07cff45f",
+      "thai_sha256": "a45deb19874f619b3018509dfa2c955b6db5715659effb6045f77965af822ce7",
+      "signature": "78:422495655:1371423277",
+      "rendered_linebreak_English_sha256": "f43fbfebd2366a5aca591dcb1cafc0dee1369f44f39d647a0f0d864b07cff45f",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86798/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-19",
+      "quest_id": 86798,
+      "field": "title",
+      "level": 55,
+      "zone_area_id": 1769,
+      "required_class_mask": null,
+      "english": "Timbermaw Reinforcements",
+      "thai": "กำลังเสริมจาก Timbermaw",
+      "english_sha256": "a11e8b228def56c7752c78b24f657d7d570eeb70e8601afe68153d4eb13f0ed4",
+      "thai_sha256": "c8b0cde541fabd710f5cee885b7c1e675ca477f12eddd95ae19357f1e5bc0ee5",
+      "signature": "24:575662302:757177355",
+      "rendered_linebreak_English_sha256": "a11e8b228def56c7752c78b24f657d7d570eeb70e8601afe68153d4eb13f0ed4",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86798/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-20",
+      "quest_id": 89015,
+      "field": "description",
+      "level": 56,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "english": "If ye fancy yourself a real angler, there's bigger fish out here than ye can catch with a rod.\r\n\r\nMammoth Sharks lurk in the deepest waters of the northern an' southern coasts. They swim far out, right before the sea floor drops away into the great ocean.\r\n\r\nThey're mighty big; I'd advise ye take a group of anglers with ye. \r\n\r\nDwarf like me? I prefer dry land. Those sharks'd swallow me in one bite.\r\n\r\nIf ye do go hunting one, bring me a cut o' the meat. I'd be mighty thankful.",
+      "thai": "ถ้าเจ้าคิดว่าตัวเองเป็นยอดนักตกปลา แถวนี้ยังมีปลาที่ใหญ่เกินกว่าจะตกขึ้นมาด้วยคันเบ็ดอยู่\n\nMammoth Sharks ซุ่มอยู่ในน่านน้ำที่ลึกที่สุดนอกชายฝั่งทางเหนือและใต้ พวกมันว่ายอยู่ไกลออกไป ตรงก่อนที่พื้นทะเลจะลาดตกลงสู่มหาสมุทรกว้าง\n\nพวกมันตัวใหญ่มาก ข้าแนะนำให้เจ้าพากลุ่มนักตกปลาไปด้วย\n\nคนแคระอย่างข้าน่ะหรือ ข้าขออยู่บนบกดีกว่า ฉลามพวกนั้นคงกลืนข้าได้ในคำเดียว\n\nหากเจ้าออกไปล่ามันจริงๆ ช่วยนำเนื้อสักชิ้นกลับมาให้ข้าด้วย ข้าจะขอบใจมาก",
+      "english_sha256": "495b2454373975e03f0b8cde6f5249c39993c980cc1f0d42311b427461117e89",
+      "thai_sha256": "d8ee69e8da8a0e85c95af0628ba4dfc71c33f49940a8c9e3319adc25474b5c8f",
+      "signature": "469:1381519730:1189616468",
+      "rendered_linebreak_English_sha256": "495b2454373975e03f0b8cde6f5249c39993c980cc1f0d42311b427461117e89",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/89015/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [
+        "Dwarf like me is literal first-person narrator wording in raw quest query. No player race/class/name binding or dynamic slot added."
+      ],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-21",
+      "quest_id": 82062,
+      "field": "description",
+      "level": 56,
+      "zone_area_id": 1584,
+      "required_class_mask": null,
+      "english": "Had to be sure we could trust you. These kind of friends are hard to come by. \r\n\r\nThere's a malignancy growing, a sinister faction within Azeroth. Both the Horde and Alliance are unwittingly working towards their own ends. Slowing their advances and forming information networks are all we have resources for.\r\n\r\nTake this, raise your spirits, and harken back to better days. There will be a time soon where we need our bolstered numbers for a show of force.",
+      "thai": "ข้าต้องแน่ใจเสียก่อนว่าเราไว้ใจเจ้าได้ สหายแบบนี้ไม่ได้หากันง่ายๆ\n\nมีสิ่งชั่วร้ายกำลังเติบโตขึ้น เป็นกลุ่มอำนาจอันมุ่งร้ายภายใน Azeroth ทั้ง Horde และ Alliance ต่างก็กำลังเดินหน้าไปสู่จุดหมายของตนโดยไม่รู้ตัว เรามีทรัพยากรเพียงพอแค่คอยชะลอการรุกคืบของพวกเขาและสร้างเครือข่ายข่าวสาร\n\nรับนี่ไป ให้มันช่วยปลุกขวัญเจ้า และหวนรำลึกถึงวันวานที่ดีกว่า อีกไม่นานคงถึงเวลาที่เราต้องใช้กำลังคนที่เพิ่มขึ้นนี้แสดงแสนยานุภาพ",
+      "english_sha256": "96c6827ec6d797a88466bb3701c442c188050870343616f53959f8a6d3c0f1cd",
+      "thai_sha256": "c910d33dd8f8396e4b93a68217b776cb6e7711f12998620f9934bb17185ef66a",
+      "signature": "451:315769180:2087006774",
+      "rendered_linebreak_English_sha256": "96c6827ec6d797a88466bb3701c442c188050870343616f53959f8a6d3c0f1cd",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/82062/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [
+        "English their/own faction referents are not independently resolved; Thai retains non-specific pronouns rather than inventing faction roles."
+      ],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-22",
+      "quest_id": 84394,
+      "field": "title",
+      "level": 58,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "english": "Greater Friend of the Library",
+      "thai": "มิตรผู้เกื้อหนุนหอสมุด",
+      "english_sha256": "a68f912a386b83d7b1e1e533c1bb88e4c01001077b56a114974be65bc3ddb00b",
+      "thai_sha256": "2ae50ece8a17b880b6ddb76e68289d507f46f1e8f54a4dc3b643b0e081e1bfe9",
+      "signature": "29:378103999:1148015375",
+      "rendered_linebreak_English_sha256": "a68f912a386b83d7b1e1e533c1bb88e4c01001077b56a114974be65bc3ddb00b",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84394/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 79536,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "มิตรผู้เกื้อหนุนหอสมุด"
+        },
+        {
+          "quest_id": 82208,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "มิตรผู้เกื้อหนุนหอสมุด"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-23",
+      "quest_id": 84332,
+      "field": "title",
+      "level": 59,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "english": "A Thane's Gratitude",
+      "thai": "คำขอบคุณจาก Thane",
+      "english_sha256": "81998a531d52067c3b746a20a2956125b680c6b0ebb8b42f9ef44466f01dd8b7",
+      "thai_sha256": "7f31d546a8848e5873c04e781e9fceb4317b667fc63f3270674c59cae2b5275d",
+      "signature": "19:459745358:1816288395",
+      "rendered_linebreak_English_sha256": "81998a531d52067c3b746a20a2956125b680c6b0ebb8b42f9ef44466f01dd8b7",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84332/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-24",
+      "quest_id": 99210,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1,
+      "required_class_mask": null,
+      "english": "Inspect the armored riding rams to choose your epic mount.",
+      "thai": "ตรวจดูเหล่าแกะติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "english_sha256": "436d8a5fedcc23cf5723fd218a793f3ca8a90aacf83cadf8d00b7241ae9b7545",
+      "thai_sha256": "a7d5f1eec0046935968a7bd3c46253d1f3a2086e9b04f76a150e27bd7ff0bacd",
+      "signature": "58:276360730:1524908971",
+      "rendered_linebreak_English_sha256": "436d8a5fedcc23cf5723fd218a793f3ca8a90aacf83cadf8d00b7241ae9b7545",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99210/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-25",
+      "quest_id": 8961,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 25,
+      "required_class_mask": null,
+      "english": "In order to summon Lord Valthalak we're first going to need to gather the other two-thirds of the amulet. To do that we need to get a brazier and some special coals to burn in it.$B$BThere are three nobles of fire, Lord Incedius in Blackrock Depths, Pyroguard Emberseer in Blackrock Spire and Executor Asharell in the Steppes, with what we need. Collect from each a piece of their remains, and then return to me with a Hallowed Brazier, which can be purchased from the Argent Dawn if you are honored by them.",
+      "thai": "เพื่ออัญเชิญ Lord Valthalak ก่อนอื่นเราต้องรวบรวมอีกสองในสามส่วนที่เหลือของเครื่องราง โดยต้องหากระถางไฟกับถ่านพิเศษมาเผาในนั้น\n\nมีผู้สูงศักดิ์แห่งไฟสามตนที่มีสิ่งซึ่งเราต้องการ ได้แก่ Lord Incedius ใน Blackrock Depths, Pyroguard Emberseer ใน Blackrock Spire และ Executor Asharell ใน Steppes จงเก็บชิ้นส่วนจากซากของแต่ละตน แล้วกลับมาหาข้าพร้อม Hallowed Brazier ซึ่งซื้อได้จาก Argent Dawn หากเจ้ามีชื่อเสียงกับพวกเขาถึงระดับ Honored",
+      "english_sha256": "cd34cf94f4a431861861d2dce83054a00492662e568ec1d32466a77144356ed1",
+      "thai_sha256": "aee1657ab3a1b11d7b714ea95348f642b235f2924cd9a62d94fc997cc2f8f90e",
+      "signature": "505:1386341803:856594327",
+      "rendered_linebreak_English_sha256": "cbb716e857b1873b40f9185203ed9d33d91307557652318531e9aaf1301e552d",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/8961/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": true,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [
+        "Source spells Lord Incedius in description and Incendicite of Incendius in objective; preserve exact named labels. No name/English correction. $B becomes linebreak only; not identity/counter substitution."
+      ],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-26",
+      "quest_id": 8961,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 25,
+      "required_class_mask": null,
+      "english": "Gather the Incendicite of Incendius, the Ember of Emberseer and the Ash of Asharell, along with a Hallowed Brazier, and return them to Bodley inside Blackrock Mountain.",
+      "thai": "รวบรวม Incendicite of Incendius, Ember of Emberseer และ Ash of Asharell พร้อมกับ Hallowed Brazier แล้วนำกลับไปให้ Bodley ภายใน Blackrock Mountain",
+      "english_sha256": "bf05ee95c8503b2882b1c8dd0e2adf11c5651054886718e7688a47d157f15226",
+      "thai_sha256": "b5d5e02ea08dcc13818f2bfff041cfc6d2698a1420318f41347dc78a51c1835e",
+      "signature": "168:199355861:388312577",
+      "rendered_linebreak_English_sha256": "bf05ee95c8503b2882b1c8dd0e2adf11c5651054886718e7688a47d157f15226",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/8961/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": true,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [
+        "Source spells Lord Incedius in description and Incendicite of Incendius in objective; preserve exact named labels. No name/English correction. $B becomes linebreak only; not identity/counter substitution."
+      ],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-27",
+      "quest_id": 84211,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 46,
+      "required_class_mask": null,
+      "english": "Picking up the bag, you immediately notice it's nearly empty. Somehow you get the impression Nami wont trade the book for the bag by itself. But what's not empty, is the camp. You'd better defend yourself and keep your eyes peeled for more of this stuff.",
+      "thai": "เมื่อหยิบถุงขึ้นมา เจ้าก็สังเกตได้ทันทีว่ามันแทบจะว่างเปล่า เจ้ารู้สึกอย่างบอกไม่ถูกว่า Nami คงไม่ยอมแลกหนังสือกับถุงใบนี้เพียงอย่างเดียว แต่สิ่งที่ไม่ได้ว่างเปล่าก็คือค่ายนี้ เจ้าควรป้องกันตัว และคอยมองหาของพวกนี้เพิ่มเติมให้ดี",
+      "english_sha256": "1a51e8d8bbfebf424ed3c59517f52b21c41387b15e91e3777da2ec31ba6187c1",
+      "thai_sha256": "41641663b58f144ed91ef32b80dad011bec936ccb48313f1e736242d775e95e0",
+      "signature": "254:290988975:1568500326",
+      "rendered_linebreak_English_sha256": "1a51e8d8bbfebf424ed3c59517f52b21c41387b15e91e3777da2ec31ba6187c1",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84211/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-28",
+      "quest_id": 84211,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 46,
+      "required_class_mask": null,
+      "english": "Recover the rest of the materials and return to Nami in Everlook.",
+      "thai": "เก็บวัสดุส่วนที่เหลือ แล้วกลับไปหา Nami ที่ Everlook",
+      "english_sha256": "732d4f41d7dc382f63fde65129d2b7b7f83bb05e18bfac6e784238802a8828b9",
+      "thai_sha256": "5e5b411fb13ca7b87d2d034ecaf79b56347806e6ce6cb34053d3edc7a32a92cf",
+      "signature": "65:648860083:1166840471",
+      "rendered_linebreak_English_sha256": "732d4f41d7dc382f63fde65129d2b7b7f83bb05e18bfac6e784238802a8828b9",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84211/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-29",
+      "quest_id": 84211,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 46,
+      "required_class_mask": null,
+      "english": "Poacher's Den",
+      "thai": "รังของพวกลอบล่าสัตว์",
+      "english_sha256": "adfb68d05c7a123b1c06532f5b3ae6a98046d22f6836decde74fb3d844633751",
+      "thai_sha256": "20034c8baa278d3f444a6a8063003ee006b9fb21ddc349768cd4c6ff0a885a49",
+      "signature": "13:1236392578:423493267",
+      "rendered_linebreak_English_sha256": "adfb68d05c7a123b1c06532f5b3ae6a98046d22f6836decde74fb3d844633751",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84211/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-30",
+      "quest_id": 99211,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 85,
+      "required_class_mask": null,
+      "english": "Inspect the armored undead riding warhorses to choose your epic mount.",
+      "thai": "ตรวจดูเหล่าม้าศึกอันเดดติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "english_sha256": "9f0dce2f244ed7d00d2d77bc7901aa292512dd463bdb44373f69bc248a21d812",
+      "thai_sha256": "e91bfb8a2b2e950108a5dc4d58cc23bd5426cbf436ed7ffe01050d9ac864f842",
+      "signature": "70:1855285702:1393238733",
+      "rendered_linebreak_English_sha256": "9f0dce2f244ed7d00d2d77bc7901aa292512dd463bdb44373f69bc248a21d812",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99211/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-31",
+      "quest_id": 6568,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 405,
+      "required_class_mask": null,
+      "english": "Deliver Rexxar's Testament to Myranda the Hag in the Western Plaguelands.",
+      "thai": "นำ Rexxar's Testament ไปให้ Myranda the Hag ใน Western Plaguelands",
+      "english_sha256": "fe03002d12571ac724df12aefdd1e8ccee563922d0ac24f36cb4cb17e2e4fbe1",
+      "thai_sha256": "1c00061f9f51d6c4c72531750886a8de400628e3bf62e702366b3c802528a985",
+      "signature": "73:1638215271:1750484683",
+      "rendered_linebreak_English_sha256": "fe03002d12571ac724df12aefdd1e8ccee563922d0ac24f36cb4cb17e2e4fbe1",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/6568/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": true,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-32",
+      "quest_id": 84212,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 618,
+      "required_class_mask": null,
+      "english": "Nami hands over Jurgens' book. With it safely stowed, you begin the long journey back to the other side of the world.",
+      "thai": "Nami ส่งหนังสือของ Jurgens ให้เจ้า เมื่อเก็บมันไว้อย่างปลอดภัยแล้ว เจ้าก็เริ่มการเดินทางอันยาวไกลกลับไปยังอีกฟากหนึ่งของโลก",
+      "english_sha256": "7c64c334540cc79a20cbc3726603d17ca4a510add81910eb49801747c8df432b",
+      "thai_sha256": "b9a69947c007bd5bf742202adecbaaed66632e84610f01965de419565d249161",
+      "signature": "117:159613111:442348183",
+      "rendered_linebreak_English_sha256": "7c64c334540cc79a20cbc3726603d17ca4a510add81910eb49801747c8df432b",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84212/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-33",
+      "quest_id": 84212,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 618,
+      "required_class_mask": null,
+      "english": "Return to the D.E.L.T.A lab with the book Jurgens was looking for.",
+      "thai": "กลับไปยังห้องปฏิบัติการ D.E.L.T.A พร้อมหนังสือที่ Jurgens กำลังตามหา",
+      "english_sha256": "088e153abf4202a7fb1398495e3770623338c7da8d706697fd7bc9e40c1425f7",
+      "thai_sha256": "c66f5a896a58d4f72121b68f209a6559e65a37c4849f8d4c0db973f39ea7db4a",
+      "signature": "66:304048748:787860770",
+      "rendered_linebreak_English_sha256": "088e153abf4202a7fb1398495e3770623338c7da8d706697fd7bc9e40c1425f7",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84212/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-34",
+      "quest_id": 84212,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 618,
+      "required_class_mask": null,
+      "english": "Bookin' it Back",
+      "thai": "หอบหนังสือกลับ",
+      "english_sha256": "0f5e2eba2db6bcc2f3e7d7313626ff0a35f79e6cf4c38c0859f42a6d38a8b293",
+      "thai_sha256": "b1f1d3d1900aa8d1e4596e7802d12bedff03c632c3b7dd7a8f3b3d9e60138668",
+      "signature": "15:1122013397:1332033980",
+      "rendered_linebreak_English_sha256": "0f5e2eba2db6bcc2f3e7d7313626ff0a35f79e6cf4c38c0859f42a6d38a8b293",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84212/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-35",
+      "quest_id": 84135,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 987,
+      "required_class_mask": null,
+      "english": "Lying on the shore, half-lost in the afternoon spray, is a strange metal contraption. It looks like some kind of mech, but you have never seen anything like it before. You notice a label on its side that reads \"Property of D.E.L.T.A.: Deepsea Exploration and Liquefaction Technologies Alliance\". You also spot a small compartment that you might be able to open.",
+      "thai": "ริมฝั่งมีเครื่องกลโลหะแปลกประหลาดนอนอยู่ ถูกละอองน้ำยามบ่ายบดบังไว้ครึ่งหนึ่ง มันดูเหมือนหุ่นกลชนิดหนึ่ง แต่เจ้าไม่เคยเห็นอะไรเช่นนี้มาก่อน เจ้าสังเกตเห็นป้ายที่ด้านข้างเขียนว่า \"ทรัพย์สินของ D.E.L.T.A.: Deepsea Exploration and Liquefaction Technologies Alliance\" และยังเห็นช่องเก็บของเล็กๆ ที่เจ้าอาจเปิดได้",
+      "english_sha256": "0bce189353d159a8bfd706e7d5380eef56869146444d342d965983bd6dbb640e",
+      "thai_sha256": "d89b7e48e2d112f93706f3c30a299eb2c27d7d90629a6fee0dde49a315765148",
+      "signature": "361:2127622057:1354576851",
+      "rendered_linebreak_English_sha256": "0bce189353d159a8bfd706e7d5380eef56869146444d342d965983bd6dbb640e",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84135/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-36",
+      "quest_id": 84135,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 987,
+      "required_class_mask": null,
+      "english": "Use a rock or something to dislodge parts of the mech.",
+      "thai": "ใช้ก้อนหินหรืออะไรสักอย่างงัดชิ้นส่วนของหุ่นกลให้หลุดออกมา",
+      "english_sha256": "ca13e046b580e74c2bd6ab16830706c3990e158e69a1214c9b070c2ea56dcdce",
+      "thai_sha256": "6e3c790c39394ccb012c915dfadd1d063168fcf34e2ef52dfeccb0caddd24c88",
+      "signature": "54:1862192925:2061046204",
+      "rendered_linebreak_English_sha256": "ca13e046b580e74c2bd6ab16830706c3990e158e69a1214c9b070c2ea56dcdce",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84135/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-37",
+      "quest_id": 84135,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 987,
+      "required_class_mask": null,
+      "english": "Beach Bot",
+      "thai": "หุ่นกลริมชายหาด",
+      "english_sha256": "8a9500bf14ce6756cd625b62ea6321fcf6b87b67233216bd85514d00e23ba5aa",
+      "thai_sha256": "b3b79d4c35dc79165d812033cb61fe8889075d590a9034f5faf17a7b6f3e8012",
+      "signature": "9:202838847:1636980030",
+      "rendered_linebreak_English_sha256": "8a9500bf14ce6756cd625b62ea6321fcf6b87b67233216bd85514d00e23ba5aa",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84135/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-38",
+      "quest_id": 84377,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 1519,
+      "required_class_mask": null,
+      "english": "The deed is done. Dal'rend Blackhand, Warchief of the Dark Horde, lies dead at your feet.\r\n\r\nTake his head and present it to Master Shaw.",
+      "thai": "งานสำเร็จแล้ว Dal'rend Blackhand จอมทัพแห่ง Dark Horde นอนตายอยู่แทบเท้าเจ้า\n\nนำศีรษะของเขาไปมอบให้ Master Shaw",
+      "english_sha256": "6198844be904757050c895828b7f21dd55e28c4cef922b88f0035937fa79021d",
+      "thai_sha256": "1e5a53eb7cb20bf5f2b7f2afe44561cd57a4ac6c1b8f07ba9c972d08e6ced609",
+      "signature": "134:2093897890:323129724",
+      "rendered_linebreak_English_sha256": "6198844be904757050c895828b7f21dd55e28c4cef922b88f0035937fa79021d",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84377/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-39",
+      "quest_id": 84377,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1519,
+      "required_class_mask": null,
+      "english": "Take the Head of Rend Blackhand to Master Mathias Shaw in Stormwind.",
+      "thai": "นำ Head of Rend Blackhand ไปให้ Master Mathias Shaw ใน Stormwind",
+      "english_sha256": "a170d52527d836119d61dbcac368b627f43c89e3a4b3da155eaa684ed7fb70ea",
+      "thai_sha256": "e8c24bf52c3ebb49c943aff82db10c45eed787e896049b07169c2856bb445a77",
+      "signature": "68:281579284:1502350371",
+      "rendered_linebreak_English_sha256": "a170d52527d836119d61dbcac368b627f43c89e3a4b3da155eaa684ed7fb70ea",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84377/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-40",
+      "quest_id": 84377,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1519,
+      "required_class_mask": null,
+      "english": "End of the Dark Horde",
+      "thai": "จุดจบของฮอร์ดทมิฬ",
+      "english_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "thai_sha256": "4c05a8cc4db3173decdf1d9cf95ec305991906baa257858c6b8c55ad9edbe7e3",
+      "signature": "21:975000302:1906537021",
+      "rendered_linebreak_English_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84377/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97883,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "จุดจบของฮอร์ดทมิฬ"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-41",
+      "quest_id": 84149,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Magister's Bindings to Deliana in Ironforge.",
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Magister's Bindings ให้ Deliana ที่ Ironforge",
+      "english_sha256": "eb334e16f030030d583788286b2ef18d516dea9cfd403b8e5914b5e0963f58ce",
+      "thai_sha256": "2b1edf9266efc27b99d875b3e179d8c03ffd2b89c40d60848647d567a58b5ec9",
+      "signature": "129:990912731:1937729929",
+      "rendered_linebreak_English_sha256": "eb334e16f030030d583788286b2ef18d516dea9cfd403b8e5914b5e0963f58ce",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84149/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8907,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Magister's Bindings ให้ Deliana ที่ Ironforge"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-02-42",
+      "quest_id": 84149,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "An Earnest Proposition",
+      "thai": "ข้อเสนอที่จริงใจ",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "signature": "22:1183475074:147978204",
+      "rendered_linebreak_English_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "source_text_normalization": "Only $B/$b→newline before literal UI signature; raw English/hash retained.",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84149/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Direct own-ID query title/objectivesText/description per pinned DATASETS; no progress/reward/portrait/completionLog inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8905,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8906,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8907,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8910,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8911,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8912,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8913,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8914,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8915,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8916,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8918,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8919,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8920,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97447,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84162,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84161,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84157,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84155,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84154,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84147,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84148,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84158,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84150,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84151,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84156,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97411,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8917,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8909,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8908,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual fullfield read: fixed game plot/item/NPC/place labels; no captured reader names or unconfirmed identity/counter/gender markup. $B linebreak only.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; exact query body/scan is not whole enabledinventory or per-character quest acceptance proof."
+    }
+  ]
+}

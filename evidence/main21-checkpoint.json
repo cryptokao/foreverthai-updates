@@ -1,0 +1,63 @@
+{
+  "snapshot": "MAIN21 issue3481 only",
+  "status": "APPROVED_SOURCE_ONLY; bounded3481 finished, await NEXT substantive combined package",
+  "counts": {
+    "diagnostic_substitution_supported": 34,
+    "already_supported_exact": 64,
+    "non_main_ignored": 193,
+    "held_unproven_normalized_roles": 1,
+    "literal_unmatched_needs_qualification": 1,
+    "duplicate_main_occurrences": 0,
+    "blank_no_prose": 0
+  },
+  "unique_main_forms": 100,
+  "main_phase_occurrences": {
+    "progress": 97,
+    "accept": 2,
+    "complete": 1
+  },
+  "non_main_ignored": 193,
+  "qualified_reuse": {
+    "quest_id": 94233,
+    "field": "progress",
+    "new_source_variants": 1,
+    "new_quest_entries": 0,
+    "new_thai_fields": 0,
+    "new_prose_bodies": 0
+  },
+  "holds": [
+    {
+      "quest_id": 1823,
+      "field": "description",
+      "source_indices": [
+        60
+      ],
+      "english_sha256": "2475e853939f9df8ccccfaa8de9143b75b13f8f0fd18aeeb63ae8cbf9013a4f5",
+      "status": "held_unproven_normalized_roles",
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "normalized_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase full raw typed source/caller proof for each identity occurrence; export normalization and reader metadata are not proof. Keep existing canonical."
+    }
+  ],
+  "known_ready_unimplemented_in_snapshot": 0,
+  "root_review_dependency": "Satisfied for exact94233progress signature only; not package/publication approval.",
+  "baseline_runtime_source": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "runtime_preservation": "Catalogappend-only;140otherfiles identical to full141file0.466baseline,includingprotected28/CoreSpeech70938/Questie/settings/Atlas/fonts",
+  "not_done": [
+    "NoQuestie/EGpull or re-audit",
+    "Nosource20reopen",
+    "NoNPC/book/partywork",
+    "No oldclientgate/glyph/fullsuite repeat",
+    "No fonts/build/package/version/feedchange"
+  ],
+  "full_goal": "ACTIVE/incomplete; current-enabled inventory/unknown phases/liveWindowsMacM2 acceptance remain unproven; no whole-game percentage.",
+  "stop_rule": "Finish bounded3481. No old source/hold rechecks, new obstacle hunting, tests/fonts/version/package/feed changes. Await genuinely new substantive MAIN input.",
+  "root_approval_commit": "b7cb1abe5ee7c25785284515d28c7064fdd6fc26",
+  "approved_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "targeted_attribution_proof": "main21-targeted-source-qualification.json",
+  "no_tests_rerun_after_approval": true,
+  "latest_immutable_private19_includes_variant": false
+}

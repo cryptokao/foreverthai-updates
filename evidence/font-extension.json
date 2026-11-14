@@ -1,0 +1,10 @@
+{
+  "new_runs": 38,
+  "new_glyphs": 139,
+  "new_pages": [
+    "Thai80.tga",
+    "Thai79.tga"
+  ],
+  "policy": "Original Atlas.lua bytes kept as prefix; original textures byte-identical.",
+  "scope": "Historical batch 01 extension only; cumulative atlas totals are in cloud-regression.json. Thai81/82 are later translation extensions, not changes for legacy tests."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "baseline_runtime_source": "1e04b81e0374c8c282c70b54508cf6c8dcc98a37",
+  "catalog_sha256": "21cacc33ac3bd9745c756d5beba4b5967370e130003607f3d3bdab8630c426cb",
+  "old_catalog_prefix_preserved": true,
+  "unchanged_other_runtime_files": 138,
+  "new_ownID_entries": 6,
+  "unique_source_cases": 12,
+  "unique_quest_ids": 7,
+  "new_thai_fields": 6,
+  "reused_thai_fields": 6,
+  "independent_static_oracles": 12,
+  "positive_executions": 12,
+  "negative_executions": 33,
+  "tracker_actual_native_and_questie_routing_executions": 24,
+  "tracker_settings_and_wrongID_negative_executions": 48,
+  "tracker_existing_atlas_bitmap_rendered_executions": 16,
+  "tracker_missing_new_run_fallback_fields": [
+    {
+      "quest_id": 80411,
+      "field": "title"
+    },
+    {
+      "quest_id": 80411,
+      "field": "objective"
+    },
+    {
+      "quest_id": 80526,
+      "field": "title"
+    },
+    {
+      "quest_id": 80526,
+      "field": "objective"
+    }
+  ],
+  "no_unproven_phases_created": true,
+  "font_build_pending_root_review": true,
+  "version_package_unchanged": true,
+  "scope": "New MAIN17 literal fields and routing only. Real existing Atlas used, no synthetic glyphs or forced rendering; missing runs retain English until reviewed append. No NPC/Skills/party/full suite/game execution."
+}

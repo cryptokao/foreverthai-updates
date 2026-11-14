@@ -1,0 +1,65 @@
+{
+  "batch": "cloud-main-phases-02",
+  "source_repository": "https://github.com/JIVESCORP/eg-link-output-wowf",
+  "source_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "new_canonical_fields": 0,
+  "new_source_variants": 2,
+  "new_thai_translations": 2,
+  "fields": [
+    {
+      "quest_id": 96987,
+      "level": 33,
+      "field": "description",
+      "title": "Opportunistic Education",
+      "english": "Well if it ain't a like-minded entrepreneur. Sneakin' into Dalaran durin' such troublesome times? Tsk tsk.\r\n\r\nMy kinda skyborne!\r\n\r\nWhile our mage friends here are occupied, maybe we could find ourselves some 'misplaced' treasures. They gots whole libraries dedicated to fancy arcane magics. If you could bring me one of their secret tomes, I could sell it for a pretty penny. Split the profits with ya.\r\n\r\nHey hey don't look at me like that. You ain't exactly here on a field trip yourself. You want in or what?",
+      "thai": "ว่าแล้วเชียว คนหัวการค้าเหมือนข้านี่เอง แอบเข้า Dalaran ในยามวุ่นวายอย่างนี้หรือ จุ๊ ๆ\n\nสกายบอร์นแบบนี้แหละที่ข้าชอบ!\n\nระหว่างที่เพื่อนจอมเวทของเรากำลังยุ่ง เราอาจหาเอาสมบัติที่ ‘วางผิดที่’ ได้บ้าง พวกเขามีห้องสมุดเป็นห้อง ๆ ไว้เก็บเรื่องเวทอาร์เคนหรูหราพวกนั้น ถ้าเจ้าเอาตำราลับมาให้ข้าสักเล่ม ข้าคงขายได้ราคางาม แล้วจะแบ่งกำไรให้เจ้า\n\nเฮ้ อย่ามองข้าแบบนั้น เจ้าก็ไม่ได้มาทัศนศึกษาเสียหน่อย จะเอาด้วยไหมล่ะ",
+      "signature": "503:1716323181:1669919453",
+      "source_path": "data/wowf/1.60.1.70888/texts.enUS.json",
+      "source_file_sha256": "1d09220f683e25c421e64a380d69169a45440998214771ecd5902cc99b9f2f9b",
+      "source_record": {
+        "sexes": {
+          "male": 1
+        },
+        "sources": 1,
+        "speakers": {
+          "none": 1
+        },
+        "text": "Well if it ain't a like-minded entrepreneur. Sneakin' into Dalaran durin' such troublesome times? Tsk tsk.\r\n\r\nMy kinda skyborne!\r\n\r\nWhile our mage friends here are occupied, maybe we could find ourselves some 'misplaced' treasures. They gots whole libraries dedicated to fancy arcane magics. If you could bring me one of their secret tomes, I could sell it for a pretty penny. Split the profits with ya.\r\n\r\nHey hey don't look at me like that. You ain't exactly here on a field trip yourself. You want in or what?",
+        "times": 1
+      },
+      "source_entry_index": 1,
+      "review": "Literal skyborne preserved as fixed race word, not a current-player placeholder. Prior canonical and variants retained. Assistant meaning review, not human or in-game verified."
+    },
+    {
+      "quest_id": 92434,
+      "level": 34,
+      "field": "progress",
+      "title": "Blood in the Streets",
+      "english": "Stay your weapon, skyborne.\r\n\r\nI think you will find that key won't be enough to get past my wards. You didn't truly think we would leave such a vulnerability open at a time like this, did you?",
+      "thai": "เก็บอาวุธก่อน สกายบอร์น\n\nข้าว่าเจ้าคงพบว่ากุญแจนั้นยังไม่พอจะผ่านอาคมป้องกันของข้า เจ้าคงไม่ได้คิดจริง ๆ ใช่ไหมว่าเราจะปล่อยจุดอ่อนเช่นนี้ไว้ในยามนี้?",
+      "signature": "190:1537187967:1561261211",
+      "source_path": "data/wowf/1.60.1.70888/texts.enUS.json",
+      "source_file_sha256": "1d09220f683e25c421e64a380d69169a45440998214771ecd5902cc99b9f2f9b",
+      "source_record": {
+        "sexes": {
+          "male": 1
+        },
+        "sources": 1,
+        "speakers": {
+          "npc:269127": 1
+        },
+        "text": "Stay your weapon, skyborne.\r\n\r\nI think you will find that key won't be enough to get past my wards. You didn't truly think we would leave such a vulnerability open at a time like this, did you?",
+        "times": 1
+      },
+      "source_entry_index": 1,
+      "review": "Literal skyborne preserved as fixed race word, not a current-player placeholder. Prior canonical and variants retained. Assistant meaning review, not human or in-game verified."
+    }
+  ],
+  "holds": [
+    {
+      "quest_id": 96294,
+      "field": "completion",
+      "reason": "Captured $c refers to a third party; fixed reviewed druid source remains. Do not convert to player class."
+    }
+  ]
+}

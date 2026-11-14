@@ -1,0 +1,38 @@
+{
+  "candidate": "ForeverThai-0.462.0-cloud-through-batch05-PRIVATE-TEST.zip",
+  "candidate_sha256": "3fd22cbac9c6eebddbf951da005267077414f074afee61b0aa127a0b09427b7d",
+  "source_manifest_sha256": "c66335f37a645104c1d821f5b9abcd59658fe4335bd9cbcd33b27148a92266ec",
+  "corpus_sha256": "d3d09f7e02477aaa60c68cc2d9892427260ff2daed9f9d9f847d25bbacb155f3",
+  "reference_sha256": "bdcf2ff10c973ab90cd372cfbd8f9416805f1fb0167be0d3e2d8a08193977b58",
+  "api_proofs": [],
+  "missing_dependencies": [
+    "Original forever_speech_source loader and its initial work corpus not supplied; replaced by explicit independent reviewed Dev records.",
+    "Blizzard UI archives for 70862/70888 not supplied; no fresh API event-argument documentation proof.",
+    "Old version-specific Catalog delta wrappers not supplied; current baseline/data/texture preservation verified separately."
+  ],
+  "in_game_windows_verified": false,
+  "in_game_mac_m2_verified": false,
+  "font_preservation": {
+    "baseline": "0.462.0 PRIVATE-TEST",
+    "prior_runs_checked": 102317,
+    "prior_glyphs_checked": 12403,
+    "prior_page_bytes_checked": 78,
+    "method": "Identical original TGA bytes, glyph rectangles, offsets, advances and run indices imply identical prior pixel shapes. This replaces the unavailable old-version Catalog-delta/UI-archive wrapper; no current API proof is claimed."
+  },
+  "status": "passed",
+  "independent_unique_forms": 686,
+  "replayed_builds": [
+    "70862",
+    "70888"
+  ],
+  "positive_event_executions": 1372,
+  "base_negative_event_executions": 8232,
+  "wrong_player_name_executions": 80,
+  "wrong_race_executions": 2,
+  "additional_fixed_npc_name_rejections": 6,
+  "settings_dedup_timers_bounded_history_opt_in_capture_secret_gates_passed": true,
+  "real_bitmap_renderer_and_all_replayed_thai_runs_passed": true,
+  "source_git_commit": "8d27625bec08a5dffe9f440a8a74075c93c731c1",
+  "runtime_git_tree": "5b23cd536ff8f6b7961932f37fa151f1333e0f02",
+  "scope": "Fresh Cloud runtime simulation using preserved historical fixture and independent reviewed corpus; not fresh API-documentation proof or live game verification."
+}

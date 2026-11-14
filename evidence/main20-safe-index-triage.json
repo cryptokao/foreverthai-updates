@@ -1,0 +1,1364 @@
+{
+  "scope": "Exactly1609sanitized metadata rows; one actualTranslate title comparison only. Missing runtime slots do not prove phases exist. No HTTP/HTML/JS/body/private capture accessed.",
+  "source_commit": "5310edf09efd819f3d7a0f3ca96ee6b0d9ef6914",
+  "source_path": "source_inputs/warcraftforever-beta-index20-safe.json",
+  "source_sha256": "45aade61c0465599386996e796f3c451d8b645fbb0e47b47777b59b4b9dd66a3",
+  "runtime_source": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "source_metadata_rows": 1609,
+  "logged_true": 496,
+  "logged_false": 1113,
+  "title_counts": {
+    "logged_true_title_supported": 496,
+    "logged_false_title_supported": 1109,
+    "logged_false_title_unmatched": 4,
+    "logged_true_title_unmatched": 0
+  },
+  "unmatched_title_rows": [
+    {
+      "id": 1,
+      "title": "The \"Chow\" Quest (123)aa",
+      "level": 4,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity",
+      "excluded_reason": "known_developer_id"
+    },
+    {
+      "id": 94898,
+      "title": "Violent Winds (Temp Disabled)",
+      "level": 11,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity",
+      "excluded_reason": "disabled_marker"
+    },
+    {
+      "id": 92534,
+      "title": "jktestquest1a",
+      "level": null,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity",
+      "excluded_reason": "explicit_developer_test_label"
+    },
+    {
+      "id": 96735,
+      "title": "Toast!?",
+      "level": null,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    }
+  ],
+  "logged_true_missing_phase_ids": 86,
+  "missing_slot_counts": {
+    "progress": 86
+  },
+  "logged_true_phase_gaps": [
+    {
+      "id": 363,
+      "title": "Rude Awakening",
+      "level": 1,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 4641,
+      "title": "Your Place in the World",
+      "level": 1,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 752,
+      "title": "A Humble Task",
+      "level": 2,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 755,
+      "title": "Rites of the Earthmother",
+      "level": 3,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 91209,
+      "title": "Continue Your Training",
+      "level": 4,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 804,
+      "title": "Sarkoth",
+      "level": 5,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 805,
+      "title": "Report to Sen'jin Village",
+      "level": 5,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 767,
+      "title": "Rite of Vision",
+      "level": 6,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 96656,
+      "title": "The Adventurer",
+      "level": 6,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 318,
+      "title": "Evershine",
+      "level": 7,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 772,
+      "title": "Rite of Vision",
+      "level": 7,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 823,
+      "title": "Report to Orgnil",
+      "level": 7,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 99144,
+      "title": "Seeking Refuge",
+      "level": 7,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 749,
+      "title": "The Ravaged Caravan",
+      "level": 8,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 92529,
+      "title": "Falaath Village",
+      "level": 8,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 93036,
+      "title": "Infiltrating the Cult",
+      "level": 8,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 93926,
+      "title": "The Western Watch",
+      "level": 8,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 99123,
+      "title": "Lost in the Shadows",
+      "level": 8,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 359,
+      "title": "Forsaken Duties",
+      "level": 9,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 360,
+      "title": "Return to the Magistrate",
+      "level": 9,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 92698,
+      "title": "What Is My Purpose?",
+      "level": 9,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 99079,
+      "title": "Longwalker Malah",
+      "level": 9,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 99081,
+      "title": "Grim Tidings",
+      "level": 9,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 99082,
+      "title": "The High Chieftain",
+      "level": 9,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 355,
+      "title": "Speak with Sevren",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 773,
+      "title": "Rite of Wisdom",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 886,
+      "title": "The Barrens Oases",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1885,
+      "title": "Mennet Carkad",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 6081,
+      "title": "Training the Beast",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94006,
+      "title": "The Great Ursera Spirit",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94913,
+      "title": "Moonglade",
+      "level": 10,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 91282,
+      "title": "A Second Home",
+      "level": 11,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94484,
+      "title": "Unnerving Silence",
+      "level": 11,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 428,
+      "title": "Lost Deathstalkers",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 828,
+      "title": "Margoz",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 3221,
+      "title": "Speak with Renferrel",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94427,
+      "title": "A Lesson in Divinity",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94435,
+      "title": "A Lesson in Divinity",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94436,
+      "title": "A Lesson in Divinity",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94438,
+      "title": "A Lesson in Divinity",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94441,
+      "title": "A Lesson in Divinity",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94490,
+      "title": "Ripped Missive",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 94491,
+      "title": "The Fate of the Den",
+      "level": 12,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 809,
+      "title": "Ak'Zeloth",
+      "level": 13,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 96408,
+      "title": "A Visitor to Dun Morogh",
+      "level": 13,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 96895,
+      "title": "The Argent Emissary",
+      "level": 13,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 96896,
+      "title": "A Righteous Cause",
+      "level": 13,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 96899,
+      "title": "Bandarion Keep",
+      "level": 13,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 477,
+      "title": "Border Crossings",
+      "level": 14,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 482,
+      "title": "Dalaran's Intentions",
+      "level": 14,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 894,
+      "title": "Samophlange",
+      "level": 14,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 6126,
+      "title": "Lessons Anew",
+      "level": 14,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1097,
+      "title": "Elmore's Task",
+      "level": 15,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1339,
+      "title": "Mountaineer Stormpike's Task",
+      "level": 15,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 5729,
+      "title": "Hidden Enemies",
+      "level": 15,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 244,
+      "title": "Encroaching Gnolls",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 438,
+      "title": "The Decrepit Ferry",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1489,
+      "title": "Hamuul Runetotem",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1490,
+      "title": "Nara Wildmane",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 2378,
+      "title": "Find the Shattered Hand",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 2379,
+      "title": "Zando'zan",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 2382,
+      "title": "Wrenix of Ratchet",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 5722,
+      "title": "Searching for the Lost Satchel",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 5730,
+      "title": "Hidden Enemies",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 97891,
+      "title": "Prompt Potion Runner",
+      "level": 16,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 948,
+      "title": "Onu",
+      "level": 17,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1061,
+      "title": "The Spirits of Stonetalon",
+      "level": 17,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1063,
+      "title": "The Elder Crone",
+      "level": 18,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 990,
+      "title": "Trek to Ashenvale",
+      "level": 19,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 6541,
+      "title": "Report to Kadrak",
+      "level": 19,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 2458,
+      "title": "Deep Cover",
+      "level": 20,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 2480,
+      "title": "Hinott's Assistance",
+      "level": 20,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1483,
+      "title": "Ziz Fizziks",
+      "level": 21,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 97290,
+      "title": "Unending Torment",
+      "level": 21,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 6562,
+      "title": "Trouble in the Deeps",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 79007,
+      "title": "... and that note you found",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 91858,
+      "title": "Diplomatic Incident",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 91859,
+      "title": "A Curious Pair",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 91860,
+      "title": "A Grim Fate",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 91861,
+      "title": "Into Fenris Keep",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 96204,
+      "title": "The Windshaper's Wrath",
+      "level": 22,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 95884,
+      "title": "The Offering Stone",
+      "level": 23,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1098,
+      "title": "Deathstalkers in Shadowfang",
+      "level": 25,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1095,
+      "title": "Further Instructions",
+      "level": 27,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 1130,
+      "title": "Melor Sends Word",
+      "level": 30,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    },
+    {
+      "id": 6641,
+      "title": "Vorsha the Lasher",
+      "level": null,
+      "logged": true,
+      "runtime_quest_present": true,
+      "runtime_title_present": true,
+      "title_actualTranslate_supported": true,
+      "missing_main_fields": [
+        "progress"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity"
+    }
+  ],
+  "excluded_metadata_rows": [
+    {
+      "id": 1,
+      "title": "The \"Chow\" Quest (123)aa",
+      "level": 4,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity",
+      "excluded_reason": "known_developer_id"
+    },
+    {
+      "id": 94898,
+      "title": "Violent Winds (Temp Disabled)",
+      "level": 11,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity",
+      "excluded_reason": "disabled_marker"
+    },
+    {
+      "id": 92534,
+      "title": "jktestquest1a",
+      "level": null,
+      "logged": false,
+      "runtime_quest_present": false,
+      "runtime_title_present": false,
+      "title_actualTranslate_supported": false,
+      "missing_main_fields": [
+        "objective",
+        "description",
+        "progress",
+        "completion"
+      ],
+      "eligibility": "beta observed-metadata only, current enabled status unproven",
+      "priority_proof": "No class/race inferred from title/reader identity",
+      "excluded_reason": "explicit_developer_test_label"
+    }
+  ],
+  "metadata_ready_translations": 0,
+  "notes": [
+    "logged=falsequery-only titles remain unproven and are not auto-imported.",
+    "logged=trueunmatched title needs primary own-ID observed page/title proof, not automatic acceptance from boolean.",
+    "No body/phase bulk in supplied safeindex; no missing phase text translated or assumed.",
+    "Selection of at most8IDs is a detail-source request queue, not translation count/currentenabled denominator."
+  ],
+  "safe_input_git_blob": "d0f0506b119b81ad56b0fc9fe2e94f0173dd2bf1",
+  "runtime_mutations": false
+}

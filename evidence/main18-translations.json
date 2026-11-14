@@ -1,0 +1,85 @@
+{
+  "batch": "main18",
+  "baseline_source": "f32eb64fec3047a288d1963c3476f97e2c4858af",
+  "source_provenance": "Qualified direct own-ID title producer verified in main17-source-provenance.json; pinned Forever trace f0ad908.",
+  "fields": [
+    {
+      "quest_id": 91902,
+      "field": "title",
+      "level": 60,
+      "title": "A Sealed Crate",
+      "english": "A Sealed Crate",
+      "objective_lines": null,
+      "source_row": "\n            [questKeys.name] = \"A Sealed Crate\",\n            [questKeys.startedBy_add] = {{256386,256390}},\n            [questKeys.finishedBy_add] = {{256386,256390}},\n        },\n",
+      "english_sha256": "2c5510f81eae91f6ccd6ce4a899c4272c9dae79e4ae79e2c2dbd2ed7d97d8004",
+      "status": "source_ready_literal",
+      "canonical_present": false,
+      "eg_query_level": 60,
+      "eg_comparison": [
+        {
+          "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "kind": "query",
+          "english": "A Sealed Crate",
+          "exact_normalized": true
+        }
+      ],
+      "level_source": "targeted EG own-ID query",
+      "thai": "ลังปิดผนึก",
+      "thai_sha256": "a4926d982a5cbfcaf867e2643e6ef22c33d5303804a5123545e3f481959dec7a",
+      "signature": "14:1980566332:1496368079",
+      "new_thai": false,
+      "reuse_from": {
+        "quest_id": 91907,
+        "field": "title",
+        "thai": "ลังปิดผนึก"
+      }
+    },
+    {
+      "quest_id": 86747,
+      "field": "title",
+      "level": null,
+      "title": "Legashi Horns",
+      "english": "Legashi Horns",
+      "objective_lines": null,
+      "source_row": "\n            [questKeys.name] = \"Legashi Horns\",\n            [questKeys.finishedBy_add] = {{235903}},\n        },\n",
+      "english_sha256": "9d0a82f4d333e2bb4a73092c90e87271a67f8674a1c92d8c981535e00f332d6b",
+      "status": "source_ready_literal",
+      "canonical_present": false,
+      "eg_comparison": [],
+      "thai": "เขาของ Legashi",
+      "thai_sha256": "2a797c06a2700404f483b4660055981f0386983aac13cc9a76a55034062f925b",
+      "signature": "13:571814782:439817753",
+      "new_thai": true,
+      "reuse_from": null
+    },
+    {
+      "quest_id": 93162,
+      "field": "title",
+      "level": null,
+      "title": "Head of the Obliterator",
+      "english": "Head of the Obliterator",
+      "objective_lines": null,
+      "source_row": "\n            [questKeys.name] = \"Head of the Obliterator\",\n        },\n",
+      "english_sha256": "58552873047c64d3890eb6d22c487ef4e03435622ca7e8d33ccd75ebe5b55b3c",
+      "status": "source_ready_literal",
+      "canonical_present": false,
+      "eg_comparison": [],
+      "thai": "ศีรษะของ Obliterator",
+      "thai_sha256": "03c9196067aa3b05415783e3e80e47be9eb3d2f7905d2bd12a3243c5b5f00654",
+      "signature": "23:1320725935:240441061",
+      "new_thai": true,
+      "reuse_from": null
+    }
+  ],
+  "new_thai_fields": 2,
+  "reused_thai_fields": 1,
+  "newly_supported_fields": 3,
+  "unique_quest_ids": 3,
+  "new_objective_fields": 0,
+  "source_ready_remaining_in_this_join": 0,
+  "root_wording_review": "approved unchanged main0f7a1843",
+  "limitations": [
+    "These are three titles only, not three fully translated quests. No objective/description/progress/completion or unknown level invented.",
+    "Per-row trace build unknown; one title corroborated EG70888. Not current-enabled full-game inventory."
+  ]
+}

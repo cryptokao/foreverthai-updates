@@ -1,0 +1,3061 @@
+{
+  "batch": "MAIN24 proposal03 FINAL_LITERAL_SUBBATCH",
+  "status": "ROOT_FULL_MEANING_REVIEW_PENDING_BEFORE_INTEGRATION",
+  "integrated_prior_fields": 80,
+  "integrated_prior_Catalog_sha256": "533247e8d098e5b350128f8be7dad504c667e4366bf737d358268612d5f8faf3",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "source_attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY4.0 https://creativecommons.org/licenses/by/4.0/",
+  "counts": {
+    "proposed_fields": 42,
+    "unique_quest_ids": 21,
+    "new_Thai_wording_fields": 15,
+    "exact_reviewed_Thai_reuse_fields": 27,
+    "runtime_fields_integrated_from_this_proposal": 0
+  },
+  "field_counts": {
+    "objective": 20,
+    "title": 15,
+    "description": 6,
+    "completion": 1
+  },
+  "ordering": "Final42 entries of existing finite literalqueue, levels60→62. No guessed zone/class/current acceptance.",
+  "finite_literal_domain": 122,
+  "approved_source_integrated": 80,
+  "pending_final_proposal_fields": 42,
+  "remaining_unproposed_ready_fields": 0,
+  "finite_domain_unique_quest_ids": 57,
+  "whole_game_or_all_main_phase_complete": false,
+  "review_state": "80approved source-integrated text-only;42pendingRoot. No fonts/bitmap/version/build/ZIP/feed yet.",
+  "fields": [
+    {
+      "case_id": "MAIN24-03-01",
+      "quest_id": 84152,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Shadowcraft Bracers to Deliana in Ironforge.\r\n",
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Shadowcraft Bracers ให้ Deliana ที่ Ironforge",
+      "english_sha256": "501c0f1318b76a1f5dc699dccb26172d993164224734f18665e6d4e5349aad1e",
+      "thai_sha256": "8fd4e6e7f6f75f2e94208fc8ae1a500d08da0c4277632388c6e8ce71874b17e8",
+      "signature": "129:675615788:294279834",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84152/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8910,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Shadowcraft Bracers ให้ Deliana ที่ Ironforge"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-02",
+      "quest_id": 84152,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "An Earnest Proposition",
+      "thai": "ข้อเสนอที่จริงใจ",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "signature": "22:1183475074:147978204",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84152/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8905,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8906,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8907,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8910,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8911,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8912,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8913,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8914,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8915,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8916,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8918,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8919,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8920,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97447,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84149,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84162,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84161,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84157,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84155,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84154,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84147,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84148,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84158,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84150,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84151,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84156,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97411,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8917,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8909,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8908,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-03",
+      "quest_id": 84153,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Dreadmist Bracers to Deliana in Ironforge.\r\n",
+      "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Dreadmist Bracers ให้ Deliana ที่ Ironforge",
+      "english_sha256": "81dc726f81da843028d444d87d14b5c0a71ecab0607563c69c8da1f7abdc5be9",
+      "thai_sha256": "d2d6123c63f5dfd8c1f4bed0327c1138d6e7dde4c39ba7e86dd323f574f65b0c",
+      "signature": "127:25874837:1662110673",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84153/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8911,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Dreadmist Bracers ให้ Deliana ที่ Ironforge"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-04",
+      "quest_id": 84153,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "An Earnest Proposition",
+      "thai": "ข้อเสนอที่จริงใจ",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "signature": "22:1183475074:147978204",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84153/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8905,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8906,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8907,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8910,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8911,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8912,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8913,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8914,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8915,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8916,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8918,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8919,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8920,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97447,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84149,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84162,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84161,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84157,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84155,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84154,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84147,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84148,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84158,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84150,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84151,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84156,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97411,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8917,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8909,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8908,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-05",
+      "quest_id": 84166,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "You kept your word and brought the device built by Mux.  I believe a reward is in order if I'm to keep you interested in saving my skin.  Bring me the belt and set of gauntlets that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาให้ ข้าว่าควรมีรางวัลให้เจ้าสักหน่อย ถ้าข้ายังอยากให้เจ้าช่วยรักษาชีวิตข้าต่อ เอาเข็มขัดกับถุงมือเกราะคู่ที่อยากยกระดับมาให้ข้า รับรองว่าของที่ให้คืนจะดีกว่ามาก",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "thai_sha256": "59456131c1eb8e2280e972dcae9d5dc81a81aed4e8ea947dc503b8fc6a7194c3",
+      "signature": "262:1424199253:1454299520",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84166/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97448,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาให้ ข้าว่าควรมีรางวัลให้เจ้าสักหน่อย ถ้าข้ายังอยากให้เจ้าช่วยรักษาชีวิตข้าต่อ เอาเข็มขัดกับถุงมือเกราะคู่ที่อยากยกระดับมาให้ข้า รับรองว่าของที่ให้คืนจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8937,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือเกราะที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8933,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือเกราะที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-06",
+      "quest_id": 84166,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Bring a Lightforge Belt and a set of Lightforge Gauntlets to Deliana in Ironforge.\r\n",
+      "thai": "นำ เข็มขัดหลอมแสง และ ถุงมือเกราะหลอมแสง ไปให้ Deliana ที่ Ironforge",
+      "english_sha256": "e60c2db2c5297e4fd397d4d5b9f229eed457c2e6c8de23f92e3913638c9ca3a2",
+      "thai_sha256": "0d470a6068238691604c8cef31dcceaaeb00be7ff5ab86055d6065679ef4a366",
+      "signature": "82:1488550827:1379628624",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84166/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8933,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ เข็มขัดหลอมแสง และ ถุงมือเกราะหลอมแสง ไปให้ Deliana ที่ Ironforge"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-07",
+      "quest_id": 84166,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84166/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-08",
+      "quest_id": 84167,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "You kept your word and brought the device built by Mux.  I believe a reward is in order if I'm to keep you interested in saving my skin.  Bring me the belt and set of gloves that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "thai_sha256": "f61361c9e27f80788f41317f9238d3cc878e8511a4f01f3a6cc3fd2b8a51cca0",
+      "signature": "259:1216461947:593867283",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84167/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8926,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8934,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8935,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8936,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-09",
+      "quest_id": 84167,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Bring a Devout Belt and a set of Devout Gloves to Deliana in Ironforge.",
+      "thai": "นำ เข็มขัดแห่งศรัทธา และ ถุงมือแห่งศรัทธา ไปให้ Deliana ที่ Ironforge",
+      "english_sha256": "4af36cc8991e4ff288530960de60c0a8b1b80fd1a84ac0ae2543aa70f48e00b8",
+      "thai_sha256": "7a8b7b1e3b884238702f750f6200069f739839619fd2419fb23da9bf1034d63a",
+      "signature": "71:1247292933:1629580433",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84167/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8934,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ เข็มขัดแห่งศรัทธา และ ถุงมือแห่งศรัทธา ไปให้ Deliana ที่ Ironforge"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-10",
+      "quest_id": 84167,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84167/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-11",
+      "quest_id": 84170,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "You kept your word and brought the device built by Mux.  I believe a reward is in order if I'm to keep you interested in saving my skin.  Bring me the belt and set of gauntlets that you wish to upgrade.  I promise the ones I give you in return will be far superior.",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาให้ ข้าว่าควรมีรางวัลให้เจ้าสักหน่อย ถ้าข้ายังอยากให้เจ้าช่วยรักษาชีวิตข้าต่อ เอาเข็มขัดกับถุงมือเกราะคู่ที่อยากยกระดับมาให้ข้า รับรองว่าของที่ให้คืนจะดีกว่ามาก",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "thai_sha256": "59456131c1eb8e2280e972dcae9d5dc81a81aed4e8ea947dc503b8fc6a7194c3",
+      "signature": "262:1424199253:1454299520",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84170/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97448,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาให้ ข้าว่าควรมีรางวัลให้เจ้าสักหน่อย ถ้าข้ายังอยากให้เจ้าช่วยรักษาชีวิตข้าต่อ เอาเข็มขัดกับถุงมือเกราะคู่ที่อยากยกระดับมาให้ข้า รับรองว่าของที่ให้คืนจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8937,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือเกราะที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        },
+        {
+          "quest_id": 8933,
+          "field": "description",
+          "entry_path": "description",
+          "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือเกราะที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-12",
+      "quest_id": 84170,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Bring a Belt of Valor and a set of Gauntlets of Valor to Deliana in Ironforge.",
+      "thai": "นำ เข็มขัดแห่งความกล้า และ ถุงมือเกราะแห่งความกล้า ไปให้ Deliana ที่ Ironforge",
+      "english_sha256": "ad2d568ba1cd61564f389ec82acca85b221dc12c4add3bd9b757a1685acd52b2",
+      "thai_sha256": "741c7d32a7dd584eb841239adb8248d54261da1aa6801b978b53edef8fe8fd0e",
+      "signature": "78:852764937:1356782287",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84170/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8937,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ เข็มขัดแห่งความกล้า และ ถุงมือเกราะแห่งความกล้า ไปให้ Deliana ที่ Ironforge"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-13",
+      "quest_id": 84170,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84170/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-14",
+      "quest_id": 97448,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "english": "Bring a Cord of the Elements and a set of Gauntlets of the Elements to Deliana in Ironforge.",
+      "thai": "นำ Cord of the Elements และ Gauntlets of the Elements หนึ่งชุด ไปให้ Deliana ใน Ironforge",
+      "english_sha256": "2fa13409d1236ddaa75732efce6cd49f29b86277397c0d974faef471709d442f",
+      "thai_sha256": "0aed3fa731b0fc5ba3ece01eea6e8c05750f430c3f970abf42b783dd8639b314",
+      "signature": "92:2042066204:1083599964",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/97448/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-15",
+      "quest_id": 84159,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Acquire 15 Silithus Venom Samples and 20 gold and bring them along with a set of Shadowcraft Bracers to Mokvar in Orgrimmar.\r\n",
+      "thai": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Shadowcraft Bracers ให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "01f0d1ee8699e625eb6e22210cc9300535d199ae5936d1bc7460573f43608a6f",
+      "thai_sha256": "914ef5a2b3dc50ce9b24ae3a1894727421e8402ed2e49465c1b35e5edc3860e4",
+      "signature": "124:1358957014:1384681590",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84159/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8917,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Shadowcraft Bracers ให้ Mokvar ที่ Orgrimmar"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-16",
+      "quest_id": 84159,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "An Earnest Proposition",
+      "thai": "ข้อเสนอที่จริงใจ",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai_sha256": "57be3cc1f215bc53accc45241c08fd7f4290615e47dfba7c3d4906c953766a71",
+      "signature": "22:1183475074:147978204",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84159/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8905,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8906,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8907,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8910,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8911,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8912,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8913,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8914,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8915,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8916,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8918,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8919,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8920,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97447,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84149,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84162,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84161,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84157,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84155,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84154,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84147,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84148,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84158,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84150,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84151,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 84156,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 97411,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8917,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8909,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        },
+        {
+          "quest_id": 8908,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ข้อเสนอที่จริงใจ"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-17",
+      "quest_id": 84171,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Wildheart Belt and a set of Wildheart Gloves to Mokvar in Orgrimmar.",
+      "thai": "นำ Wildheart Belt และ Wildheart Gloves ไปให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "1e7aa48097d1a68044b87157171a1632e54be9a4f6ed77436c082d7e40ec8db2",
+      "thai_sha256": "325702600fcc1fc5a5d9add131fcb35bfd6269468b23a6b8bc790d5bd9c6a7c9",
+      "signature": "76:1092968063:1891755819",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84171/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8927,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ Wildheart Belt และ Wildheart Gloves ไปให้ Mokvar ที่ Orgrimmar"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-18",
+      "quest_id": 84171,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84171/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-19",
+      "quest_id": 84172,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Beaststalker's Belt and a set of Beaststalker's Gloves to Mokvar in Orgrimmar.",
+      "thai": "นำ Beaststalker's Belt และ Beaststalker's Gloves ไปให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "5e1626f5952b0ffbb6533e746f2545dc1d8e1ad87ba55100e0aceb62a6a13094",
+      "thai_sha256": "c2244bc156b8fe48e77a8e567fafd9750353bdf3dfba724cc62f6a4a5e5931d3",
+      "signature": "86:1812550849:2114192464",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84172/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8938,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ Beaststalker's Belt และ Beaststalker's Gloves ไปให้ Mokvar ที่ Orgrimmar"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-20",
+      "quest_id": 84172,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84172/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-21",
+      "quest_id": 84175,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Shadowcraft Belt and a set of Shadowcraft Gloves to Mokvar in Orgrimmar.",
+      "thai": "นำ เข็มขัดช่างเงา และ ถุงมือช่างเงา ไปให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "5826e11cf8fc7f2aba245da7f956b60ea875c07bd27828f0fd412fb69c7a23f6",
+      "thai_sha256": "4d32c59bb7cdc116a19f4fd00a0d07b24ed4bc4e2da5b4665565e5390564d3af",
+      "signature": "80:769408461:231311346",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84175/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8941,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ เข็มขัดช่างเงา และ ถุงมือช่างเงา ไปให้ Mokvar ที่ Orgrimmar"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-22",
+      "quest_id": 84175,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84175/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-23",
+      "quest_id": 84176,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Cord of the Elements and a set of Gauntlets of the Elements to Mokvar in Orgrimmar.\r\n",
+      "thai": "นำ Cord of the Elements และ Gauntlets of the Elements หนึ่งชุด ไปให้ Mokvar ใน Orgrimmar",
+      "english_sha256": "9c9d06e7d50899981cf3cd5f7e43334d44c50a0dae10fd50fba5a406ae7698ca",
+      "thai_sha256": "13675e38ea072856db2afaf471d1fb43b200c213fc07911b1523d9a331d9ebef",
+      "signature": "91:1207313699:2126704408",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84176/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-24",
+      "quest_id": 84176,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84176/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-25",
+      "quest_id": 84177,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Dreadmist Belt and a set of Dreadmist Wraps to Mokvar in Orgrimmar.\r\n",
+      "thai": "นำ เข็มขัดหมอกสยอง และ ผ้าพันมือหมอกสยอง ไปให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "74e718e95debcf6703db26f8406a519f70d7e0856cda554c889dd6423bb37d9c",
+      "thai_sha256": "8c6270aa3d648ccf7f0a05ca705ac3d15ce27423a0e7557bcfcdeab470327137",
+      "signature": "75:577588627:444691764",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84177/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8943,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ เข็มขัดหมอกสยอง และ ผ้าพันมือหมอกสยอง ไปให้ Mokvar ที่ Orgrimmar"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-26",
+      "quest_id": 84177,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84177/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-27",
+      "quest_id": 84178,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Belt of Valor and a set of Gauntlets of Valor to Mokvar in Orgrimmar.\r\n",
+      "thai": "นำ เข็มขัดแห่งความกล้า และ ถุงมือเกราะแห่งความกล้า ไปให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "4a08c0f1c0fe4e19488825fa05fc7e0cdcbeed8182789d0f4c9657af77f37e7c",
+      "thai_sha256": "efc6d515703351e1502acc72211f4ea16894ba007f771ea124a8932a0ec96ea0",
+      "signature": "77:1678976215:1653392630",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84178/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 8944,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "นำ เข็มขัดแห่งความกล้า และ ถุงมือเกราะแห่งความกล้า ไปให้ Mokvar ที่ Orgrimmar"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-28",
+      "quest_id": 84178,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Just Compensation",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai_sha256": "f02d63610ea32456931c8b184f4f0a5b6f23097f3b51408d00ede929c8232c9d",
+      "signature": "17:479802657:1407557245",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84178/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 97412,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 97448,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8926,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8932,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8934,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8935,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8936,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8937,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8938,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8939,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8942,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8943,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8944,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8941,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8940,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8927,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8933,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        },
+        {
+          "quest_id": 8931,
+          "field": "title",
+          "entry_path": "title",
+          "thai": "ค่าตอบแทนที่เหมาะสม"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-29",
+      "quest_id": 97412,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Bring a Lightforge Belt and a set of Lightforge Gauntlets to Mokvar in Orgrimmar.",
+      "thai": "นำ เข็มขัดหลอมแสง และ ถุงมือเกราะหลอมแสง ไปให้ Mokvar ที่ Orgrimmar",
+      "english_sha256": "299bb6af79a333ca64fec98e30e59230ac4ef052c9cd64ef82b07512a284ee0c",
+      "thai_sha256": "07c371fd9d3a615296928ec5f9bc07ecb0d070b98cd590d9f4c3f5e78a6dd688",
+      "signature": "81:1932129115:374912655",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/97412/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-30",
+      "quest_id": 99215,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "english": "Inspect the armored riding wolves to choose your epic mount.",
+      "thai": "ตรวจดูเหล่าหมาป่าติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "english_sha256": "40d2eb5b279608bf5bbfec56483028a4054ca039af2ece15eded400068ec4aa7",
+      "thai_sha256": "c5096bec25de872bf6dbacf26383f9ecb6a2e8a3bd6b3c1daa3409562f62748e",
+      "signature": "60:262167304:1159903960",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99215/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-31",
+      "quest_id": 84137,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "You wonder why this mech was crashed here, and what this liquid is for. Maybe you can use it to reach the nearby islands and oil rig that seem to be connected to this mysterious organization. Opening the vial, a mildly intoxicating fruity aroma greets your nose.",
+      "thai": "เจ้าสงสัยว่าทำไมหุ่นกลตัวนี้จึงมาตกอยู่ที่นี่ และของเหลวนี้มีไว้ทำอะไร บางทีเจ้าอาจใช้มันไปยังเกาะใกล้ๆ และแท่นขุดเจาะน้ำมันที่ดูเหมือนเกี่ยวข้องกับองค์กรลึกลับนี้ได้ เมื่อเปิดขวด กลิ่นผลไม้ที่ชวนให้มึนเมาเล็กน้อยก็ลอยมาแตะจมูกเจ้า",
+      "english_sha256": "1c7af6dc5d10fb99d7c3c7c661d4b151fcff95225b4cf85099e378d6e65d8edb",
+      "thai_sha256": "5d20c47da04e84d2b674253f5e339431f7788c3d7a8996c6773c65b377b09ed5",
+      "signature": "262:787679456:397300812",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84137/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-32",
+      "quest_id": 84137,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Find a use for the Guided Buoyancy Accelerant",
+      "thai": "หาทางใช้ Guided Buoyancy Accelerant",
+      "english_sha256": "1c988e127d2d23bf1f270befd2e0e0af1a648d7478ac457f44afcc6b16ef3e3f",
+      "thai_sha256": "5f1649a1822c1be2e89289fe510ebd9072054e8684fb455e4213da4b04bad423",
+      "signature": "45:289671890:927538722",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84137/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-33",
+      "quest_id": 84137,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Mechanical Romance",
+      "thai": "รักจักรกล",
+      "english_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "thai_sha256": "545a14e819346a9dc9b0052b05c9b12f372e2af0cf5f31067ced38b496287dd1",
+      "signature": "18:1617612733:425659303",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84137/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-34",
+      "quest_id": 84138,
+      "field": "description",
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "I'm the chief engineer, founder and lead researcher of the Deepsea Exploration and Liquefaction Technologies Alliance. I've nearly finished my latest experiment, and I need your help! I am working on a special device to geolocate resource-rich dimensions.\r\n\r\nTo complete my construction, I need something back: a book of arcane formulas that I lent to an old colleague of mine, Nami, who continues her work in Winterspring.\r\n\r\nRetrieve the book for me and you'll be included as a published contributor!",
+      "thai": "ข้าคือหัวหน้าวิศวกร ผู้ก่อตั้ง และหัวหน้านักวิจัยของ Deepsea Exploration and Liquefaction Technologies Alliance การทดลองล่าสุดของข้าใกล้เสร็จแล้ว และข้าต้องการความช่วยเหลือจากเจ้า! ข้ากำลังสร้างอุปกรณ์พิเศษเพื่อระบุตำแหน่งมิติที่อุดมด้วยทรัพยากร\n\nเพื่อสร้างมันให้เสร็จ ข้าต้องได้ของบางอย่างคืนมา นั่นคือหนังสือสูตรเวทอาร์เคนที่ให้ Nami เพื่อนร่วมงานเก่าของข้ายืมไป เธอยังคงทำงานอยู่ที่ Winterspring\n\nนำหนังสือกลับมาให้ข้า แล้วเจ้าจะมีชื่อเป็นผู้ร่วมสนับสนุนในผลงานที่ตีพิมพ์!",
+      "english_sha256": "de9df630b1ab2c99ab06857a4a6622291828f89ecfbf0913cd22bd0bf1839c0c",
+      "thai_sha256": "c23cdaf40e43d7467f73a3f634d921bbfac12b88ba27989b276c78c5046c1c1f",
+      "signature": "496:1095885207:433238454",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84138/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-35",
+      "quest_id": 84138,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Explain the book situation to Doctor Jurgens' colleague, Nami, in Winterspring.",
+      "thai": "อธิบายเรื่องหนังสือให้ Nami เพื่อนร่วมงานของ Doctor Jurgens ใน Winterspring ฟัง",
+      "english_sha256": "9c6de55121e3dc906399f2288702515a79323446f055b0aa714e987cca0a2a8c",
+      "thai_sha256": "d1f23066bc8072a8afbe7ca0efa04f60969bb8da9cc8120f227ddf86a08a3c15",
+      "signature": "79:1529913487:1002668550",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84138/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-36",
+      "quest_id": 84138,
+      "field": "title",
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Frosty Favors",
+      "thai": "น้ำใจในแดนหนาว",
+      "english_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "thai_sha256": "76571bd1f416e25c69b66bf9b0c307a7980dcb9d0882f117ed3e972cdd757414",
+      "signature": "13:420675433:11065933",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84138/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-37",
+      "quest_id": 99234,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 3217,
+      "required_class_mask": null,
+      "english": "Speak with Griniblix the Spectator above the Maul in Dire Maul.",
+      "thai": "คุยกับ Griniblix the Spectator ที่อยู่เหนือ Maul ใน Dire Maul",
+      "english_sha256": "89e4390a603f5e21306dd062d00fd7813c8ef833f0b5749a0296f21b54c5f11a",
+      "thai_sha256": "59bb8055392a5a48f443c3d88d4bc12719ea9cf0f8cc18844c01592ae6a15400",
+      "signature": "63:269316726:1694838008",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99234/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [
+        {
+          "quest_id": 99233,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "คุยกับ Griniblix the Spectator ที่อยู่เหนือ Maul ใน Dire Maul"
+        },
+        {
+          "quest_id": 97270,
+          "field": "objective",
+          "entry_path": "objective",
+          "thai": "คุยกับ Griniblix the Spectator ที่อยู่เหนือสังเวียน Maul ใน Dire Maul"
+        }
+      ],
+      "translation_class": "exact_reviewed_Thai_reuse",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-38",
+      "quest_id": 99216,
+      "field": "objective",
+      "level": 60,
+      "zone_area_id": 16593,
+      "required_class_mask": null,
+      "english": "Inspect the armored riding striders to choose your epic mount.",
+      "thai": "ตรวจดูเหล่าสไตรเดอร์ติดเกราะที่ใช้เป็นพาหนะ เพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "english_sha256": "754dd540e699c6ec377532086caedf0a0165712c9abefd70fe9699baad1c42d8",
+      "thai_sha256": "e8ace4602df0f0a04361e969d507b6cc1bebaad3e84cc1b28a31f86a79b6b5e4",
+      "signature": "62:1648054411:1558825931",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99216/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [
+        "Striders kept as neutral transliteration; no mechanical/animal/player-race assumption."
+      ],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-39",
+      "quest_id": 94302,
+      "field": "completion",
+      "level": 60,
+      "zone_area_id": 16941,
+      "required_class_mask": null,
+      "english": "My new home is surrounded by turtles, yet I have no knowledge of how to properly prepare their meat nor craft equipment with their scales.\r\n\r\nAs shameful as it feels, my survival has depended upon the aid of others outside my tribe. I have been humbled by the kindness of strangers, and humbled by the simple yet effective techniques they have taught me.\r\n\r\nI hope to learn from this turtle scale breastplate in much the same way.",
+      "thai": "บ้านใหม่ของข้ารายล้อมไปด้วยเต่า แต่ข้าไม่รู้วิธีปรุงเนื้อของพวกมันอย่างถูกต้อง หรือประดิษฐ์อุปกรณ์จากเกล็ดของมันเลย\n\nแม้จะรู้สึกน่าละอาย แต่ข้ารอดชีวิตมาได้เพราะความช่วยเหลือจากคนนอกเผ่า ข้ารู้สึกถ่อมตนลงเมื่อได้เห็นน้ำใจของคนแปลกหน้า และวิธีเรียบง่ายแต่ได้ผลที่พวกเขาสอนให้ข้า\n\nข้าหวังว่าจะได้เรียนรู้จากเสื้อเกราะเกล็ดเต่าตัวนี้ในลักษณะเดียวกัน",
+      "english_sha256": "c808095f1d0da1b7ba9fd7d15889768d1014684d982dd2b0b7d445bbf7fe8ffb",
+      "thai_sha256": "0bb75d7c8191260acc8240e301295e882c5c683176569aeda61c28a2b98cc45b",
+      "signature": "424:1897640002:279490272",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "captured_phase",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/texts.enUS.json",
+          "pointer": "/quests/94302/complete/0/text",
+          "build": "70938",
+          "phase": "complete"
+        }
+      ],
+      "phase_proof": "Same-own-ID texts[94302].complete: turn-in dialogue phase per pinned DATASETS534–536, not cached completionLog.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [
+        "Explicit captured complete event, not query completionText/endText. First-person speaker/tribe prose retained; no reader identity, player-race, class, gender or current enabled claim. Source metadata speaker npc262388,1source/1capture; no personal name values copied."
+      ],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-40",
+      "quest_id": 84213,
+      "field": "description",
+      "level": 62,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Join me in this historic experiment and witness the wonders of my invention! I've calculated two locations with suitable geothermic bioflux energy. With manual-auto-locking phasers, I'm ready to send us to the coordinates within compatible regions.\r\n\r\nOnce you're at compatible coordinates, use this remote transponder to send the signal to me. I'll configure the warp transmitter to fold the space between here, and there.\r\n\r\nWhat I'm saying is, I'll meet you there when you say you're ready!",
+      "thai": "มาร่วมการทดลองครั้งประวัติศาสตร์นี้กับข้า แล้วชมความมหัศจรรย์ของสิ่งประดิษฐ์ของข้า! ข้าคำนวณตำแหน่งที่มีพลังงานชีวฟลักซ์จากความร้อนใต้พิภพเหมาะสมไว้สองแห่งแล้ว ด้วยเฟเซอร์แบบล็อกแมนนวล-อัตโนมัติ ข้าพร้อมส่งพวกเราไปยังพิกัดในเขตพื้นที่ที่เข้ากันได้แล้ว\n\nเมื่อเจ้าอยู่ที่พิกัดที่เข้ากันได้ ให้ใช้เครื่องส่งสัญญาณระยะไกลนี้ส่งสัญญาณมาหาข้า ข้าจะปรับเครื่องส่งวาร์ปให้พับห้วงอวกาศระหว่างที่นี่กับที่นั่นเข้าหากัน\n\nที่ข้าจะบอกก็คือ ข้าจะไปพบเจ้าเมื่อเจ้าบอกว่าพร้อมแล้ว!",
+      "english_sha256": "45d6c55f8af26ff8497c635465d659f8fd04b338590c575c35b0bf65ba27aca5",
+      "thai_sha256": "7ffff3c92a3c7296321400ca6df37a6dcdb8f4923d5f5599fec44932c2322662",
+      "signature": "487:1053047632:665354261",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84213/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [
+        "Source technical phrase manual-auto-locking phasers and spelling elecro are retained without inventing a corrected device/schema. Objective either Tirisfal Glades OR Westfall; no two-site requirement."
+      ],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-41",
+      "quest_id": 84213,
+      "field": "objective",
+      "level": 62,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Use the Distant Communication Device to send the signal to Jurgens at either Tirisfal Glades or Westfall\r\nThen, assist him in demonstrating the capabilities of his elecro transmitter.",
+      "thai": "ใช้ Distant Communication Device ส่งสัญญาณไปให้ Jurgens ที่ Tirisfal Glades หรือ Westfall แห่งใดแห่งหนึ่ง\nจากนั้นช่วยเขาสาธิตความสามารถของเครื่องส่งสัญญาณ elecro ของเขา",
+      "english_sha256": "209a49b3d706187e32730f6b6cbeee4d1a7d97282e0319941448bc567f2792de",
+      "thai_sha256": "0f5e6d6d229ef5a1df63e3a2d4ce950cb2e37f30e9f2ee30e0f37ca94c738248",
+      "signature": "182:1711956652:1287477670",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84213/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [
+        "Source technical phrase manual-auto-locking phasers and spelling elecro are retained without inventing a corrected device/schema. Objective either Tirisfal Glades OR Westfall; no two-site requirement."
+      ],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    },
+    {
+      "case_id": "MAIN24-03-42",
+      "quest_id": 84213,
+      "field": "title",
+      "level": 62,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "english": "Rift Away",
+      "thai": "ข้ามรอยแยก",
+      "english_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "thai_sha256": "adda2f4d06071b46d49d88f522330a706d00d50aef68c77efffd1e66484c38aa",
+      "signature": "9:886231616:2102978614",
+      "source_repository": "JIVESCORP/eg-link-output-wowf",
+      "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84213/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "phase_proof": "Same-own-ID quests title/objectivesText/description per pinned DATASETS; no endText/progress/reward inference.",
+      "canonical_present": false,
+      "exact_Thai_reuse_matches": [],
+      "translation_class": "new_Thai_wording",
+      "privacy_screen": "Manual full English/Thai read: literal NPC/item/place/story/first-person references. No captured reader names or identity/counter/gender tokens. Complete94302 screened in full, not accepted merely for lacking dollar markers.",
+      "review_notes": [
+        "Source technical phrase manual-auto-locking phasers and spelling elecro are retained without inventing a corrected device/schema. Objective either Tirisfal Glades OR Westfall; no two-site requirement."
+      ],
+      "current_enabled_usage": "unproven; no whole enabledinventory or per-character quest acceptance proof."
+    }
+  ]
+}

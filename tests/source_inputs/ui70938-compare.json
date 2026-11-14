@@ -1,0 +1,429 @@
+{
+  "url": "https://api.github.com/repos/Gethe/wow-ui-source/compare/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe...bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+  "html_url": "https://github.com/Gethe/wow-ui-source/compare/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe...bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+  "permalink_url": "https://github.com/Gethe/wow-ui-source/compare/Gethe:4cd0ab7...Gethe:bebcb6b",
+  "diff_url": "https://github.com/Gethe/wow-ui-source/compare/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe...bebcb6bf309cf41b41bd74f8ca651e6a105b2676.diff",
+  "patch_url": "https://github.com/Gethe/wow-ui-source/compare/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe...bebcb6bf309cf41b41bd74f8ca651e6a105b2676.patch",
+  "base_commit": {
+    "sha": "4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "node_id": "C_kwDOAIqc7toAKDRjZDBhYjc1MmE3NzE2NGY2NTRjY2JjYTlkMGMxZmU4ZGFmY2VlYmU",
+    "commit": {
+      "author": {
+        "name": "github-actions",
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "date": "2026-11-10T15:16:27Z"
+      },
+      "committer": {
+        "name": "github-actions",
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "date": "2026-11-10T15:16:27Z"
+      },
+      "message": "1.60.1 (70888)",
+      "tree": {
+        "sha": "05764ae9a89cff4f9bbbbfbee2509743462a09c0",
+        "url": "https://api.github.com/repos/Gethe/wow-ui-source/git/trees/05764ae9a89cff4f9bbbbfbee2509743462a09c0"
+      },
+      "url": "https://api.github.com/repos/Gethe/wow-ui-source/git/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "html_url": "https://github.com/Gethe/wow-ui-source/commit/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "comments_url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe/comments",
+    "author": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9dc84f0d3bbae1768ac3405b3716000bd93eda06",
+        "url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/9dc84f0d3bbae1768ac3405b3716000bd93eda06",
+        "html_url": "https://github.com/Gethe/wow-ui-source/commit/9dc84f0d3bbae1768ac3405b3716000bd93eda06"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "node_id": "C_kwDOAIqc7toAKDRjZDBhYjc1MmE3NzE2NGY2NTRjY2JjYTlkMGMxZmU4ZGFmY2VlYmU",
+    "commit": {
+      "author": {
+        "name": "github-actions",
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "date": "2026-11-10T15:16:27Z"
+      },
+      "committer": {
+        "name": "github-actions",
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "date": "2026-11-10T15:16:27Z"
+      },
+      "message": "1.60.1 (70888)",
+      "tree": {
+        "sha": "05764ae9a89cff4f9bbbbfbee2509743462a09c0",
+        "url": "https://api.github.com/repos/Gethe/wow-ui-source/git/trees/05764ae9a89cff4f9bbbbfbee2509743462a09c0"
+      },
+      "url": "https://api.github.com/repos/Gethe/wow-ui-source/git/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "html_url": "https://github.com/Gethe/wow-ui-source/commit/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "comments_url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe/comments",
+    "author": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9dc84f0d3bbae1768ac3405b3716000bd93eda06",
+        "url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/9dc84f0d3bbae1768ac3405b3716000bd93eda06",
+        "html_url": "https://github.com/Gethe/wow-ui-source/commit/9dc84f0d3bbae1768ac3405b3716000bd93eda06"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "total_commits": 1,
+  "commits": [
+    {
+      "sha": "bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "node_id": "C_kwDOAIqc7toAKGJlYmNiNmJmMzA5Y2Y0MWI0MWJkNzRmOGNhNjUxZTZhMTA1YjI2NzY",
+      "commit": {
+        "author": {
+          "name": "github-actions",
+          "email": "41898282+github-actions[bot]@users.noreply.github.com",
+          "date": "2026-11-13T01:46:40Z"
+        },
+        "committer": {
+          "name": "github-actions",
+          "email": "41898282+github-actions[bot]@users.noreply.github.com",
+          "date": "2026-11-13T01:46:40Z"
+        },
+        "message": "1.60.1 (70938)",
+        "tree": {
+          "sha": "03df6dc46b3b85ce340b0164c1482a718102569e",
+          "url": "https://api.github.com/repos/Gethe/wow-ui-source/git/trees/03df6dc46b3b85ce340b0164c1482a718102569e"
+        },
+        "url": "https://api.github.com/repos/Gethe/wow-ui-source/git/commits/bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "html_url": "https://github.com/Gethe/wow-ui-source/commit/bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "comments_url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/comments",
+      "author": {
+        "login": "github-actions[bot]",
+        "id": 41898282,
+        "node_id": "MDM6Qm90NDE4OTgyODI=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+        "html_url": "https://github.com/apps/github-actions",
+        "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "github-actions[bot]",
+        "id": 41898282,
+        "node_id": "MDM6Qm90NDE4OTgyODI=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+        "html_url": "https://github.com/apps/github-actions",
+        "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+          "url": "https://api.github.com/repos/Gethe/wow-ui-source/commits/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+          "html_url": "https://github.com/Gethe/wow-ui-source/commit/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "a1a31106a1d600addccfbd27a559b69a4777f2ef",
+      "filename": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TradeSkillUIDocumentation.lua",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "changes": 15,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_APIDocumentationGenerated%2FTradeSkillUIDocumentation.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_APIDocumentationGenerated%2FTradeSkillUIDocumentation.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_APIDocumentationGenerated%2FTradeSkillUIDocumentation.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -902,6 +902,21 @@ local TradeSkillUI =\n \t\t\t\t{ Name = \"hasFavorites\", Type = \"bool\", Nilable = false },\n \t\t\t},\n \t\t},\n+\t\t{\n+\t\t\tName = \"HasNoReagentCost\",\n+\t\t\tType = \"Function\",\n+\t\t\tSecretArguments = \"AllowedWhenUntainted\",\n+\n+\t\t\tArguments =\n+\t\t\t{\n+\t\t\t\t{ Name = \"recipeID\", Type = \"number\", Nilable = false },\n+\t\t\t},\n+\n+\t\t\tReturns =\n+\t\t\t{\n+\t\t\t\t{ Name = \"hasNoReagentCost\", Type = \"bool\", Nilable = false },\n+\t\t\t},\n+\t\t},\n \t\t{\n \t\t\tName = \"IsEnchantTargetValid\",\n \t\t\tType = \"Function\","
+    },
+    {
+      "sha": "5948edfa68edb6f497f0da4af5ed9c72c1bb7737",
+      "filename": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TransmogOutfitInfoDocumentation.lua",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_APIDocumentationGenerated%2FTransmogOutfitInfoDocumentation.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_APIDocumentationGenerated%2FTransmogOutfitInfoDocumentation.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_APIDocumentationGenerated%2FTransmogOutfitInfoDocumentation.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -409,6 +409,7 @@ local TransmogOutfitInfo =\n \t\t\tArguments =\n \t\t\t{\n \t\t\t\t{ Name = \"slot\", Type = \"TransmogOutfitSlot\", Nilable = false },\n+\t\t\t\t{ Name = \"option\", Type = \"TransmogOutfitSlotOption\", Nilable = false },\n \t\t\t},\n \n \t\t\tReturns =\n@@ -761,6 +762,7 @@ local TransmogOutfitInfo =\n \t\t\tArguments =\n \t\t\t{\n \t\t\t\t{ Name = \"slot\", Type = \"TransmogOutfitSlot\", Nilable = false },\n+\t\t\t\t{ Name = \"option\", Type = \"TransmogOutfitSlotOption\", Nilable = false },\n \t\t\t\t{ Name = \"state\", Type = \"bool\", Nilable = false },\n \t\t\t},\n \t\t},"
+    },
+    {
+      "sha": "09ab47260c320a1693a78a033646cf809b9cd1ab",
+      "filename": "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.lua",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 11,
+      "changes": 21,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Collections%2FClassic%2FBlizzard_PetCollection.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Collections%2FClassic%2FBlizzard_PetCollection.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_Collections%2FClassic%2FBlizzard_PetCollection.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -35,6 +35,7 @@ function PetJournal_OnLoad(self)\n \n \t-- If there is only one filter setting available, hide filter\n \tif C_CVar.GetCVarBool(\"onlyShowCollectedItemsInJournal\") then\n+\t\tC_PetJournal.SetDefaultFilters();\n \t\tself.FilterDropdown:Hide();\n \telse\n \t\tPetJournal_InitFilterDropdown(self);\n@@ -46,6 +47,14 @@ function PetJournal_OnLoad(self)\n end\n \n function PetJournal_InitFilterDropdown(self)\n+\tself.FilterDropdown:SetIsDefaultCallback(function()\n+\t\treturn C_PetJournal.IsUsingDefaultFilters();\n+\tend);\n+\t\n+\tself.FilterDropdown:SetDefaultCallback(function()\n+\t\tC_PetJournal.SetDefaultFilters();\n+\tend);\n+\n \tlocal function IsFamilyChecked(filterIndex) \n \t\treturn C_PetJournal.IsPetTypeChecked(filterIndex)\n \tend\n@@ -86,16 +95,6 @@ function PetJournal_InitFilterDropdown(self)\n \t\t[Enum.BattlePetSources.Tcg] = 1,\n \t};\n \n-\tself.FilterDropdown:SetIsDefaultCallback(function()\n-\t\treturn PetJournalFilterDropdown_GetCollectedFilter() and PetJournalFilterDropdown_GetNotCollectedFilter();\n-\tend);\n-\t\n-\tself.FilterDropdown:SetDefaultCallback(function()\n-\t\tPetJournalFilterDropdown_SetCollectedFilter(true);\n-\t\tPetJournalFilterDropdown_SetNotCollectedFilter(true);\n-\tend);\n-\t\n-\n \tself.FilterDropdown:SetupMenu(function(dropdown, rootDescription)\n \t\trootDescription:SetTag(\"MENU_PET_COLLECTION_FILTER\");\n \n@@ -556,7 +555,7 @@ function PetJournalPetCard_OnClick(self, button)\n \t\t\tlocal petLink = C_PetJournal.GetBattlePetLink(id);\n \t\t\tChatFrameUtil.InsertLink(petLink);\n \t\telse\n-\t\t\tlocal petLink = C_PetJournal.GetNonBattlePetLinkByIndex(self.index);\n+\t\t\tlocal petLink = C_PetJournal.GetNonBattlePetLinkByIndex(PetJournalPetCard.petIndex);\n \t\t\tChatFrameUtil.InsertLink(petLink);\n \t\tend\n \telseif button == \"RightButton\" then"
+    },
+    {
+      "sha": "c59a578a113af0671b9c2494b4b44e5c5007a8fb",
+      "filename": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Collections%2FMainline%2FBlizzard_MountCollection.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Collections%2FMainline%2FBlizzard_MountCollection.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_Collections%2FMainline%2FBlizzard_MountCollection.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -150,6 +150,7 @@ function MountJournal_OnLoad(self)\n \n \t-- If there is only one filter setting available, hide filter\n \tif C_CVar.GetCVarBool(\"onlyShowCollectedItemsInJournal\") then\n+\t\tC_MountJournal.SetDefaultFilters();\n \t\tself.FilterDropdown:Hide();\n \telse\n \t\tMountJournal_InitFilterButton(self);"
+    },
+    {
+      "sha": "30c3da64353db7bea1e64f653def69543b6df582",
+      "filename": "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.lua",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Collections%2FMainline%2FBlizzard_ToyBox.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Collections%2FMainline%2FBlizzard_ToyBox.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_Collections%2FMainline%2FBlizzard_ToyBox.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -14,6 +14,7 @@ function ToyBox_OnLoad(self)\n \n \t-- If there is only one filter setting available, hide filter\n \tif C_CVar.GetCVarBool(\"onlyShowCollectedItemsInJournal\") then\n+\t\tC_ToyBoxInfo.SetDefaultFilters();\n \t\tself.FilterDropdown:Hide();\n \n \t\t-- Move search bar over to previous filter position"
+    },
+    {
+      "sha": "0b25f564eadb010792ca99a6455f9441ea077960",
+      "filename": "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterCopy.lua",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "changes": 8,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_GlueXML%2FCamelot%2FCharacterCopy.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_GlueXML%2FCamelot%2FCharacterCopy.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_GlueXML%2FCamelot%2FCharacterCopy.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -37,6 +37,14 @@ StaticPopupDialogs[\"COPY_KEY_BINDINGS\"] = {\n \tend,\n }\n \n+StaticPopupDialogs[\"COPY_IN_PROGRESS\"] = {\n+\ttext = COPY_IN_PROGRESS,\n+\tbutton1 = nil,\n+\tbutton2 = nil,\n+\tignoreKeys = true,\n+\tspinner = true,\n+}\n+\n function CopyCharacterFromLive()\n \tif ( not IsGMClient() ) then\n \t\tCopyAccountCharacterFromLive(CopyCharacterFrame_GetSelectedRegionID(), CopyCharacterFrame.SelectedIndex);"
+    },
+    {
+      "sha": "ee92780a6a67cd11275cf5f474a829b5b55d220f",
+      "filename": "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPVPFrame.xml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_InspectUI%2FCamelot%2FInspectPVPFrame.xml",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_InspectUI%2FCamelot%2FInspectPVPFrame.xml",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_InspectUI%2FCamelot%2FInspectPVPFrame.xml?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -20,12 +20,12 @@\n \t\t\t\t\t<Layer level=\"ARTWORK\">\n \t\t\t\t\t\t<FontString parentKey=\"CurrentSeasonField\" inherits=\"GameFontNormalMed2\" justifyH=\"CENTER\">\n \t\t\t\t\t\t\t<Anchors>\n-\t\t\t\t\t\t\t\t<Anchor point=\"TOP\" x=\"0\" y=\"-20\"/>\n+\t\t\t\t\t\t\t\t<Anchor point=\"TOP\" x=\"0\" y=\"-8\"/>\n \t\t\t\t\t\t\t</Anchors>\n \t\t\t\t\t\t</FontString>\n \t\t\t\t\t\t<FontString parentKey=\"CurrentRankField\" inherits=\"GameFontHighlightLarge\" justifyH=\"CENTER\">\n \t\t\t\t\t\t\t<Anchors>\n-\t\t\t\t\t\t\t\t<Anchor point=\"TOP\" relativeKey=\"$parent.CurrentSeasonField\" relativePoint=\"BOTTOM\" x=\"0\" y=\"10\"/>\n+\t\t\t\t\t\t\t\t<Anchor point=\"TOP\" relativeKey=\"$parent.CurrentSeasonField\" relativePoint=\"BOTTOM\" x=\"0\" y=\"-10\"/>\n \t\t\t\t\t\t\t</Anchors>\n \t\t\t\t\t\t</FontString>\n \t\t\t\t\t\t<FontString parentKey=\"CurrentRankProgressField\" inherits=\"GameFontNormal\" justifyH=\"CENTER\">"
+    },
+    {
+      "sha": "2f6aedf248957c8bddf76c4b08369daa00a37d15",
+      "filename": "Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "changes": 9,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Professions%2FBlizzard_ProfessionsCrafting.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Professions%2FBlizzard_ProfessionsCrafting.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_Professions%2FBlizzard_ProfessionsCrafting.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -644,7 +644,7 @@ local FailValidationTooltips = {\n \t[FailValidationReason.RecraftOptionalReagentLimit] = PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,\n };\n \n-function ProfessionsCraftingPageMixin:ValidateCraftRequirements(currentRecipeInfo, transaction, isRuneforging, countMax)\n+function ProfessionsCraftingPageMixin:ValidateCraftRequirements(currentRecipeInfo, transaction, hasNoReagentCost, countMax)\n \tif not currentRecipeInfo.craftable or currentRecipeInfo.disabled then\n \t\treturn FailValidationReason.Disabled;\n \tend\n@@ -665,7 +665,7 @@ function ProfessionsCraftingPageMixin:ValidateCraftRequirements(currentRecipeInf\n \t\treturn FailValidationReason.DependentReagentMissing;\n \tend\n \n-\tif not isRuneforging and countMax <= 0 then\n+\tif not hasNoReagentCost and countMax <= 0 then\n \t\treturn FailValidationReason.InsufficientReagents;\n \tend\n \t\n@@ -718,9 +718,10 @@ function ProfessionsCraftingPageMixin:ValidateControls(skipConstrainCount)\n \n \t\tlocal transaction = self.SchematicForm:GetTransaction();\n \t\tlocal isEnchant = transaction:IsRecipeType(Enum.TradeskillRecipeType.Enchant);\n+\t\tlocal hasNoReagentCost = C_TradeSkillUI.HasNoReagentCost(currentRecipeInfo.recipeID);\n \n \t\tlocal canCreateMultiple = currentRecipeInfo.canCreateMultiple and \n-\t\t\tnot isRuneforging and\n+\t\t\tnot hasNoReagentCost and\n \t\t\tnot transaction:HasRecraftAllocation() and\n \t\t\t(not isEnchant or DoesEnchantTargetSupportStacks(transaction));\n \n@@ -798,7 +799,7 @@ function ProfessionsCraftingPageMixin:ValidateControls(skipConstrainCount)\n \t\tend\n \n \t\tif enabled then\n-\t\t\tlocal failValidationReason = self:ValidateCraftRequirements(currentRecipeInfo, transaction, isRuneforging, countMax);\n+\t\t\tlocal failValidationReason = self:ValidateCraftRequirements(currentRecipeInfo, transaction, hasNoReagentCost, countMax);\n \t\t\tenabled = failValidationReason == nil;\n \t\t\tself:SetCreateButtonTooltipText(FailValidationTooltips[failValidationReason]);\n \t\tend"
+    },
+    {
+      "sha": "aa3843c11d72ce0e0a1f1acb5edb2686350eacc3",
+      "filename": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_Professions.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_Professions.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_Professions.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -1464,7 +1464,7 @@ function Professions.CanTrackRecipe(recipeInfo)\n \t\treturn false;\n \tend\n \n-\tif C_TradeSkillUI.IsRuneforging() then\n+\tif C_TradeSkillUI.HasNoReagentCost(recipeInfo.recipeID) then\n \t\treturn false;\n \tend\n "
+    },
+    {
+      "sha": "d9140a526dc2a9bde7b2765665723bd394888aad",
+      "filename": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 7,
+      "changes": 33,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_ProfessionsRecipeList.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_ProfessionsRecipeList.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_ProfessionsRecipeList.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -86,6 +86,18 @@ function ProfessionsRecipeListMixin:OnLoad()\n \t\t\t\t\tProfessionsRecipeListRecipeMixin.OnEnter(button);\n \t\t\t\t\tEventRegistry:TriggerEvent(\"ProfessionsDebug.CraftingRecipeListRecipeEntered\", button, elementData.recipeInfo);\n \t\t\t\tend);\n+\n+\t\t\t\tbutton:SetScript(\"OnShow\", function()\n+\t\t\t\t\tEventRegistry:RegisterCallback(\"ProfessionsRecipeListMixin.Event.RefreshCraftableCount\", function()\n+\t\t\t\t\t\tbutton:SetCraftableCount(self.hideCraftableCount);\n+\t\t\t\t\tend, button);\n+\t\t\t\tend);\n+\n+\t\t\t\tbutton:SetScript(\"OnHide\", function()\n+\t\t\t\t\tEventRegistry:RegisterCallback(\"ProfessionsRecipeListMixin.Event.RefreshCraftableCount\", function()\n+\t\t\t\t\t\tbutton:SetCraftableCount(self.hideCraftableCount);\n+\t\t\t\t\tend, button);\n+\t\t\t\tend);\n \t\t\tend\n \t\t\tfactory(\"ProfessionsRecipeListRecipeTemplate\", Initializer);\n \t\telseif elementData.isDivider then\n@@ -333,21 +345,28 @@ function ProfessionsRecipeListRecipeMixin:Init(node, hideCraftableCount)\n \t\trightFrame = frame;\n \t\trightFramesWidth = rightFramesWidth + frame:GetWidth();\n \tend\n+\n+\tself:SetCraftableCount(hideCraftableCount);\n \t\n-\tlocal count = C_TradeSkillUI.GetCraftableCount(recipeInfo.recipeID);\n+\tlocal padding = 10;\n+\tlocal countWidth = hasCount and self.Count:GetStringWidth() or 0;\n+\tlocal width = self:GetWidth() - (rightFramesWidth + countWidth + padding + self.SkillUps:GetWidth());\n+\tself.Label:SetWidth(self:GetWidth());\n+\tself.Label:SetWidth(math.min(width, self.Label:GetStringWidth()));\n+end\n+\n+function ProfessionsRecipeListRecipeMixin:SetCraftableCount(hideCraftableCount)\n+\tlocal elementData = self:GetElementData();\n+\tlocal recipeID = elementData.data.recipeInfo.recipeID;\n+\n+\tlocal count = C_TradeSkillUI.GetCraftableCount(recipeID);\n \tlocal hasCount = count > 0;\n \tif hasCount and not hideCraftableCount then\n \t\tself.Count:SetFormattedText(\" [%d] \", count);\n \t\tself.Count:Show();\n \telse\n \t\tself.Count:Hide();\n \tend\n-\n-\tlocal padding = 10;\n-\tlocal countWidth = hasCount and self.Count:GetStringWidth() or 0;\n-\tlocal width = self:GetWidth() - (rightFramesWidth + countWidth + padding + self.SkillUps:GetWidth());\n-\tself.Label:SetWidth(self:GetWidth());\n-\tself.Label:SetWidth(math.min(width, self.Label:GetStringWidth()));\n end\n \n function ProfessionsRecipeListRecipeMixin:SetLabelFontColors(color)"
+    },
+    {
+      "sha": "1b6f25a963ddeb353d5ba638210d3affc3fff82a",
+      "filename": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.lua",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "changes": 7,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_ProfessionsRecipeSchematicForm.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_ProfessionsRecipeSchematicForm.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_ProfessionsTemplates%2FBlizzard_ProfessionsRecipeSchematicForm.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -82,7 +82,8 @@ local ProfessionsRecipeFormEvents =\n \t\"TRACKED_RECIPE_UPDATE\",\n \t\"TRADE_SKILL_ITEM_UPDATE\",\n \t\"CRAFTING_DETAILS_UPDATE\",\n-\t\"TRADE_SKILL_FAVORITES_CHANGED\"\n+\t\"TRADE_SKILL_FAVORITES_CHANGED\",\n+\t\"PLAYER_TALENT_UPDATE\"\n };\n \n function ProfessionsRecipeSchematicFormMixin:OnLoad()\n@@ -244,6 +245,10 @@ function ProfessionsRecipeSchematicFormMixin:OnEvent(event, ...)\n \t\t\tself.FavoriteButton:SetChecked(isFavorite);\n \t\t\tself.FavoriteButton:SetIsFavorite(isFavorite);\n \t\tend\n+\telseif event == \"PLAYER_TALENT_UPDATE\" then\n+\t\tself:Init(self.currentRecipeInfo);\n+\n+\t\tEventRegistry:TriggerEvent(\"ProfessionsRecipeListMixin.Event.RefreshCraftableCount\");\n \tend\n end\n "
+    },
+    {
+      "sha": "3d1fd5059e3c66cb97a147c197c9900a36af8520",
+      "filename": "Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "changes": 21,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Transmog%2FBlizzard_Transmog.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Transmog%2FBlizzard_Transmog.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_Transmog%2FBlizzard_Transmog.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -1253,15 +1253,26 @@ function TransmogCharacterMixin:SetupSlots()\n \t\t-- Make sure we are selecting the same slot after refreshing our frames, if the slot still exists.\n \t\tlocal slotFrameFound = false;\n \t\tif self.selectedSlotData.transmogLocation then\n-\t\t\tlocal slotFrame = self:GetSlotFrame(self.selectedSlotData.transmogLocation:GetSlot(), self.selectedSlotData.transmogLocation:GetType());\n+\t\t\tlocal slot = self.selectedSlotData.transmogLocation:GetSlot();\n+\t\t\tlocal slotFrame = self:GetSlotFrame(slot, self.selectedSlotData.transmogLocation:GetType());\n+\n+\t\t\tif not slotFrame then\n+\t\t\t\t-- Try to select the primary slot if this was the secondary slot that is now hidden\n+\t\t\t\tlocal linkedSlotsInfo = C_TransmogOutfitInfo.GetLinkedSlotInfo(slot);\n+\t\t\t\tif slot == linkedSlotsInfo.secondarySlotInfo.slot then\n+\t\t\t\t\tslotFrame = self:GetSlotFrame(linkedSlotsInfo.primarySlotInfo.slot, linkedSlotsInfo.primarySlotInfo.type);\n+\t\t\t\tend\n+\t\t\tend\n+\n \t\t\tif slotFrame then\n \t\t\t\tslotFrameFound = true;\n \t\t\t\tslotFrame:SetSelected(true);\n+\t\t\t\tself:SetSelectedSlotData(slotFrame.slotData);\n \t\t\tend\n \t\tend\n \n \t\tif not slotFrameFound then\n-\t\t\t-- Whatever slot we were selecting is no longer present (split slot that is now hidden).\n+\t\t\t-- Whatever slot we were selecting is no longer present.\n \t\t\tself:SetSelectedSlotData(nil);\n \t\tend\n \tend\n@@ -1970,7 +1981,7 @@ function TransmogWardrobeItemsMixin:OnLoad()\n \t\telse\n \t\t\tPlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_OFF);\n \t\tend\n-\t\tC_TransmogOutfitInfo.SetSecondarySlotState(selectedSlotData.transmogLocation:GetSlot(), toggledOn);\n+\t\tC_TransmogOutfitInfo.SetSecondarySlotState(selectedSlotData.transmogLocation:GetSlot(), selectedSlotData.currentOptionInfo.type, toggledOn);\n \t\tself.SecondaryAppearanceToggle.Text:SetFontObject(toggledOn and \"GameFontHighlight\" or \"GameFontNormal\");\n \tend);\n \n@@ -2141,7 +2152,7 @@ function TransmogWardrobeItemsMixin:RefreshActiveSlotTitle()\n \t\t-- Use different names if slots are split.\n \t\tif selectedSlotData.currentOptionInfo.type ~= Enum.TransmogOutfitSlotOption.None then\n \t\t\toption = selectedSlotData.currentOptionInfo.name;\n-\t\telseif C_TransmogOutfitInfo.GetSecondarySlotState(selectedSlotData.transmogLocation:GetSlot()) then\n+\t\telseif C_TransmogOutfitInfo.GetSecondarySlotState(selectedSlotData.transmogLocation:GetSlot(), selectedSlotData.currentOptionInfo.type) then\n \t\t\tif selectedSlotData.transmogLocation:GetSlot() == Enum.TransmogOutfitSlot.ShoulderRight then\n \t\t\t\tslot = RIGHTSHOULDERSLOT;\n \t\t\telseif selectedSlotData.transmogLocation:GetSlot() == Enum.TransmogOutfitSlot.ShoulderLeft then\n@@ -2369,7 +2380,7 @@ function TransmogWardrobeItemsMixin:RefreshSecondaryAppearanceToggle()\n \tlocal hasSecondary = C_TransmogOutfitInfo.SlotHasSecondary(slot);\n \tif hasSecondary then\n \t\tself.SecondaryAppearanceToggle:Show();\n-\t\tlocal toggledOn = C_TransmogOutfitInfo.GetSecondarySlotState(slot);\n+\t\tlocal toggledOn = C_TransmogOutfitInfo.GetSecondarySlotState(slot, selectedSlotData.currentOptionInfo.type);\n \t\tself.SecondaryAppearanceToggle.Checkbox:SetChecked(toggledOn);\n \t\tself.SecondaryAppearanceToggle.Text:SetFontObject(toggledOn and \"GameFontHighlight\" or \"GameFontNormal\");\n \telse"
+    },
+    {
+      "sha": "399616eacf5fafaa8038bde3f7e7511315f69af9",
+      "filename": "Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 2,
+      "changes": 20,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Transmog%2FBlizzard_TransmogTemplates.lua",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/Interface%2FAddOns%2FBlizzard_Transmog%2FBlizzard_TransmogTemplates.lua",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/Interface%2FAddOns%2FBlizzard_Transmog%2FBlizzard_TransmogTemplates.lua?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -216,7 +216,23 @@ function TransmogSlotMixin:OnClick(buttonName)\n \telseif buttonName == \"RightButton\" then\n \t\tif outfitSlotInfo.hasPending then\n \t\t\tPlaySound(SOUNDKIT.UI_TRANSMOG_REVERTING_GEAR_SLOT);\n-\t\t\tC_TransmogOutfitInfo.RevertPendingTransmog(self.slotData.transmogLocation:GetSlot(), self.slotData.transmogLocation:GetType(), self.slotData.currentOptionInfo.type);\n+\t\t\tlocal slot = self.slotData.transmogLocation:GetSlot();\n+\t\t\tlocal type = self.slotData.transmogLocation:GetType();\n+\t\t\tlocal option = self.slotData.currentOptionInfo.type\n+\t\t\tC_TransmogOutfitInfo.RevertPendingTransmog(slot, type, option);\n+\n+\t\t\t-- When reverting transmog on a slot, also revert the pending mog on a linked slot if it isnt active\n+\t\t\tlocal linkedSlotsInfo = C_TransmogOutfitInfo.GetLinkedSlotInfo(slot);\n+\t\t\tif linkedSlotsInfo and slot == linkedSlotsInfo.primarySlotInfo.slot and not C_TransmogOutfitInfo.GetSecondarySlotState(slot, option) then\n+\t\t\t\tC_TransmogOutfitInfo.RevertPendingTransmog(linkedSlotsInfo.secondarySlotInfo.slot, type, option);\n+\t\t\t\tlocal primaryOutfitSlotInfo = C_TransmogOutfitInfo.GetViewedOutfitSlotInfo(linkedSlotsInfo.primarySlotInfo.slot, linkedSlotsInfo.primarySlotInfo.type, option);\n+\t\t\t\tlocal secondaryOutfitSlotInfo = C_TransmogOutfitInfo.GetViewedOutfitSlotInfo(linkedSlotsInfo.secondarySlotInfo.slot, linkedSlotsInfo.secondarySlotInfo.type, option);\n+\t\t\t\tif primaryOutfitSlotInfo and secondaryOutfitSlotInfo and primaryOutfitSlotInfo.transmogID ~= secondaryOutfitSlotInfo.transmogID then\n+\t\t\t\t\t-- we've reverted the transmog on the main slot and the secondary slot is inactive, but the saved mogs are different, so it SHOULD be active, turn it on\n+\t\t\t\t\tC_TransmogOutfitInfo.SetSecondarySlotState(slot, option, true);\n+\t\t\t\t\tTransmogFrame.WardrobeCollection.TabContent.ItemsFrame:RefreshSecondaryAppearanceToggle();\n+\t\t\t\tend\n+\t\t\tend\n \t\t\tself:OnSelect();\n \t\tend\n \tend\n@@ -292,7 +308,7 @@ function TransmogSlotMixin:OnEnter()\n \t\t\tlocal subtitle = nil;\n \t\t\tif self.slotData.currentOptionInfo.type ~= Enum.TransmogOutfitSlotOption.None then\n \t\t\t\tsubtitle = self.slotData.currentOptionInfo.name;\n-\t\t\telseif C_TransmogOutfitInfo.GetSecondarySlotState(slot) then\n+\t\t\telseif C_TransmogOutfitInfo.GetSecondarySlotState(slot, self.slotData.currentOptionInfo.type) then\n \t\t\t\tif slot == Enum.TransmogOutfitSlot.ShoulderRight then\n \t\t\t\t\ttitle = RIGHTSHOULDERSLOT;\n \t\t\t\telseif slot == Enum.TransmogOutfitSlot.ShoulderLeft then"
+    },
+    {
+      "sha": "d9e480e0da12ed6c10b3a65da1121a88c1e28848",
+      "filename": "version.txt",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/Gethe/wow-ui-source/blob/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/version.txt",
+      "raw_url": "https://github.com/Gethe/wow-ui-source/raw/bebcb6bf309cf41b41bd74f8ca651e6a105b2676/version.txt",
+      "contents_url": "https://api.github.com/repos/Gethe/wow-ui-source/contents/version.txt?ref=bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+      "patch": "@@ -1 +1 @@\n-1.60.1.70888\n+1.60.1.70938"
+    }
+  ]
+}

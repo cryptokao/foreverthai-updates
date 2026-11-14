@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "quest_id": 80411,
+      "field": "title",
+      "english": "The Talisman of Kazdor",
+      "expected": "เครื่องรางแห่ง Kazdor"
+    },
+    {
+      "quest_id": 80411,
+      "field": "objective",
+      "english": "Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+      "expected": "ตามหา Talisman of Kazdor ภายใน Zul'Farrak แล้วนำไปให้ Fahrad ที่ Ravenholdt Manor เจ้าต้องทำงานนี้เพียงลำพัง"
+    },
+    {
+      "quest_id": 80526,
+      "field": "title",
+      "english": "Fool Me Twice",
+      "expected": "หลอกข้าซ้ำสอง"
+    },
+    {
+      "quest_id": 80526,
+      "field": "objective",
+      "english": "Speak to Fahrad when you're ready to hear his plan.",
+      "expected": "คุยกับ Fahrad เมื่อเจ้าพร้อมฟังแผนของเขา"
+    },
+    {
+      "quest_id": 89015,
+      "field": "title",
+      "english": "Deadliest Catch",
+      "expected": "เหยื่อที่อันตรายที่สุด"
+    },
+    {
+      "quest_id": 89015,
+      "field": "objective",
+      "english": "Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.",
+      "expected": "นำ Mammoth Shark Steak หนึ่งชิ้นไปให้ Berdun Cliffbrew ที่ Talrendis Point ใน Azshara"
+    },
+    {
+      "quest_id": 84147,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84147,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+      "expected": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Wildheart Bracers ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84148,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84148,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.",
+      "expected": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Beaststalker's Bindings ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 98462,
+      "field": "objective",
+      "english": "Bring 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers to Evie Whirlbrew.",
+      "expected": "นำ Chillwind Chimaera Fur 5 ชิ้น และ Winterspring Owl Feathers 5 ชิ้นไปให้ Evie Whirlbrew"
+    },
+    {
+      "quest_id": 91907,
+      "field": "title",
+      "english": "A Sealed Crate",
+      "expected": "ลังปิดผนึก"
+    }
+  ]
+}

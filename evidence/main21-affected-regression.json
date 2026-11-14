@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "baseline_source": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "old_catalog_exact_prefix_preserved": true,
+  "old94233_canonical_signature_thai_preserved": true,
+  "unchanged_other_runtime_files": 140,
+  "unique_source_cases": 1,
+  "static_oracles": 1,
+  "positive_executions": 1,
+  "negative_executions": 3,
+  "new_thai_fields": 0,
+  "new_prose_bodies": 0,
+  "reused_ownID_wording": 1,
+  "new_source_variants_supported": 1,
+  "font_version_package_feed_changed": false,
+  "scope": "Only one exact progress variant. Full141sourcecomponent preservation except append-onlyCatalog; no old suites, glyph/clientgate repeats or game proof."
+}

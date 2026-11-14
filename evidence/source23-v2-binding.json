@@ -1,0 +1,30 @@
+{
+  "status": "V2_BINDING_READY_PENDING_FIRST_ACTUAL_DECODE",
+  "snapshot_version": 2,
+  "snapshot_bytes": 228447,
+  "snapshot_sha256": "26612489c7f5015c7958b84703b295760b7096c058a00c3c170ff3ae6a6baf00",
+  "records": 217,
+  "manifest": "source_inputs/source23-v2-expected-title-hashes.json",
+  "manifest_bytes": 158581,
+  "manifest_sha256": "103d96e173c5a22f7744c0aade49ec0f2cbe9c59b57c7490ac928185129638ed",
+  "MAX_EXPECTED": 262144,
+  "record_limit": 217,
+  "manifest_exact_ID_payload_set_verified": true,
+  "title_qualified": 209,
+  "title_held_ids": [
+    167,
+    169,
+    174,
+    177,
+    180,
+    181,
+    275,
+    305
+  ],
+  "v1_status": "SUPERSEDED_UNUSED_BEFORE_ANY_EXTRACTION; old27config and metadata preserved unchanged",
+  "source_pins_unchanged": true,
+  "public11_intake_rerun": false,
+  "source_pull": false,
+  "actual_WDB_decoder_runs": 0,
+  "runtime_changed": false
+}

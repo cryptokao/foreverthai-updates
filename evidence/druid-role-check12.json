@@ -1,0 +1,90 @@
+{
+  "scope": "Only11956andPlainLetterpage1 fresh holds; no runtime/Thai/font changes and no Classic words imported into Forever catalog.",
+  "primary_sources": [
+    {
+      "repo": "mangosArchives/databaseZero_Rel19",
+      "commit": "ba4dc6132b2120555649c4b545cac651045a996f",
+      "path": "_updates/Rel18/203_updatepack_mangos.sql",
+      "git_blob": "4c48010c92372288bcf54debc504b59fc0d38422",
+      "raw_url": "https://raw.githubusercontent.com/mangosArchives/databaseZero_Rel19/ba4dc6132b2120555649c4b545cac651045a996f/_updates/Rel18/203_updatepack_mangos.sql",
+      "bytes": 34424,
+      "sha256": "0886eb2aff0bb2986b1ead143032365d0a6697bf9ea803cbf8fbdecc8e302cb3"
+    },
+    {
+      "repo": "Hoizame/WoW_ClassicUIResources",
+      "commit": "c6624578368b6b0748a353df4d46a87151067f37",
+      "path": "RawData/MailTemplate.lua",
+      "git_blob": "4a44b5ee8ec9d723e219927db50c21fc093006e6",
+      "raw_url": "https://raw.githubusercontent.com/Hoizame/WoW_ClassicUIResources/c6624578368b6b0748a353df4d46a87151067f37/RawData/MailTemplate.lua",
+      "bytes": 18047,
+      "sha256": "3310df3e42aae1b519de4b996fffb1b6cb415d3f9de9ec1e49cbc8630e646968"
+    }
+  ],
+  "historical_npc_role": {
+    "npc_id": 11956,
+    "gossip_entry": 3882,
+    "option_target_menu": 3881,
+    "npc_text_id": 4721,
+    "role": "literal druid, not a dynamic class token",
+    "full_body_sha256": "dcb8e693b4616bc9d305ffa59f60229ec4a332bd401fb697bb270df79dbd9fb8",
+    "explicit_npc_menu_text_association": true,
+    "normalized_body_equal_if_capture_token_replaced_by_fixed_literal_for_comparison": true,
+    "current_server_role_proven": false
+  },
+  "historical_letter_role": {
+    "table": "MailTemplate",
+    "id": 112,
+    "role": "literal druid, no dynamic class token",
+    "full_body_sha256": "5ccccd2b10852b485bbe2d7f3c282f0c6fcdf1458a10031a57c3b7cb117fcc40",
+    "author": "Mathrengyl Bearwalker",
+    "location": "Cenarion Enclave of Darnassus",
+    "level": 14,
+    "normalized_body_equal_if_capture_token_replaced_by_fixed_literal_for_comparison": true,
+    "raw_source_title_page_item_association_proven": false,
+    "current_server_role_proven": false,
+    "distinct_same_family_record": 116
+  },
+  "current_forever_words": {
+    "new_source_refs": [
+      {
+        "issue": 3428,
+        "line_index": 32,
+        "english_sha256": "44b9ce49ad155c96e9b414034759cd8eb6ad2e72db4efc0fd98f74fabd4a4d58",
+        "build": "70888"
+      },
+      {
+        "issue": 3428,
+        "line_index": 70,
+        "english_sha256": "61fc00bddeb1b6a77503963821310f2ef42cf79e4a3ef3b0d3de94137c0ade75",
+        "build": "70888"
+      }
+    ],
+    "prior_literal_npc": {
+      "repository": "quinn-dougherty/forever-vo",
+      "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+      "path": "tools/data/capture.json",
+      "file_sha256": "f49b495b1f48da19e7ec8c1c9ea73e75cb1aa35706cec97b07f45fc251c6c967",
+      "record_key": "11956|2c9200b5",
+      "origin": "issue-2749",
+      "build": "70790",
+      "english_sha256": "dcb8e693b4616bc9d305ffa59f60229ec4a332bd401fb697bb270df79dbd9fb8"
+    },
+    "new_capture_tokens_are_role_proof": false,
+    "uploader_class_race_used_to_infer_role": false
+  },
+  "existing_canonical_probe": {
+    "runtime_tree": "0a13f71e462c3c6c0a0c92f238ccc8984b8b2a5d",
+    "literal_positive_executions": 4,
+    "changed_class_word_negative_executions": 4,
+    "classes": [
+      "Druid",
+      "Mage"
+    ],
+    "interpretation": "Both existing literal-druid bodies are already supported independently of current player class. NPC uses prior literal Forever70790 words; letter test uses historical raw body only to confirm an existing literal alias, NOT current70888 coverage or a new English source."
+  },
+  "decision": "Keep both normalized70888$c role holds; no C/class expansion or invented literal current source. Historical raw records are fixed druid, and letter primary raw lacks current title/page/item association. Existing literal canonical translations stay intact.",
+  "new_prose": 0,
+  "new_thai": 0,
+  "runtime_changes": false,
+  "unchanged_suites_rerun": false
+}

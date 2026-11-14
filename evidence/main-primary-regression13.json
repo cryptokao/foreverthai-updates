@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "baseline_runtime_tree": "f15e81e113bc38214f7a22f4179d3380ce812ea9",
+  "catalog_sha256": "b6d86d906afaebace739420121e763fa5f47f7808ad5478962ecb0bd618e5b48",
+  "old_catalog_byte_prefix_preserved": true,
+  "old_data_values_preserved": 97814,
+  "unchanged_runtime_files": 135,
+  "unique_source_cases": 4,
+  "independent_rendered_oracles": 6,
+  "negative_executions": 20,
+  "new_thai_fields": 3,
+  "unique_new_prose_bodies": 2,
+  "existing_wording_typed_variants": 1,
+  "font": "not rebuilt; root Thai review pending; candidate12 remains delivered package",
+  "scope": "Data-only targeted Lua5.1 matcher checks against static independent oracles and all old Catalog values/runtime bytes; not NPC686/party/Skills/full suite or in-game test."
+}

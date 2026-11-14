@@ -1,0 +1,60 @@
+{
+  "status": "DOWNLOAD_BACK_ALL_BYTES_VERIFIED",
+  "version": "0.467.0",
+  "private_test": true,
+  "source_commit": "c41f3def0acad96f4386e1d92fc1ff6258651c34",
+  "runtime_git_tree": "b82cee06996e6feb5a28d2aa5bfe9ce8b00b6cab",
+  "artifact_commit": "bb7fbd96b5d078a2807bfffe87d2b5fe83806af1",
+  "artifact_branch": "codex/private-0-467-0-main24-artifacts",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/ForeverThai-0.467.0-cloud-main24-PRIVATE-TEST.zip",
+  "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/INSTALL-0.467.0-PRIVATE-TH.txt",
+  "manifest_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/package-manifest.json",
+  "receipt_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/release-receipt.json",
+  "final_text_hashes_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/final-text-hashes.json",
+  "bytes": 18261923,
+  "sha256": "dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e",
+  "files": 145,
+  "Catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "Atlas_sha256": "c41c4f3494cdf38dc159528ee714da97ecf76c4822b1be5445a55630a8f7819a",
+  "MAIN24_fields": 122,
+  "unique_quest_ids": 57,
+  "new_Thai": 90,
+  "verbatim_reuse": 31,
+  "propername_passthrough": 1,
+  "old_R1_immutable": true,
+  "books22_included": false,
+  "customer_feed_changed": false,
+  "game_verified": false,
+  "downloaded_back_verified": true,
+  "safe_paths_verified": 145,
+  "every_runtime_byte_verified": 145,
+  "toc_paths_verified": 24,
+  "old_font_assets_exact_bytes_preserved": 108,
+  "protected28_exact_bytes_preserved": true,
+  "CoreSpeech70938_Tracker_Settings_Questie_preserved": true,
+  "guide_manifest_receipt_finalhashes_exact_bytes_verified": true,
+  "downloaded_artifact_hashes": {
+    "ForeverThai-0.467.0-cloud-main24-PRIVATE-TEST.zip": {
+      "bytes": 18261923,
+      "sha256": "dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e"
+    },
+    "INSTALL-0.467.0-PRIVATE-TH.txt": {
+      "bytes": 4723,
+      "sha256": "f96dc589cd1b76dd195bd55b3c52399793ac9a34a6a3d61d406049098939191e"
+    },
+    "package-manifest.json": {
+      "bytes": 29411,
+      "sha256": "b8ae5a51da865cb4117df0de018830408c6ba04b5b5d8acc78eea22656acc5ef"
+    },
+    "release-receipt.json": {
+      "bytes": 2841,
+      "sha256": "d5be09282722e3c9a364888e5e2b98e04dbb90cc5ba25d6af40e4fecd15d1289"
+    },
+    "final-text-hashes.json": {
+      "bytes": 30039,
+      "sha256": "22d55ee8ff131bfca715e852e397eef9fa8b68855fc66d2fde76a27482d87947"
+    }
+  },
+  "known_Tracker_multiline_fallback_retained": "84213objective English in native/Questie; questpane BitmapLayer Thai passes",
+  "old_suites_rerun": false
+}

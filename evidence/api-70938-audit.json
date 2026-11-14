@@ -1,0 +1,861 @@
+{
+  "status": "audited",
+  "old_pin": "4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+  "new_pin": "bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+  "new_commit_message": "1.60.1 (70938)",
+  "primary_source_files": [
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua",
+      "old_sha256": "a7cbbfeef002efacac1a4dcc01b7d781fbfe305123a6ad97431ff010ef4de19a",
+      "new_sha256": "a7cbbfeef002efacac1a4dcc01b7d781fbfe305123a6ad97431ff010ef4de19a",
+      "bytes": 32883,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellSharedDocumentation.lua",
+      "old_sha256": "e143de5645bd6333ba290488d5ada9c4985bdc1e2f49dd728d327aeafcd42846",
+      "new_sha256": "e143de5645bd6333ba290488d5ada9c4985bdc1e2f49dd728d327aeafcd42846",
+      "bytes": 5476,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellBookDocumentation.lua",
+      "old_sha256": "509fabe6d33de10f7166dc71bfb853dc969803d86536acac0833d30b1d0f9179",
+      "new_sha256": "509fabe6d33de10f7166dc71bfb853dc969803d86536acac0833d30b1d0f9179",
+      "bytes": 33776,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ClassTalentsDocumentation.lua",
+      "old_sha256": "6276873b0503b59bb238dbfe11ef13d864c6af6208b872f773f6f654ec9580f7",
+      "new_sha256": "6276873b0503b59bb238dbfe11ef13d864c6af6208b872f773f6f654ec9580f7",
+      "bytes": 13258,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SharedTraitsDocumentation.lua",
+      "old_sha256": "6757fa202575c2362165b77bce6c1c81526a5c3f7a983294de3fc68db52f63db",
+      "new_sha256": "6757fa202575c2362165b77bce6c1c81526a5c3f7a983294de3fc68db52f63db",
+      "bytes": 32407,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TraitConfigDocumentation.lua",
+      "old_sha256": "9b3510262363452d710a7946448a1d2048f5b59eff22bfa16921e7715685deed",
+      "new_sha256": "9b3510262363452d710a7946448a1d2048f5b59eff22bfa16921e7715685deed",
+      "bytes": 250,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TooltipInfoDocumentation.lua",
+      "old_sha256": "0c2184a4ba787a5fbd37646e0f297a6e79a3ac5f60ccbcd07dabcc8048e89718",
+      "new_sha256": "0c2184a4ba787a5fbd37646e0f297a6e79a3ac5f60ccbcd07dabcc8048e89718",
+      "bytes": 31341,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TooltipInfoSharedDocumentation.lua",
+      "old_sha256": "08292af51fa78edbf2c2f8e1f8dc89812db3d4faa05e01528f3750b802ba3741",
+      "new_sha256": "08292af51fa78edbf2c2f8e1f8dc89812db3d4faa05e01528f3750b802ba3741",
+      "bytes": 9832,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ItemDocumentation.lua",
+      "old_sha256": "59c5dd2f70757cdb9bc4511cb0fafe6287bbfb51d58a7389097dcbb485785af0",
+      "new_sha256": "59c5dd2f70757cdb9bc4511cb0fafe6287bbfb51d58a7389097dcbb485785af0",
+      "bytes": 44454,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ItemSharedDocumentation.lua",
+      "old_sha256": "4c073990a7e70b3fdd915daa91ced0ec19145e8f7bfce2d33cf7d29a296b0cfa",
+      "new_sha256": "4c073990a7e70b3fdd915daa91ced0ec19145e8f7bfce2d33cf7d29a296b0cfa",
+      "bytes": 115,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpecializationInfoDocumentation.lua",
+      "old_sha256": "19c7cb135202b93e303880e54d3cdc9ca197584e8b7ac8231bf3dd34aa8aa5b2",
+      "new_sha256": "19c7cb135202b93e303880e54d3cdc9ca197584e8b7ac8231bf3dd34aa8aa5b2",
+      "bytes": 16137,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TradeSkillUIDocumentation.lua",
+      "old_sha256": "e3392e58403283ef5e307268ce51781ef25e7e0d955a199906b9b37278503fd2",
+      "new_sha256": "f2342079e5ebfed2856eda7654972d3a53809e9ee0138e59e9f0dc37a53a251e",
+      "bytes": 31997,
+      "identical": false
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua",
+      "old_sha256": "4d58b2e5a7033c96b58aff395b6e49197acb2a1b110a648552e69e9cf8380358",
+      "new_sha256": "4d58b2e5a7033c96b58aff395b6e49197acb2a1b110a648552e69e9cf8380358",
+      "bytes": 19282,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraSharedDocumentation.lua",
+      "old_sha256": "0b406ed169b747887588c1c04f41ac3ee651fc985db8f3609d6290011b7b962f",
+      "new_sha256": "0b406ed169b747887588c1c04f41ac3ee651fc985db8f3609d6290011b7b962f",
+      "bytes": 2194,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicatesDocumentation.lua",
+      "old_sha256": "e4a053e9960da00099f46de2cff25c69d4cb11d051f7c05685d06866ed389815",
+      "new_sha256": "e4a053e9960da00099f46de2cff25c69d4cb11d051f7c05685d06866ed389815",
+      "bytes": 7974,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicateAPIDocumentation.lua",
+      "old_sha256": "668a0c15d372a358fbe169465651cdc1ae2e66d0916c81b41eccdd4da92274ae",
+      "new_sha256": "668a0c15d372a358fbe169465651cdc1ae2e66d0916c81b41eccdd4da92274ae",
+      "bytes": 11692,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/RestrictedActionsDocumentation.lua",
+      "old_sha256": "3b22f5e0249d53d492432648c92295aabb4a3a211f50f7e617bd7eaca3676680",
+      "new_sha256": "3b22f5e0249d53d492432648c92295aabb4a3a211f50f7e617bd7eaca3676680",
+      "bytes": 3486,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ActionDocumentation.lua",
+      "old_sha256": "55771647d1f8fdd07255d94fa10bc9913b9edcc37f9beae3192faf668b3b6fcc",
+      "new_sha256": "55771647d1f8fdd07255d94fa10bc9913b9edcc37f9beae3192faf668b3b6fcc",
+      "bytes": 205,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ActionBarFrameDocumentation.lua",
+      "old_sha256": "1236284e824dbe8ac17730aeaa7484d91e0134304fead5cba2833c4dd74e5a36",
+      "new_sha256": "1236284e824dbe8ac17730aeaa7484d91e0134304fead5cba2833c4dd74e5a36",
+      "bytes": 26607,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ActionBarSharedDocumentation.lua",
+      "old_sha256": "c510217a6aa2613f556491546c1a49efa49b7603aae6c55f4cf3c8174f6ab210",
+      "new_sha256": "c510217a6aa2613f556491546c1a49efa49b7603aae6c55f4cf3c8174f6ab210",
+      "bytes": 490,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua",
+      "old_sha256": "e637368f36d153f8b432455cfa247d0c67c84996dce8d591bc1eb4d1cd7bc098",
+      "new_sha256": "e637368f36d153f8b432455cfa247d0c67c84996dce8d591bc1eb4d1cd7bc098",
+      "bytes": 36588,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestOfferDocumentation.lua",
+      "old_sha256": "a280bbc1e7d819b0d207eaf52673fba6bb05af73a266cf394026667d1e728fcc",
+      "new_sha256": "a280bbc1e7d819b0d207eaf52673fba6bb05af73a266cf394026667d1e728fcc",
+      "bytes": 2603,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/GossipInfoDocumentation.lua",
+      "old_sha256": "22cd6a48eded91316753af2e40624e542a91c728c713636549b7d3a6ef7916a5",
+      "new_sha256": "22cd6a48eded91316753af2e40624e542a91c728c713636549b7d3a6ef7916a5",
+      "bytes": 10471,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitDocumentation.lua",
+      "old_sha256": "93004ac1b260127741471b7861360cdf7536afcb18d4c1db73b7259faa43e61c",
+      "new_sha256": "93004ac1b260127741471b7861360cdf7536afcb18d4c1db73b7259faa43e61c",
+      "bytes": 121174,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/ChatInfoDocumentation.lua",
+      "old_sha256": "996cf3c4956d7d79716c082fa7bccf06e008fd191f108c85546f9fdec66e1a73",
+      "new_sha256": "996cf3c4956d7d79716c082fa7bccf06e008fd191f108c85546f9fdec66e1a73",
+      "bytes": 132990,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/AddOnsDocumentation.lua",
+      "old_sha256": "8535c5ab5e2a2a4f2ad9e14a355a619d4e12fa2b975e28bda01da6eb6580db75",
+      "new_sha256": "8535c5ab5e2a2a4f2ad9e14a355a619d4e12fa2b975e28bda01da6eb6580db75",
+      "bytes": 9386,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TooltipConstantsDocumentation.lua",
+      "old_sha256": "bb332fd85fa899b95d3a2cb7e823b867b4cace59c824dccddea70d771f995e82",
+      "new_sha256": "bb332fd85fa899b95d3a2cb7e823b867b4cace59c824dccddea70d771f995e82",
+      "bytes": 1475,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellBookConstantsDocumentation.lua",
+      "old_sha256": "6a8d429313fd84fa10b45f3c5d7f7328b5d73ee7441be05ae8045d983ef31fde",
+      "new_sha256": "6a8d429313fd84fa10b45f3c5d7f7328b5d73ee7441be05ae8045d983ef31fde",
+      "bytes": 1342,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/TraitConstantsDocumentation.lua",
+      "old_sha256": "d3328b7349377b4a17ba1d8eaf79d95f89a280038b201489edea03484c1488e4",
+      "new_sha256": "d3328b7349377b4a17ba1d8eaf79d95f89a280038b201489edea03484c1488e4",
+      "bytes": 12826,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitConstantsDocumentation.lua",
+      "old_sha256": "7bff799fdf9ce1079db5682dba507522b5ac6f157229a59310b85bc0387067a5",
+      "new_sha256": "7bff799fdf9ce1079db5682dba507522b5ac6f157229a59310b85bc0387067a5",
+      "bytes": 3676,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/UITimerDocumentation.lua",
+      "old_sha256": "db087ebb155a349c91ac80d55f3d48c7d56913463217ee33d9403f235b616420",
+      "new_sha256": "db087ebb155a349c91ac80d55f3d48c7d56913463217ee33d9403f235b616420",
+      "bytes": 2017,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.lua",
+      "old_sha256": "68ef87f3c3ba5bbf4f130236140bcb59e755a226165e832aa5058584166388bc",
+      "new_sha256": "68ef87f3c3ba5bbf4f130236140bcb59e755a226165e832aa5058584166388bc",
+      "bytes": 41437,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.lua",
+      "old_sha256": "f6bf01281463e4465e3617ae6ca15679d563f8d29c6255a180ff24f48c41f7b3",
+      "new_sha256": "f6bf01281463e4465e3617ae6ca15679d563f8d29c6255a180ff24f48c41f7b3",
+      "bytes": 3986,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_FrameXMLUtil/ProfessionsUtil.lua",
+      "old_sha256": "0d4e658ff8537ce0742080f5ebbbde8fa4357483140be407554384e9c3ddc81f",
+      "new_sha256": "0d4e658ff8537ce0742080f5ebbbde8fa4357483140be407554384e9c3ddc81f",
+      "bytes": 6404,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_SharedXMLBase/TimerUtil.lua",
+      "old_sha256": "863c5012f170eabaf76db3cbdabc23f24a42ee50ac5d6687f6b19e48906d4493",
+      "new_sha256": "863c5012f170eabaf76db3cbdabc23f24a42ee50ac5d6687f6b19e48906d4493",
+      "bytes": 734,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua",
+      "old_sha256": "fa5f60cacde249c408c6e7e3177ac1a484bee5772d757a69d0b672efc6b2e5cc",
+      "new_sha256": "fa5f60cacde249c408c6e7e3177ac1a484bee5772d757a69d0b672efc6b2e5cc",
+      "bytes": 3359,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua",
+      "old_sha256": "05a86b963b518a589cfebf22dec825507a5b1f564f66eb64fd7caead919f0642",
+      "new_sha256": "05a86b963b518a589cfebf22dec825507a5b1f564f66eb64fd7caead919f0642",
+      "bytes": 19497,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua",
+      "old_sha256": "6adda16ef89074f83ac033ebca705081bbfbc88eb98fc32faa14a747f4a5b1ca",
+      "new_sha256": "82339740bfdd1e73a89f70aadb0b974fe05f9a517988d222dc71d411f14ddf95",
+      "bytes": 59971,
+      "identical": false
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua",
+      "old_sha256": "158f662666a7fa2eb086c89a46fb33b0740b95c00e46f94a5b6c19c5775782e4",
+      "new_sha256": "939ba4800a95a599ac3f8cf6dfd57d6af753d4ca7dcc7d12b9e1542f6c4b5015",
+      "bytes": 13424,
+      "identical": false
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.lua",
+      "old_sha256": "fcbb8b1aa17b59430776fa031aabcf8c02f683f22b28d9f9900e4aa0042bf6b6",
+      "new_sha256": "f79f176896b65b5be7468d696533eed84b0f9fbe4daef866a279dfe030224be7",
+      "bytes": 56206,
+      "identical": false
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTransaction.lua",
+      "old_sha256": "ad2098877b2a8fcba7127e5e52008ead6d5765b1b342742e457be341eb22012d",
+      "new_sha256": "ad2098877b2a8fcba7127e5e52008ead6d5765b1b342742e457be341eb22012d",
+      "bytes": 28866,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsCrafting.lua",
+      "old_sha256": "5ebac412d142f767b20e4adcc44e79e2f4e4d317b79caa686fa552082987e8a9",
+      "new_sha256": "5ebac412d142f767b20e4adcc44e79e2f4e4d317b79caa686fa552082987e8a9",
+      "bytes": 1262,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua",
+      "old_sha256": "9e21c110e2455d8ef2f1c40eee0ba89945fbbe154ae5ba078abf1f85eba85925",
+      "new_sha256": "58ecc9bd9e5fd10f840324f2318d5023b61df8fb17c0768a4cdfcfbc8c31e167",
+      "bytes": 57775,
+      "identical": false
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua",
+      "old_sha256": "2397fa46eeb872d751bb167502708ba6da7bf131be38152c9b2e5d386cc2774b",
+      "new_sha256": "2397fa46eeb872d751bb167502708ba6da7bf131be38152c9b2e5d386cc2774b",
+      "bytes": 50718,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.lua",
+      "old_sha256": "cf85d4094400843892802e48e8545be648121a24a84187ba4fc304339ae83879",
+      "new_sha256": "cf85d4094400843892802e48e8545be648121a24a84187ba4fc304339ae83879",
+      "bytes": 31612,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua",
+      "old_sha256": "9685c713d6df62fa67f8774b55736025baadb2a219ed50ac3b421e7efefdd241",
+      "new_sha256": "9685c713d6df62fa67f8774b55736025baadb2a219ed50ac3b421e7efefdd241",
+      "bytes": 92018,
+      "identical": true
+    },
+    {
+      "path": "Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_QuestObjectiveTracker.lua",
+      "old_sha256": "9ac0c9bd4b0cd15e34d0a27ec09a7c873bc5f0afe4cd24d6b9cc54bc04851d89",
+      "new_sha256": "9ac0c9bd4b0cd15e34d0a27ec09a7c873bc5f0afe4cd24d6b9cc54bc04851d89",
+      "bytes": 15337,
+      "identical": true
+    }
+  ],
+  "used_api_contracts": [
+    {
+      "api": "C_ActionBar.FindPetActionButtons",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/ActionBarFrameDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_ActionBar.GetPetActionPetBarIndices",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/ActionBarFrameDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_AddOns.GetAddOnMetadata",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/AddOnsDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_AddOns.IsAddOnLoaded",
+      "callers": [
+        "ForeverThai/Tracker.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/AddOnsDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_ClassTalents.GetActiveConfigID",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/ClassTalentsDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_GossipInfo.GetOptions",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/GossipInfoDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_GossipInfo.GetText",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/GossipInfoDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Item.GetSetBonusesForSpecializationByItemID",
+      "callers": [
+        "ForeverThai/Skills/ItemEffects.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/ItemDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetInfo",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetLogIndexForQuestID",
+      "callers": [
+        "ForeverThai/Events.lua",
+        "ForeverThai/Tracker.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua",
+        "Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_QuestObjectiveTracker.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetNumQuestLogEntries",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetQuestObjectives",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetRequiredMoney",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua",
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetSelectedQuest",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua",
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.GetTitleForQuestID",
+      "callers": [
+        "ForeverThai/Events.lua",
+        "ForeverThai/Tracker.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua",
+        "Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_QuestObjectiveTracker.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.IsComplete",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_QuestLog.RequestLoadQuestByID",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_QuestOffer.GetHideRequiredItems",
+      "callers": [
+        "ForeverThai/Events.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestOfferDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_RestrictedActions.GetAddOnRestrictionState",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/RestrictedActionsDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Secrets.CanCompareUnitTokens",
+      "callers": [
+        "ForeverThai/Skills/Tooltip.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicateAPIDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Secrets.ShouldUnitAuraInstanceBeSecret",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicateAPIDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_SpecializationInfo.GetSpecialization",
+      "callers": [
+        "ForeverThai/Skills/ItemEffects.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpecializationInfoDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_SpecializationInfo.GetSpecializationInfo",
+      "callers": [
+        "ForeverThai/Skills/ItemEffects.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpecializationInfoDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Spell.GetSpellDescription",
+      "callers": [
+        "ForeverThai/Skills/ItemEffects.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Spell.GetSpellInfo",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Spell.GetSpellName",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua",
+        "ForeverThai/Skills/ItemEffects.lua",
+        "ForeverThai/Skills/Recipes.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Spell.GetSpellPowerCost",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Spell.GetSpellSubtext",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Spell.IsSpellPassive",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_SpellBook.GetSpellBookItemInfo",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellBookDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_SpellBook.GetSpellBookItemLevelLearned",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellBookDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_SpellBook.GetSpellBookItemPowerCost",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellBookDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Timer.After",
+      "callers": [
+        "ForeverThai/Events.lua",
+        "ForeverThai/Skills/Settings.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/UITimerDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_TradeSkillUI.GetRecipeDescription",
+      "callers": [
+        "ForeverThai/Skills/Recipes.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/TradeSkillUIDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_TradeSkillUI.GetRecipeInfo",
+      "callers": [
+        "ForeverThai/Skills/Recipes.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/TradeSkillUIDocumentation.lua"
+      ],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_FrameXMLUtil/ProfessionsUtil.lua",
+        "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua",
+        "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.lua",
+        "Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_TradeSkillUI.IsDataSourceChanging",
+      "callers": [
+        "ForeverThai/Skills/Recipes.lua"
+      ],
+      "primary_docs": [],
+      "primary_native_callers": [
+        "Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.lua"
+      ],
+      "covered": true
+    },
+    {
+      "api": "C_Traits.GetDefinitionInfo",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SharedTraitsDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_Traits.GetEntryInfo",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/SharedTraitsDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_UnitAuras.GetAuraDataByAuraInstanceID",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_UnitAuras.GetAuraDataByIndex",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_UnitAuras.GetBuffDataByIndex",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    },
+    {
+      "api": "C_UnitAuras.GetDebuffDataByIndex",
+      "callers": [
+        "ForeverThai/Skills/Adapter.lua"
+      ],
+      "primary_docs": [
+        "Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitAuraDocumentation.lua"
+      ],
+      "primary_native_callers": [],
+      "covered": true
+    }
+  ],
+  "uncovered_api_names": [],
+  "changed_upstream_paths": [
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/TradeSkillUIDocumentation.lua",
+    "Interface/AddOns/Blizzard_APIDocumentationGenerated/TransmogOutfitInfoDocumentation.lua",
+    "Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.lua",
+    "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua",
+    "Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.lua",
+    "Interface/AddOns/Blizzard_GlueXML/Camelot/CharacterCopy.lua",
+    "Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPVPFrame.xml",
+    "Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua",
+    "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua",
+    "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua",
+    "Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.lua",
+    "Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua",
+    "Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua",
+    "version.txt"
+  ],
+  "professions_delta": "Adds HasNoReagentCost (not called by addon), changes craftable count internals/OnShow/OnHide; existing RecipeListOnEnter button/recipeInfo payload, Label and node access remain. GetRecipeInfo/GetRecipeDescription/IsDataSourceChanging contracts unchanged. No new API required.",
+  "gate_review": {
+    "Skills/Core.lua": "exact add70938 required",
+    "Speech.lua": "exact add70938 required",
+    "Events.lua": "locale-only; no exact build gate",
+    "Tracker.lua": "locale-only; no exact build gate",
+    "Observe.lua": "records build; no allowlist"
+  },
+  "scope": "Pinned primary source comparison/contracts only, not gameplay or broad dataset freshness. Runtime text/id/secret checks must remain fail-closed."
+}

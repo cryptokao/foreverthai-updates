@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "prior_runtime_tree": "3a793a708c1af38a3c88e8595f2d138ecae895d0",
+  "old_other_component_bytes_preserved": 136,
+  "protected_skill_font_assets_preserved": 28,
+  "old_atlas_prefix_sha256": "78df5a71f35a02f96df3172fe49944082bba2aa891e3f3959a3cfe9488cf6841",
+  "new_thai_runs": 14,
+  "new_glyphs": 72,
+  "new_font_pages": [
+    "Thai91.tga"
+  ],
+  "actual_bitmap_text_draws": 9,
+  "font_ready": true,
+  "scope": "Append-only main16 after Root review1ed1aa2. Customer0.463.1 bytes except approved Catalog additions and Atlas preserved; old Atlas data/prefix and pages retained. New glyph bounds/alpha, all main16 final texts and actual unchanged BitmapLayer checked. No unchanged Skill/NPC686/party/full suite or game proof."
+}

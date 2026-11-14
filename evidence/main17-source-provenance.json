@@ -1,0 +1,70 @@
+{
+  "status": "verified",
+  "scope": "Exactly7IDs/12own-ID title/objective fields; no extractor/library scripts executed, no global source scan.",
+  "questiedb_commit": "f0ad90875a6531368883904b0f157e7423c14f0b",
+  "questiedb_path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+  "questiedb_file_sha256": "c5537baa2968bd69ab06e19bf0754f217dd4105192c43bb0ddea21116da60d33",
+  "questiedb_generated_at": "2026-11-12T13:30:56.621Z",
+  "questiedb_license_url": "https://github.com/Questie/QuestieDB/blob/f0ad90875a6531368883904b0f157e7423c14f0b/LICENSE.md",
+  "questiedb_license_sha256": "d9937e385c401d234ef416b91f00290f8ea8e517f39ed4359aed99115770d8c9",
+  "primary_sources": [
+    {
+      "repository": "Questie/QuestieTrace",
+      "commit": "8508e3b75d56e656f370c31586bfca488991313d",
+      "path": "tools/corrections-extractor/src/extract/observers/quest/objectivesText.ts",
+      "blob": "ee0d69b232a081d979a26aff4ffbb4df55167488",
+      "sha256": "b25a046f68eea31aa9308df4708f3251dfa925bca9b192d4a59d272c1684f887",
+      "bytes": 3866,
+      "url": "https://github.com/Questie/QuestieTrace/blob/8508e3b75d56e656f370c31586bfca488991313d/tools/corrections-extractor/src/extract/observers/quest/objectivesText.ts"
+    },
+    {
+      "repository": "Questie/QuestieTrace",
+      "commit": "a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8",
+      "path": "tools/corrections-extractor/src/extract/observers/quest/objectivesText.ts",
+      "blob": "ee0d69b232a081d979a26aff4ffbb4df55167488",
+      "sha256": "b25a046f68eea31aa9308df4708f3251dfa925bca9b192d4a59d272c1684f887",
+      "bytes": 3866,
+      "url": "https://github.com/Questie/QuestieTrace/blob/a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8/tools/corrections-extractor/src/extract/observers/quest/objectivesText.ts"
+    },
+    {
+      "repository": "Questie/QuestieTrace",
+      "commit": "a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8",
+      "path": "Modules/Trackers/QuestLog.lua",
+      "blob": "5a92503b77943d913551b8e14384ebfaead1c5ad",
+      "sha256": "3b4db688644233201bc7667b2dfeb9544f3858cfd63cf0a70cb777f0ba10ba98",
+      "bytes": 28958,
+      "url": "https://github.com/Questie/QuestieTrace/blob/a117c2aead8b7c5639a8cb8d5cc83100fef0a7a8/Modules/Trackers/QuestLog.lua"
+    },
+    {
+      "repository": "Questie/QuestieTrace",
+      "commit": "8508e3b75d56e656f370c31586bfca488991313d",
+      "path": "tools/corrections-extractor/src/extract/observers/quest/name.ts",
+      "blob": "8bc7d76bf668b82547eb728e4a3180c8ba515298",
+      "sha256": "72fd548b58efeeb062f9639fcaf04a57feaaa156ca165b60043522cc50897787",
+      "bytes": 2482,
+      "url": "https://github.com/Questie/QuestieTrace/blob/8508e3b75d56e656f370c31586bfca488991313d/tools/corrections-extractor/src/extract/observers/quest/name.ts"
+    }
+  ],
+  "objective_current_historical_identical": true,
+  "collector_reads_second_questlog_return_keyed_by_ownID": true,
+  "name_dialog_or_keyed_questlog_enUS": true,
+  "literal_fields_no_player_tokens": 12,
+  "eg_exact_corroborated_fields": 10,
+  "direct_trace_only_fields": [
+    {
+      "quest_id": 91907,
+      "field": "title"
+    },
+    {
+      "quest_id": 98462,
+      "field": "objective"
+    }
+  ],
+  "eg_conflicts": 0,
+  "limitations": [
+    "Original individual sessions unavailable; exact per-row client build/date unknown.",
+    "Generated aggregates and producer binding prove these field sources, not current-enabled full-game inventory or missing accept/progress/completion.",
+    "Reader sanitation does not authorize inferring any placeholder roles; selected fields have none."
+  ],
+  "source_credit": "QuestieDB Forever traces (GPLv3 licensing per pinned LICENSE.md), QuestieTrace producer references; corroborating EG data CC BY4.0. Thai translations/matching are adaptations."
+}

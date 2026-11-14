@@ -1,0 +1,115 @@
+{
+  "batch": "main13",
+  "status": "Root_reviewed_font_ready_delivered_candidate13",
+  "baseline_runtime_tree": "f15e81e113bc38214f7a22f4179d3380ce812ea9",
+  "source_limit": "Web tool labels these pages rewritten summaries; stored strings are the full observed field, not a raw-body hash. No exact client build is claimed. Typed role proof comes from own-ID angle-bracket labels, not uploader identity or Classic prose.",
+  "counts": {
+    "new_thai_quest_fields": 3,
+    "unique_quest_ids_with_new_thai_fields": 3,
+    "unique_new_prose_bodies": 2,
+    "same_batch_reuse_fields": 1,
+    "existing_wording_typed_variants": 1,
+    "total_affected_fields": 4
+  },
+  "fields": [
+    {
+      "quest_id": 98574,
+      "level": 1,
+      "field": "progress",
+      "source_url": "https://www.wowhead.com/forever/quest=98574/hallowed-memorandum",
+      "source_kind": "own_ID_primary_rendered_web_observation",
+      "web_result": "turn649555view3",
+      "exact_page_build": null,
+      "raw_html_available": false,
+      "rendered_full_field": "Ah, another <race> comin' ta learn about the Light! You'll find that deepening your connection to the Light relies on curiosity and intelligence, qualities that many gnomes have in abundance. The way o' the Light isn't a technical discipline, it's a riddle, and one that provides both life lessons and practical blessings.",
+      "english": "Ah, another $R comin' ta learn about the Light! You'll find that deepening your connection to the Light relies on curiosity and intelligence, qualities that many gnomes have in abundance. The way o' the Light isn't a technical discipline, it's a riddle, and one that provides both life lessons and practical blessings.",
+      "english_sha256": "471fd186b1ab7e6a8be548d7d41f9fa3cdde15998c5f200000b8d5024296fc1f",
+      "signature": "12:1199190885:1112722166 R 304:1999895335:408385838",
+      "thai": "อา {race}อีกคนมาเรียนแสงสว่าง! ความผูกพันกับแสงอาศัยความใคร่รู้และปัญญา ซึ่งโนมมีมาก วิถีแสงไม่ใช่ศาสตร์เทคนิค แต่เป็นปริศนาที่ให้ทั้งบทเรียนชีวิตและพรใช้ได้จริง",
+      "classification": "existing_wording_typed_race_variant",
+      "typed_roles": {
+        "race": "current_player_race"
+      },
+      "current_playability": "not_established_by_rendered_page",
+      "preserve_fixed_literals": [
+        "gnomes"
+      ],
+      "prose_reuse_from_quest_id": null
+    },
+    {
+      "quest_id": 6076,
+      "level": 10,
+      "field": "completion",
+      "source_url": "https://www.wowhead.com/forever/quest=6076/the-hunters-path",
+      "source_kind": "own_ID_primary_rendered_web_observation",
+      "web_result": "turn649555view0",
+      "exact_page_build": null,
+      "raw_html_available": false,
+      "rendered_full_field": "Yes, <class>, it is time...",
+      "english": "Yes, $C, it is time...",
+      "english_sha256": "8ada5e6f684359ed8036333205d68d6a01b6f922f228f042c07428fdf6d9e92c",
+      "signature": "5:1287366450:669725923 C 15:2099244299:1859344201",
+      "thai": "ใช่แล้ว ท่าน{class} ถึงเวลาแล้ว...",
+      "classification": "new_prose",
+      "typed_roles": {
+        "class": "current_player_class"
+      },
+      "current_playability": "not_established_by_rendered_page",
+      "preserve_fixed_literals": [],
+      "prose_reuse_from_quest_id": null
+    },
+    {
+      "quest_id": 5642,
+      "level": 20,
+      "field": "completion",
+      "source_url": "https://www.wowhead.com/forever/quest=5642/shadowguard",
+      "source_kind": "own_ID_primary_rendered_web_observation",
+      "web_result": "turn649555view1",
+      "exact_page_build": null,
+      "raw_html_available": false,
+      "rendered_full_field": "One of the most important rites of passage for a <class> of our faith is upon us, <name>. I will explain more to you--you are ready.",
+      "english": "One of the most important rites of passage for a $C of our faith is upon us, $N. I will explain more to you--you are ready.",
+      "english_sha256": "298dc6e7a7c05a894cb59840586bcd839e7861731fd6682726ea94cc429c2d4b",
+      "signature": "49:1367781032:714491564 C 26:673636718:2095780830 N 44:1244048083:728114892",
+      "thai": "ถึงเวลาของหนึ่งในพิธีสำคัญที่สุดที่{class}ในศรัทธาของเราต้องผ่านแล้ว {name} ข้าจะอธิบายเพิ่มเติมให้เจ้าฟัง เจ้าพร้อมแล้ว",
+      "classification": "new_prose",
+      "typed_roles": {
+        "class": "current_player_class",
+        "name": "current_player_name"
+      },
+      "current_playability": "not_established_by_rendered_page",
+      "preserve_fixed_literals": [],
+      "prose_reuse_from_quest_id": null
+    },
+    {
+      "quest_id": 5643,
+      "level": 20,
+      "field": "completion",
+      "source_url": "https://www.wowhead.com/forever/quest=5643/shadowguard",
+      "source_kind": "own_ID_primary_rendered_web_observation",
+      "web_result": "turn649555view2",
+      "exact_page_build": null,
+      "raw_html_available": false,
+      "rendered_full_field": "One of the most important rites of passage for a <class> of our faith is upon us, <name>. I will explain more to you--you are ready.",
+      "english": "One of the most important rites of passage for a $C of our faith is upon us, $N. I will explain more to you--you are ready.",
+      "english_sha256": "298dc6e7a7c05a894cb59840586bcd839e7861731fd6682726ea94cc429c2d4b",
+      "signature": "49:1367781032:714491564 C 26:673636718:2095780830 N 44:1244048083:728114892",
+      "thai": "ถึงเวลาของหนึ่งในพิธีสำคัญที่สุดที่{class}ในศรัทธาของเราต้องผ่านแล้ว {name} ข้าจะอธิบายเพิ่มเติมให้เจ้าฟัง เจ้าพร้อมแล้ว",
+      "classification": "same_batch_prose_reuse",
+      "typed_roles": {
+        "class": "current_player_class",
+        "name": "current_player_name"
+      },
+      "current_playability": "not_established_by_rendered_page",
+      "preserve_fixed_literals": [],
+      "prose_reuse_from_quest_id": 5642
+    }
+  ],
+  "excluded": {
+    "quest_97048": "No new reaction body qualified from old canonical similarities."
+  },
+  "font_status": "20_runs_60_glyphs_Thai89_append_only_readiness_passed",
+  "package_status": "candidate13_immutable_5171d8b741e6d297a447996ff6eb064da93250a7",
+  "test_scope": "Only affected quest fields and exact preservation; no unchanged NPC/Skill/party/full suites.",
+  "root_review": "807201ee92fdc2633db39387359116063df74c0a"
+}

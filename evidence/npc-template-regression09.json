@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "unique_source_templates": 2,
+  "independent_rendered_cases": 6,
+  "parameterized_positive_executions": 12,
+  "negative_executions": 108,
+  "old_runtime_values_preserved": 983466,
+  "previous_unchanged_component_bytes": 132,
+  "new_font_pages_decoded": [
+    "Thai87.tga"
+  ],
+  "lua_files_compiled": 24,
+  "toc_paths": 24,
+  "prior_runtime_tree": "d9944942dfa415383cec00a546fa16c888637041",
+  "source_file_sha256": "1d09220f683e25c421e64a380d69169a45440998214771ecd5902cc99b9f2f9b",
+  "independent_cases_sha256": "632a0231b56f8bca38d0ae45a7b1add1f8c7c28b3eb48bd5395f9b534d45e8cc",
+  "scope": "Actual existing npcPage handler and matcher; source template tagged broadcastText with own-ID and broadcastTextIds. Static complete rendered English/Thai oracles for three player classes. No guessed normalized identities, shared matcher edits, live game proof, or rerun of unchanged Skills/NPC686/main/book suites."
+}

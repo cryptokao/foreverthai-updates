@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "unique_source_cases": 1,
+  "new_prose": 0,
+  "new_thai_texts": 0,
+  "new_own_id_reuse_bindings": 1,
+  "parameterized_positive_executions": 4,
+  "negative_executions": 15,
+  "independent_prior_full_body_reuse_matches": 12,
+  "old_runtime_values_preserved": 985609,
+  "unchanged_candidate11_files": 135,
+  "catalog_sha256": "43b24a5e2ce322075e23f9c00bcc879fdbdab25c13039037e7037cf08e09d5e6",
+  "prior_runtime_tree": "0a13f71e462c3c6c0a0c92f238ccc8984b8b2a5d",
+  "font_changes": false,
+  "scope": "Actual existing NPC page handler, exact current public own-ID/body and retained Thai from independent prior candidate11 records. All prior values/135otherfile bytes retained including Speech.lua/Match/Atlas/protected assets. Existing Thai runs present; no font rebuild or unchanged686/party/Skills/main suite rerun. Not in immutable ZIP11 or game proof."
+}

@@ -1,0 +1,202 @@
+{
+  "cases": [
+    {
+      "quest_id": 628,
+      "field": "completion",
+      "english": "Great! Thanks to your help I'll have this order filled and sent off to Director Riddlevox on the next boat to Undermine. Ahead of schedule, even!\n\nFor all your hard work, here, I made some extras, so take a pair, and some armor patches too. It's on Drizzlik.\n\nAnd remember, there's no boot so fine as one of Drizzlik's Excelsior line!",
+      "expected": "เยี่ยม! ด้วยความช่วยเหลือของเจ้า ข้าจะทำสินค้าตามคำสั่งซื้อนี้ให้ครบ แล้วส่งไปให้ Director Riddlevox กับเรือเที่ยวหน้าไป Undermine ได้ ก่อนกำหนดเสียอีก!\n\nเพื่อตอบแทนที่เจ้าช่วยงานอย่างหนัก เอ้านี่ ข้าทำเผื่อไว้เพิ่ม รับไปคู่หนึ่งได้เลย พร้อมแผ่นเสริมเกราะด้วย Drizzlik ยกให้ฟรี!\n\nแล้วจำไว้ ไม่มีรองเท้าใดดีเท่ารุ่น Excelsior ของ Drizzlik!"
+    },
+    {
+      "quest_id": 79242,
+      "field": "completion",
+      "english": "<Inside of the cache, you find a good deal of coin. Blood money, no doubt.>",
+      "expected": "<ภายในที่ซ่อน เจ้าพบเหรียญอยู่ไม่น้อย ไม่ต้องสงสัยเลยว่านี่คือเงินเปื้อนเลือด>"
+    },
+    {
+      "quest_id": 96078,
+      "field": "completion",
+      "english": "<Master Gadrin listens closely as you explain your journey and how you came to possess the I'lalai tablet etchings.>\r\n\r\nIt was good of Kin'Weelay to send you here. I am grateful he has taken such a strong interest in preserving and discovering parts of our ancestral heritage we have lost over the centuries. We Darkspear didn't break from the Gurubashi that long ago, in the grand scheme of things, you know.\r\n\r\nAnyway, Kin'weelay asked me to give this to you, as thanks for all your efforts this day.",
+      "expected": "<Master Gadrin ตั้งใจฟังขณะที่เจ้าเล่าเรื่องการเดินทางและที่มาของสำเนาลายสลักบนศิลาจารึก I'lalai>\nดีแล้วที่ Kin'Weelay ส่งเจ้ามาที่นี่ ข้าดีใจที่เขาตั้งใจค้นหาและรักษามรดกของบรรพชนที่สูญหายไปตลอดหลายศตวรรษ หากมองประวัติศาสตร์ทั้งหมดแล้ว พวกเรา Darkspear เพิ่งแยกจาก Gurubashi มาได้ไม่นานนักหรอก\nเอาล่ะ Kin'Weelay ฝากให้ข้ามอบสิ่งนี้แก่เจ้า เพื่อตอบแทนสิ่งที่เจ้าทำมาทั้งวัน"
+    },
+    {
+      "quest_id": 93594,
+      "field": "completion",
+      "english": "It is too late. For these gardens.\r\n\r\nI am the last of my generation of caretakers. Without the gift, more cannot take my place.\r\n\r\nThe weeds have overtaken the land. The flowers are restless. The trees wither.\r\n\r\n<Woodwyrd slowly turns toward the towering ancient illuminating the sky with its endless fire.>",
+      "expected": "สายเกินไปแล้ว สำหรับสวนเหล่านี้\n\nข้าเป็นผู้ดูแลคนสุดท้ายในรุ่นของข้า หากปราศจากพรนั้น ก็ไม่อาจมีผู้ใดมารับหน้าที่แทนข้าได้อีก\n\nวัชพืชเข้าปกคลุมผืนดิน ดอกไม้กระสับกระส่าย ต้นไม้เหี่ยวเฉา\n\n<Woodwyrd ค่อย ๆ หันไปทาง Ancient สูงตระหง่านที่ส่องท้องฟ้าให้สว่างด้วยเปลวไฟอันไม่รู้ดับของมัน>"
+    },
+    {
+      "quest_id": 86752,
+      "field": "title",
+      "english": "Report to Rageroar",
+      "expected": "รายงานตัวต่อ Rageroar"
+    },
+    {
+      "quest_id": 86752,
+      "field": "objective",
+      "english": "Speak with Gatekeeper Rageroar at Ursolan.",
+      "expected": "คุยกับ Gatekeeper Rageroar ที่ Ursolan"
+    },
+    {
+      "quest_id": 86799,
+      "field": "title",
+      "english": "Encroaching Corruption",
+      "expected": "ความแปดเปื้อนที่คืบคลาน"
+    },
+    {
+      "quest_id": 86799,
+      "field": "objective",
+      "english": "Speak to Elder Bramblesnap about Furze's illness.",
+      "expected": "คุยกับ Elder Bramblesnap เรื่องอาการป่วยของ Furze"
+    },
+    {
+      "quest_id": 86804,
+      "field": "title",
+      "english": "An Unlikely Source",
+      "expected": "แหล่งที่คาดไม่ถึง"
+    },
+    {
+      "quest_id": 86804,
+      "field": "objective",
+      "english": "Find a way to get Legashi Firewater in the Legashi Encampment.",
+      "expected": "หาวิธีนำ Legashi Firewater มาจาก Legashi Encampment"
+    },
+    {
+      "quest_id": 86925,
+      "field": "title",
+      "english": "Toil and Trouble",
+      "expected": "ความเหนื่อยยากและปัญหา"
+    },
+    {
+      "quest_id": 86925,
+      "field": "objective",
+      "english": "Find a Legashi Firewater Recipe from satyr in the Legashi Encampment.",
+      "expected": "หา Legashi Firewater Recipe จากเซเทอร์ใน Legashi Encampment"
+    },
+    {
+      "quest_id": 93686,
+      "field": "objective",
+      "english": "Find and return a Flawless Draenethyst Sphere to Kum'isha the Collector.",
+      "expected": "หา Flawless Draenethyst Sphere แล้วนำคืน Kum'isha the Collector"
+    },
+    {
+      "quest_id": 82062,
+      "field": "title",
+      "english": "Ever After",
+      "expected": "ชั่วกาลนาน"
+    },
+    {
+      "quest_id": 82062,
+      "field": "objective",
+      "english": "Speak with the Rugged Traveler.",
+      "expected": "คุยกับ Rugged Traveler"
+    },
+    {
+      "quest_id": 84319,
+      "field": "title",
+      "english": "Oh No Ye Don't!",
+      "expected": "อย่าหวังเลย!"
+    },
+    {
+      "quest_id": 84319,
+      "field": "objective",
+      "english": "Orthas needs you to recover his missing armor from the corpse of an Abomination somewhere in Plaguewood.",
+      "expected": "Orthas ต้องการให้เจ้าตามเก็บชุดเกราะที่หายไปของเขาจากศพ Abomination ที่ไหนสักแห่งใน Plaguewood"
+    },
+    {
+      "quest_id": 84150,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84150,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Lightforge Bracers to Deliana in Ironforge.",
+      "expected": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Lightforge Bracers ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84151,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84151,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with 1 set of Devout Bracers to Deliana in Ironforge.",
+      "expected": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Devout Bracers 1 ชุด ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84154,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84154,
+      "field": "objective",
+      "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Bracers of Valor to Deliana in Ironforge.",
+      "expected": "หา Winterspring Blood Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Bracers of Valor ให้ Deliana ที่ Ironforge"
+    },
+    {
+      "quest_id": 84155,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84155,
+      "field": "objective",
+      "english": "Acquire 15 Silithus Venom Samples and 20 gold and bring them along with a set of Wildheart Bracers to Mokvar in Orgrimmar.",
+      "expected": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Wildheart Bracers ให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84156,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84157,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84157,
+      "field": "objective",
+      "english": "Acquire 15 Silithus Venom Samples and 20 gold and bring them along with a set of Magister's Bindings to Mokvar in Orgrimmar.",
+      "expected": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Magister's Bindings ให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84161,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84161,
+      "field": "objective",
+      "english": "Acquire 15 Silithus Venom Samples and 20 gold and bring them along with a set of Dreadmist Bracers to Mokvar in Orgrimmar.",
+      "expected": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Dreadmist Bracers ให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 84162,
+      "field": "title",
+      "english": "An Earnest Proposition",
+      "expected": "ข้อเสนอที่จริงใจ"
+    },
+    {
+      "quest_id": 84162,
+      "field": "objective",
+      "english": "Acquire 15 Silithus Venom Samples and 20 gold and bring them along with a set of Bracers of Valor to Mokvar in Orgrimmar.",
+      "expected": "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Bracers of Valor ให้ Mokvar ที่ Orgrimmar"
+    },
+    {
+      "quest_id": 97271,
+      "field": "title",
+      "english": "Maul or Nothing!",
+      "expected": "ถ้าไม่ใช่ Maul ก็ไม่เอา!"
+    }
+  ]
+}

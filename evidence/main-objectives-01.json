@@ -1,0 +1,1772 @@
+{
+  "batch": "cloud-main-objectives-01",
+  "base": "0.462.0 PRIVATE-TEST",
+  "new_canonical_fields": 34,
+  "new_source_variants": 0,
+  "review": "assistant source/Thai review; not human or in-game verified",
+  "source_repository": "https://github.com/JIVESCORP/eg-link-output-wowf",
+  "source_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "source_path": "data/wowf/1.60.1.70888/quests.enUS.json",
+  "source_file_sha256": "433fc57290a162eca1c688c277a96234d39b7198edb1326ed4d6ec8fa4a65d60",
+  "source_meta": {
+    "attribution": "Data from Efficient Games (https://efficient.games), licensed under CC BY 4.0.",
+    "cacheFiles": 65,
+    "cachesLeftOut": 0,
+    "clientBuild": "1.60.1.70888",
+    "collectedOn": {
+      "first": "2026-11-10",
+      "last": "2026-11-12"
+    },
+    "dataset": "quests",
+    "license": "CC BY 4.0",
+    "locale": "enUS",
+    "product": "wowf",
+    "schemaVersion": 1,
+    "sources": 5
+  },
+  "fields": [
+    {
+      "quest_id": 90854,
+      "field": "objective",
+      "level": 57,
+      "title": "Leather for Inclement Weather",
+      "english": "Bring $1oa Rugged Armor Kits and $2oa Cured Rugged Hide to Zet'gan in Elderwild on Mount Hyjal.",
+      "thai": "นำ Rugged Armor Kit {world1} ชุด และ Cured Rugged Hide {world2} ผืนไปให้ Zet'gan ที่ Elderwild บน Mount Hyjal",
+      "signature": "6:1273960851:929420321 W1 23:1023567136:2089974552 W2 58:1492997520:162776456",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Livin' out in da wild for five years done take a toll on our supplies. We had to make dis place from scratch! We could use your skills as a leatherworker.\r\n\r\nI need to repair some of da tents and buildings, and patch up some armor. You bring me a pair of Rugged Armor Kits and a Cured Rugged Hide, I help you turn it into something special.",
+        "flags": 3145728,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 2,
+            "id": 473433,
+            "objectId": 15564,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 1,
+            "id": 473444,
+            "objectId": 15407,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Rugged Armor Kits and $2oa Cured Rugged Hide to Zet'gan in Elderwild on Mount Hyjal.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 274719
+            },
+            {
+              "count": 1,
+              "itemId": 274720
+            }
+          ],
+          "items": [
+            {
+              "count": 1,
+              "itemId": 252877
+            },
+            {
+              "count": 1,
+              "itemId": 252933
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Leather for Inclement Weather",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "9ae9d518cbaa08b1d5278bdcbefe2e1e8b7829f1d31e2ddfdad391232e77970d",
+      "thai_sha256": "c091058d21e8b00d95f14afb0934bed4973d6c77f02cc1529f5450c016774569",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 91564,
+      "field": "objective",
+      "level": 57,
+      "title": "Itching for a Fixing",
+      "english": "Bring $1oa Mithril Casings and $2oa Mechanical Repair Kit to Hnaz Blunderflame.",
+      "thai": "นำ Mithril Casing {world1} ชิ้น และ Mechanical Repair Kit {world2} ชุดไปให้ Hnaz Blunderflame",
+      "signature": "6:1273960851:929420321 W1 21:1546557573:1361386197 W2 44:1003161318:791723795",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "We've been stuck here for five years, and we've had to build everything from scratch! Do you know how much I've had to improvise just to do any engineering?\r\n\r\nHey, if you can help me out with some materials, I can make it worth your time! Build me a couple of Mithril Casings and a Mechanical Repair Kit so that I can fix up some stuff, and I'll show you a few things I've figured out.",
+        "flags": 3145736,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 2,
+            "id": 473445,
+            "objectId": 10561,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 1,
+            "id": 473446,
+            "objectId": 11590,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Mithril Casings and $2oa Mechanical Repair Kit to Hnaz Blunderflame.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "items": [
+            {
+              "count": 2,
+              "itemId": 15993
+            },
+            {
+              "count": 1,
+              "itemId": 264233
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Itching for a Fixing",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "df8503dab49fd0f23489e87b001ecd21b5eb74c702ce5493c21a37233c17c44c",
+      "thai_sha256": "135e3982845d80742751dbb8ca19dea332843b0ce307b062bff9c80a712b3ebc",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 92094,
+      "field": "objective",
+      "level": 57,
+      "title": "Rocket Gnomes",
+      "english": "Wennzut Togglespring lost sight of his brother, Fenwick, floating in his parachute into Hyjal. Look for where he may have ended up.",
+      "thai": "Wennzut Togglespring มองไม่เห็น Fenwick พี่น้องของเขาที่ลอยด้วยร่มชูชีพเข้าไปใน Hyjal แล้ว จงตามหาว่าเขาอาจไปตกอยู่ที่ใด",
+      "signature": "131:1193281029:480205731",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "My brother Fenwick and I recently finished a successful rocket test, the only problem is, he hasn't come back yet! I lost sight of him floating off to the south after his parachute deployed.\r\n\r\nIt looks like he may have landed in Hyjal!\r\n\r\nIf you help him find his way out of where he landed, I'm sure he'd find a way to thank you. I'll be grateful to have my brother back!",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 52,
+        "nextQuestId": 92702,
+        "objectivesText": "Wennzut Togglespring lost sight of his brother, Fenwick, floating in his parachute into Hyjal. Look for where he may have ended up.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "xpDifficulty": 1,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Rocket Gnomes",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "954be8fe7013017bce21fc87a107cf08d55018ec0396a7e957ee58a31251a1bc",
+      "thai_sha256": "b5ca4f3285c42cc2094568b4b2a441b6f2854a675d2fe92e177f3453e888f17b"
+    },
+    {
+      "quest_id": 92189,
+      "field": "objective",
+      "level": 57,
+      "title": "Back to the Grind",
+      "english": "Bring $1oa Dense Sharpening Stones and $2oa Dense Grinding Stones to Trigg Ironhand in Elderwild on Mount Hyjal.",
+      "thai": "นำ Dense Sharpening Stone {world1} ชิ้น และ Dense Grinding Stone {world2} ชิ้นไปให้ Trigg Ironhand ที่ Elderwild บน Mount Hyjal",
+      "signature": "6:1273960851:929420321 W1 29:315249015:1940076383 W2 69:941103846:720977298",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Och, we had to make this village from scratch with what we could scrounge up after the war. All of the fighting has taken a toll on our weapons, not to mention the need for tools!\r\n\r\nI can always tell another blacksmith. Think you could spare the time and materials to make me some Dense Sharpening and Dense Grinding Stones? We could really use 'em!",
+        "flags": 3145736,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 2,
+            "id": 473440,
+            "objectId": 12404,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 2,
+            "id": 473441,
+            "objectId": 12644,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Dense Sharpening Stones and $2oa Dense Grinding Stones to Trigg Ironhand in Elderwild on Mount Hyjal.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 274718
+            },
+            {
+              "count": 1,
+              "itemId": 251468
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Back to the Grind",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "ac5dd40334585cc91ba6950dfbe45f9ffc4e411f288ae5aee398ae730b3e050e",
+      "thai_sha256": "66059a81060fcb49004f966bc9d40ad8cc007aca03ff6c6bf72875e8e832dc2f",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 92433,
+      "field": "objective",
+      "level": 57,
+      "title": "Now We're Cooking",
+      "english": "Bring $1oa Savory Stag Sliders to Hnaz Blunderflame in Elderwild.",
+      "thai": "นำ Savory Stag Slider {world1} ชิ้นไปให้ Hnaz Blunderflame ที่ Elderwild",
+      "signature": "6:1273960851:929420321 W1 55:946352740:1802132830",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Hey! I'm pretty busy trying to turn these scraps into something edible. You wanna help out? I could really use some more variety for this meal! It sure would be nice to have something different on the menu.\r\n\r\nThere's a goblin in Everlook who has this recipe for Savory Stag Sliders... perfect for tiny hands like mine. If you could cook up some of those, that would be great! You can get stag meat from the stags here on the mountain.",
+        "flags": 3145728,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 464701,
+            "objectId": 250065,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Savory Stag Sliders to Hnaz Blunderflame in Elderwild.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 250179
+            },
+            {
+              "count": 2,
+              "itemId": 250071
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Now We're Cooking",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "59d52d2694496fc4d159787fdfcdbf4cbbf37627151d475f86790c88766f0cd0",
+      "thai_sha256": "c60112277339ad206d04306556fb83a5d963f2be52c4b22df15828a9738c9ce3",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 93828,
+      "field": "objective",
+      "level": 57,
+      "title": "Herbs of the Hollow",
+      "english": "Collect $1oa Dried Hanging Herbs from around Barkskin Burrow and return them to Fennar Mossmane.",
+      "thai": "เก็บ Dried Hanging Herbs {world1} ชุดจากบริเวณ Barkskin Burrow แล้วนำกลับไปให้ Fennar Mossmane",
+      "signature": "8:1089852795:1107240600 W1 84:1980610478:1317445972",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "The mountain's breath is damp here by the spring, and my herbs will not dry in this thick air. When our kin return from the wild, they hang their packs wherever the roots allow good air, spread through the den.\r\n\r\nGo now. Find the strands of dried herbs hung round our home and bring them to me. With them, I will weave wraps and wards to keep our spirits strong.",
+        "flags": 4194568,
+        "flagsEx": 8192,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 10,
+            "id": 467540,
+            "objectId": 617129,
+            "storageIndex": 2,
+            "type": "gameObject",
+            "typeId": 2
+          }
+        ],
+        "objectivesText": "Collect $1oa Dried Hanging Herbs from around Barkskin Burrow and return them to Fennar Mossmane.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Herbs of the Hollow",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "c18d1dc7d32632b8baddef560fe2e103cbcdfb443a37f6bc0261eb6ee2d9c316",
+      "thai_sha256": "8908aef54c1489f41c46a0ad75cb1de2c5319e22878682040668effc78b4a660",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 93830,
+      "field": "objective",
+      "level": 57,
+      "title": "Water of Hyjal",
+      "english": "Fill a waterskin provided by Fennar Mossmane at the pond outside of the Deadwood Furbolg den.",
+      "thai": "นำถุงหนังใส่น้ำที่ Fennar Mossmane ให้มาไปเติมน้ำที่บ่อนอกโพรงของพวกเฟอร์โบลก์ Deadwood",
+      "signature": "93:1344588819:1618410066",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "The Deadwood dwell by a pond born of Mount Hyjal's snow melt. That water is pure, strong with the mountain's breath. We use it for our draughts and to save roots from death.\r\n\r\nHere, the springs run slow. Our source must be saved, and used with care. But their pond flows with life, it could fill our den twice over. Bring me a skin filled with that water, friend. Spirits will bless your steps, and our den will drink deep of the mountain's gift.",
+        "flags": 256,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 467551,
+            "objectId": 263030,
+            "storageIndex": 2,
+            "text": "Waterskin filled",
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Fill a waterskin provided by Fennar Mossmane at the pond outside of the Deadwood Furbolg den.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "startItemId": 263029,
+        "title": "Water of Hyjal",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "1385474436c393b39fee223138ca3a58350c52c0e119f8e3dc76d95307792270",
+      "thai_sha256": "872ad1e1043aebe1b8d96390dcf5ce4e62f39b5a1b87d5a6aa33512d67afb40e"
+    },
+    {
+      "quest_id": 93834,
+      "field": "objective",
+      "level": 57,
+      "title": "Burrow Beetles",
+      "english": "Gather $1oa Burrow Beetle Bits for Dala Fairmaw.",
+      "thai": "รวบรวม Burrow Beetle Bits {world1} ชิ้นให้ Dala Fairmaw",
+      "signature": "7:451016854:1830523975 W1 37:86407496:638961952",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Burrow beetles! They're a bane... and now they dig in our den more than their own. We beat them back and swing clubs when we see them skulk by, but they are quick, and to hide in the dark is their shield.\r\n\r\nIf you spot them as you climb our den, squash them! We will take their crushed shells and make a meal, so it is not all bad.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 467559,
+            "objectId": 262803,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa Burrow Beetle Bits for Dala Fairmaw.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 2,
+              "itemId": 18253
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Burrow Beetles",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "510ce6c74294d1c291e86aea201a778afb07bab5cf4bdfeb50c9d3c0f44ad21a",
+      "thai_sha256": "2a32bdace6b8556302eeeb443882d459153e1429abb5649d95e19d1138da1b46",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 95769,
+      "field": "objective",
+      "level": 57,
+      "title": "Threading a Solution",
+      "english": "Bring $1oa Bolts of Runecloth to Mez'dan in Elderwild on Mount Hyjal.",
+      "thai": "นำ Bolt of Runecloth {world1} ม้วนไปให้ Mez'dan ที่ Elderwild บน Mount Hyjal",
+      "signature": "6:1273960851:929420321 W1 59:737563271:1774634728",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Every day be a challenge when you living rough like we do! Takes a toll on your tools, your clothes, your whole life. Good thing it can't take our spirit!\r\n\r\nWe be really hurting from our clothes and blankets wearing out. You do some tailoring, right? So maybe you can bring me some Bolts of Runecloth and I can fix a few holes?",
+        "flags": 3145736,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 473438,
+            "objectId": 14048,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Bolts of Runecloth to Mez'dan in Elderwild on Mount Hyjal.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 274721
+            },
+            {
+              "count": 1,
+              "itemId": 254124
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Threading a Solution",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "74e719b50dd76a00a747fcd61d252137a535bbfcda859f609aa07f498aedbc54",
+      "thai_sha256": "6859ed35c28bb444ea64f9b7f45c6f9ff0dc52d8e554eeb672b33a5461dc14e8",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 96666,
+      "field": "objective",
+      "level": 57,
+      "title": "Burrow Bonding",
+      "english": "Raise your reputation with the Barkskin Burrow to Friendly.",
+      "thai": "เพิ่มชื่อเสียงกับ Barkskin Burrow ให้ถึงระดับเป็นมิตร",
+      "signature": "59:1788506091:710009607",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Barkskin speak more good on you, friend, but there is yet more for you to do.\r\n\r\nRaise your hand to our foes. Honor our ways.\r\n\r\nWe watch close, and then we will have more to say to you.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 3000,
+            "id": 473851,
+            "objectId": 2747,
+            "storageIndex": -1,
+            "typeId": 6
+          }
+        ],
+        "objectivesText": "Raise your reputation with the Barkskin Burrow to Friendly.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 2747,
+              "tier": 7
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Burrow Bonding",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "71bfdc015d4514c9344e9a290350701146b3f219272adcf100f8a2d24caf395a",
+      "thai_sha256": "e37c7555a0b4205599e13a937c775aba2cc6b344ee4d79bda9d8bc8ce3b82579"
+    },
+    {
+      "quest_id": 91696,
+      "field": "objective",
+      "level": 58,
+      "title": "Open Season",
+      "english": "Escort the Barkskin Matriarch out of Deadwood Den and return to Barkskin Burrow.",
+      "thai": "คุ้มกัน Barkskin Matriarch ออกจาก Deadwood Den แล้วกลับไปยัง Barkskin Burrow",
+      "signature": "80:2044688771:1323107194",
+      "source_field": "objectivesText",
+      "source_record": {
+        "areaDescription": "Escort the Furbolg family out of Deadwood Den",
+        "description": "Deadwood set on my pup and his sire. He stood fast, fought to the death as our guard. We must go home, but the way is dark and full of jaws.\r\n\r\nStay near, guard us well. I will lead, you will fend, and we will see den safe.",
+        "flags": 1048579,
+        "level": 58,
+        "minLevel": 54,
+        "objectivesText": "Escort the Barkskin Matriarch out of Deadwood Den and return to Barkskin Burrow.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 269741
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 50000,
+              "tier": 0
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Open Season",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "61d038ac5cf4787904559a98b38b58c2600e76142d40596151390f3ae1858374",
+      "thai_sha256": "5e7ca7308e682a82dc9d115c5e06a9539d8e9023eb45960b1c818c264ef1a829"
+    },
+    {
+      "quest_id": 93832,
+      "field": "objective",
+      "level": 58,
+      "title": "Shatter the Stonewatchers",
+      "english": "Destroy $1oa Eternal Sentry gargoyles in the destroyed Alliance base in upper Hyjal and return to Elder Mistpaw.",
+      "thai": "ทำลายการ์กอยล์ Eternal Sentry {world1} ตนที่ฐานของฝ่ายสัมพันธมิตรซึ่งถูกทำลายในเขต Hyjal ตอนบน แล้วกลับไปหา Elder Mistpaw",
+      "signature": "8:286779151:428491486 W1 100:1429632364:2141842074",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "High slopes hold stone wings. Rock-beasts. Half-live, half-dead. Foul hands carve them. Do not trust their still pose. These eyes wait for one wrong step.\r\n\r\nOur young do not know the risk. One paw too near, and stone wakes with claw and fang.\r\n\r\nGo, smash these cursed forms. Break their wings, crush their shards, and let the mountain breathe free.",
+        "flags": 264,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 467554,
+            "objectId": 249237,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Destroy $1oa Eternal Sentry gargoyles in the destroyed Alliance base in upper Hyjal and return to Elder Mistpaw.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 12788,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Shatter the Stonewatchers",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "2a9ad22c41153ac228a2e95cda0f0b3cabc70b14747ed0ef3f71a8d0e57e7b43",
+      "thai_sha256": "d930371e370508c530a3489d81ebafef34c8f0236bf74b899677fe2ed9baf4a0",
+      "counter_evidence": "Explicit $ioa objective amount token in pinned query; W captures only the number in the full incoming text, never a guessed objective total."
+    },
+    {
+      "quest_id": 95107,
+      "field": "objective",
+      "level": 58,
+      "title": "Deeproar Down",
+      "english": "Kill Chieftain Deeproar and return his staff to Elder Pinespeaker in Barkskin Burrow.",
+      "thai": "สังหาร Chieftain Deeproar แล้วนำคทาของเขากลับไปให้ Elder Pinespeaker ที่ Barkskin Burrow",
+      "signature": "85:1317643492:1133645316",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "One chief of the Deadwood, Deeproar, barks in the depths of their den. He was once of no burrow, and in a night of bad blood, he fell sway to their spells.\r\n\r\nNow, he feeds on their sour sap, with twice the cursed roar.\r\n\r\nGo. End his foul ways. Take his staff and bring it here, so I know he holds it no more.",
+        "flags": 264,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 470104,
+            "objectId": 259875,
+            "storageIndex": 1,
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 1,
+            "id": 469830,
+            "objectId": 268507,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Kill Chieftain Deeproar and return his staff to Elder Pinespeaker in Barkskin Burrow.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 275291
+            },
+            {
+              "count": 1,
+              "itemId": 275293
+            },
+            {
+              "count": 1,
+              "itemId": 275296
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Deeproar Down",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "9510f1a169aef67cc2e4d41afd19b50ebbaeae79985f0f7f1afc9a653d208f85",
+      "thai_sha256": "2b7d0ebbdc20a886c69175a3b21f76fc0297ba5c3f9556fd75b9d222bb655d56"
+    },
+    {
+      "quest_id": 95108,
+      "field": "objective",
+      "level": 58,
+      "title": "Mystic Mix",
+      "english": "Kill two Deadwood Death Mystics and destroy two Deadwood Cauldrons within Deadwood Den.",
+      "thai": "สังหาร Deadwood Death Mystic สองตน และทำลาย Deadwood Cauldron สองใบภายใน Deadwood Den",
+      "signature": "87:831640672:751551291",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "With far sight, we have seen their den. Deadwood brew dark rites in their pots. They feed this foul mix to their young, so bad roots take. Then they learn to fight with vile ways.\r\n\r\nGo, stop this spread. Slay the dark ones and smash their stew.",
+        "flags": 8,
+        "level": 58,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 2,
+            "id": 469831,
+            "objectId": 259876,
+            "storageIndex": 1,
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 1,
+            "id": 470230,
+            "objectId": 260373,
+            "storageIndex": 2,
+            "text": "First Cauldron Destroyed",
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 1,
+            "id": 470229,
+            "objectId": 260374,
+            "storageIndex": 0,
+            "text": "Second Cauldron Destroyed",
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Kill two Deadwood Death Mystics and destroy two Deadwood Cauldrons within Deadwood Den.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 12788,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Mystic Mix",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "5a3066f9ae6fd6240affc3e254ae212ca8460f789286e8e7455d235963fa8aa3",
+      "thai_sha256": "5de58a76077cb3877968888c6a1518dbe3e9f8171d444f62b9c7cba1d2c5733e"
+    },
+    {
+      "quest_id": 95273,
+      "field": "objective",
+      "level": 59,
+      "title": "Water of Hyjal",
+      "english": "Empty the Barkskin Purification Tonic provided by Fennar Mossmane in the water at the bottom of Deadwood Den.",
+      "thai": "เท Barkskin Purification Tonic ที่ Fennar Mossmane ให้มาลงในน้ำที่ก้นโพรง Deadwood Den",
+      "signature": "109:426029704:1247731725",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Now that we know Deadwood don't foul the water outright with their presence, we can take this sample and cast our wards with sound will. We've heard there is a pool of the mountain's tears within their den.\r\n\r\nTravel with force and pour this water into the pool deep in Deadwood Den. \r\n\r\nReturn to us when you have learned what secrets the dark depths hold.",
+        "flags": 0,
+        "level": 59,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 470217,
+            "objectId": 265026,
+            "storageIndex": 2,
+            "text": "Secrets of the depths discovered",
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 1,
+            "id": 473683,
+            "objectId": 274373,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Empty the Barkskin Purification Tonic provided by Fennar Mossmane in the water at the bottom of Deadwood Den.",
+        "questInfoId": 1,
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 275390
+            },
+            {
+              "count": 1,
+              "itemId": 275434
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 35000,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "startItemId": 274373,
+        "title": "Water of Hyjal",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "08c34bee803fada7a92356982a8342d9e5171952e3a9b2d5beeacfd3b48ebf4b",
+      "thai_sha256": "3fb338b2666d93f2eb13cf21c3161ec5817f1dbd87a3436c25b9e9d8840cd218"
+    },
+    {
+      "quest_id": 93521,
+      "field": "objective",
+      "level": 60,
+      "title": "Challenger of the Gods",
+      "english": "Take Ve'han's Research Notes to Tiala Whitemane.",
+      "thai": "นำ Ve'han's Research Notes ไปให้ Tiala Whitemane",
+      "signature": "48:546301650:885922843",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Ve'han's research notes describe his attempts to steal the power of the Wild Gods, following the ambitions of his leader, the Wild King. His successes were few, and hapless. Had he been a more powerful druid, he likely would have quickly devoured the essence of Jereman and gained even more power still.\r\n\r\nThe Guardians of Hyjal at the summit camp will definitely want to know about this.",
+        "flags": 36700160,
+        "level": 60,
+        "minLevel": 57,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 480916,
+            "objectId": 270301,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Take Ve'han's Research Notes to Tiala Whitemane.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 2300,
+          "reputation": [
+            {
+              "factionId": 2765,
+              "tier": 3
+            }
+          ],
+          "xpDifficulty": 2,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "startItemId": 270301,
+        "title": "Challenger of the Gods",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "8064110571795733313b821cced4a0c42467b6a11dd6d8994ab344b7a99d5110",
+      "thai_sha256": "ff290cee68d07f57aff88647e45019e57b6cb243d059378abc4e0f71450bddef"
+    },
+    {
+      "quest_id": 93848,
+      "field": "objective",
+      "level": 60,
+      "title": "Work Well Done",
+      "english": "Return to Ketharas and inform him of what occurred at the Summit of Eternity.",
+      "thai": "กลับไปหา Ketharas แล้วรายงานสิ่งที่เกิดขึ้นที่ Summit of Eternity",
+      "signature": "77:1148716141:1983580749",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "The magic that Ketharas was able to craft to counteract this threat was vital to this victory. Our druids should be able to replicate the magic and use it to dispel the wards empowering the Blackthorne Pact at scale.\r\n\r\nYou should go back to Ketharas and let him know what transpired here. Tell him that he has the thanks of the Guardians of Hyjal and the Cenarion Circle. He should know that he is always welcome amongst us should he desire a place alongside his fellow druids once again.",
+        "flags": 36700168,
+        "level": 60,
+        "minLevel": 54,
+        "objectivesText": "Return to Ketharas and inform him of what occurred at the Summit of Eternity.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 275739
+            },
+            {
+              "count": 1,
+              "itemId": 275740
+            },
+            {
+              "count": 1,
+              "itemId": 275741
+            },
+            {
+              "count": 1,
+              "itemId": 275736
+            },
+            {
+              "count": 1,
+              "itemId": 275737
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2765,
+              "tier": 6
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Work Well Done",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "e9863988926154286bc5914db9d5efd23d00db57f1ade1773e25f458ebfd6152",
+      "thai_sha256": "cbe22d65baf23b4b6c761828e940ff3bb730a9b344d11010bacd8f98e0da2454"
+    },
+    {
+      "quest_id": 96265,
+      "field": "objective",
+      "level": 60,
+      "title": "Secret of the Barrow Deeps",
+      "english": "Take the Corrupted Gemstone to Thera Duskwhisper in Winterspring.",
+      "thai": "นำ Corrupted Gemstone ไปให้ Thera Duskwhisper ที่ Winterspring",
+      "signature": "65:56640548:232448174",
+      "source_field": "objectivesText",
+      "source_record": {
+        "completionText": "Take the Corrupted Gemstone to Thera Duskwhisper in Winterspring.",
+        "description": "<The corrupted shards combine into a gem seething with tainted power. The Watchers will want to see this.>",
+        "flags": 0,
+        "level": 60,
+        "minLevel": 60,
+        "nextQuestId": 96266,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 475476,
+            "objectId": 277154,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Take the Corrupted Gemstone to Thera Duskwhisper in Winterspring.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 24300,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "startItemId": 277154,
+        "title": "Secret of the Barrow Deeps",
+        "zoneAreaId": 618
+      },
+      "english_sha256": "7a7c09372609f3c18ce1751a0397c56cce58b79526b15e34809bc2f5de69fa37",
+      "thai_sha256": "1d828c382533ad1e263cdb2ec33c7573ce4003e4c697cce5c69177f008d831d4"
+    },
+    {
+      "quest_id": 96913,
+      "field": "objective",
+      "level": 60,
+      "title": "Field of Honor: Week 2",
+      "english": "Complete 3 Warsong Gulch battles.",
+      "thai": "เข้าร่วมการต่อสู้ใน Warsong Gulch ให้จบ 3 ครั้ง",
+      "signature": "33:1083397799:1814365198",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You again, eh? Ready for the next test? I hope you aren't squeamish. You might need to bleed for this one... or preferably make the other guys bleed first.",
+        "flags": 36700160,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 475002,
+            "objectId": 229051,
+            "storageIndex": 0,
+            "text": "Complete 3 Warsong Gulch Battlegrounds",
+            "type": "criteriaTree",
+            "typeId": 14
+          }
+        ],
+        "objectivesText": "Complete 3 Warsong Gulch battles.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "currencies": [
+            {
+              "amount": 300,
+              "currencyId": 1792
+            },
+            {
+              "amount": 50000,
+              "currencyId": 3468
+            }
+          ],
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Field of Honor: Week 2",
+        "zoneAreaId": 3277
+      },
+      "english_sha256": "b1ce913d28807d3d9679be1e3f210a7b119b6fd4a5d7f4ec62736055f1d57a70",
+      "thai_sha256": "3ae0e39e7528b26d09138c34c896225b70025a9491067c8276324ea61baed838"
+    },
+    {
+      "quest_id": 97180,
+      "field": "objective",
+      "level": 60,
+      "title": "Ott's Finest Work",
+      "english": "Take the Arcanite Barding to Danitha Morr at Bandarion Keep for inspection.",
+      "thai": "นำ Arcanite Barding ไปให้ Danitha Morr ที่ Bandarion Keep ตรวจดู",
+      "signature": "75:1405221489:2021016009",
+      "source_field": "objectivesText",
+      "source_record": {
+        "categoryId": 141,
+        "description": "<Ott wipes the sweat from his brow and grunts at his work approvingly.>\r\n\r\nThere you are. My trade is mostly in the creation of weapons, but I believe that this might be some of my finest work nonetheless. I thank you for the trust you and your fellow paladins have shown me.\r\n\r\nNo doubt Danitha Morr will want to see the work for herself as well. Take your barding to her, and give her my thanks for allowing me to complete this commission on your behalf.\r\n\r\nLok-tar, $c.",
+        "flags": 0,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 475309,
+            "objectId": 18753,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Take the Arcanite Barding to Danitha Morr at Bandarion Keep for inspection.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "money": 19800,
+          "reputation": [
+            {
+              "factionId": 76,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "startItemId": 18753,
+        "title": "Ott's Finest Work"
+      },
+      "english_sha256": "e2f56b56964554d70745144b6dbf01e8f0934623b3e50caca59a8414c983da0f",
+      "thai_sha256": "5ef8f9805567978adb21466dc77cdd6b6d3ef7a34b4ee9a950221eb39459021b"
+    },
+    {
+      "quest_id": 97182,
+      "field": "objective",
+      "level": 60,
+      "title": "An Offering of Vengeance",
+      "english": "Acquire special horse feed used for feeding a spirit horse. Nathanos Blightcaller in Eastern Plaguelands may be able to provide such a feed.\r\n\r\nTravel to the Dire Maul in Feralas and slay Tendris Warpwood. Doing so will free the Ancient Equine Spirit. Feed it the special horse feed to soothe it. \r\n\r\nLastly, give it the Arcanite Barding and hope that it is willing to provide the needed blessing.",
+      "thai": "หาอาหารม้าชนิดพิเศษสำหรับเลี้ยงม้าวิญญาณ Nathanos Blightcaller ที่ Eastern Plaguelands อาจหาอาหารชนิดนี้ให้ได้\n\nเดินทางไป Dire Maul ใน Feralas แล้วสังหาร Tendris Warpwood เพื่อปลดปล่อย Ancient Equine Spirit ให้อาหารม้าชนิดพิเศษแก่มันเพื่อให้มันสงบลง\n\nสุดท้าย มอบ Arcanite Barding ให้มัน แล้วหวังว่ามันจะยอมมอบพรที่ต้องการให้",
+      "signature": "390:320073667:572402320",
+      "source_field": "objectivesText",
+      "source_record": {
+        "categoryId": 141,
+        "description": "A paladin charger's barding requires the blessing of a powerful equine spirit. In the ruins of Dire Maul the corrupted treant known as Tendris Warpwood has such a spirit imprisoned. Seek retribution on behalf of this spirit, and free it from its bondage. With luck, it may be willing to provide its blessing. \r\n\r\nTo help ensure success, I'd also advise you to bring a special type of spiritually-attuned feed. Travel to Eastern Plaguelands and speak with the ranger known as Nathanos Blightcaller about this.",
+        "flags": 0,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 475316,
+            "objectId": 18753,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 1,
+            "id": 475317,
+            "objectId": 18775,
+            "storageIndex": 1,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Acquire special horse feed used for feeding a spirit horse. Nathanos Blightcaller in Eastern Plaguelands may be able to provide such a feed.\r\n\r\nTravel to the Dire Maul in Feralas and slay Tendris Warpwood. Doing so will free the Ancient Equine Spirit. Feed it the special horse feed to soothe it. \r\n\r\nLastly, give it the Arcanite Barding and hope that it is willing to provide the needed blessing.",
+        "questInfoId": 81,
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "money": 14850,
+          "xpDifficulty": 4,
+          "xpMultiplier": 2.0
+        },
+        "sources": 1,
+        "startItemId": 18753,
+        "title": "An Offering of Vengeance"
+      },
+      "english_sha256": "93044fdeeadabe8cf4038b6a6b3da04d0116b224ff5e1f36060ef7ea97fe71c0",
+      "thai_sha256": "2cc558e649f5700b0be29a50b736601069e6a9b12fb2b77e7f965df9bd127231"
+    },
+    {
+      "quest_id": 97183,
+      "field": "objective",
+      "level": 60,
+      "title": "Blessed Arcanite Barding",
+      "english": "Return with the Blessed Arcanite Barding to Danitha Morr at Bandarion Keep in Tirisfal Glades.",
+      "thai": "นำ Blessed Arcanite Barding กลับไปให้ Danitha Morr ที่ Bandarion Keep ใน Tirisfal Glades",
+      "signature": "94:605858781:70601765",
+      "source_field": "objectivesText",
+      "source_record": {
+        "categoryId": 141,
+        "description": "As the barding rests on the back of the Ancient Equine Spirit, it glows white hot. The air is thick with power for a brief moment, and then the barding disappears from the back of the horse and is now secure in your backpack.\r\n\r\nEven through the leather of your satchel, you feel the heat still coming off of the saddle. It would seem that your offering of vengeance has been accepted, and the barding has been blessed. It's time to return to Danitha Morr at Bandarion Keep.",
+        "flags": 0,
+        "level": 60,
+        "minLevel": 60,
+        "nextQuestId": 97184,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 475319,
+            "objectId": 18792,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Return with the Blessed Arcanite Barding to Danitha Morr at Bandarion Keep in Tirisfal Glades.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 24900,
+          "reputation": [
+            {
+              "factionId": 68,
+              "tier": 6
+            }
+          ],
+          "xpDifficulty": 6,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "startItemId": 18792,
+        "title": "Blessed Arcanite Barding"
+      },
+      "english_sha256": "1170683b5202130f12e69dd01b934f0d3f3bb573500eb0d4537fcf0d8a09eaac",
+      "thai_sha256": "fbac00dc95ba800806b184b1cf574df45aae0a0835c162f20fda5189d7bc3162"
+    },
+    {
+      "quest_id": 97185,
+      "field": "objective",
+      "level": 60,
+      "title": "Justice and Retribution",
+      "english": "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance.  Doing so will bring forth the spirits you must judge. Defeating these spirits will summon forth Death Knight Darkreaver.  Defeat him and reclaim the lost soul of the fallen charger.\r\n\r\nGive the Spirit of Retribution and the Blessed Enchanted Barding to Darkreaver's Fallen Charger.",
+      "thai": "ใช้ Divination Scryer ใจกลางชั้นใต้ดินของ Great Ossuary ใน Scholomance เพื่อเรียกเหล่าวิญญาณที่เจ้าต้องพิพากษาออกมา เมื่อเอาชนะเหล่าวิญญาณได้ Death Knight Darkreaver จะปรากฏตัว จงปราบเขาแล้วนำดวงวิญญาณที่สูญหายของม้าศึกที่ล้มตายกลับคืนมา\n\nมอบ Spirit of Retribution และ Blessed Enchanted Barding ให้ Darkreaver's Fallen Charger",
+      "signature": "368:1288322297:1344951134",
+      "source_field": "objectivesText",
+      "source_record": {
+        "categoryId": 141,
+        "description": "In this satchel you will find the items you will need for your trial. Use the divination scryer in the heart of the Great Ossuary's basement to bring forth accursed spirits to face justice. The power of your judgements will be extremely valuable in this battle, so use them wisely.\r\n\r\nOnce you have dispersed these spirits, Darkreaver will appear. Defeat him and claim the lost soul of the charger. Show it the path of justice and retribution that you walk and with luck, it will take its place at your side.",
+        "flags": 2097152,
+        "itemDrops": [
+          {
+            "count": 1,
+            "itemId": 276784
+          },
+          {
+            "count": 1,
+            "itemId": 18746
+          }
+        ],
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 475324,
+            "objectId": 276783,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 1,
+            "id": 475325,
+            "objectId": 18792,
+            "storageIndex": 3,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Use the Divination Scryer in the heart of the Great Ossuary's basement in the Scholomance.  Doing so will bring forth the spirits you must judge. Defeating these spirits will summon forth Death Knight Darkreaver.  Defeat him and reclaim the lost soul of the fallen charger.\r\n\r\nGive the Spirit of Retribution and the Blessed Enchanted Barding to Darkreaver's Fallen Charger.",
+        "questInfoId": 81,
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "displaySpells": [
+            {
+              "spellId": 1296534,
+              "type": 0
+            }
+          ],
+          "money": 29850,
+          "reputation": [
+            {
+              "factionId": 68,
+              "tier": 7
+            }
+          ],
+          "spellId": 1296537,
+          "xpDifficulty": 7,
+          "xpMultiplier": 2.0
+        },
+        "sources": 1,
+        "startItemId": 276785,
+        "title": "Justice and Retribution"
+      },
+      "english_sha256": "e98b76bc048fe234403d39c6017e5b6fdcb7efffb634255689a232a5233da804",
+      "thai_sha256": "59516fa6f5367a64f7cdadd11709f7dd148f234e0cc9580c9e97552e4bc67924"
+    },
+    {
+      "quest_id": 97186,
+      "field": "objective",
+      "level": 60,
+      "title": "Manna-Enriched Horse Feed",
+      "english": "Retrieve 20 Enriched Manna Biscuits for Nathanos Blightcaller in Eastern Plaguelands. The Argent Dawn is known as the sole purveyor of the biscuits. You'll also need to provide Blightcaller with 50 gold for his time.",
+      "thai": "หา Enriched Manna Biscuit 20 ชิ้นให้ Nathanos Blightcaller ที่ Eastern Plaguelands เป็นที่รู้กันว่า Argent Dawn เป็นผู้จัดจำหน่ายบิสกิตชนิดนี้เพียงรายเดียว เจ้าต้องจ่ายค่าตอบแทนให้ Blightcaller อีก 50 ทองด้วย",
+      "signature": "216:135123128:1440051246",
+      "source_field": "objectivesText",
+      "source_record": {
+        "categoryId": 141,
+        "description": "So you need feed to give to the incorporeal spirit of a horse? Interesting.\r\n\r\nYes, I suppose I can help you with what you need. I have spent a considerable amount of time rearing beasts that are... let's say--no longer entirely of this world, and I know a thing or two about how to sustain them.\r\n\r\nI simply need some of the spiritually-enriched biscuits that the Argent Dawn sells... and a small offering of gold. For my time, of course.",
+        "flags": 256,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 20,
+            "id": 475328,
+            "objectId": 13724,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 500000,
+            "id": 475329,
+            "objectId": 0,
+            "storageIndex": 1,
+            "typeId": 8
+          }
+        ],
+        "objectivesText": "Retrieve 20 Enriched Manna Biscuits for Nathanos Blightcaller in Eastern Plaguelands. The Argent Dawn is known as the sole purveyor of the biscuits. You'll also need to provide Blightcaller with 50 gold for his time.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 18775
+            }
+          ],
+          "money": -500000,
+          "xpDifficulty": 1,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Manna-Enriched Horse Feed"
+      },
+      "english_sha256": "acdd371cc0871cd600752ab25c31b0e6908bdf55a727510874669c8b6e5331ee",
+      "thai_sha256": "d1e1c15c10cbcf82ec490372dc90d23f46061d5dcb785c1bd8dc9577a93f74c0"
+    },
+    {
+      "quest_id": 97883,
+      "field": "objective",
+      "level": 60,
+      "title": "End of the Dark Horde",
+      "english": "Bring the Head of Rend Blackhand to Major Mattingly in Stormwind.",
+      "thai": "นำ Head of Rend Blackhand ไปให้ Major Mattingly ที่ Stormwind",
+      "signature": "65:157456567:2083237078",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Bring Blackhand's head to Major Mattingly at the city gates. He and his men will proclaim the great victory you have achieved this day, so that the rest of the Alliance may be inspired by it.\r\n\r\nYou've done a great justice this day, $n. One that all will remember--including our enemies.",
+        "flags": 268435456,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 476433,
+            "objectId": 278836,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring the Head of Rend Blackhand to Major Mattingly in Stormwind.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 900,
+          "reputation": [
+            {
+              "factionId": 72,
+              "tier": 1
+            }
+          ],
+          "xpDifficulty": 1,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "startItemId": 278836,
+        "title": "End of the Dark Horde",
+        "zoneAreaId": 1519
+      },
+      "english_sha256": "11618a740c9ac5674a7096219c05fe8a5cc2b9913d87cf27b0073fe5af0f710f",
+      "thai_sha256": "45adda2c56fe5c5097b85c5dcbf2706a13331d3fe36884b7206c5be33a985b6e"
+    },
+    {
+      "quest_id": 99201,
+      "field": "objective",
+      "level": 60,
+      "title": "Swift as the Wind",
+      "english": "Learn the Journeyman Riding skill from Xar'ti.",
+      "thai": "เรียนทักษะขี่พาหนะระดับ Journeyman จาก Xar'ti",
+      "signature": "46:680536964:989663742",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Ey, welcome back $c! \r\n\r\nZjolnir will provide ya with a free armored mount once you have trained journeyman riding with me, and after that ya be able to purchase any additional armored mounts.\r\n\r\nSpeak to me when ya have enough gold, and I will teach ya to master raptor riding.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479615,
+            "objectId": 234945,
+            "storageIndex": 1,
+            "text": "Learn: Journeyman Riding",
+            "type": "criteriaTree",
+            "typeId": 14
+          }
+        ],
+        "objectivesText": "Learn the Journeyman Riding skill from Xar'ti.",
+        "questType": 2,
+        "raceMask": "0000000000000080",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 530,
+              "tier": 2
+            }
+          ],
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Swift as the Wind",
+        "zoneAreaId": 1637
+      },
+      "english_sha256": "14c29a58f0e0437b55fc78e64ac74f27262bc7c6d47d6e37b85ca799d066ae2c",
+      "thai_sha256": "e2ef935d93dd8e40564337fda0afddd8f8adf46109cab90a02eb53d472c1980d"
+    },
+    {
+      "quest_id": 99202,
+      "field": "objective",
+      "level": 60,
+      "title": "Swift as the Wind",
+      "english": "Learn the Journeyman Riding skill from Kar Stormsinger.",
+      "thai": "เรียนทักษะขี่พาหนะระดับ Journeyman จาก Kar Stormsinger",
+      "signature": "55:2016593441:1947600273",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Greeting once more, $c. The time has come for you learn to ride one of our grandest mounts--the armored kodo.\r\n\r\nHarb will provide you with a free mount once ye have completed your training with me, and after you will be able to purchase any additional mounts you would like, just as before.\r\n\r\nThis will be expensive, but speak to me when you have enough coin. I will finish your training.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479617,
+            "objectId": 234949,
+            "storageIndex": 1,
+            "text": "Learn: Journeyman Riding",
+            "type": "criteriaTree",
+            "typeId": 14
+          }
+        ],
+        "objectivesText": "Learn the Journeyman Riding skill from Kar Stormsinger.",
+        "questType": 2,
+        "raceMask": "0000000000000020",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 68,
+              "tier": 2
+            }
+          ],
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Swift as the Wind",
+        "zoneAreaId": 215
+      },
+      "english_sha256": "6167aa0ada692a286695f39cefcdb58226c70dddb919db63ee100fc513047b34",
+      "thai_sha256": "cff9f36bc614a469f2f6856d81728b64c50c63d4247d9802b89d9c9faddc2f36"
+    },
+    {
+      "quest_id": 99203,
+      "field": "objective",
+      "level": 60,
+      "title": "Swift as the Wind",
+      "english": "Learn the Journeyman Riding skill from Genn Fairweather.",
+      "thai": "เรียนทักษะขี่พาหนะระดับ Journeyman จาก Genn Fairweather",
+      "signature": "56:1310288086:2025020553",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Ah, you've returned. Very good. Are you ready to learn to ride an armored galestrider?\r\n\r\nAs before, if you take the next step in your training with me, I will provide you with a free mount, and after you will be able to purchase any additional mounts you would like. \r\n\r\nIt won't be cheap, but speak to me when you have enough coin. I will teach you about riding armored galestriders.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "nextQuestId": 96996,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479618,
+            "objectId": 234953,
+            "storageIndex": 1,
+            "text": "Learn: Journeyman Riding",
+            "type": "criteriaTree",
+            "typeId": 14
+          }
+        ],
+        "objectivesText": "Learn the Journeyman Riding skill from Genn Fairweather.",
+        "questType": 2,
+        "raceMask": "0000000300000000",
+        "rewards": {
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Swift as the Wind",
+        "zoneAreaId": 16593
+      },
+      "english_sha256": "f43bef6eda21ce7bc29c7361f1fbe304556352072c515e7d774f982871d10553",
+      "thai_sha256": "d89be4378f2e97976b04887873f58f5d45bfec9a03ae3ee2722b53fa169585e2"
+    },
+    {
+      "quest_id": 99204,
+      "field": "objective",
+      "level": 60,
+      "title": "Swift as the Wind",
+      "english": "Learn the Journeyman Riding skill from Kildar.",
+      "thai": "เรียนทักษะขี่พาหนะระดับ Journeyman จาก Kildar",
+      "signature": "46:428014185:148501121",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You have returned. Good. It's time to take your next steps. \r\n\r\nOgunaro will provide you with a free mount once you have completed your final leg of training with me, and after you will be able to purchase any additional mounts you would like, as before.\r\n\r\nSpeak to me when you have enough gold, and I will finish your training.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479619,
+            "objectId": 234957,
+            "storageIndex": 1,
+            "text": "Learn: Journeyman Riding",
+            "type": "criteriaTree",
+            "typeId": 14
+          }
+        ],
+        "objectivesText": "Learn the Journeyman Riding skill from Kildar.",
+        "questType": 2,
+        "raceMask": "0000000000000002",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 76,
+              "tier": 2
+            }
+          ],
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Swift as the Wind",
+        "zoneAreaId": 1637
+      },
+      "english_sha256": "29ae169b567f2ac63444e9dea53c35b534d954240784f9225928d8775a3705a3",
+      "thai_sha256": "21c4ddee34eea77f51054c764c80ca023cb4cf71f8d867252da44ebcf7b5248c"
+    },
+    {
+      "quest_id": 99206,
+      "field": "objective",
+      "level": 60,
+      "title": "Swift as the Wind",
+      "english": "Learn the Journeyman Riding skill from Randal Hunter.",
+      "thai": "เรียนทักษะขี่พาหนะระดับ Journeyman จาก Randal Hunter",
+      "signature": "53:1465433564:1265640966",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "I'm glad you made your way back to me. I can tell by the scratches on your skin and the dirt on your armor that you've seen much of the world. It's time we got you a proper steed.\r\n\r\nKatie will provide you with a free mount once ye have completed the final leg of your training with me, and after you will be able to purchase any additional mounts you would like just as before.\r\n\r\nSpeak to me when you have enough coin, and I will teach you all I know about riding armored horses.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479621,
+            "objectId": 234965,
+            "storageIndex": 1,
+            "text": "Learn: Journeyman Riding",
+            "type": "criteriaTree",
+            "typeId": 14
+          }
+        ],
+        "objectivesText": "Learn the Journeyman Riding skill from Randal Hunter.",
+        "questType": 2,
+        "raceMask": "0000000000000001",
+        "rewards": {
+          "reputation": [
+            {
+              "factionId": 72,
+              "tier": 2
+            }
+          ],
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Swift as the Wind",
+        "zoneAreaId": 12
+      },
+      "english_sha256": "8c99e9327404f1de313e48ce3b054b435f114c86bcec3a3bb89061144992c557",
+      "thai_sha256": "2c2b27e27dd0a3613799656d0e67009d47e5f4edfdfadc3b78ab81a6eddf8332"
+    },
+    {
+      "quest_id": 99213,
+      "field": "objective",
+      "level": 60,
+      "title": "An Epic Ride",
+      "english": "Inspect the armored riding horses to choose your epic mount.",
+      "thai": "สำรวจม้าขี่หุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "signature": "60:1854042006:1924370206",
+      "source_field": "objectivesText",
+      "source_record": {
+        "conditionalDescriptions": [
+          {
+            "playerConditionId": 158357,
+            "text": "Greetings, paladin! I must admit I am surprised to see one of your order here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the chargers you are accustomed to.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land. These steeds are descendants from both the historical Lordaeron stock and our own local horses. You won't find a more steadfast companion for your journeys.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice."
+          },
+          {
+            "playerConditionId": 155127,
+            "text": "Greetings, warlock. I must admit I am surprised to see one of your talents here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the felsteeds you are accustomed to summoning.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land, and they should still bear you as faithfully as your summoned infernal felsteed.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice."
+          }
+        ],
+        "description": "Greetings, $n! I am so glad to see you've returned to us.\r\n\r\nIt would seem you have enough experience to ride our fastest and fiercest steeds. You won't find a more steadfast companion for your journeys.\r\n\r\nChoosing one may be difficult as they are all excellent and trained to be steady even when in danger. Some may even recognize you from the last time you were here.\r\n\r\nGo and examine the armored horses and return to me when you have made your choice.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479638,
+            "objectId": 276785,
+            "storageIndex": 3,
+            "text": "Swift Brown Steed",
+            "type": "talkTo",
+            "typeId": 3
+          },
+          {
+            "amount": 1,
+            "id": 479639,
+            "objectId": 276786,
+            "storageIndex": 4,
+            "text": "Swift Palomino",
+            "type": "talkTo",
+            "typeId": 3
+          },
+          {
+            "amount": 1,
+            "id": 479640,
+            "objectId": 276787,
+            "storageIndex": 5,
+            "text": "Swift White Steed",
+            "type": "talkTo",
+            "typeId": 3
+          }
+        ],
+        "objectivesText": "Inspect the armored riding horses to choose your epic mount.",
+        "questType": 2,
+        "raceMask": "0000000000000001",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 18776
+            },
+            {
+              "count": 1,
+              "itemId": 18777
+            },
+            {
+              "count": 1,
+              "itemId": 18778
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 72,
+              "tier": 2
+            }
+          ],
+          "xpDifficulty": 0,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "An Epic Ride",
+        "zoneAreaId": 12
+      },
+      "english_sha256": "4510938f9e48447f050e6a8cd0a8ce45a88ecac52492ad21f6f61095eb39d009",
+      "thai_sha256": "03f727fba33fa89c28fe38a93b012209cf212eb6a606fc853bbb66fa3aac8529"
+    },
+    {
+      "quest_id": 99214,
+      "field": "objective",
+      "level": 60,
+      "title": "An Epic Ride",
+      "english": "Inspect the armored riding sabers to choose your epic mount.",
+      "thai": "สำรวจเสือเซเบอร์ขี่หุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "signature": "60:201832732:1784425504",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Greetings, friend! I am pleased to see you again. Today you have enough experience and aptitude to bond with our fastest and fiercest sabers.\r\n\r\nThese sabers are, of course, extremely intelligent and fiercely loyal to their bonded rider. You won't find a more noble and steadfast companion.\r\n\r\nAs such, you have an important choice to make. You and your saber will traverse the world together, so choose wisely!\r\n\r\nGo, examine the armored sabers and return to me when you have made your choice.",
+        "flags": 1048576,
+        "level": 60,
+        "minLevel": 60,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 479641,
+            "objectId": 276730,
+            "storageIndex": 4,
+            "text": "Swift Stormsaber",
+            "type": "talkTo",
+            "typeId": 3
+          },
+          {
+            "amount": 1,
+            "id": 479642,
+            "objectId": 276731,
+            "storageIndex": 5,
+            "text": "Swift Mistsaber",
+            "type": "talkTo",
+            "typeId": 3
+          },
+          {
+            "amount": 1,
+            "id": 479643,
+            "objectId": 276732,
+            "storageIndex": 6,
+            "text": "Swift Frostsaber",
+            "type": "talkTo",
+            "typeId": 3
+          }
+        ],
+        "objectivesText": "Inspect the armored riding sabers to choose your epic mount.",
+        "questType": 2,
+        "raceMask": "0000000000000008",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 18902
+            },
+            {
+              "count": 1,
+              "itemId": 18767
+            },
+            {
+              "count": 1,
+              "itemId": 18766
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 69,
+              "tier": 2
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "An Epic Ride",
+        "zoneAreaId": 1657
+      },
+      "english_sha256": "8155a338f39ad8b54db0a4d7b683d647dcedf4dd91a12710ca4e419220b33694",
+      "thai_sha256": "c470499d0e130bfa64e5d635719db3f8ff9b1e9a9172330b8f903d6d20c7dbab"
+    },
+    {
+      "quest_id": 99233,
+      "field": "objective",
+      "level": 60,
+      "title": "Brawl at the Maul",
+      "english": "Speak with Griniblix the Spectator above the Maul in Dire Maul.",
+      "thai": "คุยกับ Griniblix the Spectator ที่อยู่เหนือ Maul ใน Dire Maul",
+      "signature": "63:269316726:1694838008",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "There must be more to the Maul than this!$B$BPerhaps the loud Spectator who oversees the event at Dire Maul will know!",
+        "flags": 0,
+        "flagsEx": 1,
+        "level": 60,
+        "minLevel": 55,
+        "objectivesText": "Speak with Griniblix the Spectator above the Maul in Dire Maul.",
+        "questInfoId": 41,
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "xpDifficulty": 1,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "startItemId": 277557,
+        "title": "Brawl at the Maul",
+        "zoneAreaId": 3217
+      },
+      "english_sha256": "89e4390a603f5e21306dd062d00fd7813c8ef833f0b5749a0296f21b54c5f11a",
+      "thai_sha256": "59bb8055392a5a48f443c3d88d4bc12719ea9cf0f8cc18844c01592ae6a15400"
+    },
+    {
+      "quest_id": 99670,
+      "field": "objective",
+      "level": 60,
+      "title": "Return to Jereman",
+      "english": "Return to Jereman at the Cradle of Tranquility.",
+      "thai": "กลับไปหา Jereman ที่ Cradle of Tranquility",
+      "signature": "47:1926282100:1995787786",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Jereman is fortunate to be alive. It sounds like she fled from the lodge in quite the hurry, no doubt thrilled to be freed from her predicament. \r\n\r\nShe will wish to speak with you. Go, find her.",
+        "flags": 36700168,
+        "level": 60,
+        "minLevel": 54,
+        "objectivesText": "Return to Jereman at the Cradle of Tranquility.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "choices": [
+            {
+              "count": 1,
+              "itemId": 275738
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2765,
+              "tier": 6
+            }
+          ],
+          "xpDifficulty": 1,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Return to Jereman",
+        "zoneAreaId": 616
+      },
+      "english_sha256": "5ae3e48ff8f1fd440275bf02ecd9c0d01884f97c040b1968db92cf5031deda8e",
+      "thai_sha256": "14886d26a83d7510531f14f9c6c3b4e8e61e98e0a7f4d3378361921f87e87396"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "status": "SOURCE_INTEGRATED80_TEXT_ONLY_PENDING_BITMAP_FONTS",
+  "Root_approval": "main469c4b0a87b500f56d0ac53a97ec1f00512a5f16",
+  "proposal02_sha256": "93853776b324cd16e6da12766e1e7b399e24dfc502ac63145eb5cd56f76bd000",
+  "baseline_Catalog_sha256": "4b156776ee733b5c0b116ce7833c7470bc49cefdeb84e0bc3bf2691a11a33fa2",
+  "final_Catalog_sha256": "533247e8d098e5b350128f8be7dad504c667e4366bf737d358268612d5f8faf3",
+  "old_Catalog_exact_prefix_preserved": true,
+  "approved02_fields": 42,
+  "new_slots": [
+    {
+      "quest_id": 86797,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86797,
+      "field": "title"
+    },
+    {
+      "quest_id": 86804,
+      "field": "description"
+    },
+    {
+      "quest_id": 86813,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86813,
+      "field": "title"
+    },
+    {
+      "quest_id": 86925,
+      "field": "description"
+    },
+    {
+      "quest_id": 86926,
+      "field": "description"
+    },
+    {
+      "quest_id": 86926,
+      "field": "title"
+    },
+    {
+      "quest_id": 86927,
+      "field": "description"
+    },
+    {
+      "quest_id": 86927,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86927,
+      "field": "title"
+    },
+    {
+      "quest_id": 81944,
+      "field": "title"
+    },
+    {
+      "quest_id": 86796,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86796,
+      "field": "title"
+    },
+    {
+      "quest_id": 87346,
+      "field": "description"
+    },
+    {
+      "quest_id": 87346,
+      "field": "objective"
+    },
+    {
+      "quest_id": 87346,
+      "field": "title"
+    },
+    {
+      "quest_id": 86798,
+      "field": "objective"
+    },
+    {
+      "quest_id": 86798,
+      "field": "title"
+    },
+    {
+      "quest_id": 89015,
+      "field": "description"
+    },
+    {
+      "quest_id": 82062,
+      "field": "description"
+    },
+    {
+      "quest_id": 84394,
+      "field": "title"
+    },
+    {
+      "quest_id": 84332,
+      "field": "title"
+    },
+    {
+      "quest_id": 99210,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84211,
+      "field": "description"
+    },
+    {
+      "quest_id": 84211,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84211,
+      "field": "title"
+    },
+    {
+      "quest_id": 99211,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84212,
+      "field": "description"
+    },
+    {
+      "quest_id": 84212,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84212,
+      "field": "title"
+    },
+    {
+      "quest_id": 84135,
+      "field": "description"
+    },
+    {
+      "quest_id": 84135,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84135,
+      "field": "title"
+    },
+    {
+      "quest_id": 84377,
+      "field": "description"
+    },
+    {
+      "quest_id": 84377,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84377,
+      "field": "title"
+    },
+    {
+      "quest_id": 84149,
+      "field": "objective"
+    },
+    {
+      "quest_id": 84149,
+      "field": "title"
+    }
+  ],
+  "existing_canonical_variant_appends": [
+    {
+      "quest_id": 8961,
+      "field": "description"
+    },
+    {
+      "quest_id": 8961,
+      "field": "objective"
+    },
+    {
+      "quest_id": 6568,
+      "field": "objective"
+    }
+  ],
+  "approved01_retained_fields": 38,
+  "total_MAIN24_integrated": 80,
+  "new_Thai02": 38,
+  "exact_reviewed_reuse02": 4,
+  "quest2752_untouched": true,
+  "fonts_version_build_ZIP_feed_changed": false
+}

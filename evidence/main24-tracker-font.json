@@ -1,0 +1,25 @@
+{
+  "status": "PASSED_AFFECTED_ROUTES_WITH_ONE_EXISTING_MULTILINE_SAFE_FALLBACK",
+  "unique_title_objective_fields": 89,
+  "client_build_fixture": "70938",
+  "native_Questie_positive_executions": 178,
+  "Thai_bitmap_markup_executions": 174,
+  "Latin_propername_passthrough_executions": 2,
+  "multiline_safeguard_English_executions": 2,
+  "multiline_safeguard_fields": [
+    {
+      "quest_id": 84213,
+      "field": "objective",
+      "reason": "unchanged bitmapMarkup rejects newline; wholetextpanel bitmap verified separately; no engine change"
+    }
+  ],
+  "settings_off_wrongID_negative_executions": 356,
+  "synthetic_glyphs": false,
+  "actual_current_Atlas": true,
+  "unexpected_missing_glyph_fallbacks": 0,
+  "known_multiline_English_fallback_fields": 1,
+  "Catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "Tracker_runtime_changed": false,
+  "old_matcher_Skill_NPC_party_suites_rerun": false,
+  "game_verified": false
+}

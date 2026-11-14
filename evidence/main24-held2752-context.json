@@ -1,0 +1,44 @@
+{
+  "quest_id": 2752,
+  "field": "progress",
+  "english_sha256": "a766aeccce989ad0aa9989cd6b02bece997849039aecb5688f6f012cf2fccf79",
+  "source_kind": "captured_phase",
+  "source_refs": [
+    {
+      "path": "data/wowf/1.60.1.70938/texts.enUS.json",
+      "pointer": "/quests/2752/progress/0/text",
+      "build": "70938",
+      "phase": "progress"
+    }
+  ],
+  "status": "held_resolved_or_unproven_identity_context",
+  "canonical_present": true,
+  "level": 32,
+  "zone_area_id": null,
+  "required_class_mask": null,
+  "race_mask": "ffffffffffffffff",
+  "query_title_sha256": "960130666d2f3d596faaa5970fd4200ebf1d87dacdcdf889f0d6bf6abc8efe22",
+  "raw_tokens": [],
+  "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+  "scan_observation": "described",
+  "ownID_prerequisite_observation": false,
+  "canonical_has_race_slot": true,
+  "canonical_signature": "25:172510240:966562423 R 1:46:46",
+  "canonical_Thai_sha256": "4a4bb85feeb203c02341ef473e2dc488473b84ef37167c855d49ee01ab1fee5f",
+  "source_metadata": [
+    {
+      "sexes": {
+        "male": 1
+      },
+      "sources": 1,
+      "speakers": {
+        "npc:7790": 1
+      },
+      "times": 1
+    }
+  ],
+  "reason": "Captured-phase literal and existing own-ID canonical race slot do not independently prove fixed/current identity binding. Root requests exclude; no generic/race/player substitute.",
+  "english_Thai_payload_published": false,
+  "existing_ownID_progress_source_references": [],
+  "decision": "HOLD/EXCLUDE2752progress; prior R-slot canonical and normalized/raw phase context do not establish fixed literal identity from the newly captured value. No prose/Thai published; canonical unchanged."
+}

@@ -1,0 +1,1926 @@
+{
+  "scope": "Only unresolved main field variants with actual source records plus explicit placeholders/two historical repurposed-ID fields. No-source inventory rows and unproven hypothetical phases are excluded.",
+  "categories": {
+    "blocked_typed_identity": 51,
+    "blocked_non_enUS": 1,
+    "blocked_old_or_normalized_source": 4,
+    "blocked_placeholder": 12,
+    "blocked_old_snapshot_repurposed_id": 2,
+    "blocked_rendering_binding": 2,
+    "actionable_explicit_query_amount": 34
+  },
+  "actionable_fields": 34,
+  "blocked_fields": 72,
+  "new_prose_ready": 0,
+  "quantity_forms_are_not_new_translations": true,
+  "excluded_no_source_inventory_rows": 13859,
+  "source_only_outside_catalog_queue": "source-ids-outside-catalog.json; 192 usage/test/metadata holds, not expanded into hypothetical fields",
+  "records": [
+    {
+      "quest_id": 92479,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "I was asked to bring this to your attention as soon as you returned from the kobold camps, $N. It appears to be a letter sealed with the mark of Tordrin Stemblade, our local $c trainer. Take a moment to read it before you go about any other business here in the Abbey.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2069:92479-accept",
+          "sha256": "07b5f69f49ab9d70064eacb0c065623219bc52a1bb59185d90a0db1b851b551f",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98574,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were helping me out, this memorandum was given to me to pass on to you. Take some time to read it when you have a chance. I'm thinkin' it came from the $c trainer Branstock. Take a gander at it and go find him inside Anvilmar when you've a chance.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2459:98574-accept",
+          "sha256": "5bb5f014be5b4253e92ddbfd3dd470b49db39f93bd56298f5f934951855abed6",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98574,
+      "level": 1,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Ah, another $r comin' ta learn about the Light! You'll find that deepening your connection to the Light relies on curiosity and intelligence, qualities that many gnomes have in abundance. The way o' the Light isn't a technical discipline, it's a riddle, and one that provides both life lessons and practical blessings.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2738:98574-progress",
+          "sha256": "d56183f208b5153885bab2b84cd7308e4d991d8ceb688b2cf9de357ad7e40a2f",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98581,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were helping me out, this rune was given to me to pass on to you. Take some time to read it when you have a chance. Based on the Wildhammer style to these inscriptions, I'm guessin' this came from the $c trainer Teo Hammerstorm. Take a gander at it and go find him inside Anvilmar when you've a chance.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2742:98581-accept",
+          "sha256": "999dbf94e7ca5f1d8d5d0d6c8daa2dce587ab8fba88b8853abab655efafd3859",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98601,
+      "level": 1,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were off dealing with the mindless Scourge, this scroll arrived for you. It reeks of the light, so I imagine it's of some importance to a $c like yourself.\r\n\r\nRead it before heading out again. Just please--step away when you do. Paladins make me quite uneasy.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2748:98601-accept",
+          "sha256": "13099e4e49462ab20ce3a73cfa93303efcef02738a1e12180dd4766b131a0975",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 90902,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "I am proud to welcome another newly risen $c to our ranks. As you begin to reconnect with the light you may notice that certain abilities that were once second nature to you may cause you considerable pain to use now, particularly those involving channeling the light to heal yourself or others. \r\n\r\nThe only way around this problem is--unfortunately--to go through it. Like any other muscle that has atrophied, you must push through the pain and exercise the flesh for it to return to full function.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2748:90902-accept",
+          "sha256": "41c95be73b2f62d64b2c08fe3108e3a3424c3b000eb4a7418288b47a49d5176b",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92481,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Dorii Brightwhisper--left this recall crystal for you. It contains some sort of message for you, so give it a look. Afterwards, you can find Dorii in the structure just behind me.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2679:92481-accept",
+          "sha256": "4caf6e3522ae7e818f99226b01520eb20e0234f958237cf640fd9aed764d0a31",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92482,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Tai'ree Farsight--left this note for you. You can find her just over yonder near the center of the village. Read the note then seek her out.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2521:92482-accept",
+          "sha256": "a50f741988f674aea600deb8ce9466dd6b07fc219af9f6d8a453e56fc2de51cf",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92483,
+      "level": 2,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "I almost did not hear you approach me, young $c.\r\n\r\nAlmost.\r\n\r\nAlmost won't be good enough when you leave Thendal Grove. You must be a slender blade, silent and steady. Ever vigilant and ever mindful of your surroundings. You might have what it takes to survive the dangers of Zephras. You also might end up with your throat slit in a ditch. Ultimately that's entirely up to you.\r\n\r\nSpeak with me again if you wish to take your next steps.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2681:92483-complete",
+          "sha256": "383d626be2c79fbd7aa2cd4aa4e460a7fedf97e105313bfa1e7fe2ac4f17c423",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92483,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Akeri Duskblade--has requested to speak with you. He left this note, so read that first, then seek him out inside the watchtower, here in the village.\r\n\r\nHe's a shady fellow, but then again, so are you. I think you'll get along well.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2681:92483-accept",
+          "sha256": "4122db992a312cb4e8c7b2b2158cfb96d75fda0c458b918687584f9771e4cd95",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92484,
+      "level": 2,
+      "field": "completion",
+      "category": "blocked_non_enUS",
+      "reason": "Available capture is French, not corroborated English",
+      "next_action": "Need full enUS own-ID phase; retain existing English fallback.",
+      "sources": [
+        {
+          "english": "Les entendez-vous ? Les murmures des vents ? J’en doute, les esprits ont cessé de nous parler quand ils nous ont abandonnés il y a tant d’années.\r\n\r\nLes membres de notre peuple qui souhaitent à nouveau entrer en contact avec les esprits des quatre vents approfondissent leur compréhension des éléments et du monde naturel, dans l’espoir sincère de renouer le dialogue qui a pris fin si brusquement.\r\n\r\nAllez-vous emprunter cette voie et maîtriser les éléments ?\r\n\r\nRevenez me parler si vous souhaitez passer à la prochaine étape et je vous entraînerai.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2372:92484-complete",
+          "sha256": "b235d681a091420396f716e31dbae98ee73a975115f991c6f244a35e4596f37c",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92484,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were away dealing with our vuldren problem, our resident $C trainer--Windshaper Boro--left this recall crystal for you. Please examine it, then speak with Boro just over yonder near the center of the village.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2257:92484-accept",
+          "sha256": "0a85acdbf7b88257b5ae0fad60f238849f4cc256616ab9af13bce1564abaa341",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92485,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were away dealing with our vuldren problem, our resident $c trainer--Xyton Silverwind--left this note for you. Read it as soon as you can, and then seek out Silverwind on the ground floor of this great tree just behind me.\r\n\r\nHeed his words and his counsel, he can teach you much.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2661:92485-accept",
+          "sha256": "bf2e536830b77d4d71cb24f5471304d5c5071aaf4a25e8f214d2bd4f5af64ed3",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92532,
+      "level": 2,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "While you were gone our $c trainer--Blademaster Ren--requested that we send you their way when you returned. She dropped this note off for you as well.\r\n\r\nGive it a read, then find Blademaster Ren inside the village watchtower.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2575:92532-accept",
+          "sha256": "32368dedd444885d5b6a64a74f3b1cc29574de32755648eac30bcb55cf02f5d2",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 5623,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Hello again, young $c. The time has come for you to learn more about our religion. After you've completed whatever tasks you have here in Northshire, please seek out Priestess Josetta in Goldshire. She has more to teach you and has heard that you are growing strong in the ways of the Light. She looks forward to tutoring you more.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2106:5623-accept",
+          "sha256": "2576fffb6ae5e94fe5109ef79552d66acc8c38230df65dc3c30aceaa3ec41fc0",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 91208,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Not all of our fellow Paladins who rise again are quick to acclimate to our new reality. Some struggle to reconcile that they are now, in a way, the very thing they spent their lives fighting against.\r\n\r\nThese individuals often simply need a kind gesture and a sympathetic ear. Unfortunately, many others are quick to turn violent. Find the frightened $c who fled into the hills directly west of this chapel. Extend a hand in friendship. Lead them back into the light if you can.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2661:91208-accept",
+          "sha256": "5163674533b038e363a3553f39c0453f01a4b0e63f9d2fdbd0610073bb431dfb",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 91209,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Lordaeron may not be what it used to be, but our home still needs protection from all manner of threats and it's time for you to go out and face the world. Your next stop should be the town of Brill in central Tirisfal Glades. Go and meet with Shari Stilwell there. She can see to your continued training. \r\n\r\nOne last bit of advice before you go--take extra care as a $c traveling through Forsaken lands. There are many in the Dark Lady's service who distrust us and our proximity to the light.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2661:91209-accept",
+          "sha256": "95830b4f37a35f34a5214fb8ab324e69659221c7bc4f50a832707717c26d3300",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92467,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "A sapta is a drink created to bind our spirits to the elements. Fused with magic, the potion will allow the strong willed to see the elements as no one else can. Your spirit will be connected to the element the sapta was created for, and only a select few $c know the recipe.\n\nThe sapta is always drunk in a sacred place, and never anywhere else--remember that.\n\nSeek out the Rise of Spirits up the pass east of here. Drink your sapta there, and... well, you will see what you need to see.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70532",
+          "origin": "issue-2679:92467-accept",
+          "sha256": "e3603a92f56fe3587744e331319f5daa11ea0dd5d7867cf35772db42b0cf9b95",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94373,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Aye, the time's come, young $c. Ye've grown stout and sturdy, like the stone beneath our boots. Takin' up the $c's path shows ye've got the wisdom o' the mountain, even before ye've proven yerself. Ye've the grit of stone to walk the earth's path.\r\n\r\nBut to earn its favor, ye must face it proper. South o' here, the Frostmane trolls live in a cave.\r\n\r\nBring me two of the necklaces they wear, crafted from the Iceclaw bears. Then we'll speak more of yer future.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2742:94373-accept",
+          "sha256": "8fb1d92070bc099ee68eadc3e943d9edbb719dbbbd6870b515aeda5d27734e44",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94374,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Aye, sapta's a brew forged with magic, bindin' our spirit to the elements. Only a few $c know the recipe, and it's nae for the weak-willed. Drink it, and ye will see what others can't. Hold true--it's only to be drunk in a sacred place.\r\n\r\nHead north to the Spirit Stone, tucked at the end of a hidden path up the mountain. Drink it there... see what the earth has to show ye.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2725:94374-accept",
+          "sha256": "1b364db6e50808fbf968d4d56aae8c647267de2017122a9bdc21946831b7a381",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96243,
+      "level": 4,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "It's past time ye heeded the earth, brave $C. The elements already prickle in yer skin, but once ye speak with the stone, the ground itself'll set firm 'neath yer soles--and in yer soul.\r\n\r\nSeek out Teo Hammerstorm, in Coldridge Valley. Ye'll find him within Anvilmar, a holdfast forged by hammer, fire, and will.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2614:96243-accept",
+          "sha256": "6f8e8c56c25bf7d05bc1ccdd1a9c0a91d4f096f08dd5bd50a9d1f084e9bf276d",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96628,
+      "level": 6,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "You say these are from the mountaineers? Aye, I could use them. Thank you, $c.\r\n\r\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
+          "source_kind": "VO_normalized_capture",
+          "build": "70790",
+          "origin": "issue-2746:96628-complete",
+          "sha256": "19193ffd71b3aabc34a33d47e44b44cf878b4bbe15bc26e7c8537d2577763fcf",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96630,
+      "level": 6,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Is that my journal? I've been missing this for a while. Thank you, $c.\r\n\r\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
+          "source_kind": "VO_normalized_capture",
+          "build": "70205",
+          "origin": "issue-639:96630-complete",
+          "sha256": "cded45552367d59f63bb64ac566edda00b8ac829023662970c44f3a59e8808e0",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 6062,
+      "level": 10,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Good luck, young $c.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1609:6062-progress",
+          "sha256": "13ef20df50ca91f3059e532c0b55fe90329cd7d5f1de7dd2af2da87d84083200",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 6101,
+      "level": 10,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Understanding the balance between nature and oneself is a way of life for every $r.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2053:6101-progress",
+          "sha256": "aa18ba937c030014c9bf250fcd1d347fd4a5ea2d85dfa3a41b6140e16433d52e",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94013,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "You've returned triumphant from taming two beasts. It's time now for your last trial. The winds of Zephras whisper of greater challenges ahead. \r\n\r\nTake this Taming Rod and journey to the Gustberry Lowlands. There, tame a Vuldren Alpha and prove your mastery. \r\n\r\nComplete this lesson and you'll be ready to learn the deeper ways of the $c.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2560:94013-accept",
+          "sha256": "cc6d6a429d586d915d56b49250b761c8f12464e11cc2adfc479e56a5b139f8c6",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94792,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Many hunters prefer to travel with animal companions. With a beast at your side, you will find that you can survive even the most dangerous of circumstances. As they say, everything is easier with a friend. However, obtaining an animal companion is something that must be done with care. The balance of nature is delicate, and must always be respected.\r\n\r\nTake this Taming Rod with you to the forest. With it, you will be able to tame a Rockhide Boar and practice your skills as a $c.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2121:94792-accept",
+          "sha256": "a842b81d9185feab88ca4364288755a4d2dcd1d5179ed4e62bfc61832d6a2c70",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94863,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "You've already mastered taming a boar. Now it's time for the next lesson. The forest holds fiercer companions, and with care, you can earn their trust.\r\n\r\nTake this Taming Rod and seek out a Gray Forest Wolf. Remember, nature's balance must be respected. Prove your skill as a $c once more.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2121:94863-accept",
+          "sha256": "6d72b17ae3ecd13efeba1587c0e4b05f70506ee80eb9d5cc84f2965c35a56a43",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94864,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "sources": [
+        {
+          "english": "You've proven yourself by taming a boar and a wolf$g .:,; Now it's time for your final challenge. Elwynn's balance depends on respect and skill. Take this Taming Rod and seek out a Young Forest Bear. Show that you can earn the trust of even the mightiest companion. \r\n\r\nCompleting this lesson will deepen your attunement to beasts.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70245",
+          "origin": "issue-1162:94864-accept",
+          "sha256": "eb8dc024476ac1e0a8d98914e59f991cc7100f92caa05e326d2b16e63f0fa71c",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94913,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "All druids are welcomed to the sacred lands of Moonglade. Keeper Remulos--Moonglade's guardian--keeps watch over all druids who hibernate there. I'll teach you the spell that lets you transport yourself there. Cast it whenever you seek Moonglade's knowledge or solace.\n\nAs for your first lesson here on Azeroth, travel to Moonglade and speak with Dendrite Starblaze in Nighthaven about the path you're now on. Good luck, young $c.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2580:94913-accept",
+          "sha256": "17ce3f10c1aa2d4a1b8c670adb5d72e34aeb8f4f208a3deaaa50c4c704105f7e",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94914,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "All druids are welcomed to the sacred lands of Moonglade. Keeper Remulos--Moonglade's guardian--keeps watch over all druids who hibernate there. I'll teach you the spell that lets you transport yourself there. Cast it whenever you seek Moonglade's knowledge or solace.\n\nAs for your first lesson here on Azeroth, travel to Moonglade and speak with Dendrite Starblaze in Nighthaven about the path you're now on. Good luck, young $c.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2496:94914-accept",
+          "sha256": "17ce3f10c1aa2d4a1b8c670adb5d72e34aeb8f4f208a3deaaa50c4c704105f7e",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94978,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Every $c begins by learning the bond between beast and master. This is your first challenge. In time, you'll tame creatures from every corner of the world, but for now, start with our rivers and lakes on Zephras. \r\n\r\nTake this Taming Rod and seek out a Windsong Crawler.\r\n\r\nShow that you can earn its trust, and begin your path toward true mastery.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70425",
+          "origin": "issue-2332:94978-accept",
+          "sha256": "5498920ffd281f925e22ee2bd3e39895e1b8dead0b2a85e13ee099cf980ee0c8",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94979,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "You've proven you can tame the river's crawler. Now it's time to test your skill on open ground. The plains of Zephras echo with the cries of the galestrider, a proud, winged $c that runs like the wind.\r\n\r\nTake this Taming Rod and seek one out. Travel to the lowlands and earn its trust.\r\n\r\nShow you're ready for the trials yet to come.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70425",
+          "origin": "issue-2332:94979-accept",
+          "sha256": "5b98d849f2596f4c2b48640b7782783ac0e0d0a687701ce2cc4c36c6ca7e8da0",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98517,
+      "level": 10,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Greetings, young $R. The spirits have spoken of you, and tell me that you are ready to heed the call of fire. However, I shall not be the one to start you on that Path. Return to your home in the elemental plane, seek your mentors there. They will tell you what must be done.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2672:98517-accept",
+          "sha256": "a1bca2d8ae3915a2c3c4632121c9268496046eed997efa9f3a72f03197030d88",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 91294,
+      "level": 11,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Welcome to Bandarion Keep, $c. $N's always good to see a new face.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70124",
+          "origin": "issue-389:91294-progress",
+          "sha256": "29440d403644d6d39b92709ac0ff94b3bdcb4c5840ca83449454343b59d9b132",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92640,
+      "level": 11,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": " ",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2453:92640-progress",
+          "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94901,
+      "level": 11,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": "[PH] Collect frogs",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "5ec0f8ba490672d721a428f80ad52e22a6f36677dba67b05abd050924e7a5fb5",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 94902,
+      "level": 11,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": "[PH] Collect grapes from the vineyard",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "5191b8d5ed630ea579b5b51172495b68196740b33091323961c185107ea4754b",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92708,
+      "level": 12,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": " ",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2560:92708-progress",
+          "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92709,
+      "level": 12,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": " ",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2587:92709-progress",
+          "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94436,
+      "level": 12,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "It's time to demonstrate your ability to channel one of the light's greatest gifts.\r\n\r\nThe item I just gave you is called the Symbol of Life. Take care, as it may cause you some discomfort to handle a talisman of the light such as this. The light may be anathema to the force that created us, but it is still our guide and ally. The pain reminds us of this.\r\n\r\nGo see Deathguard Billmuth downstairs. He just arrived and he has petitioned us for aid. Show him and the Forsaken what a true $c can do.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2554:94436-accept",
+          "sha256": "a869c365f12d997950d3191492d6491c1b6521cdea38e6f96254665105fce5a6",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94440,
+      "level": 12,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "These Scarlet Crusaders often carry satchels with their deployment orders. We know an attack is coming, but if we can recover their orders, we can warn the rest of the Deathguard and prepare an ambush. \r\n\r\nYou are clearly an impressive $c. Kill these scarlet animals and retrieve a copy of their orders and bring them back to Deathguard Billmuth. He'll take it from there.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2554:94440-accept",
+          "sha256": "54f8bb0888aca3c16b9101c99bf448209d1f430b19939dd3c0df71b72203016a",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94441,
+      "level": 12,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Please give my thanks to Danitha Morr and tell her that the rest of the Deathguard will hear about the service that the paladins of Bandarion Keep performed for us. \r\n\r\nYou have a lot of promise as a $c, and I am proud to have those like you among the ranks of the Forsaken. Dark Lady watch over you, $N.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2554:94441-accept",
+          "sha256": "49cbcbcdf98344c34dae49ee9ff832c907ad4f7f8620edbe5827a5894aa70106",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92910,
+      "level": 15,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": " ",
+          "source_kind": "VO_normalized_capture",
+          "build": "70425",
+          "origin": "issue-2309:92910-progress",
+          "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 257,
+      "level": 16,
+      "field": "completion",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "sources": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2590:257-complete",
+          "sha256": "971751e785172d2c4f39937fc52d9ddbb21d047956b732b8660e8a7b03654f97",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "reason_text_withheld": "Capture has unredacted player literal; full source hash retained, no typed-name assumption."
+        }
+      ]
+    },
+    {
+      "quest_id": 258,
+      "level": 17,
+      "field": "description",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "sources": [
+        {
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2590:258-accept",
+          "sha256": "5809d2c2a1f64b9a5f3a3dc00a5898dc6624effe3a3ef9ed67ce58a15fd0781f",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0",
+          "reason_text_withheld": "Capture has unredacted player literal; full source hash retained, no typed-name assumption."
+        }
+      ]
+    },
+    {
+      "quest_id": 92819,
+      "level": 18,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": " ",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2326:92819-progress",
+          "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 993,
+      "level": 20,
+      "field": "progress",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": " ",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2396:993-progress",
+          "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 5641,
+      "level": 20,
+      "field": "objective",
+      "category": "blocked_old_snapshot_repurposed_id",
+      "reason": "Historical priest travel objective has no matching current query field; current title/quest type changed",
+      "next_action": "Need current own-ID objective body or confirmation the old phase still exists; do not import Classic travel text.",
+      "sources": [
+        {
+          "source_kind": "curated_historical_snapshot",
+          "build": null,
+          "commit": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+          "sha256": "356d56876f9dc3449fb2ae56552d240b9a89dc45301f1e972dfd3373e7404dc2",
+          "current_title": "Chastise"
+        }
+      ]
+    },
+    {
+      "quest_id": 5679,
+      "level": 20,
+      "field": "objective",
+      "category": "blocked_old_snapshot_repurposed_id",
+      "reason": "Historical priest travel objective has no matching current query field; current title/quest type changed",
+      "next_action": "Need current own-ID objective body or confirmation the old phase still exists; do not import Classic travel text.",
+      "sources": [
+        {
+          "source_kind": "curated_historical_snapshot",
+          "build": null,
+          "commit": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+          "sha256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+          "current_title": "Dark Sacrifice"
+        }
+      ]
+    },
+    {
+      "quest_id": 65604,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Yes... I see. I feel the residual emotions bound within these threads. Love is woven into its stitches. The incubus will not be able to resist.\r\n\r\nTake this to the summoning circle in Neeru's tent, $N. Summon forth a malevolent incubus, then show it your mastery. Do not expect it to be subdued quietly. Ready your magic and prepare yourself for a fight. Underestimating a demon has been many a $c's final mistake.\r\n\r\nWhen you have defeated it, return the cloth to me. I will let Magar know what you found.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1643:65604-accept",
+          "sha256": "a601055d493f478cfcb96d02b0c733b8b999dfeab1c4db93a6efacd02f802091",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98340,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "It would seem that you are ready for the next step in your journey, young $c. Dendrite Starblaze has sent for you, and wishes for you to seek him out in Moonglade once again.\r\n\r\nYou have already learned to call upon the magic to take you to Moonglade, so you should be able to embark immediately if you choose. I would suggest you leave soon, if you wish to continue your druidic training.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2528:98340-accept",
+          "sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98393,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "It would seem that you are ready for the next step in your journey, young $c. Dendrite Starblaze has sent for you, and wishes for you to seek him out in Moonglade once again.\r\n\r\nYou have already learned to call upon the magic to take you to Moonglade, so you should be able to embark immediately if you choose. I would suggest you leave soon, if you wish to continue your druidic training.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2517:98393-accept",
+          "sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 98397,
+      "level": 20,
+      "field": "description",
+      "category": "blocked_old_or_normalized_source",
+      "reason": "Existing supported canonical differs from an old/normalized/unredacted source variant",
+      "next_action": "Need full current own-ID text with exact punctuation/slots; do not repair source by similarity.",
+      "sources": [
+        {
+          "english": "The time has come for us to part ways once again, young one, as the application of your lessons takes you back to $g whom:the; $g that:one who; sent you to me. It would seem your instructor, Mathrengyl Bearwalker, has found a worthy pupil in you. I believe I see one as well. Heed his lessons and you shall soon be able to draw upon the Great Cat Spirit to take its shape.\r\n\r\nGo back to whence you came. When the time is right, we will meet again.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1674:98397-accept",
+          "sha256": "d6caa5f6405de81d3202b8b4e24d3e5f82fb4091decc2a91a91102f4b57d225b",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 95250,
+      "level": 21,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Ah, a fellow $r. It's about time Lordaeron sent reinforcements.\r\n\r\nMy master has already charged into the fray and has ordered me to maintain my post. It has been quite some time, however.\r\n\r\nI don't dare trust this task to any of these filthy half breeds, but if I could impose on you a favor, I beg of you to find me the Grand Marshal. He is the tallest, most statuesque hero you've ever laid eyes on. You'll know him when you see him.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70888",
+          "origin": "issue-3424-decoded:341",
+          "sha256": "b7c72416aeed6c64b2f6538d7c438c1947b18fcbfe520826b533567002c520e8",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 94495,
+      "level": 22,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Aye, I see it in yer eyes, $r. You're wonderin' what kind o' soul chooses to live out here, deep in the Wetlands, with Dark Iron scum lurkin' about and nary a guard in sight. Well, we all have our reasons, love. \r\n\r\nBut the real question is, what brings you to our home? Out here at the edge of the falls, I reckon we both know the answer to that.\r\n\r\n<Hervdana stretches out her arm, fingers catching mist spray from the waterfall.>",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2384:94495-complete",
+          "sha256": "816e4d20b8d466ac027a3f3ecfae74c3e1a0517ee5824a82f5ce92ddf659c99c",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 78307,
+      "level": 23,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": "Description",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 78307,
+      "level": 23,
+      "field": "objective",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": "Log",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 1199,
+      "level": 25,
+      "field": "progress",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Blackfathom Deeps was once an ancient $r temple. It once housed a most powerful moonwell. Who knows what evil brews there now at the hands of the Twilight's Hammer.\n\nHave you made any progress in ridding their presence?",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2532:1199-progress",
+          "sha256": "58f398099bf9a53bf2a2072f77381db192e86f7856a834b207c2a359b11388fa",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 95126,
+      "level": 25,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Here's the blade. You said that a $c named Trevan sent you? Please extend my thanks to him for this opportunity when you next see him. Go with honor, friend.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2014:95126-accept",
+          "sha256": "8285b0d5be430e02d15edc9f0ea2fa6bde4ed0994a87cbbf05e858e0a28e4422",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96294,
+      "level": 30,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "This is... most disturbing. Why would a $c be behind a brood of dangerous spiders? Who or what is this \"Wild King\" and \"Pact\" that is referenced in this letter?\r\n\r\nI will confer with the druids of the Cenarion Circle on this. Perhaps they will know more.\r\n\r\nThank you again for your aid. As disturbing as this information is, we will rest easier knowing that the person controlling these vile creatures has been destroyed.",
+          "source_kind": "EG_captured_text",
+          "build": "1.60.1.70862",
+          "origin": "data/wowf/1.60.1.70862/texts.enUS.json",
+          "sha256": "17987a3b72935f27457aad1b5e1bda2977ef39fb40c391fe951fceeaf8b05dd3",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95772,
+      "level": 31,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "This $r bears a striking resemblance to Dorin Songblade. The gun in his hands has the letters \"DLS\" carved into the stock.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70888",
+          "origin": "issue-3422-decoded:15",
+          "sha256": "4282163ceede3b1594c32e319047f6452890176a1c5b2f860d3a60e8cf164a23",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 79364,
+      "level": 33,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "The note you found says the Razormane have burrowed into the Thousand Needles for some sort of unseen ritual. Raging storms and rising tides...\r\n\r\nThe quilboar must be using some cruel sorcery they learned from Hirzek, a $c who went to great lengths to twist the elements. If they plan to flood the canyon, this would require devastating elemental powers.\r\n\r\nWe are ill equipped to deal with this, but a powerful $c like you must have an idea. Return to your allies and see if you can't find an answer.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70450",
+          "origin": "issue-2566:79364-accept",
+          "sha256": "6479430765ecd834759df63f4c06e6ae511781bd50266ddb984d45f8847825f0",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96264,
+      "level": 33,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "So yer a big shot $c now, eh? Ye've mastered the elements and want tae put 'em to good use? I think I got just the thing.\r\n\r\nIf ye want the elements' respect, ye gotta repay yer debts to 'em. They help you, you help them. And right now they need all the help they can get from those who would abuse their power.\r\n\r\nEarth's rumblin', $N. It speaks of the quilboar amassin' for some ritual of terrible power. We need tae go investigate their kraul and see what they're up to. Bring me back whatever ye find.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-1562:96264-accept",
+          "sha256": "20e26a6e89b070cf59e12c695f5c5f926586ed5cda2dba9a91f368f12a480162",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 78699,
+      "level": 35,
+      "field": "description",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": "Description",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 78699,
+      "level": 35,
+      "field": "objective",
+      "category": "blocked_placeholder",
+      "reason": "Available record is empty/developer placeholder, not usable quest prose",
+      "next_action": "Need a complete own-ID real main field; do not copy a sibling quest.",
+      "sources": [
+        {
+          "english": "Log",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 79442,
+      "level": 40,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Our people cannot thank you enough, but I have no real use for this eye. I have heard of an old $c in the Alterac mountains that has an eye for storm elemental magic. Perhaps he may be able to craft something for you.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70245",
+          "origin": "issue-1344:79442-accept",
+          "sha256": "527b38e55319bb5affc7fffebb9560c6701d77b8758a08283c6f5c8d78389dcb",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 92841,
+      "level": 40,
+      "field": "completion",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "So the rumors are true. Unfortunate that Warug has had you running around with frivolous tasks. At least you proved your worth.\r\n\r\nPeer down into the valley below, what do you see? Bones and bodies. Roaming $r. And the Twin Goliaths.\r\n\r\nThis place was cursed long before our arrival, and I suspect it will remain as such for many generations to come. Our clan was the first to brave the horrors below, and ours will be the only one to claim its power.\r\n\r\nAre you as eager as I to rule over all of Desolace?",
+          "source_kind": "VO_normalized_capture",
+          "build": "70291",
+          "origin": "issue-1392:92841-complete",
+          "sha256": "d14308c83c54c7d33bb1445f7b028c8d14f26a9ad729c4e6439d308818809930",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 96016,
+      "level": 40,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "Ye did good, and I can see yer itchin' fer yer reward. Sorry tae say, I'm not exactly a $r of many possessions.\r\n\r\n<Veyric gestures broadly at his remote location.>\r\n\r\nTell ye what, though. I hear a troll named the Windwatcher lives out in the Alterac Mountains. He's a powerful $c himself, and an expert in storm elementals. If ye bring that there elemental core to him, I bet he can make ye a weapon worthy of yer victory.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70374",
+          "origin": "issue-2162:96016-accept",
+          "sha256": "e3d9127507270f71497823c7cabf11524b357e5d23446fab65c62d145f02bd10",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    },
+    {
+      "quest_id": 91754,
+      "level": 56,
+      "field": "description",
+      "category": "blocked_rendering_binding",
+      "reason": "Query has a declension/rendering marker; exact final client text is unproven",
+      "next_action": "Need current rendered full body or pinned caller/formatter proof, not guessed grammar stripping.",
+      "sources": [
+        {
+          "english": "I haven't seen |5$r like you in years!\r\n\r\nOh, I don't know what to do! My friend Fraxinus is sick, and I can't leave him alone!\r\n\r\nCould you please fetch me some Untainted Soil from the uncorrupted land southeast of here? I can make some poultices that may help him to feel better.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "f3e5a5c4fb5a4a542c9c53bbc983d9834ff05d1a0c1f36f98deb08b7be4c574a",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 93952,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Defeat $1oa Deadwood Den Guardians and return to Brerufa.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "e8d6ec427f5fc1e528185434eb603eecbf9ccbb3a6506503c2a43d65ecb5f936",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95317,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Find $1oa Fel Ash Experimentation Notes.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "9305c6a15e94ec6381e5979ccdda47f98a1bc3433f460c127236334a228fa6ce",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95318,
+      "level": 57,
+      "field": "description",
+      "category": "blocked_rendering_binding",
+      "reason": "Query has a declension/rendering marker; exact final client text is unproven",
+      "next_action": "Need current rendered full body or pinned caller/formatter proof, not guessed grammar stripping.",
+      "sources": [
+        {
+          "english": "So in order to really disrupt operations here and get me out of this cage, we're going to have to kill four very powerful mortals. This cage has demonic wards on it that won't be dispelled until all four are dead, and that key can't be used until the wards are down.\r\n\r\nLook, you seem like |5$r that can hold your own but I'm going to need a bit more convincing that you can actually take on these stupid warlocks before I give you any good info.\r\n\r\nLike killing a ton of these warlocks for starters. Easy, no?",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "a0274449b9f576cd314e1eb67cd420c8a905ec10e78248eeb0794791997c9708",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95318,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Slay $1oa Ashen Acolytes.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "34df0fe7670dc7bf37de264f13d37cf4ca41ab7c4af9cf24544c27d5961469c0",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95319,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Gather $1oa Fel-Slime Crystals and $2oa Pristine Fel-Slime Crystal.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "c5d401df9ec134b2bc93b912c94e6aab54d169e5b6f2fe8a42f21804693923ee",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95380,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Gather $1oa Fel-Slime Ooze.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "fd2ae15a9271a8f7ae5dff3122e992474b6f403057048f7d7dd844cfd16fd255",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96262,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Prickly Pinecones under healthy trees.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "5c44fa2d47c2e8614712f523644093ea3a6b2b6f76ce90731a0cffc6db11f1da",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96616,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Hyjal Silphium.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "84aabe8738faca49990036193ba3d28c246b2a9f82a64d5fcb1f020bad304032",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96992,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Look through the burned buildings in the Cradle of Tranquility for $2oa Metal Brackets and $1oa Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "9703503f8a6b0f184d390a44a316be7e882048c1545c38bad3e160547466c006",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 97119,
+      "level": 57,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Bring $1oa Savory Stag Sliders to Ortak Lomgok in Elderwild.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "e01dd54e2ce174c333e7e1a4e2e241db85fff7e5ee4282d239203828e23561f8",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 90865,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Retrieve $1oa Watcher's Eyes for Eluneth.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "e227544ca437acf45f563b71a5bba48fdb0b08ed459c9d5eadcea40ae83cf70f",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92011,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Scavenge the remains of the Horde base and return $1oa Frayed Wire, $2oa Scrap Metal, and $3oa Calcified Excrement to Kaylaena.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "127156e5954afd96c7bb4c01d582b9d6ed14b5c64481f719f19091a7c6fe6cc6",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92147,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Slay $1oa Wormwing harpies on Mount Hyjal and bring their feathers to Phoebe Highfeather.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "a2323f260a9196efbd71ba73a6fb1e6bc6e0ad795abe1da8546d23c6e93827b2",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92449,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 93827,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Enchanted Harpy Amulet and return to Thobon Sapclaw.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "bf8321193ce2d5bcca11b5d3c1912e49654e6c0fb67b522f39ebc95d64c5710d",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95026,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Eliminate $1oa Forgotten Soldiers and $2oa Fleshflay Raveners.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "497357ff46d4da3a8e79468b71a2df26fe3050c9dba85cf747b13c955290163a",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96252,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Tarnished Highfeather Bangles from Wormwing Harpy nests.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "c464fc1f16c757e580d673a80a007de338c85eeb16280f61c5163e242338792d",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96296,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Find and remove $1oa Corrupted Knots from the trees nearby.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "4cdd5b8f9b6e9a99b70e7178a50a706d9764206ce7ec64d63a6581d258bf1d28",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96957,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Sun-Bleached Bones.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "d2585af045c61bd158a00e43fce43f09535f9d9de948b505c57e22da44ca4be3",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 97264,
+      "level": 58,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Remove $1oa Elder Shardtooth from nearby areas, then return to Sarna Brownhorn.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "e534f946282c9998f056cd1730ff29bd51efda569e52aa4261d5465c765666fe",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 91794,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Horde Flag and $2oa Scraps of Horde Heraldry for Kal'tinzan at Elderwild.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "cb9d76056069a85fe449bc19dc7329fbd8438f1e564f7b565cfbcb2776773324",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92017,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Grand Hippogryph Feathers and $2oa Oily Chimaera Hair for Marn.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "268090f82119a7a5ea0405ee13ec23d208ccc8a440be4032bdb3a14be02d8406",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92169,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Use the Staff of the Mountain on $1oa  members of the Blackthorne Pact on the Summit of Eternity to remove their wards and then kill them.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "c8fd66a5fce9c62c7120cbbf92b039803b40f82ed4fd64c0f41559b12f4285e8",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92960,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Retrieve $1oa Ephemeral Essences for Elaena Moonwhisper.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "b73ecdbc3f28971250a0d0ba93d7c5fbc0a3e6cdd3057448205093bd8b02fe7b",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95793,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Slay $1oa Felguard Sentinels in Dae'gun.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "9ced61ec12aa17cca75bd3f35a10fa6354125b7f6ae230b4c915230edbf73c70",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96971,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Abandoned Supplies.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "b488924ef8875cce6c0a4595d83e7202ecd6f68474d7749af972d7d43ee28116",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 97009,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Bring $1oa Felhound Spikes to Maerion Thaelemaches in Dae'gun.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "62973a8ec7c59d463959fb064f49e0eead013bc47120185ed9ed0ea2119d8fef",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 97403,
+      "level": 59,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Kill $1oa Chillwind Ravagers and return to Rilan Howard in northern Winterspring.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "98efeff8123f0490e970f116d5d64d8ccb4f98db91fdcf1831b21a7b513657f4",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 92859,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Bring $1oa Winterspring Chimaera Fur and $2oa Winterspring Owl Feathers to Evie Whirlbrew.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "9184eec9ba5a4a5d178f5d4543581c4813478ba842cd94968fbc983e5cbbe02b",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 93584,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Kill $1oa Blackthorne Adepts and $2oa Wild-branded Cultists.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "feccfb4096fb743c83beffb6b961575438067457337c3f86e44bcd3fe5927071",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95790,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Collect $1oa Partially Digested Journal Pages from the Shaper's Terrace.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "e00d069454f7963f0cac661a5225a7a9b3d101db49165e98667bca027028bacd",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 96303,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Use the Enchanted Branch to release $1oa wisps around Nordrassil.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "81d323142d360a7d050a165e38389e011281ae8ddef35bf6a29639246374c32f",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 97049,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Gather $1oa Seeping Slime Essence in the Shaper's Terrace.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "a59649a5e8dbe08e59bbbd908b320cd76a01b6c2bf53986f4a962c33383c7431",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 97327,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Enter Blackmaw Hold and recover $1oa Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "8314cb7a63767e2ae1ed2f31ab9ed0369cee6c4080649a26f150c59c03f4a622",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 98477,
+      "level": 60,
+      "field": "objective",
+      "category": "actionable_explicit_query_amount",
+      "reason": "Explicit objective-amount tokens in current query; prior reviewed wording exists",
+      "next_action": "Review named objects and independently bind each worldN; preserve fixed wording/aliases. Count as source form, not new prose.",
+      "sources": [
+        {
+          "english": "Bring $1oa Motes of Unstable Magic to Nuara Tremorhoof.",
+          "source_kind": "current_query_explicit",
+          "build": "1.60.1.70888",
+          "origin": "data/wowf/1.60.1.70888/quests.enUS.json",
+          "sha256": "1a3d1934b1ffafa941945618ec37b31ad5c8c78d6c84ef7ffb6ddef28075aab5",
+          "commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1"
+        }
+      ]
+    },
+    {
+      "quest_id": 95042,
+      "level": null,
+      "field": "description",
+      "category": "blocked_typed_identity",
+      "reason": "Uploader/capture token may replace a fixed trainer/general race/third-party noun",
+      "next_action": "Need exact own-ID primary typed template or unredacted current rendered text and independent binding proof; preserve fixed references.",
+      "sources": [
+        {
+          "english": "A Forsaken $c... here in Ashenvale? Amusing. \r\n\r\nSo you seek a Kor Gem? Unsurprising as these are sometimes employed to empower magical weapons and implements by the paladins of the Alliance. Why should a fallen $c like you be any different?\r\n\r\nIf you truly desire one of the gems, then you must head north to the ruins known as Blackfathom Deeps. The naga who still use the gems are down below. Do not go alone, $c.",
+          "source_kind": "VO_normalized_capture",
+          "build": "70338",
+          "origin": "issue-2014:95042-accept",
+          "sha256": "dc47378fc195e1acaf92db8778858fae394cf127e95a2362c7b625dd732abd9f",
+          "commit": "d562be626b9970fa8575170950ff61076dc47df0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2193 @@
+{
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "ready_before_proposal": 122,
+  "selected_proposal_fields": 38,
+  "remaining_ready_forms": 84,
+  "records": [
+    {
+      "quest_id": 86797,
+      "field": "objective",
+      "english_sha256": "00a80c0691cbb30e93ec4c3281c73926c19fd48a1db29e631d29b27bb5e09056",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86797/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2ffe1c5332adbd728657e30a13a910526a4cbeadd6907474b78f3da39efcf047",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86797,
+      "field": "title",
+      "english_sha256": "2ffe1c5332adbd728657e30a13a910526a4cbeadd6907474b78f3da39efcf047",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86797/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2ffe1c5332adbd728657e30a13a910526a4cbeadd6907474b78f3da39efcf047",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86804,
+      "field": "description",
+      "english_sha256": "638f3756fea3cc3c84d4bc186ffcb533b54b568a19e81ee04e89819c52c68086",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86804/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "c3e49ceadefa6d295375835d2ad273374087cb54427ba655f7458a636f0dad3f",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86813,
+      "field": "objective",
+      "english_sha256": "27e8de20e9518d0474e0b95da095ca47aff5bb5ff8d5eac3b880675ac17848b3",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86813/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "241b437ed2036c5dd8cdb1c7c8547c25d3fc03d8be1002e26f15b51bed9c32e0",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86813,
+      "field": "title",
+      "english_sha256": "241b437ed2036c5dd8cdb1c7c8547c25d3fc03d8be1002e26f15b51bed9c32e0",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86813/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "241b437ed2036c5dd8cdb1c7c8547c25d3fc03d8be1002e26f15b51bed9c32e0",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86925,
+      "field": "description",
+      "english_sha256": "37f6d8dc8b468a6212b9c8fca8db0daa301ddc75065a1a7e27e250006fcb2593",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86925/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "a2aa40cde1472b63e64198dc877087e9a444a966dc610e47d8707b17ae6ae4fa",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86926,
+      "field": "description",
+      "english_sha256": "4daf1927250ba5887f7eae90222db5ec83ccfa73be2f26b602adc9d95480d8ec",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86926/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "c978a526e7db6cfff0e354ffe3d32cf67a57ac81bbf49cff7cf232e6c1445248",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86926,
+      "field": "title",
+      "english_sha256": "c978a526e7db6cfff0e354ffe3d32cf67a57ac81bbf49cff7cf232e6c1445248",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86926/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "c978a526e7db6cfff0e354ffe3d32cf67a57ac81bbf49cff7cf232e6c1445248",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86927,
+      "field": "description",
+      "english_sha256": "939b3633807d5e6d3eac2db9493e9352c97300fd29bee9edd46a5d8c57ffcade",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86927/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "bd911d941039d5229f245df1d452044e152a3675c07829304a5102dfd3dabdeb",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86927,
+      "field": "objective",
+      "english_sha256": "c0ea628bbcad2cd44b509833d5ad71138974227792f277e0912f86f635e5ede7",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86927/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "bd911d941039d5229f245df1d452044e152a3675c07829304a5102dfd3dabdeb",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86927,
+      "field": "title",
+      "english_sha256": "bd911d941039d5229f245df1d452044e152a3675c07829304a5102dfd3dabdeb",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86927/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "bd911d941039d5229f245df1d452044e152a3675c07829304a5102dfd3dabdeb",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 81944,
+      "field": "title",
+      "english_sha256": "cc09b7c352bced1cdc524b6b9b1ca665723b3b04da9779d8f01ce42f0430ba46",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/81944/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 53,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "cc09b7c352bced1cdc524b6b9b1ca665723b3b04da9779d8f01ce42f0430ba46",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86796,
+      "field": "objective",
+      "english_sha256": "9f887774dddc717f8ede03b539efab5518dc959e889d1d56ab69cac97ee65196",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86796/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 54,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "4355325469e5ce9672855381750d1a543d399318fb02accd365b52d45391a271",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86796,
+      "field": "title",
+      "english_sha256": "4355325469e5ce9672855381750d1a543d399318fb02accd365b52d45391a271",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86796/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 54,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "4355325469e5ce9672855381750d1a543d399318fb02accd365b52d45391a271",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 87346,
+      "field": "description",
+      "english_sha256": "25bc1f16aa14d2c487ac67ce7299d090494d33599884c8da4311cf33f6534d90",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/87346/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 55,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "8f9c206a33759f8bf5cebeb2d0bbbd6978624463e7caaae7bab8b8f8524b7303",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 87346,
+      "field": "objective",
+      "english_sha256": "ce74d269dee1065ef70c02bea3329a2ac348018d3720f84458440bcdab68c0b4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/87346/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 55,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "8f9c206a33759f8bf5cebeb2d0bbbd6978624463e7caaae7bab8b8f8524b7303",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 87346,
+      "field": "title",
+      "english_sha256": "8f9c206a33759f8bf5cebeb2d0bbbd6978624463e7caaae7bab8b8f8524b7303",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/87346/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 55,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "8f9c206a33759f8bf5cebeb2d0bbbd6978624463e7caaae7bab8b8f8524b7303",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86798,
+      "field": "objective",
+      "english_sha256": "f43fbfebd2366a5aca591dcb1cafc0dee1369f44f39d647a0f0d864b07cff45f",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86798/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 55,
+      "zone_area_id": 1769,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "a11e8b228def56c7752c78b24f657d7d570eeb70e8601afe68153d4eb13f0ed4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 86798,
+      "field": "title",
+      "english_sha256": "a11e8b228def56c7752c78b24f657d7d570eeb70e8601afe68153d4eb13f0ed4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86798/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 55,
+      "zone_area_id": 1769,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "a11e8b228def56c7752c78b24f657d7d570eeb70e8601afe68153d4eb13f0ed4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 89015,
+      "field": "description",
+      "english_sha256": "495b2454373975e03f0b8cde6f5249c39993c980cc1f0d42311b427461117e89",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/89015/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 56,
+      "zone_area_id": 16,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "ab46e65c794d4b68515c39cddaa78851e07f0cbe7162b6d473c669b832089d59",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 82062,
+      "field": "description",
+      "english_sha256": "96c6827ec6d797a88466bb3701c442c188050870343616f53959f8a6d3c0f1cd",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/82062/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 56,
+      "zone_area_id": 1584,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "53a4f1eb7269423598c1c0dcafe5265791e7f78c9738ded0d31fbdf88e9a08c9",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84394,
+      "field": "title",
+      "english_sha256": "a68f912a386b83d7b1e1e533c1bb88e4c01001077b56a114974be65bc3ddb00b",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84394/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 58,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "a68f912a386b83d7b1e1e533c1bb88e4c01001077b56a114974be65bc3ddb00b",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84332,
+      "field": "title",
+      "english_sha256": "81998a531d52067c3b746a20a2956125b680c6b0ebb8b42f9ef44466f01dd8b7",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84332/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 59,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "81998a531d52067c3b746a20a2956125b680c6b0ebb8b42f9ef44466f01dd8b7",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 99210,
+      "field": "objective",
+      "english_sha256": "436d8a5fedcc23cf5723fd218a793f3ca8a90aacf83cadf8d00b7241ae9b7545",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99210/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1,
+      "required_class_mask": null,
+      "race_mask": "0000000000000004",
+      "query_title_sha256": "1d10e23eb6e147aa307f79be6db628b149677c4b1e4be02051db84e3e05e26be",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 8961,
+      "field": "description",
+      "english_sha256": "cd34cf94f4a431861861d2dce83054a00492662e568ec1d32466a77144356ed1",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/8961/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": true,
+      "level": 60,
+      "zone_area_id": 25,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "21be751e5174dc3a88686d8ffe151dd4b31c9ce630b15b53984b699dd0b0653a",
+      "raw_tokens": [
+        "$B"
+      ],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 8961,
+      "field": "objective",
+      "english_sha256": "bf05ee95c8503b2882b1c8dd0e2adf11c5651054886718e7688a47d157f15226",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/8961/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": true,
+      "level": 60,
+      "zone_area_id": 25,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "21be751e5174dc3a88686d8ffe151dd4b31c9ce630b15b53984b699dd0b0653a",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84211,
+      "field": "description",
+      "english_sha256": "1a51e8d8bbfebf424ed3c59517f52b21c41387b15e91e3777da2ec31ba6187c1",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84211/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 46,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "adfb68d05c7a123b1c06532f5b3ae6a98046d22f6836decde74fb3d844633751",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84211,
+      "field": "objective",
+      "english_sha256": "732d4f41d7dc382f63fde65129d2b7b7f83bb05e18bfac6e784238802a8828b9",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84211/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 46,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "adfb68d05c7a123b1c06532f5b3ae6a98046d22f6836decde74fb3d844633751",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84211,
+      "field": "title",
+      "english_sha256": "adfb68d05c7a123b1c06532f5b3ae6a98046d22f6836decde74fb3d844633751",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84211/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 46,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "adfb68d05c7a123b1c06532f5b3ae6a98046d22f6836decde74fb3d844633751",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 99211,
+      "field": "objective",
+      "english_sha256": "9f0dce2f244ed7d00d2d77bc7901aa292512dd463bdb44373f69bc248a21d812",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99211/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 85,
+      "required_class_mask": null,
+      "race_mask": "0000000000000010",
+      "query_title_sha256": "1d10e23eb6e147aa307f79be6db628b149677c4b1e4be02051db84e3e05e26be",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 6568,
+      "field": "objective",
+      "english_sha256": "fe03002d12571ac724df12aefdd1e8ccee563922d0ac24f36cb4cb17e2e4fbe1",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/6568/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": true,
+      "level": 60,
+      "zone_area_id": 405,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "c2a36e6e4e6fb66c3cfe8515141f23a92bca409bf6e5ee4b5a86dfb0f43348c8",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84212,
+      "field": "description",
+      "english_sha256": "7c64c334540cc79a20cbc3726603d17ca4a510add81910eb49801747c8df432b",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84212/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 618,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "0f5e2eba2db6bcc2f3e7d7313626ff0a35f79e6cf4c38c0859f42a6d38a8b293",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84212,
+      "field": "objective",
+      "english_sha256": "088e153abf4202a7fb1398495e3770623338c7da8d706697fd7bc9e40c1425f7",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84212/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 618,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "0f5e2eba2db6bcc2f3e7d7313626ff0a35f79e6cf4c38c0859f42a6d38a8b293",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84212,
+      "field": "title",
+      "english_sha256": "0f5e2eba2db6bcc2f3e7d7313626ff0a35f79e6cf4c38c0859f42a6d38a8b293",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84212/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 618,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "0f5e2eba2db6bcc2f3e7d7313626ff0a35f79e6cf4c38c0859f42a6d38a8b293",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84135,
+      "field": "description",
+      "english_sha256": "0bce189353d159a8bfd706e7d5380eef56869146444d342d965983bd6dbb640e",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84135/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 987,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "8a9500bf14ce6756cd625b62ea6321fcf6b87b67233216bd85514d00e23ba5aa",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84135,
+      "field": "objective",
+      "english_sha256": "ca13e046b580e74c2bd6ab16830706c3990e158e69a1214c9b070c2ea56dcdce",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84135/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 987,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "8a9500bf14ce6756cd625b62ea6321fcf6b87b67233216bd85514d00e23ba5aa",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84135,
+      "field": "title",
+      "english_sha256": "8a9500bf14ce6756cd625b62ea6321fcf6b87b67233216bd85514d00e23ba5aa",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84135/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 987,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "8a9500bf14ce6756cd625b62ea6321fcf6b87b67233216bd85514d00e23ba5aa",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84377,
+      "field": "description",
+      "english_sha256": "6198844be904757050c895828b7f21dd55e28c4cef922b88f0035937fa79021d",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84377/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1519,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84377,
+      "field": "objective",
+      "english_sha256": "a170d52527d836119d61dbcac368b627f43c89e3a4b3da155eaa684ed7fb70ea",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84377/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1519,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84377,
+      "field": "title",
+      "english_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84377/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1519,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84149,
+      "field": "objective",
+      "english_sha256": "eb334e16f030030d583788286b2ef18d516dea9cfd403b8e5914b5e0963f58ce",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84149/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84149,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84149/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84152,
+      "field": "objective",
+      "english_sha256": "501c0f1318b76a1f5dc699dccb26172d993164224734f18665e6d4e5349aad1e",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84152/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84152,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84152/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84153,
+      "field": "objective",
+      "english_sha256": "81dc726f81da843028d444d87d14b5c0a71ecab0607563c69c8da1f7abdc5be9",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84153/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84153,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84153/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84166,
+      "field": "description",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84166/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84166,
+      "field": "objective",
+      "english_sha256": "e60c2db2c5297e4fd397d4d5b9f229eed457c2e6c8de23f92e3913638c9ca3a2",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84166/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84166,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84166/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84167,
+      "field": "description",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84167/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84167,
+      "field": "objective",
+      "english_sha256": "4af36cc8991e4ff288530960de60c0a8b1b80fd1a84ac0ae2543aa70f48e00b8",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84167/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84167,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84167/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84170,
+      "field": "description",
+      "english_sha256": "cfa8b49a75aac2145c043debab35043340f0459659228dc0657fee194ab8bfea",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84170/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84170,
+      "field": "objective",
+      "english_sha256": "ad2d568ba1cd61564f389ec82acca85b221dc12c4add3bd9b757a1685acd52b2",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84170/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84170,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84170/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 97448,
+      "field": "objective",
+      "english_sha256": "2fa13409d1236ddaa75732efce6cd49f29b86277397c0d974faef471709d442f",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/97448/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1537,
+      "required_class_mask": null,
+      "race_mask": "55155555b1354c4d",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84159,
+      "field": "objective",
+      "english_sha256": "01f0d1ee8699e625eb6e22210cc9300535d199ae5936d1bc7460573f43608a6f",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84159/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84159,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84159/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84171,
+      "field": "objective",
+      "english_sha256": "1e7aa48097d1a68044b87157171a1632e54be9a4f6ed77436c082d7e40ec8db2",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84171/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84171,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84171/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84172,
+      "field": "objective",
+      "english_sha256": "5e1626f5952b0ffbb6533e746f2545dc1d8e1ad87ba55100e0aceb62a6a13094",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84172/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84172,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84172/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84175,
+      "field": "objective",
+      "english_sha256": "5826e11cf8fc7f2aba245da7f956b60ea875c07bd27828f0fd412fb69c7a23f6",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84175/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84175,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84175/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84176,
+      "field": "objective",
+      "english_sha256": "9c9d06e7d50899981cf3cd5f7e43334d44c50a0dae10fd50fba5a406ae7698ca",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84176/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84176,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84176/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84177,
+      "field": "objective",
+      "english_sha256": "74e718e95debcf6703db26f8406a519f70d7e0856cda554c889dd6423bb37d9c",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84177/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84177,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84177/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84178,
+      "field": "objective",
+      "english_sha256": "4a08c0f1c0fe4e19488825fa05fc7e0cdcbeed8182789d0f4c9657af77f37e7c",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84178/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84178,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84178/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 97412,
+      "field": "objective",
+      "english_sha256": "299bb6af79a333ca64fec98e30e59230ac4ef052c9cd64ef82b07512a284ee0c",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/97412/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "aa2aaaaa4e0ab3b2",
+      "query_title_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 99215,
+      "field": "objective",
+      "english_sha256": "40d2eb5b279608bf5bbfec56483028a4054ca039af2ece15eded400068ec4aa7",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99215/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 1637,
+      "required_class_mask": null,
+      "race_mask": "0000000000000002",
+      "query_title_sha256": "1d10e23eb6e147aa307f79be6db628b149677c4b1e4be02051db84e3e05e26be",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84137,
+      "field": "description",
+      "english_sha256": "1c7af6dc5d10fb99d7c3c7c661d4b151fcff95225b4cf85099e378d6e65d8edb",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84137/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84137,
+      "field": "objective",
+      "english_sha256": "1c988e127d2d23bf1f270befd2e0e0af1a648d7478ac457f44afcc6b16ef3e3f",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84137/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84137,
+      "field": "title",
+      "english_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84137/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "46f967649d87bea5ae96433e4dd777042dc4f4ad1850164cd90e24bba1629b71",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84138,
+      "field": "description",
+      "english_sha256": "de9df630b1ab2c99ab06857a4a6622291828f89ecfbf0913cd22bd0bf1839c0c",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84138/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84138,
+      "field": "objective",
+      "english_sha256": "9c6de55121e3dc906399f2288702515a79323446f055b0aa714e987cca0a2a8c",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84138/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84138,
+      "field": "title",
+      "english_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84138/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "43dbd1358b8d8e353642fc0d9d7107f6d0cd26972942cfb4a855527eb8483cff",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 99234,
+      "field": "objective",
+      "english_sha256": "89e4390a603f5e21306dd062d00fd7813c8ef833f0b5749a0296f21b54c5f11a",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99234/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 3217,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "9c9ae53f7546153e9ed73f850fd7abe1944522b1cf8344efbc6d28be804bd084",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 99216,
+      "field": "objective",
+      "english_sha256": "754dd540e699c6ec377532086caedf0a0165712c9abefd70fe9699baad1c42d8",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/99216/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 16593,
+      "required_class_mask": null,
+      "race_mask": "0000000300000000",
+      "query_title_sha256": "1d10e23eb6e147aa307f79be6db628b149677c4b1e4be02051db84e3e05e26be",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 94302,
+      "field": "completion",
+      "english_sha256": "c808095f1d0da1b7ba9fd7d15889768d1014684d982dd2b0b7d445bbf7fe8ffb",
+      "source_kind": "captured_phase",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/texts.enUS.json",
+          "pointer": "/quests/94302/complete/0/text",
+          "build": "70938",
+          "phase": "complete"
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 60,
+      "zone_area_id": 16941,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "d7f69a2c342405831dd779f162241a3918b92d00c1028854ebb5a05f557cfbc1",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "not_in_this_scan",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84213,
+      "field": "description",
+      "english_sha256": "45d6c55f8af26ff8497c635465d659f8fd04b338590c575c35b0bf65ba27aca5",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84213/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 62,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84213,
+      "field": "objective",
+      "english_sha256": "209a49b3d706187e32730f6b6cbeee4d1a7d97282e0319941448bc567f2792de",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84213/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 62,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    },
+    {
+      "quest_id": 84213,
+      "field": "title",
+      "english_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "source_kind": "query",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84213/title",
+          "build": "70938",
+          "phase": "title",
+          "source_old_value_sha256": null
+        }
+      ],
+      "status": "ready_literal_qualified_source",
+      "canonical_present": false,
+      "level": 62,
+      "zone_area_id": 2317,
+      "required_class_mask": null,
+      "race_mask": "ffffffffffffffff",
+      "query_title_sha256": "d6404d38d9143000fefe88bce9c60c9727daec9f8f3555e16e978d5124b8f59a",
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven; query/capture presence not enabledinventory",
+      "scan_observation": "described",
+      "ownID_prerequisite_observation": false
+    }
+  ]
+}

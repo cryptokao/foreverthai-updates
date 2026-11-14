@@ -1,0 +1,18 @@
+[
+  {
+    "build": "70862",
+    "commit": "9dc84f0d3bbae1768ac3405b3716000bd93eda06",
+    "path": "UnitDocumentation.lua",
+    "url": "https://raw.githubusercontent.com/Gethe/wow-ui-source/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitDocumentation.lua",
+    "bytes": 121174,
+    "sha256": "93004ac1b260127741471b7861360cdf7536afcb18d4c1db73b7259faa43e61c"
+  },
+  {
+    "build": "70888",
+    "commit": "4cd0ab752a77164f654ccbca9d0c1fe8dafceebe",
+    "path": "UnitDocumentation.lua",
+    "url": "https://raw.githubusercontent.com/Gethe/wow-ui-source/4cd0ab752a77164f654ccbca9d0c1fe8dafceebe/Interface/AddOns/Blizzard_APIDocumentationGenerated/UnitDocumentation.lua",
+    "bytes": 121174,
+    "sha256": "93004ac1b260127741471b7861360cdf7536afcb18d4c1db73b7259faa43e61c"
+  }
+]

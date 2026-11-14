@@ -1,0 +1,57 @@
+{
+  "status": "DOWNLOAD_BACK_VERIFIED",
+  "version": "0.466.0",
+  "display_version": "0.466.0 MAIN21 revision1 PRIVATE TEST",
+  "candidate_revision": "main21-r1",
+  "source_commit": "814e4c7c289f46bc58b2ead3ef2a40e00a5cdb13",
+  "runtime_git_tree": "df77c6cf2a1cbb31d193881256e6d678f3828e77",
+  "artifact_branch": "codex/private-0-466-0-main21-r1-artifacts",
+  "artifact_commit": "d9208f6710ef3867d3dd728c1db52055185fd009",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/ForeverThai-0.466.0-cloud-main21-r1-PRIVATE-TEST.zip",
+  "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/INSTALL-0.466.0-MAIN21-R1-PRIVATE-TH.txt",
+  "manifest_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/package-manifest.json",
+  "receipt_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/d9208f6710ef3867d3dd728c1db52055185fd009/output/release-receipt.json",
+  "bytes": 17897675,
+  "sha256": "279efca27ec2b9a96743cfc39a8512d846ac9e055b527e53fb9dc2371ce157d5",
+  "files": 141,
+  "final_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "new_thai_fields": 0,
+  "new_prose": 0,
+  "main21_exact_variants_included": 1,
+  "books22_included": false,
+  "latest_MAIN19_immutable_preserved": true,
+  "windows_mac_m2_game_verified": false,
+  "customer_feed_changed": false,
+  "downloaded_back_verified": true,
+  "every_runtime_byte_verified": 141,
+  "safe_unique_paths_verified": 141,
+  "toc_paths_verified": 24,
+  "protected28_byte_identical_to_MAIN19": true,
+  "unchanged_MAIN19_files": 140,
+  "changed_from_MAIN19": [
+    "ForeverThai/Catalog.lua"
+  ],
+  "Core_Speech70938_Settings_Questie_SavedVariables_preserved": true,
+  "guide_manifest_receipt_exact_bytes_verified": true,
+  "all_old_fonts_Atlas_preserved": true,
+  "downloaded_artifact_hashes": {
+    "ForeverThai-0.466.0-cloud-main21-r1-PRIVATE-TEST.zip": {
+      "bytes": 17897675,
+      "sha256": "279efca27ec2b9a96743cfc39a8512d846ac9e055b527e53fb9dc2371ce157d5"
+    },
+    "INSTALL-0.466.0-MAIN21-R1-PRIVATE-TH.txt": {
+      "bytes": 4416,
+      "sha256": "a30c36d089799c1660972eb2eb066d954fc8f54f7096bf17114d27c926c2a754"
+    },
+    "package-manifest.json": {
+      "bytes": 27685,
+      "sha256": "834abe4dd7dfe96422b66ca5ea89ed3f3df522279244b928e954199b8a5fc8bf"
+    },
+    "release-receipt.json": {
+      "bytes": 1920,
+      "sha256": "544d52a7494d0a730245c5623efd935d5a50c107e33e3bf1aa21ccccb6b9d707"
+    }
+  },
+  "matching_rerun": false,
+  "old_suites_fonts_game_execution": false
+}

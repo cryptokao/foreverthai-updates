@@ -1,0 +1,796 @@
+{
+  "batch": "cloud-main-hyjal-05",
+  "new_canonical_fields": 0,
+  "new_thai_prose_translations": 0,
+  "new_dynamic_source_forms": 16,
+  "unique_quests": 15,
+  "scope": "15 existing objectives and one description gain explicit dynamic-amount forms. Recorded fixed-count translations already existed and are not recounted.",
+  "source_repository": "https://github.com/JIVESCORP/eg-link-output-wowf",
+  "source_commit": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "source_path": "data/wowf/1.60.1.70888/quests.enUS.json",
+  "source_file_sha256": "433fc57290a162eca1c688c277a96234d39b7198edb1326ed4d6ec8fa4a65d60",
+  "fields": [
+    {
+      "quest_id": 87492,
+      "level": 55,
+      "field": "objective",
+      "english": "Bring $1oa Damaged Blue Crystal back to Torwa Pathfinder.",
+      "thai": "นำ Damaged Blue Crystal {world1} ชิ้นกลับไปให้ Torwa Pathfinder",
+      "signature": "6:1273960851:929420321 W1 47:1336372349:1572180950",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You may have seen some of the unusual crystal growths that dot this crater. I'm not a miner, but these growths don't seem to fit with the kinds of soil deposits all around here.\r\n\r\nI believe I caught sight of a damaged crystal not far from here while I was foraging. I wonder if it holds any secrets about the origins of these strange formations? If you happen to spot it, I would love to investigate a sample piece.",
+        "flags": 36700168,
+        "level": 55,
+        "minLevel": 50,
+        "objectives": [
+          {
+            "amount": 1,
+            "id": 477374,
+            "objectId": 280417,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa Damaged Blue Crystal back to Torwa Pathfinder.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 16783,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Uncanny Crystal",
+        "zoneAreaId": 490
+      },
+      "reviewed_replacements": [
+        [
+          "1 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 91754,
+      "level": 56,
+      "field": "objective",
+      "english": "Collect $1oa samples of Untainted Soil from around the foothills of Mount Hyjal.",
+      "thai": "เก็บดินที่ไม่ปนเปื้อน (Untainted Soil) {world1} ตัวอย่างตามเชิงเขา Mount Hyjal",
+      "signature": "8:1089852795:1107240600 W1 68:1366975003:454544907",
+      "source_field": "objectivesText",
+      "source_record": {
+        "conditionalDescriptions": [
+          {
+            "creatureId": 248367,
+            "playerConditionId": 155100,
+            "text": "I've never seen an elf like you before!\r\n\r\nOh, I don't know what to do! My friend Fraxinus is sick, and I can't leave him alone!\r\n\r\nCould you please fetch me some Untainted Soil? I can make some poultices that may help him to feel better."
+          }
+        ],
+        "description": "I haven't seen |5$r like you in years!\r\n\r\nOh, I don't know what to do! My friend Fraxinus is sick, and I can't leave him alone!\r\n\r\nCould you please fetch me some Untainted Soil from the uncorrupted land southeast of here? I can make some poultices that may help him to feel better.",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 463376,
+            "objectId": 247889,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa samples of Untainted Soil from around the foothills of Mount Hyjal.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Rub Some Dirt In It",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "6 ตัวอย่าง",
+          "{world1} ตัวอย่าง"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 91755,
+      "level": 56,
+      "field": "objective",
+      "english": "Collect $1oa Verdant Leaves from Tainted Shrubbery in the foothills of Mount Hyjal.",
+      "thai": "เก็บใบไม้เขียวสด {world1} ใบจากพุ่มไม้แปดเปื้อนบริเวณเชิงเขา Mount Hyjal",
+      "signature": "8:1089852795:1107240600 W1 71:817331594:337510757",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Have you seen those nasty tainted shrubberies wandering around this valley?\r\n\r\nThose plants are mean, but some of them are not entirely toxic. Their leaves can have medicinal purposes.\r\n\r\nWould you be so kind as to fetch me some Verdant Leaves? You'll have to do a little pruning, of course.",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 463378,
+            "objectId": 247892,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Verdant Leaves from Tainted Shrubbery in the foothills of Mount Hyjal.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 16167,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Leaves to Ligatures",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "12 ใบ",
+          "{world1} ใบ"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 92594,
+      "level": 56,
+      "field": "objective",
+      "english": "Destroy $1oa Tainted Shrubbery for Kaylaena Springwhisper at the workshop in the Tainted Foothills.",
+      "thai": "ทำลายพุ่มไม้ปนเปื้อน (Tainted Shrubbery) {world1} พุ่มให้ Kaylaena Springwhisper ที่โรงช่างใน Tainted Foothills",
+      "signature": "8:286779151:428491486 W1 87:1503776494:11690334",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "While you're traveling around the mountain, I can't resist asking for another small favor...\r\n\r\nDid you see all those fel shrubberies and plants littering the hills down below? It turns out they burn rather well, which is both good, and bad. Handy for feeding into a small furnace, but also a risk when it twists together and binds up gears...or bootstraps!\r\n\r\nThin their numbers on your way down, and I'll pick up the weeds myself once they've dried out.",
+        "flags": 8,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 15,
+            "id": 465184,
+            "objectId": 248395,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Destroy $1oa Tainted Shrubbery for Kaylaena Springwhisper at the workshop in the Tainted Foothills.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 12542,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Kindling, Kinda",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "15 พุ่ม",
+          "{world1} พุ่ม"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93406,
+      "level": 56,
+      "field": "objective",
+      "english": "Find $1oa pieces of Missing Mail in the hills north of Everlook and bring it back to Innkeeper Vizzie.",
+      "thai": "หาจดหมายที่หายไป (Missing Mail) {world1} ฉบับตามเนินเขาทางเหนือของ Everlook แล้วนำกลับไปให้ Innkeeper Vizzie",
+      "signature": "5:72389936:1525592206 W1 93:707369643:2122779802",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "So you need to bring the return mail back to Mount Hyjal, eh? There's a little problem...\r\n\r\nY'see, someone came through here and ransacked the outgoing mail just a few days ago! Probably looking for money in the mail. Ran off into the hills somewhere north of here and never came back. Probably got torn apart by a yeti or something!\r\n\r\nAnyway, if you wanna bring back the mail, you're gonna have to go get it first!",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 56,
+        "nextQuestId": 93269,
+        "objectives": [
+          {
+            "amount": 4,
+            "id": 466500,
+            "objectId": 258323,
+            "storageIndex": 1,
+            "text": "Pieces of Missing Mail",
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Find $1oa pieces of Missing Mail in the hills north of Everlook and bring it back to Innkeeper Vizzie.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 10875,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Unfrozen Deliveries",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "4 ฉบับ",
+          "{world1} ฉบับ"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93759,
+      "level": 56,
+      "field": "objective",
+      "english": "Collect $1oa Hyjal Venison Cuts from untainted Hyjal Stags and $2oa Scarlet Dart Tubers for the hermit's stew.",
+      "thai": "เก็บเนื้อกวาง Hyjal (Hyjal Venison Cuts) {world1} ชิ้นจากกวาง Hyjal Stag ที่ไม่ปนเปื้อน และหัว Scarlet Dart Tuber {world2} หัวสำหรับทำสตูของฤๅษี",
+      "signature": "8:1089852795:1107240600 W1 51:1345691313:623630425 W2 43:85520111:1505359911",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You have done well and helped me, and the mountain, greatly.\r\n\r\nI am just preparing some stew, and I would be glad to share it if you would help me gather some of the ingredients.\r\n\r\nWhile I am loath to slay any among the wild animals, the cycle of life requires sustenance. A balance of ingredients would serve us well. A few Hyjal Venison Cuts from the Hyjal Stags would pair well with the starchy roots of the Scarlet Dart Tuber plants that grow in the green places nearby.",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 2,
+            "id": 467337,
+            "objectId": 251641,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          },
+          {
+            "amount": 6,
+            "id": 467338,
+            "objectId": 267289,
+            "storageIndex": 3,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Hyjal Venison Cuts from untainted Hyjal Stags and $2oa Scarlet Dart Tubers for the hermit's stew.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 5,
+              "itemId": 262433
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "The Bounty of Nature",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "2 ชิ้น",
+          "{world1} ชิ้น"
+        ],
+        [
+          "6 หัว",
+          "{world2} หัว"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 95568,
+      "level": 56,
+      "field": "objective",
+      "english": "Collect $1oa Untainted Seeds for Ketharas.",
+      "thai": "เก็บเมล็ดพันธุ์ที่ไม่ปนเปื้อน (Untainted Seeds) {world1} เมล็ดให้ Ketharas",
+      "signature": "8:1089852795:1107240600 W1 30:1420365304:1624139305",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You have arrived on Mount Hyjal at a time of changes, stranger.\r\n\r\nYou may have seen that the landscape is scarred by the old war and tainted by fel energies. For Hyjal to survive, nature must bloom again.\r\n\r\nIf you are willing to help me gather seeds from some of the untainted plants, I would be grateful. Many flowers grow in the wild lands east of here. Look for small red or yellow flowers.",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 10,
+            "id": 470949,
+            "objectId": 260176,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Collect $1oa Untainted Seeds for Ketharas.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 10875,
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Seeds for a New Season",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "10 เมล็ด",
+          "{world1} เมล็ด"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 95569,
+      "level": 56,
+      "field": "objective",
+      "english": "Rescue $1oa Hyjal Owl Eggs and bring them to Ketharas.",
+      "thai": "ช่วยไข่นกฮูก Hyjal (Hyjal Owl Egg) {world1} ฟองให้พ้นอันตราย แล้วนำไปให้ Ketharas",
+      "signature": "7:381738004:212593327 W1 43:1738541051:1923546587",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "The owls are under threat by the fel corruption that afflicts the mountainside, and the creatures poisoned and enraged by those energies. Many owls have abandoned their nests for safer places higher up the mountain. Others have fallen in defense of their young.\r\n\r\nFor the owls to have a future, their eggs must be protected and their fledglings nurtured. Bring the abandoned eggs to me. You may find eggs in abandoned nests at the base of trees north and east of here.",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 470950,
+            "objectId": 269920,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Rescue $1oa Hyjal Owl Eggs and bring them to Ketharas.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 14500,
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Hope for Hatchlings",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "12 ฟอง",
+          "{world1} ฟอง"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 96674,
+      "level": 56,
+      "field": "objective",
+      "english": "Capture and return $1oa Escaped Sheep.",
+      "thai": "จับ Escaped Sheep {world1} ตัวแล้วพากลับมา",
+      "signature": "19:1577080080:819124186 W1 15:312127102:1410026500",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "<Mirt's eyes grow wide as you approach.>\r\n\r\nWhoa, who are you? My mom said there was a new person here. She said you killed a lot of Scourge and are super strong! Have you ever fought a bear? *gasp* A DRAGON!? I--\r\n\r\n<Mirt looks behind himself, then looks bashful.>\r\n\r\nMaybe... you could help me? I was supposed to be watching the sheep but they got out when I was making mud dragons. They are over on THAT side. I'm not allowed to go over there. Mom says they might hurt me. Could you go find the sheep?",
+        "flags": 36700168,
+        "level": 56,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 6,
+            "id": 473857,
+            "objectId": 265988,
+            "storageIndex": 1,
+            "text": "Escaped Sheep",
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Capture and return $1oa Escaped Sheep.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275827
+            }
+          ],
+          "xpDifficulty": 3,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Ewe Wandered Off",
+        "zoneAreaId": 16848
+      },
+      "reviewed_replacements": [
+        [
+          "6 ตัว",
+          "{world1} ตัว"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 92014,
+      "level": 57,
+      "field": "objective",
+      "english": "Return $1oa Rustleaf Fox Tails to Johun \"Punchy\" Dillas in Hyjal.",
+      "thai": "นำ Rustleaf Fox Tail {world1} ชิ้นกลับไปให้ Johun “Punchy” Dillas ใน Hyjal",
+      "signature": "7:754587951:547508582 W1 54:1839628041:1020944824",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "Every time I take my attention off the supplies I've lugged up here for more than a few minutes, one of nature's finest thieves is pilfering and rummaging through it.\r\n\r\nThe damned foxes seem to have made a burrow beneath the boulders nearby. Apparently, me digging out this hole gave them an idea of their own.\r\n\r\nI'm working on a solution. Tell you what, bring back some of their fox tails. That'll teach them a lesson, and I'll hang the tails around the perimeter to scare the others off!",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "nextQuestId": 96992,
+        "objectives": [
+          {
+            "amount": 9,
+            "id": 473383,
+            "objectId": 274586,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Return $1oa Rustleaf Fox Tails to Johun \"Punchy\" Dillas in Hyjal.",
+        "questType": 2,
+        "raceMask": "55155555b1354c4d",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275633
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Fox Hole",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "9 ชิ้น",
+          "{world1} ชิ้น"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 92609,
+      "level": 57,
+      "field": "objective",
+      "english": "Gather $1oa Hyjal Owl Feathers for Zet'gan.",
+      "thai": "เก็บขนนกฮูก Hyjal (Hyjal Owl Feather) {world1} เส้นให้ Zet'gan",
+      "signature": "7:451016854:1830523975 W1 32:1902362336:1449908985",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "We been tryin' ta leave many a time, but keep gettin' pulled back ta defend our brothas an' sistas. Wit our defenses dwindlin', it's time we get ta restockin'.\r\n\r\nToday we be needin' arrows. Lots an' lots o' dem.\r\n\r\nFind dem big, beautiful birds and bring us back dem long feathers for da straight shootin' arrows.",
+        "flags": 36700168,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 9,
+            "id": 465205,
+            "objectId": 253341,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa Hyjal Owl Feathers for Zet'gan.",
+        "questType": 2,
+        "raceMask": "aa2aaaaa4e0ab3b2",
+        "rewards": {
+          "items": [
+            {
+              "count": 1,
+              "itemId": 275441
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 1,
+        "title": "Feathers in Flight",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "9 เส้น",
+          "{world1} เส้น"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93825,
+      "level": 57,
+      "field": "objective",
+      "english": "Gather $1oa clumps of Moonveil Moss and return to Suma Mossmane.",
+      "thai": "เก็บมอส Moonveil {world1} กอ แล้วกลับไปหา Suma Mossmane",
+      "signature": "7:451016854:1830523975 W1 53:858566421:2079625149",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You wish to learn from us? The trees of Hyjal speak to us. Their bark holds life, and on it grows the moss we call Moonveil. It is soft, green, and strong with the mountain's soul. We need this moss to heal our hurt and bless roots.\r\n\r\nGo, gentle one. Seek the old trees where the mist clings and the sun hides. Take Moonveil moss from their bark and bring it back to me. With it, we will mend what pains us.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 12,
+            "id": 467534,
+            "objectId": 262802,
+            "storageIndex": 2,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa clumps of Moonveil Moss and return to Suma Mossmane.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 15750,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 7
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Barkbound Blessings",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "12 กอ",
+          "{world1} กอ"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93826,
+      "level": 57,
+      "field": "objective",
+      "english": "Defeat $1oa Deadwood Totemics and $2oa Deadwood Fel-Tenders and return to Elder Pinespeaker.",
+      "thai": "กำจัด Deadwood Totemic {world1} ตัว และ Deadwood Fel-Tender {world2} ตัว แล้วกลับไปหา Elder Pinespeaker",
+      "signature": "7:1265997621:1189804897 W1 23:92400012:172991112 W2 54:23372215:1228028856",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "The old ways are lost to Deadwood. Their claws rip the wood, their hearts burn with rage. They strike at us, and the wilds shake.\r\n\r\nYou, friend of furbolg, can help. Go to their den. Show them the wild will not bow to greed. Slay those who foul the roots, and come back when their cries fade from the trees. Bring an end to their wise, but sad, sages. They twist fel and foul vines.\r\n\r\nDo this, and we will speak to the spirits of your name.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 8,
+            "id": 467536,
+            "objectId": 252116,
+            "storageIndex": 2,
+            "type": "monster",
+            "typeId": 0
+          },
+          {
+            "amount": 8,
+            "id": 469614,
+            "objectId": 252096,
+            "storageIndex": 0,
+            "type": "monster",
+            "typeId": 0
+          }
+        ],
+        "objectivesText": "Defeat $1oa Deadwood Totemics and $2oa Deadwood Fel-Tenders and return to Elder Pinespeaker.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 17719,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 7
+            }
+          ],
+          "xpDifficulty": 5,
+          "xpMultiplier": 1.0
+        },
+        "sources": 4,
+        "title": "Deal Dread to Deadwood",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "Deadwood Totemic 8 ตัว",
+          "Deadwood Totemic {world1} ตัว"
+        ],
+        [
+          "Deadwood Fel-Tender 8 ตัว",
+          "Deadwood Fel-Tender {world2} ตัว"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93831,
+      "level": 57,
+      "field": "objective",
+      "english": "Gather $1oa Bear Berries from Hyjal and return to Osi Mistpaw.",
+      "thai": "เก็บเบอร์รีหมี {world1} ลูกใน Hyjal แล้วกลับไปหา Osi Mistpaw",
+      "signature": "7:451016854:1830523975 W1 51:1984949950:419811938",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "You smell like mountain winds, strong and free! I have a task, if your paws are not full.\r\n\r\nWe love bear berries, they're round, red, and sweet as honey after frost. Look for them near the shade of trees. Too many sharp rocks and mad wings for us to get the ripest bush.\r\n\r\nBring me a bunch, and I make Sweetpaw Jam! My best treat, and I will share a taste.\r\n\r\nDeal?",
+        "flags": 33554440,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 30,
+            "id": 470335,
+            "objectId": 262818,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Gather $1oa Bear Berries from Hyjal and return to Osi Mistpaw.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "items": [
+            {
+              "count": 4,
+              "itemId": 267341
+            }
+          ],
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 20000,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 2,
+        "title": "Sweetpaw Jam",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "30 ลูก",
+          "{world1} ลูก"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93833,
+      "level": 57,
+      "field": "description",
+      "english": "The owls of Hyjal are more than feathers and flight. Their talons, their plumes, even the bones whisper of the wild. We use these gifts to craft talismans, charms that bind the spirits and shield our kin.\r\n\r\nBut the owls do not give freely. You must take what the mountain offers. Kill $1oa owls and bring their carcasses to me.\r\n\r\nYes, we ask you to return the whole body to us, as we waste nothing provided by such graceful creatures.",
+      "thai": "นกฮูกแห่ง Hyjal มีดีมากกว่าขนปีกและการบิน กรงเล็บ ขน หรือแม้แต่กระดูกของพวกมันล้วนกระซิบเสียงแห่งพงไพร เราใช้ของเหล่านี้ทำเครื่องรางผูกวิญญาณและคุ้มกันคนของเรา\n\nแต่นกฮูกไม่ยอมมอบให้เปล่า เจ้าต้องเอาสิ่งที่ภูเขามีให้ ฆ่านกฮูก {world1} ตัวแล้วเอาซากมาให้ข้า\n\nใช่ เราขอให้เจ้าเอากลับมาทั้งตัว เราไม่ทิ้งสิ่งใดที่ได้จากสัตว์สง่างามเช่นนี้",
+      "signature": "283:1905259624:1573383620 W1 143:1338168456:1258911672",
+      "source_field": "description",
+      "source_record": {
+        "description": "The owls of Hyjal are more than feathers and flight. Their talons, their plumes, even the bones whisper of the wild. We use these gifts to craft talismans, charms that bind the spirits and shield our kin.\r\n\r\nBut the owls do not give freely. You must take what the mountain offers. Kill $1oa owls and bring their carcasses to me.\r\n\r\nYes, we ask you to return the whole body to us, as we waste nothing provided by such graceful creatures.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 467556,
+            "objectId": 262816,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa owl bodies to Elder Pinespeaker in Barkskin Burrow in Hyjal.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 11813,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Wicked Wisdom",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "ฆ่านกฮูกแล้ว",
+          "ฆ่านกฮูก {world1} ตัวแล้ว"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    },
+    {
+      "quest_id": 93833,
+      "level": 57,
+      "field": "objective",
+      "english": "Bring $1oa owl bodies to Elder Pinespeaker in Barkskin Burrow in Hyjal.",
+      "thai": "นำซากนกฮูก {world1} ตัวไปให้ Elder Pinespeaker ที่ Barkskin Burrow ใน Hyjal",
+      "signature": "6:1273960851:929420321 W1 61:363428504:1354329995",
+      "source_field": "objectivesText",
+      "source_record": {
+        "description": "The owls of Hyjal are more than feathers and flight. Their talons, their plumes, even the bones whisper of the wild. We use these gifts to craft talismans, charms that bind the spirits and shield our kin.\r\n\r\nBut the owls do not give freely. You must take what the mountain offers. Kill $1oa owls and bring their carcasses to me.\r\n\r\nYes, we ask you to return the whole body to us, as we waste nothing provided by such graceful creatures.",
+        "flags": 8,
+        "level": 57,
+        "minLevel": 54,
+        "objectives": [
+          {
+            "amount": 5,
+            "id": 467556,
+            "objectId": 262816,
+            "storageIndex": 0,
+            "type": "item",
+            "typeId": 1
+          }
+        ],
+        "objectivesText": "Bring $1oa owl bodies to Elder Pinespeaker in Barkskin Burrow in Hyjal.",
+        "questType": 2,
+        "raceMask": "ffffffffffffffff",
+        "rewards": {
+          "money": 11813,
+          "reputation": [
+            {
+              "factionId": 2747,
+              "override": 32500,
+              "tier": 5
+            }
+          ],
+          "xpDifficulty": 4,
+          "xpMultiplier": 1.0
+        },
+        "sources": 3,
+        "title": "Wicked Wisdom",
+        "zoneAreaId": 616
+      },
+      "reviewed_replacements": [
+        [
+          "5 ตัว",
+          "{world1} ตัว"
+        ]
+      ],
+      "review": "Named source objects checked against prior reviewed Thai. Explicit $ioa only; no storageIndex binding, live total or player identity inferred. Original entries and variants retained."
+    }
+  ]
+}

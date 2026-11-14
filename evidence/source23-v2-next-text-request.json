@@ -1,0 +1,253 @@
+{
+  "status": "NO_UNKNOWN_ENGLISH_TEXT_TRANSFER_NEEDED",
+  "unknown_English_fields": 0,
+  "selected_private_raw_fields": [],
+  "ready_new_literal_variants": 0,
+  "reason": "All483raw hashes exactly match existing independent own-ID English/phase references.433literal existingEnglish supported;50raw-marker fields remain roleproof-only holds, allcanonicalpresent.",
+  "typed_role_proof_queue": "evidence/source23-v2-unresolved-fields.json",
+  "first_lowlevel_proof_targets": [
+    {
+      "qid": 97922,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "07413cdffb3beec77b93e62468e12ffb6c46087c3a433f7a80fa1bbd0b5fd2a4",
+      "level": 6,
+      "zone_area_id": null,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$c"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/97922/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 120,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "669259e09175160622b291b3dca0f38e1989d4ebe0bb802780c4b1b2c2a75d45",
+      "level": 14,
+      "zone_area_id": 44,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$c"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/120/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 116,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "d5a8f07726c8ff0133ab26f3fd7653bba7b355810bbed029d8276fb18b47d2a4",
+      "level": 15,
+      "zone_area_id": 44,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/116/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 98407,
+      "field": "objective",
+      "raw_field": "logDescription",
+      "raw_sha256": "618d5dc0787aebb846b2a2f501ff811a033370520fddd6cf3e7a6d8aaa2c74c4",
+      "level": 17,
+      "zone_area_id": 44,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$1oa"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/98407/objectivesText",
+        "phase": "objective",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 97926,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "23f06ebc00b108fcbd830e6c713fda067453a89d0caf202c91f924c914137b5a",
+      "level": 17,
+      "zone_area_id": 148,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$c"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/97926/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 214,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "c7cceea9c17014f6b29143f7d206ccb38c4991a17bf9f2928e2b6be0f360a9c0",
+      "level": 17,
+      "zone_area_id": 1581,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/214/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 142,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "9386177a3ae05139987456600dc997ebbd28c27ccd61fc19f97088b334693842",
+      "level": 18,
+      "zone_area_id": 40,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/142/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 255,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "fc01b4c04a415f0fd14bd980b8594dee308b3aeb51c11d4a9a9e0db6d4d904bd",
+      "level": 19,
+      "zone_area_id": 38,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$c"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/255/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 8372,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "55ff461e5f293a56ee723b1345cf3ae92c89386a1212e8e4f9ccec7d65ea5214",
+      "level": 19,
+      "zone_area_id": 3277,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/8372/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 89,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "9e681d28e6f10a8e1331f95d34bdf5f015e84798189271656a9c7f80345ca75b",
+      "level": 20,
+      "zone_area_id": 44,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/89/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 741,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "f468ed4847e8db477d7bbfd2ee176f6eab1383e262d89c2512440bb902379426",
+      "level": 20,
+      "zone_area_id": 148,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/741/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    },
+    {
+      "qid": 993,
+      "field": "description",
+      "raw_field": "questDescription",
+      "raw_sha256": "b35589efa4ec7436a7b7744cccf50c772e87dc23340b3b27401e08d459ed70a4",
+      "level": 20,
+      "zone_area_id": 148,
+      "required_class_mask": null,
+      "raw_non_linebreak_markers": [
+        "$n"
+      ],
+      "exact_matching_existing_English_reference": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+        "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+        "pointer": "/quests/993/description",
+        "phase": "description",
+        "kind": "ownID_query"
+      }
+    }
+  ],
+  "needed": "Only independent typed UI/caller/protocol proof if resolving these marker holds; do not send entire161records, repeat decoder, or infer roles from a hash/matcher/canonical.",
+  "phase_limits": "Only title/logDescription/objective and questDescription/description were joined. No completionLog/endText/area/portrait/progress/reward binding.",
+  "new_translation_or_current_inventory_claim": false
+}

@@ -1,0 +1,520 @@
+{
+  "snapshot": "NEWINPUT November14 MAIN19",
+  "status": "PROGRESS delivered candidate after Root review",
+  "newly_supported_fields": 33,
+  "unique_quest_ids": 20,
+  "new_thai_fields": 16,
+  "reused_thai_fields": 17,
+  "questie_delta": {
+    "old": "f0ad90875a6531368883904b0f157e7423c14f0b",
+    "new": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+    "commits": 8,
+    "changed_text_fields": 122,
+    "already_supported": 93,
+    "literal_ready_implemented": 29,
+    "authored_fixes_changed_main_text": 0,
+    "removed_main_source_slots": 0
+  },
+  "vo_delta": {
+    "issues": [
+      3468,
+      3480
+    ],
+    "count": 13,
+    "unique_main_forms": 937,
+    "exact_supported": 657,
+    "diagnostic_normalized_supported": 253,
+    "typed_holds": 21,
+    "blank": 2,
+    "literal_ready_implemented": 4,
+    "previously_saved_hold_hashes": 5,
+    "new_to_saved_hold_hashes": 16,
+    "comments": 0,
+    "attachment_urls": 0
+  },
+  "held_records": [
+    {
+      "quest_id": 92708,
+      "field": "progress",
+      "level": 12,
+      "origins": [
+        [
+          3468,
+          117
+        ]
+      ],
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "status": "blank",
+      "historically_held_same_source_hash": true,
+      "canonical_present": false,
+      "unproven_tokens": [],
+      "required_proof": "Actual nonempty own-ID phase body, if phase exists; blank is not untranslated prose."
+    },
+    {
+      "quest_id": 94978,
+      "field": "description",
+      "level": 10,
+      "origins": [
+        [
+          3468,
+          137
+        ]
+      ],
+      "english_sha256": "5498920ffd281f925e22ee2bd3e39895e1b8dead0b2a85e13ee099cf980ee0c8",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 993,
+      "field": "progress",
+      "level": 20,
+      "origins": [
+        [
+          3469,
+          114
+        ],
+        [
+          3471,
+          72
+        ]
+      ],
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "status": "blank",
+      "historically_held_same_source_hash": true,
+      "canonical_present": false,
+      "unproven_tokens": [],
+      "required_proof": "Actual nonempty own-ID phase body, if phase exists; blank is not untranslated prose."
+    },
+    {
+      "quest_id": 98013,
+      "field": "progress",
+      "level": 20,
+      "origins": [
+        [
+          3471,
+          76
+        ]
+      ],
+      "english_sha256": "3898b70f94a21c812b5d835702e709f47e93308ca5e68872664aa93315822cbc",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$r"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 98418,
+      "field": "completion",
+      "level": 30,
+      "origins": [
+        [
+          3471,
+          254
+        ]
+      ],
+      "english_sha256": "352fe01cbebfc89f6245cf5c71656dd38f1993fb53ecb4b45740403ddf9b7a79",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$N"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 405,
+      "field": "description",
+      "level": 8,
+      "origins": [
+        [
+          3472,
+          161
+        ]
+      ],
+      "english_sha256": "27389f642559aa39b6adfcf6ae6659cbaafe0ddec15e2177420c0f4aec08311e",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$C",
+        "$N",
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 843,
+      "field": "progress",
+      "level": 23,
+      "origins": [
+        [
+          3472,
+          374
+        ],
+        [
+          3479,
+          113
+        ]
+      ],
+      "english_sha256": "6e9da677bf66a4482f0766be3a18a7440df2bca86c9c60f636d8c8e22cd41486",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$r"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 92483,
+      "field": "description",
+      "level": 2,
+      "origins": [
+        [
+          3472,
+          404
+        ]
+      ],
+      "english_sha256": "4122db992a312cb4e8c7b2b2158cfb96d75fda0c458b918687584f9771e4cd95",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 92483,
+      "field": "completion",
+      "level": 2,
+      "origins": [
+        [
+          3472,
+          408
+        ]
+      ],
+      "english_sha256": "383d626be2c79fbd7aa2cd4aa4e460a7fedf97e105313bfa1e7fe2ac4f17c423",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 1823,
+      "field": "description",
+      "level": 20,
+      "origins": [
+        [
+          3474,
+          90
+        ]
+      ],
+      "english_sha256": "2475e853939f9df8ccccfaa8de9143b75b13f8f0fd18aeeb63ae8cbf9013a4f5",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 1947,
+      "field": "description",
+      "level": 38,
+      "origins": [
+        [
+          3475,
+          67
+        ]
+      ],
+      "english_sha256": "8ee08ba28a3e7b37a5459bfe304e1610d5d77899c9740148aa81bcb28d5c12fd",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 94217,
+      "field": "description",
+      "level": 60,
+      "origins": [
+        [
+          3475,
+          87
+        ]
+      ],
+      "english_sha256": "7b0458f3f9a81d3ac7961211fdcd7ef2d01ae968b1292690e178b6aa4e515c6e",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$R"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 92485,
+      "field": "description",
+      "level": 2,
+      "origins": [
+        [
+          3476,
+          7
+        ]
+      ],
+      "english_sha256": "bf2e536830b77d4d71cb24f5471304d5c5071aaf4a25e8f214d2bd4f5af64ed3",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": true,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 3376,
+      "field": "progress",
+      "level": 5,
+      "origins": [
+        [
+          3479,
+          21
+        ]
+      ],
+      "english_sha256": "11d9d2f3ed91206d97c1ddf2d0f790c1921c4bbd293f41180ec089aac6ee0f4f",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": true,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$N",
+        "$r"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 4921,
+      "field": "description",
+      "level": 20,
+      "origins": [
+        [
+          3479,
+          62
+        ]
+      ],
+      "english_sha256": "25334d8d18cd73d94987ec29c3fb0be99da9a92a730b4e784f99de00a7c13085",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": true,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c",
+        "$r"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 98340,
+      "field": "description",
+      "level": 20,
+      "origins": [
+        [
+          3479,
+          73
+        ]
+      ],
+      "english_sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": true,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 97538,
+      "field": "progress",
+      "level": 26,
+      "origins": [
+        [
+          3479,
+          132
+        ]
+      ],
+      "english_sha256": "4b1b8a400c8683aab6cfee06e34883e490bd736072f43a0a6207d0ff6816edc7",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$r"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 97048,
+      "field": "completion",
+      "level": 38,
+      "origins": [
+        [
+          3479,
+          312
+        ]
+      ],
+      "english_sha256": "9e5cb6220a453c199ed120d75e94a98cd1672e31e5be5d24df9d15ba4fda8bbc",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": true,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$N"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 95792,
+      "field": "completion",
+      "level": 42,
+      "origins": [
+        [
+          3480,
+          68
+        ]
+      ],
+      "english_sha256": "1e6f12103d4a62e3dca07c9be7c7697773fc1f93339ace2f7cfce81085124d7f",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 95427,
+      "field": "completion",
+      "level": 41,
+      "origins": [
+        [
+          3480,
+          127
+        ]
+      ],
+      "english_sha256": "85119796964da9bb693c2e28f1bdf873598ba80e03bb82fde2fc88673c945d74",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$r"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 2202,
+      "field": "completion",
+      "level": 42,
+      "origins": [
+        [
+          3480,
+          273
+        ]
+      ],
+      "english_sha256": "12eca42d08d9ad4a54cc6b8f0a09fca89a4c42f4d836893f91f1e45fb5e3baf4",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$N"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 92878,
+      "field": "description",
+      "level": 43,
+      "origins": [
+        [
+          3480,
+          293
+        ]
+      ],
+      "english_sha256": "c33167b4108cb872da62fa11f0f25f42372b499006691cbabeb2b15d0b6a44a6",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": true,
+      "unproven_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    },
+    {
+      "quest_id": 93362,
+      "field": "completion",
+      "level": 43,
+      "origins": [
+        [
+          3480,
+          350
+        ]
+      ],
+      "english_sha256": "b7fcf9026bb2d4accf2f71591f4bc4567619703b87a6d9c467588720e65ef3aa",
+      "status": "held_identity_tokens",
+      "historically_held_same_source_hash": false,
+      "canonical_present": false,
+      "unproven_tokens": [
+        "$N"
+      ],
+      "required_proof": "Exact own-ID phase raw template/caller typed roles, not reader class/race normalization."
+    }
+  ],
+  "remaining_source_ready_in_this_evaluated_snapshot": 0,
+  "limitations": [
+    "VO selected4literal rows have export build70938 but no locale/line build evidence; exact row build unknown, English body preserved without identity inference.",
+    "Trace per-row build/current eligibility unknown. Old canonical support is separate from normalized-role holds.",
+    "No whole-game denominator or real Windows/MacM2 acceptance.",
+    "No newready remains in evaluated13issues/twofiledelta; this is not all main-phase/game completeness."
+  ],
+  "runtime_preservation": "through18Catalog exactprefix;139otherfiles/Atlas/fonts/28protected/CoreSpeech70938/Questie/settings unchanged",
+  "not_run": [
+    "old365/592/2886join",
+    "9Skills",
+    "NPC686",
+    "party",
+    "fullfontgeneration",
+    "gamecontrol"
+  ],
+  "candidate_policy": "0.466.0 PRIVATE TEST only after Root review; feed remains0.463.1, normal milestone cadence retained.",
+  "root_review": "main ef2d6a22",
+  "source_ready_remaining_in_this_snapshot": 0,
+  "fonts": "append32runs/127glyphs/Thai93 only",
+  "affected_bitmap33passed": true,
+  "tracker29_actual_bitmap_routes": 58,
+  "tracker_settings_wrongID_negatives": 116,
+  "prior139runtimefiles_note": "During pre-font data stage; final package separately allows Catalog/Atlas/TOC/SOURCES andThai93 only.",
+  "stop_after_immutable_delivery": true,
+  "unqualified_external_leads": [
+    {
+      "source": "ForeverDiff",
+      "root_observation": "References70532/pfQuestClassicbaseline;86752no contribution text",
+      "status": "not qualified new source, not audited by Cloud this round"
+    },
+    {
+      "source": "Warcraftforever.games/quests",
+      "root_observation": "1609beta records, parser no rows/phase export",
+      "status": "not qualified new source, not audited by Cloud this round"
+    }
+  ],
+  "next_scope": "Only genuinely new own-ID MAIN sources/typed proof or actual game feedback; no re-poll old held/365/592/2886/36EG."
+}

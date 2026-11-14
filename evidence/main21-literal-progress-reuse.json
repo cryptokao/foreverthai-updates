@@ -1,0 +1,53 @@
+{
+  "batch": "MAIN21",
+  "input_issue": 3481,
+  "baseline_source": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "fields": [
+    {
+      "quest_id": 94233,
+      "field": "progress",
+      "level": null,
+      "level_note": "Not provided by new export; no unchanged-source re-audit/guessed level.",
+      "english": "I watched this whole place get burned to the ground and that keep toppled over. It was glorious.\r\n\r\nNever expected a group of bandits to try using this place as a base of operations.",
+      "thai": "ข้าเห็นที่นี่ถูกเผาจนราบและเห็นป้อมถูกโค่นลงกับตา สะใจจริง ๆ\n\nไม่คิดว่าจะมีพวกโจรสักกลุ่มมาพยายามใช้ที่นี่เป็นฐานปฏิบัติการ",
+      "english_sha256": "1745c1e1c895e792c1094d83a9749deb302cb73165d7b85ab8936f2ee7d11a03",
+      "thai_sha256": "e96e11355e7994f8d052f5134b93bb68ae406d55caa18aa0e4f9df4aa9412a62",
+      "signature": "179:359504858:1889618361",
+      "source_url": "https://github.com/quinn-dougherty/forever-vo/issues/3481",
+      "source_line_index": 187,
+      "source_heading": "quest event progress",
+      "source_record": {
+        "k": "quest",
+        "q": 94233,
+        "e": "progress",
+        "t": "Craftsman's Writ: Practice Lock",
+        "n": "261932",
+        "s": "Gorgrash",
+        "x": "I watched this whole place get burned to the ground and that keep toppled over. It was glorious.\r\n\r\nNever expected a group of bandits to try using this place as a base of operations."
+      },
+      "original_record_sha256": "38faad3d53a94b8986d468b99ce5150443a9f9214a304aa9be2c602a074149cc",
+      "source_proof": "Full literal body keyed by actual quest ID94233 and progress event in FVO1; no identity/counter tokens or captured names in selected text.",
+      "reuse_from": {
+        "quest_id": 94233,
+        "field": "progress",
+        "kind": "Existing reviewed own-ID Thai covers entire literal meaning; preserve canonical wording verbatim."
+      },
+      "export_header_build": "70938",
+      "export_header_locale": "enUS",
+      "row_client_build": "not independently recorded",
+      "current_enabled_usage": "unproven"
+    }
+  ],
+  "new_thai_fields": 0,
+  "new_prose_bodies": 0,
+  "reused_ownID_wording": 1,
+  "newly_supported_source_variants": 1,
+  "new_quest_entries": 0,
+  "typed_holds": 1,
+  "root_review": "APPROVED_SOURCE_ONLY mainb7cb1abe5ee7c25785284515d28c7064fdd6fc26; no package/publication",
+  "font_version_package_feed_changed": false,
+  "scope": "One exact literal source variant only, not a new whole quest/phase-body translation or whole-game coverage.",
+  "approved_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "pending_next_substantive_combined_package": true,
+  "latest_immutable_private19_includes_this_variant": false
+}

@@ -1,0 +1,69 @@
+## Interface: 16001
+## Title: |cffFF8000Lib: QuestDB|r |cff999999Forever|r
+## Notes: Standalone offline quest database for the TOG suite: quest rewards (items, choices, money, reputation, spells) without the quest being in your log. Fills the gap Questie leaves.
+## Author: Pimptasty
+## Version: QuestDB-v0.1.0
+## Category: Library
+## X-Curse-Project-ID: 1700352
+## DefaultState: enabled
+## OptionalDeps: Questie
+
+libs\LibStub\LibStub.lua
+
+LibQuestDB-1.0.lua
+
+# WoW Forever -- the client's `camelot` game type. ItemDB names its own file for the game type
+# (ItemDB_Camelot.toc) and this matches it, while the DATA folder is Data\Forever, because that is
+# the product's name and the name ItemDB's Data\Forever uses.
+#
+# THIS FLAVOUR'S DATA IS CLASSIC'S SERVER CONTENT ON FOREVER'S CLIENT TABLES, and the split is the
+# whole design. Forever has no CMaNGOS world database, so every server-side fact -- rewards, quest
+# structure, text, spawn positions, drop rates, the route graph -- is generated from the CLASSIC
+# dump, which is sound because Forever keeps Classic's ids (2 of Era's 4,807 QuestV2 ids are absent
+# from it; all 87 TaxiNodes and all 1,212 AreaTable ids survive). Everything the CLIENT decides is
+# generated at Forever's own build 1.60.1.69913: the zone rectangles that turn a world position
+# into a map coordinate, the area and map tables, the quest-sort names, the XP tiers and the
+# faction templates behind every side. Four zone rectangles moved between the two builds, so this
+# is not a copy of the Vanilla files and must never be replaced by one.
+#
+# ONE EXCEPTION, and it is the only one: a trigger position absent from Forever's AreaTrigger is
+# taken from Era's build, because the ids in that table are named by the CLASSIC dump -- the same
+# doorway in the same world. Without it Forever shipped 6 of 26 dungeon entrances; with it, 26.
+# The world-to-map conversion still uses Forever's rectangles. See wago_rows_for_dump_ids.
+#
+# FOREVER'S OWN QUESTS (ids 65309-99234) are in no server database. The ones the client itself
+# describes come from TOGTools' in-game walk (tools/build-forever-harvest.py): Harvest.lua carries
+# their level and group size, enUS\HarvestText.lua their title and objectives. They have no givers,
+# finishers, zone or rewards -- the walk cannot see those. Both load after the dump's own files and
+# never share an id with them.
+Data\Forever\_core\Rewards.lua
+Data\Forever\_core\Quests.lua
+Data\Forever\_core\Harvest.lua
+Data\Forever\_core\Coverage.lua
+Data\Forever\_core\QuestXP.lua
+Data\Forever\_core\NPCs.lua
+Data\Forever\_core\Objects.lua
+Data\Forever\_core\NPCSpawns.lua
+Data\Forever\_core\ObjectSpawns.lua
+Data\Forever\_core\Drops.lua
+Data\Forever\_core\Zones.lua
+Data\Forever\_core\Paths.lua
+Data\Forever\_core\Approaches.lua
+Data\Forever\_core\Locales.lua
+
+# Quest, NPC, object and quest-sort text, one file each per locale (tools/build-text.py,
+# tools/build-npcs.py, tools/build-zones.py). Each self-selects through lib:WantsLocale(). ENGLISH
+# ALWAYS LOADS and a translation is laid over it FIELD BY FIELD (MINOR 16), so a locale file listed
+# after these fills in what it has and leaves the rest in English. Forever ships English only: its
+# text comes from the Classic dump, whose locales_quest table is empty.
+Data\Forever\enUS\Text.lua
+Data\Forever\enUS\HarvestText.lua
+Data\Forever\enUS\NPCText.lua
+Data\Forever\enUS\ObjectText.lua
+Data\Forever\enUS\SortText.lua
+
+# LAST, and after every Data file: the optional Questie source (MINOR 12). Questie's curated rows
+# answer where Questie is installed and the data above is the fallback where it is not, which is
+# the operator's directive of 2026-09-22. It reads the shipped rows for the counts Questie does
+# not carry, so it must load after them; with Questie absent it registers nothing.
+QuestieSource.lua

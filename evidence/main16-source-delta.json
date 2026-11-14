@@ -1,0 +1,3101 @@
+{
+  "scope": "Bounded new MAIN-only continuation. No old365/592triage or NPC/Skills/party/full suites rerun. No raw captured character names published. All counts source records, not whole-game denominator.",
+  "baseline_source": "d0fc7a8631016ef4d8687c153656af96e7950f48",
+  "vo_issue_range": [
+    3430,
+    3467
+  ],
+  "issues": 38,
+  "vo_counts": {
+    "nonmain_ignored": 2236,
+    "supported_exact": 572,
+    "held_identity_tokens": 19,
+    "supported_normalized_diagnostic_only": 230,
+    "blank": 3,
+    "duplicate_main_occurrences": 317,
+    "literal_candidate": 3
+  },
+  "vo_unique_main_forms": 827,
+  "vo_source_pins": [
+    {
+      "issue": 3430,
+      "created_at": "2026-11-12T18:22:14Z",
+      "updated_at": "2026-11-12T18:22:23Z",
+      "comments": 0,
+      "body_sha256": "38794c238eb0283d6376707caf63d4d25c1b8b156dfd21ca12784fb7569d327c",
+      "issue_sha256": "e9d5ed88701be7e03acfef39c89baafa47c2af0f7b4ce36924f2c27c94de5856",
+      "decoded_sha256": "ed2ea319d49da849b6ee4eed6c5451f7892f547520c86840c8eaed74bd11ad3d",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 251
+    },
+    {
+      "issue": 3431,
+      "created_at": "2026-11-12T19:53:37Z",
+      "updated_at": "2026-11-12T19:53:37Z",
+      "comments": 0,
+      "body_sha256": "5de136f21aaf33b55d0c46a44f6726ce887a4813a6add36200d77dad5dea1b6d",
+      "issue_sha256": "966df80d7172904830840c09bdbbfd995b9f340711ba6958779f278ce3a78f71",
+      "decoded_sha256": "49c45f174cdf8f53a2757b353ca8e812ff48b300b636e776bf149f3af83e765d",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 196
+    },
+    {
+      "issue": 3432,
+      "created_at": "2026-11-12T19:56:03Z",
+      "updated_at": "2026-11-12T19:56:03Z",
+      "comments": 0,
+      "body_sha256": "4a157ceca3a75515073176b52e0db75e7e43669f55d64462eea6c0f8c9059793",
+      "issue_sha256": "2e8bb7896397644eb520b0e4240f95e7a32c19ee238ef1b176c19de3534e7ee5",
+      "decoded_sha256": "27cfeacd6e65cac6363e43f22a1582f6a9264cd9221d75211b266feeaf677754",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 260
+    },
+    {
+      "issue": 3433,
+      "created_at": "2026-11-12T19:57:03Z",
+      "updated_at": "2026-11-12T19:57:03Z",
+      "comments": 0,
+      "body_sha256": "a8d7bfa62ce2ee3e0996383c6ac10d7b6999d0180cc3dd9ba2cde4310585c8eb",
+      "issue_sha256": "4ac4e9aa1c6fa70ee263f2446e1d02d2184bae6076ce1c1ec707e097e09ff899",
+      "decoded_sha256": "f8ce5791dd9e1eb7f2cf4c0e9ec7860f0cabcc5c569ec3bea5a49c82d8b98b9d",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 487
+    },
+    {
+      "issue": 3434,
+      "created_at": "2026-11-12T19:57:29Z",
+      "updated_at": "2026-11-12T19:57:29Z",
+      "comments": 0,
+      "body_sha256": "197f1a23f2977dd43ceff72ff0a36b640990fff37d92ca4911d67f1ae0ca06ad",
+      "issue_sha256": "f41da3cdecae8fe7e6bfc059a0fd761077350a29266049e3771849a6f560d641",
+      "decoded_sha256": "4d417b9ee963f19c23d4939777f11f4a63ff9cbb7c2bc352bc7423404d91a677",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 260
+    },
+    {
+      "issue": 3435,
+      "created_at": "2026-11-12T21:29:03Z",
+      "updated_at": "2026-11-12T21:29:03Z",
+      "comments": 0,
+      "body_sha256": "cfb838082531ea9ae4c1342c40eaca82fd7387e622a44ec2029d306613c58f75",
+      "issue_sha256": "883cdbff95bb4fc07d5739370bff2c6a2730868856b2f137ba7f228a124df339",
+      "decoded_sha256": "e22cce472df771888859c85cf68db289a2fd44cbea3f3db309210e318d530159",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 55
+    },
+    {
+      "issue": 3436,
+      "created_at": "2026-11-12T21:51:31Z",
+      "updated_at": "2026-11-12T21:51:31Z",
+      "comments": 0,
+      "body_sha256": "123cb4f21b66eb05184b957697abee88dae649a334cd73d88d4feac19634f17f",
+      "issue_sha256": "2ea7f0807101df7206f517291889e6f4a4a69e34e1bf5d2546da2842aa4e8292",
+      "decoded_sha256": "414028ee732a67694982f9c956cd8a32b5fe0c6865cdc2f073524b188ae8bcbd",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 143
+    },
+    {
+      "issue": 3437,
+      "created_at": "2026-11-12T21:59:17Z",
+      "updated_at": "2026-11-12T21:59:17Z",
+      "comments": 0,
+      "body_sha256": "e2e5385fb3b7e47e409110fa77753101ecc38bdf3165824e179aa6c21020f96b",
+      "issue_sha256": "4a382e4a41a3b6a7800a7100f8d7d895c7f68949fdbcdddd9a3d318e1b6ecab9",
+      "decoded_sha256": "2de2fed86b2d3bd1a6795f7295520654ca33ebd7954730ca0fc40b4285bb8334",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 219
+    },
+    {
+      "issue": 3438,
+      "created_at": "2026-11-12T22:37:54Z",
+      "updated_at": "2026-11-12T22:37:54Z",
+      "comments": 0,
+      "body_sha256": "ee1074bf18ec07b185520c2e2c69c5380b659476c5500f00ca9204f266012ca4",
+      "issue_sha256": "b90cdb2ca44e8f19773f06a91be9cf9fb59e1f63f2dea9e4a9e53e66b3bd7e23",
+      "decoded_sha256": "911241e6e3df148281ef91c4db8846fbe160ba2bfbad42a8a3b5afc6a1313dfc",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 418
+    },
+    {
+      "issue": 3439,
+      "created_at": "2026-11-12T22:38:44Z",
+      "updated_at": "2026-11-12T22:38:44Z",
+      "comments": 0,
+      "body_sha256": "9ddc4fe51c0374980c567ed9cf196de401c8c1c001b93839e9a18f94cb8414c0",
+      "issue_sha256": "0edfc473164d3ec8bd4a01e08e46139038efe55e0e5dfaf930486163f0a36ba6",
+      "decoded_sha256": "ef229092abe33b1f37d79010ec09214bf13ebdea31b7be8c3a77827d1d4c7f04",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 11
+    },
+    {
+      "issue": 3440,
+      "created_at": "2026-11-12T22:52:22Z",
+      "updated_at": "2026-11-12T22:52:22Z",
+      "comments": 0,
+      "body_sha256": "62076eec62a855de65d336004eba2d83a7ce4da8379fc7ab27e74a9522db0a5f",
+      "issue_sha256": "42b70e1e4287bdca42bdbc321da01687ad036cc99a7c4fab56d3ab855f1029d6",
+      "decoded_sha256": "f19bce09b7e3205e0b92c52a2ef997f242752fdcceaaab2076eef75288d7eb7f",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 38
+    },
+    {
+      "issue": 3441,
+      "created_at": "2026-11-12T22:52:39Z",
+      "updated_at": "2026-11-12T22:52:39Z",
+      "comments": 0,
+      "body_sha256": "a83d7ceb258946b336c3a38c8a527203ac85a465d5133d496fc02d35a58ae619",
+      "issue_sha256": "bb873a6a07d514b088ec7d78c56f8bbcf676b81323da01337c331b09ce9d53b1",
+      "decoded_sha256": "c2e06bf1d72868382d57401c5fe6ff8940e2bdd9b4c750234b40860987cfff69",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 20
+    },
+    {
+      "issue": 3442,
+      "created_at": "2026-11-12T22:52:45Z",
+      "updated_at": "2026-11-12T22:52:45Z",
+      "comments": 0,
+      "body_sha256": "bc1ac241e1abfb8ab87e3bc48bcb90e1e8f25693a3e49c0580b9a987d5592176",
+      "issue_sha256": "2cbafbf623db04165498a0a413ac2f0207a3e5a4aa146858878e72593bb65137",
+      "decoded_sha256": "fd987d9690b214249aa39dfa0aa38394df0ef0fe09e89304a9dcfbcdfcee39a9",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 30
+    },
+    {
+      "issue": 3443,
+      "created_at": "2026-11-12T22:52:51Z",
+      "updated_at": "2026-11-12T22:52:51Z",
+      "comments": 0,
+      "body_sha256": "68d217679978d08f484849f323e814a4cc1312cf4c7cb214f546856674bfe121",
+      "issue_sha256": "31766b8230d1b44e10fd34d98228ee1830f225946a2646aa6d1d58d209f7249d",
+      "decoded_sha256": "c8416ea9ac87354cef0dc1ddd8a1651363f3d668a441733aed159d5bc3fcbfd5",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 28
+    },
+    {
+      "issue": 3444,
+      "created_at": "2026-11-12T22:52:57Z",
+      "updated_at": "2026-11-12T22:52:57Z",
+      "comments": 0,
+      "body_sha256": "54dac9640e7c510ec8d2ea90867a802db800ae6f4716dcdfbb6a7407e5fb3d2e",
+      "issue_sha256": "c758a646d82fb4e0f997a3ae2ce923db5f7bca2801f492d215ba2c207553e942",
+      "decoded_sha256": "db7fd3e4020aca25121f2cbfdc6c93ac91270acd8919c6c3dda0158bf8a3ed71",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 32
+    },
+    {
+      "issue": 3445,
+      "created_at": "2026-11-12T22:53:04Z",
+      "updated_at": "2026-11-12T22:53:04Z",
+      "comments": 0,
+      "body_sha256": "0562199cfd581408f1228cac6408150415907dc90eb1d378c46dd8c0d6f67969",
+      "issue_sha256": "56a646f74369bcf2c8e26ed66917cbeee2b82597bf0e6f79087d6de74c276fa6",
+      "decoded_sha256": "f825f4e31e27b6d308d033ccfba3d228534de8076257500459279b612872f490",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 32
+    },
+    {
+      "issue": 3446,
+      "created_at": "2026-11-12T22:53:10Z",
+      "updated_at": "2026-11-12T22:53:10Z",
+      "comments": 0,
+      "body_sha256": "7785858453dfdab87e9f4da61ba926f4c52a64b7fcf7c41ea21a09387bcee443",
+      "issue_sha256": "213f94b1b7bb54cc020fc8c1d54721d3373c66ddcb81b43045bc9767c76135ad",
+      "decoded_sha256": "c56490001be9009256c703e7ef4d1b01e09b612770aa3afc3012c66499e216b1",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 28
+    },
+    {
+      "issue": 3447,
+      "created_at": "2026-11-12T22:53:15Z",
+      "updated_at": "2026-11-12T22:53:15Z",
+      "comments": 0,
+      "body_sha256": "9e027bd8ffdcb34402a20f9dc44ff7994738b954dea275601a755ed32d82ef23",
+      "issue_sha256": "a5c1ee3caedd8cfcbb8649b0a6b951a4f620323117f47d950250df7fa61e9a68",
+      "decoded_sha256": "ad4c26db679bfb1ba67673f61fcf4b70ad5252c722c1ab7facecd3fa0eae4a5b",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 13
+    },
+    {
+      "issue": 3448,
+      "created_at": "2026-11-12T23:34:41Z",
+      "updated_at": "2026-11-12T23:34:41Z",
+      "comments": 0,
+      "body_sha256": "bf1e83750c3b47cd3db37a9439a91c8c91b827d0a2fd8aa5cf7e98c609d46e0d",
+      "issue_sha256": "9b2dbbc6e83f62ee9d621dd7a9d8a8562bf5bab7098a511440428bd3e00e86f1",
+      "decoded_sha256": "f1f0dcbaca4aa6dd2805aa7a1c14529d6e3bbf9cb19168c8018f2440972a8de8",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 25
+    },
+    {
+      "issue": 3449,
+      "created_at": "2026-11-13T00:24:03Z",
+      "updated_at": "2026-11-13T00:24:03Z",
+      "comments": 0,
+      "body_sha256": "48cc14d9ca761ff03242f3c3b35e2eca0c8024c851c7d5a6aed3c1f25e58719c",
+      "issue_sha256": "04f8d50b0978b01905d069d4a7b17912d3e043a7ee69851a277a650d9713f55e",
+      "decoded_sha256": "ab0cd4bf74087346d441cc9445b17ec1428160ac23eeadca60ab40b331fad2f9",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 52
+    },
+    {
+      "issue": 3450,
+      "created_at": "2026-11-13T01:05:09Z",
+      "updated_at": "2026-11-13T01:05:09Z",
+      "comments": 0,
+      "body_sha256": "fbb0706ffa2caed78c7a07bf03078589a609ec205c5d82b3ac6c71d5b1a0ad05",
+      "issue_sha256": "4e09fff67d23b26de4ddfe473d703403f47ec358d4b55e02d9785ec458008a23",
+      "decoded_sha256": "cf85de23572c74ab2ec4c6843bdaa5349e6775c207f162b598f62eed3b301c99",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 149
+    },
+    {
+      "issue": 3451,
+      "created_at": "2026-11-13T04:32:54Z",
+      "updated_at": "2026-11-13T04:32:54Z",
+      "comments": 0,
+      "body_sha256": "5e588b54eace69d7b8d07d8e5a0c381b641415855d1ee35dc4c19082bab8118b",
+      "issue_sha256": "c29f545f1acf1e64be89be736281b7b44d7ab5c961b01232660e5fafae93195c",
+      "decoded_sha256": "c19e1df8837149da1f4d57645a72d2caa5a5cfd4fa9ad27f86f03dce1f9a4f40",
+      "build": "70888",
+      "locale": "enUS",
+      "lines": 47
+    },
+    {
+      "issue": 3452,
+      "created_at": "2026-11-13T06:58:03Z",
+      "updated_at": "2026-11-13T06:58:03Z",
+      "comments": 0,
+      "body_sha256": "2b4d9fce13008a88412f06489fb53af1b6f247c0ac6746da3649545f30ef4533",
+      "issue_sha256": "47d08918fb1a54b92e0724bf373217e91495a084ebdd550338ccdb66daf4038c",
+      "no_payload": true
+    },
+    {
+      "issue": 3453,
+      "created_at": "2026-11-13T09:03:49Z",
+      "updated_at": "2026-11-13T09:03:49Z",
+      "comments": 0,
+      "body_sha256": "14bbe99d21228a8649ba28e42d39c85539ea4f62c309103d808bf2aa05787394",
+      "issue_sha256": "019e457fab7422d09265f25ba7b775500eefe1fe75ab9a2d94cf3fcfa1c78652",
+      "decoded_sha256": "32f190c564e3a528a127e778e9db19faee1bfb5c1f9edbe0f767195c047208e5",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 35
+    },
+    {
+      "issue": 3454,
+      "created_at": "2026-11-13T10:55:07Z",
+      "updated_at": "2026-11-13T10:55:07Z",
+      "comments": 0,
+      "body_sha256": "ada16b63be81ce3e8783a08d62153d260d80859d5760869d0bb5fa2a7737b119",
+      "issue_sha256": "057d9f68e1a208fc4cefa0813155078999b431c359ff4a8ebc0a901fef48c59b",
+      "decoded_sha256": "c2e953a648ef50ce7dde25eacd7a40cd53f206c35e091aaaa6e1ec846721f83d",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 45
+    },
+    {
+      "issue": 3455,
+      "created_at": "2026-11-13T10:59:16Z",
+      "updated_at": "2026-11-13T10:59:16Z",
+      "comments": 0,
+      "body_sha256": "1efc96bbdb6b23097d46e1addb4a17257dd38886edf27678d5e035c66b918f5d",
+      "issue_sha256": "3d35879a637de33977c07a0de3e17f02eb116271a40d9f32bbb5f26bed29095b",
+      "no_payload": true
+    },
+    {
+      "issue": 3456,
+      "created_at": "2026-11-13T11:23:47Z",
+      "updated_at": "2026-11-13T11:23:47Z",
+      "comments": 0,
+      "body_sha256": "06c35c671234966afd9fbf40292b327c946a5a5a66438652c55a2cfa05a434d7",
+      "issue_sha256": "bbcbabfd3ad50918fc01d6f31940d146dd7439d7bf039cd94b1b617b229cf5c8",
+      "decoded_sha256": "529a34ace077a3d94db512375b1bce3519b8dccde443ebf6ed6101443c052a6a",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 26
+    },
+    {
+      "issue": 3457,
+      "created_at": "2026-11-13T12:25:28Z",
+      "updated_at": "2026-11-13T12:25:28Z",
+      "comments": 0,
+      "body_sha256": "c6a3bae6a246c52d24eb494b1e9c090f1fc4d7dc9ebd17e246395d65b1ab7636",
+      "issue_sha256": "a4a5ded699af86649554a089c577b241bc291e35a7a6b8f34e7078496fe9b521",
+      "decoded_sha256": "f6e3de3e46583e6b7b400175f689066176496173cd836a19980d713efb2bf83b",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 3
+    },
+    {
+      "issue": 3458,
+      "created_at": "2026-11-13T12:36:35Z",
+      "updated_at": "2026-11-13T12:36:35Z",
+      "comments": 0,
+      "body_sha256": "22f6e527fa65b83f60d189ce8f4aa5ea10245662a87695afc4c0f30436f7dd4f",
+      "issue_sha256": "65f67b150d7d88a818522b534915df23dd261109f88dd4d86d3afd9a29f71254",
+      "decoded_sha256": "d35a3ac577971fae92a5f15d645ca7af25c6a2c88f49ea6c6cc157a8126b0cd5",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 124
+    },
+    {
+      "issue": 3459,
+      "created_at": "2026-11-13T13:10:18Z",
+      "updated_at": "2026-11-13T13:10:18Z",
+      "comments": 0,
+      "body_sha256": "faef73cdd6afa723a0445509f24e8d2907f653e611a90f7481b39c9bdeb8d768",
+      "issue_sha256": "ca189e7c66c0a80386b26ceea6ced05929b8ad891aa38fedb94a861e9018b28e",
+      "decoded_sha256": "39e61c721496c5d34c2b1b2aa78eaf8d75c7d7737d395cc889ffb0d096b0833f",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 86
+    },
+    {
+      "issue": 3460,
+      "created_at": "2026-11-13T13:15:30Z",
+      "updated_at": "2026-11-13T13:15:30Z",
+      "comments": 0,
+      "body_sha256": "3dfb7b3d080beb638df447fbf19224b66cb4bfda0d340244ce7b17297becb201",
+      "issue_sha256": "ff50af5676988c9ecc93b60ad39454768c426462f731127179ebc57846aae1de",
+      "no_payload": true
+    },
+    {
+      "issue": 3461,
+      "created_at": "2026-11-13T13:41:37Z",
+      "updated_at": "2026-11-13T13:41:37Z",
+      "comments": 0,
+      "body_sha256": "7c7dda40fc0559e43852c396147153977d2395417c6fb6c244f892059ed21a76",
+      "issue_sha256": "d3aee445385213133ae65ba4f3a97018b5de931766fe8fceff76f1c08fdd75b4",
+      "decoded_sha256": "dbde0453c100d039ff77cb0e244b0bae435173788d0ab793004d826dd0214a94",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 28
+    },
+    {
+      "issue": 3462,
+      "created_at": "2026-11-13T13:42:01Z",
+      "updated_at": "2026-11-13T13:42:01Z",
+      "comments": 0,
+      "body_sha256": "c437125cb43186672ad86ce8ccbd699abdb1723fd9c642564768016f8f77b074",
+      "issue_sha256": "447a062cba25cc09284e6426c0f56c7d63cd2a69d9f50f8603e9388431ab29e5",
+      "decoded_sha256": "75f1a4d58b6370b1127aca3bddf228b0a3646f2d8ac791fbb25377a2e564a6d5",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 31
+    },
+    {
+      "issue": 3463,
+      "created_at": "2026-11-13T13:42:15Z",
+      "updated_at": "2026-11-13T13:42:15Z",
+      "comments": 0,
+      "body_sha256": "f51b161380c5b97c981afd6746ea36a61a6e55fbbccf3f10d2551ebb67ce5be4",
+      "issue_sha256": "28ab3bd3e8add6548203993b7bb8155fd607299ece72d78048c3e055b9cb6640",
+      "decoded_sha256": "fba784dfc0f251fe2c86f88489b66d624d8c03da38c00d1d70071f6f02a7f38d",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 21
+    },
+    {
+      "issue": 3464,
+      "created_at": "2026-11-13T13:42:27Z",
+      "updated_at": "2026-11-13T13:42:27Z",
+      "comments": 0,
+      "body_sha256": "e8560189d832d8b1fac242b95456c3dfdeda478d267d10e40fd452e8d277f9ed",
+      "issue_sha256": "5e59f228b7022cee488acfe92b1669ba5ef0975e863236502d453a04bafcff90",
+      "decoded_sha256": "6b77711b688dee6f54fba48006d4612511834f154970a3ae52f0c14b9ad86fcf",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 25
+    },
+    {
+      "issue": 3465,
+      "created_at": "2026-11-13T13:42:47Z",
+      "updated_at": "2026-11-13T13:42:47Z",
+      "comments": 0,
+      "body_sha256": "03439b7529e8839fe0b9610acbc5b021db0ac36c971927dff45e848c311bdc5f",
+      "issue_sha256": "83192ebfccdb5e0a1acc87810d98db0e548bc8d57f4a46951f6244611c1b9aa3",
+      "decoded_sha256": "1366a37c2029ef6e6a65a79e876086f7291a4f30fd26511019965ebb22b56c1f",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 16
+    },
+    {
+      "issue": 3466,
+      "created_at": "2026-11-13T14:18:37Z",
+      "updated_at": "2026-11-13T14:18:37Z",
+      "comments": 0,
+      "body_sha256": "1fc77bd97d5df2868a92835f16e72516079bb5658370d4d08c9509b57e2f2297",
+      "issue_sha256": "6a99749827a662387a01332424552907e6ffbb9d05d5128a58d4b3fad0a07518",
+      "decoded_sha256": "3bf8b40795c266ba5ee57f4c2c9765db5b23ff274794a74142a8d3fbc717ec3c",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 10
+    },
+    {
+      "issue": 3467,
+      "created_at": "2026-11-13T14:51:14Z",
+      "updated_at": "2026-11-13T14:51:14Z",
+      "comments": 0,
+      "body_sha256": "d7f6f3304e40125b5ebce14d90ecf27e2b2d62888fbb6db4a2b33a20a855c356",
+      "issue_sha256": "463ffd46af5fe9da695349107a8edf72473b1e0a5523a98d36fc34cb80a892d4",
+      "decoded_sha256": "ca4172c36c3b1b2580016fc2eccf716d377b151ed1f51f731ee030c3a7406609",
+      "build": "70938",
+      "locale": "enUS",
+      "lines": 136
+    }
+  ],
+  "vo_supported_diagnostic_note": "230 normalized forms match after diagnostic reader substitution; not independent typed-role proof and not newly added translation coverage.",
+  "vo_new_ready": 0,
+  "vo_new_binding_reuse": 1,
+  "vo_held": [
+    {
+      "quest_id": 94490,
+      "field": "description",
+      "level": 12,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "23a095f73fd0dab3c44536b6d8c667c738695dbb078d80c6491f419c3360faf0",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3430,
+          47
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 96294,
+      "field": "description",
+      "level": 30,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "7f6f79d24eac00556d9abc474dcaa5e9a0a3ff75f64bd6f98d7d781536e95e1c",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3430,
+          202
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 92910,
+      "field": "progress",
+      "level": 15,
+      "status": "blank",
+      "source_kind": "vo",
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "reason": "Blank progress, not missing translatable prose.",
+      "origins": [
+        [
+          3431,
+          67
+        ]
+      ],
+      "origin": null
+    },
+    {
+      "quest_id": 95603,
+      "field": "completion",
+      "level": 38,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "a8bc85ff99459dbfca4565a18bbd68bc7bfa4719e134044dc83a6c93331f7f0d",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3432,
+          2
+        ],
+        [
+          3434,
+          2
+        ],
+        [
+          3438,
+          350
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 92485,
+      "field": "description",
+      "level": 2,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "bf2e536830b77d4d71cb24f5471304d5c5071aaf4a25e8f214d2bd4f5af64ed3",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3432,
+          51
+        ],
+        [
+          3434,
+          51
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 98581,
+      "field": "description",
+      "level": 1,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "999dbf94e7ca5f1d8d5d0d6c8daa2dce587ab8fba88b8853abab655efafd3859",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3432,
+          61
+        ],
+        [
+          3434,
+          61
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 94373,
+      "field": "description",
+      "level": 4,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "8fb1d92070bc099ee68eadc3e943d9edbb719dbbbd6870b515aeda5d27734e44",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3432,
+          130
+        ],
+        [
+          3434,
+          130
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 94374,
+      "field": "description",
+      "level": 4,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "1b364db6e50808fbf968d4d56aae8c647267de2017122a9bdc21946831b7a381",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3432,
+          134
+        ],
+        [
+          3434,
+          134
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 257,
+      "field": "completion",
+      "level": 16,
+      "status": "literal_candidate",
+      "source_kind": "vo",
+      "english_sha256": "d881e416c918671478033c982638dc4ff4f3558f29558654429c258e4d1ae5f5",
+      "reason": "Raw captured character-name mismatch; need own-ID full source with explicitly typed name position. Raw body/name withheld.",
+      "origins": [
+        [
+          3433,
+          101
+        ]
+      ],
+      "origin": null
+    },
+    {
+      "quest_id": 258,
+      "field": "description",
+      "level": 17,
+      "status": "literal_candidate",
+      "source_kind": "vo",
+      "english_sha256": "d4c7c0bba269d50883f9e772283cca8d61043a9fc701ea02d15d6be315e17571",
+      "reason": "Raw captured character-name mismatch; need own-ID full source with explicitly typed name position. Raw body/name withheld.",
+      "origins": [
+        [
+          3433,
+          102
+        ]
+      ],
+      "origin": null
+    },
+    {
+      "quest_id": 1199,
+      "field": "progress",
+      "level": 25,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "58f398099bf9a53bf2a2072f77381db192e86f7856a834b207c2a359b11388fa",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3433,
+          317
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 583,
+      "field": "description",
+      "level": 30,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "0b44c9c567e287142baad4ab87f95a82f29dd0405b458be3ed91e46b8ede8363",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3433,
+          398
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 3376,
+      "field": "progress",
+      "level": 5,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "11d9d2f3ed91206d97c1ddf2d0f790c1921c4bbd293f41180ec089aac6ee0f4f",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3437,
+          9
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$N",
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 4921,
+      "field": "description",
+      "level": 20,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "25334d8d18cd73d94987ec29c3fb0be99da9a92a730b4e784f99de00a7c13085",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3437,
+          68
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c",
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 98340,
+      "field": "description",
+      "level": 20,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "9d8f145a0caff0faf52d7db68e76b64e458608bfeb185cb8e2fa4c338c37ed99",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3437,
+          165
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 92457,
+      "field": "description",
+      "level": 33,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "c4ff134a43b3ca7661b0a3bc85b31fefd50fa8cfd1a0d901f28a1db69ffc5239",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3438,
+          215
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 97048,
+      "field": "completion",
+      "level": 38,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "9e5cb6220a453c199ed120d75e94a98cd1672e31e5be5d24df9d15ba4fda8bbc",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3438,
+          240
+        ],
+        [
+          3459,
+          67
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$N"
+      ]
+    },
+    {
+      "quest_id": 93585,
+      "field": "completion",
+      "level": 34,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "c7f4edc2e361be7da823c90f2aa1afea35023a4fb267b4a68b710657102ee27a",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3438,
+          277
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 93464,
+      "field": "description",
+      "level": 38,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "e923914e4725dfabef34fb150f42fa5f387ab1ee5b6243c55a4b0256d24f1545",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3438,
+          278
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$N",
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 95883,
+      "field": "description",
+      "level": 23,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "e80de5cdc8bc0d4ec1061aa660222e3a18a38dfad65a8121a9c5683b8b80a254",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3445,
+          18
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 65604,
+      "field": "description",
+      "level": 20,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "a601055d493f478cfcb96d02b0c733b8b999dfeab1c4db93a6efacd02f802091",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3446,
+          12
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$N",
+        "$c"
+      ]
+    },
+    {
+      "quest_id": 1458,
+      "field": "progress",
+      "level": 33,
+      "status": "held_identity_tokens",
+      "source_kind": "vo",
+      "english_sha256": "90112c3cdfd37cc68c9986a824a97302af638b60b24c65cc99ba4b9cbfb04fd6",
+      "reason": "Normalized $N/$C/$R does not prove each occurrence is a player role. Need exact own-ID phase raw typed body/caller proof; preserve canonical.",
+      "origins": [
+        [
+          3459,
+          2
+        ]
+      ],
+      "origin": null,
+      "unproven_token_types": [
+        "$r"
+      ]
+    },
+    {
+      "quest_id": 1465,
+      "field": "progress",
+      "level": 33,
+      "status": "blank",
+      "source_kind": "vo",
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "reason": "Blank progress, not missing translatable prose.",
+      "origins": [
+        [
+          3459,
+          6
+        ]
+      ],
+      "origin": null
+    },
+    {
+      "quest_id": 993,
+      "field": "progress",
+      "level": 20,
+      "status": "blank",
+      "source_kind": "vo",
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "reason": "Blank progress, not missing translatable prose.",
+      "origins": [
+        [
+          3461,
+          12
+        ]
+      ],
+      "origin": null
+    }
+  ],
+  "eg_old": "164bd1e2d89579ada4ee5e2de7e5fd4db684a9f1",
+  "eg_new": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+  "eg_delta_unique_forms": 182,
+  "eg_counts": {
+    "supported": 138,
+    "candidate": 44
+  },
+  "eg_supported": 138,
+  "eg_selected": 8,
+  "eg_held": [
+    {
+      "quest_id": 2868,
+      "field": "title",
+      "level": 50,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "171ef8d92860d4f9ec0cd202ffc0f6c5244a6a691a97d7d3ec7a4ecd993bf176",
+      "reason": "Explicit <TXT>/<NYI> developer markers in source title; no supported playable prose claim.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 2868,
+      "field": "description",
+      "level": 50,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "6a394ad43496bccdf86a52cdfaefe3cfddb0beab2f58ce31e126edfd9dc9dac3",
+      "reason": "Explicit <TXT>/<NYI> developer markers in source title; no supported playable prose claim.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 5207,
+      "field": "title",
+      "level": 49,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "b83f786a92008a34c7fd99d92ce545d60fb39b1b7377d03a8d057c4b05510940",
+      "reason": "Explicit <TXT>/<NYI> developer markers in source title; no supported playable prose claim.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81770,
+      "field": "title",
+      "level": 42,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "8fe9b252fd77c8637ad822fa91b3aa6a4709ccc83cc0ee0455acec4332a1c5cd",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81770,
+      "field": "objective",
+      "level": 42,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "07b951d4aa46f3056d4319d9dc34683eb0b42db22d9b3125da8e756c5f926a41",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81770,
+      "field": "description",
+      "level": 42,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "cf078b2ec2b8c7d46fb7a2043d238f253e578aa086970aed20069c6b541eada1",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81778,
+      "field": "title",
+      "level": 42,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "5ec04d7c3de62e22c6058c4e1bc6790dd4825658cf57c35ef3b6c7b7604fad9b",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81778,
+      "field": "objective",
+      "level": 42,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "ba09e23e71c3792dfe203fdae221abe54a29335e2b237242df23d10b7b677d28",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81778,
+      "field": "description",
+      "level": 42,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "0a34fe72e134e518ed47cc667c0b603cddb8b21972203d15bddb9ddc33746104",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81788,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "3160c9326e7de0ac955f9dd1f401e5fcb92a9b9a9de3351e7bb4b125dc394a61",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81788,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "0b76ad07fb050626ed6bfabc768d075760e90075c847408c3cce33091b484771",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81788,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "f8e12355eb4343f29b9da114713fefd940d03990d51c291ad59e9766591bc587",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81820,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "4c7a8d0ca763959dcb3e7130d566ea372fce54b5fae13303a17b9b62e940a133",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81820,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "da41b668035ee83149cc5fd7e059f1ff93c3e70c2651240141771f9b6281af52",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81820,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "d0eb0c7882112d66cd30469164dbfbfa9f0b760ae024fbdb3590c52931571924",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81826,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "29580c1941b1af5c2cb5ddc9beebaad5b4e4b864ba6e40eeb33cde2e831d0cff",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81826,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "b1e3c9cdc795887e882abff4b5eef622b49cf31164e3082ce37c9ff049f108f2",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81826,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "1dc937951a7c8dfca01690b07cca0268766fc07507073a500b52622035677fa2",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81832,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "bf63b4a0ee8400c5a691e46d814bdeeb47e9bb208bcf88ab4223ca1830e7a7d1",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81832,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "ebf8776ea6c0efcf8902286b6515c84aa78c779c57473990b6c646fabb61bb55",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81832,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "63fd0151647ef5182d4f43033ba3c0dfd07949ef684215e3320e124143274d5a",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81835,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "28f624272ff63dc98cc7cd2f41debe922a8960a797071e4b04282613cecba5a2",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81835,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "e0df2bece831aa073223c3c52f40ccf282488c2753834b8235e06352963c9625",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81835,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "68b6a420998790462341e42410befb9da72c2fc1fd5c9d927e248c4fa2f72bbc",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81837,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "58a9f2c33bcee5a1aa0d8b169816e41504cbb7bbd8c85b92fec045e73119f71e",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81837,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "0ce0fab7541a47ec5923f16e1d64faf0512ce528ae646b274e95de77bf6a3b6f",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81837,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "f706a4d25d70438ceb3d17be412ed62cbe02baa2bacef4d986d711925edd832f",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81856,
+      "field": "title",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "2540d93c792711b6f8192a806b7366d5d9e184328f751f936b2b8279e24b3cc2",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81856,
+      "field": "objective",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "bf62dbed916ed981d1e776a3fe3cd03ab493a666455efa43ae3f6718f9ae86a5",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 81856,
+      "field": "description",
+      "level": 52,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "d621ef7cfcbbe36efd757d72ac160ce26328028daf24780b4ad074634f679b36",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 84152,
+      "field": "title",
+      "level": 60,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 84152,
+      "field": "objective",
+      "level": 60,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "501c0f1318b76a1f5dc699dccb26172d993164224734f18665e6d4e5349aad1e",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 84152,
+      "field": "description",
+      "level": 60,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 84377,
+      "field": "title",
+      "level": 60,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "2646694bbdb80d9f70d79a746eb95582313b628451dc878889b34e0e846d4a9c",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 84377,
+      "field": "objective",
+      "level": 60,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "a170d52527d836119d61dbcac368b627f43c89e3a4b3da155eaa684ed7fb70ea",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    },
+    {
+      "quest_id": 84377,
+      "field": "description",
+      "level": 60,
+      "status": "candidate",
+      "source_kind": "eg",
+      "english_sha256": "6198844be904757050c895828b7f21dd55e28c4cef922b88f0035937fa79021d",
+      "reason": "Outside runtime Catalog; cache/metadata available but current Forever enabled usage and expansion association unproven (includes Nightmare Incursion/seasonal-shaped records). Need current own-ID accept/log/turn-in or authoritative enabled inventory before translating.",
+      "origins": null,
+      "origin": "data/wowf/1.60.1.70888/quests.enUS.json"
+    }
+  ],
+  "eg_pins": [
+    {
+      "path": "README.md",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "bytes": 5619,
+      "sha256": "003d94fc82c33c87a6ed345768eab28f77a684522b536086d210975820dd9a9e"
+    },
+    {
+      "path": "DATASETS.md",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "bytes": 48464,
+      "sha256": "26b7e8b16cbded12148ca61abe651e148957aadb73a1ba02484e75edf1a9d604"
+    },
+    {
+      "path": "data/wowf/1.60.1.70888/quests.enUS.json",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "bytes": 5277327,
+      "sha256": "14c71c5a56db629fdcb1f733779a949e248d5ba44556ede16c495672909a8a99"
+    },
+    {
+      "path": "data/wowf/1.60.1.70888/texts.enUS.json",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "bytes": 448486,
+      "sha256": "d3497aa5ab9f913bad713c2d605076ab8e026c0c233c5f92b43c8b73c9d6b928"
+    },
+    {
+      "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "bytes": 130263,
+      "sha256": "66d1fbf83e51d353051efe22e4b578fc0f7b3859eb96a80602c9ec81e2d6bde4"
+    },
+    {
+      "path": "data/wowf/1.60.1.70938/texts.enUS.json",
+      "commit": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
+      "bytes": 21157,
+      "sha256": "6defa55ce05687adc262cd2d1628de9a470b4b73e6a66e4d7cf380d66a5f786a"
+    }
+  ],
+  "questiedb_delta": {
+    "old": "c6745129ef9ea5e6dd1cdcd77224090f71bda880",
+    "new": "f0ad90875a6531368883904b0f157e7423c14f0b",
+    "counts": {
+      "held_metadata_needs_ownID_current_prose_usage": 13,
+      "supported": 389,
+      "supported_full_body_split_metadata": 6,
+      "blank_metadata_separator": 2
+    },
+    "records": [
+      {
+        "quest_id": 91907,
+        "field": "title",
+        "english": "A Sealed Crate",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/foreverQuestFixes.lua"
+      },
+      {
+        "quest_id": 80411,
+        "field": "title",
+        "english": "The Talisman of Kazdor",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 80411,
+        "field": "objective",
+        "english": "Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 80526,
+        "field": "title",
+        "english": "Fool Me Twice",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 80526,
+        "field": "objective",
+        "english": "Speak to Fahrad when you're ready to hear his plan.",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 84147,
+        "field": "title",
+        "english": "An Earnest Proposition",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 84147,
+        "field": "objective",
+        "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Wildheart Bracers to Deliana in Ironforge.",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 84148,
+        "field": "title",
+        "english": "An Earnest Proposition",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 84148,
+        "field": "objective",
+        "english": "Acquire 15 Winterspring Blood Samples and 20 gold and bring them along with a set of Beaststalker's Bindings to Deliana in Ironforge.",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 89015,
+        "field": "title",
+        "english": "Deadliest Catch",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 89015,
+        "field": "objective",
+        "english": "Bring a Mammoth Shark Steak to Berdun Cliffbrew at Talrendis Point in Azshara.",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 91907,
+        "field": "title",
+        "english": "A Sealed Crate",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 93444,
+        "field": "objective",
+        "english": "",
+        "status": "blank_metadata_separator",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 98462,
+        "field": "objective",
+        "english": "Bring 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers to Evie Whirlbrew.",
+        "status": "held_metadata_needs_ownID_current_prose_usage",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      },
+      {
+        "quest_id": 99435,
+        "field": "objective",
+        "english": "",
+        "status": "blank_metadata_separator",
+        "path": "src/corrections/Forever/traces/foreverQuestTraces.lua"
+      }
+    ],
+    "supported_record_keys": [
+      [
+        79940,
+        "title"
+      ],
+      [
+        79940,
+        "objective"
+      ],
+      [
+        79945,
+        "title"
+      ],
+      [
+        79945,
+        "objective"
+      ],
+      [
+        79946,
+        "title"
+      ],
+      [
+        79946,
+        "objective"
+      ],
+      [
+        79963,
+        "title"
+      ],
+      [
+        79963,
+        "objective"
+      ],
+      [
+        79970,
+        "title"
+      ],
+      [
+        79970,
+        "objective"
+      ],
+      [
+        81900,
+        "title"
+      ],
+      [
+        81900,
+        "objective"
+      ],
+      [
+        81917,
+        "title"
+      ],
+      [
+        81917,
+        "objective"
+      ],
+      [
+        83934,
+        "title"
+      ],
+      [
+        83934,
+        "objective"
+      ],
+      [
+        84158,
+        "title"
+      ],
+      [
+        84158,
+        "objective"
+      ],
+      [
+        84318,
+        "title"
+      ],
+      [
+        84318,
+        "objective"
+      ],
+      [
+        84401,
+        "title"
+      ],
+      [
+        87451,
+        "title"
+      ],
+      [
+        87451,
+        "objective"
+      ],
+      [
+        90487,
+        "title"
+      ],
+      [
+        90487,
+        "objective"
+      ],
+      [
+        90647,
+        "title"
+      ],
+      [
+        90647,
+        "objective"
+      ],
+      [
+        90702,
+        "title"
+      ],
+      [
+        90702,
+        "objective"
+      ],
+      [
+        90750,
+        "title"
+      ],
+      [
+        90750,
+        "objective"
+      ],
+      [
+        90813,
+        "title"
+      ],
+      [
+        90813,
+        "objective"
+      ],
+      [
+        90854,
+        "title"
+      ],
+      [
+        90854,
+        "objective"
+      ],
+      [
+        90865,
+        "title"
+      ],
+      [
+        90865,
+        "objective"
+      ],
+      [
+        91548,
+        "title"
+      ],
+      [
+        91548,
+        "objective"
+      ],
+      [
+        91607,
+        "title"
+      ],
+      [
+        91607,
+        "objective"
+      ],
+      [
+        91688,
+        "title"
+      ],
+      [
+        91688,
+        "objective"
+      ],
+      [
+        91696,
+        "title"
+      ],
+      [
+        91696,
+        "objective"
+      ],
+      [
+        91697,
+        "title"
+      ],
+      [
+        91697,
+        "objective"
+      ],
+      [
+        91698,
+        "title"
+      ],
+      [
+        91698,
+        "objective"
+      ],
+      [
+        91754,
+        "title"
+      ],
+      [
+        91754,
+        "objective"
+      ],
+      [
+        91755,
+        "title"
+      ],
+      [
+        91755,
+        "objective"
+      ],
+      [
+        91770,
+        "title"
+      ],
+      [
+        91770,
+        "objective"
+      ],
+      [
+        91794,
+        "title"
+      ],
+      [
+        91794,
+        "objective"
+      ],
+      [
+        91877,
+        "title"
+      ],
+      [
+        91877,
+        "objective"
+      ],
+      [
+        91881,
+        "title"
+      ],
+      [
+        91881,
+        "objective"
+      ],
+      [
+        91883,
+        "title"
+      ],
+      [
+        91883,
+        "objective"
+      ],
+      [
+        91923,
+        "objective"
+      ],
+      [
+        92008,
+        "title"
+      ],
+      [
+        92008,
+        "objective"
+      ],
+      [
+        92009,
+        "title"
+      ],
+      [
+        92009,
+        "objective"
+      ],
+      [
+        92011,
+        "title"
+      ],
+      [
+        92011,
+        "objective"
+      ],
+      [
+        92014,
+        "title"
+      ],
+      [
+        92014,
+        "objective"
+      ],
+      [
+        92015,
+        "title"
+      ],
+      [
+        92015,
+        "objective"
+      ],
+      [
+        92016,
+        "title"
+      ],
+      [
+        92016,
+        "objective"
+      ],
+      [
+        92017,
+        "title"
+      ],
+      [
+        92017,
+        "objective"
+      ],
+      [
+        92064,
+        "title"
+      ],
+      [
+        92064,
+        "objective"
+      ],
+      [
+        92065,
+        "title"
+      ],
+      [
+        92065,
+        "objective"
+      ],
+      [
+        92066,
+        "title"
+      ],
+      [
+        92066,
+        "objective"
+      ],
+      [
+        92067,
+        "title"
+      ],
+      [
+        92100,
+        "title"
+      ],
+      [
+        92100,
+        "objective"
+      ],
+      [
+        92101,
+        "title"
+      ],
+      [
+        92101,
+        "objective"
+      ],
+      [
+        92102,
+        "title"
+      ],
+      [
+        92102,
+        "objective"
+      ],
+      [
+        92111,
+        "title"
+      ],
+      [
+        92111,
+        "objective"
+      ],
+      [
+        92147,
+        "title"
+      ],
+      [
+        92147,
+        "objective"
+      ],
+      [
+        92169,
+        "title"
+      ],
+      [
+        92169,
+        "objective"
+      ],
+      [
+        92171,
+        "title"
+      ],
+      [
+        92171,
+        "objective"
+      ],
+      [
+        92317,
+        "title"
+      ],
+      [
+        92317,
+        "objective"
+      ],
+      [
+        92328,
+        "title"
+      ],
+      [
+        92328,
+        "objective"
+      ],
+      [
+        92329,
+        "title"
+      ],
+      [
+        92329,
+        "objective"
+      ],
+      [
+        92335,
+        "title"
+      ],
+      [
+        92335,
+        "objective"
+      ],
+      [
+        92433,
+        "title"
+      ],
+      [
+        92433,
+        "objective"
+      ],
+      [
+        92446,
+        "title"
+      ],
+      [
+        92446,
+        "objective"
+      ],
+      [
+        92449,
+        "title"
+      ],
+      [
+        92449,
+        "objective"
+      ],
+      [
+        92500,
+        "title"
+      ],
+      [
+        92500,
+        "objective"
+      ],
+      [
+        92533,
+        "title"
+      ],
+      [
+        92533,
+        "objective"
+      ],
+      [
+        92591,
+        "title"
+      ],
+      [
+        92591,
+        "objective"
+      ],
+      [
+        92592,
+        "title"
+      ],
+      [
+        92592,
+        "objective"
+      ],
+      [
+        92593,
+        "title"
+      ],
+      [
+        92593,
+        "objective"
+      ],
+      [
+        92594,
+        "title"
+      ],
+      [
+        92594,
+        "objective"
+      ],
+      [
+        92609,
+        "title"
+      ],
+      [
+        92609,
+        "objective"
+      ],
+      [
+        92612,
+        "title"
+      ],
+      [
+        92612,
+        "objective"
+      ],
+      [
+        92702,
+        "title"
+      ],
+      [
+        92702,
+        "objective"
+      ],
+      [
+        92707,
+        "title"
+      ],
+      [
+        92707,
+        "objective"
+      ],
+      [
+        92833,
+        "title"
+      ],
+      [
+        92833,
+        "objective"
+      ],
+      [
+        92859,
+        "title"
+      ],
+      [
+        92859,
+        "objective"
+      ],
+      [
+        92959,
+        "title"
+      ],
+      [
+        92959,
+        "objective"
+      ],
+      [
+        92960,
+        "title"
+      ],
+      [
+        92960,
+        "objective"
+      ],
+      [
+        93127,
+        "title"
+      ],
+      [
+        93127,
+        "objective"
+      ],
+      [
+        93197,
+        "title"
+      ],
+      [
+        93197,
+        "objective"
+      ],
+      [
+        93269,
+        "title"
+      ],
+      [
+        93269,
+        "objective"
+      ],
+      [
+        93383,
+        "title"
+      ],
+      [
+        93383,
+        "objective"
+      ],
+      [
+        93406,
+        "title"
+      ],
+      [
+        93406,
+        "objective"
+      ],
+      [
+        93407,
+        "title"
+      ],
+      [
+        93407,
+        "objective"
+      ],
+      [
+        93422,
+        "title"
+      ],
+      [
+        93422,
+        "objective"
+      ],
+      [
+        93444,
+        "title"
+      ],
+      [
+        93444,
+        "objective"
+      ],
+      [
+        93444,
+        "objective"
+      ],
+      [
+        93510,
+        "title"
+      ],
+      [
+        93510,
+        "objective"
+      ],
+      [
+        93521,
+        "title"
+      ],
+      [
+        93521,
+        "objective"
+      ],
+      [
+        93547,
+        "title"
+      ],
+      [
+        93547,
+        "objective"
+      ],
+      [
+        93551,
+        "title"
+      ],
+      [
+        93551,
+        "objective"
+      ],
+      [
+        93567,
+        "title"
+      ],
+      [
+        93567,
+        "objective"
+      ],
+      [
+        93584,
+        "title"
+      ],
+      [
+        93584,
+        "objective"
+      ],
+      [
+        93606,
+        "title"
+      ],
+      [
+        93606,
+        "objective"
+      ],
+      [
+        93609,
+        "title"
+      ],
+      [
+        93609,
+        "objective"
+      ],
+      [
+        93615,
+        "title"
+      ],
+      [
+        93615,
+        "objective"
+      ],
+      [
+        93617,
+        "title"
+      ],
+      [
+        93617,
+        "objective"
+      ],
+      [
+        93747,
+        "title"
+      ],
+      [
+        93747,
+        "objective"
+      ],
+      [
+        93759,
+        "title"
+      ],
+      [
+        93759,
+        "objective"
+      ],
+      [
+        93773,
+        "title"
+      ],
+      [
+        93773,
+        "objective"
+      ],
+      [
+        93825,
+        "title"
+      ],
+      [
+        93825,
+        "objective"
+      ],
+      [
+        93826,
+        "title"
+      ],
+      [
+        93826,
+        "objective"
+      ],
+      [
+        93827,
+        "title"
+      ],
+      [
+        93827,
+        "objective"
+      ],
+      [
+        93831,
+        "title"
+      ],
+      [
+        93831,
+        "objective"
+      ],
+      [
+        93848,
+        "title"
+      ],
+      [
+        93848,
+        "objective"
+      ],
+      [
+        93925,
+        "title"
+      ],
+      [
+        93952,
+        "title"
+      ],
+      [
+        93952,
+        "objective"
+      ],
+      [
+        94316,
+        "objective"
+      ],
+      [
+        94318,
+        "title"
+      ],
+      [
+        94318,
+        "objective"
+      ],
+      [
+        94325,
+        "title"
+      ],
+      [
+        94325,
+        "objective"
+      ],
+      [
+        94331,
+        "title"
+      ],
+      [
+        94331,
+        "objective"
+      ],
+      [
+        94339,
+        "title"
+      ],
+      [
+        94339,
+        "objective"
+      ],
+      [
+        94352,
+        "title"
+      ],
+      [
+        94352,
+        "objective"
+      ],
+      [
+        94355,
+        "title"
+      ],
+      [
+        94355,
+        "objective"
+      ],
+      [
+        94504,
+        "title"
+      ],
+      [
+        94504,
+        "objective"
+      ],
+      [
+        94782,
+        "title"
+      ],
+      [
+        94782,
+        "objective"
+      ],
+      [
+        94832,
+        "title"
+      ],
+      [
+        94832,
+        "objective"
+      ],
+      [
+        95006,
+        "title"
+      ],
+      [
+        95006,
+        "objective"
+      ],
+      [
+        95026,
+        "title"
+      ],
+      [
+        95026,
+        "objective"
+      ],
+      [
+        95027,
+        "title"
+      ],
+      [
+        95027,
+        "objective"
+      ],
+      [
+        95218,
+        "title"
+      ],
+      [
+        95218,
+        "objective"
+      ],
+      [
+        95248,
+        "title"
+      ],
+      [
+        95248,
+        "objective"
+      ],
+      [
+        95283,
+        "title"
+      ],
+      [
+        95283,
+        "objective"
+      ],
+      [
+        95285,
+        "title"
+      ],
+      [
+        95285,
+        "objective"
+      ],
+      [
+        95316,
+        "title"
+      ],
+      [
+        95316,
+        "objective"
+      ],
+      [
+        95317,
+        "title"
+      ],
+      [
+        95317,
+        "objective"
+      ],
+      [
+        95318,
+        "title"
+      ],
+      [
+        95318,
+        "objective"
+      ],
+      [
+        95319,
+        "title"
+      ],
+      [
+        95319,
+        "objective"
+      ],
+      [
+        95320,
+        "title"
+      ],
+      [
+        95320,
+        "objective"
+      ],
+      [
+        95378,
+        "title"
+      ],
+      [
+        95378,
+        "objective"
+      ],
+      [
+        95379,
+        "title"
+      ],
+      [
+        95379,
+        "objective"
+      ],
+      [
+        95380,
+        "title"
+      ],
+      [
+        95380,
+        "objective"
+      ],
+      [
+        95454,
+        "title"
+      ],
+      [
+        95454,
+        "objective"
+      ],
+      [
+        95483,
+        "title"
+      ],
+      [
+        95483,
+        "objective"
+      ],
+      [
+        95568,
+        "title"
+      ],
+      [
+        95568,
+        "objective"
+      ],
+      [
+        95569,
+        "title"
+      ],
+      [
+        95569,
+        "objective"
+      ],
+      [
+        95599,
+        "title"
+      ],
+      [
+        95599,
+        "objective"
+      ],
+      [
+        95611,
+        "title"
+      ],
+      [
+        95611,
+        "objective"
+      ],
+      [
+        95766,
+        "title"
+      ],
+      [
+        95766,
+        "objective"
+      ],
+      [
+        95769,
+        "title"
+      ],
+      [
+        95769,
+        "objective"
+      ],
+      [
+        95793,
+        "title"
+      ],
+      [
+        95793,
+        "objective"
+      ],
+      [
+        95926,
+        "title"
+      ],
+      [
+        95926,
+        "objective"
+      ],
+      [
+        96003,
+        "title"
+      ],
+      [
+        96003,
+        "objective"
+      ],
+      [
+        96025,
+        "title"
+      ],
+      [
+        96025,
+        "objective"
+      ],
+      [
+        96076,
+        "title"
+      ],
+      [
+        96076,
+        "objective"
+      ],
+      [
+        96077,
+        "title"
+      ],
+      [
+        96077,
+        "objective"
+      ],
+      [
+        96131,
+        "title"
+      ],
+      [
+        96131,
+        "objective"
+      ],
+      [
+        96145,
+        "title"
+      ],
+      [
+        96145,
+        "objective"
+      ],
+      [
+        96209,
+        "title"
+      ],
+      [
+        96209,
+        "objective"
+      ],
+      [
+        96246,
+        "title"
+      ],
+      [
+        96252,
+        "title"
+      ],
+      [
+        96252,
+        "objective"
+      ],
+      [
+        96255,
+        "title"
+      ],
+      [
+        96255,
+        "objective"
+      ],
+      [
+        96262,
+        "title"
+      ],
+      [
+        96262,
+        "objective"
+      ],
+      [
+        96296,
+        "title"
+      ],
+      [
+        96296,
+        "objective"
+      ],
+      [
+        96301,
+        "title"
+      ],
+      [
+        96301,
+        "objective"
+      ],
+      [
+        96302,
+        "title"
+      ],
+      [
+        96302,
+        "objective"
+      ],
+      [
+        96303,
+        "title"
+      ],
+      [
+        96303,
+        "objective"
+      ],
+      [
+        96321,
+        "title"
+      ],
+      [
+        96321,
+        "objective"
+      ],
+      [
+        96322,
+        "title"
+      ],
+      [
+        96322,
+        "objective"
+      ],
+      [
+        96369,
+        "title"
+      ],
+      [
+        96369,
+        "objective"
+      ],
+      [
+        96376,
+        "title"
+      ],
+      [
+        96377,
+        "title"
+      ],
+      [
+        96379,
+        "title"
+      ],
+      [
+        96435,
+        "title"
+      ],
+      [
+        96435,
+        "objective"
+      ],
+      [
+        96449,
+        "title"
+      ],
+      [
+        96449,
+        "objective"
+      ],
+      [
+        96494,
+        "title"
+      ],
+      [
+        96494,
+        "objective"
+      ],
+      [
+        96529,
+        "title"
+      ],
+      [
+        96529,
+        "objective"
+      ],
+      [
+        96550,
+        "title"
+      ],
+      [
+        96550,
+        "objective"
+      ],
+      [
+        96558,
+        "title"
+      ],
+      [
+        96558,
+        "objective"
+      ],
+      [
+        96559,
+        "title"
+      ],
+      [
+        96559,
+        "objective"
+      ],
+      [
+        96561,
+        "title"
+      ],
+      [
+        96561,
+        "objective"
+      ],
+      [
+        96602,
+        "title"
+      ],
+      [
+        96616,
+        "title"
+      ],
+      [
+        96616,
+        "objective"
+      ],
+      [
+        96622,
+        "title"
+      ],
+      [
+        96622,
+        "objective"
+      ],
+      [
+        96674,
+        "title"
+      ],
+      [
+        96674,
+        "objective"
+      ],
+      [
+        96796,
+        "objective"
+      ],
+      [
+        96830,
+        "title"
+      ],
+      [
+        96830,
+        "objective"
+      ],
+      [
+        96912,
+        "title"
+      ],
+      [
+        96930,
+        "title"
+      ],
+      [
+        96930,
+        "objective"
+      ],
+      [
+        96931,
+        "title"
+      ],
+      [
+        96931,
+        "objective"
+      ],
+      [
+        96939,
+        "title"
+      ],
+      [
+        96939,
+        "objective"
+      ],
+      [
+        96957,
+        "title"
+      ],
+      [
+        96957,
+        "objective"
+      ],
+      [
+        96959,
+        "title"
+      ],
+      [
+        96959,
+        "objective"
+      ],
+      [
+        96964,
+        "title"
+      ],
+      [
+        96964,
+        "objective"
+      ],
+      [
+        96971,
+        "title"
+      ],
+      [
+        96971,
+        "objective"
+      ],
+      [
+        96978,
+        "title"
+      ],
+      [
+        96978,
+        "objective"
+      ],
+      [
+        96979,
+        "title"
+      ],
+      [
+        96979,
+        "objective"
+      ],
+      [
+        96983,
+        "title"
+      ],
+      [
+        96983,
+        "objective"
+      ],
+      [
+        96991,
+        "title"
+      ],
+      [
+        96991,
+        "objective"
+      ],
+      [
+        96992,
+        "title"
+      ],
+      [
+        96992,
+        "objective"
+      ],
+      [
+        96998,
+        "title"
+      ],
+      [
+        96998,
+        "objective"
+      ],
+      [
+        96999,
+        "title"
+      ],
+      [
+        96999,
+        "objective"
+      ],
+      [
+        97000,
+        "title"
+      ],
+      [
+        97009,
+        "title"
+      ],
+      [
+        97009,
+        "objective"
+      ],
+      [
+        97010,
+        "title"
+      ],
+      [
+        97010,
+        "objective"
+      ],
+      [
+        97049,
+        "title"
+      ],
+      [
+        97049,
+        "objective"
+      ],
+      [
+        97119,
+        "title"
+      ],
+      [
+        97119,
+        "objective"
+      ],
+      [
+        97319,
+        "title"
+      ],
+      [
+        97319,
+        "objective"
+      ],
+      [
+        97490,
+        "title"
+      ],
+      [
+        97490,
+        "objective"
+      ],
+      [
+        97986,
+        "title"
+      ],
+      [
+        97986,
+        "objective"
+      ],
+      [
+        97987,
+        "title"
+      ],
+      [
+        97987,
+        "objective"
+      ],
+      [
+        98325,
+        "title"
+      ],
+      [
+        98325,
+        "objective"
+      ],
+      [
+        98462,
+        "title"
+      ],
+      [
+        98476,
+        "title"
+      ],
+      [
+        98889,
+        "objective"
+      ],
+      [
+        98890,
+        "title"
+      ],
+      [
+        98896,
+        "title"
+      ],
+      [
+        98898,
+        "title"
+      ],
+      [
+        99193,
+        "title"
+      ],
+      [
+        99205,
+        "title"
+      ],
+      [
+        99205,
+        "objective"
+      ],
+      [
+        99208,
+        "title"
+      ],
+      [
+        99208,
+        "objective"
+      ],
+      [
+        99326,
+        "title"
+      ],
+      [
+        99435,
+        "title"
+      ],
+      [
+        99435,
+        "objective"
+      ],
+      [
+        99435,
+        "objective"
+      ],
+      [
+        99670,
+        "title"
+      ],
+      [
+        99670,
+        "objective"
+      ]
+    ],
+    "parser_scope": "Restricted literal names/objectivesText in changed Forever authored fixes and trace modules. No third-party Lua/library execution. Relation/XP/NPC/item deltas are out of MAIN-text scope.",
+    "split_metadata_note": "Actual runtime Translate verified full current EG own-ID objective bodies93444/99435; component metadata lines and blank separators are not new prose."
+  },
+  "translation_result": {
+    "new_thai_fields": 6,
+    "reused_thai_fields": 3,
+    "newly_supported_fields": 9,
+    "unique_quest_ids": 9
+  },
+  "font_package_version_unchanged": true,
+  "decode_protocol": "Existing FVO1 parser: FVO1 base64 payload -> zlib decompress -> JSON, retained privately under work/issue-N-decoded.json. Only MAIN quest records compared. No payload/reader identity copied into public evidence.",
+  "eg_held_note": "36 held changed query fields:33outside-Catalog fields with current-use/seasonal association unresolved;3explicit developer-marker fields. Query presence is not enabled-playability proof."
+}

@@ -1,0 +1,114 @@
+{
+  "batch": "12",
+  "source_audit": "new-capture-audit12.json",
+  "prior_runtime_tree": "0a13f71e462c3c6c0a0c92f238ccc8984b8b2a5d",
+  "counts": {
+    "new_prose": 0,
+    "new_thai_texts": 0,
+    "new_own_id_reuse_bindings": 1
+  },
+  "fields": [
+    {
+      "npc_id": 251001,
+      "npc_name": "Deathguard Kristof",
+      "line_index": 9,
+      "english": "Sorry friend, we don't have one of those here in Brill.  You'll have to head to the Undercity for that.  The Undercity is underneath the Ruins of Lordaeron to the south of Brill.  From the back of the ruins take the elevator down and then speak to one of the Undercity Guardians to find your way further.",
+      "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ",
+      "signature": "301:1774804330:1865413487",
+      "english_sha256": "01dc8b9797800ce5180507d72801ec81fb4f23757fd3fcaaf1b53b44f7508240",
+      "thai_sha256": "e10b29b6363e1d52447759db04e47700d82e68af679f2f7ff053a41541bb9dd6",
+      "issue": 3427,
+      "source_line_index": 10,
+      "source_record": {
+        "c": "Paladin",
+        "e": "gossip",
+        "d": 1794043084,
+        "g": "f",
+        "k": "gossip",
+        "m": 1420,
+        "n": "251001",
+        "s": "Deathguard Kristof",
+        "r": "Undead",
+        "t": "Blacksmithing",
+        "x": "Sorry friend, we don't have one of those here in Brill.  You'll have to head to the Undercity for that.  The Undercity is underneath the Ruins of Lordaeron to the south of Brill.  From the back of the ruins take the elevator down and then speak to one of the Undercity Guardians to find your way further.",
+        "z": "Tirisfal Glades"
+      },
+      "npc_metadata_record": {
+        "sexes": "m",
+        "addon": "0.1.11",
+        "name": "Deathguard Kristof",
+        "sex": 2,
+        "creatureType": "Humanoid",
+        "modelFileID": 959310
+      },
+      "selected_reuse": {
+        "npc_id": 1496,
+        "npc_name": "Deathguard Dillinger",
+        "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+      },
+      "all_full_body_reuse_matches": [
+        {
+          "npc_id": 1496,
+          "npc_name": "Deathguard Dillinger",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1652,
+          "npc_name": "Deathguard Burgess",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1735,
+          "npc_name": "Deathguard Abraham",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1738,
+          "npc_name": "Deathguard Terrence",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1742,
+          "npc_name": "Deathguard Bartholomew",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1743,
+          "npc_name": "Deathguard Lawrence",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1744,
+          "npc_name": "Deathguard Mort",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1745,
+          "npc_name": "Deathguard Morris",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 1746,
+          "npc_name": "Deathguard Cyrus",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 2209,
+          "npc_name": "Deathguard Gavin",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 2210,
+          "npc_name": "Deathguard Royann",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        },
+        {
+          "npc_id": 5725,
+          "npc_name": "Deathguard Lundmark",
+          "thai": "เสียใจ สหาย ที่ Brill ไม่มี ต้องไป Undercity มันอยู่ใต้ Ruins of Lordaeron ทางใต้ของ Brill ขึ้นลิฟต์ลงจากหลังซากเมือง แล้วคุยกับ Undercity Guardian ให้บอกทางต่อ"
+        }
+      ]
+    }
+  ],
+  "self_review": "Exact English full body already translated for other Brill guards; retain that checked Thai verbatim. Generic unavailable-service wording, not the older bank-only response. Route south/below Ruins of Lordaeron/lift down/Undercity Guardians retained. No player placeholders, no new prose/font/version."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "cmangos/mangos-classic",
+    "commit": "13aa63bb45051de33d79dc7002df2def27f1c517",
+    "path": "src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp",
+    "bytes": 27916,
+    "sha256": "1003c9c4cfb731069db71a1b5212578482e3f402a3c770d5aef78b182c1a8818",
+    "scope": "Historical caller only, not current Forever server code. Root read through GitHub; five Muglash constants have explicit Player* from GetPlayerForEscort() passed to DoBroadcastText.",
+    "constants": [
+      "SAY_MUGLASH_EVENT_01",
+      "SAY_MUGLASH_AGGRO",
+      "SAY_MUGLASH_BRAZIER",
+      "SAY_MUGLASH_SUCCESS_02",
+      "SAY_MUGLASH_SUCCESS"
+    ],
+    "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/13aa63bb45051de33d79dc7002df2def27f1c517/src/game/AI/ScriptDevAI/scripts/kalimdor/ashenvale.cpp"
+  },
+  {
+    "repository": "cmangos/mangos-classic",
+    "commit": "5361edff762b3e6824348099299a18556fafe45e",
+    "path": "src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp",
+    "bytes": 8739,
+    "sha256": "0fdf877a1838a3ab2438e0f730345d22375a7e94e379bd122780b08a5314e3c0",
+    "scope": "Historical caller only, not current Forever server code. Root read primary: SAY_PROGRESS_1 receives quest-accept Player*; SAY_PROGRESS_3/9 receive GetPlayerForEscort() Player*.",
+    "constants": [
+      "SAY_PROGRESS_1",
+      "SAY_PROGRESS_3",
+      "SAY_PROGRESS_9"
+    ],
+    "raw_url": "https://raw.githubusercontent.com/cmangos/mangos-classic/5361edff762b3e6824348099299a18556fafe45e/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/arathi_highlands.cpp"
+  }
+]

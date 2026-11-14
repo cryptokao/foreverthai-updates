@@ -1,0 +1,99 @@
+{
+  "status": "MAIN24_ALL122_REVIEWED_INTEGRATED_PRIVATE467_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "source_commit": "c41f3def0acad96f4386e1d92fc1ff6258651c34",
+  "runtime_git_tree": "b82cee06996e6feb5a28d2aa5bfe9ce8b00b6cab",
+  "artifact_commit": "bb7fbd96b5d078a2807bfffe87d2b5fe83806af1",
+  "artifact_branch": "codex/private-0-467-0-main24-artifacts",
+  "version": "0.467.0",
+  "zip_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/ForeverThai-0.467.0-cloud-main24-PRIVATE-TEST.zip",
+  "guide_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/INSTALL-0.467.0-PRIVATE-TH.txt",
+  "manifest_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/package-manifest.json",
+  "receipt_url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/bb7fbd96b5d078a2807bfffe87d2b5fe83806af1/output/release-receipt.json",
+  "bytes": 18261923,
+  "sha256": "dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e",
+  "MAIN24_newly_supported_fields": 122,
+  "unique_quest_ids": 57,
+  "new_Thai_wording": 90,
+  "verbatim_reviewed_Thai_reuse": 31,
+  "propername_passthrough": 1,
+  "finite_literal_ready_unreviewed_remaining": 0,
+  "old_R1_immutable": true,
+  "actual_runtime_files": 145,
+  "old141_preserved_with_authorized_deltas": "Catalog/Atlas/TOC/SOURCES only;4new fontpages;137oldfiles unchanged",
+  "old_font_assets108_byte_preserved": true,
+  "protected28_and_CoreSpeech70938_Settings_Questie_preserved": true,
+  "old_Atlas_data": "102656runs/13710glyphslots preserved",
+  "font_append": "242missingruns/623glyphs/Thai94–97 only",
+  "fresh_checks": [
+    "Final42text42positive210negative; earlier80matching reused at preservedprefix",
+    "ActualBitmapLayer122fields121Thai1Latin/noThai fallback; newglyphbounds/alpha; oldrecords/pages preserved",
+    "NativeQuestie89fields178executions:174bitmap2Latin2knownmultilineEnglish;356off/wrongIDnegative",
+    "ActualZIP safe145paths/145sourcebytes/TOC24/texture refs/basicTOCsettings70938; actualdownloadback ZIP+guide+manifest+receipt+finalhashes exactbytes"
+  ],
+  "runtime_engine_changed": false,
+  "old_Skill_NPC686_party_fullsuites_rerun": false,
+  "remaining_holds": [
+    {
+      "group": "MAIN24 raw typed forms",
+      "count": 1501,
+      "scope": "Newsource delta forms, not1501untranslated quests; manycanonicalpresent. No role/counter/gender inference or revisit duringfreeze.",
+      "reference": "evidence/main24-eg-delta.json"
+    },
+    {
+      "group": "2752progress",
+      "scope": "Resolved/unproven literalidentity excluded;oldcanonicalunchanged",
+      "reference": "evidence/main24-held2752-context.json"
+    },
+    {
+      "group": "Query/noData uncertainty",
+      "quest_ids": [
+        96075,
+        96087,
+        96088,
+        99217
+      ],
+      "scope": "Onlynewunqualified queryobjective forms held; no oldcanonical removal.",
+      "reference": "evidence/main24-eg-delta.json"
+    },
+    {
+      "group": "Developer/zzOLD/placeholder forms",
+      "scope": "Knownexplicit markers/titles/incompleteNAME are not translatedasplayablequests",
+      "reference": "evidence/main24-eg-delta.json"
+    },
+    {
+      "group": "SOURCE23 actualmarkerfields",
+      "count": 50,
+      "scope": "AllknownEnglish/canonicalpresent; roleproof-onlyholds unchanged, not50missingtranslations",
+      "reference": "evidence/source23-v2-unresolved-fields.json"
+    },
+    {
+      "group": "books22",
+      "count": 17,
+      "scope": "Awaituser-providedsource;fullpayloadremoved/notrestored/notinZIP",
+      "reference": "evidence/books22-checkpoint.json"
+    },
+    {
+      "group": "Tracker84213objective",
+      "scope": "Existingnewlineguardkeepsnative/QuestieEnglish;fulltextBitmapLayerThaiworks. Noenginechange.",
+      "reference": "evidence/main24-tracker-font.json"
+    },
+    {
+      "group": "81781source locations",
+      "scope": "RootapprovedexactForestSongdescription/Satyrnaarobjective kept; live-route correctness notproven."
+    },
+    {
+      "group": "WholeGOAL",
+      "scope": "Currentenabledinventory/unknownphases andactualWindowsMacM2acceptance remainunproven; no fullgame%."
+    },
+    {
+      "group": "FVO3488–3501",
+      "scope": "User-suppliednewlead remainsnotfetched; no additionalworkduringthisfreeze."
+    }
+  ],
+  "customer_feed_changed": false,
+  "standing_feed": "0.463.1",
+  "normal_publication_milestone": "0.470.0",
+  "actual_game_or_local_execution": false,
+  "full_GOAL_complete": false,
+  "next_action": "Private delivery complete; Root can review/readback proof and test package. No polls/newsource/typedwork/customerpublication in this bounded freeze."
+}
