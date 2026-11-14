@@ -1,0 +1,49 @@
+{
+  "probe": "main20 bounded WarcraftForever primary-source HTTP access/provenance",
+  "date": "2026-11-14",
+  "checked_at_utc": "2026-11-14T07:24:55.900359+00:00",
+  "root_lead_commit": "3aff85b36e107592345a4945e4661d9902ae5195",
+  "root_lead_reference": "root-new-main-source-leads19.json",
+  "requested_url": "https://warcraftforever.games/quests",
+  "transport_result": {
+    "client": "curl standard inherited proxy/CA, no bypass",
+    "exit_code": 56,
+    "status": "CONNECT tunnel failed, response403",
+    "http_connect_header_sha256": "ec55c13894fd4cbdc7ddf31929aa0256748456a6d85eb5898720206d36b2df64",
+    "origin_html_received": false
+  },
+  "public_refs": [
+    "https://warcraftforever.games/quests",
+    "https://warcraftforever.games/quests/4641",
+    "https://warcraftforever.games/quests/98581"
+  ],
+  "representative_record_requests": "Not sent: host-level CONNECT rejection precedes URL-path/origin response. No repeated same-host attempts.",
+  "html_script_datarefs": "Unavailable; cannot inspect references without HTML. No endpoints or URL arrays guessed.",
+  "bulk_export_availability": "NOT DETERMINED, not verified absent",
+  "root_observations_only": {
+    "beta_ForeverLog": true,
+    "index_rendered_count": 1609,
+    "sample4641": "Root rendered page shows objective/description/completion; description has resolved personal/class data, no raw full body/hash supplied to Cloud.",
+    "sample98581": "Root observed title-only; no role/phase proof."
+  },
+  "source_readiness": {
+    "raw_ownID_phase_bodies_obtained": 0,
+    "new_literal_source_ready_proven": 0,
+    "new_thai_fields": 0,
+    "reuse_aliases_added": 0,
+    "typed_roles_unlocked": 0
+  },
+  "next_input_required": [
+    "Public raw HTML for the linked index/representative record with original script/datarefs and content hashes, or an existing publicly documented bulk JSON/export URL actually referenced there.",
+    "Raw own-ID phase labels/full literal bodies and provenance/observed date; exact per-row build remains unknown.",
+    "Any resolved reader name/class/race must remain private/held unless independently typed own-ID source proof exists; do not publish raw captured names."
+  ],
+  "constraints": {
+    "no_crawl_or_third_party_execution": true,
+    "no_login_or_submission": true,
+    "no_network_policy_change": true,
+    "no_VO_EG_Questie_or_ForeverDiff_poll": true,
+    "no_runtime_font_version_feed_change": true
+  },
+  "conclusion": "Bounded probe ended with precise transport blocker. Cannot infer source coverage, export absence, whole-game denominator or current build. No known new ready text proven from this site on Cloud; no further audit/version/test work."
+}
