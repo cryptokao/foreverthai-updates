@@ -7,5 +7,7 @@
   "unproposed_ready": 0,
   "remaining_records": [],
   "whole_game_complete": false,
-  "other_typed_or_source_holds_not_revisited": true
+  "other_typed_or_source_holds_not_revisited": true,
+  "status": "ALL122_ROOT_APPROVED_INTEGRATED_AND_PRIVATE467_DELIVERED",
+  "latest_checkpoint": "evidence/main24-delivered-checkpoint.json"
 }

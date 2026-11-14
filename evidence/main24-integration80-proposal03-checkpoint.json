@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_INTEGRATED80_TEXT_ONLY_FINAL42_PROPOSAL03_COMPLETE_PENDING_ROOT",
+  "status": "ALL122_ROOT_APPROVED_INTEGRATED_AND_PRIVATE467_DELIVERED",
   "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
   "Root_approval02": "main469c4b0a87b500f56d0ac53a97ec1f00512a5f16",
   "approved_source_integrated_fields": 80,
@@ -43,5 +43,6 @@
   "next_action": "Root review final42. Only then add approved03/variants and targeted42text checks; after all122reviewed/source-integrated do append-only missingfont+affectedbitmap/nativeQuestieTracker and ONE0.467private candidate with allcomponents. No customerpublication; immutable0.466MAIN21r1 retained.",
   "customer_feed": "unchanged0.463.1/normal0.470milestone",
   "full_GOAL_complete": false,
-  "current_enabled_inventory_or_live_WindowsMacM2_acceptance": false
+  "current_enabled_inventory_or_live_WindowsMacM2_acceptance": false,
+  "latest_checkpoint": "evidence/main24-delivered-checkpoint.json"
 }
