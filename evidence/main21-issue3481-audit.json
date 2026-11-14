@@ -1,0 +1,106 @@
+{
+  "snapshot": "MAIN21 only new issue3481",
+  "baseline_runtime_source": "7f082e6a57fe72305bd4366c1588c04d5bc1ad95",
+  "baseline_catalog_sha256": "29d0c0643fb88c16d3bb456a3d1de7f2fa8b431dc6086d815d8a2d941b189b21",
+  "provenance": {
+    "url": "https://github.com/quinn-dougherty/forever-vo/issues/3481",
+    "issue": 3481,
+    "created_at": "2026-11-14T07:18:49Z",
+    "updated_at": "2026-11-14T07:18:49Z",
+    "comments": 0,
+    "body_chars": 35346,
+    "body_sha256": "41a9f96548de5cf517ccf2a3d34baed6bed9933d71eb5472544dc4e75cbdeac3",
+    "saved_issue_json_sha256": "bb5febadd9488aae54f89f890c83558a9c3e2b7ca931c2284df235ee9d85b055",
+    "fvo1_base64_sha256": "1c09b2aaa271659b2df3233abec0382b223f600745c50adbd89ac526844b7a5f",
+    "compressed_payload_sha256": "25769799e0a273cb258acb06aba16d507bcb4833ac1b96eb76f92ec997abde6f",
+    "decoded_json_sha256": "52b324f451435eacaf2bf380ec471e2cc707765ca12b1a7a458a1ab30286216f",
+    "decoded_json_bytes": 103017,
+    "attachment_urls": []
+  },
+  "schema": {
+    "document_keys": [
+      "addon",
+      "build",
+      "lines",
+      "locale",
+      "npcs",
+      "v"
+    ],
+    "export_header_build": "70938",
+    "export_header_locale": "enUS",
+    "total_records": 293,
+    "record_kinds": {
+      "quest": 100,
+      "gossip": 192,
+      "book": 1
+    },
+    "main_record_key_shapes": {
+      "c,d,e,g,k,m,n,q,r,s,t,x,z": 98,
+      "c,d,e,g,k,m,n,o,q,r,s,t,x,z": 1,
+      "c,d,e,g,k,m,o,q,r,s,t,x,z": 1
+    },
+    "row_build_proven": false
+  },
+  "main_phase_occurrences": {
+    "progress": 97,
+    "accept": 2,
+    "complete": 1
+  },
+  "counts": {
+    "diagnostic_substitution_supported": 34,
+    "already_supported_exact": 64,
+    "non_main_ignored": 193,
+    "held_unproven_normalized_roles": 1,
+    "literal_unmatched_needs_qualification": 1,
+    "duplicate_main_occurrences": 0,
+    "blank_no_prose": 0
+  },
+  "unique_main_source_forms": 100,
+  "unmatched_records": [
+    {
+      "quest_id": 1823,
+      "field": "description",
+      "source_indices": [
+        60
+      ],
+      "english_sha256": "2475e853939f9df8ccccfaa8de9143b75b13f8f0fd18aeeb63ae8cbf9013a4f5",
+      "status": "held_unproven_normalized_roles",
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "normalized_tokens": [
+        "$c"
+      ],
+      "required_proof": "Exact own-ID phase full raw typed source/caller proof for each identity occurrence; export normalization and reader metadata are not proof. Keep existing canonical."
+    },
+    {
+      "quest_id": 94233,
+      "field": "progress",
+      "source_indices": [
+        187
+      ],
+      "english_sha256": "1745c1e1c895e792c1094d83a9749deb302cb73165d7b85ab8936f2ee7d11a03",
+      "status": "literal_unmatched_needs_qualification",
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "normalized_tokens": []
+    }
+  ],
+  "ready_literal_candidates": 1,
+  "new_translation_count": 0,
+  "scope": "Only3481; no otherissue/Questie/EGpull or source20/old audit/clientgate/fullsuite/font work. Diagnostic substitutions are not independently typed proof or new coverage. Raw/player-context capture values remain ignored/private.",
+  "runtime_changed": false,
+  "fonts_version_feed_changed": false,
+  "literal_qualification_resolution": {
+    "quest_id": 94233,
+    "field": "progress",
+    "source_line_index": 187,
+    "qualified_literal": true,
+    "new_thai": 0,
+    "new_prose": 0,
+    "reused_existing_ownID_Thai": true,
+    "pending_root_review": true,
+    "evidence": "main21-literal-progress-reuse.json"
+  },
+  "known_ready_unimplemented_source_variants_remaining": 0,
+  "typed_holds_remaining": 1
+}

@@ -71402,3 +71402,7 @@ addon.quests[84162].title = { "22:1183475074:147978204", "ข้อเสนอ�
 addon.quests[84162].objective = { "121:939239567:2139653451", "หา Silithus Venom Samples 15 ชิ้น และเงิน 20 ทอง แล้วนำไปพร้อม Bracers of Valor ให้ Mokvar ที่ Orgrimmar" }
 addon.quests[97271] = addon.quests[97271] or {}
 addon.quests[97271].title = { "16:1724115079:332206722", "ถ้าไม่ใช่ Maul ก็ไม่เอา!" }
+
+-- Cloud MAIN21: exact own-ID literal progress variant; existing reviewed Thai reused.
+addon.quests[94233].progress.variants = addon.quests[94233].progress.variants or {}
+addon.quests[94233].progress.variants[#addon.quests[94233].progress.variants + 1] = { "179:359504858:1889618361", "ข้าเห็นที่นี่ถูกเผาจนราบและเห็นป้อมถูกโค่นลงกับตา สะใจจริง ๆ\n\nไม่คิดว่าจะมีพวกโจรสักกลุ่มมาพยายามใช้ที่นี่เป็นฐานปฏิบัติการ" }

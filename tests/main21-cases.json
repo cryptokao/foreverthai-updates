@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {
+      "quest_id": 94233,
+      "field": "progress",
+      "english": "I watched this whole place get burned to the ground and that keep toppled over. It was glorious.\r\n\r\nNever expected a group of bandits to try using this place as a base of operations.",
+      "expected": "ข้าเห็นที่นี่ถูกเผาจนราบและเห็นป้อมถูกโค่นลงกับตา สะใจจริง ๆ\n\nไม่คิดว่าจะมีพวกโจรสักกลุ่มมาพยายามใช้ที่นี่เป็นฐานปฏิบัติการ"
+    }
+  ]
+}
