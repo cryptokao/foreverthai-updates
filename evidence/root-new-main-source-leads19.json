@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-14",
+  "reason": "Look for additional primary MAIN text beyond unchanged EG and new VO/Questie snapshot while Cloud19 packs reviewed fields.",
+  "sources": [
+    {
+      "url": "https://foreverdiff.gg/about/data",
+      "observed": "Quest world layer explicitly pfQuest VANILLA/TBC at104f35678ca39ab1fb78b655f815cc7016f5e0c8; contributed observations separate. Advertised beta70532, not proof of current70938 whole-game words.",
+      "sample_url": "https://foreverdiff.gg/quests/86752",
+      "sample_result": "No title/description/objective observation on this sample; no bulk source imported.",
+      "contribution_url": "https://foreverdiff.gg/contribute",
+      "contribution_result": "No published collection totals; no submissions made."
+    },
+    {
+      "url": "https://warcraftforever.games/quests",
+      "observed": "Browser hydration reveals1609quest rows with IDs; some title-only, others explicitly recorded with giver/rewards. Says beta/ForeverLog; exact row build absent.",
+      "samples": [
+        {
+          "url": "https://warcraftforever.games/quests/98581",
+          "result": "Only title displayed; no own-ID description/progress/completion proof for old typed-role hold."
+        },
+        {
+          "url": "https://warcraftforever.games/quests/4641",
+          "result": "Objectives and completion are literal English. Description includes an actual captured name/class, which were not copied here. Recorded beta/ForeverLog per footer; per-row build unknown.",
+          "browser_verified_fields": [
+            "objective",
+            "description",
+            "completion"
+          ]
+        }
+      ],
+      "next_action": "After main19freeze, bounded public data access/provenance probe: inspect public HTML/data references for an existing bulk export rather than crawling1609pages, parse only data without executing third-party scripts, compare safe literal own-ID MAIN phases against through19, and hold unresolved personal/role placeholders. Start with a few representative recorded rows; report readiness separately from beta availability.",
+      "limitations": "No whole-game percentage, source-ready count, coverage or current build claim has been established for this site.",
+      "browser_verified": true,
+      "index_ui": "After hydration the public browser displays1609rows, search/zone/level controls, first100links and a Show100more button. Query98581title-only stays without additional phases after hydration."
+    }
+  ],
+  "privacy": "No actual captured player name, raw capture, credentials or personal files copied to this report.",
+  "updated": "2026-11-14 browser hydration verified"
+}
