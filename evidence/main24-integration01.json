@@ -1,0 +1,29 @@
+{
+  "status": "SOURCE_INTEGRATED_TEXT_ONLY_PENDING_BITMAP_FONTS",
+  "Root_approval": "main7f84daec305be3051042c2ac0e5bd5a0849f08da",
+  "proposal_sha256": "f4d818a5b89dd3c03ae8f848138e176bf0e899a4aa0624ddb65453622052970d",
+  "baseline_Catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "final_Catalog_sha256": "4b156776ee733b5c0b116ce7833c7470bc49cefdeb84e0bc3bf2691a11a33fa2",
+  "old_Catalog_exact_prefix_preserved": true,
+  "additive_fields": 38,
+  "new_partial_quest_ID_entries": [
+    80453,
+    81769,
+    81774,
+    81775,
+    81777,
+    81780,
+    81781,
+    81784,
+    82068,
+    82083,
+    86777,
+    86791,
+    86797
+  ],
+  "new_Thai_wording_fields": 37,
+  "proper_name_title_passthrough": 1,
+  "quest2752": "untouched/excluded",
+  "source_discrepancy81781": "kept exact respective ForestSong/Satyrnaar; no live route claim",
+  "font_version_build_ZIP_feed_changed": false
+}

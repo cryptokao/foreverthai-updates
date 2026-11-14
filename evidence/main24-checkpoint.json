@@ -1,5 +1,5 @@
 {
-  "status": "ROOT_REVIEW_PENDING_MAIN24_PROPOSAL38_RUNTIME_UNCHANGED",
+  "status": "PROPOSAL01_ROOT_APPROVED_AND_SOURCE_INTEGRATED_SEE_LATEST_CHECKPOINT",
   "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
   "previous_pin": "e0f8585914c134d9cb5d76756bd065b1e3e92ece",
   "changed_text_forms": 11144,
@@ -40,5 +40,6 @@
   "decoder_source23_public11_oldtests_fonts_version_ZIP_feed_work": false,
   "full_GOAL_complete": false,
   "enabled_inventory_or_actual_game_acceptance_proven": false,
-  "next_action": "Root full English/Thai/source review before any integration/font/build. Continue finite84ready source queue in meaningful low→high batches; no claims of full quests or wholegame%."
+  "next_action": "Root full English/Thai/source review before any integration/font/build. Continue finite84ready source queue in meaningful low→high batches; no claims of full quests or wholegame%.",
+  "superseded_progress_checkpoint": "evidence/main24-integration01-proposal02-checkpoint.json"
 }
