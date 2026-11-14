@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-14",
+  "source_branch_head": "72a62a60e415c9c9d441ab531eb3eaeb307bee63",
+  "source20_input_commit": "faa496275ee1009c26261be02df9b4a2d4626d42",
+  "source20_input": "source_inputs/warcraftforever-beta-details20-safe.json",
+  "cloud_comparison": "evidence/main20-safe-details-comparison.json",
+  "root_verification": {
+    "all_18_own_id_phase_text_hashes_match_supplied_source": true,
+    "all_18_html_hashes_match": true,
+    "supplied_18_fields_already_supported": true,
+    "four_description_fields_withheld": true,
+    "no_progress_phase_inferred": true,
+    "runtime_changes_vs_466_source": [],
+    "root_reran_runtime_tests": false
+  },
+  "new_translations_from_source20": 0,
+  "latest_private_combined": "0.466.0 MAIN19",
+  "actual_main19_increase": {
+    "newly_supported_fields": 33,
+    "own_quest_ids": 20,
+    "new_thai_fields": 16,
+    "reviewed_wording_reuses": 17,
+    "whole_quests_claimed_complete": false
+  },
+  "public_launcher": "0.463.1; no publication in source20",
+  "limits": [
+    "Current whole-game enabled inventory unconfirmed; do not derive percentage from beta index.",
+    "Windows and Mac M2 live gameplay untested.",
+    "No further beta-page crawl or unchanged source/test loop authorized by this completed bounded comparison."
+  ],
+  "goal_status": "active/incomplete; this resumed turn made real MAIN19 progress before this new source20 closed with zero additions"
+}
