@@ -1,0 +1,32 @@
+{
+  "status": "ACTUAL_SOURCE23_TARGETED483FIELD_COMPARISON_FINISHED",
+  "safe_input_commit": "384a8aba5f098eab4b744ecc6651620b336b323c",
+  "safe_input_sha256": "abb34d84279b30a2b6388f257bb56d1f38015f2e1f6b4dca622607de6e75438a",
+  "Root_actual_decoder_invocations": 1,
+  "Cloud_decoder_invocations": 0,
+  "structurally_qualified_records": 161,
+  "fields_compared_once": 483,
+  "rawSHA_ownID_English_phase_matches": 483,
+  "supported_literal_fields": 433,
+  "role_hold_knownEnglish_fields": 50,
+  "role_hold_phase_counts": {
+    "description": 40,
+    "objective": 10
+  },
+  "all_role_hold_fields_have_existing_canonical": true,
+  "unknown_English_fields": 0,
+  "knownEnglish_new_literal_variants": 0,
+  "new_Thai_fields": 0,
+  "private_raw_text_fields_requested": 0,
+  "next_precise_input": "Independent own-ID typed UI/caller/protocol roleproof for50indexed raw-marker fields if resolving those holds; exactEnglish references supplied, so no English reread/transfer required.",
+  "compact_hold_queue": "evidence/source23-v2-unresolved-fields.json",
+  "next_request": "evidence/source23-v2-next-text-request.json",
+  "original56_other_structural_holds_not_retried": true,
+  "Catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
+  "runtime_unchanged_vs_delivered": true,
+  "books22_still_held": true,
+  "public11_decoder_oldcorpus_tests_fonts_version_ZIP_feed_rerun_or_changed": false,
+  "full_GOAL_complete": false,
+  "current_enabled_inventory_proven": false,
+  "actual_Windows_MacM2_game_acceptance": false
+}
