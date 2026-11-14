@@ -1,0 +1,34 @@
+Alphaverse THAI SUB — ForeverThai0.467.0 MAIN24 PRIVATE TEST
+
+ไฟล์: ForeverThai-0.467.0-cloud-main24-PRIVATE-TEST.zip
+ขนาด: 18261923 bytes /145ไฟล์
+SHA256: dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e
+Source: c41f3def0acad96f4386e1d92fc1ff6258651c34
+Catalog SHA256: 9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118
+
+แพ็กทดสอบส่วนตัว รวมMAIN21r1เดิมและMAIN24ครบ122ฟิลด์/57IDs:90คำไทยใหม่31reuseตรงเดิม1ชื่อpropername ไม่ใช่57เควสต์ครบทุกphaseหรือทั้งเกมครบ ไม่รวมbooks22 ไม่มีการเปลี่ยนcustomerfeed0.463.1 รอบปกติ0.470.0
+รวมQuest/Tracker/Questie(optional)/NPC/Skill/Talent/Profession/Item/fonts/settingsครบ เก็บold141filesทุกส่วน เพิ่มThai94–97 ไม่ทับZIP0.466MAIN21r1เดิม
+
+ติดตั้งด้วยตนเองเมื่อพร้อมทดสอบ
+1. ปิดเกม สำรองโฟลเดอร์ForeverThaiเดิม และเก็บWTF/SavedVariablesไว้
+2. เปิดตำแหน่งclientจริงจากBattle.net (Windows Open in Explorer /Mac Show in Finder) เลือกโฟลเดอร์ที่มีไฟล์เกมจริง ไม่ยึดชื่อproductfolderตายตัว
+3. ตรวจขนาด/SHA256และแตกZIPภายนอกเกม วางForeverThaiลงInterface/AddOns ให้เป็นInterface/AddOns/ForeverThai/ForeverThai.toc ห้ามซ้อนโฟลเดอร์ คงชื่อForeverThai/Fontsและทุกไฟล์
+4. เปิดAddonที่หน้าตัวละคร ไม่ล้างsettings/WTF ไม่ต้องรันPython/สคริปต์พัฒนา/AIlocalหรือโปรแกรมWindowsบนMac หากย้อนกลับให้ปิดเกมแล้วคืนโฟลเดอร์สำรอง
+
+ผลCloudตามขอบเขตจริง
+- Rootอ่าน/อนุมัติครบ122คู่ตาม3proposals ผลmatcherชุดสุดท้าย42positive/210negative;80ก่อนหน้าใช้ผลเดิมและoldCatalogprefix ไม่อ้างrerun
+- Appendเฉพาะ242Thai runs/623glyphsใน4หน้าThai94–97 เก็บ102656oldruns/13710slots/108fontassets/protected28เดิมครบ
+- ActualBitmapLayer122fieldsผ่าน (121Thai+1Latin) ไม่มีThai fallbackไปlivefont
+- Native/QuestieTracker89fields:174Thai bitmap/2Latin/2knownmultilineEnglish executions;356off/wrongIDnegativesผ่าน
+- ZIPจริง145ไฟล์/TOC24/namespace/settings/Questie/70938basicload+paths/referencesผ่าน ไม่rerun9Skills/NPC686/party/fullfontsหรือทดสอบเกม
+
+ข้อจำกัดสำคัญ
+- 84213objectiveเป็นไทยหลายบรรทัด:หน้าข้อความเควสต์แสดงไทยผ่านBitmapLayer แต่native/QuestieTrackerคงอังกฤษตามguardเดิมที่ปฏิเสธnewline ไม่แก้engineเพื่อบังคับผ่าน
+- 81781descriptionระบุForestSong แต่objectiveระบุSatyrnaar แปลตามแต่ละต้นฉบับและRootอนุมัติ ไม่อ้างเส้นทางจริงถูกต้อง
+- 2752identityvariantยังhold/canonicalเดิม ไม่เพิ่มliteraladdress;94302เป็นcapturedcompleteไม่ใช่completionLog และreadersexไม่ใช่NPCgender/playeridentityproof
+- ยังไม่ยืนยันเล่นจริงWindows/MacM2/currentenabledinventory/unknowntypedphases ไม่อ้างครบหรือใกล้100%ทั้งเกม
+
+Source:EG ea970da071079b32e56f349e09648ff0e314b351 quests/texts70888/70938;Rootreviews7f84daec/469c4b0a/24860a9f เครดิตEG/QuestieDB/Forever-VOเดิมคงในSOURCES-TH.txt ไม่มีrawcaptures/toolingลงruntime
+Data from Efficient Games (https://efficient.games), licensed under CC BY4.0 https://creativecommons.org/licenses/by/4.0/
+ดูpackage-manifest.json /release-receipt.json /final-text-hashes.json;actualdownload-backอยู่evidence/candidate24-delivery.json หลังอัปโหลด
+PR https://github.com/cryptokao/foreverthai-updates/pull/1

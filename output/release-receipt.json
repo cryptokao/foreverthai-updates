@@ -1,40 +1,60 @@
 {
-  "status": "fresh_final_zip_static_integrity_passed",
-  "version": "0.466.0",
-  "display_version": "0.466.0 MAIN21 revision1 PRIVATE TEST",
-  "candidate_revision": "main21-r1",
-  "source_commit": "814e4c7c289f46bc58b2ead3ef2a40e00a5cdb13",
-  "runtime_git_tree": "df77c6cf2a1cbb31d193881256e6d678f3828e77",
-  "artifact": "ForeverThai-0.466.0-cloud-main21-r1-PRIVATE-TEST.zip",
-  "bytes": 17897675,
-  "sha256": "279efca27ec2b9a96743cfc39a8512d846ac9e055b527e53fb9dc2371ce157d5",
-  "files": 141,
-  "final_catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
-  "changed_from_immutable_MAIN19": [
-    "ForeverThai/Catalog.lua"
+  "status": "PASSED_FROZEN_COMBINED_PRIVATE_PACKAGE",
+  "version": "0.467.0",
+  "artifact": "ForeverThai-0.467.0-cloud-main24-PRIVATE-TEST.zip",
+  "source_commit": "c41f3def0acad96f4386e1d92fc1ff6258651c34",
+  "runtime_git_tree": "b82cee06996e6feb5a28d2aa5bfe9ce8b00b6cab",
+  "bytes": 18261923,
+  "sha256": "dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e",
+  "files": 145,
+  "changed_from_MAIN21r1": [
+    "ForeverThai/Atlas.lua",
+    "ForeverThai/Catalog.lua",
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
   ],
-  "unchanged_MAIN19_files": 140,
-  "added_files": [],
+  "added_files": [
+    "ForeverThai/Fonts/Thai94.tga",
+    "ForeverThai/Fonts/Thai95.tga",
+    "ForeverThai/Fonts/Thai96.tga",
+    "ForeverThai/Fonts/Thai97.tga"
+  ],
   "removed_files": [],
-  "all_font_files_byte_identical_to_MAIN19": 108,
-  "protected28_byte_identical_to_MAIN19": true,
-  "Core_Speech70938_Settings_Questie_SavedVariables_byte_preserved": true,
-  "source_code_metadata_changed": false,
-  "main21_exact_variants_included": 1,
-  "new_thai_fields": 0,
-  "new_prose": 0,
+  "unchanged_MAIN21r1_files": 137,
+  "old_font_assets_byte_preserved": 108,
+  "protected_assets_byte_preserved": 28,
+  "Core_Speech70938_Tracker_Match_Events_Bitmap_Panel_byte_preserved": true,
+  "actual_basic_combined_TOC_settings70938_load_passed": true,
+  "optional_Questie_SavedVariables_preserved": true,
+  "Catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "Atlas_sha256": "c41c4f3494cdf38dc159528ee714da97ecf76c4822b1be5445a55630a8f7819a",
+  "newly_supported_MAIN24_fields": 122,
+  "unique_quest_ids": 57,
+  "new_Thai_fields": 90,
+  "verbatim_reviewed_reuse_fields": 31,
+  "propername_passthrough_fields": 1,
   "books22_included": false,
-  "matching_proof_reused": {
-    "path": "evidence/main21-affected-regression.json",
-    "sha256": "1e94783c40acdc9b0ecc6c469a9879c3e3326990a07dd06f047f24dedf0566b2",
-    "catalog_sha256": "43ec92f88113114aef4918dcbe10c0bb89b7f222d6658dc5183c08c706f94f50",
-    "positive": 1,
-    "negative": 3,
-    "fresh_matching_rerun": false
-  },
-  "fresh_verification": "Actual final ZIP safe unique paths/CRC/141sourcebytes/TOC24/modules/atlas texture references, unchanged build gates/settings and protected28 vs verified immutable MAIN19. No runtime fixtures or fonts/old suites rerun.",
-  "windows_mac_m2_game_verified": false,
+  "known_limitations": [
+    "84213objective is multiline: full quest text BitmapLayer Thai works; unchanged native/QuestieTracker safeguard leaves this objective English.",
+    "81781description ForestSong vsobjective Satyrnaar kept exactly per source; no live route correctness claim.",
+    "2752held identity variant excluded; old canonical unchanged.",
+    "No current enabled inventory/completequest/fullgame%/realWindowsMacM2 acceptance proof."
+  ],
+  "fresh_checks": [
+    "final42matcher42positive210negative, not prior80matching rerun",
+    "append-only font242runs623glyphs4pages; old102656runs13710slots108fontassets preserved",
+    "actualBitmapLayer122fields:121Thai+1Latin,0Thai livefont fallback",
+    "nativeQuestie89fields178executions:174Thai bitmap+2Latin+2known multilineEnglish;356off/wrongIDnegatives",
+    "actual ZIP safe paths/145sourcebytes/TOC24/refs/basicTOCsettings70938"
+  ],
+  "reused_proofs": [
+    "prior38+42text matching at earlier Catalog prefixes, preserved additively",
+    "unchanged Skills/NPC686/party fullsuites not rerun; protected28/CoreSpeech bytes unchanged"
+  ],
+  "game_or_local_execution": false,
   "customer_feed_changed": false,
+  "standing_customer_feed": "0.463.1",
+  "normal_publication_milestone": "0.470.0",
   "toc_paths_verified": 24,
-  "delivery_readback_report": "evidence/candidate-main21-r1-delivery.json on source branch records actual post-upload download-back; no claim of readback before that step."
+  "download_back_report": "evidence/candidate24-delivery.json on source branch records actual post-upload verification"
 }
