@@ -1,0 +1,130 @@
+{
+  "scope": "Targeted title and17full-English fingerprints in preserved user-transferred author ZIP only; no unrelated book audit or runtime/tests/fonts/build",
+  "archive_path": "/workspace/foreverthai-dev/downloads/ForeverThai-0.462.0-Windows-Mac.zip",
+  "archive_bytes": 25948703,
+  "archive_sha256": "9eb4084c1f6c90d5cc05486b1ecb41951d6e3543cde9fb78b97686df73f81881",
+  "archive_entries": 811,
+  "utf8_text_members_searched": 732,
+  "title_occurrence_members": [],
+  "full_passages_present": 0,
+  "full_passages_absent": 17,
+  "target_pages": [
+    {
+      "page": 1,
+      "english_sha256": "0d743ef2a5a15b0eaac6819ff6d4ee9fa152ff76165ead29e5afcbeafa9f014d",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 2,
+      "english_sha256": "0a434724ceb51fa925ab313f83cb09676d8b8640db3e8d0f2c567e3c5a2a916a",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 3,
+      "english_sha256": "c4c53468131f92ea2f101cc01ea509f8a02ad1b25f13920ceec47b846353dd5d",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 4,
+      "english_sha256": "5fd25d3940d0d257e8169228b7ddc89bb12be7aff3590bb0b0c998c268d52dd7",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 5,
+      "english_sha256": "e1a1d9e3f278e3830cff8d2d6131329ec0497fea72d4e0ddcb8e3d53a522f650",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 6,
+      "english_sha256": "47c24dd34c8884f15ab44e6141924bf634db837ca565da9c100934f49fbe3ddc",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 7,
+      "english_sha256": "303161670026f4185166ac1023822b51e0e99e24a911f1cf53be509fdfa48f0b",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 8,
+      "english_sha256": "6496856b680d71b6f04ca3f1aeeb9cb07110200cae0765fb00878a7a1097ef2c",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 9,
+      "english_sha256": "8cef8123316db59f082aa97e4a8029625b711ec5b6ea14640d52e31986a6164d",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 10,
+      "english_sha256": "398df62b9bb362619d3941179fe8f07f74383dd5835710b45aea6ba02772f1fe",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 11,
+      "english_sha256": "3a712f09c8252c676493f0067f0f61d8e11fec57311be4d89f7e263a97a8bc85",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 12,
+      "english_sha256": "a08e185a3da7abccf04ce35d7877f8149bc173dc8de13dd4c8293ea73c96e8bb",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 13,
+      "english_sha256": "cf2bfb08ec9a95ec54b4e6e17616fb7317229b9e97c49aaed2777d5aaea67c7d",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 14,
+      "english_sha256": "51991c022b5e6816ada9f9eb52151d920a521346bd3de060d218876ee3f56dcd",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 15,
+      "english_sha256": "c006f26a95e40da9bbcf9b468970209cc87e8884bc5cfc007db9a73289266db7",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 16,
+      "english_sha256": "06c27020362738b8d29ae351e9b9a221638e51d9135fb676fc8347f28ee429ca",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    },
+    {
+      "page": 17,
+      "english_sha256": "e24e73b86f1c3ee088961aea3010afb75ddeb0390c69bdc3654a3e13c7fa1dac",
+      "full_matches": [],
+      "prefix_candidate_matches": []
+    }
+  ],
+  "status": "HELD_USER_PROVIDED_SOURCE_OR_APPLICABLE_PERMISSION_REQUIRED",
+  "license_check": {
+    "source_document_archive_path": "ForeverThai/SOURCES-TH.txt",
+    "source_document_sha256": "f3f6cddbbdef33e34eb8543b79d9452a3cb8364593b7a0857929caf2c6a8be65",
+    "explicit_applicable_underlying_book_permission_found": false,
+    "scope": "Preserved author archive credit/license metadata reviewed; collector code/data attribution and font licenses are not treated as a grant covering this underlying book. No external rights grant established."
+  },
+  "next_action": "Hold all17 pages. User must provide the source passages or applicable permission before further transformation/review/font/build/package. No summaries substituted.",
+  "preservation": {
+    "runtime_changed": false,
+    "catalog_sha256": "4e98cc313f1e9e6ad95a803355e25b4dba07b791d7aa57ab5c15e2af607af981",
+    "prior_canonical_MAIN21_Skills_preserved": true,
+    "existing_unapproved_books22_source_and_evidence_preserved_not_newly_republished": true
+  },
+  "tests_fonts_build_zip_version_customer_publication": false
+}
