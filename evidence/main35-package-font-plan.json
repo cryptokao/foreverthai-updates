@@ -1,0 +1,136 @@
+{
+  "new_words": [
+    "หุ้มเกราะ",
+    "พาหนะ",
+    "มหากาพย์"
+  ],
+  "plans": [
+    {
+      "run": "ตรวจดูโคโดหุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+      "pieces": [
+        {
+          "kind": "existing run",
+          "text": "ตรวจดู",
+          "glyphs": [
+            3020
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "โคโด",
+          "glyphs": [
+            11722,
+            11782
+          ]
+        },
+        {
+          "kind": "new word",
+          "text": "หุ้มเกราะ"
+        },
+        {
+          "kind": "existing run",
+          "text": "เพื่อ",
+          "glyphs": [
+            10437
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "เลือก",
+          "glyphs": [
+            10711
+          ]
+        },
+        {
+          "kind": "new word",
+          "text": "พาหนะ"
+        },
+        {
+          "kind": "existing run",
+          "text": "ระดับ",
+          "glyphs": [
+            6650
+          ]
+        },
+        {
+          "kind": "new word",
+          "text": "มหากาพย์"
+        },
+        {
+          "kind": "existing run",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        }
+      ],
+      "glyphs": [
+        3020,
+        11722,
+        11782,
+        14477,
+        10437,
+        10711,
+        14478,
+        6650,
+        14479,
+        839,
+        9731
+      ]
+    },
+    {
+      "run": "แล้วนำทั้งหมดไปให้",
+      "pieces": [
+        {
+          "kind": "existing run",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "นำ",
+          "glyphs": [
+            4304
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "ทั้งหมด",
+          "glyphs": [
+            3766
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing run",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        }
+      ],
+      "glyphs": [
+        11603,
+        4304,
+        3766,
+        12248,
+        12124
+      ]
+    }
+  ]
+}
