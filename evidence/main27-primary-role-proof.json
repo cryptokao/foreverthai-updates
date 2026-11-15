@@ -1,0 +1,40 @@
+{
+  "source_repo": "JIVESCORP/eg-link-output-wowf",
+  "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "documentation": {
+    "path": "DATASETS.md",
+    "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+    "lines": [
+      582,
+      594
+    ],
+    "explicit_semantics": {
+      "n": "reader name",
+      "r": "reader race",
+      "c": "reader class",
+      "g": "reader gender; not used in MAIN27"
+    }
+  },
+  "scope": "Exact raw current70938 query description/objectivesText only; no inference from normalized FVO/captured literal/player-class story.",
+  "query_blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+  "scan_blob": "79c51503960cdf35e54640d8c50904150d9a1005",
+  "excluded": {
+    "unproven_other_dollar_tokens": true,
+    "adjacent_letter_macros": 2,
+    "noData_only_discrepancies": 7,
+    "unproven_pipe5": [
+      91754,
+      95318
+    ],
+    "all_normalized_captured_phase_roles": true
+  },
+  "upstream_fresh_check": {
+    "date": "2026-11-15",
+    "latest_commit": "ea970da071079b32e56f349e09648ff0e314b351",
+    "latest_70938_query_blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+    "new_upstream_data": false
+  },
+  "new_proof_applies_to_existing_held_subdomain": true,
+  "whole_game_inventory": false,
+  "privacy": "Only manually reviewed cache-template English/Thai pairs published; raw player captures and player-name fragments remain private."
+}
