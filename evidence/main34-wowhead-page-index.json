@@ -1,0 +1,91 @@
+[
+  {
+    "quest_id": 94007,
+    "url": "https://www.wowhead.com/forever/quest=94007",
+    "accessible": false
+  },
+  {
+    "quest_id": 94914,
+    "url": "https://www.wowhead.com/forever/quest=94914",
+    "accessible": false
+  },
+  {
+    "quest_id": 98189,
+    "url": "https://www.wowhead.com/forever/quest=98189",
+    "accessible": false
+  },
+  {
+    "quest_id": 98191,
+    "url": "https://www.wowhead.com/forever/quest=98191",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "progress",
+      "completion"
+    ]
+  },
+  {
+    "quest_id": 94007,
+    "url": "https://www.wowhead.com/forever/quest=94007/taming-the-beast",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "completion"
+    ]
+  },
+  {
+    "quest_id": 94914,
+    "url": "https://www.wowhead.com/forever/quest=94914/moonglade",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "completion"
+    ]
+  },
+  {
+    "quest_id": 98189,
+    "url": "https://www.wowhead.com/forever/quest=98189/return-the-statuette",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "progress",
+      "completion"
+    ]
+  },
+  {
+    "quest_id": 98392,
+    "url": "https://www.wowhead.com/forever/quest=98392/darkness-in-the-glade",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "progress",
+      "completion"
+    ]
+  },
+  {
+    "quest_id": 98394,
+    "url": "https://www.wowhead.com/forever/quest=98394/the-great-cat-spirit",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "completion"
+    ]
+  },
+  {
+    "quest_id": 98396,
+    "url": "https://www.wowhead.com/forever/quest=98396/the-great-cat-spirit",
+    "accessible": true,
+    "selected_fields": [
+      "objective"
+    ]
+  },
+  {
+    "quest_id": 98731,
+    "url": "https://www.wowhead.com/forever/quest=98731/blessings-of-the-great-cat-spirit",
+    "accessible": true,
+    "selected_fields": [
+      "objective",
+      "completion"
+    ]
+  }
+]

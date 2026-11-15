@@ -1,0 +1,79 @@
+{
+  "scope": "Only12new candidate pages;absence of published section is not proof game phase absent",
+  "pages": [
+    {
+      "quest_id": 363,
+      "url": "https://www.wowhead.com/forever/quest=363/rude-awakening",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 783,
+      "url": "https://www.wowhead.com/forever/quest=783/a-threat-within",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 787,
+      "url": "https://www.wowhead.com/forever/quest=787/the-new-horde",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 4641,
+      "url": "https://www.wowhead.com/forever/quest=4641/your-place-in-the-world",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 7961,
+      "url": "https://www.wowhead.com/forever/quest=7961/waskily-wabbits",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 7962,
+      "url": "https://www.wowhead.com/forever/quest=7962/wabbit-pelts",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 752,
+      "url": "https://www.wowhead.com/forever/quest=752/a-humble-task",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 5261,
+      "url": "https://www.wowhead.com/forever/quest=5261/eagan-peltskinner",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 92124,
+      "url": "https://www.wowhead.com/forever/quest=92124/book-inventory",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 755,
+      "url": "https://www.wowhead.com/forever/quest=755/rites-of-the-earthmother",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 92464,
+      "url": "https://www.wowhead.com/forever/quest=92464/elemental-unrest",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    },
+    {
+      "quest_id": 3519,
+      "url": "https://www.wowhead.com/forever/quest=3519/a-friend-in-need",
+      "status": "No matching ## Progress in full parsed page",
+      "new_prose": 0
+    }
+  ],
+  "no_new_translations": true,
+  "no_current_enabled_inventory": true
+}

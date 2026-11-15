@@ -1,0 +1,140 @@
+{
+  "batch": "MAIN34",
+  "scope": "Only5unresolved forms,known primary G/g structure;no UnitSex/eligibility/identity role inferred",
+  "new_Thai_fields": 0,
+  "new_aliases": 0,
+  "rows": [
+    {
+      "quest_id": 94373,
+      "field": "completion",
+      "branch": "first_source_alternative",
+      "english_sha256": "72bcd9a35cc308e07599b52ef2e22896b7efc80d63c16a97fbd53524dc40fe4e",
+      "supported": true,
+      "no_gender_dispatch_or_eligibility_inferred": true
+    },
+    {
+      "quest_id": 94373,
+      "field": "completion",
+      "branch": "second_source_alternative",
+      "english_sha256": "ba74f8e1af8cb44c57d2aa9fcb1e4c6874cfad4382c4aeb2cbabba5802bad990",
+      "supported": true,
+      "no_gender_dispatch_or_eligibility_inferred": true
+    },
+    {
+      "quest_id": 94449,
+      "field": "completion",
+      "diagnostic_profile_checks": [
+        {
+          "class_fixture": "Druid",
+          "matched": false
+        },
+        {
+          "class_fixture": "Hunter",
+          "matched": false
+        },
+        {
+          "class_fixture": "Warrior",
+          "matched": false
+        },
+        {
+          "class_fixture": "Paladin",
+          "matched": false
+        },
+        {
+          "class_fixture": "Rogue",
+          "matched": false
+        },
+        {
+          "class_fixture": "Priest",
+          "matched": false
+        },
+        {
+          "class_fixture": "Shaman",
+          "matched": true
+        }
+      ],
+      "matched": true,
+      "not_identity_role_or_eligibility_proof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "diagnostic_profile_checks": [
+        {
+          "class_fixture": "Druid",
+          "matched": false
+        },
+        {
+          "class_fixture": "Hunter",
+          "matched": false
+        },
+        {
+          "class_fixture": "Warrior",
+          "matched": false
+        },
+        {
+          "class_fixture": "Paladin",
+          "matched": false
+        },
+        {
+          "class_fixture": "Rogue",
+          "matched": false
+        },
+        {
+          "class_fixture": "Priest",
+          "matched": false
+        },
+        {
+          "class_fixture": "Shaman",
+          "matched": false
+        },
+        {
+          "class_fixture": "Mage",
+          "matched": false
+        },
+        {
+          "class_fixture": "Warlock",
+          "matched": false
+        }
+      ],
+      "matched": false,
+      "not_identity_role_or_eligibility_proof": true
+    },
+    {
+      "quest_id": 94373,
+      "field": "progress",
+      "branch": "first_source_alternative",
+      "english_sha256": "b4fef3e633e5f919220f1222c9ed0256993a56e5ddba254c8b8ddb4dac5cb86a",
+      "supported": false,
+      "no_gender_dispatch_or_eligibility_inferred": true
+    },
+    {
+      "quest_id": 94373,
+      "field": "progress",
+      "branch": "second_source_alternative",
+      "english_sha256": "cbf54565b7f5e698ded651db53356b3e0fe7f38d1a5bc31aa23a30f5a443610c",
+      "supported": false,
+      "no_gender_dispatch_or_eligibility_inferred": true
+    },
+    {
+      "quest_id": 98323,
+      "field": "progress",
+      "branch": "first_source_alternative",
+      "english_sha256": "b0c8efad7df62a0fc0df46d268c5bb8d579712e92c40a9cca930f601264a271e",
+      "supported": true,
+      "no_gender_dispatch_or_eligibility_inferred": true
+    },
+    {
+      "quest_id": 98323,
+      "field": "progress",
+      "branch": "second_source_alternative",
+      "english_sha256": "971856d02bbfb06d803dec77826f830abafe2a4d78a446b480e0633185c928fa",
+      "supported": true,
+      "no_gender_dispatch_or_eligibility_inferred": true
+    }
+  ],
+  "remaining": 3,
+  "grammar_reference": "evidence/main30-primary-grammar-proof.json",
+  "elapsed_wall_seconds": 0.21180200000026161,
+  "cpu_seconds": 0.203125
+}

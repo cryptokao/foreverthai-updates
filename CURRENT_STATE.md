@@ -1,5 +1,15 @@
 # Current state — 2026-11-15
 
+## MAIN34 new-source frontiers and primary page acquisition — no runtime/version change
+
+- New renamed source Karrz1/TrinityCore(previousadvocaite) pin e6399e4fcbf774f7a8eabf0148058b70f49487af,customtreef6ccb3a65c09dfd52b9253fcf6ee1abc4e194c26. Read43English live capture progress/completion fields(70888) as inertSQL.31exact/markup+7identitydiagnostic,5followups closed with existing full G/g alternatives and appropriate fixture/case diagnostics. No eligibility/role inferred,noalias.
+-20older source-owned quests contain88textfields:61supported+13identitydiagnostic;14mismatches are9truncated/wrong-phase objectives,4joined-emote HTML artifacts,1untypedlad/lass placeholder. Rejected fabricated thank-you rewards and inferred source metadata;do not import emulator placeholders.
+- Primary Wowhead pages now accessible via full title slugs,bare-ID URLs failed for3then slugs worked.19selected full objective/progress/completion fields/9IDs=16exact-supported+3placeholderdiagnostics;5identical proofs reused.0newThai/aliases. Literal paragraph/emote separation corroborated;HTML glue is not a real untranslated field.
+- Fresh low-level source acquisition selected179progress-nil candidates in actual0.471 intersected with current70938cache metadata,level1-10. This is NOT179missing texts or enabled quests. First12primarypages lack published Progress sections,confirmed with whole parsed-page heading searches;partial multi-open excerpts alone were NOT used as absence proof.167candidates remain uninspected. Some real quests have no progress prose;never manufacture it.
+- Other new leads:tyler3497/forever-quests metadata snapshot not live verified;ZephrasNov15 additions are givers/NPCs/drops,not newmain prose;ForeverDiffhomepage70532older;Jweyantbuilder usesQuestie/opendata objectives,not independent hand-in text. See evidence/main34-source-frontier.json for exact pins/limits and evidence/main34-actual-lowlevel-source-acquisition-queue.json for next finite work. Credit for acquisition metadata:Efficient Games(https://efficient.games),CCBY4.0.
+- Previous turn MAIN33 was real progress. This turn yields distinct source/provenance evidence and opens a real uninspected primary acquisition frontier;consecutive impasse counter stays0. Whole goal remains active/incomplete. Sourcefile print encoding failure documented;results files were saved and inspected,not misreported as a clean original exit.
+- Private0.471.0/customer0.470.0 unchanged;allSkill/Talent/Profession/Item/fonts remain in those combined packages. No build/version padding,full old tests,localAI or game operation. No actualWindows/MacM2 acceptance/current enabled whole-game denominator.
+
 ## Latest private combined package: 0.471.0 / MAIN33
 
 - Newly discovered FVO issues3522/3523 contain436records,88unique main forms.71exact-supported+15diagnostic identity-substitution supported(NOT roleproof)+1new literal progress+1previously held third-party-race variant. Eight identical prior MAIN29 proofs reused,not rerun;gossip/books deferred.
@@ -7,6 +17,7 @@
 - Private0.471.0ZIP29748679bytes/SHA25654eef1b1fb33379332d8bfe5621d166e9bc77f9fe5931cdf510efbfd782b5077.155runtimefiles,152oldfiles exact;28protectedSkill/fontassets+115oldFontsassets exact. OnlyMainQuest33.lua added,TOC/SOURCES metadata changed. No new fonts/glyphs/runs;allengines/settings/70938fix unchanged.
 - Source4positives40negatives8wrongroutes;old97928exceptnewslot,entire97927reuse and95772held trees preserved. Package31TOCLua compile,actualdataorder executed,4actualBitmapLayerThai draws/0livefontfallback/5glyphcrops. Build6.448s wall/6.297CPU. No old full suites rerun,no localAI.
 - This is real changed evidence after MAIN32,so the impasse counter resets0. Prior first-impasse label superseded. Whole goal remains active/incomplete. Sourcec994dda2b977252a1d6f46cac23722ee30d4023e/treee802163b5a18507cfb5de9f913eab01351a6cf85;immutableartifact648d283e9a1f571c68c7d6421b3b209c8f370e38 oncodex/private-0-471-0-main33-artifacts. All155committedruntimeblobs equalZIP. ZIP/guide/PNG actuallydownload-back byteverified. See evidence/main33-delivery-receipt.json and main33-github-source-tree-check.json;do not treat historical proposal/source-check NOT_PACKAGED/pending labels as current delivery status.
+- Newissue3522/3523 commentstreams separately inspected:both0comments,no additionalcapture;do not repeat unlessupdated. See evidence/main33-new-issue-comments-closure.json.
 - Customerfeed stays0.470.0,next normal milestone0.480.0,no padding. No Windows/MacM2 in-game acceptance or enabled-whole-game denominator.8315/84213existing multilineTracker guard retained.
 
 ## Latest combined package and customer Launcher: 0.470.0 / MAIN28
