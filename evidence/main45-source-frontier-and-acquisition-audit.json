@@ -1,0 +1,122 @@
+{
+  "batch": "MAIN45",
+  "status": "NEW15_REVIEWED_MAIN_FIELDS_READY_FOR_PRIVATE0481",
+  "baseline": "published combined0.480.0",
+  "previous_goal_turn": "PROGRESS real MAIN43+44 300fielddelivery and actual customerLauncher0480",
+  "consecutive_impasse_goal_turns": 0,
+  "current_query_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
+  "current_query_unchanged_not_rematched": true,
+  "new_fvo_exports": {
+    "issues": [
+      3529,
+      3530
+    ],
+    "voice_issue": 3528,
+    "rawrecords": 555,
+    "unique_main_forms": 135,
+    "supported": 100,
+    "identity_diagnostic_not_roleproof": 33,
+    "blank": 2,
+    "newThai": 0,
+    "prior_identical_positive_proofs_reused": 51,
+    "matcher_calls": 130
+  },
+  "typed54_scope": {
+    "exact_ownID_phase_entries_in_pinned_Spoken_corpus": 0,
+    "exact_ownID_phase_entries_in_pinned_FVOaggregate": 0,
+    "no_old_full_corpus_matcher_rerun": true,
+    "icy_raw_html94820_HTTP403_not_retried": true,
+    "wowhead_XML94820_unavailable_not_retried": true,
+    "holds_kept": true
+  },
+  "other_new_primary_leads": [
+    {
+      "url": "https://thewowdb.com/developers/",
+      "details": "Documented public API;own-ID94820and363404;first3listreports258oldbeta70124quests;record6hasdescriptionandobjective,completionnull,no progress. No dataset bulkdownload,no newruntime data or wholeinventory claim."
+    },
+    {
+      "url": "https://pd.zroot.it/forever/sources",
+      "details": "Explicit Questiecommunity metadata,sourcepage reports no Wowhead fetch and unverified availability;not primary missingP/C or enabledinventory."
+    },
+    {
+      "url": "https://questcorehq.com/wowdb/forever/",
+      "details": "Publisher explicitly says VMangosVanilla1.8untilForeverimport;not currentForever."
+    },
+    {
+      "url": "https://www.wowforeverquests.com/pipeline",
+      "details": "Questie-derived metadata/classic4244;numericdetail176route showedgenericdirectory,not current customP/C source."
+    },
+    {
+      "url": "https://forever-tool.com/en/quests/",
+      "details": "Official Battle.net KR mirror claims5498names,Nov4build70399;explicitly says not all available and objectives/NPC/location absent. Recorder records questNPCpositions,not questprose. Sample98391D has<class>,no independentrawroleproof."
+    },
+    {
+      "url": "https://gearinsight.app/wow/en/forever/db",
+      "details": "Nov5build70790Questie/RXP/VMangos/clientmixedmetadata;not currentprimaryP/C"
+    },
+    {
+      "url": "https://www.x1x.tw/wow/quests/",
+      "details": "Publisher clientcache70862+Questie objectives/name metadata,not independentP/C;no mirroredtranslateddata."
+    }
+  ],
+  "new11_from_new1438_query_ids": {
+    "fields": 11,
+    "wholefind_no_target_phase": 10,
+    "inaccessible84160": 1,
+    "no_retry": true,
+    "no_game_phase_absence_claim": true
+  },
+  "new178_all5340_nil_route_frontier": {
+    "actual_runtime_nil_checked": 178,
+    "ids": 101,
+    "wholefind_no_target_phase": 152,
+    "inaccessible_no_retry": 9,
+    "full_contiguous_published_phases": 17,
+    "source_ready_reviewed_newThai": 15,
+    "new_untyped_name_holds": 2,
+    "quest_ids_new_fields": 11,
+    "notmissingprosecount": true
+  },
+  "new15_source_checks": {
+    "batch": "MAIN45",
+    "status": "PASSED_SOURCE_CHECKS_NOT_PACKAGED",
+    "supported_new_fields_or_variants": 15,
+    "new_unique_Thai_translations": 15,
+    "baseline_verbatim_reviewed_reuse_fields": 0,
+    "same_batch_reviewed_reuse_fields": 0,
+    "quest_ids": 11,
+    "new_runtime_ids": 0,
+    "new_field_slots": 15,
+    "appended_variants": 0,
+    "positive_checks": 150,
+    "negative_checks": 625,
+    "wrong_phase_checks": 300,
+    "preexisting_same_body_other_phase_acceptance_preserved": 0,
+    "all_old_target_canonical_alias_trees_preserved": true,
+    "new_held_phase_slots_preserved": 2,
+    "earlier54_held_slots_preserved": 54,
+    "nonlinguistic_excluded_slots_preserved": 1,
+    "reuse_source_trees_preserved": 0,
+    "held_quests_preserved": [
+      95772,
+      97928,
+      8315,
+      84213,
+      9556
+    ],
+    "glyph_baseline": 15994,
+    "new_Thai_runs_needed": 26,
+    "complete_quests_claimed": 0,
+    "real_Windows_MacM2_acceptance": false,
+    "current_enabled_inventory_proven": false,
+    "overlay_sha256": "a6e86f21c9738d3a952ea31d3120190d41675b4e0c701ea64ec3e33f187998fe",
+    "elapsed_wall_seconds": 0.6788757000031183,
+    "cpu_seconds": 0.640625
+  },
+  "runtime_version_still": "0.480.0",
+  "customer_still": "0.480.0",
+  "next_normal_customer": "0.490.0",
+  "private0481_not_yet_built": true,
+  "real_Windows_MacM2_verified": false,
+  "current_enabled_inventory_proven": false
+}
