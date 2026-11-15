@@ -3624,3 +3624,7 @@ English: same pin data/wowf/1.60.1.70938/quests.enUS.json; exact own-ID descript
 MAIN28: 17 newly supported literal conditional-description variants/13existing quest fields/13IDs =8 new reviewed Thai variants+9 reviewed verbatim reuse; not17 complete quests.
 English: https://github.com/JIVESCORP/eg-link-output-wowf/blob/ea970da071079b32e56f349e09648ff0e314b351/data/wowf/1.60.1.70938/quests.enUS.json ; conditionalDescriptions full own-ID source, no condition/creature eligibility guessed.
 98391uppercaseG and91754basepipe5grammar remain held independently of translated literal conditions. Existing8315/84213multi-line objective Tracker English guards retained. Real Windows/Mac M2 and whole-game completion not verified.
+
+MAIN33: one newly supported quest progress field,97928 Camping101:Blacksmithing,L6. Exact English from https://github.com/quinn-dougherty/forever-vo/issues/3522 line58(progress);export header70938 is not individual-row build proof.
+Reviewed full-source Thai reused verbatim from existing97927.progress;0newThai prose,1new supported field,not1completequest. QuestieDB4dbb82440a27856f8dccf57094a5d792cdc7cc9b corroborates own-ID title/level only.
+Prior95772completion variant remains held:third-party race role unproven,canonical untouched. All Quest/Tracker/optionalQuestie/NPC/Skill/Talent/Profession/Item/fonts/settings/70938fix retained. No real Windows/Mac M2 verification or customer publication in this private package.

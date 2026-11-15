@@ -1,0 +1,20 @@
+{
+  "status": "PASSED_ONE_NEW_LITERAL_PROGRESS_SLOT",
+  "quest_id": 97928,
+  "field": "progress",
+  "positive_checks": 4,
+  "negative_checks": 40,
+  "wrong_route_checks": 8,
+  "old_quest_except_new_slot_preserved": true,
+  "reuse97927_entire_quest_preserved": true,
+  "held95772_entire_quest_preserved": true,
+  "new_Thai_fields": 0,
+  "new_supported_fields": 1,
+  "verbatim_reviewed_reuse_fields": 1,
+  "overlay_sha256": "3691a574261943bb9392aeac5c5c99cb5503ac2396b1350939c240e041109d67",
+  "proposal_sha256": "a7da0c63ce89a1947470980ea46812a6f23fb936f1667a6f0292dd3509605b3f",
+  "real_game_verified": false,
+  "bitmap_package_pending": true,
+  "elapsed_wall_seconds": 0.22555190000002767,
+  "cpu_seconds": 0.203125
+}

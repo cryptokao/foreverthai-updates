@@ -1,5 +1,14 @@
 # Current state — 2026-11-15
 
+## Latest private combined package: 0.471.0 / MAIN33
+
+- Newly discovered FVO issues3522/3523 contain436records,88unique main forms.71exact-supported+15diagnostic identity-substitution supported(NOT roleproof)+1new literal progress+1previously held third-party-race variant. Eight identical prior MAIN29 proofs reused,not rerun;gossip/books deferred.
+- Adds only quest97928.progress,level6 Camping101:Blacksmithing,sourceissue3522line58:Yes,I can teach you. Actual full English includes spaces,see reviewed-pairs. Thai is verbatim reviewed reuse from97927.progress:ใช่ ข้าสอนเจ้าได้. New supported fields1,newThai prose0,completequests0.95772completion race role remains held;canonical retained.
+- Private0.471.0ZIP29748679bytes/SHA25654eef1b1fb33379332d8bfe5621d166e9bc77f9fe5931cdf510efbfd782b5077.155runtimefiles,152oldfiles exact;28protectedSkill/fontassets+115oldFontsassets exact. OnlyMainQuest33.lua added,TOC/SOURCES metadata changed. No new fonts/glyphs/runs;allengines/settings/70938fix unchanged.
+- Source4positives40negatives8wrongroutes;old97928exceptnewslot,entire97927reuse and95772held trees preserved. Package31TOCLua compile,actualdataorder executed,4actualBitmapLayerThai draws/0livefontfallback/5glyphcrops. Build6.448s wall/6.297CPU. No old full suites rerun,no localAI.
+- This is real changed evidence after MAIN32,so the impasse counter resets0. Prior first-impasse label superseded. Whole goal remains active/incomplete. Artifact/source pins and transport checks are recorded in MAIN33 delivery receipt once uploaded;do not treat historical proposal/source-check NOT_PACKAGED/pending labels as current delivery status.
+- Customerfeed stays0.470.0,next normal milestone0.480.0,no padding. No Windows/MacM2 in-game acceptance or enabled-whole-game denominator.8315/84213existing multilineTracker guard retained.
+
 ## Latest combined package and customer Launcher: 0.470.0 / MAIN28
 
 - Customer feed freshly GET verified HTTP200 at 2026-11-15T09:28:50Z: https://foreverthai-download.yukimikulovelove2.chatgpt.site/latest.json now version0.470.0. Previous freshly verified feed was0.463.1. This milestone was published under the standing every-ten-substantive-version authorization. Next normal milestone0.480.0; no padding versions.
@@ -39,7 +48,7 @@ NewThai fields/aliases/runtime/version/fonts/packages=0. Customer package remain
 
 ## Remaining external input gate
 
-Checked public source/proof queues and the available local source currently offer no new corroborated main text to translate. This is the FIRSTverified impasse audit after distinct leads closed;the GOAL stays active,NOTcomplete or blocked yet. See evidence/current-main-source-gate.json. Follow host's consecutive-turn blocked threshold. Do not invent more hypothetical probes or rerun unchanged sources/suites to keep execution going.
+MAIN33 changed evidence supplied one real missing progress slot and resets consecutive_impasse_goal_turns to0. The prior MAIN32 first-audit label is superseded. The goal remains active/incomplete. Do not rerun unchanged sources or old suites;continue only distinct new source/proof leads. See evidence/current-main-source-gate.json.
 
 Progress on the full original goal needs changed evidence:currently-untranslated own-ID quest phases with build/private typed reader context;authoritative current enabled/eligible inventory;exact proof for remaining macro/role holds;and actual Windows/MacM2 acceptance. User previously said no additional source and not yet tested;do not repeat the same questions or treat pending tests as failure. No external messages to maintainers were authorized. Preserve allraces/classes/customcontent/mainfirst scope;do not switch to NPC/books/style cleanup merely to extend the run.
 
