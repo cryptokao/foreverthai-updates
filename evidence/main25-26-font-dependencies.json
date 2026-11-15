@@ -1,0 +1,21 @@
+{
+  "scope": "Only private temporary font-shaping libraries; no system install, AI models or inference",
+  "wheels": [
+    {
+      "name": "freetype-py",
+      "version": "2.5.1",
+      "wheel": "freetype_py-2.5.1-py3-none-win_amd64.whl",
+      "bytes": 814608,
+      "sha256": "0b7f8e0342779f65ca13ef8bc103938366fecade23e6bb37cb671c2b8ad7f124",
+      "source": "https://files.pythonhosted.org/packages/93/6e/bd7fbfacca077bc6f34f1a1109800a2c41ab50f4704d3a0507ba41009915/freetype_py-2.5.1-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "uharfbuzz",
+      "version": "0.57.0",
+      "wheel": "uharfbuzz-0.57.0-cp311-abi3-win_amd64.whl",
+      "bytes": 1591678,
+      "sha256": "0448bc4ab92a9c65a8526fa743452c2313314d1d9675d308cf989da99ace8e04",
+      "source": "https://files.pythonhosted.org/packages/87/de/eeaf98011b5fd34173cc9c2e8f332671a320fb1447a1ddcf18a238dc37ae/uharfbuzz-0.57.0-cp311-abi3-win_amd64.whl"
+    }
+  ]
+}

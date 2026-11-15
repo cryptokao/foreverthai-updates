@@ -1,0 +1,16 @@
+{
+  "status": "PASSED_ACTUAL_NEW_TOC_DATA_LOAD_ORDER_AND_ALL_LISTED_LUA_SYNTAX",
+  "lua_files_compiled": 26,
+  "actual_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "Bitmap.lua"
+  ],
+  "new_field_positives": 4,
+  "full_UI_or_old_Skill_suites_rerun": false,
+  "real_game_verified": false,
+  "elapsed_wall_seconds": 1.2571274000001722
+}

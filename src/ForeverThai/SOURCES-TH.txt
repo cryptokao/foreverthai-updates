@@ -3610,3 +3610,8 @@ Data from Efficient Games (https://efficient.games), licensed under CC BY4.0 htt
 81781เก็บสถานที่คนละช่องตามต้นฉบับForestSong/Satyrnaar ไม่แก้เอง;2752unprovenidentityยังhold/canonicalเดิม;94302เป็นcapturedcompleteไม่ใช่completionLogและไม่อนุมานNPCgender/playeridentityจากreadersex
 เพิ่มเฉพาะ242Thai runs/623glyphsในThai94–97 เก็บAtlasrecordsและ108fontassetsเดิมทุกbyte รวมSkillsครบ ไม่รวมbooks22ที่ยังรอต้นฉบับจากผู้ใช้
 ข้อจำกัดTrackerเดิม:84213objectiveไทยหลายบรรทัดแสดงเต็มผ่านหน้าข้อความ/BitmapLayerได้ แต่native/QuestieTrackerคงอังกฤษเพราะguardปฏิเสธnewline ไม่มีการแก้engine ไม่อ้างผลเล่นจริงWindows/MacM2/currentenabledinventory
+
+MAIN25/26 reviewed literal additions (4 fields /4 IDs), 2026-11-15.
+FVO primary captures: https://github.com/quinn-dougherty/forever-vo/issues/3493 ; /issues/3511 ; /issues/3519 .
+Source checkpoint: cryptokao/foreverthai-updates 1b7e5922a30ff482c79351be2bc00df8714ef233 .
+No whole-game coverage or in-game Windows/Mac M2 acceptance claim.

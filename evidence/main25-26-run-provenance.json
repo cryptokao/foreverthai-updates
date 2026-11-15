@@ -1,0 +1,1197 @@
+[
+  {
+    "run": "ข้าจะให้ส่วนที่เหลือเมื่อเจ้านำของที่ข้าสั่งมาให้ข้าจนครบ",
+    "parts": [
+      {
+        "text": "ข้าจะให้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088,
+          2125,
+          12124
+        ]
+      },
+      {
+        "text": "ส่วน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          8341
+        ]
+      },
+      {
+        "text": "ที่เหลือ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3937,
+          11016
+        ]
+      },
+      {
+        "text": "เมื่อ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          10507
+        ]
+      },
+      {
+        "text": "เจ้านำ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9731,
+          4304
+        ]
+      },
+      {
+        "text": "ของที่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          839,
+          3937
+        ]
+      },
+      {
+        "text": "ข้าสั่ง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088,
+          8010
+        ]
+      },
+      {
+        "text": "มาให้ข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6089,
+          12124,
+          1088
+        ]
+      },
+      {
+        "text": "จน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          2076
+        ]
+      },
+      {
+        "text": "ครบ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1228
+        ]
+      }
+    ],
+    "glyphs": [
+      1088,
+      2125,
+      12124,
+      8341,
+      3937,
+      11016,
+      10507,
+      9731,
+      4304,
+      839,
+      3937,
+      1088,
+      8010,
+      6089,
+      12124,
+      1088,
+      2076,
+      1228
+    ]
+  },
+  {
+    "run": "ข้าจัดหาระเบิดให้เจ้าใช้ฝ่าประตูเข้าไปได้",
+    "parts": [
+      {
+        "text": "ข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088
+        ]
+      },
+      {
+        "text": "จัดหา",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14334
+        ]
+      },
+      {
+        "text": "ระเบิด",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6694
+        ]
+      },
+      {
+        "text": "ให้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12124
+        ]
+      },
+      {
+        "text": "เจ้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9731
+        ]
+      },
+      {
+        "text": "ใช้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12042
+        ]
+      },
+      {
+        "text": "ฝ่า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          5491
+        ]
+      },
+      {
+        "text": "ประตู",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4828
+        ]
+      },
+      {
+        "text": "เข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9506
+        ]
+      },
+      {
+        "text": "ไป",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12248
+        ]
+      },
+      {
+        "text": "ได้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12197
+        ]
+      }
+    ],
+    "glyphs": [
+      1088,
+      14334,
+      6694,
+      12124,
+      9731,
+      12042,
+      5491,
+      4828,
+      9506,
+      12248,
+      12197
+    ]
+  },
+  {
+    "run": "คนอื่นแถวนี้สักคนต้องมีติดตัวอยู่แน่ๆ",
+    "parts": [
+      {
+        "text": "คน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1143
+        ]
+      },
+      {
+        "text": "อื่น",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9224
+        ]
+      },
+      {
+        "text": "แถว",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11331
+        ]
+      },
+      {
+        "text": "นี้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4355
+        ]
+      },
+      {
+        "text": "สัก",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14335
+        ]
+      },
+      {
+        "text": "คน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1143
+        ]
+      },
+      {
+        "text": "ต้อง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3455
+        ]
+      },
+      {
+        "text": "มี",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6149
+        ]
+      },
+      {
+        "text": "ติดตัว",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3319
+        ]
+      },
+      {
+        "text": "อยู่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          8958
+        ]
+      },
+      {
+        "text": "แน่ๆ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14336
+        ]
+      }
+    ],
+    "glyphs": [
+      1143,
+      9224,
+      11331,
+      4355,
+      14335,
+      1143,
+      3455,
+      6149,
+      3319,
+      8958,
+      14336
+    ]
+  },
+  {
+    "run": "คนเดียวงั้นหรือ",
+    "parts": [
+      {
+        "text": "คนเดียว",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1201
+        ]
+      },
+      {
+        "text": "งั้นหรือ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          2010,
+          8597
+        ]
+      }
+    ],
+    "glyphs": [
+      1201,
+      2010,
+      8597
+    ]
+  },
+  {
+    "run": "จงกำจัดพวกมัน",
+    "parts": [
+      {
+        "text": "จง",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14337
+        ]
+      },
+      {
+        "text": "กำจัด",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          610
+        ]
+      },
+      {
+        "text": "พวกมัน",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14338
+        ]
+      }
+    ],
+    "glyphs": [
+      14337,
+      610,
+      14338
+    ]
+  },
+  {
+    "run": "ต้องมากพอให้ข้าได้ทดสอบประสิทธิภาพของแต่ละแบบ",
+    "parts": [
+      {
+        "text": "ต้อง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3455
+        ]
+      },
+      {
+        "text": "มาก",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6090
+        ]
+      },
+      {
+        "text": "พอ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          5623
+        ]
+      },
+      {
+        "text": "ให้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12124
+        ]
+      },
+      {
+        "text": "ข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088
+        ]
+      },
+      {
+        "text": "ได้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12197
+        ]
+      },
+      {
+        "text": "ทดสอบ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3622
+        ]
+      },
+      {
+        "text": "ประสิทธิภาพ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14339
+        ]
+      },
+      {
+        "text": "ของ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          839
+        ]
+      },
+      {
+        "text": "แต่ละ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14340
+        ]
+      },
+      {
+        "text": "แบบ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11393
+        ]
+      }
+    ],
+    "glyphs": [
+      3455,
+      6090,
+      5623,
+      12124,
+      1088,
+      12197,
+      3622,
+      14339,
+      839,
+      14340,
+      11393
+    ]
+  },
+  {
+    "run": "ทำให้บ้านของข้าแปดเปื้อน",
+    "parts": [
+      {
+        "text": "ทำให้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3901
+        ]
+      },
+      {
+        "text": "บ้าน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4741
+        ]
+      },
+      {
+        "text": "ของข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          839,
+          1088
+        ]
+      },
+      {
+        "text": "แปดเปื้อน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11418
+        ]
+      }
+    ],
+    "glyphs": [
+      3901,
+      4741,
+      839,
+      1088,
+      11418
+    ]
+  },
+  {
+    "run": "ทุกนาทีที่พวก",
+    "parts": [
+      {
+        "text": "ทุก",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4013
+        ]
+      },
+      {
+        "text": "นาที",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4275
+        ]
+      },
+      {
+        "text": "ที่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3937
+        ]
+      },
+      {
+        "text": "พวก",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          5617
+        ]
+      }
+    ],
+    "glyphs": [
+      4013,
+      4275,
+      3937,
+      5617
+    ]
+  },
+  {
+    "run": "นี่คือส่วนแบ่งของเจ้าบางส่วน",
+    "parts": [
+      {
+        "text": "นี่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4352
+        ]
+      },
+      {
+        "text": "คือ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1869
+        ]
+      },
+      {
+        "text": "ส่วนแบ่ง",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14341
+        ]
+      },
+      {
+        "text": "ของ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          839
+        ]
+      },
+      {
+        "text": "เจ้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9731
+        ]
+      },
+      {
+        "text": "บางส่วน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4638
+        ]
+      }
+    ],
+    "glyphs": [
+      4352,
+      1869,
+      14341,
+      839,
+      9731,
+      4638
+    ]
+  },
+  {
+    "run": "ระเบิดที่ข้าสั่งไว้นี่นา",
+    "parts": [
+      {
+        "text": "ระเบิด",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6694
+        ]
+      },
+      {
+        "text": "ที่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3937
+        ]
+      },
+      {
+        "text": "ข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088
+        ]
+      },
+      {
+        "text": "สั่ง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          8010
+        ]
+      },
+      {
+        "text": "ไว้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12358
+        ]
+      },
+      {
+        "text": "นี่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4352
+        ]
+      },
+      {
+        "text": "นา",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14342
+        ]
+      }
+    ],
+    "glyphs": [
+      6694,
+      3937,
+      1088,
+      8010,
+      12358,
+      4352,
+      14342
+    ]
+  },
+  {
+    "run": "ล้วนเป็นการลบหลู่ความทรงจำเกี่ยวกับบ้านแห่งนี้",
+    "parts": [
+      {
+        "text": "ล้วน",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14343
+        ]
+      },
+      {
+        "text": "เป็นการ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14344
+        ]
+      },
+      {
+        "text": "ลบหลู่",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14345
+        ]
+      },
+      {
+        "text": "ความทรงจำ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1435
+        ]
+      },
+      {
+        "text": "เกี่ยวกับ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9430
+        ]
+      },
+      {
+        "text": "บ้าน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4741
+        ]
+      },
+      {
+        "text": "แห่ง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11680
+        ]
+      },
+      {
+        "text": "นี้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4355
+        ]
+      }
+    ],
+    "glyphs": [
+      14343,
+      14344,
+      14345,
+      1435,
+      9430,
+      4741,
+      11680,
+      4355
+    ]
+  },
+  {
+    "run": "อย่างน้อยก็ได้มาลูกหนึ่ง",
+    "parts": [
+      {
+        "text": "อย่างน้อย",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          8971,
+          4452
+        ]
+      },
+      {
+        "text": "ก็ได้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          703
+        ]
+      },
+      {
+        "text": "มา",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6089
+        ]
+      },
+      {
+        "text": "ลูก",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          7251
+        ]
+      },
+      {
+        "text": "หนึ่ง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          8428
+        ]
+      }
+    ],
+    "glyphs": [
+      8971,
+      4452,
+      703,
+      6089,
+      7251,
+      8428
+    ]
+  },
+  {
+    "run": "เจ้าบอกว่าจะบุกเข้าไปใน",
+    "parts": [
+      {
+        "text": "เจ้าบอกว่า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9731,
+          4577,
+          284
+        ]
+      },
+      {
+        "text": "จะ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          2125
+        ]
+      },
+      {
+        "text": "บุก",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4684
+        ]
+      },
+      {
+        "text": "เข้าไปใน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9561,
+          12073
+        ]
+      }
+    ],
+    "glyphs": [
+      9731,
+      4577,
+      284,
+      2125,
+      4684,
+      9561,
+      12073
+    ]
+  },
+  {
+    "run": "เจ้าลดจำนวนพวกมันลงบ้างหรือยัง",
+    "parts": [
+      {
+        "text": "เจ้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9731
+        ]
+      },
+      {
+        "text": "ลดจำนวนพวกมันลง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          7040,
+          2194,
+          5617,
+          6063,
+          7010
+        ]
+      },
+      {
+        "text": "บ้างหรือยัง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4740,
+          8598
+        ]
+      }
+    ],
+    "glyphs": [
+      9731,
+      7040,
+      2194,
+      5617,
+      6063,
+      7010,
+      4740,
+      8598
+    ]
+  },
+  {
+    "run": "แต่ข้าต้องการชุดคละแบบ",
+    "parts": [
+      {
+        "text": "แต่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11298
+        ]
+      },
+      {
+        "text": "ข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088
+        ]
+      },
+      {
+        "text": "ต้องการ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3457
+        ]
+      },
+      {
+        "text": "ชุด",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          2542
+        ]
+      },
+      {
+        "text": "คละ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14346
+        ]
+      },
+      {
+        "text": "แบบ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11393
+        ]
+      }
+    ],
+    "glyphs": [
+      11298,
+      1088,
+      3457,
+      2542,
+      14346,
+      11393
+    ]
+  },
+  {
+    "run": "แต่ข้าต้องมีใบสั่งงานเพื่อให้รายการในบัญชีดูถูกต้องตามระเบียบ",
+    "parts": [
+      {
+        "text": "แต่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11298
+        ]
+      },
+      {
+        "text": "ข้า",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          1088
+        ]
+      },
+      {
+        "text": "ต้อง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3455
+        ]
+      },
+      {
+        "text": "มี",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6149
+        ]
+      },
+      {
+        "text": "ใบสั่งงาน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12091,
+          8012
+        ]
+      },
+      {
+        "text": "เพื่อให้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          10448
+        ]
+      },
+      {
+        "text": "รายการ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14347
+        ]
+      },
+      {
+        "text": "ใน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12073
+        ]
+      },
+      {
+        "text": "บัญชี",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14348
+        ]
+      },
+      {
+        "text": "ดู",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          2906
+        ]
+      },
+      {
+        "text": "ถูกต้อง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3584
+        ]
+      },
+      {
+        "text": "ตาม",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3245
+        ]
+      },
+      {
+        "text": "ระเบียบ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14349
+        ]
+      }
+    ],
+    "glyphs": [
+      11298,
+      1088,
+      3455,
+      6149,
+      12091,
+      8012,
+      10448,
+      14347,
+      12073,
+      14348,
+      2906,
+      3584,
+      3245,
+      14349
+    ]
+  },
+  {
+    "run": "และยังเหลือไว้ใช้เองอีกสักหน่อยด้วย",
+    "parts": [
+      {
+        "text": "และ",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11597
+        ]
+      },
+      {
+        "text": "ยัง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          6340
+        ]
+      },
+      {
+        "text": "เหลือ",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14350
+        ]
+      },
+      {
+        "text": "ไว้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12358
+        ]
+      },
+      {
+        "text": "ใช้",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12042
+        ]
+      },
+      {
+        "text": "เอง",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11077
+        ]
+      },
+      {
+        "text": "อีก",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          9197
+        ]
+      },
+      {
+        "text": "สักหน่อย",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          7956
+        ]
+      },
+      {
+        "text": "ด้วย",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          2941
+        ]
+      }
+    ],
+    "glyphs": [
+      11597,
+      6340,
+      14350,
+      12358,
+      12042,
+      11077,
+      9197,
+      7956,
+      2941
+    ]
+  },
+  {
+    "run": "แล้วทวงคืนสิ่งที่เป็นของเรา",
+    "parts": [
+      {
+        "text": "แล้ว",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          11603
+        ]
+      },
+      {
+        "text": "ทวงคืน",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          3663,
+          1859
+        ]
+      },
+      {
+        "text": "สิ่งที่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          8141,
+          3937
+        ]
+      },
+      {
+        "text": "เป็น",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          10224
+        ]
+      },
+      {
+        "text": "ของเรา",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          839,
+          10577
+        ]
+      }
+    ],
+    "glyphs": [
+      11603,
+      3663,
+      1859,
+      8141,
+      3937,
+      10224,
+      839,
+      10577
+    ]
+  },
+  {
+    "run": "ใจกล้าไม่เบาเลยนี่",
+    "parts": [
+      {
+        "text": "ใจกล้า",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14351
+        ]
+      },
+      {
+        "text": "ไม่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          12274
+        ]
+      },
+      {
+        "text": "เบา",
+        "kind": "new HarfBuzz shaped word",
+        "glyphs": [
+          14352
+        ]
+      },
+      {
+        "text": "เลย",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          10667
+        ]
+      },
+      {
+        "text": "นี่",
+        "kind": "existing exact shaped run",
+        "glyphs": [
+          4352
+        ]
+      }
+    ],
+    "glyphs": [
+      14351,
+      12274,
+      14352,
+      10667,
+      4352
+    ]
+  }
+]

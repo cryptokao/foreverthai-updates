@@ -1,0 +1,48 @@
+{
+  "status": "PASSED_BOUNDED_PRIVATE_0468_PACKAGE_VERIFICATION",
+  "version": "0.468.0",
+  "translation_counts": {
+    "new_thai_fields": 4,
+    "quest_ids": 4,
+    "complete_quests_claimed": 0
+  },
+  "baseline_sha256": "dca6283c1fdb7ee6d7abbee07f2f7f9b86ddbdf68e694dcd2b0074ed883d633e",
+  "zip": {
+    "path": "ForeverThai-0.468.0-main25-26-PRIVATE-TEST.zip",
+    "bytes": 29552389,
+    "sha256": "90b85b81dc4f9dc4d94b4349ec7c64a90889deedf8340c8976806115fb5441df"
+  },
+  "runtime_files": 148,
+  "old_runtime_files_exact_bytes_preserved": 143,
+  "authorized_metadata_changed": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "new_runtime_files": [
+    "ForeverThai/MainQuest2526.lua",
+    "ForeverThai/AtlasMain2526.lua",
+    "ForeverThai/Fonts/Thai98.tga"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 112,
+  "Catalog_Atlas_unchanged": true,
+  "new_runs": 19,
+  "new_word_glyphs": 19,
+  "new_pages": 1,
+  "affected_glyphs_pixel_checked": 108,
+  "positive_exact_matches": 4,
+  "negative_checks": 28,
+  "actual_BitmapLayer_Thai_draws": 4,
+  "Thai_live_font_fallbacks": 0,
+  "engine_files_changed": false,
+  "old_functional_suites_rerun": false,
+  "local_scope": "One serial bounded fallback package with <=32 new word glyphs. No local AI, full font rebuild, full test suite or game control.",
+  "elapsed_wall_seconds": 5.365299399999913,
+  "cpu_seconds": 5.078125,
+  "limitations": [
+    "Real Windows/Mac M2 game acceptance remains unverified",
+    "No whole-game enabled quest inventory or whole-game percent",
+    "Existing84213 objective multiline Tracker English fallback unchanged",
+    "No customer Launcher publication in this private build"
+  ]
+}

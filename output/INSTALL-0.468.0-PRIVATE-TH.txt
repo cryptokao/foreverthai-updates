@@ -1,0 +1,54 @@
+Alphaverse THAI SUB / ForeverThai 0.468.0 — ชุดทดสอบส่วนตัว
+
+แพ็กนี้รวม Quest, Tracker, Questie integration (ถ้ามี Questie), NPC subtitles,
+Skill, Talent, Profession, Item และฟอนต์ไทยไว้ใน ForeverThai ชุดเดียว
+เพิ่มคำแปลที่ตรวจความหมายแล้ว 4 ฟิลด์ของ 4 เควสต์ ไม่ใช่ 4 เควสต์ที่แปลครบทุกฟิลด์
+ไม่ได้เป็นฐานเควสต์ครบทั้งเกม และยังไม่ยืนยันผลในเกม Windows หรือ Mac M2
+
+ไฟล์ติดตั้ง: ForeverThai-0.468.0-main25-26-PRIVATE-TEST.zip
+ขนาด: 29,552,389 ไบต์
+SHA-256: 90b85b81dc4f9dc4d94b4349ec7c64a90889deedf8340c8976806115fb5441df
+
+วิธีติดตั้ง Windows
+1. ปิดเกมก่อน สำรองโฟลเดอร์ Interface\AddOns\ForeverThai เดิมไว้
+2. แตก ZIP จะได้โฟลเดอร์ ForeverThai หนึ่งโฟลเดอร์
+3. วาง ForeverThai ใน Interface\AddOns ของ client Forever ที่ใช้อยู่จริง
+   พาธไฟล์ต้องเป็น Interface\AddOns\ForeverThai\ForeverThai.toc
+   ตรวจว่าไม่มีโฟลเดอร์ซ้อนเป็น ForeverThai\ForeverThai\ForeverThai.toc
+4. ใช้ไฟล์ในแพ็กใหม่ครบชุดเดียว เก็บโฟลเดอร์ WTF และค่าตั้งเดิมไว้
+5. เปิดเกม ตรวจเวอร์ชันจาก ForeverThai.toc ว่าเป็น 0.468.0
+
+Mac M2
+ใช้โฟลเดอร์ ForeverThai จาก ZIP เดียวกัน วางใน Interface/AddOns ของ client
+ที่เปิดเล่นจริง หากใช้ Wine/CrossOver ให้เลือกโฟลเดอร์เกมภายในชุดที่ใช้นั้น
+ต้องคงชื่อไฟล์และตัวพิมพ์ตาม ZIP และเก็บค่าตั้งเดิมไว้
+ไฟล์ Lua/TGA ในแพ็กใช้ร่วมกันได้ แต่ยังไม่มีผลทดสอบในเกม Mac M2 รุ่นนี้
+
+ข้อความใหม่
+- 94829 / What We Lost: ข้อความระหว่างทำเควสต์ (progress)
+- 94236 / Craftsman's Writ: Big Bronze Bomb: ข้อความเมื่อส่งเควสต์ (completion)
+- 92457 / Starving Arcane: ข้อความระหว่างทำเควสต์ (progress)
+- 78270 / Goblin Lockpicks: ข้อความระหว่างทำเควสต์ (progress)
+
+สิ่งที่ตรวจแล้ว
+- ZIP อ่านกลับครบ 148 ไฟล์ ไม่มีชื่อไฟล์ซ้ำ และรายการโหลด TOC ครบ
+- ไฟล์เดิม 143 ไฟล์เหมือนชุดรวม 0.467.0 ทุกไบต์ รวม Catalog, Atlas,
+  Match, Tracker, Speech, Events และไฟล์ Skill/Talent/Profession/Item
+- คงไฟล์สกิล/ฟอนต์ที่ต้องรักษา 28 รายการ และไฟล์ฟอนต์เดิม 112 รายการ
+- ข้อความใหม่ตรงต้นฉบับ 4 จุด และปฏิเสธข้อความผิด/ผิดเควสต์/ผิดช่วง 28 กรณี
+- จำลอง BitmapLayer ด้วยภาพฟอนต์จริงผ่านทั้ง 4 จุด ไม่มีข้อความไทยตกไปใช้ live font
+- เพิ่มภาพคำเพียง 19 คำใน Thai98.tga และ run ใหม่ 19 รายการ
+
+สิ่งที่ยังไม่ยืนยัน
+- ยังไม่มีผลทดสอบในเกม Windows หรือ Mac M2; ภาพ PNG เป็นภาพจำลอง BitmapLayer
+- คำแปลที่ยังไม่มีต้นฉบับหรือหลักฐานตัวแปรที่พอ ยังคงแสดงอังกฤษ
+- Tracker ของ objective เควสต์ 84213 ที่มีหลายบรรทัดยังใช้ fallback อังกฤษเดิม
+- แพ็กนี้ไม่ได้เปลี่ยนการทำงานของ Tracker หรือเพิ่มฟิลด์ title/objective ใหม่
+- ยังไม่ได้เผยแพร่ให้ Launcher ลูกค้าในรอบนี้
+
+เมื่อลองในเกม ให้เช็ก Quest/Tracker หนึ่งจุด, Skill หนึ่งตัว, Talent,
+Profession และ Item ที่มีคำแปลเดิม พร้อมระบุ build เกมและ OS เมื่อพบปัญหา
+ไม่ต้องลง Alphaverse XP เพิ่มเพื่อใช้แพ็กนี้ และอย่าลบ WTF เพื่อแก้ปัญหาฟอนต์
+
+แหล่งต้นฉบับและรายการตรวจดูได้จาก SOURCES-TH.txt และ receipt.json ที่ส่งแยก
+เอกสารที่เก็บจากแพ็กเดิมเป็นประวัติเดิม คู่มือนี้อธิบายขอบเขตของ 0.468.0
