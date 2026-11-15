@@ -1,0 +1,139 @@
+{
+  "status": "CLOSED_UNPROVEN_RAW_UI_GAP_EXISTING_RESOLVED_API_TEXT_SUPPORTED",
+  "new_Thai_fields": 0,
+  "new_aliases": 0,
+  "runtime_changed": false,
+  "version_changed": false,
+  "UI_API_primary": {
+    "repository": "Gethe/wow-ui-source",
+    "pin": "bebcb6bf309cf41b41bd74f8ca651e6a105b2676",
+    "commit_message": "1.60.1 (70938)",
+    "files": [
+      {
+        "path": "Interface/AddOns/Blizzard_APIDocumentationGenerated/QuestLogDocumentation.lua",
+        "blob": "587006566ca7de68deeb8fb044f8e3bcbc999931",
+        "lines": [
+          477,
+          489,
+          1581,
+          1589,
+          1590
+        ]
+      },
+      {
+        "path": "Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua",
+        "blob": "9d78a9fa79479de156e0ebd83c6c1c93d9b42314",
+        "lines": [
+          182,
+          189,
+          388,
+          395
+        ]
+      },
+      {
+        "path": "Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.lua",
+        "blob": "cc3668193790e37d37713674990cf56e5ca98afa",
+        "lines": [
+          160,
+          162,
+          331,
+          335
+        ]
+      },
+      {
+        "path": "Interface/AddOns/Blizzard_UIPanels_Game/Blizzard_UIPanels_Game.toc",
+        "blob": "7b6537794b17e8a2d1c7eef582f1f724c0e180f7"
+      }
+    ],
+    "findings": [
+      "Quest panels display GetObjectiveText/GetQuestLogQuestText results directly",
+      "GetQuestObjectives may return nothing; numRequired is documented; objectiveID is NOT a documented field in70938",
+      "No evidence of a raw $1oa template reaching this addon's UI paths"
+    ]
+  },
+  "trace_primary": {
+    "repository": "Questie/QuestieDB",
+    "pin": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+    "path": "src/corrections/Forever/traces/foreverQuestTraces.lua",
+    "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+    "generated_at": "2026-11-13T16:53:39.310Z"
+  },
+  "trace_producer_primary": {
+    "repository": "Questie/QuestieTrace",
+    "pin": "ad5edc6c6e8cd48b265209c42eb7ac6a4ecef83d",
+    "files": [
+      {
+        "path": "Modules/Trackers/QuestLog.lua",
+        "blob": "e36a413373698d13e3016e442512b499f93a7c2c",
+        "lines": [
+          538,
+          549
+        ]
+      },
+      {
+        "path": "Modules/Privacy.lua",
+        "blob": "899ddafb390f0d9759bc150ef73b7229fbc6b6c7",
+        "lines": [
+          172,
+          179
+        ]
+      },
+      {
+        "path": "tools/corrections-extractor/src/extract/observers/quest/objectivesText.ts",
+        "blob": "ee0d69b232a081d979a26aff4ffbb4df55167488"
+      }
+    ],
+    "findings": [
+      "Own-ID native packed GetQuestLogQuestText second return",
+      "Privacy redacts names only,not quantity substitutions",
+      "Observer trims/splits lines,does not insert amounts"
+    ]
+  },
+  "rows": [
+    {
+      "quest_id": 91743,
+      "resolved_amount": 8,
+      "trace_field": "questKeys.objectivesText[1]",
+      "independently_read_trace_text_equals_current_cache_amount_expansion": true,
+      "previous_0470_positive_match_reused_not_rerun": true
+    },
+    {
+      "quest_id": 95773,
+      "resolved_amount": 10,
+      "trace_field": "questKeys.objectivesText[1]",
+      "independently_read_trace_text_equals_current_cache_amount_expansion": true,
+      "previous_0470_positive_match_reused_not_rerun": true
+    },
+    {
+      "quest_id": 95789,
+      "resolved_amount": 10,
+      "trace_field": "questKeys.objectivesText[1]",
+      "independently_read_trace_text_equals_current_cache_amount_expansion": true,
+      "previous_0470_positive_match_reused_not_rerun": true
+    },
+    {
+      "quest_id": 95951,
+      "resolved_amount": 20,
+      "trace_field": "questKeys.objectivesText[1]",
+      "independently_read_trace_text_equals_current_cache_amount_expansion": true,
+      "previous_0470_positive_match_reused_not_rerun": true
+    },
+    {
+      "quest_id": 97453,
+      "resolved_amount": 6,
+      "trace_field": "questKeys.objectivesText[1]",
+      "independently_read_trace_text_equals_current_cache_amount_expansion": true,
+      "previous_0470_positive_match_reused_not_rerun": true
+    },
+    {
+      "quest_id": 99143,
+      "resolved_amount": 6,
+      "trace_field": "questKeys.objectivesText[1]",
+      "independently_read_trace_text_equals_current_cache_amount_expansion": true,
+      "previous_0470_positive_match_reused_not_rerun": true
+    }
+  ],
+  "decision": "All six independent native summaries match current expanded source amounts and existing0.470support. Do not add frozen raw aliases/speculative normalizer. Reopen only with actual raw UI/API capture or changed source.",
+  "real_Windows_Mac_M2_game_verified": false,
+  "whole_game_inventory_proven": false
+}

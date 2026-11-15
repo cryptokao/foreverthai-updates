@@ -1,0 +1,15 @@
+{
+  "status": "EXTERNAL_SAVEDVARIABLES_WRITE_INSPECTED",
+  "old_file_sha256": "de189ca796191c7ada47cc3ada3c4de38440cd52bc230a8f40020fa1c091a50a",
+  "new_file_sha256": "c57e73868d670f8d2ef4d60024ba4ed5d1a111d787c62a21bcf5c60b5ee9d956",
+  "backup_rotated_to_old_main": true,
+  "full_observed_literal_data_equal": true,
+  "main_quests_equal": true,
+  "changed_observed_root_keys": [],
+  "old_current_build_captures_still_70790": true,
+  "new_main_text_or_identity_forms": 0,
+  "old22_matcher_checks_not_rerun": true,
+  "source_files_written_by_agent": false,
+  "game_control_or_installation": false,
+  "raw_names_or_account_paths_published": false
+}
