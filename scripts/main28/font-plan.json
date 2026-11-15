@@ -1,0 +1,3708 @@
+{
+  "status": "BOUNDED_FONT_PLAN_READY",
+  "baseline_version": "0.469.0",
+  "old_glyph_slots": 14397,
+  "old_run_count": 102986,
+  "old_last_page": 99,
+  "missing_runs": 75,
+  "new_word_glyphs": 79,
+  "new_words": [
+    "กระแสน้ำ",
+    "กังวล",
+    "การ",
+    "ขนาด",
+    "ขี่",
+    "ข้อตกลง",
+    "คนละ",
+    "ควร",
+    "ความ",
+    "คาดหวัง",
+    "คุ้นตา",
+    "จมน้ำ",
+    "ชั้นดี",
+    "ชุ่ม",
+    "ซ้อม",
+    "ดำเนินงาน",
+    "ดุดัน",
+    "ด้อย",
+    "ติดเชื้อ",
+    "ตื่นตระหนก",
+    "ต่ำ",
+    "ต้นน้ำ",
+    "ถึงคราว",
+    "ถูกใจ",
+    "ทั้งคู่",
+    "ทำตาม",
+    "ที่สูง",
+    "นอกเหนือจาก",
+    "นอง",
+    "นึก",
+    "น้ำเสียง",
+    "บรรเทา",
+    "ปฏิเสธ",
+    "ประหลาดใจ",
+    "ประเมิน",
+    "ผูกพัน",
+    "ผู้",
+    "ผู้ใช้",
+    "พบเห็น",
+    "พวกมัน",
+    "พัดพา",
+    "พึ่งพา",
+    "พื้นที่",
+    "ภาคสนาม",
+    "มอบหมาย",
+    "มัก",
+    "มั่นคง",
+    "มาตั้งแต่",
+    "ม้า",
+    "ยาก",
+    "รูปลักษณ์",
+    "ร่วมทาง",
+    "ศพ",
+    "สอดส่อง",
+    "สอบสวน",
+    "สะทกสะท้าน",
+    "สัก",
+    "สังหารหมู่",
+    "สัปดาห์",
+    "ส่งเสียง",
+    "หลงเหลือ",
+    "อวดดี",
+    "อาฆาต",
+    "อาชา",
+    "อาห์",
+    "เขต",
+    "เจ็บปวด",
+    "เถ้า",
+    "เธอ",
+    "เป็นประกาย",
+    "เป็นไปได้",
+    "เพิ่ง",
+    "เพียง",
+    "เฟล",
+    "เหยื่อ",
+    "เอะอะ",
+    "แกะ",
+    "แขก",
+    "แพทย์"
+  ],
+  "plans": [
+    {
+      "run": "การเดินตามรอยนองเลือดที่เจ้าทิ้งไว้ก็คงไม่เลวนัก",
+      "pieces": [
+        {
+          "text": "การ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เดิน",
+          "kind": "existing run",
+          "glyphs": [
+            9867
+          ]
+        },
+        {
+          "text": "ตามรอย",
+          "kind": "existing run",
+          "glyphs": [
+            3265
+          ]
+        },
+        {
+          "text": "นอง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เลือด",
+          "kind": "existing run",
+          "glyphs": [
+            10713
+          ]
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "ทิ้งไว้",
+          "kind": "existing run",
+          "glyphs": [
+            3924,
+            12358
+          ]
+        },
+        {
+          "text": "ก็",
+          "kind": "existing run",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "text": "คง",
+          "kind": "existing run",
+          "glyphs": [
+            1121
+          ]
+        },
+        {
+          "text": "ไม่เลว",
+          "kind": "existing run",
+          "glyphs": [
+            12295
+          ]
+        },
+        {
+          "text": "นัก",
+          "kind": "existing run",
+          "glyphs": [
+            4211
+          ]
+        }
+      ]
+    },
+    {
+      "run": "กำจัดผู้นำ",
+      "pieces": [
+        {
+          "text": "กำจัด",
+          "kind": "existing run",
+          "glyphs": [
+            610
+          ]
+        },
+        {
+          "text": "ผู้นำ",
+          "kind": "existing run",
+          "glyphs": [
+            5312
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ขึ้นไปบนเขาอีกหน่อยมีแขกที่ส่งเสียงเอะอะมาก",
+      "pieces": [
+        {
+          "text": "ขึ้นไป",
+          "kind": "existing run",
+          "glyphs": [
+            1010
+          ]
+        },
+        {
+          "text": "บน",
+          "kind": "existing run",
+          "glyphs": [
+            4534
+          ]
+        },
+        {
+          "text": "เขา",
+          "kind": "existing run",
+          "glyphs": [
+            9480
+          ]
+        },
+        {
+          "text": "อีก",
+          "kind": "existing run",
+          "glyphs": [
+            9197
+          ]
+        },
+        {
+          "text": "หน่อย",
+          "kind": "existing run",
+          "glyphs": [
+            8444
+          ]
+        },
+        {
+          "text": "มี",
+          "kind": "existing run",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "text": "แขก",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "ส่งเสียง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เอะอะ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "มาก",
+          "kind": "existing run",
+          "glyphs": [
+            6090
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าก็อยากให้ลองดูแกะชั้นดีของเรา",
+      "pieces": [
+        {
+          "text": "ข้าก็",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            696
+          ]
+        },
+        {
+          "text": "อยากให้",
+          "kind": "existing run",
+          "glyphs": [
+            8954,
+            12124
+          ]
+        },
+        {
+          "text": "ลองดู",
+          "kind": "existing run",
+          "glyphs": [
+            7095
+          ]
+        },
+        {
+          "text": "แกะ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ชั้นดี",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ของเรา",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            10577
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าก็ไม่ปฏิเสธ",
+      "pieces": [
+        {
+          "text": "ข้าก็",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            696
+          ]
+        },
+        {
+          "text": "ไม่",
+          "kind": "existing run",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "text": "ปฏิเสธ",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "ข้าควรสอบสวนเจ้าด้วยซ้ำ",
+      "pieces": [
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "ควร",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "สอบสวน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "ด้วยซ้ำ",
+          "kind": "existing run",
+          "glyphs": [
+            2945
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าคิดว่าข้าสมควรได้รับอิสรภาพแล้ว",
+      "pieces": [
+        {
+          "text": "ข้าคิดว่า",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            1828,
+            7578
+          ]
+        },
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "สมควรได้รับ",
+          "kind": "existing run",
+          "glyphs": [
+            7769,
+            12216
+          ]
+        },
+        {
+          "text": "อิสรภาพ",
+          "kind": "existing run",
+          "glyphs": [
+            9191
+          ]
+        },
+        {
+          "text": "แล้ว",
+          "kind": "existing run",
+          "glyphs": [
+            11603
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าจะได้นำไปช่วยผู้บาดเจ็บ",
+      "pieces": [
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "จะได้",
+          "kind": "existing run",
+          "glyphs": [
+            2125,
+            12197
+          ]
+        },
+        {
+          "text": "นำไป",
+          "kind": "existing run",
+          "glyphs": [
+            4304,
+            12248
+          ]
+        },
+        {
+          "text": "ช่วย",
+          "kind": "existing run",
+          "glyphs": [
+            2575
+          ]
+        },
+        {
+          "text": "ผู้",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "บาดเจ็บ",
+          "kind": "existing run",
+          "glyphs": [
+            4644
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าช่วยเจ้าจัดการพวกที่อยากเป็นวอร์ล็อกนั่น",
+      "pieces": [
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "ช่วย",
+          "kind": "existing run",
+          "glyphs": [
+            2575
+          ]
+        },
+        {
+          "text": "เจ้าจัดการ",
+          "kind": "existing run",
+          "glyphs": [
+            9731,
+            2138
+          ]
+        },
+        {
+          "text": "พวกที่",
+          "kind": "existing run",
+          "glyphs": [
+            5617,
+            3937
+          ]
+        },
+        {
+          "text": "อยาก",
+          "kind": "existing run",
+          "glyphs": [
+            8954
+          ]
+        },
+        {
+          "text": "เป็น",
+          "kind": "existing run",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "text": "วอร์ล็อก",
+          "kind": "existing run",
+          "glyphs": [
+            7400,
+            7297
+          ]
+        },
+        {
+          "text": "นั่น",
+          "kind": "existing run",
+          "glyphs": [
+            4259
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้านึกภาพได้ว่าการสังหารหมู่ด้วยพลังปีศาจคงงดงามเพียงใด",
+      "pieces": [
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "นึก",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ภาพ",
+          "kind": "existing run",
+          "glyphs": [
+            5926
+          ]
+        },
+        {
+          "text": "ได้",
+          "kind": "existing run",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "text": "ว่า",
+          "kind": "existing run",
+          "glyphs": [
+            7578
+          ]
+        },
+        {
+          "text": "การ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "สังหารหมู่",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ด้วยพลัง",
+          "kind": "existing run",
+          "glyphs": [
+            2941,
+            5585
+          ]
+        },
+        {
+          "text": "ปีศาจ",
+          "kind": "existing run",
+          "glyphs": [
+            5081
+          ]
+        },
+        {
+          "text": "คง",
+          "kind": "existing run",
+          "glyphs": [
+            1121
+          ]
+        },
+        {
+          "text": "งดงาม",
+          "kind": "existing run",
+          "glyphs": [
+            1992
+          ]
+        },
+        {
+          "text": "เพียงใด",
+          "kind": "existing run",
+          "glyphs": [
+            10432
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าประทับใจที่เจ้าทำตามคำสั่งได้ง่ายดายขนาดนี้",
+      "pieces": [
+        {
+          "text": "ข้าประทับใจ",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            4835
+          ]
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "ทำตามคำสั่ง",
+          "kind": "existing run",
+          "glyphs": [
+            3842,
+            3251
+          ]
+        },
+        {
+          "text": "ได้ง่ายดาย",
+          "kind": "existing run",
+          "glyphs": [
+            12197,
+            2057
+          ]
+        },
+        {
+          "text": "ขนาดนี้",
+          "kind": "existing run",
+          "glyphs": [
+            777,
+            4355
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้ายอมรับว่าประหลาดใจที่เห็นคนมีฝีมืออย่างเจ้ามาที่คอกสัตว์ของข้า",
+      "pieces": [
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "ยอมรับว่า",
+          "kind": "existing run",
+          "glyphs": [
+            6332,
+            7578
+          ]
+        },
+        {
+          "text": "ประหลาดใจ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "เห็น",
+          "kind": "existing run",
+          "glyphs": [
+            11050
+          ]
+        },
+        {
+          "text": "คน",
+          "kind": "existing run",
+          "glyphs": [
+            1143
+          ]
+        },
+        {
+          "text": "มี",
+          "kind": "existing run",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "text": "ฝีมืออย่างเจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            5471,
+            8971,
+            9731
+          ]
+        },
+        {
+          "text": "มา",
+          "kind": "existing run",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "text": "ที่คอก",
+          "kind": "existing run",
+          "glyphs": [
+            3937,
+            1699
+          ]
+        },
+        {
+          "text": "สัตว์",
+          "kind": "existing run",
+          "glyphs": [
+            7980
+          ]
+        },
+        {
+          "text": "ของข้า",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            1088
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าอยากขอให้ช่วยสักอย่าง",
+      "pieces": [
+        {
+          "text": "ข้าอยากขอให้ช่วย",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            8954,
+            902,
+            2575
+          ]
+        },
+        {
+          "text": "สัก",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อย่าง",
+          "kind": "existing run",
+          "glyphs": [
+            8971
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าอยากให้เจ้าไปสอดส่องและสำรวจค่ายของพวกมัน",
+      "pieces": [
+        {
+          "text": "ข้าอยากให้",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            8954,
+            12124
+          ]
+        },
+        {
+          "text": "เจ้าไป",
+          "kind": "existing run",
+          "glyphs": [
+            9731,
+            12248
+          ]
+        },
+        {
+          "text": "สอดส่อง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "และ",
+          "kind": "existing run",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "text": "สำรวจค่าย",
+          "kind": "existing run",
+          "glyphs": [
+            8106,
+            1946
+          ]
+        },
+        {
+          "text": "ของพวกมัน",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            5617,
+            6063
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ข้าไม่เคยพบเอลฟ์อย่างเจ้ามาก่อนเลย",
+      "pieces": [
+        {
+          "text": "ข้าไม่",
+          "kind": "existing run",
+          "glyphs": [
+            1088,
+            12274
+          ]
+        },
+        {
+          "text": "เคยพบ",
+          "kind": "existing run",
+          "glyphs": [
+            9565,
+            5514
+          ]
+        },
+        {
+          "text": "เอลฟ์",
+          "kind": "existing run",
+          "glyphs": [
+            11081
+          ]
+        },
+        {
+          "text": "อย่างเจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            8971,
+            9731
+          ]
+        },
+        {
+          "text": "มาก่อน",
+          "kind": "existing run",
+          "glyphs": [
+            6089,
+            711
+          ]
+        },
+        {
+          "text": "เลย",
+          "kind": "existing run",
+          "glyphs": [
+            10667
+          ]
+        }
+      ]
+    },
+    {
+      "run": "คนส่วนใหญ่มักประเมินความฉลาดและความดุร้ายของพวกมันต่ำเกินไป",
+      "pieces": [
+        {
+          "text": "คน",
+          "kind": "existing run",
+          "glyphs": [
+            1143
+          ]
+        },
+        {
+          "text": "ส่วนใหญ่",
+          "kind": "existing run",
+          "glyphs": [
+            8363
+          ]
+        },
+        {
+          "text": "มัก",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ประเมิน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ความ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ฉลาด",
+          "kind": "existing run",
+          "glyphs": [
+            2296
+          ]
+        },
+        {
+          "text": "และ",
+          "kind": "existing run",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "text": "ความ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ดุร้าย",
+          "kind": "existing run",
+          "glyphs": [
+            2901
+          ]
+        },
+        {
+          "text": "ของพวกมัน",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            5617,
+            6063
+          ]
+        },
+        {
+          "text": "ต่ำ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เกินไป",
+          "kind": "existing run",
+          "glyphs": [
+            9423
+          ]
+        }
+      ]
+    },
+    {
+      "run": "คนหนึ่งจมน้ำ",
+      "pieces": [
+        {
+          "text": "คนหนึ่ง",
+          "kind": "existing run",
+          "glyphs": [
+            1143,
+            8428
+          ]
+        },
+        {
+          "text": "จมน้ำ",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "จะอย่างไร",
+      "pieces": [
+        {
+          "text": "จะ",
+          "kind": "existing run",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "text": "อย่างไร",
+          "kind": "existing run",
+          "glyphs": [
+            8981
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ดูจากรูปลักษณ์แล้ว",
+      "pieces": [
+        {
+          "text": "ดู",
+          "kind": "existing run",
+          "glyphs": [
+            2906
+          ]
+        },
+        {
+          "text": "จาก",
+          "kind": "existing run",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "text": "รูปลักษณ์",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "แล้ว",
+          "kind": "existing run",
+          "glyphs": [
+            11603
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ดูตื่นตระหนกเมื่อเจ้าเดินเข้าไปหา",
+      "pieces": [
+        {
+          "text": "ดู",
+          "kind": "existing run",
+          "glyphs": [
+            2906
+          ]
+        },
+        {
+          "text": "ตื่นตระหนก",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เมื่อ",
+          "kind": "existing run",
+          "glyphs": [
+            10507
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "เดิน",
+          "kind": "existing run",
+          "glyphs": [
+            9867
+          ]
+        },
+        {
+          "text": "เข้า",
+          "kind": "existing run",
+          "glyphs": [
+            9506
+          ]
+        },
+        {
+          "text": "ไปหา",
+          "kind": "existing run",
+          "glyphs": [
+            12254
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ต้องทำตามข้อตกลงในส่วนของ",
+      "pieces": [
+        {
+          "text": "ต้อง",
+          "kind": "existing run",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "text": "ทำตาม",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ข้อตกลง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ใน",
+          "kind": "existing run",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "text": "ส่วน",
+          "kind": "existing run",
+          "glyphs": [
+            8341
+          ]
+        },
+        {
+          "text": "ของ",
+          "kind": "existing run",
+          "glyphs": [
+            839
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ถ้าจะว่าไป",
+      "pieces": [
+        {
+          "text": "ถ้า",
+          "kind": "existing run",
+          "glyphs": [
+            3614
+          ]
+        },
+        {
+          "text": "จะว่าไป",
+          "kind": "existing run",
+          "glyphs": [
+            2125,
+            7578,
+            12248
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ถ้าเจ้าจะเสนอความช่วยเหลือให้พวกเราที่นี่",
+      "pieces": [
+        {
+          "text": "ถ้า",
+          "kind": "existing run",
+          "glyphs": [
+            3614
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "จะ",
+          "kind": "existing run",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "text": "เสนอ",
+          "kind": "existing run",
+          "glyphs": [
+            10816
+          ]
+        },
+        {
+          "text": "ความช่วยเหลือ",
+          "kind": "existing run",
+          "glyphs": [
+            1417
+          ]
+        },
+        {
+          "text": "ให้",
+          "kind": "existing run",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "text": "พวกเรา",
+          "kind": "existing run",
+          "glyphs": [
+            5620
+          ]
+        },
+        {
+          "text": "ที่นี่",
+          "kind": "existing run",
+          "glyphs": [
+            3953
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ถ้าเจ้าอยากได้สักตัว",
+      "pieces": [
+        {
+          "text": "ถ้าเจ้าอยากได้",
+          "kind": "existing run",
+          "glyphs": [
+            3614,
+            9731,
+            8957
+          ]
+        },
+        {
+          "text": "สักตัว",
+          "kind": "existing run",
+          "glyphs": [
+            7947,
+            3156
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ทั้งคู่อาจเป็นญาติกันก็ได้",
+      "pieces": [
+        {
+          "text": "ทั้งคู่",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อาจเป็นญาติ",
+          "kind": "existing run",
+          "glyphs": [
+            9113,
+            10224,
+            2732
+          ]
+        },
+        {
+          "text": "กัน",
+          "kind": "existing run",
+          "glyphs": [
+            345
+          ]
+        },
+        {
+          "text": "ก็ได้",
+          "kind": "existing run",
+          "glyphs": [
+            703
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ที่ดูคุ้นตากระจัดกระจายอยู่ตามชายฝั่ง",
+      "pieces": [
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "ดู",
+          "kind": "existing run",
+          "glyphs": [
+            2906
+          ]
+        },
+        {
+          "text": "คุ้นตา",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "กระจัดกระจาย",
+          "kind": "existing run",
+          "glyphs": [
+            48
+          ]
+        },
+        {
+          "text": "อยู่",
+          "kind": "existing run",
+          "glyphs": [
+            8958
+          ]
+        },
+        {
+          "text": "ตามชายฝั่ง",
+          "kind": "existing run",
+          "glyphs": [
+            3245,
+            2460
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ที่หลงเหลืออยู่ทางตะวันออกบุกโจมตีเราไม่หยุด",
+      "pieces": [
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "หลงเหลือ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อยู่ทางตะวันออก",
+          "kind": "existing run",
+          "glyphs": [
+            8958,
+            3773,
+            3117
+          ]
+        },
+        {
+          "text": "บุกโจมตี",
+          "kind": "existing run",
+          "glyphs": [
+            4684,
+            11752
+          ]
+        },
+        {
+          "text": "เรา",
+          "kind": "existing run",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "text": "ไม่หยุด",
+          "kind": "existing run",
+          "glyphs": [
+            12274,
+            8580
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ที่แนวหน้ามีเรื่องให้พบเห็นและได้ยินอีกมาก",
+      "pieces": [
+        {
+          "text": "ที่แนวหน้า",
+          "kind": "existing run",
+          "glyphs": [
+            3937,
+            11366
+          ]
+        },
+        {
+          "text": "มี",
+          "kind": "existing run",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "text": "เรื่อง",
+          "kind": "existing run",
+          "glyphs": [
+            10623
+          ]
+        },
+        {
+          "text": "ให้",
+          "kind": "existing run",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "text": "พบเห็น",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "และ",
+          "kind": "existing run",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "text": "ได้ยิน",
+          "kind": "existing run",
+          "glyphs": [
+            12215
+          ]
+        },
+        {
+          "text": "อีกมาก",
+          "kind": "existing run",
+          "glyphs": [
+            9197,
+            6090
+          ]
+        }
+      ]
+    },
+    {
+      "run": "นอกเหนือจาก",
+      "pieces": [
+        {
+          "text": "นอกเหนือจาก",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "บางทีพวกมันอาจพกอะไรติดตัวอยู่ก็ได้",
+      "pieces": [
+        {
+          "text": "บางที",
+          "kind": "existing run",
+          "glyphs": [
+            4634
+          ]
+        },
+        {
+          "text": "พวกมัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อาจพกอะไรติดตัวอยู่ก็ได้",
+          "kind": "existing run",
+          "glyphs": [
+            9113,
+            5503,
+            9053,
+            3319,
+            8958,
+            703
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ผู้ใช้เวทปีศาจ",
+      "pieces": [
+        {
+          "text": "ผู้ใช้",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เวท",
+          "kind": "existing run",
+          "glyphs": [
+            10763
+          ]
+        },
+        {
+          "text": "ปีศาจ",
+          "kind": "existing run",
+          "glyphs": [
+            5081
+          ]
+        }
+      ]
+    },
+    {
+      "run": "พวกมันทำให้ผืนดินแปดเปื้อนด้วยเวทปีศาจอันชั่วร้ายและการทดลองกับกองเถ้า",
+      "pieces": [
+        {
+          "text": "พวกมัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ทำให้",
+          "kind": "existing run",
+          "glyphs": [
+            3901
+          ]
+        },
+        {
+          "text": "ผืนดิน",
+          "kind": "existing run",
+          "glyphs": [
+            5243
+          ]
+        },
+        {
+          "text": "แปดเปื้อน",
+          "kind": "existing run",
+          "glyphs": [
+            11418
+          ]
+        },
+        {
+          "text": "ด้วย",
+          "kind": "existing run",
+          "glyphs": [
+            2941
+          ]
+        },
+        {
+          "text": "เวท",
+          "kind": "existing run",
+          "glyphs": [
+            10763
+          ]
+        },
+        {
+          "text": "ปีศาจ",
+          "kind": "existing run",
+          "glyphs": [
+            5081
+          ]
+        },
+        {
+          "text": "อัน",
+          "kind": "existing run",
+          "glyphs": [
+            9073
+          ]
+        },
+        {
+          "text": "ชั่วร้าย",
+          "kind": "existing run",
+          "glyphs": [
+            2416
+          ]
+        },
+        {
+          "text": "และ",
+          "kind": "existing run",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "text": "การทดลอง",
+          "kind": "existing run",
+          "glyphs": [
+            450
+          ]
+        },
+        {
+          "text": "กับ",
+          "kind": "existing run",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "text": "กอง",
+          "kind": "existing run",
+          "glyphs": [
+            294
+          ]
+        },
+        {
+          "text": "เถ้า",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "พวกมันปกป้องผู้ขี่อย่างดุดัน",
+      "pieces": [
+        {
+          "text": "พวกมัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ปกป้อง",
+          "kind": "existing run",
+          "glyphs": [
+            4760
+          ]
+        },
+        {
+          "text": "ผู้",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ขี่",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อย่าง",
+          "kind": "existing run",
+          "glyphs": [
+            8971
+          ]
+        },
+        {
+          "text": "ดุดัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "พวกอวดดีขนาดนั้นต้องเขียนอะไรที่เราเอามาใช้ประโยชน์ได้แน่",
+      "pieces": [
+        {
+          "text": "พวก",
+          "kind": "existing run",
+          "glyphs": [
+            5617
+          ]
+        },
+        {
+          "text": "อวดดี",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ขนาด",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "นั้น",
+          "kind": "existing run",
+          "glyphs": [
+            4265
+          ]
+        },
+        {
+          "text": "ต้อง",
+          "kind": "existing run",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "text": "เขียน",
+          "kind": "existing run",
+          "glyphs": [
+            9484
+          ]
+        },
+        {
+          "text": "อะไร",
+          "kind": "existing run",
+          "glyphs": [
+            9053
+          ]
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "เรา",
+          "kind": "existing run",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "text": "เอามา",
+          "kind": "existing run",
+          "glyphs": [
+            11093,
+            6089
+          ]
+        },
+        {
+          "text": "ใช้ประโยชน์ได้",
+          "kind": "existing run",
+          "glyphs": [
+            12054,
+            12197
+          ]
+        },
+        {
+          "text": "แน่",
+          "kind": "existing run",
+          "glyphs": [
+            11375
+          ]
+        }
+      ]
+    },
+    {
+      "run": "พวกเรามีค่ายภาคสนามอีกแห่งอยู่ทางตะวันตกเฉียงเหนือของ",
+      "pieces": [
+        {
+          "text": "พวกเรา",
+          "kind": "existing run",
+          "glyphs": [
+            5620
+          ]
+        },
+        {
+          "text": "มี",
+          "kind": "existing run",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "text": "ค่าย",
+          "kind": "existing run",
+          "glyphs": [
+            1946
+          ]
+        },
+        {
+          "text": "ภาคสนาม",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อีกแห่ง",
+          "kind": "existing run",
+          "glyphs": [
+            9197,
+            11680
+          ]
+        },
+        {
+          "text": "อยู่ทางตะวันตกเฉียงเหนือของ",
+          "kind": "existing run",
+          "glyphs": [
+            8958,
+            3773,
+            3115,
+            839
+          ]
+        }
+      ]
+    },
+    {
+      "run": "มันช่วยบรรเทาความเจ็บปวดจากการติดเชื้อได้",
+      "pieces": [
+        {
+          "text": "มัน",
+          "kind": "existing run",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "text": "ช่วย",
+          "kind": "existing run",
+          "glyphs": [
+            2575
+          ]
+        },
+        {
+          "text": "บรรเทา",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ความ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เจ็บปวด",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "จาก",
+          "kind": "existing run",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "text": "การ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ติดเชื้อ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ได้",
+          "kind": "existing run",
+          "glyphs": [
+            12197
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกสัตว์ของข้า",
+      "pieces": [
+        {
+          "text": "ยอมรับว่า",
+          "kind": "existing run",
+          "glyphs": [
+            6332,
+            7578
+          ]
+        },
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "ประหลาดใจ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "เห็น",
+          "kind": "existing run",
+          "glyphs": [
+            11050
+          ]
+        },
+        {
+          "text": "คน",
+          "kind": "existing run",
+          "glyphs": [
+            1143
+          ]
+        },
+        {
+          "text": "จาก",
+          "kind": "existing run",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "text": "คณะ",
+          "kind": "existing run",
+          "glyphs": [
+            1131
+          ]
+        },
+        {
+          "text": "ของเจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            9731
+          ]
+        },
+        {
+          "text": "มา",
+          "kind": "existing run",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "text": "ที่คอก",
+          "kind": "existing run",
+          "glyphs": [
+            3937,
+            1699
+          ]
+        },
+        {
+          "text": "สัตว์",
+          "kind": "existing run",
+          "glyphs": [
+            7980
+          ]
+        },
+        {
+          "text": "ของข้า",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            1088
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ลองเอาบันทึกที่บอกว่าพวกพ้องของเจ้ากำลังทำอะไรมาฝากข้าหน่อย",
+      "pieces": [
+        {
+          "text": "ลองเอาบันทึกที่บอกว่า",
+          "kind": "existing run",
+          "glyphs": [
+            7092,
+            11093,
+            4619,
+            3937,
+            4577,
+            284
+          ]
+        },
+        {
+          "text": "พวกพ้อง",
+          "kind": "existing run",
+          "glyphs": [
+            5618
+          ]
+        },
+        {
+          "text": "ของเจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            9731
+          ]
+        },
+        {
+          "text": "กำลังทำอะไร",
+          "kind": "existing run",
+          "glyphs": [
+            620,
+            3842,
+            9053
+          ]
+        },
+        {
+          "text": "มา",
+          "kind": "existing run",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "text": "ฝาก",
+          "kind": "existing run",
+          "glyphs": [
+            5465
+          ]
+        },
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "หน่อย",
+          "kind": "existing run",
+          "glyphs": [
+            8444
+          ]
+        }
+      ]
+    },
+    {
+      "run": "สกายบอร์นสองคนนี้ดูเหมือนถูกซ้อมจนตาย",
+      "pieces": [
+        {
+          "text": "สกายบอร์น",
+          "kind": "existing run",
+          "glyphs": [
+            7648,
+            4591
+          ]
+        },
+        {
+          "text": "สอง",
+          "kind": "existing run",
+          "glyphs": [
+            7890
+          ]
+        },
+        {
+          "text": "คนนี้",
+          "kind": "existing run",
+          "glyphs": [
+            1143,
+            4355
+          ]
+        },
+        {
+          "text": "ดูเหมือน",
+          "kind": "existing run",
+          "glyphs": [
+            2926
+          ]
+        },
+        {
+          "text": "ถูก",
+          "kind": "existing run",
+          "glyphs": [
+            3575
+          ]
+        },
+        {
+          "text": "ซ้อม",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "จน",
+          "kind": "existing run",
+          "glyphs": [
+            2076
+          ]
+        },
+        {
+          "text": "ตาย",
+          "kind": "existing run",
+          "glyphs": [
+            3286
+          ]
+        }
+      ]
+    },
+    {
+      "run": "สำรวจต้นน้ำเพื่อหาเบาะแสเกี่ยวกับความตายที่ถูกกระแสน้ำพัดพามานี้",
+      "pieces": [
+        {
+          "text": "สำรวจ",
+          "kind": "existing run",
+          "glyphs": [
+            8106
+          ]
+        },
+        {
+          "text": "ต้นน้ำ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เพื่อ",
+          "kind": "existing run",
+          "glyphs": [
+            10437
+          ]
+        },
+        {
+          "text": "หาเบาะแส",
+          "kind": "existing run",
+          "glyphs": [
+            8784,
+            10122
+          ]
+        },
+        {
+          "text": "เกี่ยวกับ",
+          "kind": "existing run",
+          "glyphs": [
+            9430
+          ]
+        },
+        {
+          "text": "ความตาย",
+          "kind": "existing run",
+          "glyphs": [
+            1426
+          ]
+        },
+        {
+          "text": "ที่ถูก",
+          "kind": "existing run",
+          "glyphs": [
+            3937,
+            3575
+          ]
+        },
+        {
+          "text": "กระแสน้ำ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "พัดพา",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "มา",
+          "kind": "existing run",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "text": "นี้",
+          "kind": "existing run",
+          "glyphs": [
+            4355
+          ]
+        }
+      ]
+    },
+    {
+      "run": "สำหรับผู้มีวันตายแล้ว",
+      "pieces": [
+        {
+          "text": "สำหรับผู้มีวันตาย",
+          "kind": "existing run",
+          "glyphs": [
+            8114,
+            5258,
+            6149,
+            7418,
+            3286
+          ]
+        },
+        {
+          "text": "แล้ว",
+          "kind": "existing run",
+          "glyphs": [
+            11603
+          ]
+        }
+      ]
+    },
+    {
+      "run": "หนึ่งในหน่วยลาดตระเวน",
+      "pieces": [
+        {
+          "text": "หนึ่งใน",
+          "kind": "existing run",
+          "glyphs": [
+            8428,
+            12073
+          ]
+        },
+        {
+          "text": "หน่วยลาดตระเวน",
+          "kind": "existing run",
+          "glyphs": [
+            8441,
+            7166
+          ]
+        }
+      ]
+    },
+    {
+      "run": "หรือการทรยศกันในครอบครัวที่อยู่คนละฝ่าย",
+      "pieces": [
+        {
+          "text": "หรือ",
+          "kind": "existing run",
+          "glyphs": [
+            8597
+          ]
+        },
+        {
+          "text": "การทรยศ",
+          "kind": "existing run",
+          "glyphs": [
+            382,
+            3645
+          ]
+        },
+        {
+          "text": "กัน",
+          "kind": "existing run",
+          "glyphs": [
+            345
+          ]
+        },
+        {
+          "text": "ใน",
+          "kind": "existing run",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "text": "ครอบครัว",
+          "kind": "existing run",
+          "glyphs": [
+            1246
+          ]
+        },
+        {
+          "text": "ที่อยู่",
+          "kind": "existing run",
+          "glyphs": [
+            3991
+          ]
+        },
+        {
+          "text": "คนละ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ฝ่าย",
+          "kind": "existing run",
+          "glyphs": [
+            5495
+          ]
+        }
+      ]
+    },
+    {
+      "run": "หรือร้ายกาจกว่านี้ไม่ได้อีก",
+      "pieces": [
+        {
+          "text": "หรือ",
+          "kind": "existing run",
+          "glyphs": [
+            8597
+          ]
+        },
+        {
+          "text": "ร้ายกาจ",
+          "kind": "existing run",
+          "glyphs": [
+            6993
+          ]
+        },
+        {
+          "text": "กว่า",
+          "kind": "existing run",
+          "glyphs": [
+            284
+          ]
+        },
+        {
+          "text": "นี้",
+          "kind": "existing run",
+          "glyphs": [
+            4355
+          ]
+        },
+        {
+          "text": "ไม่ได้",
+          "kind": "existing run",
+          "glyphs": [
+            12274,
+            12197
+          ]
+        },
+        {
+          "text": "อีก",
+          "kind": "existing run",
+          "glyphs": [
+            9197
+          ]
+        }
+      ]
+    },
+    {
+      "run": "หากเจ้าอยากได้สักตัว",
+      "pieces": [
+        {
+          "text": "หาก",
+          "kind": "existing run",
+          "glyphs": [
+            8785
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "อยากได้",
+          "kind": "existing run",
+          "glyphs": [
+            8957
+          ]
+        },
+        {
+          "text": "สักตัว",
+          "kind": "existing run",
+          "glyphs": [
+            7947,
+            3156
+          ]
+        }
+      ]
+    },
+    {
+      "run": "อาห์",
+      "pieces": [
+        {
+          "text": "อาห์",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "อีกคนชุ่มไปด้วยเลือด",
+      "pieces": [
+        {
+          "text": "อีกคน",
+          "kind": "existing run",
+          "glyphs": [
+            9197,
+            1143
+          ]
+        },
+        {
+          "text": "ชุ่ม",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ไปด้วย",
+          "kind": "existing run",
+          "glyphs": [
+            12248,
+            2941
+          ]
+        },
+        {
+          "text": "เลือด",
+          "kind": "existing run",
+          "glyphs": [
+            10713
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เก็บมันมาให้ข้าหน่อย",
+      "pieces": [
+        {
+          "text": "เก็บ",
+          "kind": "existing run",
+          "glyphs": [
+            9447
+          ]
+        },
+        {
+          "text": "มัน",
+          "kind": "existing run",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "text": "มาให้ข้าหน่อย",
+          "kind": "existing run",
+          "glyphs": [
+            6089,
+            12124,
+            1088,
+            8444
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เครื่องยศของฝ่าย",
+      "pieces": [
+        {
+          "text": "เครื่อง",
+          "kind": "existing run",
+          "glyphs": [
+            9575
+          ]
+        },
+        {
+          "text": "ยศ",
+          "kind": "existing run",
+          "glyphs": [
+            6320
+          ]
+        },
+        {
+          "text": "ของ",
+          "kind": "existing run",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "text": "ฝ่าย",
+          "kind": "existing run",
+          "glyphs": [
+            5495
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เจ้าคงหาเพื่อนร่วมทางที่พึ่งพาได้มากกว่านี้ยาก",
+      "pieces": [
+        {
+          "text": "เจ้าคงหา",
+          "kind": "existing run",
+          "glyphs": [
+            9731,
+            1121,
+            8784
+          ]
+        },
+        {
+          "text": "เพื่อน",
+          "kind": "existing run",
+          "glyphs": [
+            10438
+          ]
+        },
+        {
+          "text": "ร่วมทาง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "พึ่งพา",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ได้",
+          "kind": "existing run",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "text": "มากกว่านี้",
+          "kind": "existing run",
+          "glyphs": [
+            6091,
+            4355
+          ]
+        },
+        {
+          "text": "ยาก",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "เจ้าจะหาเพื่อนร่วมทางที่ดีกว่า",
+      "pieces": [
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "จะ",
+          "kind": "existing run",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "text": "หา",
+          "kind": "existing run",
+          "glyphs": [
+            8784
+          ]
+        },
+        {
+          "text": "เพื่อน",
+          "kind": "existing run",
+          "glyphs": [
+            10438
+          ]
+        },
+        {
+          "text": "ร่วมทาง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "ดีกว่า",
+          "kind": "existing run",
+          "glyphs": [
+            2869
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เจ้าเพิ่งเข้าไปฆ่าคนพวกนั้นทั้งหมดโดยไม่สะทกสะท้านเลย",
+      "pieces": [
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "เพิ่ง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เข้า",
+          "kind": "existing run",
+          "glyphs": [
+            9506
+          ]
+        },
+        {
+          "text": "ไปฆ่า",
+          "kind": "existing run",
+          "glyphs": [
+            12248,
+            1983
+          ]
+        },
+        {
+          "text": "คน",
+          "kind": "existing run",
+          "glyphs": [
+            1143
+          ]
+        },
+        {
+          "text": "พวกนั้น",
+          "kind": "existing run",
+          "glyphs": [
+            5617,
+            4265
+          ]
+        },
+        {
+          "text": "ทั้งหมด",
+          "kind": "existing run",
+          "glyphs": [
+            3766
+          ]
+        },
+        {
+          "text": "โดย",
+          "kind": "existing run",
+          "glyphs": [
+            11788
+          ]
+        },
+        {
+          "text": "ไม่",
+          "kind": "existing run",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "text": "สะทกสะท้าน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เลย",
+          "kind": "existing run",
+          "glyphs": [
+            10667
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เจ้าไม่ใช่พวก",
+      "pieces": [
+        {
+          "text": "เจ้าไม่ใช่",
+          "kind": "existing run",
+          "glyphs": [
+            9731,
+            12274,
+            12040
+          ]
+        },
+        {
+          "text": "พวก",
+          "kind": "existing run",
+          "glyphs": [
+            5617
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เธอมักกลับมาที่ค่ายทุกสองสัปดาห์",
+      "pieces": [
+        {
+          "text": "เธอ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "มัก",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "กลับมา",
+          "kind": "existing run",
+          "glyphs": [
+            204
+          ]
+        },
+        {
+          "text": "ที่ค่าย",
+          "kind": "existing run",
+          "glyphs": [
+            3937,
+            1946
+          ]
+        },
+        {
+          "text": "ทุก",
+          "kind": "existing run",
+          "glyphs": [
+            4013
+          ]
+        },
+        {
+          "text": "สอง",
+          "kind": "existing run",
+          "glyphs": [
+            7890
+          ]
+        },
+        {
+          "text": "สัปดาห์",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "เป็นความอาฆาตระหว่างตระกูลหรือ",
+      "pieces": [
+        {
+          "text": "เป็น",
+          "kind": "existing run",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "text": "ความ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อาฆาต",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ระหว่าง",
+          "kind": "existing run",
+          "glyphs": [
+            6690
+          ]
+        },
+        {
+          "text": "ตระกูล",
+          "kind": "existing run",
+          "glyphs": [
+            3030
+          ]
+        },
+        {
+          "text": "หรือ",
+          "kind": "existing run",
+          "glyphs": [
+            8597
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เป็นประกายอย่างคาดหวัง",
+      "pieces": [
+        {
+          "text": "เป็นประกาย",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อย่าง",
+          "kind": "existing run",
+          "glyphs": [
+            8971
+          ]
+        },
+        {
+          "text": "คาดหวัง",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "เป็นไปได้ว่าศพที่เจ้าพบอาจเป็นเธอ",
+      "pieces": [
+        {
+          "text": "เป็นไปได้",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ว่า",
+          "kind": "existing run",
+          "glyphs": [
+            7578
+          ]
+        },
+        {
+          "text": "ศพ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่เจ้าพบ",
+          "kind": "existing run",
+          "glyphs": [
+            3937,
+            9731,
+            5514
+          ]
+        },
+        {
+          "text": "อาจ",
+          "kind": "existing run",
+          "glyphs": [
+            9113
+          ]
+        },
+        {
+          "text": "เป็น",
+          "kind": "existing run",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "text": "เธอ",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "เป็นไปได้อย่างไรกัน",
+      "pieces": [
+        {
+          "text": "เป็นไปได้",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อย่างไร",
+          "kind": "existing run",
+          "glyphs": [
+            8981
+          ]
+        },
+        {
+          "text": "กัน",
+          "kind": "existing run",
+          "glyphs": [
+            345
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เมื่อผูกพันกับมันแล้ว",
+      "pieces": [
+        {
+          "text": "เมื่อ",
+          "kind": "existing run",
+          "glyphs": [
+            10507
+          ]
+        },
+        {
+          "text": "ผูกพัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "กับ",
+          "kind": "existing run",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "text": "มัน",
+          "kind": "existing run",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "text": "แล้ว",
+          "kind": "existing run",
+          "glyphs": [
+            11603
+          ]
+        }
+      ]
+    },
+    {
+      "run": "เราติดอยู่ที่นี่มาตั้งแต่สงครามสิ้นสุดลง",
+      "pieces": [
+        {
+          "text": "เรา",
+          "kind": "existing run",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "text": "ติดอยู่",
+          "kind": "existing run",
+          "glyphs": [
+            3311,
+            8958
+          ]
+        },
+        {
+          "text": "ที่นี่",
+          "kind": "existing run",
+          "glyphs": [
+            3953
+          ]
+        },
+        {
+          "text": "มาตั้งแต่",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "สงคราม",
+          "kind": "existing run",
+          "glyphs": [
+            7655
+          ]
+        },
+        {
+          "text": "สิ้นสุดลง",
+          "kind": "existing run",
+          "glyphs": [
+            8182
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แกะเหล่านี้มั่นคงและแข็งแกร่งที่สุดใน",
+      "pieces": [
+        {
+          "text": "แกะ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เหล่านี้",
+          "kind": "existing run",
+          "glyphs": [
+            11035
+          ]
+        },
+        {
+          "text": "มั่นคง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "และ",
+          "kind": "existing run",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "text": "แข็งแกร่งที่สุด",
+          "kind": "existing run",
+          "glyphs": [
+            11214,
+            3984
+          ]
+        },
+        {
+          "text": "ใน",
+          "kind": "existing run",
+          "glyphs": [
+            12073
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แต่ก็สงบลงเมื่อเห็นชัดว่าเจ้าไม่ใช่พวก",
+      "pieces": [
+        {
+          "text": "แต่",
+          "kind": "existing run",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "text": "ก็",
+          "kind": "existing run",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "text": "สงบลง",
+          "kind": "existing run",
+          "glyphs": [
+            7657,
+            7010
+          ]
+        },
+        {
+          "text": "เมื่อ",
+          "kind": "existing run",
+          "glyphs": [
+            10507
+          ]
+        },
+        {
+          "text": "เห็นชัดว่าเจ้าไม่ใช่",
+          "kind": "existing run",
+          "glyphs": [
+            11055,
+            7578,
+            9731,
+            12274,
+            12040
+          ]
+        },
+        {
+          "text": "พวก",
+          "kind": "existing run",
+          "glyphs": [
+            5617
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แต่ข้าฟังออกจากน้ำเสียงว่าเจ้ากังวลเรื่องนี้จริง",
+      "pieces": [
+        {
+          "text": "แต่",
+          "kind": "existing run",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "text": "ข้า",
+          "kind": "existing run",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "text": "ฟัง",
+          "kind": "existing run",
+          "glyphs": [
+            5849
+          ]
+        },
+        {
+          "text": "ออกจาก",
+          "kind": "existing run",
+          "glyphs": [
+            9014
+          ]
+        },
+        {
+          "text": "น้ำเสียง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ว่า",
+          "kind": "existing run",
+          "glyphs": [
+            7578
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "กังวล",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เรื่องนี้",
+          "kind": "existing run",
+          "glyphs": [
+            10623,
+            4355
+          ]
+        },
+        {
+          "text": "จริง",
+          "kind": "existing run",
+          "glyphs": [
+            2104
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แต่ตอนนี้ถึงคราวที่",
+      "pieces": [
+        {
+          "text": "แต่ตอนนี้",
+          "kind": "existing run",
+          "glyphs": [
+            11298,
+            3077
+          ]
+        },
+        {
+          "text": "ถึงคราว",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แต่เจ้าเป็นหนึ่งในสกายบอร์นเพียงไม่กี่คนที่ผ่านมาทางนี้",
+      "pieces": [
+        {
+          "text": "แต่",
+          "kind": "existing run",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "text": "เจ้าเป็น",
+          "kind": "existing run",
+          "glyphs": [
+            9731,
+            10224
+          ]
+        },
+        {
+          "text": "หนึ่งใน",
+          "kind": "existing run",
+          "glyphs": [
+            8428,
+            12073
+          ]
+        },
+        {
+          "text": "สกายบอร์น",
+          "kind": "existing run",
+          "glyphs": [
+            7648,
+            4591
+          ]
+        },
+        {
+          "text": "เพียง",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ไม่กี่คน",
+          "kind": "existing run",
+          "glyphs": [
+            12274,
+            674,
+            1143
+          ]
+        },
+        {
+          "text": "ที่ผ่านมา",
+          "kind": "existing run",
+          "glyphs": [
+            3958
+          ]
+        },
+        {
+          "text": "ทางนี้",
+          "kind": "existing run",
+          "glyphs": [
+            3773,
+            4355
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แต่เจ้าเป็นอันเดดนี่",
+      "pieces": [
+        {
+          "text": "แต่",
+          "kind": "existing run",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "text": "เจ้าเป็น",
+          "kind": "existing run",
+          "glyphs": [
+            9731,
+            10224
+          ]
+        },
+        {
+          "text": "อันเดด",
+          "kind": "existing run",
+          "glyphs": [
+            9073,
+            9856,
+            2741
+          ]
+        },
+        {
+          "text": "นี่",
+          "kind": "existing run",
+          "glyphs": [
+            4352
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แม้พวกมันจะไม่เหมือนอาชาเฟลที่เจ้าคุ้นเคยกับการอัญเชิญ",
+      "pieces": [
+        {
+          "text": "แม้",
+          "kind": "existing run",
+          "glyphs": [
+            11546
+          ]
+        },
+        {
+          "text": "พวกมัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "จะ",
+          "kind": "existing run",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "text": "ไม่",
+          "kind": "existing run",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "text": "เหมือน",
+          "kind": "existing run",
+          "glyphs": [
+            10986
+          ]
+        },
+        {
+          "text": "อาชา",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "เฟล",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่",
+          "kind": "existing run",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "คุ้นเคย",
+          "kind": "existing run",
+          "glyphs": [
+            1904
+          ]
+        },
+        {
+          "text": "กับ",
+          "kind": "existing run",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "text": "การอัญเชิญ",
+          "kind": "existing run",
+          "glyphs": [
+            552
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แม้พวกมันอาจดูด้อยกว่าม้าศึกที่เจ้าคุ้นเคย",
+      "pieces": [
+        {
+          "text": "แม้",
+          "kind": "existing run",
+          "glyphs": [
+            11546
+          ]
+        },
+        {
+          "text": "พวกมัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "อาจ",
+          "kind": "existing run",
+          "glyphs": [
+            9113
+          ]
+        },
+        {
+          "text": "ดู",
+          "kind": "existing run",
+          "glyphs": [
+            2906
+          ]
+        },
+        {
+          "text": "ด้อย",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "กว่า",
+          "kind": "existing run",
+          "glyphs": [
+            284
+          ]
+        },
+        {
+          "text": "ม้า",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ศึกที่",
+          "kind": "existing run",
+          "glyphs": [
+            7631,
+            3937
+          ]
+        },
+        {
+          "text": "เจ้า",
+          "kind": "existing run",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "text": "คุ้นเคย",
+          "kind": "existing run",
+          "glyphs": [
+            1904
+          ]
+        }
+      ]
+    },
+    {
+      "run": "แม้สำหรับวอร์ล็อกก็ตาม",
+      "pieces": [
+        {
+          "text": "แม้สำหรับ",
+          "kind": "existing run",
+          "glyphs": [
+            11546,
+            8114
+          ]
+        },
+        {
+          "text": "วอร์ล็อก",
+          "kind": "existing run",
+          "glyphs": [
+            7400,
+            7297
+          ]
+        },
+        {
+          "text": "ก็ตาม",
+          "kind": "existing run",
+          "glyphs": [
+            699
+          ]
+        }
+      ]
+    },
+    {
+      "run": "และทำลายการดำเนินงานของพวกมันที่นี่ไปแล้ว",
+      "pieces": [
+        {
+          "text": "และทำลาย",
+          "kind": "existing run",
+          "glyphs": [
+            12511,
+            12429
+          ]
+        },
+        {
+          "text": "การ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ดำเนินงาน",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ของพวกมัน",
+          "kind": "existing run",
+          "glyphs": [
+            839,
+            5617,
+            6063
+          ]
+        },
+        {
+          "text": "ที่นี่",
+          "kind": "existing run",
+          "glyphs": [
+            3953
+          ]
+        },
+        {
+          "text": "ไปแล้ว",
+          "kind": "existing run",
+          "glyphs": [
+            12248,
+            11603
+          ]
+        }
+      ]
+    },
+    {
+      "run": "และหลายคนก็ตกเป็นเหยื่อความแปดเปื้อนของพวกมัน",
+      "pieces": [
+        {
+          "text": "และ",
+          "kind": "existing run",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "text": "หลายคน",
+          "kind": "existing run",
+          "glyphs": [
+            8665,
+            1143
+          ]
+        },
+        {
+          "text": "ก็",
+          "kind": "existing run",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "text": "ตก",
+          "kind": "existing run",
+          "glyphs": [
+            2969
+          ]
+        },
+        {
+          "text": "เป็น",
+          "kind": "existing run",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "text": "เหยื่อ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ความแปดเปื้อนของ",
+          "kind": "existing run",
+          "glyphs": [
+            1368,
+            11418,
+            839
+          ]
+        },
+        {
+          "text": "พวกมัน",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "ในหุบเขาทางเหนือของที่นี่มีสมุนไพรดอกสีฟ้าขึ้นอยู่",
+      "pieces": [
+        {
+          "text": "ใน",
+          "kind": "existing run",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "text": "หุบเขา",
+          "kind": "existing run",
+          "glyphs": [
+            8848
+          ]
+        },
+        {
+          "text": "ทางเหนือของที่นี่",
+          "kind": "existing run",
+          "glyphs": [
+            3819,
+            839,
+            3953
+          ]
+        },
+        {
+          "text": "มี",
+          "kind": "existing run",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "text": "สมุนไพร",
+          "kind": "existing run",
+          "glyphs": [
+            7815
+          ]
+        },
+        {
+          "text": "ดอก",
+          "kind": "existing run",
+          "glyphs": [
+            2775
+          ]
+        },
+        {
+          "text": "สีฟ้า",
+          "kind": "existing run",
+          "glyphs": [
+            8190,
+            5899
+          ]
+        },
+        {
+          "text": "ขึ้น",
+          "kind": "existing run",
+          "glyphs": [
+            993
+          ]
+        },
+        {
+          "text": "อยู่",
+          "kind": "existing run",
+          "glyphs": [
+            8958
+          ]
+        }
+      ]
+    },
+    {
+      "run": "ได้รับมอบหมายให้ประจำพื้นที่รอบนอกกับเขตที่สูง",
+      "pieces": [
+        {
+          "text": "ได้รับ",
+          "kind": "existing run",
+          "glyphs": [
+            12216
+          ]
+        },
+        {
+          "text": "มอบหมาย",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ให้",
+          "kind": "existing run",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "text": "ประจำ",
+          "kind": "existing run",
+          "glyphs": [
+            4805
+          ]
+        },
+        {
+          "text": "พื้นที่",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "รอบนอก",
+          "kind": "existing run",
+          "glyphs": [
+            6618
+          ]
+        },
+        {
+          "text": "กับ",
+          "kind": "existing run",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "text": "เขต",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่สูง",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "ไปดูแกะว่ามีตัวไหนถูกใจ",
+      "pieces": [
+        {
+          "text": "ไป",
+          "kind": "existing run",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "text": "ดู",
+          "kind": "existing run",
+          "glyphs": [
+            2906
+          ]
+        },
+        {
+          "text": "แกะ",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ว่า",
+          "kind": "existing run",
+          "glyphs": [
+            7578
+          ]
+        },
+        {
+          "text": "มี",
+          "kind": "existing run",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "text": "ตัว",
+          "kind": "existing run",
+          "glyphs": [
+            3156
+          ]
+        },
+        {
+          "text": "ไหน",
+          "kind": "existing run",
+          "glyphs": [
+            12373
+          ]
+        },
+        {
+          "text": "ถูกใจ",
+          "kind": "new shaped word",
+          "glyphs": null
+        }
+      ]
+    },
+    {
+      "run": "ไปถามแพทย์ที่นั่นดู",
+      "pieces": [
+        {
+          "text": "ไปถาม",
+          "kind": "existing run",
+          "glyphs": [
+            12248,
+            3530
+          ]
+        },
+        {
+          "text": "แพทย์",
+          "kind": "new shaped word",
+          "glyphs": null
+        },
+        {
+          "text": "ที่นั่น",
+          "kind": "existing run",
+          "glyphs": [
+            3951
+          ]
+        },
+        {
+          "text": "ดู",
+          "kind": "existing run",
+          "glyphs": [
+            2906
+          ]
+        }
+      ]
+    }
+  ],
+  "dynamic_class_race_values_already_ready": 20,
+  "new_NLP_or_AI_dependency": false,
+  "manual_cuts_preserve_all8_original_Thai": true,
+  "elapsed_wall_seconds": 0.4508839000009175
+}

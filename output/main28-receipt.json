@@ -1,0 +1,65 @@
+{
+  "status": "PASSED_BOUNDED_COMBINED_0470_PACKAGE",
+  "version": "0.470.0",
+  "source_proposal_sha256": "7b552407e0c129838d0ec787d96e620215ba90a9c3706b3663f869c10c281369",
+  "new_supported_variants": 17,
+  "quest_ids": 13,
+  "existing_description_fields_extended": 13,
+  "new_Thai_variants": 8,
+  "verbatim_reviewed_reuse_variants": 9,
+  "complete_quests_claimed": 0,
+  "baseline_zip_sha256": "4fb985134c382d87744214a4ab290e5d3a3caf81a2cc0e47eaa17559dbd90021",
+  "zip": {
+    "path": "ForeverThai-0.470.0-main28-COMBINED.zip",
+    "bytes": 29747971,
+    "sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6"
+  },
+  "runtime_files": 154,
+  "old_runtime_files_exact_bytes_preserved": 149,
+  "metadata_changed": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "new_runtime_files": [
+    "ForeverThai/MainQuest28.lua",
+    "ForeverThai/AtlasMain28.lua",
+    "ForeverThai/Fonts/Thai100.tga"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 114,
+  "new_Thai_runs": 75,
+  "new_word_glyphs": 79,
+  "new_pages": 1,
+  "actual_changed_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "MainQuest27.lua",
+    "MainQuest28.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "AtlasMain27.lua",
+    "AtlasMain28.lua",
+    "Bitmap.lua"
+  ],
+  "all_TOC_Lua_files_compile": 30,
+  "positive_matches": 68,
+  "actual_BitmapLayer_Thai_draws": 68,
+  "Thai_live_font_fallbacks": 0,
+  "affected_glyph_crops_pixel_checked": 414,
+  "matcher_Tracker_engine_changed": false,
+  "source_template_checks_reference": "evidence/main28-variant-checks.json;68positive,680template/136route negatives; not rerun here",
+  "real_game_verified": false,
+  "launcher_published": false,
+  "whole_game_inventory_or_percent": false,
+  "old_UI_Skill_NPC_full_suites_rerun": false,
+  "local_AI_NLP_or_full_font_rebuild": false,
+  "elapsed_wall_seconds": 8.073009499999898,
+  "cpu_seconds": 7.765625,
+  "limitations": [
+    "Windows/Mac M2 in-game acceptance absent",
+    "8315new typed objective alias retains old multi-line Thai; unchanged Tracker newline English guard expected",
+    "98391uppercaseG/91754basepipe5/95318basepipe5grammarheld",
+    "Source/query/class fixtures are not an enabled whole-game inventory"
+  ]
+}
