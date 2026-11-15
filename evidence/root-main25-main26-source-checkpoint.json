@@ -1,0 +1,58 @@
+{
+  "status": "durable source-only MAIN25+26 checkpoint; Cloud integration pending",
+  "date": "2026-11-15",
+  "branch": "codex/main25-source-fallback-20261115",
+  "source_checkpoint": "b890f99b4d255a80a7dce405b6301a1ba0933d3c",
+  "new_thai_fields": 4,
+  "quest_ids": 4,
+  "complete_quests_claimed": 0,
+  "readback_checks": [
+    {
+      "path": "source_inputs/main25-reviewed-pairs.json",
+      "ok": true,
+      "blob": "f8a592c57bd0b0563b418f557051c18931cc6dab"
+    },
+    {
+      "path": "source_inputs/main25-reviewed-overlay.lua",
+      "ok": true,
+      "blob": "c3b85cdb6f1635ee4165714be87a0fe009dce5ce"
+    },
+    {
+      "path": "source_inputs/main26-reviewed-pairs.json",
+      "ok": true,
+      "blob": "9f664e012629b99ae63044f239ec4945f961c767"
+    },
+    {
+      "path": "source_inputs/main26-reviewed-overlay.lua",
+      "ok": true,
+      "blob": "0a0193ee767bcef1f39368a15d29c6e45caf6c1a"
+    }
+  ],
+  "scope_matching": {
+    "MAIN25": {
+      "positive": 2,
+      "negative": 14
+    },
+    "MAIN26": {
+      "positive": 2,
+      "negative": 14
+    }
+  },
+  "baseline_runtime_changed": false,
+  "fonts_changed": false,
+  "version_minted": false,
+  "zip_built": false,
+  "launcher_published": false,
+  "cloud_native_followup": {
+    "attempted": true,
+    "delivered": false,
+    "response": "No Codex thread found for 6af5d3e5-f384-8191-a68b-b6c624af1092 on local host",
+    "action": "No repeated messaging/UI attempts; preserve source handoff for existing Cloud worker. No healthy run cancelled."
+  },
+  "pending": [
+    "Cloud source integration, additive bitmap coverage and actual combined ZIP verification",
+    "Whole-game enabled quest inventory",
+    "Windows/Mac M2 in-game acceptance"
+  ],
+  "policy": "Every package includes Skill/Talent/Profession/Item/fonts and prior Quest/Tracker/Questie/NPC/settings/70938 fix; main quest coverage before old wording polish; no repeat old scans without changed evidence."
+}
