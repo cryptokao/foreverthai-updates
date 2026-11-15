@@ -1,0 +1,4442 @@
+{
+  "new_words": [
+    "ผู้",
+    "บ้าคลั่ง",
+    "สมุดบันทึก",
+    "สกปรก",
+    "ขาดรุ่งริ่ง",
+    "เต็มไปด้วย",
+    "แบบร่าง",
+    "ขีดเขียน",
+    "เพียง",
+    "เหลือบมอง",
+    "ชัด",
+    "สิ่งประดิษฐ์",
+    "แต่ละ",
+    "ล้วน",
+    "ก่อ",
+    "ร้ายแรง",
+    "คอย",
+    "เบี่ยงเบน",
+    "ความสนใจ",
+    "บิดเบือน",
+    "ฝันร้าย",
+    "ประกอบ",
+    "พิธี",
+    "ทรีแอนต์",
+    "อาคาร",
+    "เครน",
+    "หลับใหล",
+    "นาง",
+    "เฝ้าระวัง",
+    "เหยื่อ",
+    "กับดัก",
+    "เหลือ",
+    "วัตถุ",
+    "ก่อนหน้านี้",
+    "ลับ",
+    "เกิดขึ้น",
+    "นอกเหนือ",
+    "การควบคุม",
+    "จังหวะ",
+    "ควร",
+    "มูนคิน",
+    "ซ่อน",
+    "ชะง่อน",
+    "น้ำตก",
+    "ศาลา",
+    "สามารถ",
+    "เวทมนตร์",
+    "ฟื้นฟู",
+    "ความเสียหาย",
+    "อาศัย",
+    "วิชา",
+    "ด้าน",
+    "ความสำคัญ",
+    "เชื่อมโยง",
+    "ต่างกัน",
+    "วิธี",
+    "พิธีกรรม",
+    "เสถียร",
+    "โอกาส",
+    "ความหมาย",
+    "เฉพาะ",
+    "น่า",
+    "การ",
+    "คำใบ้",
+    "จำเป็น",
+    "ราคา",
+    "ความหวัง",
+    "ยื่น",
+    "หัน",
+    "ไร้",
+    "จิตใจ",
+    "เริ่ม",
+    "ความ",
+    "กลุ้มใจ",
+    "สิ่ง",
+    "หวัง",
+    "มีค่า",
+    "อุบัติเหตุ",
+    "ลักลอบ"
+  ],
+  "plans": [
+    {
+      "run": "ราชาผู้บ้าคลั่ง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ราชา",
+          "glyphs": [
+            6794
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ผู้"
+        },
+        {
+          "kind": "new",
+          "text": "บ้าคลั่ง"
+        }
+      ],
+      "glyphs": [
+        6794,
+        14513,
+        14514
+      ]
+    },
+    {
+      "run": "เจ้าพบสมุดบันทึกที่สกปรกและขาดรุ่งริ่ง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พบ",
+          "glyphs": [
+            5514
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "สมุดบันทึก"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "สกปรก"
+        },
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ขาดรุ่งริ่ง"
+        }
+      ],
+      "glyphs": [
+        9731,
+        5514,
+        14515,
+        3937,
+        14516,
+        11597,
+        14517
+      ]
+    },
+    {
+      "run": "ภายในเต็มไปด้วยแบบร่างและบันทึกที่ขีดเขียนไว้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ภายใน",
+          "glyphs": [
+            5944
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เต็มไปด้วย"
+        },
+        {
+          "kind": "new",
+          "text": "แบบร่าง"
+        },
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "บันทึก",
+          "glyphs": [
+            4619
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ขีดเขียน"
+        },
+        {
+          "kind": "existing",
+          "text": "ไว้",
+          "glyphs": [
+            12358
+          ]
+        }
+      ],
+      "glyphs": [
+        5944,
+        14518,
+        14519,
+        11597,
+        4619,
+        3937,
+        14520,
+        12358
+      ]
+    },
+    {
+      "run": "เพียงเหลือบมองก็เห็นได้ชัดว่า",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "เพียง"
+        },
+        {
+          "kind": "new",
+          "text": "เหลือบมอง"
+        },
+        {
+          "kind": "existing",
+          "text": "ก็",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เห็น",
+          "glyphs": [
+            11050
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ชัด"
+        },
+        {
+          "kind": "existing",
+          "text": "ว่า",
+          "glyphs": [
+            7578
+          ]
+        }
+      ],
+      "glyphs": [
+        14521,
+        14522,
+        696,
+        11050,
+        12197,
+        14523,
+        7578
+      ]
+    },
+    {
+      "run": "หากมีใครโง่พอจะสร้างขึ้นมา",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "หาก",
+          "glyphs": [
+            8785
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใคร",
+          "glyphs": [
+            11994
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "โง่",
+          "glyphs": [
+            11745
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พอ",
+          "glyphs": [
+            5623
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สร้าง",
+          "glyphs": [
+            7836
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ขึ้นมา",
+          "glyphs": [
+            993,
+            6089
+          ]
+        }
+      ],
+      "glyphs": [
+        8785,
+        6149,
+        11994,
+        11745,
+        5623,
+        2125,
+        7836,
+        993,
+        6089
+      ]
+    },
+    {
+      "run": "สิ่งประดิษฐ์เหล่านี้แต่ละชิ้นล้วนใช้ก่อหายนะร้ายแรงได้",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "สิ่งประดิษฐ์"
+        },
+        {
+          "kind": "existing",
+          "text": "เหล่านี้",
+          "glyphs": [
+            11035
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "แต่ละ"
+        },
+        {
+          "kind": "existing",
+          "text": "ชิ้น",
+          "glyphs": [
+            2499
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ล้วน"
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ก่อ"
+        },
+        {
+          "kind": "existing",
+          "text": "หายนะ",
+          "glyphs": [
+            8805
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ร้ายแรง"
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        }
+      ],
+      "glyphs": [
+        14524,
+        11035,
+        14525,
+        2499,
+        14526,
+        12042,
+        14527,
+        8805,
+        14528,
+        12197
+      ]
+    },
+    {
+      "run": "ขณะที่ปีศาจเหล่านี้คอยเบี่ยงเบนความสนใจของเราอยู่ที่นี่",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ขณะที่",
+          "glyphs": [
+            758
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปีศาจ",
+          "glyphs": [
+            5081
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เหล่านี้",
+          "glyphs": [
+            11035
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "คอย"
+        },
+        {
+          "kind": "new",
+          "text": "เบี่ยงเบน"
+        },
+        {
+          "kind": "new",
+          "text": "ความสนใจ"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อยู่",
+          "glyphs": [
+            8958
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นี่",
+          "glyphs": [
+            3953
+          ]
+        }
+      ],
+      "glyphs": [
+        758,
+        5081,
+        11035,
+        14529,
+        14530,
+        14531,
+        839,
+        10577,
+        8958,
+        3953
+      ]
+    },
+    {
+      "run": "กำลังถูกบิดเบือนให้กลายเป็นฝันร้าย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "กำลัง",
+          "glyphs": [
+            620
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ถูก",
+          "glyphs": [
+            3575
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "บิดเบือน"
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กลายเป็น",
+          "glyphs": [
+            227
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ฝันร้าย"
+        }
+      ],
+      "glyphs": [
+        620,
+        3575,
+        14532,
+        12124,
+        227,
+        14533
+      ]
+    },
+    {
+      "run": "รีบเดินทางผ่าน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "รีบ",
+          "glyphs": [
+            6844
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เดินทาง",
+          "glyphs": [
+            9871
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ผ่าน",
+          "glyphs": [
+            5429
+          ]
+        }
+      ],
+      "glyphs": [
+        6844,
+        9871,
+        5429
+      ]
+    },
+    {
+      "run": "แล้วไปยัง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        }
+      ],
+      "glyphs": [
+        11603,
+        12248,
+        6340
+      ]
+    },
+    {
+      "run": "ปราบพวกซาเทียร์ที่นั่น",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ปราบ",
+          "glyphs": [
+            4912
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พวก",
+          "glyphs": [
+            5617
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ซาเทียร์",
+          "glyphs": [
+            13826,
+            14209
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นั่น",
+          "glyphs": [
+            3951
+          ]
+        }
+      ],
+      "glyphs": [
+        4912,
+        5617,
+        13826,
+        14209,
+        3951
+      ]
+    },
+    {
+      "run": "ปราบเผ่ามังกรที่นั่น",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ปราบ",
+          "glyphs": [
+            4912
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เผ่า",
+          "glyphs": [
+            10375
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มังกร",
+          "glyphs": [
+            6061
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นั่น",
+          "glyphs": [
+            3951
+          ]
+        }
+      ],
+      "glyphs": [
+        4912,
+        10375,
+        6061,
+        3951
+      ]
+    },
+    {
+      "run": "ข่าวกรองซาเทียร์",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข่าวกรอง",
+          "glyphs": [
+            1041
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ซาเทียร์",
+          "glyphs": [
+            13826,
+            14209
+          ]
+        }
+      ],
+      "glyphs": [
+        1041,
+        13826,
+        14209
+      ]
+    },
+    {
+      "run": "รับข่าวกรองจาก",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "รับ",
+          "glyphs": [
+            6730
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข่าวกรอง",
+          "glyphs": [
+            1041
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        }
+      ],
+      "glyphs": [
+        6730,
+        1041,
+        2178
+      ]
+    },
+    {
+      "run": "ที่วงประกอบพิธีใน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "วง",
+          "glyphs": [
+            7368
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ประกอบ"
+        },
+        {
+          "kind": "new",
+          "text": "พิธี"
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        }
+      ],
+      "glyphs": [
+        3937,
+        7368,
+        14534,
+        14535,
+        12073
+      ]
+    },
+    {
+      "run": "ข่าวกรองทรีแอนต์",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข่าวกรอง",
+          "glyphs": [
+            1041
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ทรีแอนต์"
+        }
+      ],
+      "glyphs": [
+        1041,
+        14536
+      ]
+    },
+    {
+      "run": "จากซากอาคารตรงกลาง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ซาก",
+          "glyphs": [
+            2650
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "อาคาร"
+        },
+        {
+          "kind": "existing",
+          "text": "ตรงกลาง",
+          "glyphs": [
+            3003
+          ]
+        }
+      ],
+      "glyphs": [
+        2178,
+        2650,
+        14537,
+        3003
+      ]
+    },
+    {
+      "run": "ใกล้เครนยกไม้ใน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ใกล้",
+          "glyphs": [
+            11990
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เครน"
+        },
+        {
+          "kind": "existing",
+          "text": "ยก",
+          "glyphs": [
+            6298
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไม้",
+          "glyphs": [
+            12301
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        }
+      ],
+      "glyphs": [
+        11990,
+        14538,
+        6298,
+        12301,
+        12073
+      ]
+    },
+    {
+      "run": "ดรูอิดแห่งกรงเล็บที่หลับใหลอยู่ที่นั่น",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ดรูอิด",
+          "glyphs": [
+            2741,
+            6879,
+            9184
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แห่ง",
+          "glyphs": [
+            11680
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กรงเล็บ",
+          "glyphs": [
+            23
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "หลับใหล"
+        },
+        {
+          "kind": "existing",
+          "text": "อยู่",
+          "glyphs": [
+            8958
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นั่น",
+          "glyphs": [
+            3951
+          ]
+        }
+      ],
+      "glyphs": [
+        2741,
+        6879,
+        9184,
+        11680,
+        23,
+        3937,
+        14539,
+        8958,
+        3951
+      ]
+    },
+    {
+      "run": "และคุ้มกันนางไปยังที่ปลอดภัย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "คุ้มกัน",
+          "glyphs": [
+            1906
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "นาง"
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปลอดภัย",
+          "glyphs": [
+            4944
+          ]
+        }
+      ],
+      "glyphs": [
+        11597,
+        1906,
+        14540,
+        12248,
+        6340,
+        3937,
+        4944
+      ]
+    },
+    {
+      "run": "ที่ฐานหอคอยเฝ้าระวังใน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ฐาน",
+          "glyphs": [
+            2736
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หอคอย",
+          "glyphs": [
+            8723
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เฝ้าระวัง"
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        }
+      ],
+      "glyphs": [
+        3937,
+        2736,
+        8723,
+        14541,
+        12073
+      ]
+    },
+    {
+      "run": "ส่งของเป็นครั้งสุดท้าย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ส่ง",
+          "glyphs": [
+            8322
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เป็น",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ครั้ง",
+          "glyphs": [
+            1255
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สุดท้าย",
+          "glyphs": [
+            8249
+          ]
+        }
+      ],
+      "glyphs": [
+        8322,
+        839,
+        10224,
+        1255,
+        8249
+      ]
+    },
+    {
+      "run": "เหยื่อพร้อมแล้ว",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "เหยื่อ"
+        },
+        {
+          "kind": "existing",
+          "text": "พร้อม",
+          "glyphs": [
+            5565
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        }
+      ],
+      "glyphs": [
+        14542,
+        5565,
+        11603
+      ]
+    },
+    {
+      "run": "ทีนี้เราต้องวางกับดัก",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ทีนี้",
+          "glyphs": [
+            3927
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "วาง",
+          "glyphs": [
+            7461
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "กับดัก"
+        }
+      ],
+      "glyphs": [
+        3927,
+        10577,
+        3455,
+        7461,
+        14543
+      ]
+    },
+    {
+      "run": "ข้าปรับแต่งเครื่องรางตามคำสั่งของ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปรับแต่ง",
+          "glyphs": [
+            4896,
+            11303
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เครื่องราง",
+          "glyphs": [
+            9598
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตาม",
+          "glyphs": [
+            3245
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "คำสั่ง",
+          "glyphs": [
+            1806
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        }
+      ],
+      "glyphs": [
+        1088,
+        4896,
+        11303,
+        9598,
+        3245,
+        1806,
+        839
+      ]
+    },
+    {
+      "run": "เหลือเพียงให้เจ้านำมันไปส่งเช่นเดียวกับวัตถุชิ้นอื่นที่เคยส่งก่อนหน้านี้",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "เหลือ"
+        },
+        {
+          "kind": "new",
+          "text": "เพียง"
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นำ",
+          "glyphs": [
+            4304
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มัน",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ส่ง",
+          "glyphs": [
+            8322
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เช่นเดียวกับ",
+          "glyphs": [
+            9823
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "วัตถุ"
+        },
+        {
+          "kind": "existing",
+          "text": "ชิ้น",
+          "glyphs": [
+            2499
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อื่น",
+          "glyphs": [
+            9224
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เคย",
+          "glyphs": [
+            9565
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ส่ง",
+          "glyphs": [
+            8322
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ก่อนหน้านี้"
+        }
+      ],
+      "glyphs": [
+        14544,
+        14521,
+        12124,
+        9731,
+        4304,
+        6063,
+        12248,
+        8322,
+        9823,
+        14545,
+        2499,
+        9224,
+        3937,
+        9565,
+        8322,
+        14546
+      ]
+    },
+    {
+      "run": "ไปยังกระท่อมใกล้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กระท่อม",
+          "glyphs": [
+            88
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใกล้",
+          "glyphs": [
+            11990
+          ]
+        }
+      ],
+      "glyphs": [
+        12248,
+        6340,
+        88,
+        11990
+      ]
+    },
+    {
+      "run": "แล้วใส่เครื่องรางที่ปรับแต่งแล้วนี้ลงในจุดฝากของลับของ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใส่",
+          "glyphs": [
+            12114
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เครื่องราง",
+          "glyphs": [
+            9598
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปรับแต่ง",
+          "glyphs": [
+            4896,
+            11303
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นี้",
+          "glyphs": [
+            4355
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ลง",
+          "glyphs": [
+            7010
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จุด",
+          "glyphs": [
+            2232
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ฝาก",
+          "glyphs": [
+            5465
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ลับ"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        }
+      ],
+      "glyphs": [
+        11603,
+        12114,
+        9598,
+        3937,
+        4896,
+        11303,
+        11603,
+        4355,
+        7010,
+        12073,
+        2232,
+        5465,
+        839,
+        14547,
+        839
+      ]
+    },
+    {
+      "run": "เรื่องที่จะเกิดขึ้นหลังจากนั้นอยู่นอกเหนือการควบคุมของเรา",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เรื่อง",
+          "glyphs": [
+            10623
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เกิดขึ้น"
+        },
+        {
+          "kind": "existing",
+          "text": "หลังจากนั้น",
+          "glyphs": [
+            8647
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อยู่",
+          "glyphs": [
+            8958
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "นอกเหนือ"
+        },
+        {
+          "kind": "new",
+          "text": "การควบคุม"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        }
+      ],
+      "glyphs": [
+        10623,
+        3937,
+        2125,
+        14548,
+        8647,
+        8958,
+        14549,
+        14550,
+        839,
+        10577
+      ]
+    },
+    {
+      "run": "ไปยังจุดฝากของลับของ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จุด",
+          "glyphs": [
+            2232
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ฝาก",
+          "glyphs": [
+            5465
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ลับ"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        }
+      ],
+      "glyphs": [
+        12248,
+        6340,
+        2232,
+        5465,
+        839,
+        14547,
+        839
+      ]
+    },
+    {
+      "run": "รอจังหวะของเรา",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "รอ",
+          "glyphs": [
+            6594
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "จังหวะ"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        }
+      ],
+      "glyphs": [
+        6594,
+        14551,
+        839,
+        10577
+      ]
+    },
+    {
+      "run": "ควรกลับไป",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "ควร"
+        },
+        {
+          "kind": "existing",
+          "text": "กลับไป",
+          "glyphs": [
+            197,
+            12248
+          ]
+        }
+      ],
+      "glyphs": [
+        14552,
+        197,
+        12248
+      ]
+    },
+    {
+      "run": "และแจ้ง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แจ้ง",
+          "glyphs": [
+            11251
+          ]
+        }
+      ],
+      "glyphs": [
+        11597,
+        11251
+      ]
+    },
+    {
+      "run": "กลับไปรายงานต่อ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "กลับไป",
+          "glyphs": [
+            197,
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "รายงาน",
+          "glyphs": [
+            6805
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต่อ",
+          "glyphs": [
+            3396
+          ]
+        }
+      ],
+      "glyphs": [
+        197,
+        12248,
+        6805,
+        3396
+      ]
+    },
+    {
+      "run": "ปราบเต่ายักษ์",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ปราบ",
+          "glyphs": [
+            4912
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เต่า",
+          "glyphs": [
+            9971
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยักษ์",
+          "glyphs": [
+            6338
+          ]
+        }
+      ],
+      "glyphs": [
+        4912,
+        9971,
+        6338
+      ]
+    },
+    {
+      "run": "ปราบเต่ายักษ์ที่นั่น",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ปราบ",
+          "glyphs": [
+            4912
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เต่า",
+          "glyphs": [
+            9971
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยักษ์",
+          "glyphs": [
+            6338
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นั่น",
+          "glyphs": [
+            3951
+          ]
+        }
+      ],
+      "glyphs": [
+        4912,
+        9971,
+        6338,
+        3951
+      ]
+    },
+    {
+      "run": "ที่พวกมูนคินซ่อนไว้ที่นั่นมาส่งให้ข้า",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พวก",
+          "glyphs": [
+            5617
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "มูนคิน"
+        },
+        {
+          "kind": "new",
+          "text": "ซ่อน"
+        },
+        {
+          "kind": "existing",
+          "text": "ไว้",
+          "glyphs": [
+            12358
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นั่น",
+          "glyphs": [
+            3951
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มา",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ส่ง",
+          "glyphs": [
+            8322
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        }
+      ],
+      "glyphs": [
+        3937,
+        5617,
+        14553,
+        14554,
+        12358,
+        3951,
+        6089,
+        8322,
+        12124,
+        1088
+      ]
+    },
+    {
+      "run": "จากชะง่อนหินสูงภายใน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ชะง่อน"
+        },
+        {
+          "kind": "existing",
+          "text": "หิน",
+          "glyphs": [
+            8825
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สูง",
+          "glyphs": [
+            8272
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ภายใน",
+          "glyphs": [
+            5944
+          ]
+        }
+      ],
+      "glyphs": [
+        2178,
+        14555,
+        8825,
+        8272,
+        5944
+      ]
+    },
+    {
+      "run": "และคุ้มกันเขาไปยังที่ปลอดภัย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "คุ้มกัน",
+          "glyphs": [
+            1906
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เขา",
+          "glyphs": [
+            9480
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปลอดภัย",
+          "glyphs": [
+            4944
+          ]
+        }
+      ],
+      "glyphs": [
+        11597,
+        1906,
+        9480,
+        12248,
+        6340,
+        3937,
+        4944
+      ]
+    },
+    {
+      "run": "ที่แนวป้องกันของโทรลล์ใกล้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แนว",
+          "glyphs": [
+            11359
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ป้องกัน",
+          "glyphs": [
+            5126
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "โทรลล์",
+          "glyphs": [
+            11839,
+            6554
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใกล้",
+          "glyphs": [
+            11990
+          ]
+        }
+      ],
+      "glyphs": [
+        3937,
+        11359,
+        5126,
+        839,
+        11839,
+        6554,
+        11990
+      ]
+    },
+    {
+      "run": "ใกล้น้ำตกที่",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ใกล้",
+          "glyphs": [
+            11990
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "น้ำตก"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        }
+      ],
+      "glyphs": [
+        11990,
+        14556,
+        3937
+      ]
+    },
+    {
+      "run": "จากศาลาที่",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ศาลา"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        }
+      ],
+      "glyphs": [
+        2178,
+        14557,
+        3937
+      ]
+    },
+    {
+      "run": "จากภายใน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ภายใน",
+          "glyphs": [
+            5944
+          ]
+        }
+      ],
+      "glyphs": [
+        2178,
+        5944
+      ]
+    },
+    {
+      "run": "เราสามารถใช้เวทมนตร์ของมันฟื้นฟูความเสียหายที่เกิดขึ้นได้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "สามารถ"
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เวทมนตร์"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มัน",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ฟื้นฟู"
+        },
+        {
+          "kind": "new",
+          "text": "ความเสียหาย"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เกิดขึ้น"
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        }
+      ],
+      "glyphs": [
+        10577,
+        14558,
+        12042,
+        14559,
+        839,
+        6063,
+        14560,
+        14561,
+        3937,
+        14548,
+        12197
+      ]
+    },
+    {
+      "run": "เจ้าจะต้องอาศัยความช่วยเหลือจากผู้มีวิชาเก็บสมุนไพร",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "อาศัย"
+        },
+        {
+          "kind": "existing",
+          "text": "ความช่วยเหลือ",
+          "glyphs": [
+            1417
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ผู้"
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "วิชา"
+        },
+        {
+          "kind": "existing",
+          "text": "เก็บ",
+          "glyphs": [
+            9447
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สมุนไพร",
+          "glyphs": [
+            7815
+          ]
+        }
+      ],
+      "glyphs": [
+        9731,
+        2125,
+        3455,
+        14562,
+        1417,
+        2178,
+        14513,
+        6149,
+        14563,
+        9447,
+        7815
+      ]
+    },
+    {
+      "run": "ที่ขอบด้านเหนือของ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ขอบ",
+          "glyphs": [
+            886
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ด้าน"
+        },
+        {
+          "kind": "existing",
+          "text": "เหนือ",
+          "glyphs": [
+            10964
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        }
+      ],
+      "glyphs": [
+        3937,
+        886,
+        14564,
+        10964,
+        839
+      ]
+    },
+    {
+      "run": "วัตถุดิบที่มีความสำคัญ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "วัตถุดิบ",
+          "glyphs": [
+            7414
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ความสำคัญ"
+        }
+      ],
+      "glyphs": [
+        7414,
+        3937,
+        6149,
+        14565
+      ]
+    },
+    {
+      "run": "แต่ละลูกเชื่อมโยงกับด้านหนึ่งที่ต่างกันของผู้เป็นนาย",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "แต่ละ"
+        },
+        {
+          "kind": "existing",
+          "text": "ลูก",
+          "glyphs": [
+            7251
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เชื่อมโยง"
+        },
+        {
+          "kind": "existing",
+          "text": "กับ",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ด้าน"
+        },
+        {
+          "kind": "existing",
+          "text": "หนึ่ง",
+          "glyphs": [
+            8428
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ต่างกัน"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ผู้"
+        },
+        {
+          "kind": "existing",
+          "text": "เป็น",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นาย",
+          "glyphs": [
+            4282
+          ]
+        }
+      ],
+      "glyphs": [
+        14525,
+        7251,
+        14566,
+        354,
+        14564,
+        8428,
+        3937,
+        14567,
+        839,
+        14513,
+        10224,
+        4282
+      ]
+    },
+    {
+      "run": "วิธีที่เจ้าใช้ใน",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "วิธี"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        }
+      ],
+      "glyphs": [
+        14568,
+        3937,
+        9731,
+        12042,
+        12073
+      ]
+    },
+    {
+      "run": "เพื่อทำลาย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เพื่อ",
+          "glyphs": [
+            10437
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ทำลาย",
+          "glyphs": [
+            3878
+          ]
+        }
+      ],
+      "glyphs": [
+        10437,
+        3878
+      ]
+    },
+    {
+      "run": "จะใช้กับลูกแก้วที่เราครอบครองอยู่ไม่ได้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กับ",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ลูกแก้ว",
+          "glyphs": [
+            7285
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ครอบครอง",
+          "glyphs": [
+            1245
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อยู่",
+          "glyphs": [
+            8958
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไม่ได้",
+          "glyphs": [
+            12274,
+            12197
+          ]
+        }
+      ],
+      "glyphs": [
+        2125,
+        12042,
+        354,
+        7285,
+        3937,
+        10577,
+        1245,
+        8958,
+        12274,
+        12197
+      ]
+    },
+    {
+      "run": "ข้ารู้จักพิธีกรรมที่อาจทำให้ลูกแก้วไม่เสถียรและเปิดโอกาสให้เราทำลายมันได้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "รู้จัก",
+          "glyphs": [
+            6901
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "พิธีกรรม"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อาจ",
+          "glyphs": [
+            9113
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ทำให้",
+          "glyphs": [
+            3901
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ลูกแก้ว",
+          "glyphs": [
+            7285
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไม่",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เสถียร"
+        },
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เปิด",
+          "glyphs": [
+            10197
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "โอกาส"
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ทำลาย",
+          "glyphs": [
+            3878
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มัน",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        }
+      ],
+      "glyphs": [
+        1088,
+        6901,
+        14569,
+        3937,
+        9113,
+        3901,
+        7285,
+        12274,
+        14570,
+        11597,
+        10197,
+        14571,
+        12124,
+        10577,
+        3878,
+        6063,
+        12197
+      ]
+    },
+    {
+      "run": "แต่พิธีนี้ต้องใช้วัตถุดิบที่มีความหมายเฉพาะทางเวทมนตร์",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แต่",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "พิธี"
+        },
+        {
+          "kind": "existing",
+          "text": "นี้",
+          "glyphs": [
+            4355
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "วัตถุดิบ",
+          "glyphs": [
+            7414
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ความหมาย"
+        },
+        {
+          "kind": "new",
+          "text": "เฉพาะ"
+        },
+        {
+          "kind": "existing",
+          "text": "ทาง",
+          "glyphs": [
+            3773
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เวทมนตร์"
+        }
+      ],
+      "glyphs": [
+        11298,
+        14535,
+        4355,
+        3455,
+        12042,
+        7414,
+        3937,
+        6149,
+        14572,
+        14573,
+        3773,
+        14559
+      ]
+    },
+    {
+      "run": "เรามีวัตถุดิบที่ต้องใช้บางส่วนแล้ว",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "วัตถุดิบ",
+          "glyphs": [
+            7414
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "บางส่วน",
+          "glyphs": [
+            4638
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        }
+      ],
+      "glyphs": [
+        10577,
+        6149,
+        7414,
+        3937,
+        3455,
+        12042,
+        4638,
+        11603
+      ]
+    },
+    {
+      "run": "แต่เจ้าต้องไปหาส่วนที่เหลือ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แต่",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หา",
+          "glyphs": [
+            8784
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ส่วน",
+          "glyphs": [
+            8341
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เหลือ"
+        }
+      ],
+      "glyphs": [
+        11298,
+        9731,
+        3455,
+        12248,
+        8784,
+        8341,
+        3937,
+        14544
+      ]
+    },
+    {
+      "run": "มันน่าจะช่วยในการค้นหาของเจ้า",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "มัน",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "น่า"
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ช่วย",
+          "glyphs": [
+            2575
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "การ"
+        },
+        {
+          "kind": "existing",
+          "text": "ค้นหา",
+          "glyphs": [
+            1965
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        }
+      ],
+      "glyphs": [
+        6063,
+        14574,
+        2125,
+        2575,
+        12073,
+        14575,
+        1965,
+        839,
+        9731
+      ]
+    },
+    {
+      "run": "ใช้คำใบ้ใน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "คำใบ้"
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        }
+      ],
+      "glyphs": [
+        12042,
+        14576,
+        12073
+      ]
+    },
+    {
+      "run": "เพื่อหาว่าจะหาวัตถุดิบเวทมนตร์ที่จำเป็นสำหรับพิธีกรรมได้จากที่ไหน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เพื่อ",
+          "glyphs": [
+            10437
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หาว่า",
+          "glyphs": [
+            8817
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หา",
+          "glyphs": [
+            8784
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "วัตถุดิบ",
+          "glyphs": [
+            7414
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เวทมนตร์"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "จำเป็น"
+        },
+        {
+          "kind": "existing",
+          "text": "สำหรับ",
+          "glyphs": [
+            8114
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "พิธีกรรม"
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่ไหน",
+          "glyphs": [
+            4003
+          ]
+        }
+      ],
+      "glyphs": [
+        10437,
+        8817,
+        2125,
+        8784,
+        7414,
+        14559,
+        3937,
+        14577,
+        8114,
+        14569,
+        12197,
+        2178,
+        4003
+      ]
+    },
+    {
+      "run": "งานนี้เจ้าจะต้องอาศัยความช่วยเหลือจากพันธมิตร",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "งาน",
+          "glyphs": [
+            2013
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นี้",
+          "glyphs": [
+            4355
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "อาศัย"
+        },
+        {
+          "kind": "existing",
+          "text": "ความช่วยเหลือ",
+          "glyphs": [
+            1417
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พันธมิตร",
+          "glyphs": [
+            5674
+          ]
+        }
+      ],
+      "glyphs": [
+        2013,
+        4355,
+        9731,
+        2125,
+        3455,
+        14562,
+        1417,
+        2178,
+        5674
+      ]
+    },
+    {
+      "run": "ราคาของความหวัง",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "ราคา"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ความหวัง"
+        }
+      ],
+      "glyphs": [
+        14578,
+        839,
+        14579
+      ]
+    },
+    {
+      "run": "เขาเพียงยื่นลูกแก้วให้เจ้าแล้วหันจากไป",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เขา",
+          "glyphs": [
+            9480
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เพียง"
+        },
+        {
+          "kind": "new",
+          "text": "ยื่น"
+        },
+        {
+          "kind": "existing",
+          "text": "ลูกแก้ว",
+          "glyphs": [
+            7285
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "หัน"
+        },
+        {
+          "kind": "existing",
+          "text": "จากไป",
+          "glyphs": [
+            2182
+          ]
+        }
+      ],
+      "glyphs": [
+        9480,
+        14521,
+        14580,
+        7285,
+        12124,
+        9731,
+        11603,
+        14581,
+        2182
+      ]
+    },
+    {
+      "run": "ส่งข้าเดินทางต่อ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ส่ง",
+          "glyphs": [
+            8322
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เดินทาง",
+          "glyphs": [
+            9871
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต่อ",
+          "glyphs": [
+            3396
+          ]
+        }
+      ],
+      "glyphs": [
+        8322,
+        1088,
+        9871,
+        3396
+      ]
+    },
+    {
+      "run": "เจ้าได้ยินเสียงที่ไร้ร่างของ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ได้ยิน",
+          "glyphs": [
+            12215
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เสียง",
+          "glyphs": [
+            10853
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ไร้"
+        },
+        {
+          "kind": "existing",
+          "text": "ร่าง",
+          "glyphs": [
+            6954
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        }
+      ],
+      "glyphs": [
+        9731,
+        12215,
+        10853,
+        3937,
+        14582,
+        6954,
+        839
+      ]
+    },
+    {
+      "run": "ในจิตใจ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "จิตใจ"
+        }
+      ],
+      "glyphs": [
+        12073,
+        14583
+      ]
+    },
+    {
+      "run": "เริ่มกันเลยดีไหม",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "เริ่ม"
+        },
+        {
+          "kind": "existing",
+          "text": "กัน",
+          "glyphs": [
+            345
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เลย",
+          "glyphs": [
+            10667
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ดีไหม",
+          "glyphs": [
+            2868,
+            12376
+          ]
+        }
+      ],
+      "glyphs": [
+        14584,
+        345,
+        10667,
+        2868,
+        12376
+      ]
+    },
+    {
+      "run": "ขณะที่เขาจากโลกนี้ไป",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ขณะ",
+          "glyphs": [
+            757
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เขา",
+          "glyphs": [
+            9480
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จาก",
+          "glyphs": [
+            2178
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "โลก",
+          "glyphs": [
+            11925
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นี้",
+          "glyphs": [
+            4355
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        }
+      ],
+      "glyphs": [
+        757,
+        3937,
+        9480,
+        2178,
+        11925,
+        4355,
+        12248
+      ]
+    },
+    {
+      "run": "ความกลุ้มใจเรื่องถุงสีแดง",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "ความ"
+        },
+        {
+          "kind": "new",
+          "text": "กลุ้มใจ"
+        },
+        {
+          "kind": "existing",
+          "text": "เรื่อง",
+          "glyphs": [
+            10623
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ถุง",
+          "glyphs": [
+            3568
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สีแดง",
+          "glyphs": [
+            8208
+          ]
+        }
+      ],
+      "glyphs": [
+        14585,
+        14586,
+        10623,
+        3568,
+        8208
+      ]
+    },
+    {
+      "run": "สิ่งที่เจ้าต้องการถูกซ่อนไว้อย่างปลอดภัยแล้ว",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "สิ่ง"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้องการ",
+          "glyphs": [
+            3457
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ถูก",
+          "glyphs": [
+            3575
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ซ่อน"
+        },
+        {
+          "kind": "existing",
+          "text": "ไว้",
+          "glyphs": [
+            12358
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อย่าง",
+          "glyphs": [
+            8971
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปลอดภัย",
+          "glyphs": [
+            4944
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        }
+      ],
+      "glyphs": [
+        14587,
+        3937,
+        9731,
+        3457,
+        3575,
+        14554,
+        12358,
+        8971,
+        4944,
+        11603
+      ]
+    },
+    {
+      "run": "และข้าก็ได้แต่หวังว่าสิ่งที่ข้าตามหาจะเป็นเช่นนั้นด้วย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ก็",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แต่",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "หวัง"
+        },
+        {
+          "kind": "existing",
+          "text": "ว่า",
+          "glyphs": [
+            7578
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "สิ่ง"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตามหา",
+          "glyphs": [
+            3274
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เป็น",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เช่นนั้น",
+          "glyphs": [
+            9819
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ด้วย",
+          "glyphs": [
+            2941
+          ]
+        }
+      ],
+      "glyphs": [
+        11597,
+        1088,
+        696,
+        12197,
+        11298,
+        14588,
+        7578,
+        14587,
+        3937,
+        1088,
+        3274,
+        2125,
+        10224,
+        9819,
+        2941
+      ]
+    },
+    {
+      "run": "ข้ามีถุงสีแดงใบหนึ่ง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ถุง",
+          "glyphs": [
+            3568
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สีแดง",
+          "glyphs": [
+            8208
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใบ",
+          "glyphs": [
+            12091
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หนึ่ง",
+          "glyphs": [
+            8428
+          ]
+        }
+      ],
+      "glyphs": [
+        1088,
+        6149,
+        3568,
+        8208,
+        12091,
+        8428
+      ]
+    },
+    {
+      "run": "ใส่เครื่องมือมีค่าที่ข้าใช้ในงาน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ใส่",
+          "glyphs": [
+            12114
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เครื่องมือ",
+          "glyphs": [
+            9594
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "มีค่า"
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "งาน",
+          "glyphs": [
+            2013
+          ]
+        }
+      ],
+      "glyphs": [
+        12114,
+        9594,
+        14589,
+        3937,
+        1088,
+        12042,
+        12073,
+        2013
+      ]
+    },
+    {
+      "run": "แต่ข้าทำมันหายในอุบัติเหตุเรือเหาะเหนือ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แต่",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ทำ",
+          "glyphs": [
+            3842
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มัน",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หาย",
+          "glyphs": [
+            8801
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "อุบัติเหตุ"
+        },
+        {
+          "kind": "existing",
+          "text": "เรือเหาะ",
+          "glyphs": [
+            10606,
+            11043
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เหนือ",
+          "glyphs": [
+            10964
+          ]
+        }
+      ],
+      "glyphs": [
+        11298,
+        1088,
+        3842,
+        6063,
+        8801,
+        12073,
+        14590,
+        10606,
+        11043,
+        10964
+      ]
+    },
+    {
+      "run": "ถุงอาจยังอยู่ที่นั่น",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ถุง",
+          "glyphs": [
+            3568
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อาจ",
+          "glyphs": [
+            9113
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อยู่",
+          "glyphs": [
+            8958
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่นั่น",
+          "glyphs": [
+            3951
+          ]
+        }
+      ],
+      "glyphs": [
+        3568,
+        9113,
+        6340,
+        8958,
+        3951
+      ]
+    },
+    {
+      "run": "แต่เพราะมีทั้งออร์ค",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แต่",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เพราะ",
+          "glyphs": [
+            10388
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ทั้ง",
+          "glyphs": [
+            3747
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ออร์ค",
+          "glyphs": [
+            9042
+          ]
+        }
+      ],
+      "glyphs": [
+        11298,
+        10388,
+        6149,
+        3747,
+        9042
+      ]
+    },
+    {
+      "run": "และพวกลักลอบล่าสัตว์",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พวก",
+          "glyphs": [
+            5617
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ลักลอบ"
+        },
+        {
+          "kind": "existing",
+          "text": "ล่าสัตว์",
+          "glyphs": [
+            7325
+          ]
+        }
+      ],
+      "glyphs": [
+        11597,
+        5617,
+        14591,
+        7325
+      ]
+    },
+    {
+      "run": "ข้าจึงต้องพักงานไว้ก่อน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จึง",
+          "glyphs": [
+            2226
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พัก",
+          "glyphs": [
+            5649
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "งาน",
+          "glyphs": [
+            2013
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไว้",
+          "glyphs": [
+            12358
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ก่อน",
+          "glyphs": [
+            711
+          ]
+        }
+      ],
+      "glyphs": [
+        1088,
+        2226,
+        3455,
+        5649,
+        2013,
+        12358,
+        711
+      ]
+    },
+    {
+      "run": "หากเจ้าหามันพบและนำกลับมาให้ข้า",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "หาก",
+          "glyphs": [
+            8785
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หา",
+          "glyphs": [
+            8784
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มัน",
+          "glyphs": [
+            6063
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พบ",
+          "glyphs": [
+            5514
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "และ",
+          "glyphs": [
+            11597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นำ",
+          "glyphs": [
+            4304
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กลับมา",
+          "glyphs": [
+            204
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        }
+      ],
+      "glyphs": [
+        8785,
+        9731,
+        8784,
+        6063,
+        5514,
+        11597,
+        4304,
+        204,
+        12124,
+        1088
+      ]
+    },
+    {
+      "run": "ข้าจะให้หนังสือเก่าของ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "จะ",
+          "glyphs": [
+            2125
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หนังสือ",
+          "glyphs": [
+            8406
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เก่า",
+          "glyphs": [
+            9459
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        }
+      ],
+      "glyphs": [
+        1088,
+        2125,
+        12124,
+        8406,
+        9459,
+        839
+      ]
+    },
+    {
+      "run": "ทำหายไปในอุบัติเหตุเรือเหาะเหนือ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ทำ",
+          "glyphs": [
+            3842
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หาย",
+          "glyphs": [
+            8801
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใน",
+          "glyphs": [
+            12073
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "อุบัติเหตุ"
+        },
+        {
+          "kind": "existing",
+          "text": "เรือเหาะ",
+          "glyphs": [
+            10606,
+            11043
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เหนือ",
+          "glyphs": [
+            10964
+          ]
+        }
+      ],
+      "glyphs": [
+        3842,
+        8801,
+        12248,
+        12073,
+        14590,
+        10606,
+        11043,
+        10964
+      ]
+    }
+  ]
+}
