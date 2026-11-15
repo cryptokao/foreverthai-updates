@@ -1,0 +1,11 @@
+﻿{
+    "tested_assembly_version":  "0.5.0.0",
+    "game_install_or_UI_launch":  false,
+    "newer_than_live_04631":  true,
+    "package_length_sha256_verified":  true,
+    "manifest_parse":  true,
+    "target":  "C:\\Users\\Mos\\AppData\\Local\\Temp\\foreverthai-main25-dtnvJm\\package-main28\\client05-isolated-stage",
+    "actual_installer_extract_154_files":  true,
+    "real_game_acceptance":  false,
+    "status":  "PASSED_ACTUAL_CUSTOMER05_PARSER_HASH_AND_ISOLATED_EXTRACT"
+}

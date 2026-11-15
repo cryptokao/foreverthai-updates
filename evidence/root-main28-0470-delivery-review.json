@@ -1,0 +1,52 @@
+{
+  "version": "0.470.0",
+  "status": "DELIVERED_AND_CUSTOMER_LAUNCHER_PUBLISHED",
+  "artifact_commit": "2da8d23f1863dcf92f7abd5666728f5f565e36b1",
+  "runtime_source_commit": "29fa7625f968c825d5b4d0b073be4c0d2bbb45be",
+  "new_support_variants": 17,
+  "quest_ids": 13,
+  "new_Thai_variants": 8,
+  "verbatim_reviewed_reuse_variants": 9,
+  "complete_quests_claimed": 0,
+  "zip_bytes": 29747971,
+  "zip_sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6",
+  "old_runtime_files_exact": 149,
+  "protected_Skill_font_assets_exact": 28,
+  "old_fonts_exact": 114,
+  "source_checks": {
+    "positive": 68,
+    "negative": 680,
+    "route_negative": 136
+  },
+  "actual_bitmap_Thai_draws": 68,
+  "Thai_fallbacks": 0,
+  "lua_compile": 30,
+  "download_back_verified": true,
+  "source_tree_all154_blobs_equal_zip": true,
+  "actual_customer05_parser_hash_and_extract_passed": true,
+  "publication": {
+    "status": "PASSED_FRESH_CUSTOMER_FEED_0470",
+    "checked_at_utc": "2026-11-15T09:28:50.482723+00:00",
+    "feed_url": "https://foreverthai-download.yukimikulovelove2.chatgpt.site/latest.json",
+    "http_status": 200,
+    "manifest": {
+      "schema": 1,
+      "version": "0.470.0",
+      "bytes": 29747971,
+      "sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6",
+      "url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/2da8d23f1863dcf92f7abd5666728f5f565e36b1/output/ForeverThai-0.470.0-main28-COMBINED.zip"
+    },
+    "artifact_download_back_previously_verified": true,
+    "actual_customer05_parse_hash_extract_previously_verified": true,
+    "site_project_id": "appgprj_6af04dd986848191b5f4998a47a47df5",
+    "site_source_commit": "2a6b8a31e4a10efd35f42c15f152b8707944bc4a",
+    "site_version_number": 33,
+    "deployment_id": "appgdep_6af97b149e908191ba4bcb0a9b7ecc90",
+    "deployment_status": "succeeded",
+    "launcher_published": true,
+    "each_customer_installation_verified": false,
+    "real_Windows_Mac_M2_game_verified": false
+  },
+  "whole_game_percent": false,
+  "real_game_acceptance": false
+}

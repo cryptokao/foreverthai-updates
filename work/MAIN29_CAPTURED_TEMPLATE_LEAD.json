@@ -1,0 +1,56 @@
+{
+  "status": "METADATA_ONLY_NOT_MATCHED_OR_TRANSLATED",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "blob": "d3a3cfdb485d4814254e961275dc751173985bf6",
+  "stats": {
+    "quests": 199,
+    "phaseKeys": {
+      "accept": 160,
+      "complete": 122,
+      "objectives": 160,
+      "progress": 74
+    },
+    "templateRows": 280,
+    "templateKinds": {
+      "string": 280
+    }
+  },
+  "examples": [
+    {
+      "path": "/quests/6/accept/0",
+      "keys": [
+        "sexes",
+        "sources",
+        "speakers",
+        "template",
+        "text",
+        "times"
+      ],
+      "template": "questCache"
+    },
+    {
+      "path": "/quests/6/objectives/0",
+      "keys": [
+        "sexes",
+        "sources",
+        "speakers",
+        "template",
+        "text",
+        "times"
+      ],
+      "template": "questCache"
+    },
+    {
+      "path": "/quests/7/accept/0",
+      "keys": [
+        "sexes",
+        "sources",
+        "speakers",
+        "template",
+        "text",
+        "times"
+      ],
+      "template": "questCache"
+    }
+  ]
+}
