@@ -3000,3 +3000,1825 @@ assert(addon.runs["พวกเขาเงียบไปมากเกิน�
 addon.runs["พวกเขาเงียบไปมากเกินไป"] = { 5617, 9480, 9678, 12248, 6090, 15414, 12248 }
 assert(addon.runs["และข้ากลัวว่าอาจเกิดเรื่องร้ายที่สุด"] == nil, "MAIN44 run baseline changed")
 addon.runs["และข้ากลัวว่าอาจเกิดเรื่องร้ายที่สุด"] = { 11597, 1088, 206, 7578, 9113, 9409, 10623, 15352, 3984 }
+
+-- MAIN44 lossless texture consolidation: actual Launcher0.5 caps expanded ZIP at512MiB.
+-- All glyph dimensions,advance,bearing,run sequences and RGBA pixels preserved.
+-- No typography rerender;only relocation into previously transparent texture tails.
+assert(addon.glyphs[14487] and addon.glyphs[14487][1] == 102 and addon.glyphs[14487][2] == 642 and addon.glyphs[14487][3] == 2 and addon.glyphs[14487][4] == 241 and addon.glyphs[14487][5] == 0 and addon.glyphs[14487][6] == 240.11, "MAIN44 relocation baseline changed")
+addon.glyphs[14487] = { 89, 2, 242, 241, 0, 240.11 }
+assert(addon.glyphs[12537] and addon.glyphs[12537][1] == 80 and addon.glyphs[12537][2] == 2 and addon.glyphs[12537][3] == 62 and addon.glyphs[12537][4] == 221 and addon.glyphs[12537][5] == 0 and addon.glyphs[12537][6] == 220.2, "MAIN44 relocation baseline changed")
+addon.glyphs[12537] = { 89, 247, 242, 221, 0, 220.2 }
+assert(addon.glyphs[15797] and addon.glyphs[15797][1] == 113 and addon.glyphs[15797][2] == 2 and addon.glyphs[15797][3] == 362 and addon.glyphs[15797][4] == 206 and addon.glyphs[15797][5] == 0 and addon.glyphs[15797][6] == 205.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15797] = { 89, 472, 242, 206, 0, 205.69 }
+assert(addon.glyphs[15943] and addon.glyphs[15943][1] == 114 and addon.glyphs[15943][2] == 115 and addon.glyphs[15943][3] == 122 and addon.glyphs[15943][4] == 200 and addon.glyphs[15943][5] == 0 and addon.glyphs[15943][6] == 199.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15943] = { 89, 682, 242, 200, 0, 199.88 }
+assert(addon.glyphs[15928] and addon.glyphs[15928][1] == 114 and addon.glyphs[15928][2] == 711 and addon.glyphs[15928][3] == 2 and addon.glyphs[15928][4] == 195 and addon.glyphs[15928][5] == 0 and addon.glyphs[15928][6] == 194.17, "MAIN44 relocation baseline changed")
+addon.glyphs[15928] = { 89, 2, 302, 195, 0, 194.17 }
+assert(addon.glyphs[15441] and addon.glyphs[15441][1] == 111 and addon.glyphs[15441][2] == 2 and addon.glyphs[15441][3] == 542 and addon.glyphs[15441][4] == 190 and addon.glyphs[15441][5] == 0 and addon.glyphs[15441][6] == 189.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15441] = { 89, 201, 302, 190, 0, 189.09 }
+assert(addon.glyphs[13488] and addon.glyphs[13488][1] == 90 and addon.glyphs[13488][2] == 2 and addon.glyphs[13488][3] == 62 and addon.glyphs[13488][4] == 188 and addon.glyphs[13488][5] == 0 and addon.glyphs[13488][6] == 187.59, "MAIN44 relocation baseline changed")
+addon.glyphs[13488] = { 89, 395, 302, 188, 0, 187.59 }
+assert(addon.glyphs[14339] and addon.glyphs[14339][1] == 98 and addon.glyphs[14339][2] == 342 and addon.glyphs[14339][3] == 2 and addon.glyphs[14339][4] == 180 and addon.glyphs[14339][5] == 0 and addon.glyphs[14339][6] == 179.27, "MAIN44 relocation baseline changed")
+addon.glyphs[14339] = { 89, 587, 302, 180, 0, 179.27 }
+assert(addon.glyphs[14503] and addon.glyphs[14503][1] == 102 and addon.glyphs[14503][2] == 256 and addon.glyphs[14503][3] == 122 and addon.glyphs[14503][4] == 174 and addon.glyphs[14503][5] == 0 and addon.glyphs[14503][6] == 173.05, "MAIN44 relocation baseline changed")
+addon.glyphs[14503] = { 89, 771, 302, 174, 0, 173.05 }
+assert(addon.glyphs[15680] and addon.glyphs[15680][1] == 112 and addon.glyphs[15680][2] == 274 and addon.glyphs[15680][3] == 722 and addon.glyphs[15680][4] == 173 and addon.glyphs[15680][5] == 0 and addon.glyphs[15680][6] == 172.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15680] = { 89, 2, 362, 173, 0, 172.92 }
+assert(addon.glyphs[15576] and addon.glyphs[15576][1] == 112 and addon.glyphs[15576][2] == 216 and addon.glyphs[15576][3] == 182 and addon.glyphs[15576][4] == 168 and addon.glyphs[15576][5] == 0 and addon.glyphs[15576][6] == 167.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15576] = { 89, 179, 362, 168, 0, 167.7 }
+assert(addon.glyphs[15953] and addon.glyphs[15953][1] == 114 and addon.glyphs[15953][2] == 104 and addon.glyphs[15953][3] == 182 and addon.glyphs[15953][4] == 168 and addon.glyphs[15953][5] == 0 and addon.glyphs[15953][6] == 167.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15953] = { 89, 351, 362, 168, 0, 167.08 }
+assert(addon.glyphs[14480] and addon.glyphs[14480][1] == 102 and addon.glyphs[14480][2] == 2 and addon.glyphs[14480][3] == 2 and addon.glyphs[14480][4] == 167 and addon.glyphs[14480][5] == 0 and addon.glyphs[14480][6] == 166.59, "MAIN44 relocation baseline changed")
+addon.glyphs[14480] = { 89, 523, 362, 167, 0, 166.59 }
+assert(addon.glyphs[15746] and addon.glyphs[15746][1] == 113 and addon.glyphs[15746][2] == 308 and addon.glyphs[15746][3] == 62 and addon.glyphs[15746][4] == 161 and addon.glyphs[15746][5] == 0 and addon.glyphs[15746][6] == 160.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15746] = { 89, 694, 362, 161, 0, 160.34 }
+assert(addon.glyphs[15808] and addon.glyphs[15808][1] == 113 and addon.glyphs[15808][2] == 2 and addon.glyphs[15808][3] == 422 and addon.glyphs[15808][4] == 154 and addon.glyphs[15808][5] == 0 and addon.glyphs[15808][6] == 153.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15808] = { 89, 859, 362, 154, 0, 153.7 }
+assert(addon.glyphs[15851] and addon.glyphs[15851][1] == 113 and addon.glyphs[15851][2] == 851 and addon.glyphs[15851][3] == 602 and addon.glyphs[15851][4] == 154 and addon.glyphs[15851][5] == 0 and addon.glyphs[15851][6] == 153.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15851] = { 89, 2, 422, 154, 0, 153.78 }
+assert(addon.glyphs[15842] and addon.glyphs[15842][1] == 113 and addon.glyphs[15842][2] == 83 and addon.glyphs[15842][3] == 602 and addon.glyphs[15842][4] == 153 and addon.glyphs[15842][5] == 0 and addon.glyphs[15842][6] == 152.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15842] = { 89, 160, 422, 153, 0, 152.09 }
+assert(addon.glyphs[15955] and addon.glyphs[15955][1] == 114 and addon.glyphs[15955][2] == 362 and addon.glyphs[15955][3] == 182 and addon.glyphs[15955][4] == 151 and addon.glyphs[15955][5] == 0 and addon.glyphs[15955][6] == 150.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15955] = { 89, 317, 422, 151, 0, 150.03 }
+assert(addon.glyphs[15899] and addon.glyphs[15899][1] == 113 and addon.glyphs[15899][2] == 162 and addon.glyphs[15899][3] == 902 and addon.glyphs[15899][4] == 150 and addon.glyphs[15899][5] == 0 and addon.glyphs[15899][6] == 149.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15899] = { 89, 472, 422, 150, 0, 149.72 }
+assert(addon.glyphs[15660] and addon.glyphs[15660][1] == 112 and addon.glyphs[15660][2] == 384 and addon.glyphs[15660][3] == 602 and addon.glyphs[15660][4] == 149 and addon.glyphs[15660][5] == 0 and addon.glyphs[15660][6] == 148.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15660] = { 89, 626, 422, 149, 0, 148.36 }
+assert(addon.glyphs[13580] and addon.glyphs[13580][1] == 92 and addon.glyphs[13580][2] == 839 and addon.glyphs[13580][3] == 2 and addon.glyphs[13580][4] == 147 and addon.glyphs[13580][5] == 0 and addon.glyphs[13580][6] == 146.05, "MAIN44 relocation baseline changed")
+addon.glyphs[13580] = { 89, 779, 422, 147, 0, 146.05 }
+assert(addon.glyphs[14504] and addon.glyphs[14504][1] == 102 and addon.glyphs[14504][2] == 434 and addon.glyphs[14504][3] == 122 and addon.glyphs[14504][4] == 147 and addon.glyphs[14504][5] == 0 and addon.glyphs[14504][6] == 146.05, "MAIN44 relocation baseline changed")
+addon.glyphs[14504] = { 89, 2, 482, 147, 0, 146.05 }
+assert(addon.glyphs[15449] and addon.glyphs[15449][1] == 111 and addon.glyphs[15449][2] == 2 and addon.glyphs[15449][3] == 602 and addon.glyphs[15449][4] == 147 and addon.glyphs[15449][5] == 0 and addon.glyphs[15449][6] == 146.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15449] = { 89, 153, 482, 147, 0, 146.12 }
+assert(addon.glyphs[15450] and addon.glyphs[15450][1] == 111 and addon.glyphs[15450][2] == 153 and addon.glyphs[15450][3] == 602 and addon.glyphs[15450][4] == 147 and addon.glyphs[15450][5] == -1 and addon.glyphs[15450][6] == 145.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15450] = { 89, 304, 482, 147, -1, 145.72 }
+assert(addon.glyphs[15675] and addon.glyphs[15675][1] == 112 and addon.glyphs[15675][2] == 770 and addon.glyphs[15675][3] == 662 and addon.glyphs[15675][4] == 145 and addon.glyphs[15675][5] == 0 and addon.glyphs[15675][6] == 144.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15675] = { 89, 455, 482, 145, 0, 144.09 }
+assert(addon.glyphs[15761] and addon.glyphs[15761][1] == 113 and addon.glyphs[15761][2] == 680 and addon.glyphs[15761][3] == 122 and addon.glyphs[15761][4] == 143 and addon.glyphs[15761][5] == 0 and addon.glyphs[15761][6] == 142.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15761] = { 89, 604, 482, 143, 0, 142.38 }
+assert(addon.glyphs[15802] and addon.glyphs[15802][1] == 113 and addon.glyphs[15802][2] == 509 and addon.glyphs[15802][3] == 362 and addon.glyphs[15802][4] == 143 and addon.glyphs[15802][5] == 0 and addon.glyphs[15802][6] == 142.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15802] = { 89, 751, 482, 143, 0, 142.83 }
+assert(addon.glyphs[15825] and addon.glyphs[15825][1] == 113 and addon.glyphs[15825][2] == 559 and addon.glyphs[15825][3] == 482 and addon.glyphs[15825][4] == 141 and addon.glyphs[15825][5] == 0 and addon.glyphs[15825][6] == 140.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15825] = { 89, 2, 542, 141, 0, 140.47 }
+assert(addon.glyphs[14479] and addon.glyphs[14479][1] == 101 and addon.glyphs[14479][2] == 237 and addon.glyphs[14479][3] == 2 and addon.glyphs[14479][4] == 140 and addon.glyphs[14479][5] == 0 and addon.glyphs[14479][6] == 138.98, "MAIN44 relocation baseline changed")
+addon.glyphs[14479] = { 89, 147, 542, 140, 0, 138.98 }
+assert(addon.glyphs[14498] and addon.glyphs[14498][1] == 102 and addon.glyphs[14498][2] == 737 and addon.glyphs[14498][3] == 62 and addon.glyphs[14498][4] == 140 and addon.glyphs[14498][5] == 0 and addon.glyphs[14498][6] == 138.98, "MAIN44 relocation baseline changed")
+addon.glyphs[14498] = { 89, 291, 542, 140, 0, 138.98 }
+assert(addon.glyphs[14507] and addon.glyphs[14507][1] == 102 and addon.glyphs[14507][2] == 793 and addon.glyphs[14507][3] == 122 and addon.glyphs[14507][4] == 139 and addon.glyphs[14507][5] == 0 and addon.glyphs[14507][6] == 138.81, "MAIN44 relocation baseline changed")
+addon.glyphs[14507] = { 89, 435, 542, 139, 0, 138.81 }
+assert(addon.glyphs[12576] and addon.glyphs[12576][1] == 82 and addon.glyphs[12576][2] == 43 and addon.glyphs[12576][3] == 2 and addon.glyphs[12576][4] == 138 and addon.glyphs[12576][5] == 0 and addon.glyphs[12576][6] == 137.77, "MAIN44 relocation baseline changed")
+addon.glyphs[12576] = { 89, 578, 542, 138, 0, 137.77 }
+assert(addon.glyphs[14495] and addon.glyphs[14495][1] == 102 and addon.glyphs[14495][2] == 419 and addon.glyphs[14495][3] == 62 and addon.glyphs[14495][4] == 138 and addon.glyphs[14495][5] == 0 and addon.glyphs[14495][6] == 137.16, "MAIN44 relocation baseline changed")
+addon.glyphs[14495] = { 89, 720, 542, 138, 0, 137.16 }
+assert(addon.glyphs[15771] and addon.glyphs[15771][1] == 113 and addon.glyphs[15771][2] == 701 and addon.glyphs[15771][3] == 182 and addon.glyphs[15771][4] == 137 and addon.glyphs[15771][5] == 0 and addon.glyphs[15771][6] == 136.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15771] = { 89, 862, 542, 137, 0, 136.16 }
+assert(addon.glyphs[15774] and addon.glyphs[15774][1] == 113 and addon.glyphs[15774][2] == 2 and addon.glyphs[15774][3] == 242 and addon.glyphs[15774][4] == 137 and addon.glyphs[15774][5] == 0 and addon.glyphs[15774][6] == 136.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15774] = { 89, 2, 602, 137, 0, 136.91 }
+assert(addon.glyphs[15472] and addon.glyphs[15472][1] == 111 and addon.glyphs[15472][2] == 171 and addon.glyphs[15472][3] == 722 and addon.glyphs[15472][4] == 136 and addon.glyphs[15472][5] == 0 and addon.glyphs[15472][6] == 135.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15472] = { 89, 143, 602, 136, 0, 135.55 }
+assert(addon.glyphs[15766] and addon.glyphs[15766][1] == 113 and addon.glyphs[15766][2] == 290 and addon.glyphs[15766][3] == 182 and addon.glyphs[15766][4] == 136 and addon.glyphs[15766][5] == 0 and addon.glyphs[15766][6] == 135.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15766] = { 89, 283, 602, 136, 0, 135.14 }
+assert(addon.glyphs[15885] and addon.glyphs[15885][1] == 113 and addon.glyphs[15885][2] == 2 and addon.glyphs[15885][3] == 842 and addon.glyphs[15885][4] == 135 and addon.glyphs[15885][5] == 0 and addon.glyphs[15885][6] == 134.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15885] = { 89, 423, 602, 135, 0, 134.94 }
+assert(addon.glyphs[15717] and addon.glyphs[15717][1] == 112 and addon.glyphs[15717][2] == 543 and addon.glyphs[15717][3] == 902 and addon.glyphs[15717][4] == 134 and addon.glyphs[15717][5] == 0 and addon.glyphs[15717][6] == 133.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15717] = { 89, 562, 602, 134, 0, 133.58 }
+assert(addon.glyphs[15759] and addon.glyphs[15759][1] == 113 and addon.glyphs[15759][2] == 410 and addon.glyphs[15759][3] == 122 and addon.glyphs[15759][4] == 134 and addon.glyphs[15759][5] == 0 and addon.glyphs[15759][6] == 133.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15759] = { 89, 700, 602, 134, 0, 133.39 }
+assert(addon.glyphs[15533] and addon.glyphs[15533][1] == 111 and addon.glyphs[15533][2] == 876 and addon.glyphs[15533][3] == 962 and addon.glyphs[15533][4] == 133 and addon.glyphs[15533][5] == 0 and addon.glyphs[15533][6] == 132.56, "MAIN44 relocation baseline changed")
+addon.glyphs[15533] = { 89, 838, 602, 133, 0, 132.56 }
+assert(addon.glyphs[12524] and addon.glyphs[12524][1] == 80 and addon.glyphs[12524][2] == 2 and addon.glyphs[12524][3] == 2 and addon.glyphs[12524][4] == 132 and addon.glyphs[12524][5] == 0 and addon.glyphs[12524][6] == 131.22, "MAIN44 relocation baseline changed")
+addon.glyphs[12524] = { 89, 2, 662, 132, 0, 131.22 }
+assert(addon.glyphs[12588] and addon.glyphs[12588][1] == 82 and addon.glyphs[12588][2] == 883 and addon.glyphs[12588][3] == 2 and addon.glyphs[12588][4] == 132 and addon.glyphs[12588][5] == 0 and addon.glyphs[12588][6] == 131.27, "MAIN44 relocation baseline changed")
+addon.glyphs[12588] = { 89, 138, 662, 132, 0, 131.27 }
+assert(addon.glyphs[13578] and addon.glyphs[13578][1] == 92 and addon.glyphs[13578][2] == 653 and addon.glyphs[13578][3] == 2 and addon.glyphs[13578][4] == 132 and addon.glyphs[13578][5] == 0 and addon.glyphs[13578][6] == 131.27, "MAIN44 relocation baseline changed")
+addon.glyphs[13578] = { 89, 274, 662, 132, 0, 131.27 }
+assert(addon.glyphs[14483] and addon.glyphs[14483][1] == 102 and addon.glyphs[14483][2] == 307 and addon.glyphs[14483][3] == 2 and addon.glyphs[14483][4] == 132 and addon.glyphs[14483][5] == 0 and addon.glyphs[14483][6] == 131.02, "MAIN44 relocation baseline changed")
+addon.glyphs[14483] = { 89, 410, 662, 132, 0, 131.02 }
+assert(addon.glyphs[15399] and addon.glyphs[15399][1] == 111 and addon.glyphs[15399][2] == 122 and addon.glyphs[15399][3] == 302 and addon.glyphs[15399][4] == 132 and addon.glyphs[15399][5] == 0 and addon.glyphs[15399][6] == 131.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15399] = { 89, 546, 662, 132, 0, 131.48 }
+assert(addon.glyphs[15580] and addon.glyphs[15580][1] == 112 and addon.glyphs[15580][2] == 656 and addon.glyphs[15580][3] == 182 and addon.glyphs[15580][4] == 132 and addon.glyphs[15580][5] == 0 and addon.glyphs[15580][6] == 131.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15580] = { 89, 682, 662, 132, 0, 131.66 }
+assert(addon.glyphs[15453] and addon.glyphs[15453][1] == 111 and addon.glyphs[15453][2] == 454 and addon.glyphs[15453][3] == 602 and addon.glyphs[15453][4] == 131 and addon.glyphs[15453][5] == 0 and addon.glyphs[15453][6] == 130.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15453] = { 89, 818, 662, 131, 0, 130.92 }
+assert(addon.glyphs[15694] and addon.glyphs[15694][1] == 112 and addon.glyphs[15694][2] == 634 and addon.glyphs[15694][3] == 782 and addon.glyphs[15694][4] == 131 and addon.glyphs[15694][5] == 0 and addon.glyphs[15694][6] == 130.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15694] = { 89, 2, 722, 131, 0, 130.69 }
+assert(addon.glyphs[15741] and addon.glyphs[15741][1] == 113 and addon.glyphs[15741][2] == 778 and addon.glyphs[15741][3] == 2 and addon.glyphs[15741][4] == 131 and addon.glyphs[15741][5] == 0 and addon.glyphs[15741][6] == 129.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15741] = { 89, 137, 722, 131, 0, 129.92 }
+assert(addon.glyphs[15856] and addon.glyphs[15856][1] == 113 and addon.glyphs[15856][2] == 398 and addon.glyphs[15856][3] == 662 and addon.glyphs[15856][4] == 131 and addon.glyphs[15856][5] == 0 and addon.glyphs[15856][6] == 130.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15856] = { 89, 272, 722, 131, 0, 130.64 }
+assert(addon.glyphs[15948] and addon.glyphs[15948][1] == 114 and addon.glyphs[15948][2] == 679 and addon.glyphs[15948][3] == 122 and addon.glyphs[15948][4] == 131 and addon.glyphs[15948][5] == 0 and addon.glyphs[15948][6] == 130.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15948] = { 89, 407, 722, 131, 0, 130.2 }
+assert(addon.glyphs[14609] and addon.glyphs[14609][1] == 105 and addon.glyphs[14609][2] == 647 and addon.glyphs[14609][3] == 2 and addon.glyphs[14609][4] == 130 and addon.glyphs[14609][5] == 0 and addon.glyphs[14609][6] == 129.92, "MAIN44 relocation baseline changed")
+addon.glyphs[14609] = { 89, 542, 722, 130, 0, 129.92 }
+assert(addon.glyphs[15353] and addon.glyphs[15353][1] == 111 and addon.glyphs[15353][2] == 477 and addon.glyphs[15353][3] == 62 and addon.glyphs[15353][4] == 130 and addon.glyphs[15353][5] == 0 and addon.glyphs[15353][6] == 129.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15353] = { 89, 676, 722, 130, 0, 129.05 }
+assert(addon.glyphs[15406] and addon.glyphs[15406][1] == 111 and addon.glyphs[15406][2] == 773 and addon.glyphs[15406][3] == 302 and addon.glyphs[15406][4] == 130 and addon.glyphs[15406][5] == 0 and addon.glyphs[15406][6] == 129.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15406] = { 89, 810, 722, 130, 0, 129.86 }
+assert(addon.glyphs[15436] and addon.glyphs[15436][1] == 111 and addon.glyphs[15436][2] == 493 and addon.glyphs[15436][3] == 482 and addon.glyphs[15436][4] == 130 and addon.glyphs[15436][5] == 0 and addon.glyphs[15436][6] == 129.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15436] = { 89, 2, 782, 130, 0, 129.94 }
+assert(addon.glyphs[15866] and addon.glyphs[15866][1] == 113 and addon.glyphs[15866][2] == 256 and addon.glyphs[15866][3] == 722 and addon.glyphs[15866][4] == 129 and addon.glyphs[15866][5] == 0 and addon.glyphs[15866][6] == 128.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15866] = { 89, 136, 782, 129, 0, 128.62 }
+assert(addon.glyphs[15937] and addon.glyphs[15937][1] == 114 and addon.glyphs[15937][2] == 487 and addon.glyphs[15937][3] == 62 and addon.glyphs[15937][4] == 129 and addon.glyphs[15937][5] == 0 and addon.glyphs[15937][6] == 128.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15937] = { 89, 269, 782, 129, 0, 128.12 }
+assert(addon.glyphs[15760] and addon.glyphs[15760][1] == 113 and addon.glyphs[15760][2] == 548 and addon.glyphs[15760][3] == 122 and addon.glyphs[15760][4] == 128 and addon.glyphs[15760][5] == 0 and addon.glyphs[15760][6] == 127.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15760] = { 89, 402, 782, 128, 0, 127.08 }
+assert(addon.glyphs[15920] and addon.glyphs[15920][1] == 114 and addon.glyphs[15920][2] == 2 and addon.glyphs[15920][3] == 2 and addon.glyphs[15920][4] == 128 and addon.glyphs[15920][5] == 0 and addon.glyphs[15920][6] == 127.56, "MAIN44 relocation baseline changed")
+addon.glyphs[15920] = { 89, 534, 782, 128, 0, 127.56 }
+assert(addon.glyphs[15432] and addon.glyphs[15432][1] == 111 and addon.glyphs[15432][2] == 96 and addon.glyphs[15432][3] == 482 and addon.glyphs[15432][4] == 127 and addon.glyphs[15432][5] == -3 and addon.glyphs[15432][6] == 123.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15432] = { 89, 666, 782, 127, -3, 123.67 }
+assert(addon.glyphs[15463] and addon.glyphs[15463][1] == 111 and addon.glyphs[15463][2] == 381 and addon.glyphs[15463][3] == 662 and addon.glyphs[15463][4] == 127 and addon.glyphs[15463][5] == 0 and addon.glyphs[15463][6] == 126.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15463] = { 89, 797, 782, 127, 0, 126.03 }
+assert(addon.glyphs[15727] and addon.glyphs[15727][1] == 112 and addon.glyphs[15727][2] == 387 and addon.glyphs[15727][3] == 962 and addon.glyphs[15727][4] == 126 and addon.glyphs[15727][5] == 0 and addon.glyphs[15727][6] == 125.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15727] = { 89, 2, 842, 126, 0, 125.02 }
+assert(addon.glyphs[15627] and addon.glyphs[15627][1] == 112 and addon.glyphs[15627][2] == 445 and addon.glyphs[15627][3] == 422 and addon.glyphs[15627][4] == 125 and addon.glyphs[15627][5] == 0 and addon.glyphs[15627][6] == 124.41, "MAIN44 relocation baseline changed")
+addon.glyphs[15627] = { 89, 132, 842, 125, 0, 124.41 }
+assert(addon.glyphs[14477] and addon.glyphs[14477][1] == 101 and addon.glyphs[14477][2] == 2 and addon.glyphs[14477][3] == 2 and addon.glyphs[14477][4] == 124 and addon.glyphs[14477][5] == 0 and addon.glyphs[14477][6] == 123.72, "MAIN44 relocation baseline changed")
+addon.glyphs[14477] = { 89, 261, 842, 124, 0, 123.72 }
+assert(addon.glyphs[15968] and addon.glyphs[15968][1] == 114 and addon.glyphs[15968][2] == 627 and addon.glyphs[15968][3] == 242 and addon.glyphs[15968][4] == 124 and addon.glyphs[15968][5] == 0 and addon.glyphs[15968][6] == 123.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15968] = { 89, 389, 842, 124, 0, 123.2 }
+assert(addon.glyphs[15602] and addon.glyphs[15602][1] == 112 and addon.glyphs[15602][2] == 412 and addon.glyphs[15602][3] == 302 and addon.glyphs[15602][4] == 123 and addon.glyphs[15602][5] == 0 and addon.glyphs[15602][6] == 122.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15602] = { 89, 517, 842, 123, 0, 122.62 }
+assert(addon.glyphs[15685] and addon.glyphs[15685][1] == 112 and addon.glyphs[15685][2] == 785 and addon.glyphs[15685][3] == 722 and addon.glyphs[15685][4] == 123 and addon.glyphs[15685][5] == 0 and addon.glyphs[15685][6] == 122.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15685] = { 89, 644, 842, 123, 0, 122.58 }
+assert(addon.glyphs[14598] and addon.glyphs[14598][1] == 104 and addon.glyphs[14598][2] == 604 and addon.glyphs[14598][3] == 2 and addon.glyphs[14598][4] == 122 and addon.glyphs[14598][5] == 0 and addon.glyphs[14598][6] == 121.06, "MAIN44 relocation baseline changed")
+addon.glyphs[14598] = { 89, 771, 842, 122, 0, 121.06 }
+assert(addon.glyphs[15618] and addon.glyphs[15618][1] == 112 and addon.glyphs[15618][2] == 776 and addon.glyphs[15618][3] == 362 and addon.glyphs[15618][4] == 122 and addon.glyphs[15618][5] == 0 and addon.glyphs[15618][6] == 121.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15618] = { 89, 897, 842, 122, 0, 121.12 }
+assert(addon.glyphs[15643] and addon.glyphs[15643][1] == 112 and addon.glyphs[15643][2] == 687 and addon.glyphs[15643][3] == 482 and addon.glyphs[15643][4] == 122 and addon.glyphs[15643][5] == 0 and addon.glyphs[15643][6] == 121.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15643] = { 89, 2, 902, 122, 0, 121.59 }
+assert(addon.glyphs[15740] and addon.glyphs[15740][1] == 113 and addon.glyphs[15740][2] == 652 and addon.glyphs[15740][3] == 2 and addon.glyphs[15740][4] == 122 and addon.glyphs[15740][5] == 0 and addon.glyphs[15740][6] == 121.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15740] = { 89, 128, 902, 122, 0, 121.06 }
+assert(addon.glyphs[14510] and addon.glyphs[14510][1] == 102 and addon.glyphs[14510][2] == 63 and addon.glyphs[14510][3] == 182 and addon.glyphs[14510][4] == 121 and addon.glyphs[14510][5] == 0 and addon.glyphs[14510][6] == 120.89, "MAIN44 relocation baseline changed")
+addon.glyphs[14510] = { 89, 254, 902, 121, 0, 120.89 }
+assert(addon.glyphs[15505] and addon.glyphs[15505][1] == 111 and addon.glyphs[15505][2] == 861 and addon.glyphs[15505][3] == 842 and addon.glyphs[15505][4] == 121 and addon.glyphs[15505][5] == 0 and addon.glyphs[15505][6] == 120.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15505] = { 89, 379, 902, 121, 0, 120.91 }
+assert(addon.glyphs[15674] and addon.glyphs[15674][1] == 112 and addon.glyphs[15674][2] == 645 and addon.glyphs[15674][3] == 662 and addon.glyphs[15674][4] == 121 and addon.glyphs[15674][5] == 0 and addon.glyphs[15674][6] == 120.73, "MAIN44 relocation baseline changed")
+addon.glyphs[15674] = { 89, 504, 902, 121, 0, 120.73 }
+assert(addon.glyphs[15854] and addon.glyphs[15854][1] == 113 and addon.glyphs[15854][2] == 165 and addon.glyphs[15854][3] == 662 and addon.glyphs[15854][4] == 121 and addon.glyphs[15854][5] == 0 and addon.glyphs[15854][6] == 120.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15854] = { 89, 629, 902, 121, 0, 120.33 }
+assert(addon.glyphs[15915] and addon.glyphs[15915][1] == 113 and addon.glyphs[15915][2] == 552 and addon.glyphs[15915][3] == 962 and addon.glyphs[15915][4] == 121 and addon.glyphs[15915][5] == 0 and addon.glyphs[15915][6] == 120.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15915] = { 89, 754, 902, 121, 0, 120.86 }
+assert(addon.glyphs[12586] and addon.glyphs[12586][1] == 82 and addon.glyphs[12586][2] == 658 and addon.glyphs[12586][3] == 2 and addon.glyphs[12586][4] == 120 and addon.glyphs[12586][5] == -1 and addon.glyphs[12586][6] == 118.58, "MAIN44 relocation baseline changed")
+addon.glyphs[12586] = { 89, 879, 902, 120, -1, 118.58 }
+assert(addon.glyphs[15367] and addon.glyphs[15367][1] == 111 and addon.glyphs[15367][2] == 619 and addon.glyphs[15367][3] == 122 and addon.glyphs[15367][4] == 120 and addon.glyphs[15367][5] == 0 and addon.glyphs[15367][6] == 119.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15367] = { 89, 2, 962, 120, 0, 119.09 }
+assert(addon.glyphs[15608] and addon.glyphs[15608][1] == 112 and addon.glyphs[15608][2] == 2 and addon.glyphs[15608][3] == 362 and addon.glyphs[15608][4] == 120 and addon.glyphs[15608][5] == 0 and addon.glyphs[15608][6] == 119.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15608] = { 89, 126, 962, 120, 0, 119.59 }
+assert(addon.glyphs[15636] and addon.glyphs[15636][1] == 112 and addon.glyphs[15636][2] == 166 and addon.glyphs[15636][3] == 482 and addon.glyphs[15636][4] == 120 and addon.glyphs[15636][5] == 0 and addon.glyphs[15636][6] == 119.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15636] = { 89, 250, 962, 120, 0, 119.94 }
+assert(addon.glyphs[15691] and addon.glyphs[15691][1] == 112 and addon.glyphs[15691][2] == 399 and addon.glyphs[15691][3] == 782 and addon.glyphs[15691][4] == 120 and addon.glyphs[15691][5] == 0 and addon.glyphs[15691][6] == 119.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15691] = { 89, 374, 962, 120, 0, 119.33 }
+assert(addon.glyphs[15377] and addon.glyphs[15377][1] == 111 and addon.glyphs[15377][2] == 360 and addon.glyphs[15377][3] == 182 and addon.glyphs[15377][4] == 119 and addon.glyphs[15377][5] == 0 and addon.glyphs[15377][6] == 118.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15377] = { 89, 498, 962, 119, 0, 118.34 }
+assert(addon.glyphs[15871] and addon.glyphs[15871][1] == 113 and addon.glyphs[15871][2] == 742 and addon.glyphs[15871][3] == 722 and addon.glyphs[15871][4] == 119 and addon.glyphs[15871][5] == -1 and addon.glyphs[15871][6] == 117.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15871] = { 89, 621, 962, 119, -1, 117.8 }
+assert(addon.glyphs[14597] and addon.glyphs[14597][1] == 104 and addon.glyphs[14597][2] == 482 and addon.glyphs[14597][3] == 2 and addon.glyphs[14597][4] == 118 and addon.glyphs[14597][5] == 0 and addon.glyphs[14597][6] == 117.5, "MAIN44 relocation baseline changed")
+addon.glyphs[14597] = { 89, 744, 962, 118, 0, 117.5 }
+assert(addon.glyphs[15421] and addon.glyphs[15421][1] == 111 and addon.glyphs[15421][2] == 2 and addon.glyphs[15421][3] == 422 and addon.glyphs[15421][4] == 118 and addon.glyphs[15421][5] == 0 and addon.glyphs[15421][6] == 117.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15421] = { 89, 866, 962, 118, 0, 117.23 }
+assert(addon.glyphs[15502] and addon.glyphs[15502][1] == 111 and addon.glyphs[15502][2] == 592 and addon.glyphs[15502][3] == 842 and addon.glyphs[15502][4] == 118 and addon.glyphs[15502][5] == 0 and addon.glyphs[15502][6] == 117.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15502] = { 99, 2, 302, 118, 0, 117.34 }
+assert(addon.glyphs[15545] and addon.glyphs[15545][1] == 112 and addon.glyphs[15545][2] == 896 and addon.glyphs[15545][3] == 2 and addon.glyphs[15545][4] == 118 and addon.glyphs[15545][5] == 0 and addon.glyphs[15545][6] == 117.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15545] = { 99, 124, 302, 118, 0, 117.48 }
+assert(addon.glyphs[15611] and addon.glyphs[15611][1] == 112 and addon.glyphs[15611][2] == 242 and addon.glyphs[15611][3] == 362 and addon.glyphs[15611][4] == 118 and addon.glyphs[15611][5] == 0 and addon.glyphs[15611][6] == 117.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15611] = { 99, 246, 302, 118, 0, 117.23 }
+assert(addon.glyphs[15836] and addon.glyphs[15836][1] == 113 and addon.glyphs[15836][2] == 496 and addon.glyphs[15836][3] == 542 and addon.glyphs[15836][4] == 118 and addon.glyphs[15836][5] == 0 and addon.glyphs[15836][6] == 117.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15836] = { 99, 368, 302, 118, 0, 117.88 }
+assert(addon.glyphs[13487] and addon.glyphs[13487][1] == 90 and addon.glyphs[13487][2] == 747 and addon.glyphs[13487][3] == 2 and addon.glyphs[13487][4] == 117 and addon.glyphs[13487][5] == 0 and addon.glyphs[13487][6] == 116.03, "MAIN44 relocation baseline changed")
+addon.glyphs[13487] = { 99, 490, 302, 117, 0, 116.03 }
+assert(addon.glyphs[14594] and addon.glyphs[14594][1] == 104 and addon.glyphs[14594][2] == 151 and addon.glyphs[14594][3] == 2 and addon.glyphs[14594][4] == 117 and addon.glyphs[14594][5] == 0 and addon.glyphs[14594][6] == 116.27, "MAIN44 relocation baseline changed")
+addon.glyphs[14594] = { 99, 611, 302, 117, 0, 116.27 }
+assert(addon.glyphs[15458] and addon.glyphs[15458][1] == 111 and addon.glyphs[15458][2] == 876 and addon.glyphs[15458][3] == 602 and addon.glyphs[15458][4] == 117 and addon.glyphs[15458][5] == 0 and addon.glyphs[15458][6] == 116.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15458] = { 99, 732, 302, 117, 0, 116.95 }
+assert(addon.glyphs[15466] and addon.glyphs[15466][1] == 111 and addon.glyphs[15466][2] == 638 and addon.glyphs[15466][3] == 662 and addon.glyphs[15466][4] == 117 and addon.glyphs[15466][5] == 0 and addon.glyphs[15466][6] == 116.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15466] = { 99, 853, 302, 117, 0, 116.14 }
+assert(addon.glyphs[15722] and addon.glyphs[15722][1] == 112 and addon.glyphs[15722][2] == 2 and addon.glyphs[15722][3] == 962 and addon.glyphs[15722][4] == 117 and addon.glyphs[15722][5] == -1 and addon.glyphs[15722][6] == 115.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15722] = { 99, 2, 362, 117, -1, 115.33 }
+assert(addon.glyphs[15877] and addon.glyphs[15877][1] == 113 and addon.glyphs[15877][2] == 302 and addon.glyphs[15877][3] == 782 and addon.glyphs[15877][4] == 117 and addon.glyphs[15877][5] == 0 and addon.glyphs[15877][6] == 116.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15877] = { 99, 123, 362, 117, 0, 116.64 }
+assert(addon.glyphs[14341] and addon.glyphs[14341][1] == 98 and addon.glyphs[14341][2] == 609 and addon.glyphs[14341][3] == 2 and addon.glyphs[14341][4] == 116 and addon.glyphs[14341][5] == 0 and addon.glyphs[14341][6] == 115.84, "MAIN44 relocation baseline changed")
+addon.glyphs[14341] = { 99, 244, 362, 116, 0, 115.84 }
+assert(addon.glyphs[15398] and addon.glyphs[15398][1] == 111 and addon.glyphs[15398][2] == 2 and addon.glyphs[15398][3] == 302 and addon.glyphs[15398][4] == 116 and addon.glyphs[15398][5] == 0 and addon.glyphs[15398][6] == 115.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15398] = { 99, 364, 362, 116, 0, 115.66 }
+assert(addon.glyphs[15590] and addon.glyphs[15590][1] == 112 and addon.glyphs[15590][2] == 416 and addon.glyphs[15590][3] == 242 and addon.glyphs[15590][4] == 116 and addon.glyphs[15590][5] == 0 and addon.glyphs[15590][6] == 115.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15590] = { 99, 484, 362, 116, 0, 115.89 }
+assert(addon.glyphs[15644] and addon.glyphs[15644][1] == 112 and addon.glyphs[15644][2] == 813 and addon.glyphs[15644][3] == 482 and addon.glyphs[15644][4] == 116 and addon.glyphs[15644][5] == 0 and addon.glyphs[15644][6] == 115.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15644] = { 99, 604, 362, 116, 0, 115.62 }
+assert(addon.glyphs[15712] and addon.glyphs[15712][1] == 112 and addon.glyphs[15712][2] == 117 and addon.glyphs[15712][3] == 902 and addon.glyphs[15712][4] == 116 and addon.glyphs[15712][5] == 0 and addon.glyphs[15712][6] == 115.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15712] = { 99, 724, 362, 116, 0, 115.69 }
+assert(addon.glyphs[15762] and addon.glyphs[15762][1] == 113 and addon.glyphs[15762][2] == 827 and addon.glyphs[15762][3] == 122 and addon.glyphs[15762][4] == 116 and addon.glyphs[15762][5] == 0 and addon.glyphs[15762][6] == 115.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15762] = { 99, 844, 362, 116, 0, 115.34 }
+assert(addon.glyphs[15778] and addon.glyphs[15778][1] == 113 and addon.glyphs[15778][2] == 387 and addon.glyphs[15778][3] == 242 and addon.glyphs[15778][4] == 116 and addon.glyphs[15778][5] == 0 and addon.glyphs[15778][6] == 115.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15778] = { 99, 2, 422, 116, 0, 115.94 }
+assert(addon.glyphs[15783] and addon.glyphs[15783][1] == 113 and addon.glyphs[15783][2] == 777 and addon.glyphs[15783][3] == 242 and addon.glyphs[15783][4] == 116 and addon.glyphs[15783][5] == 0 and addon.glyphs[15783][6] == 115.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15783] = { 99, 122, 422, 116, 0, 115.66 }
+assert(addon.glyphs[15840] and addon.glyphs[15840][1] == 113 and addon.glyphs[15840][2] == 853 and addon.glyphs[15840][3] == 542 and addon.glyphs[15840][4] == 116 and addon.glyphs[15840][5] == 0 and addon.glyphs[15840][6] == 115.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15840] = { 99, 242, 422, 116, 0, 115.44 }
+assert(addon.glyphs[15870] and addon.glyphs[15870][1] == 113 and addon.glyphs[15870][2] == 622 and addon.glyphs[15870][3] == 722 and addon.glyphs[15870][4] == 116 and addon.glyphs[15870][5] == 0 and addon.glyphs[15870][6] == 115.41, "MAIN44 relocation baseline changed")
+addon.glyphs[15870] = { 99, 362, 422, 116, 0, 115.41 }
+assert(addon.glyphs[15880] and addon.glyphs[15880][1] == 113 and addon.glyphs[15880][2] == 581 and addon.glyphs[15880][3] == 782 and addon.glyphs[15880][4] == 116 and addon.glyphs[15880][5] == 0 and addon.glyphs[15880][6] == 115.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15880] = { 99, 482, 422, 116, 0, 115.53 }
+assert(addon.glyphs[15976] and addon.glyphs[15976][1] == 114 and addon.glyphs[15976][2] == 335 and addon.glyphs[15976][3] == 302 and addon.glyphs[15976][4] == 116 and addon.glyphs[15976][5] == 0 and addon.glyphs[15976][6] == 115.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15976] = { 99, 602, 422, 116, 0, 115.44 }
+assert(addon.glyphs[14493] and addon.glyphs[14493][1] == 102 and addon.glyphs[14493][2] == 254 and addon.glyphs[14493][3] == 62 and addon.glyphs[14493][4] == 115 and addon.glyphs[14493][5] == 0 and addon.glyphs[14493][6] == 114.25, "MAIN44 relocation baseline changed")
+addon.glyphs[14493] = { 99, 722, 422, 115, 0, 114.25 }
+assert(addon.glyphs[15363] and addon.glyphs[15363][1] == 111 and addon.glyphs[15363][2] == 243 and addon.glyphs[15363][3] == 122 and addon.glyphs[15363][4] == 115 and addon.glyphs[15363][5] == 0 and addon.glyphs[15363][6] == 114.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15363] = { 99, 841, 422, 115, 0, 114.23 }
+assert(addon.glyphs[15570] and addon.glyphs[15570][1] == 112 and addon.glyphs[15570][2] == 650 and addon.glyphs[15570][3] == 122 and addon.glyphs[15570][4] == 115 and addon.glyphs[15570][5] == 0 and addon.glyphs[15570][6] == 114.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15570] = { 99, 2, 482, 115, 0, 114.7 }
+assert(addon.glyphs[15700] and addon.glyphs[15700][1] == 112 and addon.glyphs[15700][2] == 155 and addon.glyphs[15700][3] == 842 and addon.glyphs[15700][4] == 115 and addon.glyphs[15700][5] == 0 and addon.glyphs[15700][6] == 114.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15700] = { 99, 121, 482, 115, 0, 114.81 }
+assert(addon.glyphs[15744] and addon.glyphs[15744][1] == 113 and addon.glyphs[15744][2] == 110 and addon.glyphs[15744][3] == 62 and addon.glyphs[15744][4] == 115 and addon.glyphs[15744][5] == 0 and addon.glyphs[15744][6] == 114.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15744] = { 99, 240, 482, 115, 0, 114.03 }
+assert(addon.glyphs[15648] and addon.glyphs[15648][1] == 112 and addon.glyphs[15648][2] == 233 and addon.glyphs[15648][3] == 542 and addon.glyphs[15648][4] == 114 and addon.glyphs[15648][5] == 0 and addon.glyphs[15648][6] == 112.73, "MAIN44 relocation baseline changed")
+addon.glyphs[15648] = { 99, 359, 482, 114, 0, 112.73 }
+assert(addon.glyphs[15901] and addon.glyphs[15901][1] == 113 and addon.glyphs[15901][2] == 401 and addon.glyphs[15901][3] == 902 and addon.glyphs[15901][4] == 114 and addon.glyphs[15901][5] == 0 and addon.glyphs[15901][6] == 113.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15901] = { 99, 477, 482, 114, 0, 113.34 }
+assert(addon.glyphs[15923] and addon.glyphs[15923][1] == 114 and addon.glyphs[15923][2] == 286 and addon.glyphs[15923][3] == 2 and addon.glyphs[15923][4] == 114 and addon.glyphs[15923][5] == 0 and addon.glyphs[15923][6] == 113.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15923] = { 99, 595, 482, 114, 0, 113.88 }
+assert(addon.glyphs[15984] and addon.glyphs[15984][1] == 114 and addon.glyphs[15984][2] == 100 and addon.glyphs[15984][3] == 362 and addon.glyphs[15984][4] == 114 and addon.glyphs[15984][5] == 0 and addon.glyphs[15984][6] == 113.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15984] = { 99, 713, 482, 114, 0, 113.83 }
+assert(addon.glyphs[14485] and addon.glyphs[14485][1] == 102 and addon.glyphs[14485][2] == 468 and addon.glyphs[14485][3] == 2 and addon.glyphs[14485][4] == 113 and addon.glyphs[14485][5] == 0 and addon.glyphs[14485][6] == 112.47, "MAIN44 relocation baseline changed")
+addon.glyphs[14485] = { 99, 831, 482, 113, 0, 112.47 }
+assert(addon.glyphs[15403] and addon.glyphs[15403][1] == 111 and addon.glyphs[15403][2] == 519 and addon.glyphs[15403][3] == 302 and addon.glyphs[15403][4] == 113 and addon.glyphs[15403][5] == 0 and addon.glyphs[15403][6] == 112.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15403] = { 99, 2, 542, 113, 0, 112.58 }
+assert(addon.glyphs[15448] and addon.glyphs[15448][1] == 111 and addon.glyphs[15448][2] == 765 and addon.glyphs[15448][3] == 542 and addon.glyphs[15448][4] == 113 and addon.glyphs[15448][5] == 0 and addon.glyphs[15448][6] == 112.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15448] = { 99, 119, 542, 113, 0, 112.39 }
+assert(addon.glyphs[15491] and addon.glyphs[15491][1] == 111 and addon.glyphs[15491][2] == 688 and addon.glyphs[15491][3] == 782 and addon.glyphs[15491][4] == 113 and addon.glyphs[15491][5] == -1 and addon.glyphs[15491][6] == 111.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15491] = { 99, 236, 542, 113, -1, 111.22 }
+assert(addon.glyphs[15892] and addon.glyphs[15892][1] == 113 and addon.glyphs[15892][2] == 588 and addon.glyphs[15892][3] == 842 and addon.glyphs[15892][4] == 113 and addon.glyphs[15892][5] == 0 and addon.glyphs[15892][6] == 112.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15892] = { 99, 353, 542, 113, 0, 112.03 }
+assert(addon.glyphs[15895] and addon.glyphs[15895][1] == 113 and addon.glyphs[15895][2] == 809 and addon.glyphs[15895][3] == 842 and addon.glyphs[15895][4] == 113 and addon.glyphs[15895][5] == 0 and addon.glyphs[15895][6] == 112.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15895] = { 99, 470, 542, 113, 0, 112.39 }
+assert(addon.glyphs[14596] and addon.glyphs[14596][1] == 104 and addon.glyphs[14596][2] == 366 and addon.glyphs[14596][3] == 2 and addon.glyphs[14596][4] == 112 and addon.glyphs[14596][5] == 0 and addon.glyphs[14596][6] == 111.69, "MAIN44 relocation baseline changed")
+addon.glyphs[14596] = { 99, 587, 542, 112, 0, 111.69 }
+assert(addon.glyphs[15362] and addon.glyphs[15362][1] == 111 and addon.glyphs[15362][2] == 127 and addon.glyphs[15362][3] == 122 and addon.glyphs[15362][4] == 112 and addon.glyphs[15362][5] == 0 and addon.glyphs[15362][6] == 111.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15362] = { 99, 703, 542, 112, 0, 111.19 }
+assert(addon.glyphs[15651] and addon.glyphs[15651][1] == 112 and addon.glyphs[15651][2] == 527 and addon.glyphs[15651][3] == 542 and addon.glyphs[15651][4] == 112 and addon.glyphs[15651][5] == 0 and addon.glyphs[15651][6] == 111.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15651] = { 99, 819, 542, 112, 0, 111.89 }
+assert(addon.glyphs[15658] and addon.glyphs[15658][1] == 112 and addon.glyphs[15658][2] == 206 and addon.glyphs[15658][3] == 602 and addon.glyphs[15658][4] == 112 and addon.glyphs[15658][5] == 0 and addon.glyphs[15658][6] == 111.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15658] = { 99, 2, 602, 112, 0, 111.06 }
+assert(addon.glyphs[15686] and addon.glyphs[15686][1] == 112 and addon.glyphs[15686][2] == 2 and addon.glyphs[15686][3] == 782 and addon.glyphs[15686][4] == 112 and addon.glyphs[15686][5] == 0 and addon.glyphs[15686][6] == 111.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15686] = { 99, 118, 602, 112, 0, 111.3 }
+assert(addon.glyphs[15721] and addon.glyphs[15721][1] == 112 and addon.glyphs[15721][2] == 850 and addon.glyphs[15721][3] == 902 and addon.glyphs[15721][4] == 112 and addon.glyphs[15721][5] == 0 and addon.glyphs[15721][6] == 111.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15721] = { 99, 234, 602, 112, 0, 111.64 }
+assert(addon.glyphs[15845] and addon.glyphs[15845][1] == 113 and addon.glyphs[15845][2] == 429 and addon.glyphs[15845][3] == 602 and addon.glyphs[15845][4] == 112 and addon.glyphs[15845][5] == 0 and addon.glyphs[15845][6] == 111.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15845] = { 99, 350, 602, 112, 0, 111.75 }
+assert(addon.glyphs[15853] and addon.glyphs[15853][1] == 113 and addon.glyphs[15853][2] == 49 and addon.glyphs[15853][3] == 662 and addon.glyphs[15853][4] == 112 and addon.glyphs[15853][5] == 0 and addon.glyphs[15853][6] == 111.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15853] = { 99, 466, 602, 112, 0, 111.47 }
+assert(addon.glyphs[15965] and addon.glyphs[15965][1] == 114 and addon.glyphs[15965][2] == 317 and addon.glyphs[15965][3] == 242 and addon.glyphs[15965][4] == 112 and addon.glyphs[15965][5] == -1 and addon.glyphs[15965][6] == 110.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15965] = { 99, 582, 602, 112, -1, 110.02 }
+assert(addon.glyphs[15419] and addon.glyphs[15419][1] == 111 and addon.glyphs[15419][2] == 772 and addon.glyphs[15419][3] == 362 and addon.glyphs[15419][4] == 111 and addon.glyphs[15419][5] == 0 and addon.glyphs[15419][6] == 110.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15419] = { 99, 698, 602, 111, 0, 110.86 }
+assert(addon.glyphs[15711] and addon.glyphs[15711][1] == 112 and addon.glyphs[15711][2] == 2 and addon.glyphs[15711][3] == 902 and addon.glyphs[15711][4] == 111 and addon.glyphs[15711][5] == 0 and addon.glyphs[15711][6] == 110.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15711] = { 99, 813, 602, 111, 0, 110.25 }
+assert(addon.glyphs[15715] and addon.glyphs[15715][1] == 112 and addon.glyphs[15715][2] == 315 and addon.glyphs[15715][3] == 902 and addon.glyphs[15715][4] == 111 and addon.glyphs[15715][5] == 0 and addon.glyphs[15715][6] == 110.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15715] = { 99, 2, 662, 111, 0, 110.16 }
+assert(addon.glyphs[15940] and addon.glyphs[15940][1] == 114 and addon.glyphs[15940][2] == 747 and addon.glyphs[15940][3] == 62 and addon.glyphs[15940][4] == 111 and addon.glyphs[15940][5] == 0 and addon.glyphs[15940][6] == 110.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15940] = { 99, 117, 662, 111, 0, 110.53 }
+assert(addon.glyphs[15445] and addon.glyphs[15445][1] == 111 and addon.glyphs[15445][2] == 489 and addon.glyphs[15445][3] == 542 and addon.glyphs[15445][4] == 110 and addon.glyphs[15445][5] == 0 and addon.glyphs[15445][6] == 109.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15445] = { 99, 232, 662, 110, 0, 109.36 }
+assert(addon.glyphs[15821] and addon.glyphs[15821][1] == 113 and addon.glyphs[15821][2] == 218 and addon.glyphs[15821][3] == 482 and addon.glyphs[15821][4] == 110 and addon.glyphs[15821][5] == 0 and addon.glyphs[15821][6] == 109.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15821] = { 99, 346, 662, 110, 0, 109.95 }
+assert(addon.glyphs[14349] and addon.glyphs[14349][1] == 98 and addon.glyphs[14349][2] == 336 and addon.glyphs[14349][3] == 62 and addon.glyphs[14349][4] == 109 and addon.glyphs[14349][5] == 0 and addon.glyphs[14349][6] == 108.48, "MAIN44 relocation baseline changed")
+addon.glyphs[14349] = { 99, 460, 662, 109, 0, 108.48 }
+assert(addon.glyphs[14497] and addon.glyphs[14497][1] == 102 and addon.glyphs[14497][2] == 624 and addon.glyphs[14497][3] == 62 and addon.glyphs[14497][4] == 109 and addon.glyphs[14497][5] == 0 and addon.glyphs[14497][6] == 108.92, "MAIN44 relocation baseline changed")
+addon.glyphs[14497] = { 99, 573, 662, 109, 0, 108.92 }
+assert(addon.glyphs[15443] and addon.glyphs[15443][1] == 111 and addon.glyphs[15443][2] == 272 and addon.glyphs[15443][3] == 542 and addon.glyphs[15443][4] == 109 and addon.glyphs[15443][5] == 0 and addon.glyphs[15443][6] == 108.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15443] = { 99, 686, 662, 109, 0, 108.12 }
+assert(addon.glyphs[15716] and addon.glyphs[15716][1] == 112 and addon.glyphs[15716][2] == 430 and addon.glyphs[15716][3] == 902 and addon.glyphs[15716][4] == 109 and addon.glyphs[15716][5] == -1 and addon.glyphs[15716][6] == 107.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15716] = { 99, 799, 662, 109, -1, 107.22 }
+assert(addon.glyphs[15819] and addon.glyphs[15819][1] == 113 and addon.glyphs[15819][2] == 2 and addon.glyphs[15819][3] == 482 and addon.glyphs[15819][4] == 109 and addon.glyphs[15819][5] == 0 and addon.glyphs[15819][6] == 108.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15819] = { 99, 912, 662, 109, 0, 108.94 }
+assert(addon.glyphs[15862] and addon.glyphs[15862][1] == 113 and addon.glyphs[15862][2] == 891 and addon.glyphs[15862][3] == 662 and addon.glyphs[15862][4] == 109 and addon.glyphs[15862][5] == 0 and addon.glyphs[15862][6] == 108.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15862] = { 99, 2, 722, 109, 0, 108.72 }
+assert(addon.glyphs[15942] and addon.glyphs[15942][1] == 114 and addon.glyphs[15942][2] == 2 and addon.glyphs[15942][3] == 122 and addon.glyphs[15942][4] == 109 and addon.glyphs[15942][5] == -1 and addon.glyphs[15942][6] == 107.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15942] = { 99, 115, 722, 109, -1, 107.2 }
+assert(addon.glyphs[15977] and addon.glyphs[15977][1] == 114 and addon.glyphs[15977][2] == 455 and addon.glyphs[15977][3] == 302 and addon.glyphs[15977][4] == 109 and addon.glyphs[15977][5] == 0 and addon.glyphs[15977][6] == 108.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15977] = { 99, 228, 722, 109, 0, 108.31 }
+assert(addon.glyphs[15397] and addon.glyphs[15397][1] == 111 and addon.glyphs[15397][2] == 836 and addon.glyphs[15397][3] == 242 and addon.glyphs[15397][4] == 108 and addon.glyphs[15397][5] == -1 and addon.glyphs[15397][6] == 106.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15397] = { 99, 341, 722, 108, -1, 106.62 }
+assert(addon.glyphs[15424] and addon.glyphs[15424][1] == 111 and addon.glyphs[15424][2] == 309 and addon.glyphs[15424][3] == 422 and addon.glyphs[15424][4] == 108 and addon.glyphs[15424][5] == 0 and addon.glyphs[15424][6] == 107.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15424] = { 99, 453, 722, 108, 0, 107.77 }
+assert(addon.glyphs[15534] and addon.glyphs[15534][1] == 112 and addon.glyphs[15534][2] == 2 and addon.glyphs[15534][3] == 2 and addon.glyphs[15534][4] == 108 and addon.glyphs[15534][5] == 0 and addon.glyphs[15534][6] == 107.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15534] = { 99, 565, 722, 108, 0, 107.44 }
+assert(addon.glyphs[15586] and addon.glyphs[15586][1] == 112 and addon.glyphs[15586][2] == 109 and addon.glyphs[15586][3] == 242 and addon.glyphs[15586][4] == 108 and addon.glyphs[15586][5] == 0 and addon.glyphs[15586][6] == 107.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15586] = { 99, 677, 722, 108, 0, 107.95 }
+assert(addon.glyphs[15753] and addon.glyphs[15753][1] == 113 and addon.glyphs[15753][2] == 897 and addon.glyphs[15753][3] == 62 and addon.glyphs[15753][4] == 108 and addon.glyphs[15753][5] == 0 and addon.glyphs[15753][6] == 108, "MAIN44 relocation baseline changed")
+addon.glyphs[15753] = { 99, 789, 722, 108, 0, 108 }
+assert(addon.glyphs[15764] and addon.glyphs[15764][1] == 113 and addon.glyphs[15764][2] == 96 and addon.glyphs[15764][3] == 182 and addon.glyphs[15764][4] == 108 and addon.glyphs[15764][5] == 0 and addon.glyphs[15764][6] == 107.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15764] = { 99, 901, 722, 108, 0, 107.84 }
+assert(addon.glyphs[15777] and addon.glyphs[15777][1] == 113 and addon.glyphs[15777][2] == 275 and addon.glyphs[15777][3] == 242 and addon.glyphs[15777][4] == 108 and addon.glyphs[15777][5] == 0 and addon.glyphs[15777][6] == 107.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15777] = { 99, 2, 782, 108, 0, 107.33 }
+assert(addon.glyphs[15960] and addon.glyphs[15960][1] == 114 and addon.glyphs[15960][2] == 853 and addon.glyphs[15960][3] == 182 and addon.glyphs[15960][4] == 108 and addon.glyphs[15960][5] == 0 and addon.glyphs[15960][6] == 107.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15960] = { 99, 114, 782, 108, 0, 107.33 }
+assert(addon.glyphs[15967] and addon.glyphs[15967][1] == 114 and addon.glyphs[15967][2] == 515 and addon.glyphs[15967][3] == 242 and addon.glyphs[15967][4] == 108 and addon.glyphs[15967][5] == 0 and addon.glyphs[15967][6] == 107.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15967] = { 99, 226, 782, 108, 0, 107.08 }
+assert(addon.glyphs[14344] and addon.glyphs[14344][1] == 98 and addon.glyphs[14344][2] == 835 and addon.glyphs[14344][3] == 2 and addon.glyphs[14344][4] == 107 and addon.glyphs[14344][5] == 0 and addon.glyphs[14344][6] == 106.98, "MAIN44 relocation baseline changed")
+addon.glyphs[14344] = { 99, 338, 782, 107, 0, 106.98 }
+assert(addon.glyphs[15486] and addon.glyphs[15486][1] == 111 and addon.glyphs[15486][2] == 255 and addon.glyphs[15486][3] == 782 and addon.glyphs[15486][4] == 107 and addon.glyphs[15486][5] == 0 and addon.glyphs[15486][6] == 106.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15486] = { 99, 449, 782, 107, 0, 106.92 }
+assert(addon.glyphs[15669] and addon.glyphs[15669][1] == 112 and addon.glyphs[15669][2] == 213 and addon.glyphs[15669][3] == 662 and addon.glyphs[15669][4] == 107 and addon.glyphs[15669][5] == 0 and addon.glyphs[15669][6] == 106.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15669] = { 99, 560, 782, 107, 0, 106.78 }
+assert(addon.glyphs[15796] and addon.glyphs[15796][1] == 113 and addon.glyphs[15796][2] == 792 and addon.glyphs[15796][3] == 302 and addon.glyphs[15796][4] == 107 and addon.glyphs[15796][5] == 0 and addon.glyphs[15796][6] == 106.42, "MAIN44 relocation baseline changed")
+addon.glyphs[15796] = { 99, 671, 782, 107, 0, 106.42 }
+assert(addon.glyphs[15838] and addon.glyphs[15838][1] == 113 and addon.glyphs[15838][2] == 667 and addon.glyphs[15838][3] == 542 and addon.glyphs[15838][4] == 107 and addon.glyphs[15838][5] == 0 and addon.glyphs[15838][6] == 106.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15838] = { 99, 782, 782, 107, 0, 106.77 }
+assert(addon.glyphs[14313] and addon.glyphs[14313][1] == 97 and addon.glyphs[14313][2] == 447 and addon.glyphs[14313][3] == 2 and addon.glyphs[14313][4] == 106 and addon.glyphs[14313][5] == -2 and addon.glyphs[14313][6] == 103.41, "MAIN44 relocation baseline changed")
+addon.glyphs[14313] = { 99, 893, 782, 106, -2, 103.41 }
+assert(addon.glyphs[15461] and addon.glyphs[15461][1] == 111 and addon.glyphs[15461][2] == 173 and addon.glyphs[15461][3] == 662 and addon.glyphs[15461][4] == 106 and addon.glyphs[15461][5] == 0 and addon.glyphs[15461][6] == 105.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15461] = { 99, 2, 842, 106, 0, 105.25 }
+assert(addon.glyphs[15473] and addon.glyphs[15473][1] == 111 and addon.glyphs[15473][2] == 311 and addon.glyphs[15473][3] == 722 and addon.glyphs[15473][4] == 106 and addon.glyphs[15473][5] == 0 and addon.glyphs[15473][6] == 105.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15473] = { 99, 112, 842, 106, 0, 105.05 }
+assert(addon.glyphs[15817] and addon.glyphs[15817][1] == 113 and addon.glyphs[15817][2] == 796 and addon.glyphs[15817][3] == 422 and addon.glyphs[15817][4] == 106 and addon.glyphs[15817][5] == 0 and addon.glyphs[15817][6] == 105.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15817] = { 99, 222, 842, 106, 0, 105.72 }
+assert(addon.glyphs[15865] and addon.glyphs[15865][1] == 113 and addon.glyphs[15865][2] == 146 and addon.glyphs[15865][3] == 722 and addon.glyphs[15865][4] == 106 and addon.glyphs[15865][5] == 0 and addon.glyphs[15865][6] == 105.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15865] = { 99, 332, 842, 106, 0, 105.23 }
+assert(addon.glyphs[14347] and addon.glyphs[14347][1] == 98 and addon.glyphs[14347][2] == 152 and addon.glyphs[14347][3] == 62 and addon.glyphs[14347][4] == 105 and addon.glyphs[14347][5] == 0 and addon.glyphs[14347][6] == 104.91, "MAIN44 relocation baseline changed")
+addon.glyphs[14347] = { 99, 442, 842, 105, 0, 104.91 }
+assert(addon.glyphs[15536] and addon.glyphs[15536][1] == 112 and addon.glyphs[15536][2] == 220 and addon.glyphs[15536][3] == 2 and addon.glyphs[15536][4] == 105 and addon.glyphs[15536][5] == 0 and addon.glyphs[15536][6] == 104.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15536] = { 99, 551, 842, 105, 0, 104.08 }
+assert(addon.glyphs[15650] and addon.glyphs[15650][1] == 112 and addon.glyphs[15650][2] == 418 and addon.glyphs[15650][3] == 542 and addon.glyphs[15650][4] == 105 and addon.glyphs[15650][5] == 0 and addon.glyphs[15650][6] == 104.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15650] = { 99, 660, 842, 105, 0, 104.34 }
+assert(addon.glyphs[15682] and addon.glyphs[15682][1] == 112 and addon.glyphs[15682][2] == 520 and addon.glyphs[15682][3] == 722 and addon.glyphs[15682][4] == 105 and addon.glyphs[15682][5] == 0 and addon.glyphs[15682][6] == 104.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15682] = { 99, 769, 842, 105, 0, 104.39 }
+assert(addon.glyphs[15867] and addon.glyphs[15867][1] == 113 and addon.glyphs[15867][2] == 389 and addon.glyphs[15867][3] == 722 and addon.glyphs[15867][4] == 105 and addon.glyphs[15867][5] == 0 and addon.glyphs[15867][6] == 103.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15867] = { 99, 878, 842, 105, 0, 103.77 }
+assert(addon.glyphs[14338] and addon.glyphs[14338][1] == 98 and addon.glyphs[14338][2] == 234 and addon.glyphs[14338][3] == 2 and addon.glyphs[14338][4] == 104 and addon.glyphs[14338][5] == 0 and addon.glyphs[14338][6] == 104, "MAIN44 relocation baseline changed")
+addon.glyphs[14338] = { 99, 2, 902, 104, 0, 104 }
+assert(addon.glyphs[14505] and addon.glyphs[14505][1] == 102 and addon.glyphs[14505][2] == 585 and addon.glyphs[14505][3] == 122 and addon.glyphs[14505][4] == 104 and addon.glyphs[14505][5] == 0 and addon.glyphs[14505][6] == 104, "MAIN44 relocation baseline changed")
+addon.glyphs[14505] = { 99, 110, 902, 104, 0, 104 }
+assert(addon.glyphs[15339] and addon.glyphs[15339][1] == 111 and addon.glyphs[15339][2] == 437 and addon.glyphs[15339][3] == 2 and addon.glyphs[15339][4] == 104 and addon.glyphs[15339][5] == 0 and addon.glyphs[15339][6] == 103.56, "MAIN44 relocation baseline changed")
+addon.glyphs[15339] = { 99, 218, 902, 104, 0, 103.56 }
+assert(addon.glyphs[15387] and addon.glyphs[15387][1] == 111 and addon.glyphs[15387][2] == 144 and addon.glyphs[15387][3] == 242 and addon.glyphs[15387][4] == 104 and addon.glyphs[15387][5] == 0 and addon.glyphs[15387][6] == 103.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15387] = { 99, 326, 902, 104, 0, 103.03 }
+assert(addon.glyphs[15729] and addon.glyphs[15729][1] == 112 and addon.glyphs[15729][2] == 621 and addon.glyphs[15729][3] == 962 and addon.glyphs[15729][4] == 104 and addon.glyphs[15729][5] == 0 and addon.glyphs[15729][6] == 103.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15729] = { 99, 434, 902, 104, 0, 103.97 }
+assert(addon.glyphs[15736] and addon.glyphs[15736][1] == 113 and addon.glyphs[15736][2] == 253 and addon.glyphs[15736][3] == 2 and addon.glyphs[15736][4] == 104 and addon.glyphs[15736][5] == 0 and addon.glyphs[15736][6] == 103.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15736] = { 99, 542, 902, 104, 0, 103.06 }
+assert(addon.glyphs[15743] and addon.glyphs[15743][1] == 113 and addon.glyphs[15743][2] == 2 and addon.glyphs[15743][3] == 62 and addon.glyphs[15743][4] == 104 and addon.glyphs[15743][5] == 0 and addon.glyphs[15743][6] == 103.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15743] = { 99, 650, 902, 104, 0, 103.75 }
+assert(addon.glyphs[15855] and addon.glyphs[15855][1] == 113 and addon.glyphs[15855][2] == 290 and addon.glyphs[15855][3] == 662 and addon.glyphs[15855][4] == 104 and addon.glyphs[15855][5] == 0 and addon.glyphs[15855][6] == 103.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15855] = { 99, 758, 902, 104, 0, 103.45 }
+assert(addon.glyphs[15872] and addon.glyphs[15872][1] == 113 and addon.glyphs[15872][2] == 865 and addon.glyphs[15872][3] == 722 and addon.glyphs[15872][4] == 104 and addon.glyphs[15872][5] == 0 and addon.glyphs[15872][6] == 103.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15872] = { 99, 866, 902, 104, 0, 103.53 }
+assert(addon.glyphs[14478] and addon.glyphs[14478][1] == 101 and addon.glyphs[14478][2] == 130 and addon.glyphs[14478][3] == 2 and addon.glyphs[14478][4] == 103 and addon.glyphs[14478][5] == 0 and addon.glyphs[14478][6] == 102.41, "MAIN44 relocation baseline changed")
+addon.glyphs[14478] = { 99, 2, 962, 103, 0, 102.41 }
+assert(addon.glyphs[14482] and addon.glyphs[14482][1] == 102 and addon.glyphs[14482][2] == 200 and addon.glyphs[14482][3] == 2 and addon.glyphs[14482][4] == 103 and addon.glyphs[14482][5] == 0 and addon.glyphs[14482][6] == 102.41, "MAIN44 relocation baseline changed")
+addon.glyphs[14482] = { 99, 109, 962, 103, 0, 102.41 }
+assert(addon.glyphs[15542] and addon.glyphs[15542][1] == 112 and addon.glyphs[15542][2] == 666 and addon.glyphs[15542][3] == 2 and addon.glyphs[15542][4] == 103 and addon.glyphs[15542][5] == 0 and addon.glyphs[15542][6] == 102.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15542] = { 99, 216, 962, 103, 0, 102.94 }
+assert(addon.glyphs[15574] and addon.glyphs[15574][1] == 112 and addon.glyphs[15574][2] == 2 and addon.glyphs[15574][3] == 182 and addon.glyphs[15574][4] == 103 and addon.glyphs[15574][5] == 0 and addon.glyphs[15574][6] == 102.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15574] = { 99, 323, 962, 103, 0, 102.36 }
+assert(addon.glyphs[15575] and addon.glyphs[15575][1] == 112 and addon.glyphs[15575][2] == 109 and addon.glyphs[15575][3] == 182 and addon.glyphs[15575][4] == 103 and addon.glyphs[15575][5] == 0 and addon.glyphs[15575][6] == 102.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15575] = { 99, 430, 962, 103, 0, 102.8 }
+assert(addon.glyphs[15657] and addon.glyphs[15657][1] == 112 and addon.glyphs[15657][2] == 99 and addon.glyphs[15657][3] == 602 and addon.glyphs[15657][4] == 103 and addon.glyphs[15657][5] == 0 and addon.glyphs[15657][6] == 102.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15657] = { 99, 537, 962, 103, 0, 102.83 }
+assert(addon.glyphs[15734] and addon.glyphs[15734][1] == 113 and addon.glyphs[15734][2] == 71 and addon.glyphs[15734][3] == 2 and addon.glyphs[15734][4] == 103 and addon.glyphs[15734][5] == 0 and addon.glyphs[15734][6] == 102.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15734] = { 99, 644, 962, 103, 0, 102.2 }
+assert(addon.glyphs[15813] and addon.glyphs[15813][1] == 113 and addon.glyphs[15813][2] == 478 and addon.glyphs[15813][3] == 422 and addon.glyphs[15813][4] == 103 and addon.glyphs[15813][5] == 0 and addon.glyphs[15813][6] == 102.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15813] = { 99, 751, 962, 103, 0, 102.31 }
+assert(addon.glyphs[15972] and addon.glyphs[15972][1] == 114 and addon.glyphs[15972][2] == 2 and addon.glyphs[15972][3] == 302 and addon.glyphs[15972][4] == 103 and addon.glyphs[15972][5] == 0 and addon.glyphs[15972][6] == 102.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15972] = { 99, 858, 962, 103, 0, 102.28 }
+assert(addon.glyphs[14607] and addon.glyphs[14607][1] == 105 and addon.glyphs[14607][2] == 490 and addon.glyphs[14607][3] == 2 and addon.glyphs[14607][4] == 102 and addon.glyphs[14607][5] == 0 and addon.glyphs[14607][6] == 101.69, "MAIN44 relocation baseline changed")
+addon.glyphs[14607] = { 86, 2, 302, 102, 0, 101.69 }
+assert(addon.glyphs[15410] and addon.glyphs[15410][1] == 111 and addon.glyphs[15410][2] == 43 and addon.glyphs[15410][3] == 362 and addon.glyphs[15410][4] == 102 and addon.glyphs[15410][5] == 0 and addon.glyphs[15410][6] == 101.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15410] = { 86, 108, 302, 102, 0, 101.22 }
+assert(addon.glyphs[15434] and addon.glyphs[15434][1] == 111 and addon.glyphs[15434][2] == 306 and addon.glyphs[15434][3] == 482 and addon.glyphs[15434][4] == 102 and addon.glyphs[15434][5] == 0 and addon.glyphs[15434][6] == 101.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15434] = { 86, 214, 302, 102, 0, 101.09 }
+assert(addon.glyphs[15492] and addon.glyphs[15492][1] == 111 and addon.glyphs[15492][2] == 805 and addon.glyphs[15492][3] == 782 and addon.glyphs[15492][4] == 102 and addon.glyphs[15492][5] == -3 and addon.glyphs[15492][6] == 98.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15492] = { 86, 320, 302, 102, -3, 98.12 }
+assert(addon.glyphs[15535] and addon.glyphs[15535][1] == 112 and addon.glyphs[15535][2] == 114 and addon.glyphs[15535][3] == 2 and addon.glyphs[15535][4] == 102 and addon.glyphs[15535][5] == 0 and addon.glyphs[15535][6] == 101.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15535] = { 86, 426, 302, 102, 0, 101.39 }
+assert(addon.glyphs[15645] and addon.glyphs[15645][1] == 112 and addon.glyphs[15645][2] == 2 and addon.glyphs[15645][3] == 542 and addon.glyphs[15645][4] == 102 and addon.glyphs[15645][5] == 0 and addon.glyphs[15645][6] == 101.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15645] = { 86, 532, 302, 102, 0, 101.52 }
+assert(addon.glyphs[15668] and addon.glyphs[15668][1] == 112 and addon.glyphs[15668][2] == 107 and addon.glyphs[15668][3] == 662 and addon.glyphs[15668][4] == 102 and addon.glyphs[15668][5] == 0 and addon.glyphs[15668][6] == 101.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15668] = { 86, 638, 302, 102, 0, 101.16 }
+assert(addon.glyphs[15737] and addon.glyphs[15737][1] == 113 and addon.glyphs[15737][2] == 361 and addon.glyphs[15737][3] == 2 and addon.glyphs[15737][4] == 102 and addon.glyphs[15737][5] == 0 and addon.glyphs[15737][6] == 101.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15737] = { 86, 744, 302, 102, 0, 101.62 }
+assert(addon.glyphs[12549] and addon.glyphs[12549][1] == 81 and addon.glyphs[12549][2] == 331 and addon.glyphs[12549][3] == 2 and addon.glyphs[12549][4] == 101 and addon.glyphs[12549][5] == 0 and addon.glyphs[12549][6] == 100.59, "MAIN44 relocation baseline changed")
+addon.glyphs[12549] = { 86, 850, 302, 101, 0, 100.59 }
+assert(addon.glyphs[12554] and addon.glyphs[12554][1] == 81 and addon.glyphs[12554][2] == 606 and addon.glyphs[12554][3] == 2 and addon.glyphs[12554][4] == 101 and addon.glyphs[12554][5] == 0 and addon.glyphs[12554][6] == 100.84, "MAIN44 relocation baseline changed")
+addon.glyphs[12554] = { 86, 2, 362, 101, 0, 100.84 }
+assert(addon.glyphs[13175] and addon.glyphs[13175][1] == 87 and addon.glyphs[13175][2] == 2 and addon.glyphs[13175][3] == 2 and addon.glyphs[13175][4] == 101 and addon.glyphs[13175][5] == 0 and addon.glyphs[13175][6] == 100.69, "MAIN44 relocation baseline changed")
+addon.glyphs[13175] = { 86, 107, 362, 101, 0, 100.69 }
+assert(addon.glyphs[15351] and addon.glyphs[15351][1] == 111 and addon.glyphs[15351][2] == 315 and addon.glyphs[15351][3] == 62 and addon.glyphs[15351][4] == 101 and addon.glyphs[15351][5] == 0 and addon.glyphs[15351][6] == 100.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15351] = { 86, 212, 362, 101, 0, 100.16 }
+assert(addon.glyphs[15427] and addon.glyphs[15427][1] == 111 and addon.glyphs[15427][2] == 595 and addon.glyphs[15427][3] == 422 and addon.glyphs[15427][4] == 101 and addon.glyphs[15427][5] == 0 and addon.glyphs[15427][6] == 100.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15427] = { 86, 317, 362, 101, 0, 100.06 }
+assert(addon.glyphs[15456] and addon.glyphs[15456][1] == 111 and addon.glyphs[15456][2] == 712 and addon.glyphs[15456][3] == 602 and addon.glyphs[15456][4] == 101 and addon.glyphs[15456][5] == 0 and addon.glyphs[15456][6] == 100.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15456] = { 86, 422, 362, 101, 0, 100.94 }
+assert(addon.glyphs[15499] and addon.glyphs[15499][1] == 111 and addon.glyphs[15499][2] == 329 and addon.glyphs[15499][3] == 842 and addon.glyphs[15499][4] == 101 and addon.glyphs[15499][5] == 0 and addon.glyphs[15499][6] == 100.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15499] = { 86, 527, 362, 101, 0, 100.16 }
+assert(addon.glyphs[15547] and addon.glyphs[15547][1] == 112 and addon.glyphs[15547][2] == 63 and addon.glyphs[15547][3] == 62 and addon.glyphs[15547][4] == 101 and addon.glyphs[15547][5] == 0 and addon.glyphs[15547][6] == 100.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15547] = { 86, 632, 362, 101, 0, 100.98 }
+assert(addon.glyphs[15667] and addon.glyphs[15667][1] == 112 and addon.glyphs[15667][2] == 2 and addon.glyphs[15667][3] == 662 and addon.glyphs[15667][4] == 101 and addon.glyphs[15667][5] == 0 and addon.glyphs[15667][6] == 100.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15667] = { 86, 737, 362, 101, 0, 100.22 }
+assert(addon.glyphs[15695] and addon.glyphs[15695][1] == 112 and addon.glyphs[15695][2] == 769 and addon.glyphs[15695][3] == 782 and addon.glyphs[15695][4] == 101 and addon.glyphs[15695][5] == 0 and addon.glyphs[15695][6] == 100.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15695] = { 86, 842, 362, 101, 0, 100.75 }
+assert(addon.glyphs[15834] and addon.glyphs[15834][1] == 113 and addon.glyphs[15834][2] == 349 and addon.glyphs[15834][3] == 542 and addon.glyphs[15834][4] == 101 and addon.glyphs[15834][5] == 0 and addon.glyphs[15834][6] == 100.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15834] = { 86, 2, 422, 101, 0, 100.64 }
+assert(addon.glyphs[15945] and addon.glyphs[15945][1] == 114 and addon.glyphs[15945][2] == 368 and addon.glyphs[15945][3] == 122 and addon.glyphs[15945][4] == 101 and addon.glyphs[15945][5] == 0 and addon.glyphs[15945][6] == 100.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15945] = { 86, 107, 422, 101, 0, 100.06 }
+assert(addon.glyphs[15957] and addon.glyphs[15957][1] == 114 and addon.glyphs[15957][2] == 571 and addon.glyphs[15957][3] == 182 and addon.glyphs[15957][4] == 101 and addon.glyphs[15957][5] == 0 and addon.glyphs[15957][6] == 100.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15957] = { 86, 212, 422, 101, 0, 100.23 }
+assert(addon.glyphs[14604] and addon.glyphs[14604][1] == 105 and addon.glyphs[14604][2] == 234 and addon.glyphs[14604][3] == 2 and addon.glyphs[14604][4] == 100 and addon.glyphs[14604][5] == 0 and addon.glyphs[14604][6] == 99.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14604] = { 86, 317, 422, 100, 0, 99.14 }
+assert(addon.glyphs[14611] and addon.glyphs[14611][1] == 105 and addon.glyphs[14611][2] == 845 and addon.glyphs[14611][3] == 2 and addon.glyphs[14611][4] == 100 and addon.glyphs[14611][5] == 0 and addon.glyphs[14611][6] == 99.23, "MAIN44 relocation baseline changed")
+addon.glyphs[14611] = { 86, 421, 422, 100, 0, 99.23 }
+assert(addon.glyphs[15341] and addon.glyphs[15341][1] == 111 and addon.glyphs[15341][2] == 594 and addon.glyphs[15341][3] == 2 and addon.glyphs[15341][4] == 100 and addon.glyphs[15341][5] == 0 and addon.glyphs[15341][6] == 99.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15341] = { 86, 525, 422, 100, 0, 99.98 }
+assert(addon.glyphs[15429] and addon.glyphs[15429][1] == 111 and addon.glyphs[15429][2] == 745 and addon.glyphs[15429][3] == 422 and addon.glyphs[15429][4] == 100 and addon.glyphs[15429][5] == 0 and addon.glyphs[15429][6] == 99.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15429] = { 86, 629, 422, 100, 0, 99.52 }
+assert(addon.glyphs[15430] and addon.glyphs[15430][1] == 111 and addon.glyphs[15430][2] == 849 and addon.glyphs[15430][3] == 422 and addon.glyphs[15430][4] == 100 and addon.glyphs[15430][5] == 0 and addon.glyphs[15430][6] == 99.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15430] = { 86, 733, 422, 100, 0, 99.23 }
+assert(addon.glyphs[15444] and addon.glyphs[15444][1] == 111 and addon.glyphs[15444][2] == 385 and addon.glyphs[15444][3] == 542 and addon.glyphs[15444][4] == 100 and addon.glyphs[15444][5] == 0 and addon.glyphs[15444][6] == 99.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15444] = { 86, 837, 422, 100, 0, 99.23 }
+assert(addon.glyphs[15567] and addon.glyphs[15567][1] == 112 and addon.glyphs[15567][2] == 413 and addon.glyphs[15567][3] == 122 and addon.glyphs[15567][4] == 100 and addon.glyphs[15567][5] == 0 and addon.glyphs[15567][6] == 99.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15567] = { 86, 2, 482, 100, 0, 99.72 }
+assert(addon.glyphs[15670] and addon.glyphs[15670][1] == 112 and addon.glyphs[15670][2] == 324 and addon.glyphs[15670][3] == 662 and addon.glyphs[15670][4] == 100 and addon.glyphs[15670][5] == 0 and addon.glyphs[15670][6] == 99.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15670] = { 86, 106, 482, 100, 0, 99.59 }
+assert(addon.glyphs[15728] and addon.glyphs[15728][1] == 112 and addon.glyphs[15728][2] == 517 and addon.glyphs[15728][3] == 962 and addon.glyphs[15728][4] == 100 and addon.glyphs[15728][5] == 0 and addon.glyphs[15728][6] == 99.61, "MAIN44 relocation baseline changed")
+addon.glyphs[15728] = { 86, 210, 482, 100, 0, 99.61 }
+assert(addon.glyphs[15731] and addon.glyphs[15731][1] == 112 and addon.glyphs[15731][2] == 817 and addon.glyphs[15731][3] == 962 and addon.glyphs[15731][4] == 100 and addon.glyphs[15731][5] == 0 and addon.glyphs[15731][6] == 99.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15731] = { 86, 314, 482, 100, 0, 99.52 }
+assert(addon.glyphs[15806] and addon.glyphs[15806][1] == 113 and addon.glyphs[15806][2] == 849 and addon.glyphs[15806][3] == 362 and addon.glyphs[15806][4] == 100 and addon.glyphs[15806][5] == 0 and addon.glyphs[15806][6] == 99.73, "MAIN44 relocation baseline changed")
+addon.glyphs[15806] = { 86, 418, 482, 100, 0, 99.73 }
+assert(addon.glyphs[15844] and addon.glyphs[15844][1] == 113 and addon.glyphs[15844][2] == 325 and addon.glyphs[15844][3] == 602 and addon.glyphs[15844][4] == 100 and addon.glyphs[15844][5] == 0 and addon.glyphs[15844][6] == 99.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15844] = { 86, 522, 482, 100, 0, 99.58 }
+assert(addon.glyphs[12557] and addon.glyphs[12557][1] == 81 and addon.glyphs[12557][2] == 881 and addon.glyphs[12557][3] == 2 and addon.glyphs[12557][4] == 99 and addon.glyphs[12557][5] == 0 and addon.glyphs[12557][6] == 98.89, "MAIN44 relocation baseline changed")
+addon.glyphs[12557] = { 86, 626, 482, 99, 0, 98.89 }
+assert(addon.glyphs[14315] and addon.glyphs[14315][1] == 97 and addon.glyphs[14315][2] == 598 and addon.glyphs[14315][3] == 2 and addon.glyphs[14315][4] == 99 and addon.glyphs[14315][5] == -2 and addon.glyphs[14315][6] == 96.7, "MAIN44 relocation baseline changed")
+addon.glyphs[14315] = { 86, 729, 482, 99, -2, 96.7 }
+assert(addon.glyphs[15625] and addon.glyphs[15625][1] == 112 and addon.glyphs[15625][2] == 250 and addon.glyphs[15625][3] == 422 and addon.glyphs[15625][4] == 99 and addon.glyphs[15625][5] == 0 and addon.glyphs[15625][6] == 98.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15625] = { 86, 832, 482, 99, 0, 98.94 }
+assert(addon.glyphs[15666] and addon.glyphs[15666][1] == 112 and addon.glyphs[15666][2] == 902 and addon.glyphs[15666][3] == 602 and addon.glyphs[15666][4] == 99 and addon.glyphs[15666][5] == -2 and addon.glyphs[15666][6] == 96.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15666] = { 86, 2, 542, 99, -2, 96.23 }
+assert(addon.glyphs[15820] and addon.glyphs[15820][1] == 113 and addon.glyphs[15820][2] == 115 and addon.glyphs[15820][3] == 482 and addon.glyphs[15820][4] == 99 and addon.glyphs[15820][5] == 0 and addon.glyphs[15820][6] == 98.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15820] = { 86, 105, 542, 99, 0, 98.84 }
+assert(addon.glyphs[15946] and addon.glyphs[15946][1] == 114 and addon.glyphs[15946][2] == 473 and addon.glyphs[15946][3] == 122 and addon.glyphs[15946][4] == 99 and addon.glyphs[15946][5] == 0 and addon.glyphs[15946][6] == 98.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15946] = { 86, 208, 542, 99, 0, 98.62 }
+assert(addon.glyphs[15947] and addon.glyphs[15947][1] == 114 and addon.glyphs[15947][2] == 576 and addon.glyphs[15947][3] == 122 and addon.glyphs[15947][4] == 99 and addon.glyphs[15947][5] == 0 and addon.glyphs[15947][6] == 98.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15947] = { 86, 311, 542, 99, 0, 98.05 }
+assert(addon.glyphs[15990] and addon.glyphs[15990][1] == 114 and addon.glyphs[15990][2] == 620 and addon.glyphs[15990][3] == 362 and addon.glyphs[15990][4] == 99 and addon.glyphs[15990][5] == 0 and addon.glyphs[15990][6] == 98.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15990] = { 86, 414, 542, 99, 0, 98.91 }
+assert(addon.glyphs[15439] and addon.glyphs[15439][1] == 111 and addon.glyphs[15439][2] == 747 and addon.glyphs[15439][3] == 482 and addon.glyphs[15439][4] == 98 and addon.glyphs[15439][5] == 0 and addon.glyphs[15439][6] == 97.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15439] = { 86, 517, 542, 98, 0, 97.81 }
+assert(addon.glyphs[15474] and addon.glyphs[15474][1] == 111 and addon.glyphs[15474][2] == 421 and addon.glyphs[15474][3] == 722 and addon.glyphs[15474][4] == 98 and addon.glyphs[15474][5] == 0 and addon.glyphs[15474][6] == 97.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15474] = { 86, 619, 542, 98, 0, 97.59 }
+assert(addon.glyphs[15577] and addon.glyphs[15577][1] == 112 and addon.glyphs[15577][2] == 388 and addon.glyphs[15577][3] == 182 and addon.glyphs[15577][4] == 98 and addon.glyphs[15577][5] == 0 and addon.glyphs[15577][6] == 97.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15577] = { 86, 721, 542, 98, 0, 97.58 }
+assert(addon.glyphs[15591] and addon.glyphs[15591][1] == 112 and addon.glyphs[15591][2] == 536 and addon.glyphs[15591][3] == 242 and addon.glyphs[15591][4] == 98 and addon.glyphs[15591][5] == 0 and addon.glyphs[15591][6] == 97.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15591] = { 86, 823, 542, 98, 0, 97.39 }
+assert(addon.glyphs[15605] and addon.glyphs[15605][1] == 112 and addon.glyphs[15605][2] == 694 and addon.glyphs[15605][3] == 302 and addon.glyphs[15605][4] == 98 and addon.glyphs[15605][5] == 0 and addon.glyphs[15605][6] == 97.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15605] = { 86, 2, 602, 98, 0, 97.59 }
+assert(addon.glyphs[15732] and addon.glyphs[15732][1] == 112 and addon.glyphs[15732][2] == 921 and addon.glyphs[15732][3] == 962 and addon.glyphs[15732][4] == 98 and addon.glyphs[15732][5] == 0 and addon.glyphs[15732][6] == 97.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15732] = { 86, 104, 602, 98, 0, 97.66 }
+assert(addon.glyphs[15738] and addon.glyphs[15738][1] == 113 and addon.glyphs[15738][2] == 467 and addon.glyphs[15738][3] == 2 and addon.glyphs[15738][4] == 98 and addon.glyphs[15738][5] == 0 and addon.glyphs[15738][6] == 97.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15738] = { 86, 206, 602, 98, 0, 97.09 }
+assert(addon.glyphs[15858] and addon.glyphs[15858][1] == 113 and addon.glyphs[15858][2] == 625 and addon.glyphs[15858][3] == 662 and addon.glyphs[15858][4] == 98 and addon.glyphs[15858][5] == 0 and addon.glyphs[15858][6] == 97.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15858] = { 86, 308, 602, 98, 0, 97.14 }
+assert(addon.glyphs[15898] and addon.glyphs[15898][1] == 113 and addon.glyphs[15898][2] == 60 and addon.glyphs[15898][3] == 902 and addon.glyphs[15898][4] == 98 and addon.glyphs[15898][5] == 0 and addon.glyphs[15898][6] == 97.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15898] = { 86, 410, 602, 98, 0, 97.69 }
+assert(addon.glyphs[15936] and addon.glyphs[15936][1] == 114 and addon.glyphs[15936][2] == 385 and addon.glyphs[15936][3] == 62 and addon.glyphs[15936][4] == 98 and addon.glyphs[15936][5] == 0 and addon.glyphs[15936][6] == 97.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15936] = { 86, 512, 602, 98, 0, 97.27 }
+assert(addon.glyphs[15952] and addon.glyphs[15952][1] == 114 and addon.glyphs[15952][2] == 2 and addon.glyphs[15952][3] == 182 and addon.glyphs[15952][4] == 98 and addon.glyphs[15952][5] == 0 and addon.glyphs[15952][6] == 97.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15952] = { 86, 614, 602, 98, 0, 97.36 }
+assert(addon.glyphs[12587] and addon.glyphs[12587][1] == 82 and addon.glyphs[12587][2] == 782 and addon.glyphs[12587][3] == 2 and addon.glyphs[12587][4] == 97 and addon.glyphs[12587][5] == 0 and addon.glyphs[12587][6] == 96.84, "MAIN44 relocation baseline changed")
+addon.glyphs[12587] = { 86, 716, 602, 97, 0, 96.84 }
+assert(addon.glyphs[13184] and addon.glyphs[13184][1] == 87 and addon.glyphs[13184][2] == 550 and addon.glyphs[13184][3] == 2 and addon.glyphs[13184][4] == 97 and addon.glyphs[13184][5] == 0 and addon.glyphs[13184][6] == 96.92, "MAIN44 relocation baseline changed")
+addon.glyphs[13184] = { 86, 817, 602, 97, 0, 96.92 }
+assert(addon.glyphs[13482] and addon.glyphs[13482][1] == 90 and addon.glyphs[13482][2] == 389 and addon.glyphs[13482][3] == 2 and addon.glyphs[13482][4] == 97 and addon.glyphs[13482][5] == 0 and addon.glyphs[13482][6] == 96.22, "MAIN44 relocation baseline changed")
+addon.glyphs[13482] = { 86, 918, 602, 97, 0, 96.22 }
+assert(addon.glyphs[15365] and addon.glyphs[15365][1] == 111 and addon.glyphs[15365][2] == 421 and addon.glyphs[15365][3] == 122 and addon.glyphs[15365][4] == 97 and addon.glyphs[15365][5] == 0 and addon.glyphs[15365][6] == 96.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15365] = { 86, 2, 662, 97, 0, 96.38 }
+assert(addon.glyphs[15479] and addon.glyphs[15479][1] == 111 and addon.glyphs[15479][2] == 746 and addon.glyphs[15479][3] == 722 and addon.glyphs[15479][4] == 97 and addon.glyphs[15479][5] == 0 and addon.glyphs[15479][6] == 96.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15479] = { 86, 103, 662, 97, 0, 96.89 }
+assert(addon.glyphs[15503] and addon.glyphs[15503][1] == 111 and addon.glyphs[15503][2] == 714 and addon.glyphs[15503][3] == 842 and addon.glyphs[15503][4] == 97 and addon.glyphs[15503][5] == 0 and addon.glyphs[15503][6] == 96.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15503] = { 86, 204, 662, 97, 0, 96.25 }
+assert(addon.glyphs[15514] and addon.glyphs[15514][1] == 111 and addon.glyphs[15514][2] == 522 and addon.glyphs[15514][3] == 902 and addon.glyphs[15514][4] == 97 and addon.glyphs[15514][5] == 0 and addon.glyphs[15514][6] == 96.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15514] = { 86, 305, 662, 97, 0, 96.02 }
+assert(addon.glyphs[15679] and addon.glyphs[15679][1] == 112 and addon.glyphs[15679][2] == 173 and addon.glyphs[15679][3] == 722 and addon.glyphs[15679][4] == 97 and addon.glyphs[15679][5] == 0 and addon.glyphs[15679][6] == 96.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15679] = { 86, 406, 662, 97, 0, 96.25 }
+assert(addon.glyphs[15755] and addon.glyphs[15755][1] == 113 and addon.glyphs[15755][2] == 45 and addon.glyphs[15755][3] == 122 and addon.glyphs[15755][4] == 97 and addon.glyphs[15755][5] == 0 and addon.glyphs[15755][6] == 96.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15755] = { 86, 507, 662, 97, 0, 96.19 }
+assert(addon.glyphs[15756] and addon.glyphs[15756][1] == 113 and addon.glyphs[15756][2] == 146 and addon.glyphs[15756][3] == 122 and addon.glyphs[15756][4] == 97 and addon.glyphs[15756][5] == -2 and addon.glyphs[15756][6] == 94.56, "MAIN44 relocation baseline changed")
+addon.glyphs[15756] = { 86, 608, 662, 97, -2, 94.56 }
+assert(addon.glyphs[15788] and addon.glyphs[15788][1] == 113 and addon.glyphs[15788][2] == 203 and addon.glyphs[15788][3] == 302 and addon.glyphs[15788][4] == 97 and addon.glyphs[15788][5] == 0 and addon.glyphs[15788][6] == 96.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15788] = { 86, 709, 662, 97, 0, 96.09 }
+assert(addon.glyphs[15824] and addon.glyphs[15824][1] == 113 and addon.glyphs[15824][2] == 458 and addon.glyphs[15824][3] == 482 and addon.glyphs[15824][4] == 97 and addon.glyphs[15824][5] == 0 and addon.glyphs[15824][6] == 96.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15824] = { 86, 810, 662, 97, 0, 96.05 }
+assert(addon.glyphs[15926] and addon.glyphs[15926][1] == 114 and addon.glyphs[15926][2] == 545 and addon.glyphs[15926][3] == 2 and addon.glyphs[15926][4] == 97 and addon.glyphs[15926][5] == 0 and addon.glyphs[15926][6] == 97, "MAIN44 relocation baseline changed")
+addon.glyphs[15926] = { 86, 911, 662, 97, 0, 97 }
+assert(addon.glyphs[15978] and addon.glyphs[15978][1] == 114 and addon.glyphs[15978][2] == 568 and addon.glyphs[15978][3] == 302 and addon.glyphs[15978][4] == 97 and addon.glyphs[15978][5] == -1 and addon.glyphs[15978][6] == 95.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15978] = { 86, 2, 722, 97, -1, 95.23 }
+assert(addon.glyphs[12577] and addon.glyphs[12577][1] == 82 and addon.glyphs[12577][2] == 185 and addon.glyphs[12577][3] == 2 and addon.glyphs[12577][4] == 96 and addon.glyphs[12577][5] == 0 and addon.glyphs[12577][6] == 95.39, "MAIN44 relocation baseline changed")
+addon.glyphs[12577] = { 86, 103, 722, 96, 0, 95.39 }
+assert(addon.glyphs[14506] and addon.glyphs[14506][1] == 102 and addon.glyphs[14506][2] == 693 and addon.glyphs[14506][3] == 122 and addon.glyphs[14506][4] == 96 and addon.glyphs[14506][5] == -1 and addon.glyphs[14506][6] == 94.77, "MAIN44 relocation baseline changed")
+addon.glyphs[14506] = { 86, 203, 722, 96, -1, 94.77 }
+assert(addon.glyphs[15494] and addon.glyphs[15494][1] == 111 and addon.glyphs[15494][2] == 2 and addon.glyphs[15494][3] == 842 and addon.glyphs[15494][4] == 96 and addon.glyphs[15494][5] == 0 and addon.glyphs[15494][6] == 95.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15494] = { 86, 303, 722, 96, 0, 95.66 }
+assert(addon.glyphs[15510] and addon.glyphs[15510][1] == 111 and addon.glyphs[15510][2] == 236 and addon.glyphs[15510][3] == 902 and addon.glyphs[15510][4] == 96 and addon.glyphs[15510][5] == 0 and addon.glyphs[15510][6] == 95.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15510] = { 86, 403, 722, 96, 0, 95.88 }
+assert(addon.glyphs[15578] and addon.glyphs[15578][1] == 112 and addon.glyphs[15578][2] == 490 and addon.glyphs[15578][3] == 182 and addon.glyphs[15578][4] == 96 and addon.glyphs[15578][5] == 0 and addon.glyphs[15578][6] == 95.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15578] = { 86, 503, 722, 96, 0, 95.14 }
+assert(addon.glyphs[15600] and addon.glyphs[15600][1] == 112 and addon.glyphs[15600][2] == 236 and addon.glyphs[15600][3] == 302 and addon.glyphs[15600][4] == 96 and addon.glyphs[15600][5] == 0 and addon.glyphs[15600][6] == 95.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15600] = { 86, 603, 722, 96, 0, 95.25 }
+assert(addon.glyphs[15606] and addon.glyphs[15606][1] == 112 and addon.glyphs[15606][2] == 796 and addon.glyphs[15606][3] == 302 and addon.glyphs[15606][4] == 96 and addon.glyphs[15606][5] == 0 and addon.glyphs[15606][6] == 95.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15606] = { 86, 703, 722, 96, 0, 95.88 }
+assert(addon.glyphs[15696] and addon.glyphs[15696][1] == 112 and addon.glyphs[15696][2] == 874 and addon.glyphs[15696][3] == 782 and addon.glyphs[15696][4] == 96 and addon.glyphs[15696][5] == 0 and addon.glyphs[15696][6] == 95.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15696] = { 86, 803, 722, 96, 0, 95.14 }
+assert(addon.glyphs[15706] and addon.glyphs[15706][1] == 112 and addon.glyphs[15706][2] == 563 and addon.glyphs[15706][3] == 842 and addon.glyphs[15706][4] == 96 and addon.glyphs[15706][5] == 0 and addon.glyphs[15706][6] == 95.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15706] = { 86, 903, 722, 96, 0, 95.47 }
+assert(addon.glyphs[15742] and addon.glyphs[15742][1] == 113 and addon.glyphs[15742][2] == 913 and addon.glyphs[15742][3] == 2 and addon.glyphs[15742][4] == 96 and addon.glyphs[15742][5] == 0 and addon.glyphs[15742][6] == 94.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15742] = { 86, 2, 782, 96, 0, 94.19 }
+assert(addon.glyphs[15793] and addon.glyphs[15793][1] == 113 and addon.glyphs[15793][2] == 569 and addon.glyphs[15793][3] == 302 and addon.glyphs[15793][4] == 96 and addon.glyphs[15793][5] == 0 and addon.glyphs[15793][6] == 95.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15793] = { 86, 102, 782, 96, 0, 95.7 }
+assert(addon.glyphs[15929] and addon.glyphs[15929][1] == 114 and addon.glyphs[15929][2] == 910 and addon.glyphs[15929][3] == 2 and addon.glyphs[15929][4] == 96 and addon.glyphs[15929][5] == 0 and addon.glyphs[15929][6] == 95.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15929] = { 86, 202, 782, 96, 0, 95.67 }
+assert(addon.glyphs[12533] and addon.glyphs[12533][1] == 80 and addon.glyphs[12533][2] == 562 and addon.glyphs[12533][3] == 2 and addon.glyphs[12533][4] == 95 and addon.glyphs[12533][5] == 0 and addon.glyphs[12533][6] == 94.48, "MAIN44 relocation baseline changed")
+addon.glyphs[12533] = { 86, 302, 782, 95, 0, 94.48 }
+assert(addon.glyphs[12536] and addon.glyphs[12536][1] == 80 and addon.glyphs[12536][2] == 736 and addon.glyphs[12536][3] == 2 and addon.glyphs[12536][4] == 95 and addon.glyphs[12536][5] == 0 and addon.glyphs[12536][6] == 94.59, "MAIN44 relocation baseline changed")
+addon.glyphs[12536] = { 86, 401, 782, 95, 0, 94.59 }
+assert(addon.glyphs[13483] and addon.glyphs[13483][1] == 90 and addon.glyphs[13483][2] == 490 and addon.glyphs[13483][3] == 2 and addon.glyphs[13483][4] == 95 and addon.glyphs[13483][5] == 0 and addon.glyphs[13483][6] == 94.44, "MAIN44 relocation baseline changed")
+addon.glyphs[13483] = { 86, 500, 782, 95, 0, 94.44 }
+assert(addon.glyphs[15468] and addon.glyphs[15468][1] == 111 and addon.glyphs[15468][2] == 813 and addon.glyphs[15468][3] == 662 and addon.glyphs[15468][4] == 95 and addon.glyphs[15468][5] == 0 and addon.glyphs[15468][6] == 94.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15468] = { 86, 599, 782, 95, 0, 94.95 }
+assert(addon.glyphs[15493] and addon.glyphs[15493][1] == 111 and addon.glyphs[15493][2] == 911 and addon.glyphs[15493][3] == 782 and addon.glyphs[15493][4] == 95 and addon.glyphs[15493][5] == 0 and addon.glyphs[15493][6] == 94.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15493] = { 86, 698, 782, 95, 0, 94.31 }
+assert(addon.glyphs[15521] and addon.glyphs[15521][1] == 111 and addon.glyphs[15521][2] == 47 and addon.glyphs[15521][3] == 962 and addon.glyphs[15521][4] == 95 and addon.glyphs[15521][5] == 0 and addon.glyphs[15521][6] == 94.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15521] = { 86, 797, 782, 95, 0, 94.44 }
+assert(addon.glyphs[15780] and addon.glyphs[15780][1] == 113 and addon.glyphs[15780][2] == 563 and addon.glyphs[15780][3] == 242 and addon.glyphs[15780][4] == 95 and addon.glyphs[15780][5] == 0 and addon.glyphs[15780][6] == 94.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15780] = { 86, 896, 782, 95, 0, 94.12 }
+assert(addon.glyphs[15863] and addon.glyphs[15863][1] == 113 and addon.glyphs[15863][2] == 2 and addon.glyphs[15863][3] == 722 and addon.glyphs[15863][4] == 95 and addon.glyphs[15863][5] == 0 and addon.glyphs[15863][6] == 94.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15863] = { 86, 2, 842, 95, 0, 94.44 }
+assert(addon.glyphs[15981] and addon.glyphs[15981][1] == 114 and addon.glyphs[15981][2] == 788 and addon.glyphs[15981][3] == 302 and addon.glyphs[15981][4] == 95 and addon.glyphs[15981][5] == 0 and addon.glyphs[15981][6] == 94.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15981] = { 86, 101, 842, 95, 0, 94.91 }
+assert(addon.glyphs[15460] and addon.glyphs[15460][1] == 111 and addon.glyphs[15460][2] == 75 and addon.glyphs[15460][3] == 662 and addon.glyphs[15460][4] == 94 and addon.glyphs[15460][5] == 0 and addon.glyphs[15460][6] == 93.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15460] = { 86, 200, 842, 94, 0, 93.16 }
+assert(addon.glyphs[15462] and addon.glyphs[15462][1] == 111 and addon.glyphs[15462][2] == 283 and addon.glyphs[15462][3] == 662 and addon.glyphs[15462][4] == 94 and addon.glyphs[15462][5] == 0 and addon.glyphs[15462][6] == 93.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15462] = { 86, 298, 842, 94, 0, 93.02 }
+assert(addon.glyphs[15518] and addon.glyphs[15518][1] == 111 and addon.glyphs[15518][2] == 844 and addon.glyphs[15518][3] == 902 and addon.glyphs[15518][4] == 94 and addon.glyphs[15518][5] == 0 and addon.glyphs[15518][6] == 93.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15518] = { 86, 396, 842, 94, 0, 93.59 }
+assert(addon.glyphs[15597] and addon.glyphs[15597][1] == 112 and addon.glyphs[15597][2] == 2 and addon.glyphs[15597][3] == 302 and addon.glyphs[15597][4] == 94 and addon.glyphs[15597][5] == 0 and addon.glyphs[15597][6] == 93.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15597] = { 86, 494, 842, 94, 0, 93.67 }
+assert(addon.glyphs[15725] and addon.glyphs[15725][1] == 112 and addon.glyphs[15725][2] == 214 and addon.glyphs[15725][3] == 962 and addon.glyphs[15725][4] == 94 and addon.glyphs[15725][5] == 0 and addon.glyphs[15725][6] == 93.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15725] = { 86, 592, 842, 94, 0, 93.06 }
+assert(addon.glyphs[15902] and addon.glyphs[15902][1] == 113 and addon.glyphs[15902][2] == 519 and addon.glyphs[15902][3] == 902 and addon.glyphs[15902][4] == 94 and addon.glyphs[15902][5] == 0 and addon.glyphs[15902][6] == 93.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15902] = { 86, 690, 842, 94, 0, 93.89 }
+assert(addon.glyphs[15910] and addon.glyphs[15910][1] == 113 and addon.glyphs[15910][2] == 156 and addon.glyphs[15910][3] == 962 and addon.glyphs[15910][4] == 94 and addon.glyphs[15910][5] == 0 and addon.glyphs[15910][6] == 93.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15910] = { 86, 788, 842, 94, 0, 93.52 }
+assert(addon.glyphs[15912] and addon.glyphs[15912][1] == 113 and addon.glyphs[15912][2] == 315 and addon.glyphs[15912][3] == 962 and addon.glyphs[15912][4] == 94 and addon.glyphs[15912][5] == 0 and addon.glyphs[15912][6] == 93.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15912] = { 86, 886, 842, 94, 0, 93.8 }
+assert(addon.glyphs[15961] and addon.glyphs[15961][1] == 114 and addon.glyphs[15961][2] == 2 and addon.glyphs[15961][3] == 242 and addon.glyphs[15961][4] == 94 and addon.glyphs[15961][5] == 0 and addon.glyphs[15961][6] == 93.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15961] = { 86, 2, 902, 94, 0, 93.86 }
+assert(addon.glyphs[15974] and addon.glyphs[15974][1] == 114 and addon.glyphs[15974][2] == 194 and addon.glyphs[15974][3] == 302 and addon.glyphs[15974][4] == 94 and addon.glyphs[15974][5] == 0 and addon.glyphs[15974][6] == 93.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15974] = { 86, 100, 902, 94, 0, 93.05 }
+assert(addon.glyphs[15983] and addon.glyphs[15983][1] == 114 and addon.glyphs[15983][2] == 2 and addon.glyphs[15983][3] == 362 and addon.glyphs[15983][4] == 94 and addon.glyphs[15983][5] == 0 and addon.glyphs[15983][6] == 93.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15983] = { 86, 198, 902, 94, 0, 93.53 }
+assert(addon.glyphs[15986] and addon.glyphs[15986][1] == 114 and addon.glyphs[15986][2] == 295 and addon.glyphs[15986][3] == 362 and addon.glyphs[15986][4] == 94 and addon.glyphs[15986][5] == 0 and addon.glyphs[15986][6] == 93.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15986] = { 86, 296, 902, 94, 0, 93.22 }
+assert(addon.glyphs[15988] and addon.glyphs[15988][1] == 114 and addon.glyphs[15988][2] == 473 and addon.glyphs[15988][3] == 362 and addon.glyphs[15988][4] == 94 and addon.glyphs[15988][5] == 0 and addon.glyphs[15988][6] == 93.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15988] = { 86, 394, 902, 94, 0, 93.88 }
+assert(addon.glyphs[13570] and addon.glyphs[13570][1] == 92 and addon.glyphs[13570][2] == 103 and addon.glyphs[13570][3] == 2 and addon.glyphs[13570][4] == 93 and addon.glyphs[13570][5] == 0 and addon.glyphs[13570][6] == 92.53, "MAIN44 relocation baseline changed")
+addon.glyphs[13570] = { 86, 492, 902, 93, 0, 92.53 }
+assert(addon.glyphs[13572] and addon.glyphs[13572][1] == 92 and addon.glyphs[13572][2] == 261 and addon.glyphs[13572][3] == 2 and addon.glyphs[13572][4] == 93 and addon.glyphs[13572][5] == 0 and addon.glyphs[13572][6] == 92.41, "MAIN44 relocation baseline changed")
+addon.glyphs[13572] = { 86, 589, 902, 93, 0, 92.41 }
+assert(addon.glyphs[14502] and addon.glyphs[14502][1] == 102 and addon.glyphs[14502][2] == 159 and addon.glyphs[14502][3] == 122 and addon.glyphs[14502][4] == 93 and addon.glyphs[14502][5] == -3 and addon.glyphs[14502][6] == 89.48, "MAIN44 relocation baseline changed")
+addon.glyphs[14502] = { 86, 686, 902, 93, -3, 89.48 }
+assert(addon.glyphs[15366] and addon.glyphs[15366][1] == 111 and addon.glyphs[15366][2] == 522 and addon.glyphs[15366][3] == 122 and addon.glyphs[15366][4] == 93 and addon.glyphs[15366][5] == 0 and addon.glyphs[15366][6] == 92.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15366] = { 86, 783, 902, 93, 0, 92.06 }
+assert(addon.glyphs[15402] and addon.glyphs[15402][1] == 111 and addon.glyphs[15402][2] == 422 and addon.glyphs[15402][3] == 302 and addon.glyphs[15402][4] == 93 and addon.glyphs[15402][5] == 0 and addon.glyphs[15402][6] == 92.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15402] = { 86, 880, 902, 93, 0, 92.38 }
+assert(addon.glyphs[15423] and addon.glyphs[15423][1] == 111 and addon.glyphs[15423][2] == 212 and addon.glyphs[15423][3] == 422 and addon.glyphs[15423][4] == 93 and addon.glyphs[15423][5] == 0 and addon.glyphs[15423][6] == 92.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15423] = { 86, 2, 962, 93, 0, 92.23 }
+assert(addon.glyphs[15632] and addon.glyphs[15632][1] == 112 and addon.glyphs[15632][2] == 830 and addon.glyphs[15632][3] == 422 and addon.glyphs[15632][4] == 93 and addon.glyphs[15632][5] == 0 and addon.glyphs[15632][6] == 92.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15632] = { 86, 99, 962, 93, 0, 92.78 }
+assert(addon.glyphs[15656] and addon.glyphs[15656][1] == 112 and addon.glyphs[15656][2] == 2 and addon.glyphs[15656][3] == 602 and addon.glyphs[15656][4] == 93 and addon.glyphs[15656][5] == 0 and addon.glyphs[15656][6] == 92.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15656] = { 86, 196, 962, 93, 0, 92.97 }
+assert(addon.glyphs[15811] and addon.glyphs[15811][1] == 113 and addon.glyphs[15811][2] == 306 and addon.glyphs[15811][3] == 422 and addon.glyphs[15811][4] == 93 and addon.glyphs[15811][5] == 0 and addon.glyphs[15811][6] == 92.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15811] = { 86, 293, 962, 93, 0, 92.72 }
+assert(addon.glyphs[15828] and addon.glyphs[15828][1] == 113 and addon.glyphs[15828][2] == 854 and addon.glyphs[15828][3] == 482 and addon.glyphs[15828][4] == 93 and addon.glyphs[15828][5] == 0 and addon.glyphs[15828][6] == 92.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15828] = { 86, 390, 962, 93, 0, 92.78 }
+assert(addon.glyphs[15889] and addon.glyphs[15889][1] == 113 and addon.glyphs[15889][2] == 346 and addon.glyphs[15889][3] == 842 and addon.glyphs[15889][4] == 93 and addon.glyphs[15889][5] == 0 and addon.glyphs[15889][6] == 92.41, "MAIN44 relocation baseline changed")
+addon.glyphs[15889] = { 86, 487, 962, 93, 0, 92.41 }
+assert(addon.glyphs[12570] and addon.glyphs[12570][1] == 81 and addon.glyphs[12570][2] == 712 and addon.glyphs[12570][3] == 62 and addon.glyphs[12570][4] == 92 and addon.glyphs[12570][5] == -2 and addon.glyphs[12570][6] == 89.23, "MAIN44 relocation baseline changed")
+addon.glyphs[12570] = { 86, 584, 962, 92, -2, 89.23 }
+assert(addon.glyphs[15417] and addon.glyphs[15417][1] == 111 and addon.glyphs[15417][2] == 587 and addon.glyphs[15417][3] == 362 and addon.glyphs[15417][4] == 92 and addon.glyphs[15417][5] == 0 and addon.glyphs[15417][6] == 91.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15417] = { 86, 680, 962, 92, 0, 91.47 }
+assert(addon.glyphs[15560] and addon.glyphs[15560][1] == 112 and addon.glyphs[15560][2] == 2 and addon.glyphs[15560][3] == 122 and addon.glyphs[15560][4] == 92 and addon.glyphs[15560][5] == 0 and addon.glyphs[15560][6] == 91.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15560] = { 86, 776, 962, 92, 0, 91.84 }
+assert(addon.glyphs[15599] and addon.glyphs[15599][1] == 112 and addon.glyphs[15599][2] == 140 and addon.glyphs[15599][3] == 302 and addon.glyphs[15599][4] == 92 and addon.glyphs[15599][5] == 0 and addon.glyphs[15599][6] == 91.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15599] = { 86, 872, 962, 92, 0, 91.62 }
+assert(addon.glyphs[15896] and addon.glyphs[15896][1] == 113 and addon.glyphs[15896][2] == 926 and addon.glyphs[15896][3] == 842 and addon.glyphs[15896][4] == 92 and addon.glyphs[15896][5] == 0 and addon.glyphs[15896][6] == 91.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15896] = { 106, 2, 302, 92, 0, 91.34 }
+assert(addon.glyphs[15958] and addon.glyphs[15958][1] == 114 and addon.glyphs[15958][2] == 676 and addon.glyphs[15958][3] == 182 and addon.glyphs[15958][4] == 92 and addon.glyphs[15958][5] == 0 and addon.glyphs[15958][6] == 91.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15958] = { 106, 98, 302, 92, 0, 91.31 }
+assert(addon.glyphs[15482] and addon.glyphs[15482][1] == 111 and addon.glyphs[15482][2] == 2 and addon.glyphs[15482][3] == 782 and addon.glyphs[15482][4] == 91 and addon.glyphs[15482][5] == 0 and addon.glyphs[15482][6] == 90.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15482] = { 106, 194, 302, 91, 0, 90.58 }
+assert(addon.glyphs[15683] and addon.glyphs[15683][1] == 112 and addon.glyphs[15683][2] == 629 and addon.glyphs[15683][3] == 722 and addon.glyphs[15683][4] == 91 and addon.glyphs[15683][5] == 0 and addon.glyphs[15683][6] == 90.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15683] = { 106, 289, 302, 91, 0, 90.44 }
+assert(addon.glyphs[15768] and addon.glyphs[15768][1] == 113 and addon.glyphs[15768][2] == 478 and addon.glyphs[15768][3] == 182 and addon.glyphs[15768][4] == 91 and addon.glyphs[15768][5] == 0 and addon.glyphs[15768][6] == 90.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15768] = { 106, 384, 302, 91, 0, 90.75 }
+assert(addon.glyphs[14351] and addon.glyphs[14351][1] == 98 and addon.glyphs[14351][2] == 525 and addon.glyphs[14351][3] == 62 and addon.glyphs[14351][4] == 90 and addon.glyphs[14351][5] == -2 and addon.glyphs[14351][6] == 87.55, "MAIN44 relocation baseline changed")
+addon.glyphs[14351] = { 106, 479, 302, 90, -2, 87.55 }
+assert(addon.glyphs[14595] and addon.glyphs[14595][1] == 104 and addon.glyphs[14595][2] == 272 and addon.glyphs[14595][3] == 2 and addon.glyphs[14595][4] == 90 and addon.glyphs[14595][5] == 0 and addon.glyphs[14595][6] == 89.88, "MAIN44 relocation baseline changed")
+addon.glyphs[14595] = { 106, 573, 302, 90, 0, 89.88 }
+assert(addon.glyphs[15412] and addon.glyphs[15412][1] == 111 and addon.glyphs[15412][2] == 237 and addon.glyphs[15412][3] == 362 and addon.glyphs[15412][4] == 90 and addon.glyphs[15412][5] == 0 and addon.glyphs[15412][6] == 89.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15412] = { 106, 667, 302, 90, 0, 89.88 }
+assert(addon.glyphs[15426] and addon.glyphs[15426][1] == 111 and addon.glyphs[15426][2] == 501 and addon.glyphs[15426][3] == 422 and addon.glyphs[15426][4] == 90 and addon.glyphs[15426][5] == 0 and addon.glyphs[15426][6] == 89.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15426] = { 106, 761, 302, 90, 0, 89.69 }
+assert(addon.glyphs[15431] and addon.glyphs[15431][1] == 111 and addon.glyphs[15431][2] == 2 and addon.glyphs[15431][3] == 482 and addon.glyphs[15431][4] == 90 and addon.glyphs[15431][5] == 0 and addon.glyphs[15431][6] == 89.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15431] = { 106, 855, 302, 90, 0, 89.09 }
+assert(addon.glyphs[15501] and addon.glyphs[15501][1] == 111 and addon.glyphs[15501][2] == 498 and addon.glyphs[15501][3] == 842 and addon.glyphs[15501][4] == 90 and addon.glyphs[15501][5] == 0 and addon.glyphs[15501][6] == 89.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15501] = { 106, 2, 362, 90, 0, 89.19 }
+assert(addon.glyphs[15549] and addon.glyphs[15549][1] == 112 and addon.glyphs[15549][2] == 243 and addon.glyphs[15549][3] == 62 and addon.glyphs[15549][4] == 90 and addon.glyphs[15549][5] == 0 and addon.glyphs[15549][6] == 89.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15549] = { 106, 96, 362, 90, 0, 89.86 }
+assert(addon.glyphs[15559] and addon.glyphs[15559][1] == 112 and addon.glyphs[15559][2] == 880 and addon.glyphs[15559][3] == 62 and addon.glyphs[15559][4] == 90 and addon.glyphs[15559][5] == -1 and addon.glyphs[15559][6] == 88.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15559] = { 106, 190, 362, 90, -1, 88.62 }
+assert(addon.glyphs[15617] and addon.glyphs[15617][1] == 112 and addon.glyphs[15617][2] == 682 and addon.glyphs[15617][3] == 362 and addon.glyphs[15617][4] == 90 and addon.glyphs[15617][5] == 0 and addon.glyphs[15617][6] == 89.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15617] = { 106, 284, 362, 90, 0, 89.77 }
+assert(addon.glyphs[15702] and addon.glyphs[15702][1] == 112 and addon.glyphs[15702][2] == 313 and addon.glyphs[15702][3] == 842 and addon.glyphs[15702][4] == 90 and addon.glyphs[15702][5] == 0 and addon.glyphs[15702][6] == 89.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15702] = { 106, 378, 362, 90, 0, 89.95 }
+assert(addon.glyphs[15763] and addon.glyphs[15763][1] == 113 and addon.glyphs[15763][2] == 2 and addon.glyphs[15763][3] == 182 and addon.glyphs[15763][4] == 90 and addon.glyphs[15763][5] == 0 and addon.glyphs[15763][6] == 89.42, "MAIN44 relocation baseline changed")
+addon.glyphs[15763] = { 106, 472, 362, 90, 0, 89.42 }
+assert(addon.glyphs[15792] and addon.glyphs[15792][1] == 113 and addon.glyphs[15792][2] == 475 and addon.glyphs[15792][3] == 302 and addon.glyphs[15792][4] == 90 and addon.glyphs[15792][5] == 0 and addon.glyphs[15792][6] == 89.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15792] = { 106, 566, 362, 90, 0, 89.62 }
+assert(addon.glyphs[15799] and addon.glyphs[15799][1] == 113 and addon.glyphs[15799][2] == 260 and addon.glyphs[15799][3] == 362 and addon.glyphs[15799][4] == 90 and addon.glyphs[15799][5] == 0 and addon.glyphs[15799][6] == 89.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15799] = { 106, 660, 362, 90, 0, 89.33 }
+assert(addon.glyphs[15662] and addon.glyphs[15662][1] == 112 and addon.glyphs[15662][2] == 582 and addon.glyphs[15662][3] == 602 and addon.glyphs[15662][4] == 89 and addon.glyphs[15662][5] == 0 and addon.glyphs[15662][6] == 88.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15662] = { 106, 754, 362, 89, 0, 88.64 }
+assert(addon.glyphs[15804] and addon.glyphs[15804][1] == 113 and addon.glyphs[15804][2] == 712 and addon.glyphs[15804][3] == 362 and addon.glyphs[15804][4] == 89 and addon.glyphs[15804][5] == 0 and addon.glyphs[15804][6] == 88.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15804] = { 106, 847, 362, 89, 0, 88.67 }
+assert(addon.glyphs[15908] and addon.glyphs[15908][1] == 113 and addon.glyphs[15908][2] == 2 and addon.glyphs[15908][3] == 962 and addon.glyphs[15908][4] == 89 and addon.glyphs[15908][5] == 0 and addon.glyphs[15908][6] == 88.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15908] = { 106, 2, 422, 89, 0, 88.48 }
+assert(addon.glyphs[14593] and addon.glyphs[14593][1] == 104 and addon.glyphs[14593][2] == 59 and addon.glyphs[14593][3] == 2 and addon.glyphs[14593][4] == 88 and addon.glyphs[14593][5] == 0 and addon.glyphs[14593][6] == 87.97, "MAIN44 relocation baseline changed")
+addon.glyphs[14593] = { 106, 95, 422, 88, 0, 87.97 }
+assert(addon.glyphs[15609] and addon.glyphs[15609][1] == 112 and addon.glyphs[15609][2] == 126 and addon.glyphs[15609][3] == 362 and addon.glyphs[15609][4] == 88 and addon.glyphs[15609][5] == 0 and addon.glyphs[15609][6] == 87.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15609] = { 106, 187, 422, 88, 0, 87.52 }
+assert(addon.glyphs[15626] and addon.glyphs[15626][1] == 112 and addon.glyphs[15626][2] == 353 and addon.glyphs[15626][3] == 422 and addon.glyphs[15626][4] == 88 and addon.glyphs[15626][5] == 0 and addon.glyphs[15626][6] == 87.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15626] = { 106, 279, 422, 88, 0, 87.69 }
+assert(addon.glyphs[15833] and addon.glyphs[15833][1] == 113 and addon.glyphs[15833][2] == 257 and addon.glyphs[15833][3] == 542 and addon.glyphs[15833][4] == 88 and addon.glyphs[15833][5] == 0 and addon.glyphs[15833][6] == 87.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15833] = { 106, 371, 422, 88, 0, 87.97 }
+assert(addon.glyphs[15857] and addon.glyphs[15857][1] == 113 and addon.glyphs[15857][2] == 533 and addon.glyphs[15857][3] == 662 and addon.glyphs[15857][4] == 88 and addon.glyphs[15857][5] == 0 and addon.glyphs[15857][6] == 87.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15857] = { 106, 463, 422, 88, 0, 87.97 }
+assert(addon.glyphs[12543] and addon.glyphs[12543][1] == 81 and addon.glyphs[12543][2] == 2 and addon.glyphs[12543][3] == 2 and addon.glyphs[12543][4] == 87 and addon.glyphs[12543][5] == 0 and addon.glyphs[12543][6] == 86.39, "MAIN44 relocation baseline changed")
+addon.glyphs[12543] = { 106, 555, 422, 87, 0, 86.39 }
+assert(addon.glyphs[13491] and addon.glyphs[13491][1] == 90 and addon.glyphs[13491][2] == 286 and addon.glyphs[13491][3] == 62 and addon.glyphs[13491][4] == 87 and addon.glyphs[13491][5] == 0 and addon.glyphs[13491][6] == 85.22, "MAIN44 relocation baseline changed")
+addon.glyphs[13491] = { 106, 646, 422, 87, 0, 85.22 }
+assert(addon.glyphs[15676] and addon.glyphs[15676][1] == 112 and addon.glyphs[15676][2] == 919 and addon.glyphs[15676][3] == 662 and addon.glyphs[15676][4] == 87 and addon.glyphs[15676][5] == 0 and addon.glyphs[15676][6] == 86.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15676] = { 106, 737, 422, 87, 0, 86.86 }
+assert(addon.glyphs[15903] and addon.glyphs[15903][1] == 113 and addon.glyphs[15903][2] == 617 and addon.glyphs[15903][3] == 902 and addon.glyphs[15903][4] == 87 and addon.glyphs[15903][5] == 0 and addon.glyphs[15903][6] == 86.5, "MAIN44 relocation baseline changed")
+addon.glyphs[15903] = { 106, 828, 422, 87, 0, 86.5 }
+assert(addon.glyphs[13194] and addon.glyphs[13194][1] == 87 and addon.glyphs[13194][2] == 147 and addon.glyphs[13194][3] == 62 and addon.glyphs[13194][4] == 86 and addon.glyphs[13194][5] == 0 and addon.glyphs[13194][6] == 85.92, "MAIN44 relocation baseline changed")
+addon.glyphs[13194] = { 106, 919, 422, 86, 0, 85.92 }
+assert(addon.glyphs[15470] and addon.glyphs[15470][1] == 111 and addon.glyphs[15470][2] == 2 and addon.glyphs[15470][3] == 722 and addon.glyphs[15470][4] == 86 and addon.glyphs[15470][5] == 0 and addon.glyphs[15470][6] == 84.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15470] = { 106, 2, 482, 86, 0, 84.77 }
+assert(addon.glyphs[15522] and addon.glyphs[15522][1] == 111 and addon.glyphs[15522][2] == 146 and addon.glyphs[15522][3] == 962 and addon.glyphs[15522][4] == 86 and addon.glyphs[15522][5] == 0 and addon.glyphs[15522][6] == 85.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15522] = { 106, 92, 482, 86, 0, 85.34 }
+assert(addon.glyphs[15634] and addon.glyphs[15634][1] == 112 and addon.glyphs[15634][2] == 2 and addon.glyphs[15634][3] == 482 and addon.glyphs[15634][4] == 86 and addon.glyphs[15634][5] == 0 and addon.glyphs[15634][6] == 85.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15634] = { 106, 182, 482, 86, 0, 85.06 }
+assert(addon.glyphs[15653] and addon.glyphs[15653][1] == 112 and addon.glyphs[15653][2] == 713 and addon.glyphs[15653][3] == 542 and addon.glyphs[15653][4] == 86 and addon.glyphs[15653][5] == 0 and addon.glyphs[15653][6] == 85.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15653] = { 106, 272, 482, 86, 0, 85.81 }
+assert(addon.glyphs[15677] and addon.glyphs[15677][1] == 112 and addon.glyphs[15677][2] == 2 and addon.glyphs[15677][3] == 722 and addon.glyphs[15677][4] == 86 and addon.glyphs[15677][5] == 0 and addon.glyphs[15677][6] == 85.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15677] = { 106, 362, 482, 86, 0, 85.8 }
+assert(addon.glyphs[15709] and addon.glyphs[15709][1] == 112 and addon.glyphs[15709][2] == 784 and addon.glyphs[15709][3] == 842 and addon.glyphs[15709][4] == 86 and addon.glyphs[15709][5] == 0 and addon.glyphs[15709][6] == 85.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15709] = { 106, 452, 482, 86, 0, 85.92 }
+assert(addon.glyphs[15374] and addon.glyphs[15374][1] == 111 and addon.glyphs[15374][2] == 127 and addon.glyphs[15374][3] == 182 and addon.glyphs[15374][4] == 85 and addon.glyphs[15374][5] == 0 and addon.glyphs[15374][6] == 83.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15374] = { 106, 542, 482, 85, 0, 83.7 }
+assert(addon.glyphs[15384] and addon.glyphs[15384][1] == 111 and addon.glyphs[15384][2] == 874 and addon.glyphs[15384][3] == 182 and addon.glyphs[15384][4] == 85 and addon.glyphs[15384][5] == 0 and addon.glyphs[15384][6] == 84.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15384] = { 106, 631, 482, 85, 0, 84.83 }
+assert(addon.glyphs[15418] and addon.glyphs[15418][1] == 111 and addon.glyphs[15418][2] == 683 and addon.glyphs[15418][3] == 362 and addon.glyphs[15418][4] == 85 and addon.glyphs[15418][5] == 0 and addon.glyphs[15418][6] == 84.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15418] = { 106, 720, 482, 85, 0, 84.47 }
+assert(addon.glyphs[15451] and addon.glyphs[15451][1] == 111 and addon.glyphs[15451][2] == 304 and addon.glyphs[15451][3] == 602 and addon.glyphs[15451][4] == 85 and addon.glyphs[15451][5] == 0 and addon.glyphs[15451][6] == 84.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15451] = { 106, 809, 482, 85, 0, 84.19 }
+assert(addon.glyphs[15589] and addon.glyphs[15589][1] == 112 and addon.glyphs[15589][2] == 327 and addon.glyphs[15589][3] == 242 and addon.glyphs[15589][4] == 85 and addon.glyphs[15589][5] == 0 and addon.glyphs[15589][6] == 84.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15589] = { 106, 898, 482, 85, 0, 84.92 }
+assert(addon.glyphs[15687] and addon.glyphs[15687][1] == 112 and addon.glyphs[15687][2] == 118 and addon.glyphs[15687][3] == 782 and addon.glyphs[15687][4] == 85 and addon.glyphs[15687][5] == 0 and addon.glyphs[15687][6] == 84.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15687] = { 106, 2, 542, 85, 0, 84.28 }
+assert(addon.glyphs[14308] and addon.glyphs[14308][1] == 97 and addon.glyphs[14308][2] == 198 and addon.glyphs[14308][3] == 2 and addon.glyphs[14308][4] == 84 and addon.glyphs[14308][5] == -2 and addon.glyphs[14308][6] == 81.48, "MAIN44 relocation baseline changed")
+addon.glyphs[14308] = { 106, 91, 542, 84, -2, 81.48 }
+assert(addon.glyphs[14508] and addon.glyphs[14508][1] == 102 and addon.glyphs[14508][2] == 936 and addon.glyphs[14508][3] == 122 and addon.glyphs[14508][4] == 84 and addon.glyphs[14508][5] == 0 and addon.glyphs[14508][6] == 83.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14508] = { 106, 179, 542, 84, 0, 83.14 }
+assert(addon.glyphs[15411] and addon.glyphs[15411][1] == 111 and addon.glyphs[15411][2] == 149 and addon.glyphs[15411][3] == 362 and addon.glyphs[15411][4] == 84 and addon.glyphs[15411][5] == 0 and addon.glyphs[15411][6] == 81.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15411] = { 106, 267, 542, 84, 0, 81.72 }
+assert(addon.glyphs[15422] and addon.glyphs[15422][1] == 111 and addon.glyphs[15422][2] == 124 and addon.glyphs[15422][3] == 422 and addon.glyphs[15422][4] == 84 and addon.glyphs[15422][5] == 0 and addon.glyphs[15422][6] == 83.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15422] = { 106, 355, 542, 84, 0, 83.98 }
+assert(addon.glyphs[15488] and addon.glyphs[15488][1] == 111 and addon.glyphs[15488][2] == 433 and addon.glyphs[15488][3] == 782 and addon.glyphs[15488][4] == 84 and addon.glyphs[15488][5] == 0 and addon.glyphs[15488][6] == 83.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15488] = { 106, 443, 542, 84, 0, 83.22 }
+assert(addon.glyphs[15532] and addon.glyphs[15532][1] == 111 and addon.glyphs[15532][2] == 788 and addon.glyphs[15532][3] == 962 and addon.glyphs[15532][4] == 84 and addon.glyphs[15532][5] == 0 and addon.glyphs[15532][6] == 83.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15532] = { 106, 531, 542, 84, 0, 83.53 }
+assert(addon.glyphs[15555] and addon.glyphs[15555][1] == 112 and addon.glyphs[15555][2] == 623 and addon.glyphs[15555][3] == 62 and addon.glyphs[15555][4] == 84 and addon.glyphs[15555][5] == 0 and addon.glyphs[15555][6] == 83.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15555] = { 106, 619, 542, 84, 0, 83.03 }
+assert(addon.glyphs[15631] and addon.glyphs[15631][1] == 112 and addon.glyphs[15631][2] == 742 and addon.glyphs[15631][3] == 422 and addon.glyphs[15631][4] == 84 and addon.glyphs[15631][5] == 0 and addon.glyphs[15631][6] == 84, "MAIN44 relocation baseline changed")
+addon.glyphs[15631] = { 106, 707, 542, 84, 0, 84 }
+assert(addon.glyphs[15655] and addon.glyphs[15655][1] == 112 and addon.glyphs[15655][2] == 850 and addon.glyphs[15655][3] == 542 and addon.glyphs[15655][4] == 84 and addon.glyphs[15655][5] == 0 and addon.glyphs[15655][6] == 83.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15655] = { 106, 795, 542, 84, 0, 83.69 }
+assert(addon.glyphs[15730] and addon.glyphs[15730][1] == 112 and addon.glyphs[15730][2] == 729 and addon.glyphs[15730][3] == 962 and addon.glyphs[15730][4] == 84 and addon.glyphs[15730][5] == 0 and addon.glyphs[15730][6] == 83.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15730] = { 106, 883, 542, 84, 0, 83.11 }
+assert(addon.glyphs[15789] and addon.glyphs[15789][1] == 113 and addon.glyphs[15789][2] == 304 and addon.glyphs[15789][3] == 302 and addon.glyphs[15789][4] == 84 and addon.glyphs[15789][5] == 0 and addon.glyphs[15789][6] == 83.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15789] = { 106, 2, 602, 84, 0, 83.92 }
+assert(addon.glyphs[15922] and addon.glyphs[15922][1] == 114 and addon.glyphs[15922][2] == 198 and addon.glyphs[15922][3] == 2 and addon.glyphs[15922][4] == 84 and addon.glyphs[15922][5] == 0 and addon.glyphs[15922][6] == 83.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15922] = { 106, 90, 602, 84, 0, 83.03 }
+assert(addon.glyphs[15969] and addon.glyphs[15969][1] == 114 and addon.glyphs[15969][2] == 755 and addon.glyphs[15969][3] == 242 and addon.glyphs[15969][4] == 84 and addon.glyphs[15969][5] == 0 and addon.glyphs[15969][6] == 83.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15969] = { 106, 178, 602, 84, 0, 83.3 }
+assert(addon.glyphs[14345] and addon.glyphs[14345][1] == 98 and addon.glyphs[14345][2] == 2 and addon.glyphs[14345][3] == 62 and addon.glyphs[14345][4] == 83 and addon.glyphs[14345][5] == 0 and addon.glyphs[14345][6] == 83, "MAIN44 relocation baseline changed")
+addon.glyphs[14345] = { 106, 266, 602, 83, 0, 83 }
+assert(addon.glyphs[15498] and addon.glyphs[15498][1] == 111 and addon.glyphs[15498][2] == 242 and addon.glyphs[15498][3] == 842 and addon.glyphs[15498][4] == 83 and addon.glyphs[15498][5] == 0 and addon.glyphs[15498][6] == 82.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15498] = { 106, 353, 602, 83, 0, 82.78 }
+assert(addon.glyphs[15630] and addon.glyphs[15630][1] == 112 and addon.glyphs[15630][2] == 655 and addon.glyphs[15630][3] == 422 and addon.glyphs[15630][4] == 83 and addon.glyphs[15630][5] == 0 and addon.glyphs[15630][6] == 82.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15630] = { 106, 440, 602, 83, 0, 82.11 }
+assert(addon.glyphs[15639] and addon.glyphs[15639][1] == 112 and addon.glyphs[15639][2] == 402 and addon.glyphs[15639][3] == 482 and addon.glyphs[15639][4] == 83 and addon.glyphs[15639][5] == 0 and addon.glyphs[15639][6] == 82.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15639] = { 106, 527, 602, 83, 0, 82.22 }
+assert(addon.glyphs[15886] and addon.glyphs[15886][1] == 113 and addon.glyphs[15886][2] == 141 and addon.glyphs[15886][3] == 842 and addon.glyphs[15886][4] == 83 and addon.glyphs[15886][5] == 0 and addon.glyphs[15886][6] == 82.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15886] = { 106, 614, 602, 83, 0, 82.78 }
+assert(addon.glyphs[15924] and addon.glyphs[15924][1] == 114 and addon.glyphs[15924][2] == 404 and addon.glyphs[15924][3] == 2 and addon.glyphs[15924][4] == 83 and addon.glyphs[15924][5] == 0 and addon.glyphs[15924][6] == 82.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15924] = { 106, 701, 602, 83, 0, 82.69 }
+assert(addon.glyphs[15941] and addon.glyphs[15941][1] == 114 and addon.glyphs[15941][2] == 862 and addon.glyphs[15941][3] == 62 and addon.glyphs[15941][4] == 83 and addon.glyphs[15941][5] == 0 and addon.glyphs[15941][6] == 81.42, "MAIN44 relocation baseline changed")
+addon.glyphs[15941] = { 106, 788, 602, 83, 0, 81.42 }
+assert(addon.glyphs[15970] and addon.glyphs[15970][1] == 114 and addon.glyphs[15970][2] == 843 and addon.glyphs[15970][3] == 242 and addon.glyphs[15970][4] == 83 and addon.glyphs[15970][5] == 0 and addon.glyphs[15970][6] == 82.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15970] = { 106, 875, 602, 83, 0, 82.14 }
+assert(addon.glyphs[12556] and addon.glyphs[12556][1] == 81 and addon.glyphs[12556][2] == 795 and addon.glyphs[12556][3] == 2 and addon.glyphs[12556][4] == 82 and addon.glyphs[12556][5] == 0 and addon.glyphs[12556][6] == 81.39, "MAIN44 relocation baseline changed")
+addon.glyphs[12556] = { 106, 2, 662, 82, 0, 81.39 }
+assert(addon.glyphs[13179] and addon.glyphs[13179][1] == 87 and addon.glyphs[13179][2] == 255 and addon.glyphs[13179][3] == 2 and addon.glyphs[13179][4] == 82 and addon.glyphs[13179][5] == 0 and addon.glyphs[13179][6] == 81.42, "MAIN44 relocation baseline changed")
+addon.glyphs[13179] = { 106, 88, 662, 82, 0, 81.42 }
+assert(addon.glyphs[13574] and addon.glyphs[13574][1] == 92 and addon.glyphs[13574][2] == 386 and addon.glyphs[13574][3] == 2 and addon.glyphs[13574][4] == 82 and addon.glyphs[13574][5] == 0 and addon.glyphs[13574][6] == 81.77, "MAIN44 relocation baseline changed")
+addon.glyphs[13574] = { 106, 174, 662, 82, 0, 81.77 }
+assert(addon.glyphs[14512] and addon.glyphs[14512][1] == 102 and addon.glyphs[14512][2] == 232 and addon.glyphs[14512][3] == 182 and addon.glyphs[14512][4] == 82 and addon.glyphs[14512][5] == 0 and addon.glyphs[14512][6] == 81.56, "MAIN44 relocation baseline changed")
+addon.glyphs[14512] = { 106, 260, 662, 82, 0, 81.56 }
+assert(addon.glyphs[14605] and addon.glyphs[14605][1] == 105 and addon.glyphs[14605][2] == 338 and addon.glyphs[14605][3] == 2 and addon.glyphs[14605][4] == 82 and addon.glyphs[14605][5] == 0 and addon.glyphs[14605][6] == 81.56, "MAIN44 relocation baseline changed")
+addon.glyphs[14605] = { 106, 346, 662, 82, 0, 81.56 }
+assert(addon.glyphs[15354] and addon.glyphs[15354][1] == 111 and addon.glyphs[15354][2] == 611 and addon.glyphs[15354][3] == 62 and addon.glyphs[15354][4] == 82 and addon.glyphs[15354][5] == 0 and addon.glyphs[15354][6] == 79.5, "MAIN44 relocation baseline changed")
+addon.glyphs[15354] = { 106, 432, 662, 82, 0, 79.5 }
+assert(addon.glyphs[15539] and addon.glyphs[15539][1] == 112 and addon.glyphs[15539][2] == 471 and addon.glyphs[15539][3] == 2 and addon.glyphs[15539][4] == 82 and addon.glyphs[15539][5] == 0 and addon.glyphs[15539][6] == 81.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15539] = { 106, 518, 662, 82, 0, 81.02 }
+assert(addon.glyphs[15612] and addon.glyphs[15612][1] == 112 and addon.glyphs[15612][2] == 364 and addon.glyphs[15612][3] == 362 and addon.glyphs[15612][4] == 82 and addon.glyphs[15612][5] == 0 and addon.glyphs[15612][6] == 81.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15612] = { 106, 604, 662, 82, 0, 81.62 }
+assert(addon.glyphs[15640] and addon.glyphs[15640][1] == 112 and addon.glyphs[15640][2] == 489 and addon.glyphs[15640][3] == 482 and addon.glyphs[15640][4] == 82 and addon.glyphs[15640][5] == 0 and addon.glyphs[15640][6] == 81.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15640] = { 106, 690, 662, 82, 0, 81.59 }
+assert(addon.glyphs[15814] and addon.glyphs[15814][1] == 113 and addon.glyphs[15814][2] == 585 and addon.glyphs[15814][3] == 422 and addon.glyphs[15814][4] == 82 and addon.glyphs[15814][5] == 0 and addon.glyphs[15814][6] == 81.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15814] = { 106, 776, 662, 82, 0, 81.7 }
+assert(addon.glyphs[15904] and addon.glyphs[15904][1] == 113 and addon.glyphs[15904][2] == 708 and addon.glyphs[15904][3] == 902 and addon.glyphs[15904][4] == 82 and addon.glyphs[15904][5] == 0 and addon.glyphs[15904][6] == 81.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15904] = { 106, 862, 662, 82, 0, 81.52 }
+assert(addon.glyphs[15935] and addon.glyphs[15935][1] == 114 and addon.glyphs[15935][2] == 299 and addon.glyphs[15935][3] == 62 and addon.glyphs[15935][4] == 82 and addon.glyphs[15935][5] == 0 and addon.glyphs[15935][6] == 81.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15935] = { 106, 2, 722, 82, 0, 81.45 }
+assert(addon.glyphs[15954] and addon.glyphs[15954][1] == 114 and addon.glyphs[15954][2] == 276 and addon.glyphs[15954][3] == 182 and addon.glyphs[15954][4] == 82 and addon.glyphs[15954][5] == 0 and addon.glyphs[15954][6] == 81.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15954] = { 106, 88, 722, 82, 0, 81.45 }
+assert(addon.glyphs[13576] and addon.glyphs[13576][1] == 92 and addon.glyphs[13576][2] == 516 and addon.glyphs[13576][3] == 2 and addon.glyphs[13576][4] == 81 and addon.glyphs[13576][5] == 0 and addon.glyphs[13576][6] == 80.88, "MAIN44 relocation baseline changed")
+addon.glyphs[13576] = { 106, 174, 722, 81, 0, 80.88 }
+assert(addon.glyphs[14490] and addon.glyphs[14490][1] == 102 and addon.glyphs[14490][2] == 2 and addon.glyphs[14490][3] == 62 and addon.glyphs[14490][4] == 81 and addon.glyphs[14490][5] == 0 and addon.glyphs[14490][6] == 80.75, "MAIN44 relocation baseline changed")
+addon.glyphs[14490] = { 106, 259, 722, 81, 0, 80.75 }
+assert(addon.glyphs[14602] and addon.glyphs[14602][1] == 105 and addon.glyphs[14602][2] == 109 and addon.glyphs[14602][3] == 2 and addon.glyphs[14602][4] == 81 and addon.glyphs[14602][5] == 0 and addon.glyphs[14602][6] == 80.64, "MAIN44 relocation baseline changed")
+addon.glyphs[14602] = { 106, 344, 722, 81, 0, 80.64 }
+assert(addon.glyphs[15337] and addon.glyphs[15337][1] == 111 and addon.glyphs[15337][2] == 290 and addon.glyphs[15337][3] == 2 and addon.glyphs[15337][4] == 81 and addon.glyphs[15337][5] == 0 and addon.glyphs[15337][6] == 80.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15337] = { 106, 429, 722, 81, 0, 80.94 }
+assert(addon.glyphs[15489] and addon.glyphs[15489][1] == 111 and addon.glyphs[15489][2] == 521 and addon.glyphs[15489][3] == 782 and addon.glyphs[15489][4] == 81 and addon.glyphs[15489][5] == 0 and addon.glyphs[15489][6] == 79.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15489] = { 106, 514, 722, 81, 0, 79.62 }
+assert(addon.glyphs[15526] and addon.glyphs[15526][1] == 111 and addon.glyphs[15526][2] == 435 and addon.glyphs[15526][3] == 962 and addon.glyphs[15526][4] == 81 and addon.glyphs[15526][5] == -3 and addon.glyphs[15526][6] == 77.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15526] = { 106, 599, 722, 81, -3, 77.66 }
+assert(addon.glyphs[15568] and addon.glyphs[15568][1] == 112 and addon.glyphs[15568][2] == 517 and addon.glyphs[15568][3] == 122 and addon.glyphs[15568][4] == 81 and addon.glyphs[15568][5] == 0 and addon.glyphs[15568][6] == 80.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15568] = { 106, 684, 722, 81, 0, 80.02 }
+assert(addon.glyphs[15750] and addon.glyphs[15750][1] == 113 and addon.glyphs[15750][2] == 685 and addon.glyphs[15750][3] == 62 and addon.glyphs[15750][4] == 81 and addon.glyphs[15750][5] == 0 and addon.glyphs[15750][6] == 80.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15750] = { 106, 769, 722, 81, 0, 80.94 }
+assert(addon.glyphs[15826] and addon.glyphs[15826][1] == 113 and addon.glyphs[15826][2] == 704 and addon.glyphs[15826][3] == 482 and addon.glyphs[15826][4] == 81 and addon.glyphs[15826][5] == 0 and addon.glyphs[15826][6] == 80.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15826] = { 106, 854, 722, 81, 0, 80.88 }
+assert(addon.glyphs[15843] and addon.glyphs[15843][1] == 113 and addon.glyphs[15843][2] == 240 and addon.glyphs[15843][3] == 602 and addon.glyphs[15843][4] == 81 and addon.glyphs[15843][5] == 0 and addon.glyphs[15843][6] == 80.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15843] = { 106, 939, 722, 81, 0, 80.64 }
+assert(addon.glyphs[15874] and addon.glyphs[15874][1] == 113 and addon.glyphs[15874][2] == 82 and addon.glyphs[15874][3] == 782 and addon.glyphs[15874][4] == 81 and addon.glyphs[15874][5] == 0 and addon.glyphs[15874][6] == 80.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15874] = { 106, 2, 782, 81, 0, 80.44 }
+assert(addon.glyphs[15900] and addon.glyphs[15900][1] == 113 and addon.glyphs[15900][2] == 316 and addon.glyphs[15900][3] == 902 and addon.glyphs[15900][4] == 81 and addon.glyphs[15900][5] == 0 and addon.glyphs[15900][6] == 80.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15900] = { 106, 87, 782, 81, 0, 80.89 }
+assert(addon.glyphs[15973] and addon.glyphs[15973][1] == 114 and addon.glyphs[15973][2] == 109 and addon.glyphs[15973][3] == 302 and addon.glyphs[15973][4] == 81 and addon.glyphs[15973][5] == 0 and addon.glyphs[15973][6] == 80.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15973] = { 106, 172, 782, 81, 0, 80.34 }
+assert(addon.glyphs[12555] and addon.glyphs[12555][1] == 81 and addon.glyphs[12555][2] == 711 and addon.glyphs[12555][3] == 2 and addon.glyphs[12555][4] == 80 and addon.glyphs[12555][5] == 0 and addon.glyphs[12555][6] == 80, "MAIN44 relocation baseline changed")
+addon.glyphs[12555] = { 106, 257, 782, 80, 0, 80 }
+assert(addon.glyphs[13193] and addon.glyphs[13193][1] == 87 and addon.glyphs[13193][2] == 63 and addon.glyphs[13193][3] == 62 and addon.glyphs[13193][4] == 80 and addon.glyphs[13193][5] == 0 and addon.glyphs[13193][6] == 79.55, "MAIN44 relocation baseline changed")
+addon.glyphs[13193] = { 106, 341, 782, 80, 0, 79.55 }
+assert(addon.glyphs[14491] and addon.glyphs[14491][1] == 102 and addon.glyphs[14491][2] == 87 and addon.glyphs[14491][3] == 62 and addon.glyphs[14491][4] == 80 and addon.glyphs[14491][5] == 0 and addon.glyphs[14491][6] == 79.53, "MAIN44 relocation baseline changed")
+addon.glyphs[14491] = { 106, 425, 782, 80, 0, 79.53 }
+assert(addon.glyphs[15348] and addon.glyphs[15348][1] == 111 and addon.glyphs[15348][2] == 151 and addon.glyphs[15348][3] == 62 and addon.glyphs[15348][4] == 80 and addon.glyphs[15348][5] == 0 and addon.glyphs[15348][6] == 79.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15348] = { 106, 509, 782, 80, 0, 79.8 }
+assert(addon.glyphs[15383] and addon.glyphs[15383][1] == 111 and addon.glyphs[15383][2] == 790 and addon.glyphs[15383][3] == 182 and addon.glyphs[15383][4] == 80 and addon.glyphs[15383][5] == 0 and addon.glyphs[15383][6] == 79.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15383] = { 106, 593, 782, 80, 0, 79.98 }
+assert(addon.glyphs[15413] and addon.glyphs[15413][1] == 111 and addon.glyphs[15413][2] == 331 and addon.glyphs[15413][3] == 362 and addon.glyphs[15413][4] == 80 and addon.glyphs[15413][5] == 0 and addon.glyphs[15413][6] == 79.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15413] = { 106, 677, 782, 80, 0, 79.89 }
+assert(addon.glyphs[15515] and addon.glyphs[15515][1] == 111 and addon.glyphs[15515][2] == 623 and addon.glyphs[15515][3] == 902 and addon.glyphs[15515][4] == 80 and addon.glyphs[15515][5] == 0 and addon.glyphs[15515][6] == 79.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15515] = { 106, 761, 782, 80, 0, 79.88 }
+assert(addon.glyphs[15537] and addon.glyphs[15537][1] == 112 and addon.glyphs[15537][2] == 329 and addon.glyphs[15537][3] == 2 and addon.glyphs[15537][4] == 80 and addon.glyphs[15537][5] == 0 and addon.glyphs[15537][6] == 79.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15537] = { 106, 845, 782, 80, 0, 79.62 }
+assert(addon.glyphs[15593] and addon.glyphs[15593][1] == 112 and addon.glyphs[15593][2] == 699 and addon.glyphs[15593][3] == 242 and addon.glyphs[15593][4] == 80 and addon.glyphs[15593][5] == 0 and addon.glyphs[15593][6] == 79.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15593] = { 106, 929, 782, 80, 0, 79.12 }
+assert(addon.glyphs[15770] and addon.glyphs[15770][1] == 113 and addon.glyphs[15770][2] == 617 and addon.glyphs[15770][3] == 182 and addon.glyphs[15770][4] == 80 and addon.glyphs[15770][5] == 0 and addon.glyphs[15770][6] == 79.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15770] = { 106, 2, 842, 80, 0, 79.77 }
+assert(addon.glyphs[15829] and addon.glyphs[15829][1] == 113 and addon.glyphs[15829][2] == 2 and addon.glyphs[15829][3] == 542 and addon.glyphs[15829][4] == 80 and addon.glyphs[15829][5] == 0 and addon.glyphs[15829][6] == 80, "MAIN44 relocation baseline changed")
+addon.glyphs[15829] = { 106, 86, 842, 80, 0, 80 }
+assert(addon.glyphs[15991] and addon.glyphs[15991][1] == 114 and addon.glyphs[15991][2] == 723 and addon.glyphs[15991][3] == 362 and addon.glyphs[15991][4] == 80 and addon.glyphs[15991][5] == 0 and addon.glyphs[15991][6] == 79.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15991] = { 106, 170, 842, 80, 0, 79.16 }
+assert(addon.glyphs[14340] and addon.glyphs[14340][1] == 98 and addon.glyphs[14340][2] == 526 and addon.glyphs[14340][3] == 2 and addon.glyphs[14340][4] == 79 and addon.glyphs[14340][5] == 0 and addon.glyphs[14340][6] == 78.2, "MAIN44 relocation baseline changed")
+addon.glyphs[14340] = { 106, 254, 842, 79, 0, 78.2 }
+assert(addon.glyphs[14492] and addon.glyphs[14492][1] == 102 and addon.glyphs[14492][2] == 171 and addon.glyphs[14492][3] == 62 and addon.glyphs[14492][4] == 79 and addon.glyphs[14492][5] == 0 and addon.glyphs[14492][6] == 78.48, "MAIN44 relocation baseline changed")
+addon.glyphs[14492] = { 106, 337, 842, 79, 0, 78.48 }
+assert(addon.glyphs[14500] and addon.glyphs[14500][1] == 102 and addon.glyphs[14500][2] == 2 and addon.glyphs[14500][3] == 122 and addon.glyphs[14500][4] == 79 and addon.glyphs[14500][5] == 0 and addon.glyphs[14500][6] == 78.89, "MAIN44 relocation baseline changed")
+addon.glyphs[14500] = { 106, 420, 842, 79, 0, 78.89 }
+assert(addon.glyphs[15347] and addon.glyphs[15347][1] == 111 and addon.glyphs[15347][2] == 68 and addon.glyphs[15347][3] == 62 and addon.glyphs[15347][4] == 79 and addon.glyphs[15347][5] == 0 and addon.glyphs[15347][6] == 78.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15347] = { 106, 503, 842, 79, 0, 78.47 }
+assert(addon.glyphs[15400] and addon.glyphs[15400][1] == 111 and addon.glyphs[15400][2] == 258 and addon.glyphs[15400][3] == 302 and addon.glyphs[15400][4] == 79 and addon.glyphs[15400][5] == 0 and addon.glyphs[15400][6] == 78.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15400] = { 106, 586, 842, 79, 0, 78.36 }
+assert(addon.glyphs[15447] and addon.glyphs[15447][1] == 111 and addon.glyphs[15447][2] == 682 and addon.glyphs[15447][3] == 542 and addon.glyphs[15447][4] == 79 and addon.glyphs[15447][5] == 0 and addon.glyphs[15447][6] == 78.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15447] = { 106, 669, 842, 79, 0, 78.2 }
+assert(addon.glyphs[15519] and addon.glyphs[15519][1] == 111 and addon.glyphs[15519][2] == 942 and addon.glyphs[15519][3] == 902 and addon.glyphs[15519][4] == 79 and addon.glyphs[15519][5] == 0 and addon.glyphs[15519][6] == 78.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15519] = { 106, 752, 842, 79, 0, 78.36 }
+assert(addon.glyphs[15531] and addon.glyphs[15531][1] == 111 and addon.glyphs[15531][2] == 705 and addon.glyphs[15531][3] == 962 and addon.glyphs[15531][4] == 79 and addon.glyphs[15531][5] == 0 and addon.glyphs[15531][6] == 78.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15531] = { 106, 835, 842, 79, 0, 78.12 }
+assert(addon.glyphs[15633] and addon.glyphs[15633][1] == 112 and addon.glyphs[15633][2] == 927 and addon.glyphs[15633][3] == 422 and addon.glyphs[15633][4] == 79 and addon.glyphs[15633][5] == 0 and addon.glyphs[15633][6] == 78.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15633] = { 106, 918, 842, 79, 0, 78.47 }
+assert(addon.glyphs[15663] and addon.glyphs[15663][1] == 112 and addon.glyphs[15663][2] == 675 and addon.glyphs[15663][3] == 602 and addon.glyphs[15663][4] == 79 and addon.glyphs[15663][5] == 0 and addon.glyphs[15663][6] == 78.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15663] = { 106, 2, 902, 79, 0, 78.36 }
+assert(addon.glyphs[15739] and addon.glyphs[15739][1] == 113 and addon.glyphs[15739][2] == 569 and addon.glyphs[15739][3] == 2 and addon.glyphs[15739][4] == 79 and addon.glyphs[15739][5] == 0 and addon.glyphs[15739][6] == 78.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15739] = { 106, 85, 902, 79, 0, 78.19 }
+assert(addon.glyphs[15757] and addon.glyphs[15757][1] == 113 and addon.glyphs[15757][2] == 247 and addon.glyphs[15757][3] == 122 and addon.glyphs[15757][4] == 79 and addon.glyphs[15757][5] == 0 and addon.glyphs[15757][6] == 78.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15757] = { 106, 168, 902, 79, 0, 78.47 }
+assert(addon.glyphs[15801] and addon.glyphs[15801][1] == 113 and addon.glyphs[15801][2] == 426 and addon.glyphs[15801][3] == 362 and addon.glyphs[15801][4] == 79 and addon.glyphs[15801][5] == -1 and addon.glyphs[15801][6] == 77.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15801] = { 106, 251, 902, 79, -1, 77.62 }
+assert(addon.glyphs[15869] and addon.glyphs[15869][1] == 113 and addon.glyphs[15869][2] == 539 and addon.glyphs[15869][3] == 722 and addon.glyphs[15869][4] == 79 and addon.glyphs[15869][5] == 0 and addon.glyphs[15869][6] == 78.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15869] = { 106, 334, 902, 79, 0, 78.05 }
+assert(addon.glyphs[15881] and addon.glyphs[15881][1] == 113 and addon.glyphs[15881][2] == 701 and addon.glyphs[15881][3] == 782 and addon.glyphs[15881][4] == 79 and addon.glyphs[15881][5] == 0 and addon.glyphs[15881][6] == 79, "MAIN44 relocation baseline changed")
+addon.glyphs[15881] = { 106, 417, 902, 79, 0, 79 }
+assert(addon.glyphs[15939] and addon.glyphs[15939][1] == 114 and addon.glyphs[15939][2] == 664 and addon.glyphs[15939][3] == 62 and addon.glyphs[15939][4] == 79 and addon.glyphs[15939][5] == 0 and addon.glyphs[15939][6] == 78.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15939] = { 106, 500, 902, 79, 0, 78.27 }
+assert(addon.glyphs[12565] and addon.glyphs[12565][1] == 81 and addon.glyphs[12565][2] == 384 and addon.glyphs[12565][3] == 62 and addon.glyphs[12565][4] == 78 and addon.glyphs[12565][5] == 0 and addon.glyphs[12565][6] == 77.81, "MAIN44 relocation baseline changed")
+addon.glyphs[12565] = { 106, 583, 902, 78, 0, 77.81 }
+assert(addon.glyphs[12572] and addon.glyphs[12572][1] == 81 and addon.glyphs[12572][2] == 849 and addon.glyphs[12572][3] == 62 and addon.glyphs[12572][4] == 78 and addon.glyphs[12572][5] == -3 and addon.glyphs[12572][6] == 74.02, "MAIN44 relocation baseline changed")
+addon.glyphs[12572] = { 106, 665, 902, 78, -3, 74.02 }
+assert(addon.glyphs[14323] and addon.glyphs[14323][1] == 97 and addon.glyphs[14323][2] == 63 and addon.glyphs[14323][3] == 62 and addon.glyphs[14323][4] == 78 and addon.glyphs[14323][5] == -3 and addon.glyphs[14323][6] == 74.25, "MAIN44 relocation baseline changed")
+addon.glyphs[14323] = { 106, 747, 902, 78, -3, 74.25 }
+assert(addon.glyphs[14334] and addon.glyphs[14334][1] == 98 and addon.glyphs[14334][2] == 2 and addon.glyphs[14334][3] == 2 and addon.glyphs[14334][4] == 78 and addon.glyphs[14334][5] == 0 and addon.glyphs[14334][6] == 77.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14334] = { 106, 829, 902, 78, 0, 77.14 }
+assert(addon.glyphs[15395] and addon.glyphs[15395][1] == 111 and addon.glyphs[15395][2] == 708 and addon.glyphs[15395][3] == 242 and addon.glyphs[15395][4] == 78 and addon.glyphs[15395][5] == 0 and addon.glyphs[15395][6] == 77.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15395] = { 106, 911, 902, 78, 0, 77.28 }
+assert(addon.glyphs[15465] and addon.glyphs[15465][1] == 111 and addon.glyphs[15465][2] == 556 and addon.glyphs[15465][3] == 662 and addon.glyphs[15465][4] == 78 and addon.glyphs[15465][5] == 0 and addon.glyphs[15465][6] == 77.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15465] = { 106, 2, 962, 78, 0, 77.66 }
+assert(addon.glyphs[15490] and addon.glyphs[15490][1] == 111 and addon.glyphs[15490][2] == 606 and addon.glyphs[15490][3] == 782 and addon.glyphs[15490][4] == 78 and addon.glyphs[15490][5] == 0 and addon.glyphs[15490][6] == 77.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15490] = { 106, 84, 962, 78, 0, 77.11 }
+assert(addon.glyphs[15523] and addon.glyphs[15523][1] == 111 and addon.glyphs[15523][2] == 236 and addon.glyphs[15523][3] == 962 and addon.glyphs[15523][4] == 78 and addon.glyphs[15523][5] == 0 and addon.glyphs[15523][6] == 77.17, "MAIN44 relocation baseline changed")
+addon.glyphs[15523] = { 106, 166, 962, 78, 0, 77.17 }
+assert(addon.glyphs[15672] and addon.glyphs[15672][1] == 112 and addon.glyphs[15672][2] == 505 and addon.glyphs[15672][3] == 662 and addon.glyphs[15672][4] == 78 and addon.glyphs[15672][5] == 0 and addon.glyphs[15672][6] == 77.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15672] = { 106, 248, 962, 78, 0, 77.03 }
+assert(addon.glyphs[15765] and addon.glyphs[15765][1] == 113 and addon.glyphs[15765][2] == 208 and addon.glyphs[15765][3] == 182 and addon.glyphs[15765][4] == 78 and addon.glyphs[15765][5] == 0 and addon.glyphs[15765][6] == 77.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15765] = { 106, 330, 962, 78, 0, 77.8 }
+assert(addon.glyphs[15966] and addon.glyphs[15966][1] == 114 and addon.glyphs[15966][2] == 433 and addon.glyphs[15966][3] == 242 and addon.glyphs[15966][4] == 78 and addon.glyphs[15966][5] == 0 and addon.glyphs[15966][6] == 77.42, "MAIN44 relocation baseline changed")
+addon.glyphs[15966] = { 106, 412, 962, 78, 0, 77.42 }
+assert(addon.glyphs[13478] and addon.glyphs[13478][1] == 90 and addon.glyphs[13478][2] == 160 and addon.glyphs[13478][3] == 2 and addon.glyphs[13478][4] == 77 and addon.glyphs[13478][5] == 0 and addon.glyphs[13478][6] == 76.12, "MAIN44 relocation baseline changed")
+addon.glyphs[13478] = { 106, 494, 962, 77, 0, 76.12 }
+assert(addon.glyphs[14327] and addon.glyphs[14327][1] == 97 and addon.glyphs[14327][2] == 325 and addon.glyphs[14327][3] == 62 and addon.glyphs[14327][4] == 77 and addon.glyphs[14327][5] == -3 and addon.glyphs[14327][6] == 73.64, "MAIN44 relocation baseline changed")
+addon.glyphs[14327] = { 106, 575, 962, 77, -3, 73.64 }
+assert(addon.glyphs[15401] and addon.glyphs[15401][1] == 111 and addon.glyphs[15401][2] == 341 and addon.glyphs[15401][3] == 302 and addon.glyphs[15401][4] == 77 and addon.glyphs[15401][5] == 0 and addon.glyphs[15401][6] == 76.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15401] = { 106, 656, 962, 77, 0, 76.98 }
+assert(addon.glyphs[15435] and addon.glyphs[15435][1] == 111 and addon.glyphs[15435][2] == 412 and addon.glyphs[15435][3] == 482 and addon.glyphs[15435][4] == 77 and addon.glyphs[15435][5] == 0 and addon.glyphs[15435][6] == 76.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15435] = { 106, 737, 962, 77, 0, 76.12 }
+assert(addon.glyphs[15678] and addon.glyphs[15678][1] == 112 and addon.glyphs[15678][2] == 92 and addon.glyphs[15678][3] == 722 and addon.glyphs[15678][4] == 77 and addon.glyphs[15678][5] == 0 and addon.glyphs[15678][6] == 77, "MAIN44 relocation baseline changed")
+addon.glyphs[15678] = { 106, 818, 962, 77, 0, 77 }
+assert(addon.glyphs[15823] and addon.glyphs[15823][1] == 113 and addon.glyphs[15823][2] == 377 and addon.glyphs[15823][3] == 482 and addon.glyphs[15823][4] == 77 and addon.glyphs[15823][5] == 0 and addon.glyphs[15823][6] == 76.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15823] = { 106, 899, 962, 77, 0, 76.16 }
+assert(addon.glyphs[15841] and addon.glyphs[15841][1] == 113 and addon.glyphs[15841][2] == 2 and addon.glyphs[15841][3] == 602 and addon.glyphs[15841][4] == 77 and addon.glyphs[15841][5] == 0 and addon.glyphs[15841][6] == 76.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15841] = { 78, 2, 302, 77, 0, 76.11 }
+assert(addon.glyphs[15848] and addon.glyphs[15848][1] == 113 and addon.glyphs[15848][2] == 663 and addon.glyphs[15848][3] == 602 and addon.glyphs[15848][4] == 77 and addon.glyphs[15848][5] == 0 and addon.glyphs[15848][6] == 76.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15848] = { 78, 83, 302, 77, 0, 76.77 }
+assert(addon.glyphs[15959] and addon.glyphs[15959][1] == 114 and addon.glyphs[15959][2] == 772 and addon.glyphs[15959][3] == 182 and addon.glyphs[15959][4] == 77 and addon.glyphs[15959][5] == 0 and addon.glyphs[15959][6] == 76.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15959] = { 78, 164, 302, 77, 0, 76.98 }
+assert(addon.glyphs[15962] and addon.glyphs[15962][1] == 114 and addon.glyphs[15962][2] == 100 and addon.glyphs[15962][3] == 242 and addon.glyphs[15962][4] == 77 and addon.glyphs[15962][5] == 0 and addon.glyphs[15962][6] == 76.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15962] = { 78, 245, 302, 77, 0, 76.69 }
+assert(addon.glyphs[15982] and addon.glyphs[15982][1] == 114 and addon.glyphs[15982][2] == 887 and addon.glyphs[15982][3] == 302 and addon.glyphs[15982][4] == 77 and addon.glyphs[15982][5] == 0 and addon.glyphs[15982][6] == 76.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15982] = { 78, 326, 302, 77, 0, 76.89 }
+assert(addon.glyphs[12564] and addon.glyphs[12564][1] == 81 and addon.glyphs[12564][2] == 304 and addon.glyphs[12564][3] == 62 and addon.glyphs[12564][4] == 76 and addon.glyphs[12564][5] == 0 and addon.glyphs[12564][6] == 75.23, "MAIN44 relocation baseline changed")
+addon.glyphs[12564] = { 78, 407, 302, 76, 0, 75.23 }
+assert(addon.glyphs[12567] and addon.glyphs[12567][1] == 81 and addon.glyphs[12567][2] == 516 and addon.glyphs[12567][3] == 62 and addon.glyphs[12567][4] == 76 and addon.glyphs[12567][5] == 0 and addon.glyphs[12567][6] == 74.47, "MAIN44 relocation baseline changed")
+addon.glyphs[12567] = { 78, 487, 302, 76, 0, 74.47 }
+assert(addon.glyphs[12590] and addon.glyphs[12590][1] == 82 and addon.glyphs[12590][2] == 52 and addon.glyphs[12590][3] == 62 and addon.glyphs[12590][4] == 76 and addon.glyphs[12590][5] == 0 and addon.glyphs[12590][6] == 74.47, "MAIN44 relocation baseline changed")
+addon.glyphs[12590] = { 78, 567, 302, 76, 0, 74.47 }
+assert(addon.glyphs[13197] and addon.glyphs[13197][1] == 87 and addon.glyphs[13197][2] == 340 and addon.glyphs[13197][3] == 62 and addon.glyphs[13197][4] == 76 and addon.glyphs[13197][5] == 0 and addon.glyphs[13197][6] == 75.47, "MAIN44 relocation baseline changed")
+addon.glyphs[13197] = { 78, 647, 302, 76, 0, 75.47 }
+assert(addon.glyphs[15344] and addon.glyphs[15344][1] == 111 and addon.glyphs[15344][2] == 829 and addon.glyphs[15344][3] == 2 and addon.glyphs[15344][4] == 76 and addon.glyphs[15344][5] == 0 and addon.glyphs[15344][6] == 75.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15344] = { 78, 727, 302, 76, 0, 75.23 }
+assert(addon.glyphs[15425] and addon.glyphs[15425][1] == 111 and addon.glyphs[15425][2] == 421 and addon.glyphs[15425][3] == 422 and addon.glyphs[15425][4] == 76 and addon.glyphs[15425][5] == 0 and addon.glyphs[15425][6] == 75.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15425] = { 78, 807, 302, 76, 0, 75.27 }
+assert(addon.glyphs[15454] and addon.glyphs[15454][1] == 111 and addon.glyphs[15454][2] == 589 and addon.glyphs[15454][3] == 602 and addon.glyphs[15454][4] == 76 and addon.glyphs[15454][5] == 0 and addon.glyphs[15454][6] == 74.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15454] = { 78, 887, 302, 76, 0, 74.06 }
+assert(addon.glyphs[15604] and addon.glyphs[15604][1] == 112 and addon.glyphs[15604][2] == 614 and addon.glyphs[15604][3] == 302 and addon.glyphs[15604][4] == 76 and addon.glyphs[15604][5] == 0 and addon.glyphs[15604][6] == 75.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15604] = { 78, 2, 362, 76, 0, 75.38 }
+assert(addon.glyphs[15708] and addon.glyphs[15708][1] == 112 and addon.glyphs[15708][2] == 704 and addon.glyphs[15708][3] == 842 and addon.glyphs[15708][4] == 76 and addon.glyphs[15708][5] == 0 and addon.glyphs[15708][6] == 75.5, "MAIN44 relocation baseline changed")
+addon.glyphs[15708] = { 78, 82, 362, 76, 0, 75.5 }
+assert(addon.glyphs[15710] and addon.glyphs[15710][1] == 112 and addon.glyphs[15710][2] == 874 and addon.glyphs[15710][3] == 842 and addon.glyphs[15710][4] == 76 and addon.glyphs[15710][5] == 0 and addon.glyphs[15710][6] == 75.41, "MAIN44 relocation baseline changed")
+addon.glyphs[15710] = { 78, 162, 362, 76, 0, 75.41 }
+assert(addon.glyphs[15748] and addon.glyphs[15748][1] == 113 and addon.glyphs[15748][2] == 538 and addon.glyphs[15748][3] == 62 and addon.glyphs[15748][4] == 76 and addon.glyphs[15748][5] == -1 and addon.glyphs[15748][6] == 74.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15748] = { 78, 242, 362, 76, -1, 74.77 }
+assert(addon.glyphs[15758] and addon.glyphs[15758][1] == 113 and addon.glyphs[15758][2] == 330 and addon.glyphs[15758][3] == 122 and addon.glyphs[15758][4] == 76 and addon.glyphs[15758][5] == 0 and addon.glyphs[15758][6] == 75.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15758] = { 78, 322, 362, 76, 0, 75.38 }
+assert(addon.glyphs[15873] and addon.glyphs[15873][1] == 113 and addon.glyphs[15873][2] == 2 and addon.glyphs[15873][3] == 782 and addon.glyphs[15873][4] == 76 and addon.glyphs[15873][5] == 0 and addon.glyphs[15873][6] == 75.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15873] = { 78, 402, 362, 76, 0, 75.2 }
+assert(addon.glyphs[15878] and addon.glyphs[15878][1] == 113 and addon.glyphs[15878][2] == 423 and addon.glyphs[15878][3] == 782 and addon.glyphs[15878][4] == 76 and addon.glyphs[15878][5] == 0 and addon.glyphs[15878][6] == 75.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15878] = { 78, 482, 362, 76, 0, 75.59 }
+assert(addon.glyphs[15906] and addon.glyphs[15906][1] == 113 and addon.glyphs[15906][2] == 860 and addon.glyphs[15906][3] == 902 and addon.glyphs[15906][4] == 76 and addon.glyphs[15906][5] == -2 and addon.glyphs[15906][6] == 73.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15906] = { 78, 562, 362, 76, -2, 73.27 }
+assert(addon.glyphs[15933] and addon.glyphs[15933][1] == 114 and addon.glyphs[15933][2] == 156 and addon.glyphs[15933][3] == 62 and addon.glyphs[15933][4] == 76 and addon.glyphs[15933][5] == -1 and addon.glyphs[15933][6] == 74.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15933] = { 78, 642, 362, 76, -1, 74.36 }
+assert(addon.glyphs[15971] and addon.glyphs[15971][1] == 114 and addon.glyphs[15971][2] == 930 and addon.glyphs[15971][3] == 242 and addon.glyphs[15971][4] == 76 and addon.glyphs[15971][5] == 0 and addon.glyphs[15971][6] == 75.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15971] = { 78, 722, 362, 76, 0, 75.75 }
+assert(addon.glyphs[15987] and addon.glyphs[15987][1] == 114 and addon.glyphs[15987][2] == 393 and addon.glyphs[15987][3] == 362 and addon.glyphs[15987][4] == 76 and addon.glyphs[15987][5] == 0 and addon.glyphs[15987][6] == 75.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15987] = { 78, 802, 362, 76, 0, 75.81 }
+assert(addon.glyphs[15992] and addon.glyphs[15992][1] == 114 and addon.glyphs[15992][2] == 807 and addon.glyphs[15992][3] == 362 and addon.glyphs[15992][4] == 76 and addon.glyphs[15992][5] == 0 and addon.glyphs[15992][6] == 75.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15992] = { 78, 882, 362, 76, 0, 75.69 }
+assert(addon.glyphs[13204] and addon.glyphs[13204][1] == 87 and addon.glyphs[13204][2] == 745 and addon.glyphs[13204][3] == 62 and addon.glyphs[13204][4] == 75 and addon.glyphs[13204][5] == -3 and addon.glyphs[13204][6] == 71.78, "MAIN44 relocation baseline changed")
+addon.glyphs[13204] = { 78, 2, 422, 75, -3, 71.78 }
+assert(addon.glyphs[14324] and addon.glyphs[14324][1] == 97 and addon.glyphs[14324][2] == 145 and addon.glyphs[14324][3] == 62 and addon.glyphs[14324][4] == 75 and addon.glyphs[14324][5] == -3 and addon.glyphs[14324][6] == 71.78, "MAIN44 relocation baseline changed")
+addon.glyphs[14324] = { 78, 81, 422, 75, -3, 71.78 }
+assert(addon.glyphs[15373] and addon.glyphs[15373][1] == 111 and addon.glyphs[15373][2] == 48 and addon.glyphs[15373][3] == 182 and addon.glyphs[15373][4] == 75 and addon.glyphs[15373][5] == 0 and addon.glyphs[15373][6] == 74.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15373] = { 78, 160, 422, 75, 0, 74.31 }
+assert(addon.glyphs[15376] and addon.glyphs[15376][1] == 111 and addon.glyphs[15376][2] == 281 and addon.glyphs[15376][3] == 182 and addon.glyphs[15376][4] == 75 and addon.glyphs[15376][5] == 0 and addon.glyphs[15376][6] == 74.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15376] = { 78, 239, 422, 75, 0, 74.7 }
+assert(addon.glyphs[15433] and addon.glyphs[15433][1] == 111 and addon.glyphs[15433][2] == 227 and addon.glyphs[15433][3] == 482 and addon.glyphs[15433][4] == 75 and addon.glyphs[15433][5] == 0 and addon.glyphs[15433][6] == 74.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15433] = { 78, 318, 422, 75, 0, 74.28 }
+assert(addon.glyphs[15446] and addon.glyphs[15446][1] == 111 and addon.glyphs[15446][2] == 603 and addon.glyphs[15446][3] == 542 and addon.glyphs[15446][4] == 75 and addon.glyphs[15446][5] == 0 and addon.glyphs[15446][6] == 74.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15446] = { 78, 397, 422, 75, 0, 74.97 }
+assert(addon.glyphs[15471] and addon.glyphs[15471][1] == 111 and addon.glyphs[15471][2] == 92 and addon.glyphs[15471][3] == 722 and addon.glyphs[15471][4] == 75 and addon.glyphs[15471][5] == 0 and addon.glyphs[15471][6] == 74.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15471] = { 78, 476, 422, 75, 0, 74.86 }
+assert(addon.glyphs[15517] and addon.glyphs[15517][1] == 111 and addon.glyphs[15517][2] == 765 and addon.glyphs[15517][3] == 902 and addon.glyphs[15517][4] == 75 and addon.glyphs[15517][5] == 0 and addon.glyphs[15517][6] == 74.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15517] = { 78, 555, 422, 75, 0, 74.34 }
+assert(addon.glyphs[15583] and addon.glyphs[15583][1] == 112 and addon.glyphs[15583][2] == 911 and addon.glyphs[15583][3] == 182 and addon.glyphs[15583][4] == 75 and addon.glyphs[15583][5] == 0 and addon.glyphs[15583][6] == 74.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15583] = { 78, 634, 422, 75, 0, 74.33 }
+assert(addon.glyphs[15619] and addon.glyphs[15619][1] == 112 and addon.glyphs[15619][2] == 902 and addon.glyphs[15619][3] == 362 and addon.glyphs[15619][4] == 75 and addon.glyphs[15619][5] == 0 and addon.glyphs[15619][6] == 73.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15619] = { 78, 713, 422, 75, 0, 73.58 }
+assert(addon.glyphs[15621] and addon.glyphs[15621][1] == 112 and addon.glyphs[15621][2] == 2 and addon.glyphs[15621][3] == 422 and addon.glyphs[15621][4] == 75 and addon.glyphs[15621][5] == 0 and addon.glyphs[15621][6] == 74.42, "MAIN44 relocation baseline changed")
+addon.glyphs[15621] = { 78, 792, 422, 75, 0, 74.42 }
+assert(addon.glyphs[15745] and addon.glyphs[15745][1] == 113 and addon.glyphs[15745][2] == 229 and addon.glyphs[15745][3] == 62 and addon.glyphs[15745][4] == 75 and addon.glyphs[15745][5] == 0 and addon.glyphs[15745][6] == 74.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15745] = { 78, 871, 422, 75, 0, 74.19 }
+assert(addon.glyphs[15795] and addon.glyphs[15795][1] == 113 and addon.glyphs[15795][2] == 713 and addon.glyphs[15795][3] == 302 and addon.glyphs[15795][4] == 75 and addon.glyphs[15795][5] == 0 and addon.glyphs[15795][6] == 74.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15795] = { 78, 2, 482, 75, 0, 74.28 }
+assert(addon.glyphs[15876] and addon.glyphs[15876][1] == 113 and addon.glyphs[15876][2] == 223 and addon.glyphs[15876][3] == 782 and addon.glyphs[15876][4] == 75 and addon.glyphs[15876][5] == 0 and addon.glyphs[15876][6] == 74.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15876] = { 78, 81, 482, 75, 0, 74.3 }
+assert(addon.glyphs[15883] and addon.glyphs[15883][1] == 113 and addon.glyphs[15883][2] == 829 and addon.glyphs[15883][3] == 782 and addon.glyphs[15883][4] == 75 and addon.glyphs[15883][5] == 0 and addon.glyphs[15883][6] == 74.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15883] = { 78, 160, 482, 75, 0, 74.8 }
+assert(addon.glyphs[15891] and addon.glyphs[15891][1] == 113 and addon.glyphs[15891][2] == 509 and addon.glyphs[15891][3] == 842 and addon.glyphs[15891][4] == 75 and addon.glyphs[15891][5] == -3 and addon.glyphs[15891][6] == 71.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15891] = { 78, 239, 482, 75, -3, 71.23 }
+assert(addon.glyphs[14306] and addon.glyphs[14306][1] == 97 and addon.glyphs[14306][2] == 60 and addon.glyphs[14306][3] == 2 and addon.glyphs[14306][4] == 74 and addon.glyphs[14306][5] == -1 and addon.glyphs[14306][6] == 72.39, "MAIN44 relocation baseline changed")
+addon.glyphs[14306] = { 78, 318, 482, 74, -1, 72.39 }
+assert(addon.glyphs[14330] and addon.glyphs[14330][1] == 97 and addon.glyphs[14330][2] == 493 and addon.glyphs[14330][3] == 62 and addon.glyphs[14330][4] == 74 and addon.glyphs[14330][5] == -3 and addon.glyphs[14330][6] == 70.08, "MAIN44 relocation baseline changed")
+addon.glyphs[14330] = { 78, 396, 482, 74, -3, 70.08 }
+assert(addon.glyphs[15582] and addon.glyphs[15582][1] == 112 and addon.glyphs[15582][2] == 833 and addon.glyphs[15582][3] == 182 and addon.glyphs[15582][4] == 74 and addon.glyphs[15582][5] == 0 and addon.glyphs[15582][6] == 73.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15582] = { 78, 474, 482, 74, 0, 73.67 }
+assert(addon.glyphs[15646] and addon.glyphs[15646][1] == 112 and addon.glyphs[15646][2] == 108 and addon.glyphs[15646][3] == 542 and addon.glyphs[15646][4] == 74 and addon.glyphs[15646][5] == -1 and addon.glyphs[15646][6] == 72.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15646] = { 78, 552, 482, 74, -1, 72.39 }
+assert(addon.glyphs[15787] and addon.glyphs[15787][1] == 113 and addon.glyphs[15787][2] == 125 and addon.glyphs[15787][3] == 302 and addon.glyphs[15787][4] == 74 and addon.glyphs[15787][5] == 0 and addon.glyphs[15787][6] == 73.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15787] = { 78, 630, 482, 74, 0, 73.11 }
+assert(addon.glyphs[15879] and addon.glyphs[15879][1] == 113 and addon.glyphs[15879][2] == 503 and addon.glyphs[15879][3] == 782 and addon.glyphs[15879][4] == 74 and addon.glyphs[15879][5] == 0 and addon.glyphs[15879][6] == 73.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15879] = { 78, 708, 482, 74, 0, 73.19 }
+assert(addon.glyphs[15342] and addon.glyphs[15342][1] == 111 and addon.glyphs[15342][2] == 698 and addon.glyphs[15342][3] == 2 and addon.glyphs[15342][4] == 73 and addon.glyphs[15342][5] == -2 and addon.glyphs[15342][6] == 68.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15342] = { 78, 786, 482, 73, -2, 68.94 }
+assert(addon.glyphs[15404] and addon.glyphs[15404][1] == 111 and addon.glyphs[15404][2] == 636 and addon.glyphs[15404][3] == 302 and addon.glyphs[15404][4] == 73 and addon.glyphs[15404][5] == 0 and addon.glyphs[15404][6] == 72.69, "MAIN44 relocation baseline changed")
+addon.glyphs[15404] = { 78, 863, 482, 73, 0, 72.69 }
+assert(addon.glyphs[15671] and addon.glyphs[15671][1] == 112 and addon.glyphs[15671][2] == 428 and addon.glyphs[15671][3] == 662 and addon.glyphs[15671][4] == 73 and addon.glyphs[15671][5] == 0 and addon.glyphs[15671][6] == 72.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15671] = { 78, 940, 482, 73, 0, 72.03 }
+assert(addon.glyphs[15690] and addon.glyphs[15690][1] == 112 and addon.glyphs[15690][2] == 322 and addon.glyphs[15690][3] == 782 and addon.glyphs[15690][4] == 73 and addon.glyphs[15690][5] == 0 and addon.glyphs[15690][6] == 72.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15690] = { 78, 2, 542, 73, 0, 72.14 }
+assert(addon.glyphs[15698] and addon.glyphs[15698][1] == 112 and addon.glyphs[15698][2] == 2 and addon.glyphs[15698][3] == 842 and addon.glyphs[15698][4] == 73 and addon.glyphs[15698][5] == 0 and addon.glyphs[15698][6] == 72.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15698] = { 78, 79, 542, 73, 0, 72.48 }
+assert(addon.glyphs[15985] and addon.glyphs[15985][1] == 114 and addon.glyphs[15985][2] == 218 and addon.glyphs[15985][3] == 362 and addon.glyphs[15985][4] == 73 and addon.glyphs[15985][5] == 0 and addon.glyphs[15985][6] == 72.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15985] = { 78, 156, 542, 73, 0, 72.14 }
+assert(addon.glyphs[13201] and addon.glyphs[13201][1] == 87 and addon.glyphs[13201][2] == 586 and addon.glyphs[13201][3] == 62 and addon.glyphs[13201][4] == 72 and addon.glyphs[13201][5] == 0 and addon.glyphs[13201][6] == 71.09, "MAIN44 relocation baseline changed")
+addon.glyphs[13201] = { 78, 233, 542, 72, 0, 71.09 }
+assert(addon.glyphs[14350] and addon.glyphs[14350][1] == 98 and addon.glyphs[14350][2] == 449 and addon.glyphs[14350][3] == 62 and addon.glyphs[14350][4] == 72 and addon.glyphs[14350][5] == 0 and addon.glyphs[14350][6] == 71.84, "MAIN44 relocation baseline changed")
+addon.glyphs[14350] = { 78, 309, 542, 72, 0, 71.84 }
+assert(addon.glyphs[14488] and addon.glyphs[14488][1] == 102 and addon.glyphs[14488][2] == 887 and addon.glyphs[14488][3] == 2 and addon.glyphs[14488][4] == 72 and addon.glyphs[14488][5] == 0 and addon.glyphs[14488][6] == 71.09, "MAIN44 relocation baseline changed")
+addon.glyphs[14488] = { 78, 385, 542, 72, 0, 71.09 }
+assert(addon.glyphs[14599] and addon.glyphs[14599][1] == 104 and addon.glyphs[14599][2] == 730 and addon.glyphs[14599][3] == 2 and addon.glyphs[14599][4] == 72 and addon.glyphs[14599][5] == 0 and addon.glyphs[14599][6] == 71.84, "MAIN44 relocation baseline changed")
+addon.glyphs[14599] = { 78, 461, 542, 72, 0, 71.84 }
+assert(addon.glyphs[15385] and addon.glyphs[15385][1] == 111 and addon.glyphs[15385][2] == 2 and addon.glyphs[15385][3] == 242 and addon.glyphs[15385][4] == 72 and addon.glyphs[15385][5] == 0 and addon.glyphs[15385][6] == 71.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15385] = { 78, 537, 542, 72, 0, 71.33 }
+assert(addon.glyphs[15391] and addon.glyphs[15391][1] == 111 and addon.glyphs[15391][2] == 452 and addon.glyphs[15391][3] == 242 and addon.glyphs[15391][4] == 72 and addon.glyphs[15391][5] == 0 and addon.glyphs[15391][6] == 71.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15391] = { 78, 613, 542, 72, 0, 71.58 }
+assert(addon.glyphs[15442] and addon.glyphs[15442][1] == 111 and addon.glyphs[15442][2] == 196 and addon.glyphs[15442][3] == 542 and addon.glyphs[15442][4] == 72 and addon.glyphs[15442][5] == 0 and addon.glyphs[15442][6] == 71.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15442] = { 78, 689, 542, 72, 0, 71.31 }
+assert(addon.glyphs[15478] and addon.glyphs[15478][1] == 111 and addon.glyphs[15478][2] == 670 and addon.glyphs[15478][3] == 722 and addon.glyphs[15478][4] == 72 and addon.glyphs[15478][5] == 0 and addon.glyphs[15478][6] == 71.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15478] = { 78, 765, 542, 72, 0, 71.91 }
+assert(addon.glyphs[15601] and addon.glyphs[15601][1] == 112 and addon.glyphs[15601][2] == 336 and addon.glyphs[15601][3] == 302 and addon.glyphs[15601][4] == 72 and addon.glyphs[15601][5] == 0 and addon.glyphs[15601][6] == 71.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15601] = { 78, 841, 542, 72, 0, 71.84 }
+assert(addon.glyphs[15699] and addon.glyphs[15699][1] == 112 and addon.glyphs[15699][2] == 79 and addon.glyphs[15699][3] == 842 and addon.glyphs[15699][4] == 72 and addon.glyphs[15699][5] == 0 and addon.glyphs[15699][6] == 70.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15699] = { 78, 917, 542, 72, 0, 70.92 }
+assert(addon.glyphs[15810] and addon.glyphs[15810][1] == 113 and addon.glyphs[15810][2] == 230 and addon.glyphs[15810][3] == 422 and addon.glyphs[15810][4] == 72 and addon.glyphs[15810][5] == 0 and addon.glyphs[15810][6] == 71.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15810] = { 78, 2, 602, 72, 0, 71.89 }
+assert(addon.glyphs[15914] and addon.glyphs[15914][1] == 113 and addon.glyphs[15914][2] == 476 and addon.glyphs[15914][3] == 962 and addon.glyphs[15914][4] == 72 and addon.glyphs[15914][5] == -2 and addon.glyphs[15914][6] == 69.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15914] = { 78, 78, 602, 72, -2, 69.95 }
+assert(addon.glyphs[15916] and addon.glyphs[15916][1] == 113 and addon.glyphs[15916][2] == 677 and addon.glyphs[15916][3] == 962 and addon.glyphs[15916][4] == 72 and addon.glyphs[15916][5] == 0 and addon.glyphs[15916][6] == 71.5, "MAIN44 relocation baseline changed")
+addon.glyphs[15916] = { 78, 154, 602, 72, 0, 71.5 }
+assert(addon.glyphs[14348] and addon.glyphs[14348][1] == 98 and addon.glyphs[14348][2] == 261 and addon.glyphs[14348][3] == 62 and addon.glyphs[14348][4] == 71 and addon.glyphs[14348][5] == 0 and addon.glyphs[14348][6] == 70.77, "MAIN44 relocation baseline changed")
+addon.glyphs[14348] = { 78, 230, 602, 71, 0, 70.77 }
+assert(addon.glyphs[15548] and addon.glyphs[15548][1] == 112 and addon.glyphs[15548][2] == 168 and addon.glyphs[15548][3] == 62 and addon.glyphs[15548][4] == 71 and addon.glyphs[15548][5] == 0 and addon.glyphs[15548][6] == 70.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15548] = { 78, 305, 602, 71, 0, 70.95 }
+assert(addon.glyphs[15562] and addon.glyphs[15562][1] == 112 and addon.glyphs[15562][2] == 144 and addon.glyphs[15562][3] == 122 and addon.glyphs[15562][4] == 71 and addon.glyphs[15562][5] == -1 and addon.glyphs[15562][6] == 69.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15562] = { 78, 380, 602, 71, -1, 69.27 }
+assert(addon.glyphs[15603] and addon.glyphs[15603][1] == 112 and addon.glyphs[15603][2] == 539 and addon.glyphs[15603][3] == 302 and addon.glyphs[15603][4] == 71 and addon.glyphs[15603][5] == 0 and addon.glyphs[15603][6] == 70.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15603] = { 78, 455, 602, 71, 0, 70.95 }
+assert(addon.glyphs[15664] and addon.glyphs[15664][1] == 112 and addon.glyphs[15664][2] == 758 and addon.glyphs[15664][3] == 602 and addon.glyphs[15664][4] == 71 and addon.glyphs[15664][5] == 0 and addon.glyphs[15664][6] == 70.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15664] = { 78, 530, 602, 71, 0, 70.77 }
+assert(addon.glyphs[15726] and addon.glyphs[15726][1] == 112 and addon.glyphs[15726][2] == 312 and addon.glyphs[15726][3] == 962 and addon.glyphs[15726][4] == 71 and addon.glyphs[15726][5] == 0 and addon.glyphs[15726][6] == 70.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15726] = { 78, 605, 602, 71, 0, 70.84 }
+assert(addon.glyphs[15735] and addon.glyphs[15735][1] == 113 and addon.glyphs[15735][2] == 178 and addon.glyphs[15735][3] == 2 and addon.glyphs[15735][4] == 71 and addon.glyphs[15735][5] == 0 and addon.glyphs[15735][6] == 70.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15735] = { 78, 680, 602, 71, 0, 70.09 }
+assert(addon.glyphs[15782] and addon.glyphs[15782][1] == 113 and addon.glyphs[15782][2] == 702 and addon.glyphs[15782][3] == 242 and addon.glyphs[15782][4] == 71 and addon.glyphs[15782][5] == 0 and addon.glyphs[15782][6] == 70.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15782] = { 78, 755, 602, 71, 0, 70.48 }
+assert(addon.glyphs[15812] and addon.glyphs[15812][1] == 113 and addon.glyphs[15812][2] == 403 and addon.glyphs[15812][3] == 422 and addon.glyphs[15812][4] == 71 and addon.glyphs[15812][5] == 0 and addon.glyphs[15812][6] == 70.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15812] = { 78, 830, 602, 71, 0, 70.77 }
+assert(addon.glyphs[15831] and addon.glyphs[15831][1] == 113 and addon.glyphs[15831][2] == 137 and addon.glyphs[15831][3] == 542 and addon.glyphs[15831][4] == 71 and addon.glyphs[15831][5] == 0 and addon.glyphs[15831][6] == 70.62, "MAIN44 relocation baseline changed")
+addon.glyphs[15831] = { 78, 905, 602, 71, 0, 70.62 }
+assert(addon.glyphs[15839] and addon.glyphs[15839][1] == 113 and addon.glyphs[15839][2] == 778 and addon.glyphs[15839][3] == 542 and addon.glyphs[15839][4] == 71 and addon.glyphs[15839][5] == 0 and addon.glyphs[15839][6] == 70.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15839] = { 78, 2, 662, 71, 0, 70.8 }
+assert(addon.glyphs[15846] and addon.glyphs[15846][1] == 113 and addon.glyphs[15846][2] == 545 and addon.glyphs[15846][3] == 602 and addon.glyphs[15846][4] == 71 and addon.glyphs[15846][5] == 0 and addon.glyphs[15846][6] == 70.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15846] = { 78, 77, 662, 71, 0, 70.19 }
+assert(addon.glyphs[14501] and addon.glyphs[14501][1] == 102 and addon.glyphs[14501][2] == 85 and addon.glyphs[14501][3] == 122 and addon.glyphs[14501][4] == 70 and addon.glyphs[14501][5] == 0 and addon.glyphs[14501][6] == 69.92, "MAIN44 relocation baseline changed")
+addon.glyphs[14501] = { 78, 152, 662, 70, 0, 69.92 }
+assert(addon.glyphs[15358] and addon.glyphs[15358][1] == 111 and addon.glyphs[15358][2] == 864 and addon.glyphs[15358][3] == 62 and addon.glyphs[15358][4] == 70 and addon.glyphs[15358][5] == 0 and addon.glyphs[15358][6] == 69.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15358] = { 78, 226, 662, 70, 0, 69.09 }
+assert(addon.glyphs[15370] and addon.glyphs[15370][1] == 111 and addon.glyphs[15370][2] == 855 and addon.glyphs[15370][3] == 122 and addon.glyphs[15370][4] == 70 and addon.glyphs[15370][5] == 0 and addon.glyphs[15370][6] == 69.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15370] = { 78, 300, 662, 70, 0, 69.92 }
+assert(addon.glyphs[15381] and addon.glyphs[15381][1] == 111 and addon.glyphs[15381][2] == 671 and addon.glyphs[15381][3] == 182 and addon.glyphs[15381][4] == 70 and addon.glyphs[15381][5] == 0 and addon.glyphs[15381][6] == 69.5, "MAIN44 relocation baseline changed")
+addon.glyphs[15381] = { 78, 374, 662, 70, 0, 69.5 }
+assert(addon.glyphs[15635] and addon.glyphs[15635][1] == 112 and addon.glyphs[15635][2] == 92 and addon.glyphs[15635][3] == 482 and addon.glyphs[15635][4] == 70 and addon.glyphs[15635][5] == 0 and addon.glyphs[15635][6] == 69.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15635] = { 78, 448, 662, 70, 0, 69.92 }
+assert(addon.glyphs[12593] and addon.glyphs[12593][1] == 82 and addon.glyphs[12593][2] == 262 and addon.glyphs[12593][3] == 62 and addon.glyphs[12593][4] == 69 and addon.glyphs[12593][5] == 0 and addon.glyphs[12593][6] == 68.38, "MAIN44 relocation baseline changed")
+addon.glyphs[12593] = { 78, 522, 662, 69, 0, 68.38 }
+assert(addon.glyphs[15459] and addon.glyphs[15459][1] == 111 and addon.glyphs[15459][2] == 2 and addon.glyphs[15459][3] == 662 and addon.glyphs[15459][4] == 69 and addon.glyphs[15459][5] == 0 and addon.glyphs[15459][6] == 68.5, "MAIN44 relocation baseline changed")
+addon.glyphs[15459] = { 78, 595, 662, 69, 0, 68.5 }
+assert(addon.glyphs[15553] and addon.glyphs[15553][1] == 112 and addon.glyphs[15553][2] == 503 and addon.glyphs[15553][3] == 62 and addon.glyphs[15553][4] == 69 and addon.glyphs[15553][5] == 0 and addon.glyphs[15553][6] == 68.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15553] = { 78, 668, 662, 69, 0, 68.91 }
+assert(addon.glyphs[15951] and addon.glyphs[15951][1] == 114 and addon.glyphs[15951][2] == 926 and addon.glyphs[15951][3] == 122 and addon.glyphs[15951][4] == 69 and addon.glyphs[15951][5] == 0 and addon.glyphs[15951][6] == 68.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15951] = { 78, 741, 662, 69, 0, 68.48 }
+assert(addon.glyphs[13199] and addon.glyphs[13199][1] == 87 and addon.glyphs[13199][2] == 464 and addon.glyphs[13199][3] == 62 and addon.glyphs[13199][4] == 68 and addon.glyphs[13199][5] == 0 and addon.glyphs[13199][6] == 67.83, "MAIN44 relocation baseline changed")
+addon.glyphs[13199] = { 78, 814, 662, 68, 0, 67.83 }
+assert(addon.glyphs[13486] and addon.glyphs[13486][1] == 90 and addon.glyphs[13486][2] == 675 and addon.glyphs[13486][3] == 2 and addon.glyphs[13486][4] == 68 and addon.glyphs[13486][5] == 0 and addon.glyphs[13486][6] == 67.45, "MAIN44 relocation baseline changed")
+addon.glyphs[13486] = { 78, 886, 662, 68, 0, 67.45 }
+assert(addon.glyphs[15355] and addon.glyphs[15355][1] == 111 and addon.glyphs[15355][2] == 697 and addon.glyphs[15355][3] == 62 and addon.glyphs[15355][4] == 68 and addon.glyphs[15355][5] == 0 and addon.glyphs[15355][6] == 67.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15355] = { 78, 2, 722, 68, 0, 67.53 }
+assert(addon.glyphs[15525] and addon.glyphs[15525][1] == 111 and addon.glyphs[15525][2] == 363 and addon.glyphs[15525][3] == 962 and addon.glyphs[15525][4] == 68 and addon.glyphs[15525][5] == 0 and addon.glyphs[15525][6] == 67.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15525] = { 78, 74, 722, 68, 0, 67.78 }
+assert(addon.glyphs[15785] and addon.glyphs[15785][1] == 113 and addon.glyphs[15785][2] == 2 and addon.glyphs[15785][3] == 302 and addon.glyphs[15785][4] == 68 and addon.glyphs[15785][5] == 0 and addon.glyphs[15785][6] == 67.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15785] = { 78, 146, 722, 68, 0, 67.72 }
+assert(addon.glyphs[15800] and addon.glyphs[15800][1] == 113 and addon.glyphs[15800][2] == 354 and addon.glyphs[15800][3] == 362 and addon.glyphs[15800][4] == 68 and addon.glyphs[15800][5] == 0 and addon.glyphs[15800][6] == 67.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15800] = { 78, 218, 722, 68, 0, 67.84 }
+assert(addon.glyphs[15919] and addon.glyphs[15919][1] == 113 and addon.glyphs[15919][2] == 851 and addon.glyphs[15919][3] == 962 and addon.glyphs[15919][4] == 68 and addon.glyphs[15919][5] == 0 and addon.glyphs[15919][6] == 67.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15919] = { 78, 290, 722, 68, 0, 67.97 }
+assert(addon.glyphs[12592] and addon.glyphs[12592][1] == 82 and addon.glyphs[12592][2] == 191 and addon.glyphs[12592][3] == 62 and addon.glyphs[12592][4] == 67 and addon.glyphs[12592][5] == 0 and addon.glyphs[12592][6] == 66.03, "MAIN44 relocation baseline changed")
+addon.glyphs[12592] = { 78, 362, 722, 67, 0, 66.03 }
+assert(addon.glyphs[15415] and addon.glyphs[15415][1] == 111 and addon.glyphs[15415][2] == 471 and addon.glyphs[15415][3] == 362 and addon.glyphs[15415][4] == 67 and addon.glyphs[15415][5] == 0 and addon.glyphs[15415][6] == 66.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15415] = { 78, 433, 722, 67, 0, 66.98 }
+assert(addon.glyphs[15616] and addon.glyphs[15616][1] == 112 and addon.glyphs[15616][2] == 611 and addon.glyphs[15616][3] == 362 and addon.glyphs[15616][4] == 67 and addon.glyphs[15616][5] == 0 and addon.glyphs[15616][6] == 66.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15616] = { 78, 504, 722, 67, 0, 66.33 }
+assert(addon.glyphs[15775] and addon.glyphs[15775][1] == 113 and addon.glyphs[15775][2] == 143 and addon.glyphs[15775][3] == 242 and addon.glyphs[15775][4] == 67 and addon.glyphs[15775][5] == 0 and addon.glyphs[15775][6] == 66.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15775] = { 78, 575, 722, 67, 0, 66.7 }
+assert(addon.glyphs[15979] and addon.glyphs[15979][1] == 114 and addon.glyphs[15979][2] == 669 and addon.glyphs[15979][3] == 302 and addon.glyphs[15979][4] == 67 and addon.glyphs[15979][5] == -2 and addon.glyphs[15979][6] == 64.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15979] = { 78, 646, 722, 67, -2, 64.34 }
+assert(addon.glyphs[14332] and addon.glyphs[14332][1] == 97 and addon.glyphs[14332][2] == 610 and addon.glyphs[14332][3] == 62 and addon.glyphs[14332][4] == 66 and addon.glyphs[14332][5] == -3 and addon.glyphs[14332][6] == 62.44, "MAIN44 relocation baseline changed")
+addon.glyphs[14332] = { 78, 717, 722, 66, -3, 62.44 }
+assert(addon.glyphs[15637] and addon.glyphs[15637][1] == 112 and addon.glyphs[15637][2] == 290 and addon.glyphs[15637][3] == 482 and addon.glyphs[15637][4] == 66 and addon.glyphs[15637][5] == -3 and addon.glyphs[15637][6] == 62.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15637] = { 78, 787, 722, 66, -3, 62.44 }
+assert(addon.glyphs[15652] and addon.glyphs[15652][1] == 112 and addon.glyphs[15652][2] == 643 and addon.glyphs[15652][3] == 542 and addon.glyphs[15652][4] == 66 and addon.glyphs[15652][5] == 0 and addon.glyphs[15652][6] == 65.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15652] = { 78, 857, 722, 66, 0, 65.16 }
+assert(addon.glyphs[15809] and addon.glyphs[15809][1] == 113 and addon.glyphs[15809][2] == 160 and addon.glyphs[15809][3] == 422 and addon.glyphs[15809][4] == 66 and addon.glyphs[15809][5] == 0 and addon.glyphs[15809][6] == 63.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15809] = { 78, 927, 722, 66, 0, 63.81 }
+assert(addon.glyphs[15964] and addon.glyphs[15964][1] == 114 and addon.glyphs[15964][2] == 247 and addon.glyphs[15964][3] == 242 and addon.glyphs[15964][4] == 66 and addon.glyphs[15964][5] == 0 and addon.glyphs[15964][6] == 65.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15964] = { 78, 2, 782, 66, 0, 65.83 }
+assert(addon.glyphs[14317] and addon.glyphs[14317][1] == 97 and addon.glyphs[14317][2] == 742 and addon.glyphs[14317][3] == 2 and addon.glyphs[14317][4] == 65 and addon.glyphs[14317][5] == -2 and addon.glyphs[14317][6] == 62.7, "MAIN44 relocation baseline changed")
+addon.glyphs[14317] = { 78, 72, 782, 65, -2, 62.7 }
+assert(addon.glyphs[15333] and addon.glyphs[15333][1] == 111 and addon.glyphs[15333][2] == 54 and addon.glyphs[15333][3] == 2 and addon.glyphs[15333][4] == 65 and addon.glyphs[15333][5] == 0 and addon.glyphs[15333][6] == 64.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15333] = { 78, 141, 782, 65, 0, 64.02 }
+assert(addon.glyphs[15393] and addon.glyphs[15393][1] == 111 and addon.glyphs[15393][2] == 595 and addon.glyphs[15393][3] == 242 and addon.glyphs[15393][4] == 65 and addon.glyphs[15393][5] == 0 and addon.glyphs[15393][6] == 64.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15393] = { 78, 210, 782, 65, 0, 64.16 }
+assert(addon.glyphs[15665] and addon.glyphs[15665][1] == 112 and addon.glyphs[15665][2] == 833 and addon.glyphs[15665][3] == 602 and addon.glyphs[15665][4] == 65 and addon.glyphs[15665][5] == 0 and addon.glyphs[15665][6] == 64.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15665] = { 78, 279, 782, 65, 0, 64.12 }
+assert(addon.glyphs[15681] and addon.glyphs[15681][1] == 112 and addon.glyphs[15681][2] == 451 and addon.glyphs[15681][3] == 722 and addon.glyphs[15681][4] == 65 and addon.glyphs[15681][5] == 0 and addon.glyphs[15681][6] == 64.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15681] = { 78, 348, 782, 65, 0, 64.28 }
+assert(addon.glyphs[15733] and addon.glyphs[15733][1] == 113 and addon.glyphs[15733][2] == 2 and addon.glyphs[15733][3] == 2 and addon.glyphs[15733][4] == 65 and addon.glyphs[15733][5] == 0 and addon.glyphs[15733][6] == 64.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15733] = { 78, 417, 782, 65, 0, 64.88 }
+assert(addon.glyphs[12569] and addon.glyphs[12569][1] == 81 and addon.glyphs[12569][2] == 644 and addon.glyphs[12569][3] == 62 and addon.glyphs[12569][4] == 64 and addon.glyphs[12569][5] == 0 and addon.glyphs[12569][6] == 63.56, "MAIN44 relocation baseline changed")
+addon.glyphs[12569] = { 78, 486, 782, 64, 0, 63.56 }
+assert(addon.glyphs[14601] and addon.glyphs[14601][1] == 105 and addon.glyphs[14601][2] == 41 and addon.glyphs[14601][3] == 2 and addon.glyphs[14601][4] == 64 and addon.glyphs[14601][5] == 0 and addon.glyphs[14601][6] == 63.72, "MAIN44 relocation baseline changed")
+addon.glyphs[14601] = { 78, 554, 782, 64, 0, 63.72 }
+assert(addon.glyphs[15371] and addon.glyphs[15371][1] == 111 and addon.glyphs[15371][2] == 929 and addon.glyphs[15371][3] == 122 and addon.glyphs[15371][4] == 64 and addon.glyphs[15371][5] == 0 and addon.glyphs[15371][6] == 63.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15371] = { 78, 622, 782, 64, 0, 63.28 }
+assert(addon.glyphs[15388] and addon.glyphs[15388][1] == 111 and addon.glyphs[15388][2] == 252 and addon.glyphs[15388][3] == 242 and addon.glyphs[15388][4] == 64 and addon.glyphs[15388][5] == 0 and addon.glyphs[15388][6] == 63.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15388] = { 78, 690, 782, 64, 0, 63.78 }
+assert(addon.glyphs[15641] and addon.glyphs[15641][1] == 112 and addon.glyphs[15641][2] == 575 and addon.glyphs[15641][3] == 482 and addon.glyphs[15641][4] == 64 and addon.glyphs[15641][5] == 0 and addon.glyphs[15641][6] == 63.17, "MAIN44 relocation baseline changed")
+addon.glyphs[15641] = { 78, 758, 782, 64, 0, 63.17 }
+assert(addon.glyphs[15751] and addon.glyphs[15751][1] == 113 and addon.glyphs[15751][2] == 770 and addon.glyphs[15751][3] == 62 and addon.glyphs[15751][4] == 64 and addon.glyphs[15751][5] == 0 and addon.glyphs[15751][6] == 63.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15751] = { 78, 826, 782, 64, 0, 63.27 }
+assert(addon.glyphs[15888] and addon.glyphs[15888][1] == 113 and addon.glyphs[15888][2] == 278 and addon.glyphs[15888][3] == 842 and addon.glyphs[15888][4] == 64 and addon.glyphs[15888][5] == 0 and addon.glyphs[15888][6] == 63.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15888] = { 78, 894, 782, 64, 0, 63.27 }
+assert(addon.glyphs[12531] and addon.glyphs[12531][1] == 80 and addon.glyphs[12531][2] == 451 and addon.glyphs[12531][3] == 2 and addon.glyphs[12531][4] == 63 and addon.glyphs[12531][5] == 0 and addon.glyphs[12531][6] == 62.25, "MAIN44 relocation baseline changed")
+addon.glyphs[12531] = { 78, 2, 842, 63, 0, 62.25 }
+assert(addon.glyphs[12550] and addon.glyphs[12550][1] == 81 and addon.glyphs[12550][2] == 436 and addon.glyphs[12550][3] == 2 and addon.glyphs[12550][4] == 63 and addon.glyphs[12550][5] == 0 and addon.glyphs[12550][6] == 62.5, "MAIN44 relocation baseline changed")
+addon.glyphs[12550] = { 78, 69, 842, 63, 0, 62.5 }
+assert(addon.glyphs[13582] and addon.glyphs[13582][1] == 92 and addon.glyphs[13582][2] == 58 and addon.glyphs[13582][3] == 62 and addon.glyphs[13582][4] == 63 and addon.glyphs[13582][5] == 0 and addon.glyphs[13582][6] == 62.48, "MAIN44 relocation baseline changed")
+addon.glyphs[13582] = { 78, 136, 842, 63, 0, 62.48 }
+assert(addon.glyphs[14336] and addon.glyphs[14336][1] == 98 and addon.glyphs[14336][2] == 128 and addon.glyphs[14336][3] == 2 and addon.glyphs[14336][4] == 63 and addon.glyphs[14336][5] == 0 and addon.glyphs[14336][6] == 62.45, "MAIN44 relocation baseline changed")
+addon.glyphs[14336] = { 78, 203, 842, 63, 0, 62.45 }
+assert(addon.glyphs[15361] and addon.glyphs[15361][1] == 111 and addon.glyphs[15361][2] == 60 and addon.glyphs[15361][3] == 122 and addon.glyphs[15361][4] == 63 and addon.glyphs[15361][5] == 0 and addon.glyphs[15361][6] == 62.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15361] = { 78, 270, 842, 63, 0, 62.48 }
+assert(addon.glyphs[15392] and addon.glyphs[15392][1] == 111 and addon.glyphs[15392][2] == 528 and addon.glyphs[15392][3] == 242 and addon.glyphs[15392][4] == 63 and addon.glyphs[15392][5] == 0 and addon.glyphs[15392][6] == 62.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15392] = { 78, 337, 842, 63, 0, 62.48 }
+assert(addon.glyphs[15487] and addon.glyphs[15487][1] == 111 and addon.glyphs[15487][2] == 366 and addon.glyphs[15487][3] == 782 and addon.glyphs[15487][4] == 63 and addon.glyphs[15487][5] == 0 and addon.glyphs[15487][6] == 62.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15487] = { 78, 404, 842, 63, 0, 62.3 }
+assert(addon.glyphs[15544] and addon.glyphs[15544][1] == 112 and addon.glyphs[15544][2] == 829 and addon.glyphs[15544][3] == 2 and addon.glyphs[15544][4] == 63 and addon.glyphs[15544][5] == 0 and addon.glyphs[15544][6] == 62.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15544] = { 78, 471, 842, 63, 0, 62.55 }
+assert(addon.glyphs[15623] and addon.glyphs[15623][1] == 112 and addon.glyphs[15623][2] == 137 and addon.glyphs[15623][3] == 422 and addon.glyphs[15623][4] == 63 and addon.glyphs[15623][5] == 0 and addon.glyphs[15623][6] == 62.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15623] = { 78, 538, 842, 63, 0, 62.45 }
+assert(addon.glyphs[15649] and addon.glyphs[15649][1] == 112 and addon.glyphs[15649][2] == 351 and addon.glyphs[15649][3] == 542 and addon.glyphs[15649][4] == 63 and addon.glyphs[15649][5] == 0 and addon.glyphs[15649][6] == 62.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15649] = { 78, 605, 842, 63, 0, 62.02 }
+assert(addon.glyphs[15749] and addon.glyphs[15749][1] == 113 and addon.glyphs[15749][2] == 618 and addon.glyphs[15749][3] == 62 and addon.glyphs[15749][4] == 63 and addon.glyphs[15749][5] == 0 and addon.glyphs[15749][6] == 62.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15749] = { 78, 672, 842, 63, 0, 62.25 }
+assert(addon.glyphs[15807] and addon.glyphs[15807][1] == 113 and addon.glyphs[15807][2] == 953 and addon.glyphs[15807][3] == 362 and addon.glyphs[15807][4] == 63 and addon.glyphs[15807][5] == 0 and addon.glyphs[15807][6] == 62.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15807] = { 78, 739, 842, 63, 0, 62.75 }
+assert(addon.glyphs[15815] and addon.glyphs[15815][1] == 113 and addon.glyphs[15815][2] == 671 and addon.glyphs[15815][3] == 422 and addon.glyphs[15815][4] == 63 and addon.glyphs[15815][5] == 0 and addon.glyphs[15815][6] == 62.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15815] = { 78, 806, 842, 63, 0, 62.02 }
+assert(addon.glyphs[12578] and addon.glyphs[12578][1] == 82 and addon.glyphs[12578][2] == 285 and addon.glyphs[12578][3] == 2 and addon.glyphs[12578][4] == 62 and addon.glyphs[12578][5] == 0 and addon.glyphs[12578][6] == 60.31, "MAIN44 relocation baseline changed")
+addon.glyphs[12578] = { 78, 873, 842, 62, 0, 60.31 }
+assert(addon.glyphs[14606] and addon.glyphs[14606][1] == 105 and addon.glyphs[14606][2] == 424 and addon.glyphs[14606][3] == 2 and addon.glyphs[14606][4] == 62 and addon.glyphs[14606][5] == 0 and addon.glyphs[14606][6] == 61.17, "MAIN44 relocation baseline changed")
+addon.glyphs[14606] = { 78, 939, 842, 62, 0, 61.17 }
+assert(addon.glyphs[15346] and addon.glyphs[15346][1] == 111 and addon.glyphs[15346][2] == 2 and addon.glyphs[15346][3] == 62 and addon.glyphs[15346][4] == 62 and addon.glyphs[15346][5] == 0 and addon.glyphs[15346][6] == 61.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15346] = { 78, 2, 902, 62, 0, 61.09 }
+assert(addon.glyphs[15368] and addon.glyphs[15368][1] == 111 and addon.glyphs[15368][2] == 743 and addon.glyphs[15368][3] == 122 and addon.glyphs[15368][4] == 62 and addon.glyphs[15368][5] == 0 and addon.glyphs[15368][6] == 61.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15368] = { 78, 68, 902, 62, 0, 61.34 }
+assert(addon.glyphs[15386] and addon.glyphs[15386][1] == 111 and addon.glyphs[15386][2] == 78 and addon.glyphs[15386][3] == 242 and addon.glyphs[15386][4] == 62 and addon.glyphs[15386][5] == 0 and addon.glyphs[15386][6] == 61.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15386] = { 78, 134, 902, 62, 0, 61.47 }
+assert(addon.glyphs[15389] and addon.glyphs[15389][1] == 111 and addon.glyphs[15389][2] == 320 and addon.glyphs[15389][3] == 242 and addon.glyphs[15389][4] == 62 and addon.glyphs[15389][5] == 0 and addon.glyphs[15389][6] == 61.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15389] = { 78, 200, 902, 62, 0, 61.59 }
+assert(addon.glyphs[15390] and addon.glyphs[15390][1] == 111 and addon.glyphs[15390][2] == 386 and addon.glyphs[15390][3] == 242 and addon.glyphs[15390][4] == 62 and addon.glyphs[15390][5] == 0 and addon.glyphs[15390][6] == 61.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15390] = { 78, 266, 902, 62, 0, 61.03 }
+assert(addon.glyphs[15469] and addon.glyphs[15469][1] == 111 and addon.glyphs[15469][2] == 912 and addon.glyphs[15469][3] == 662 and addon.glyphs[15469][4] == 62 and addon.glyphs[15469][5] == 0 and addon.glyphs[15469][6] == 61.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15469] = { 78, 332, 902, 62, 0, 61.67 }
+assert(addon.glyphs[15506] and addon.glyphs[15506][1] == 111 and addon.glyphs[15506][2] == 2 and addon.glyphs[15506][3] == 902 and addon.glyphs[15506][4] == 62 and addon.glyphs[15506][5] == 0 and addon.glyphs[15506][6] == 61.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15506] = { 78, 398, 902, 62, 0, 61.06 }
+assert(addon.glyphs[15511] and addon.glyphs[15511][1] == 111 and addon.glyphs[15511][2] == 336 and addon.glyphs[15511][3] == 902 and addon.glyphs[15511][4] == 62 and addon.glyphs[15511][5] == 0 and addon.glyphs[15511][6] == 61.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15511] = { 78, 464, 902, 62, 0, 61.86 }
+assert(addon.glyphs[15579] and addon.glyphs[15579][1] == 112 and addon.glyphs[15579][2] == 590 and addon.glyphs[15579][3] == 182 and addon.glyphs[15579][4] == 62 and addon.glyphs[15579][5] == 0 and addon.glyphs[15579][6] == 61.17, "MAIN44 relocation baseline changed")
+addon.glyphs[15579] = { 78, 530, 902, 62, 0, 61.17 }
+assert(addon.glyphs[15849] and addon.glyphs[15849][1] == 113 and addon.glyphs[15849][2] == 744 and addon.glyphs[15849][3] == 602 and addon.glyphs[15849][4] == 62 and addon.glyphs[15849][5] == 0 and addon.glyphs[15849][6] == 61.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15849] = { 78, 596, 902, 62, 0, 61.06 }
+assert(addon.glyphs[15890] and addon.glyphs[15890][1] == 113 and addon.glyphs[15890][2] == 443 and addon.glyphs[15890][3] == 842 and addon.glyphs[15890][4] == 62 and addon.glyphs[15890][5] == 0 and addon.glyphs[15890][6] == 60.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15890] = { 78, 662, 902, 62, 0, 60.31 }
+assert(addon.glyphs[15905] and addon.glyphs[15905][1] == 113 and addon.glyphs[15905][2] == 794 and addon.glyphs[15905][3] == 902 and addon.glyphs[15905][4] == 62 and addon.glyphs[15905][5] == 0 and addon.glyphs[15905][6] == 61.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15905] = { 78, 728, 902, 62, 0, 61.55 }
+assert(addon.glyphs[15963] and addon.glyphs[15963][1] == 114 and addon.glyphs[15963][2] == 181 and addon.glyphs[15963][3] == 242 and addon.glyphs[15963][4] == 62 and addon.glyphs[15963][5] == 0 and addon.glyphs[15963][6] == 61.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15963] = { 78, 794, 902, 62, 0, 61.77 }
+assert(addon.glyphs[15375] and addon.glyphs[15375][1] == 111 and addon.glyphs[15375][2] == 216 and addon.glyphs[15375][3] == 182 and addon.glyphs[15375][4] == 61 and addon.glyphs[15375][5] == 0 and addon.glyphs[15375][6] == 60.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15375] = { 78, 860, 902, 61, 0, 60.28 }
+assert(addon.glyphs[15380] and addon.glyphs[15380][1] == 111 and addon.glyphs[15380][2] == 606 and addon.glyphs[15380][3] == 182 and addon.glyphs[15380][4] == 61 and addon.glyphs[15380][5] == 0 and addon.glyphs[15380][6] == 60.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15380] = { 78, 925, 902, 61, 0, 60.28 }
+assert(addon.glyphs[15541] and addon.glyphs[15541][1] == 112 and addon.glyphs[15541][2] == 601 and addon.glyphs[15541][3] == 2 and addon.glyphs[15541][4] == 61 and addon.glyphs[15541][5] == 0 and addon.glyphs[15541][6] == 60.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15541] = { 78, 2, 962, 61, 0, 60.55 }
+assert(addon.glyphs[15556] and addon.glyphs[15556][1] == 112 and addon.glyphs[15556][2] == 711 and addon.glyphs[15556][3] == 62 and addon.glyphs[15556][4] == 61 and addon.glyphs[15556][5] == 0 and addon.glyphs[15556][6] == 60.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15556] = { 78, 67, 962, 61, 0, 60.77 }
+assert(addon.glyphs[15692] and addon.glyphs[15692][1] == 112 and addon.glyphs[15692][2] == 523 and addon.glyphs[15692][3] == 782 and addon.glyphs[15692][4] == 61 and addon.glyphs[15692][5] == 0 and addon.glyphs[15692][6] == 60.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15692] = { 78, 132, 962, 61, 0, 60.98 }
+assert(addon.glyphs[15747] and addon.glyphs[15747][1] == 113 and addon.glyphs[15747][2] == 473 and addon.glyphs[15747][3] == 62 and addon.glyphs[15747][4] == 61 and addon.glyphs[15747][5] == 0 and addon.glyphs[15747][6] == 60.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15747] = { 78, 197, 962, 61, 0, 60.55 }
+assert(addon.glyphs[15827] and addon.glyphs[15827][1] == 113 and addon.glyphs[15827][2] == 789 and addon.glyphs[15827][3] == 482 and addon.glyphs[15827][4] == 61 and addon.glyphs[15827][5] == 0 and addon.glyphs[15827][6] == 60.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15827] = { 78, 262, 962, 61, 0, 60.95 }
+assert(addon.glyphs[15927] and addon.glyphs[15927][1] == 114 and addon.glyphs[15927][2] == 646 and addon.glyphs[15927][3] == 2 and addon.glyphs[15927][4] == 61 and addon.glyphs[15927][5] == 0 and addon.glyphs[15927][6] == 60.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15927] = { 78, 327, 962, 61, 0, 60.48 }
+assert(addon.glyphs[15932] and addon.glyphs[15932][1] == 114 and addon.glyphs[15932][2] == 91 and addon.glyphs[15932][3] == 62 and addon.glyphs[15932][4] == 61 and addon.glyphs[15932][5] == 0 and addon.glyphs[15932][6] == 60.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15932] = { 78, 392, 962, 61, 0, 60.12 }
+assert(addon.glyphs[12538] and addon.glyphs[12538][1] == 80 and addon.glyphs[12538][2] == 227 and addon.glyphs[12538][3] == 62 and addon.glyphs[12538][4] == 60 and addon.glyphs[12538][5] == 0 and addon.glyphs[12538][6] == 59.94, "MAIN44 relocation baseline changed")
+addon.glyphs[12538] = { 78, 457, 962, 60, 0, 59.94 }
+assert(addon.glyphs[12558] and addon.glyphs[12558][1] == 81 and addon.glyphs[12558][2] == 2 and addon.glyphs[12558][3] == 62 and addon.glyphs[12558][4] == 60 and addon.glyphs[12558][5] == 0 and addon.glyphs[12558][6] == 59.28, "MAIN44 relocation baseline changed")
+addon.glyphs[12558] = { 78, 521, 962, 60, 0, 59.28 }
+assert(addon.glyphs[13187] and addon.glyphs[13187][1] == 87 and addon.glyphs[13187][2] == 739 and addon.glyphs[13187][3] == 2 and addon.glyphs[13187][4] == 60 and addon.glyphs[13187][5] == 0 and addon.glyphs[13187][6] == 59.8, "MAIN44 relocation baseline changed")
+addon.glyphs[13187] = { 78, 585, 962, 60, 0, 59.8 }
+assert(addon.glyphs[13475] and addon.glyphs[13475][1] == 90 and addon.glyphs[13475][2] == 26 and addon.glyphs[13475][3] == 2 and addon.glyphs[13475][4] == 60 and addon.glyphs[13475][5] == 0 and addon.glyphs[13475][6] == 59.91, "MAIN44 relocation baseline changed")
+addon.glyphs[13475] = { 78, 649, 962, 60, 0, 59.91 }
+assert(addon.glyphs[14610] and addon.glyphs[14610][1] == 105 and addon.glyphs[14610][2] == 781 and addon.glyphs[14610][3] == 2 and addon.glyphs[14610][4] == 60 and addon.glyphs[14610][5] == 0 and addon.glyphs[14610][6] == 59.36, "MAIN44 relocation baseline changed")
+addon.glyphs[14610] = { 78, 713, 962, 60, 0, 59.36 }
+assert(addon.glyphs[15500] and addon.glyphs[15500][1] == 111 and addon.glyphs[15500][2] == 434 and addon.glyphs[15500][3] == 842 and addon.glyphs[15500][4] == 60 and addon.glyphs[15500][5] == 0 and addon.glyphs[15500][6] == 59.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15500] = { 78, 777, 962, 60, 0, 59.91 }
+assert(addon.glyphs[15572] and addon.glyphs[15572][1] == 112 and addon.glyphs[15572][2] == 826 and addon.glyphs[15572][3] == 122 and addon.glyphs[15572][4] == 60 and addon.glyphs[15572][5] == 0 and addon.glyphs[15572][6] == 59.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15572] = { 78, 841, 962, 60, 0, 59.8 }
+assert(addon.glyphs[15594] and addon.glyphs[15594][1] == 112 and addon.glyphs[15594][2] == 783 and addon.glyphs[15594][3] == 242 and addon.glyphs[15594][4] == 60 and addon.glyphs[15594][5] == 0 and addon.glyphs[15594][6] == 59.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15594] = { 78, 905, 962, 60, 0, 59.36 }
+assert(addon.glyphs[15689] and addon.glyphs[15689][1] == 112 and addon.glyphs[15689][2] == 258 and addon.glyphs[15689][3] == 782 and addon.glyphs[15689][4] == 60 and addon.glyphs[15689][5] == 0 and addon.glyphs[15689][6] == 59.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15689] = { 91, 2, 362, 60, 0, 59.38 }
+assert(addon.glyphs[15719] and addon.glyphs[15719][1] == 112 and addon.glyphs[15719][2] == 741 and addon.glyphs[15719][3] == 902 and addon.glyphs[15719][4] == 60 and addon.glyphs[15719][5] == 0 and addon.glyphs[15719][6] == 59.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15719] = { 91, 66, 362, 60, 0, 59.02 }
+assert(addon.glyphs[15921] and addon.glyphs[15921][1] == 114 and addon.glyphs[15921][2] == 134 and addon.glyphs[15921][3] == 2 and addon.glyphs[15921][4] == 60 and addon.glyphs[15921][5] == -1 and addon.glyphs[15921][6] == 58.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15921] = { 91, 130, 362, 60, -1, 58.25 }
+assert(addon.glyphs[15994] and addon.glyphs[15994][1] == 114 and addon.glyphs[15994][2] == 933 and addon.glyphs[15994][3] == 362 and addon.glyphs[15994][4] == 60 and addon.glyphs[15994][5] == 0 and addon.glyphs[15994][6] == 59.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15994] = { 91, 194, 362, 60, 0, 59.53 }
+assert(addon.glyphs[13196] and addon.glyphs[13196][1] == 87 and addon.glyphs[13196][2] == 277 and addon.glyphs[13196][3] == 62 and addon.glyphs[13196][4] == 59 and addon.glyphs[13196][5] == 0 and addon.glyphs[13196][6] == 58.03, "MAIN44 relocation baseline changed")
+addon.glyphs[13196] = { 91, 258, 362, 59, 0, 58.03 }
+assert(addon.glyphs[14343] and addon.glyphs[14343][1] == 98 and addon.glyphs[14343][2] == 772 and addon.glyphs[14343][3] == 2 and addon.glyphs[14343][4] == 59 and addon.glyphs[14343][5] == 0 and addon.glyphs[14343][6] == 58.78, "MAIN44 relocation baseline changed")
+addon.glyphs[14343] = { 91, 321, 362, 59, 0, 58.78 }
+assert(addon.glyphs[14346] and addon.glyphs[14346][1] == 98 and addon.glyphs[14346][2] == 89 and addon.glyphs[14346][3] == 62 and addon.glyphs[14346][4] == 59 and addon.glyphs[14346][5] == 0 and addon.glyphs[14346][6] == 58.38, "MAIN44 relocation baseline changed")
+addon.glyphs[14346] = { 91, 384, 362, 59, 0, 58.38 }
+assert(addon.glyphs[14496] and addon.glyphs[14496][1] == 102 and addon.glyphs[14496][2] == 561 and addon.glyphs[14496][3] == 62 and addon.glyphs[14496][4] == 59 and addon.glyphs[14496][5] == 0 and addon.glyphs[14496][6] == 58.72, "MAIN44 relocation baseline changed")
+addon.glyphs[14496] = { 91, 447, 362, 59, 0, 58.72 }
+assert(addon.glyphs[14499] and addon.glyphs[14499][1] == 102 and addon.glyphs[14499][2] == 881 and addon.glyphs[14499][3] == 62 and addon.glyphs[14499][4] == 59 and addon.glyphs[14499][5] == 0 and addon.glyphs[14499][6] == 58.78, "MAIN44 relocation baseline changed")
+addon.glyphs[14499] = { 91, 510, 362, 59, 0, 58.78 }
+assert(addon.glyphs[15336] and addon.glyphs[15336][1] == 111 and addon.glyphs[15336][2] == 227 and addon.glyphs[15336][3] == 2 and addon.glyphs[15336][4] == 59 and addon.glyphs[15336][5] == 0 and addon.glyphs[15336][6] == 58.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15336] = { 91, 573, 362, 59, 0, 58.27 }
+assert(addon.glyphs[15378] and addon.glyphs[15378][1] == 111 and addon.glyphs[15378][2] == 483 and addon.glyphs[15378][3] == 182 and addon.glyphs[15378][4] == 59 and addon.glyphs[15378][5] == 0 and addon.glyphs[15378][6] == 58.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15378] = { 91, 636, 362, 59, 0, 58.28 }
+assert(addon.glyphs[15438] and addon.glyphs[15438][1] == 111 and addon.glyphs[15438][2] == 684 and addon.glyphs[15438][3] == 482 and addon.glyphs[15438][4] == 59 and addon.glyphs[15438][5] == 0 and addon.glyphs[15438][6] == 58.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15438] = { 91, 699, 362, 59, 0, 58.11 }
+assert(addon.glyphs[15551] and addon.glyphs[15551][1] == 112 and addon.glyphs[15551][2] == 396 and addon.glyphs[15551][3] == 62 and addon.glyphs[15551][4] == 59 and addon.glyphs[15551][5] == 0 and addon.glyphs[15551][6] == 58.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15551] = { 91, 762, 362, 59, 0, 58.33 }
+assert(addon.glyphs[15584] and addon.glyphs[15584][1] == 112 and addon.glyphs[15584][2] == 2 and addon.glyphs[15584][3] == 242 and addon.glyphs[15584][4] == 59 and addon.glyphs[15584][5] == 0 and addon.glyphs[15584][6] == 58.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15584] = { 91, 825, 362, 59, 0, 58.44 }
+assert(addon.glyphs[15595] and addon.glyphs[15595][1] == 112 and addon.glyphs[15595][2] == 847 and addon.glyphs[15595][3] == 242 and addon.glyphs[15595][4] == 59 and addon.glyphs[15595][5] == 0 and addon.glyphs[15595][6] == 58.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15595] = { 91, 888, 362, 59, 0, 58.72 }
+assert(addon.glyphs[15913] and addon.glyphs[15913][1] == 113 and addon.glyphs[15913][2] == 413 and addon.glyphs[15913][3] == 962 and addon.glyphs[15913][4] == 59 and addon.glyphs[15913][5] == 0 and addon.glyphs[15913][6] == 58.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15913] = { 91, 951, 362, 59, 0, 58.86 }
+assert(addon.glyphs[15934] and addon.glyphs[15934][1] == 114 and addon.glyphs[15934][2] == 236 and addon.glyphs[15934][3] == 62 and addon.glyphs[15934][4] == 59 and addon.glyphs[15934][5] == 0 and addon.glyphs[15934][6] == 58.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15934] = { 91, 2, 422, 59, 0, 58.95 }
+assert(addon.glyphs[13182] and addon.glyphs[13182][1] == 87 and addon.glyphs[13182][2] == 427 and addon.glyphs[13182][3] == 2 and addon.glyphs[13182][4] == 58 and addon.glyphs[13182][5] == 0 and addon.glyphs[13182][6] == 57.47, "MAIN44 relocation baseline changed")
+addon.glyphs[13182] = { 91, 65, 422, 58, 0, 57.47 }
+assert(addon.glyphs[14318] and addon.glyphs[14318][1] == 97 and addon.glyphs[14318][2] == 811 and addon.glyphs[14318][3] == 2 and addon.glyphs[14318][4] == 58 and addon.glyphs[14318][5] == -2 and addon.glyphs[14318][6] == 55.36, "MAIN44 relocation baseline changed")
+addon.glyphs[14318] = { 91, 127, 422, 58, -2, 55.36 }
+assert(addon.glyphs[15338] and addon.glyphs[15338][1] == 111 and addon.glyphs[15338][2] == 375 and addon.glyphs[15338][3] == 2 and addon.glyphs[15338][4] == 58 and addon.glyphs[15338][5] == -3 and addon.glyphs[15338][6] == 54.61, "MAIN44 relocation baseline changed")
+addon.glyphs[15338] = { 91, 189, 422, 58, -3, 54.61 }
+assert(addon.glyphs[15345] and addon.glyphs[15345][1] == 111 and addon.glyphs[15345][2] == 909 and addon.glyphs[15345][3] == 2 and addon.glyphs[15345][4] == 58 and addon.glyphs[15345][5] == 0 and addon.glyphs[15345][6] == 57.25, "MAIN44 relocation baseline changed")
+addon.glyphs[15345] = { 91, 251, 422, 58, 0, 57.25 }
+assert(addon.glyphs[15475] and addon.glyphs[15475][1] == 111 and addon.glyphs[15475][2] == 523 and addon.glyphs[15475][3] == 722 and addon.glyphs[15475][4] == 58 and addon.glyphs[15475][5] == 0 and addon.glyphs[15475][6] == 57.42, "MAIN44 relocation baseline changed")
+addon.glyphs[15475] = { 91, 313, 422, 58, 0, 57.42 }
+assert(addon.glyphs[15509] and addon.glyphs[15509][1] == 111 and addon.glyphs[15509][2] == 174 and addon.glyphs[15509][3] == 902 and addon.glyphs[15509][4] == 58 and addon.glyphs[15509][5] == 0 and addon.glyphs[15509][6] == 57.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15509] = { 91, 375, 422, 58, 0, 57.22 }
+assert(addon.glyphs[15659] and addon.glyphs[15659][1] == 112 and addon.glyphs[15659][2] == 322 and addon.glyphs[15659][3] == 602 and addon.glyphs[15659][4] == 58 and addon.glyphs[15659][5] == 0 and addon.glyphs[15659][6] == 57.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15659] = { 91, 437, 422, 58, 0, 57.11 }
+assert(addon.glyphs[15861] and addon.glyphs[15861][1] == 113 and addon.glyphs[15861][2] == 829 and addon.glyphs[15861][3] == 662 and addon.glyphs[15861][4] == 58 and addon.glyphs[15861][5] == 0 and addon.glyphs[15861][6] == 57.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15861] = { 91, 499, 422, 58, 0, 57.8 }
+assert(addon.glyphs[12529] and addon.glyphs[12529][1] == 80 and addon.glyphs[12529][2] == 343 and addon.glyphs[12529][3] == 2 and addon.glyphs[12529][4] == 57 and addon.glyphs[12529][5] == 0 and addon.glyphs[12529][6] == 56.47, "MAIN44 relocation baseline changed")
+addon.glyphs[12529] = { 91, 561, 422, 57, 0, 56.47 }
+assert(addon.glyphs[12562] and addon.glyphs[12562][1] == 81 and addon.glyphs[12562][2] == 205 and addon.glyphs[12562][3] == 62 and addon.glyphs[12562][4] == 57 and addon.glyphs[12562][5] == 0 and addon.glyphs[12562][6] == 56.81, "MAIN44 relocation baseline changed")
+addon.glyphs[12562] = { 91, 622, 422, 57, 0, 56.81 }
+assert(addon.glyphs[12579] and addon.glyphs[12579][1] == 82 and addon.glyphs[12579][2] == 351 and addon.glyphs[12579][3] == 2 and addon.glyphs[12579][4] == 57 and addon.glyphs[12579][5] == 0 and addon.glyphs[12579][6] == 56.03, "MAIN44 relocation baseline changed")
+addon.glyphs[12579] = { 91, 683, 422, 57, 0, 56.03 }
+assert(addon.glyphs[12594] and addon.glyphs[12594][1] == 82 and addon.glyphs[12594][2] == 335 and addon.glyphs[12594][3] == 62 and addon.glyphs[12594][4] == 57 and addon.glyphs[12594][5] == 0 and addon.glyphs[12594][6] == 56.81, "MAIN44 relocation baseline changed")
+addon.glyphs[12594] = { 91, 744, 422, 57, 0, 56.81 }
+assert(addon.glyphs[12595] and addon.glyphs[12595][1] == 82 and addon.glyphs[12595][2] == 396 and addon.glyphs[12595][3] == 62 and addon.glyphs[12595][4] == 57 and addon.glyphs[12595][5] == 0 and addon.glyphs[12595][6] == 56.75, "MAIN44 relocation baseline changed")
+addon.glyphs[12595] = { 91, 805, 422, 57, 0, 56.75 }
+assert(addon.glyphs[13183] and addon.glyphs[13183][1] == 87 and addon.glyphs[13183][2] == 489 and addon.glyphs[13183][3] == 2 and addon.glyphs[13183][4] == 57 and addon.glyphs[13183][5] == 0 and addon.glyphs[13183][6] == 56.98, "MAIN44 relocation baseline changed")
+addon.glyphs[13183] = { 91, 866, 422, 57, 0, 56.98 }
+assert(addon.glyphs[13185] and addon.glyphs[13185][1] == 87 and addon.glyphs[13185][2] == 651 and addon.glyphs[13185][3] == 2 and addon.glyphs[13185][4] == 57 and addon.glyphs[13185][5] == 0 and addon.glyphs[13185][6] == 56.03, "MAIN44 relocation baseline changed")
+addon.glyphs[13185] = { 91, 927, 422, 57, 0, 56.03 }
+assert(addon.glyphs[13192] and addon.glyphs[13192][1] == 87 and addon.glyphs[13192][2] == 2 and addon.glyphs[13192][3] == 62 and addon.glyphs[13192][4] == 57 and addon.glyphs[13192][5] == 0 and addon.glyphs[13192][6] == 55.89, "MAIN44 relocation baseline changed")
+addon.glyphs[13192] = { 91, 2, 482, 57, 0, 55.89 }
+assert(addon.glyphs[13479] and addon.glyphs[13479][1] == 90 and addon.glyphs[13479][2] == 241 and addon.glyphs[13479][3] == 2 and addon.glyphs[13479][4] == 57 and addon.glyphs[13479][5] == 0 and addon.glyphs[13479][6] == 56.03, "MAIN44 relocation baseline changed")
+addon.glyphs[13479] = { 91, 63, 482, 57, 0, 56.03 }
+assert(addon.glyphs[13485] and addon.glyphs[13485][1] == 90 and addon.glyphs[13485][2] == 614 and addon.glyphs[13485][3] == 2 and addon.glyphs[13485][4] == 57 and addon.glyphs[13485][5] == 0 and addon.glyphs[13485][6] == 55.89, "MAIN44 relocation baseline changed")
+addon.glyphs[13485] = { 91, 124, 482, 57, 0, 55.89 }
+assert(addon.glyphs[13492] and addon.glyphs[13492][1] == 90 and addon.glyphs[13492][2] == 377 and addon.glyphs[13492][3] == 62 and addon.glyphs[13492][4] == 57 and addon.glyphs[13492][5] == 0 and addon.glyphs[13492][6] == 56.81, "MAIN44 relocation baseline changed")
+addon.glyphs[13492] = { 91, 185, 482, 57, 0, 56.81 }
+assert(addon.glyphs[13571] and addon.glyphs[13571][1] == 92 and addon.glyphs[13571][2] == 200 and addon.glyphs[13571][3] == 2 and addon.glyphs[13571][4] == 57 and addon.glyphs[13571][5] == 0 and addon.glyphs[13571][6] == 56.03, "MAIN44 relocation baseline changed")
+addon.glyphs[13571] = { 91, 246, 482, 57, 0, 56.03 }
+assert(addon.glyphs[13583] and addon.glyphs[13583][1] == 92 and addon.glyphs[13583][2] == 125 and addon.glyphs[13583][3] == 62 and addon.glyphs[13583][4] == 57 and addon.glyphs[13583][5] == 0 and addon.glyphs[13583][6] == 56.75, "MAIN44 relocation baseline changed")
+addon.glyphs[13583] = { 91, 307, 482, 57, 0, 56.75 }
+assert(addon.glyphs[14322] and addon.glyphs[14322][1] == 97 and addon.glyphs[14322][2] == 2 and addon.glyphs[14322][3] == 62 and addon.glyphs[14322][4] == 57 and addon.glyphs[14322][5] == -3 and addon.glyphs[14322][6] == 53.52, "MAIN44 relocation baseline changed")
+addon.glyphs[14322] = { 91, 368, 482, 57, -3, 53.52 }
+assert(addon.glyphs[14489] and addon.glyphs[14489][1] == 102 and addon.glyphs[14489][2] == 963 and addon.glyphs[14489][3] == 2 and addon.glyphs[14489][4] == 57 and addon.glyphs[14489][5] == 0 and addon.glyphs[14489][6] == 55.95, "MAIN44 relocation baseline changed")
+addon.glyphs[14489] = { 91, 429, 482, 57, 0, 55.95 }
+assert(addon.glyphs[14509] and addon.glyphs[14509][1] == 102 and addon.glyphs[14509][2] == 2 and addon.glyphs[14509][3] == 182 and addon.glyphs[14509][4] == 57 and addon.glyphs[14509][5] == 0 and addon.glyphs[14509][6] == 56.31, "MAIN44 relocation baseline changed")
+addon.glyphs[14509] = { 91, 490, 482, 57, 0, 56.31 }
+assert(addon.glyphs[15452] and addon.glyphs[15452][1] == 111 and addon.glyphs[15452][2] == 393 and addon.glyphs[15452][3] == 602 and addon.glyphs[15452][4] == 57 and addon.glyphs[15452][5] == 0 and addon.glyphs[15452][6] == 56.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15452] = { 91, 551, 482, 57, 0, 56.53 }
+assert(addon.glyphs[15513] and addon.glyphs[15513][1] == 111 and addon.glyphs[15513][2] == 461 and addon.glyphs[15513][3] == 902 and addon.glyphs[15513][4] == 57 and addon.glyphs[15513][5] == 0 and addon.glyphs[15513][6] == 56.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15513] = { 91, 612, 482, 57, 0, 56.84 }
+assert(addon.glyphs[15546] and addon.glyphs[15546][1] == 112 and addon.glyphs[15546][2] == 2 and addon.glyphs[15546][3] == 62 and addon.glyphs[15546][4] == 57 and addon.glyphs[15546][5] == 0 and addon.glyphs[15546][6] == 56.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15546] = { 91, 673, 482, 57, 0, 56.75 }
+assert(addon.glyphs[15592] and addon.glyphs[15592][1] == 112 and addon.glyphs[15592][2] == 638 and addon.glyphs[15592][3] == 242 and addon.glyphs[15592][4] == 57 and addon.glyphs[15592][5] == 0 and addon.glyphs[15592][6] == 56.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15592] = { 91, 734, 482, 57, 0, 56.27 }
+assert(addon.glyphs[15684] and addon.glyphs[15684][1] == 112 and addon.glyphs[15684][2] == 724 and addon.glyphs[15684][3] == 722 and addon.glyphs[15684][4] == 57 and addon.glyphs[15684][5] == -2 and addon.glyphs[15684][6] == 54.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15684] = { 91, 795, 482, 57, -2, 54.09 }
+assert(addon.glyphs[15703] and addon.glyphs[15703][1] == 112 and addon.glyphs[15703][2] == 407 and addon.glyphs[15703][3] == 842 and addon.glyphs[15703][4] == 57 and addon.glyphs[15703][5] == 0 and addon.glyphs[15703][6] == 56.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15703] = { 91, 856, 482, 57, 0, 56.27 }
+assert(addon.glyphs[15776] and addon.glyphs[15776][1] == 113 and addon.glyphs[15776][2] == 214 and addon.glyphs[15776][3] == 242 and addon.glyphs[15776][4] == 57 and addon.glyphs[15776][5] == 0 and addon.glyphs[15776][6] == 54.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15776] = { 91, 917, 482, 57, 0, 54.59 }
+assert(addon.glyphs[15784] and addon.glyphs[15784][1] == 113 and addon.glyphs[15784][2] == 897 and addon.glyphs[15784][3] == 242 and addon.glyphs[15784][4] == 57 and addon.glyphs[15784][5] == 0 and addon.glyphs[15784][6] == 56.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15784] = { 91, 2, 542, 57, 0, 56.47 }
+assert(addon.glyphs[15909] and addon.glyphs[15909][1] == 113 and addon.glyphs[15909][2] == 95 and addon.glyphs[15909][3] == 962 and addon.glyphs[15909][4] == 57 and addon.glyphs[15909][5] == 0 and addon.glyphs[15909][6] == 56.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15909] = { 91, 63, 542, 57, 0, 56.27 }
+assert(addon.glyphs[15911] and addon.glyphs[15911][1] == 113 and addon.glyphs[15911][2] == 254 and addon.glyphs[15911][3] == 962 and addon.glyphs[15911][4] == 57 and addon.glyphs[15911][5] == 0 and addon.glyphs[15911][6] == 56.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15911] = { 91, 124, 542, 57, 0, 56.44 }
+assert(addon.glyphs[12525] and addon.glyphs[12525][1] == 80 and addon.glyphs[12525][2] == 138 and addon.glyphs[12525][3] == 2 and addon.glyphs[12525][4] == 56 and addon.glyphs[12525][5] == 0 and addon.glyphs[12525][6] == 55.59, "MAIN44 relocation baseline changed")
+addon.glyphs[12525] = { 99, 965, 962, 56, 0, 55.59 }
+assert(addon.glyphs[12544] and addon.glyphs[12544][1] == 81 and addon.glyphs[12544][2] == 93 and addon.glyphs[12544][3] == 2 and addon.glyphs[12544][4] == 56 and addon.glyphs[12544][5] == 0 and addon.glyphs[12544][6] == 55.59, "MAIN44 relocation baseline changed")
+addon.glyphs[12544] = { 91, 185, 542, 56, 0, 55.59 }
+assert(addon.glyphs[13176] and addon.glyphs[13176][1] == 87 and addon.glyphs[13176][2] == 107 and addon.glyphs[13176][3] == 2 and addon.glyphs[13176][4] == 56 and addon.glyphs[13176][5] == 0 and addon.glyphs[13176][6] == 55.59, "MAIN44 relocation baseline changed")
+addon.glyphs[13176] = { 91, 245, 542, 56, 0, 55.59 }
+assert(addon.glyphs[13568] and addon.glyphs[13568][1] == 92 and addon.glyphs[13568][2] == 2 and addon.glyphs[13568][3] == 2 and addon.glyphs[13568][4] == 56 and addon.glyphs[13568][5] == 0 and addon.glyphs[13568][6] == 55.59, "MAIN44 relocation baseline changed")
+addon.glyphs[13568] = { 91, 305, 542, 56, 0, 55.59 }
+assert(addon.glyphs[14307] and addon.glyphs[14307][1] == 97 and addon.glyphs[14307][2] == 138 and addon.glyphs[14307][3] == 2 and addon.glyphs[14307][4] == 56 and addon.glyphs[14307][5] == -2 and addon.glyphs[14307][6] == 52.16, "MAIN44 relocation baseline changed")
+addon.glyphs[14307] = { 91, 365, 542, 56, -2, 52.16 }
+assert(addon.glyphs[14320] and addon.glyphs[14320][1] == 97 and addon.glyphs[14320][2] == 915 and addon.glyphs[14320][3] == 2 and addon.glyphs[14320][4] == 56 and addon.glyphs[14320][5] == -3 and addon.glyphs[14320][6] == 52.56, "MAIN44 relocation baseline changed")
+addon.glyphs[14320] = { 91, 425, 542, 56, -3, 52.56 }
+assert(addon.glyphs[15334] and addon.glyphs[15334][1] == 111 and addon.glyphs[15334][2] == 123 and addon.glyphs[15334][3] == 2 and addon.glyphs[15334][4] == 56 and addon.glyphs[15334][5] == 0 and addon.glyphs[15334][6] == 55.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15334] = { 91, 485, 542, 56, 0, 55.52 }
+assert(addon.glyphs[15379] and addon.glyphs[15379][1] == 111 and addon.glyphs[15379][2] == 546 and addon.glyphs[15379][3] == 182 and addon.glyphs[15379][4] == 56 and addon.glyphs[15379][5] == 0 and addon.glyphs[15379][6] == 55.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15379] = { 91, 545, 542, 56, 0, 55.52 }
+assert(addon.glyphs[15405] and addon.glyphs[15405][1] == 111 and addon.glyphs[15405][2] == 713 and addon.glyphs[15405][3] == 302 and addon.glyphs[15405][4] == 56 and addon.glyphs[15405][5] == 0 and addon.glyphs[15405][6] == 55.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15405] = { 91, 605, 542, 56, 0, 55.66 }
+assert(addon.glyphs[15476] and addon.glyphs[15476][1] == 111 and addon.glyphs[15476][2] == 585 and addon.glyphs[15476][3] == 722 and addon.glyphs[15476][4] == 56 and addon.glyphs[15476][5] == -1 and addon.glyphs[15476][6] == 54.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15476] = { 91, 665, 542, 56, -1, 54.67 }
+assert(addon.glyphs[15480] and addon.glyphs[15480][1] == 111 and addon.glyphs[15480][2] == 847 and addon.glyphs[15480][3] == 722 and addon.glyphs[15480][4] == 56 and addon.glyphs[15480][5] == 0 and addon.glyphs[15480][6] == 55.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15480] = { 91, 725, 542, 56, 0, 55.89 }
+assert(addon.glyphs[15495] and addon.glyphs[15495][1] == 111 and addon.glyphs[15495][2] == 102 and addon.glyphs[15495][3] == 842 and addon.glyphs[15495][4] == 56 and addon.glyphs[15495][5] == -1 and addon.glyphs[15495][6] == 54.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15495] = { 91, 785, 542, 56, -1, 54.2 }
+assert(addon.glyphs[15507] and addon.glyphs[15507][1] == 111 and addon.glyphs[15507][2] == 68 and addon.glyphs[15507][3] == 902 and addon.glyphs[15507][4] == 56 and addon.glyphs[15507][5] == 0 and addon.glyphs[15507][6] == 55.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15507] = { 91, 845, 542, 56, 0, 55.8 }
+assert(addon.glyphs[15587] and addon.glyphs[15587][1] == 112 and addon.glyphs[15587][2] == 221 and addon.glyphs[15587][3] == 242 and addon.glyphs[15587][4] == 56 and addon.glyphs[15587][5] == 0 and addon.glyphs[15587][6] == 55.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15587] = { 91, 905, 542, 56, 0, 55.52 }
+assert(addon.glyphs[15718] and addon.glyphs[15718][1] == 112 and addon.glyphs[15718][2] == 681 and addon.glyphs[15718][3] == 902 and addon.glyphs[15718][4] == 56 and addon.glyphs[15718][5] == 0 and addon.glyphs[15718][6] == 55.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15718] = { 91, 965, 542, 56, 0, 55.66 }
+assert(addon.glyphs[15950] and addon.glyphs[15950][1] == 114 and addon.glyphs[15950][2] == 866 and addon.glyphs[15950][3] == 122 and addon.glyphs[15950][4] == 56 and addon.glyphs[15950][5] == 0 and addon.glyphs[15950][6] == 55.19, "MAIN44 relocation baseline changed")
+addon.glyphs[15950] = { 91, 2, 602, 56, 0, 55.19 }
+assert(addon.glyphs[12526] and addon.glyphs[12526][1] == 80 and addon.glyphs[12526][2] == 198 and addon.glyphs[12526][3] == 2 and addon.glyphs[12526][4] == 55 and addon.glyphs[12526][5] == 0 and addon.glyphs[12526][6] == 54.97, "MAIN44 relocation baseline changed")
+addon.glyphs[12526] = { 91, 62, 602, 55, 0, 54.97 }
+assert(addon.glyphs[12591] and addon.glyphs[12591][1] == 82 and addon.glyphs[12591][2] == 132 and addon.glyphs[12591][3] == 62 and addon.glyphs[12591][4] == 55 and addon.glyphs[12591][5] == 0 and addon.glyphs[12591][6] == 54.98, "MAIN44 relocation baseline changed")
+addon.glyphs[12591] = { 91, 121, 602, 55, 0, 54.98 }
+assert(addon.glyphs[15364] and addon.glyphs[15364][1] == 111 and addon.glyphs[15364][2] == 362 and addon.glyphs[15364][3] == 122 and addon.glyphs[15364][4] == 55 and addon.glyphs[15364][5] == 0 and addon.glyphs[15364][6] == 54.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15364] = { 91, 180, 602, 55, 0, 54.75 }
+assert(addon.glyphs[15457] and addon.glyphs[15457][1] == 111 and addon.glyphs[15457][2] == 817 and addon.glyphs[15457][3] == 602 and addon.glyphs[15457][4] == 55 and addon.glyphs[15457][5] == 0 and addon.glyphs[15457][6] == 54.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15457] = { 91, 239, 602, 55, 0, 54.36 }
+assert(addon.glyphs[15512] and addon.glyphs[15512][1] == 111 and addon.glyphs[15512][2] == 402 and addon.glyphs[15512][3] == 902 and addon.glyphs[15512][4] == 55 and addon.glyphs[15512][5] == 0 and addon.glyphs[15512][6] == 54.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15512] = { 91, 298, 602, 55, 0, 54.84 }
+assert(addon.glyphs[15550] and addon.glyphs[15550][1] == 112 and addon.glyphs[15550][2] == 337 and addon.glyphs[15550][3] == 62 and addon.glyphs[15550][4] == 55 and addon.glyphs[15550][5] == 0 and addon.glyphs[15550][6] == 54.33, "MAIN44 relocation baseline changed")
+addon.glyphs[15550] = { 91, 357, 602, 55, 0, 54.33 }
+assert(addon.glyphs[15558] and addon.glyphs[15558][1] == 112 and addon.glyphs[15558][2] == 821 and addon.glyphs[15558][3] == 62 and addon.glyphs[15558][4] == 55 and addon.glyphs[15558][5] == 0 and addon.glyphs[15558][6] == 54.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15558] = { 91, 416, 602, 55, 0, 54.47 }
+assert(addon.glyphs[15615] and addon.glyphs[15615][1] == 112 and addon.glyphs[15615][2] == 552 and addon.glyphs[15615][3] == 362 and addon.glyphs[15615][4] == 55 and addon.glyphs[15615][5] == 0 and addon.glyphs[15615][6] == 54.73, "MAIN44 relocation baseline changed")
+addon.glyphs[15615] = { 91, 475, 602, 55, 0, 54.73 }
+assert(addon.glyphs[15752] and addon.glyphs[15752][1] == 113 and addon.glyphs[15752][2] == 838 and addon.glyphs[15752][3] == 62 and addon.glyphs[15752][4] == 55 and addon.glyphs[15752][5] == 0 and addon.glyphs[15752][6] == 54.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15752] = { 91, 534, 602, 55, 0, 54.97 }
+assert(addon.glyphs[15893] and addon.glyphs[15893][1] == 113 and addon.glyphs[15893][2] == 705 and addon.glyphs[15893][3] == 842 and addon.glyphs[15893][4] == 55 and addon.glyphs[15893][5] == 0 and addon.glyphs[15893][6] == 54.73, "MAIN44 relocation baseline changed")
+addon.glyphs[15893] = { 91, 593, 602, 55, 0, 54.73 }
+assert(addon.glyphs[15907] and addon.glyphs[15907][1] == 113 and addon.glyphs[15907][2] == 940 and addon.glyphs[15907][3] == 902 and addon.glyphs[15907][4] == 55 and addon.glyphs[15907][5] == 0 and addon.glyphs[15907][6] == 54.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15907] = { 91, 652, 602, 55, 0, 54.3 }
+assert(addon.glyphs[13189] and addon.glyphs[13189][1] == 87 and addon.glyphs[13189][2] == 831 and addon.glyphs[13189][3] == 2 and addon.glyphs[13189][4] == 54 and addon.glyphs[13189][5] == 0 and addon.glyphs[13189][6] == 53.86, "MAIN44 relocation baseline changed")
+addon.glyphs[13189] = { 91, 711, 602, 54, 0, 53.86 }
+assert(addon.glyphs[14305] and addon.glyphs[14305][1] == 97 and addon.glyphs[14305][2] == 2 and addon.glyphs[14305][3] == 2 and addon.glyphs[14305][4] == 54 and addon.glyphs[14305][5] == -1 and addon.glyphs[14305][6] == 52.19, "MAIN44 relocation baseline changed")
+addon.glyphs[14305] = { 91, 769, 602, 54, -1, 52.19 }
+assert(addon.glyphs[14325] and addon.glyphs[14325][1] == 97 and addon.glyphs[14325][2] == 224 and addon.glyphs[14325][3] == 62 and addon.glyphs[14325][4] == 54 and addon.glyphs[14325][5] == -3 and addon.glyphs[14325][6] == 50.36, "MAIN44 relocation baseline changed")
+addon.glyphs[14325] = { 91, 827, 602, 54, -3, 50.36 }
+assert(addon.glyphs[15360] and addon.glyphs[15360][1] == 111 and addon.glyphs[15360][2] == 2 and addon.glyphs[15360][3] == 122 and addon.glyphs[15360][4] == 54 and addon.glyphs[15360][5] == 0 and addon.glyphs[15360][6] == 53.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15360] = { 91, 885, 602, 54, 0, 53.45 }
+assert(addon.glyphs[15516] and addon.glyphs[15516][1] == 111 and addon.glyphs[15516][2] == 707 and addon.glyphs[15516][3] == 902 and addon.glyphs[15516][4] == 54 and addon.glyphs[15516][5] == 0 and addon.glyphs[15516][6] == 53.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15516] = { 91, 943, 602, 54, 0, 53.34 }
+assert(addon.glyphs[15529] and addon.glyphs[15529][1] == 111 and addon.glyphs[15529][2] == 596 and addon.glyphs[15529][3] == 962 and addon.glyphs[15529][4] == 54 and addon.glyphs[15529][5] == 0 and addon.glyphs[15529][6] == 53.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15529] = { 91, 2, 662, 54, 0, 53.55 }
+assert(addon.glyphs[15538] and addon.glyphs[15538][1] == 112 and addon.glyphs[15538][2] == 413 and addon.glyphs[15538][3] == 2 and addon.glyphs[15538][4] == 54 and addon.glyphs[15538][5] == 0 and addon.glyphs[15538][6] == 53.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15538] = { 91, 60, 662, 54, 0, 53.58 }
+assert(addon.glyphs[15673] and addon.glyphs[15673][1] == 112 and addon.glyphs[15673][2] == 587 and addon.glyphs[15673][3] == 662 and addon.glyphs[15673][4] == 54 and addon.glyphs[15673][5] == 0 and addon.glyphs[15673][6] == 53.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15673] = { 91, 118, 662, 54, 0, 53.86 }
+assert(addon.glyphs[15816] and addon.glyphs[15816][1] == 113 and addon.glyphs[15816][2] == 738 and addon.glyphs[15816][3] == 422 and addon.glyphs[15816][4] == 54 and addon.glyphs[15816][5] == 0 and addon.glyphs[15816][6] == 53.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15816] = { 91, 176, 662, 54, 0, 53.47 }
+assert(addon.glyphs[15897] and addon.glyphs[15897][1] == 113 and addon.glyphs[15897][2] == 2 and addon.glyphs[15897][3] == 902 and addon.glyphs[15897][4] == 54 and addon.glyphs[15897][5] == 0 and addon.glyphs[15897][6] == 53.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15897] = { 91, 234, 662, 54, 0, 53.55 }
+assert(addon.glyphs[14486] and addon.glyphs[14486][1] == 102 and addon.glyphs[14486][2] == 585 and addon.glyphs[14486][3] == 2 and addon.glyphs[14486][4] == 53 and addon.glyphs[14486][5] == 0 and addon.glyphs[14486][6] == 52.52, "MAIN44 relocation baseline changed")
+addon.glyphs[14486] = { 86, 968, 962, 53, 0, 52.52 }
+assert(addon.glyphs[14592] and addon.glyphs[14592][1] == 104 and addon.glyphs[14592][2] == 2 and addon.glyphs[14592][3] == 2 and addon.glyphs[14592][4] == 53 and addon.glyphs[14592][5] == 0 and addon.glyphs[14592][6] == 52.52, "MAIN44 relocation baseline changed")
+addon.glyphs[14592] = { 91, 292, 662, 53, 0, 52.52 }
+assert(addon.glyphs[15352] and addon.glyphs[15352][1] == 111 and addon.glyphs[15352][2] == 420 and addon.glyphs[15352][3] == 62 and addon.glyphs[15352][4] == 53 and addon.glyphs[15352][5] == 0 and addon.glyphs[15352][6] == 52.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15352] = { 91, 349, 662, 53, 0, 52.39 }
+assert(addon.glyphs[15437] and addon.glyphs[15437][1] == 111 and addon.glyphs[15437][2] == 627 and addon.glyphs[15437][3] == 482 and addon.glyphs[15437][4] == 53 and addon.glyphs[15437][5] == 0 and addon.glyphs[15437][6] == 52.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15437] = { 91, 406, 662, 53, 0, 52.52 }
+assert(addon.glyphs[15564] and addon.glyphs[15564][1] == 112 and addon.glyphs[15564][2] == 265 and addon.glyphs[15564][3] == 122 and addon.glyphs[15564][4] == 53 and addon.glyphs[15564][5] == 0 and addon.glyphs[15564][6] == 52.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15564] = { 91, 463, 662, 53, 0, 52.53 }
+assert(addon.glyphs[15571] and addon.glyphs[15571][1] == 112 and addon.glyphs[15571][2] == 769 and addon.glyphs[15571][3] == 122 and addon.glyphs[15571][4] == 53 and addon.glyphs[15571][5] == 0 and addon.glyphs[15571][6] == 52.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15571] = { 91, 520, 662, 53, 0, 52.59 }
+assert(addon.glyphs[15614] and addon.glyphs[15614][1] == 112 and addon.glyphs[15614][2] == 495 and addon.glyphs[15614][3] == 362 and addon.glyphs[15614][4] == 53 and addon.glyphs[15614][5] == 0 and addon.glyphs[15614][6] == 52.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15614] = { 91, 577, 662, 53, 0, 52.39 }
+assert(addon.glyphs[15860] and addon.glyphs[15860][1] == 113 and addon.glyphs[15860][2] == 772 and addon.glyphs[15860][3] == 662 and addon.glyphs[15860][4] == 53 and addon.glyphs[15860][5] == 0 and addon.glyphs[15860][6] == 52.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15860] = { 91, 634, 662, 53, 0, 52.39 }
+assert(addon.glyphs[12539] and addon.glyphs[12539][1] == 80 and addon.glyphs[12539][2] == 291 and addon.glyphs[12539][3] == 62 and addon.glyphs[12539][4] == 52 and addon.glyphs[12539][5] == 0 and addon.glyphs[12539][6] == 51.39, "MAIN44 relocation baseline changed")
+addon.glyphs[12539] = { 78, 969, 962, 52, 0, 51.39 }
+assert(addon.glyphs[13581] and addon.glyphs[13581][1] == 92 and addon.glyphs[13581][2] == 2 and addon.glyphs[13581][3] == 62 and addon.glyphs[13581][4] == 52 and addon.glyphs[13581][5] == 0 and addon.glyphs[13581][6] == 51.38, "MAIN44 relocation baseline changed")
+addon.glyphs[13581] = { 91, 691, 662, 52, 0, 51.38 }
+assert(addon.glyphs[15414] and addon.glyphs[15414][1] == 111 and addon.glyphs[15414][2] == 415 and addon.glyphs[15414][3] == 362 and addon.glyphs[15414][4] == 52 and addon.glyphs[15414][5] == 0 and addon.glyphs[15414][6] == 51.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15414] = { 91, 747, 662, 52, 0, 51.78 }
+assert(addon.glyphs[15543] and addon.glyphs[15543][1] == 112 and addon.glyphs[15543][2] == 773 and addon.glyphs[15543][3] == 2 and addon.glyphs[15543][4] == 52 and addon.glyphs[15543][5] == 0 and addon.glyphs[15543][6] == 51.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15543] = { 91, 803, 662, 52, 0, 51.64 }
+assert(addon.glyphs[15573] and addon.glyphs[15573][1] == 112 and addon.glyphs[15573][2] == 890 and addon.glyphs[15573][3] == 122 and addon.glyphs[15573][4] == 52 and addon.glyphs[15573][5] == 0 and addon.glyphs[15573][6] == 51.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15573] = { 91, 859, 662, 52, 0, 51.84 }
+assert(addon.glyphs[15622] and addon.glyphs[15622][1] == 112 and addon.glyphs[15622][2] == 81 and addon.glyphs[15622][3] == 422 and addon.glyphs[15622][4] == 52 and addon.glyphs[15622][5] == 0 and addon.glyphs[15622][6] == 51.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15622] = { 91, 915, 662, 52, 0, 51.55 }
+assert(addon.glyphs[15779] and addon.glyphs[15779][1] == 113 and addon.glyphs[15779][2] == 507 and addon.glyphs[15779][3] == 242 and addon.glyphs[15779][4] == 52 and addon.glyphs[15779][5] == 0 and addon.glyphs[15779][6] == 51.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15779] = { 91, 2, 722, 52, 0, 51.14 }
+assert(addon.glyphs[15803] and addon.glyphs[15803][1] == 113 and addon.glyphs[15803][2] == 656 and addon.glyphs[15803][3] == 362 and addon.glyphs[15803][4] == 52 and addon.glyphs[15803][5] == 0 and addon.glyphs[15803][6] == 51.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15803] = { 91, 58, 722, 52, 0, 51.84 }
+assert(addon.glyphs[15875] and addon.glyphs[15875][1] == 113 and addon.glyphs[15875][2] == 167 and addon.glyphs[15875][3] == 782 and addon.glyphs[15875][4] == 52 and addon.glyphs[15875][5] == 0 and addon.glyphs[15875][6] == 51.39, "MAIN44 relocation baseline changed")
+addon.glyphs[15875] = { 91, 114, 722, 52, 0, 51.39 }
+assert(addon.glyphs[12547] and addon.glyphs[12547][1] == 81 and addon.glyphs[12547][2] == 234 and addon.glyphs[12547][3] == 2 and addon.glyphs[12547][4] == 51 and addon.glyphs[12547][5] == 0 and addon.glyphs[12547][6] == 50.8, "MAIN44 relocation baseline changed")
+addon.glyphs[12547] = { 91, 170, 722, 51, 0, 50.8 }
+assert(addon.glyphs[15485] and addon.glyphs[15485][1] == 111 and addon.glyphs[15485][2] == 200 and addon.glyphs[15485][3] == 782 and addon.glyphs[15485][4] == 51 and addon.glyphs[15485][5] == 0 and addon.glyphs[15485][6] == 50.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15485] = { 91, 225, 722, 51, 0, 50.47 }
+assert(addon.glyphs[15918] and addon.glyphs[15918][1] == 113 and addon.glyphs[15918][2] == 796 and addon.glyphs[15918][3] == 962 and addon.glyphs[15918][4] == 51 and addon.glyphs[15918][5] == 0 and addon.glyphs[15918][6] == 50.22, "MAIN44 relocation baseline changed")
+addon.glyphs[15918] = { 91, 280, 722, 51, 0, 50.22 }
+assert(addon.glyphs[15343] and addon.glyphs[15343][1] == 111 and addon.glyphs[15343][2] == 775 and addon.glyphs[15343][3] == 2 and addon.glyphs[15343][4] == 50 and addon.glyphs[15343][5] == 0 and addon.glyphs[15343][6] == 49.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15343] = { 91, 335, 722, 50, 0, 49.3 }
+assert(addon.glyphs[15467] and addon.glyphs[15467][1] == 111 and addon.glyphs[15467][2] == 759 and addon.glyphs[15467][3] == 662 and addon.glyphs[15467][4] == 50 and addon.glyphs[15467][5] == 0 and addon.glyphs[15467][6] == 49.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15467] = { 91, 389, 722, 50, 0, 49.38 }
+assert(addon.glyphs[15483] and addon.glyphs[15483][1] == 111 and addon.glyphs[15483][2] == 97 and addon.glyphs[15483][3] == 782 and addon.glyphs[15483][4] == 50 and addon.glyphs[15483][5] == 0 and addon.glyphs[15483][6] == 49.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15483] = { 91, 443, 722, 50, 0, 49.34 }
+assert(addon.glyphs[15925] and addon.glyphs[15925][1] == 114 and addon.glyphs[15925][2] == 491 and addon.glyphs[15925][3] == 2 and addon.glyphs[15925][4] == 50 and addon.glyphs[15925][5] == 0 and addon.glyphs[15925][6] == 49.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15925] = { 91, 497, 722, 50, 0, 49.38 }
+assert(addon.glyphs[15956] and addon.glyphs[15956][1] == 114 and addon.glyphs[15956][2] == 517 and addon.glyphs[15956][3] == 182 and addon.glyphs[15956][4] == 50 and addon.glyphs[15956][5] == -1 and addon.glyphs[15956][6] == 48.05, "MAIN44 relocation baseline changed")
+addon.glyphs[15956] = { 91, 551, 722, 50, -1, 48.05 }
+assert(addon.glyphs[14352] and addon.glyphs[14352][1] == 98 and addon.glyphs[14352][2] == 619 and addon.glyphs[14352][3] == 62 and addon.glyphs[14352][4] == 49 and addon.glyphs[14352][5] == 0 and addon.glyphs[14352][6] == 48.97, "MAIN44 relocation baseline changed")
+addon.glyphs[14352] = { 91, 605, 722, 49, 0, 48.97 }
+assert(addon.glyphs[15818] and addon.glyphs[15818][1] == 113 and addon.glyphs[15818][2] == 906 and addon.glyphs[15818][3] == 422 and addon.glyphs[15818][4] == 49 and addon.glyphs[15818][5] == 0 and addon.glyphs[15818][6] == 48.97, "MAIN44 relocation baseline changed")
+addon.glyphs[15818] = { 91, 658, 722, 49, 0, 48.97 }
+assert(addon.glyphs[13577] and addon.glyphs[13577][1] == 92 and addon.glyphs[13577][2] == 601 and addon.glyphs[13577][3] == 2 and addon.glyphs[13577][4] == 48 and addon.glyphs[13577][5] == 0 and addon.glyphs[13577][6] == 47.23, "MAIN44 relocation baseline changed")
+addon.glyphs[13577] = { 91, 711, 722, 48, 0, 47.23 }
+assert(addon.glyphs[15332] and addon.glyphs[15332][1] == 111 and addon.glyphs[15332][2] == 2 and addon.glyphs[15332][3] == 2 and addon.glyphs[15332][4] == 48 and addon.glyphs[15332][5] == 0 and addon.glyphs[15332][6] == 47.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15332] = { 91, 763, 722, 48, 0, 47.88 }
+assert(addon.glyphs[15772] and addon.glyphs[15772][1] == 113 and addon.glyphs[15772][2] == 842 and addon.glyphs[15772][3] == 182 and addon.glyphs[15772][4] == 48 and addon.glyphs[15772][5] == 0 and addon.glyphs[15772][6] == 47.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15772] = { 91, 815, 722, 48, 0, 47.16 }
+assert(addon.glyphs[15949] and addon.glyphs[15949][1] == 114 and addon.glyphs[15949][2] == 814 and addon.glyphs[15949][3] == 122 and addon.glyphs[15949][4] == 48 and addon.glyphs[15949][5] == 0 and addon.glyphs[15949][6] == 47.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15949] = { 91, 867, 722, 48, 0, 47.67 }
+assert(addon.glyphs[12559] and addon.glyphs[12559][1] == 81 and addon.glyphs[12559][2] == 66 and addon.glyphs[12559][3] == 62 and addon.glyphs[12559][4] == 47 and addon.glyphs[12559][5] == 0 and addon.glyphs[12559][6] == 46.42, "MAIN44 relocation baseline changed")
+addon.glyphs[12559] = { 91, 919, 722, 47, 0, 46.42 }
+assert(addon.glyphs[14608] and addon.glyphs[14608][1] == 105 and addon.glyphs[14608][2] == 596 and addon.glyphs[14608][3] == 2 and addon.glyphs[14608][4] == 47 and addon.glyphs[14608][5] == 0 and addon.glyphs[14608][6] == 46.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14608] = { 91, 970, 722, 47, 0, 46.14 }
+assert(addon.glyphs[15530] and addon.glyphs[15530][1] == 111 and addon.glyphs[15530][2] == 654 and addon.glyphs[15530][3] == 962 and addon.glyphs[15530][4] == 47 and addon.glyphs[15530][5] == 0 and addon.glyphs[15530][6] == 46.61, "MAIN44 relocation baseline changed")
+addon.glyphs[15530] = { 91, 2, 782, 47, 0, 46.61 }
+assert(addon.glyphs[15688] and addon.glyphs[15688][1] == 112 and addon.glyphs[15688][2] == 207 and addon.glyphs[15688][3] == 782 and addon.glyphs[15688][4] == 47 and addon.glyphs[15688][5] == 0 and addon.glyphs[15688][6] == 46.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15688] = { 91, 53, 782, 47, 0, 46.14 }
+assert(addon.glyphs[15786] and addon.glyphs[15786][1] == 113 and addon.glyphs[15786][2] == 74 and addon.glyphs[15786][3] == 302 and addon.glyphs[15786][4] == 47 and addon.glyphs[15786][5] == 0 and addon.glyphs[15786][6] == 46.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15786] = { 91, 104, 782, 47, 0, 46.14 }
+assert(addon.glyphs[15830] and addon.glyphs[15830][1] == 113 and addon.glyphs[15830][2] == 86 and addon.glyphs[15830][3] == 542 and addon.glyphs[15830][4] == 47 and addon.glyphs[15830][5] == 0 and addon.glyphs[15830][6] == 46.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15830] = { 91, 155, 782, 47, 0, 46.14 }
+assert(addon.glyphs[12566] and addon.glyphs[12566][1] == 81 and addon.glyphs[12566][2] == 466 and addon.glyphs[12566][3] == 62 and addon.glyphs[12566][4] == 46 and addon.glyphs[12566][5] == 0 and addon.glyphs[12566][6] == 45.94, "MAIN44 relocation baseline changed")
+addon.glyphs[12566] = { 91, 206, 782, 46, 0, 45.94 }
+assert(addon.glyphs[12589] and addon.glyphs[12589][1] == 82 and addon.glyphs[12589][2] == 2 and addon.glyphs[12589][3] == 62 and addon.glyphs[12589][4] == 46 and addon.glyphs[12589][5] == 0 and addon.glyphs[12589][6] == 45.94, "MAIN44 relocation baseline changed")
+addon.glyphs[12589] = { 91, 256, 782, 46, 0, 45.94 }
+assert(addon.glyphs[13200] and addon.glyphs[13200][1] == 87 and addon.glyphs[13200][2] == 536 and addon.glyphs[13200][3] == 62 and addon.glyphs[13200][4] == 46 and addon.glyphs[13200][5] == 0 and addon.glyphs[13200][6] == 45.94, "MAIN44 relocation baseline changed")
+addon.glyphs[13200] = { 91, 306, 782, 46, 0, 45.94 }
+assert(addon.glyphs[13579] and addon.glyphs[13579][1] == 92 and addon.glyphs[13579][2] == 789 and addon.glyphs[13579][3] == 2 and addon.glyphs[13579][4] == 46 and addon.glyphs[13579][5] == 0 and addon.glyphs[13579][6] == 45.94, "MAIN44 relocation baseline changed")
+addon.glyphs[13579] = { 91, 356, 782, 46, 0, 45.94 }
+assert(addon.glyphs[15356] and addon.glyphs[15356][1] == 111 and addon.glyphs[15356][2] == 769 and addon.glyphs[15356][3] == 62 and addon.glyphs[15356][4] == 46 and addon.glyphs[15356][5] == 0 and addon.glyphs[15356][6] == 45.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15356] = { 91, 406, 782, 46, 0, 45.09 }
+assert(addon.glyphs[15705] and addon.glyphs[15705][1] == 112 and addon.glyphs[15705][2] == 513 and addon.glyphs[15705][3] == 842 and addon.glyphs[15705][4] == 46 and addon.glyphs[15705][5] == -1 and addon.glyphs[15705][6] == 44.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15705] = { 91, 456, 782, 46, -1, 44.78 }
+assert(addon.glyphs[15887] and addon.glyphs[15887][1] == 113 and addon.glyphs[15887][2] == 228 and addon.glyphs[15887][3] == 842 and addon.glyphs[15887][4] == 46 and addon.glyphs[15887][5] == 0 and addon.glyphs[15887][6] == 45.36, "MAIN44 relocation baseline changed")
+addon.glyphs[15887] = { 91, 506, 782, 46, 0, 45.36 }
+assert(addon.glyphs[12560] and addon.glyphs[12560][1] == 81 and addon.glyphs[12560][2] == 117 and addon.glyphs[12560][3] == 62 and addon.glyphs[12560][4] == 45 and addon.glyphs[12560][5] == 0 and addon.glyphs[12560][6] == 44.44, "MAIN44 relocation baseline changed")
+addon.glyphs[12560] = { 91, 556, 782, 45, 0, 44.44 }
+assert(addon.glyphs[13190] and addon.glyphs[13190][1] == 87 and addon.glyphs[13190][2] == 889 and addon.glyphs[13190][3] == 2 and addon.glyphs[13190][4] == 45 and addon.glyphs[13190][5] == 0 and addon.glyphs[13190][6] == 44.44, "MAIN44 relocation baseline changed")
+addon.glyphs[13190] = { 91, 605, 782, 45, 0, 44.44 }
+assert(addon.glyphs[15340] and addon.glyphs[15340][1] == 111 and addon.glyphs[15340][2] == 545 and addon.glyphs[15340][3] == 2 and addon.glyphs[15340][4] == 45 and addon.glyphs[15340][5] == 0 and addon.glyphs[15340][6] == 44.61, "MAIN44 relocation baseline changed")
+addon.glyphs[15340] = { 91, 654, 782, 45, 0, 44.61 }
+assert(addon.glyphs[15484] and addon.glyphs[15484][1] == 111 and addon.glyphs[15484][2] == 151 and addon.glyphs[15484][3] == 782 and addon.glyphs[15484][4] == 45 and addon.glyphs[15484][5] == 0 and addon.glyphs[15484][6] == 44.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15484] = { 91, 703, 782, 45, 0, 44.89 }
+assert(addon.glyphs[15837] and addon.glyphs[15837][1] == 113 and addon.glyphs[15837][2] == 618 and addon.glyphs[15837][3] == 542 and addon.glyphs[15837][4] == 45 and addon.glyphs[15837][5] == -1 and addon.glyphs[15837][6] == 43.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15837] = { 91, 752, 782, 45, -1, 43.92 }
+assert(addon.glyphs[15944] and addon.glyphs[15944][1] == 114 and addon.glyphs[15944][2] == 319 and addon.glyphs[15944][3] == 122 and addon.glyphs[15944][4] == 45 and addon.glyphs[15944][5] == 0 and addon.glyphs[15944][6] == 44.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15944] = { 91, 801, 782, 45, 0, 44.06 }
+assert(addon.glyphs[15989] and addon.glyphs[15989][1] == 114 and addon.glyphs[15989][2] == 571 and addon.glyphs[15989][3] == 362 and addon.glyphs[15989][4] == 45 and addon.glyphs[15989][5] == 0 and addon.glyphs[15989][6] == 43.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15989] = { 91, 850, 782, 45, 0, 43.28 }
+assert(addon.glyphs[12535] and addon.glyphs[12535][1] == 80 and addon.glyphs[12535][2] == 688 and addon.glyphs[12535][3] == 2 and addon.glyphs[12535][4] == 44 and addon.glyphs[12535][5] == 0 and addon.glyphs[12535][6] == 43.59, "MAIN44 relocation baseline changed")
+addon.glyphs[12535] = { 91, 899, 782, 44, 0, 43.59 }
+assert(addon.glyphs[12552] and addon.glyphs[12552][1] == 81 and addon.glyphs[12552][2] == 530 and addon.glyphs[12552][3] == 2 and addon.glyphs[12552][4] == 44 and addon.glyphs[12552][5] == 0 and addon.glyphs[12552][6] == 43.31, "MAIN44 relocation baseline changed")
+addon.glyphs[12552] = { 91, 947, 782, 44, 0, 43.31 }
+assert(addon.glyphs[12568] and addon.glyphs[12568][1] == 81 and addon.glyphs[12568][2] == 596 and addon.glyphs[12568][3] == 62 and addon.glyphs[12568][4] == 44 and addon.glyphs[12568][5] == 0 and addon.glyphs[12568][6] == 43.48, "MAIN44 relocation baseline changed")
+addon.glyphs[12568] = { 91, 2, 842, 44, 0, 43.48 }
+assert(addon.glyphs[12582] and addon.glyphs[12582][1] == 82 and addon.glyphs[12582][2] == 482 and addon.glyphs[12582][3] == 2 and addon.glyphs[12582][4] == 44 and addon.glyphs[12582][5] == 0 and addon.glyphs[12582][6] == 43.31, "MAIN44 relocation baseline changed")
+addon.glyphs[12582] = { 91, 50, 842, 44, 0, 43.31 }
+assert(addon.glyphs[13490] and addon.glyphs[13490][1] == 90 and addon.glyphs[13490][2] == 238 and addon.glyphs[13490][3] == 62 and addon.glyphs[13490][4] == 44 and addon.glyphs[13490][5] == 0 and addon.glyphs[13490][6] == 43.48, "MAIN44 relocation baseline changed")
+addon.glyphs[13490] = { 91, 98, 842, 44, 0, 43.48 }
+assert(addon.glyphs[15569] and addon.glyphs[15569][1] == 112 and addon.glyphs[15569][2] == 602 and addon.glyphs[15569][3] == 122 and addon.glyphs[15569][4] == 44 and addon.glyphs[15569][5] == 0 and addon.glyphs[15569][6] == 43.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15569] = { 91, 146, 842, 44, 0, 43.59 }
+assert(addon.glyphs[15767] and addon.glyphs[15767][1] == 113 and addon.glyphs[15767][2] == 430 and addon.glyphs[15767][3] == 182 and addon.glyphs[15767][4] == 44 and addon.glyphs[15767][5] == 0 and addon.glyphs[15767][6] == 44, "MAIN44 relocation baseline changed")
+addon.glyphs[15767] = { 91, 194, 842, 44, 0, 44 }
+assert(addon.glyphs[15798] and addon.glyphs[15798][1] == 113 and addon.glyphs[15798][2] == 212 and addon.glyphs[15798][3] == 362 and addon.glyphs[15798][4] == 44 and addon.glyphs[15798][5] == 0 and addon.glyphs[15798][6] == 43.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15798] = { 91, 242, 842, 44, 0, 43.88 }
+assert(addon.glyphs[15931] and addon.glyphs[15931][1] == 114 and addon.glyphs[15931][2] == 43 and addon.glyphs[15931][3] == 62 and addon.glyphs[15931][4] == 44 and addon.glyphs[15931][5] == 0 and addon.glyphs[15931][6] == 43.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15931] = { 91, 290, 842, 44, 0, 43.59 }
+assert(addon.glyphs[15980] and addon.glyphs[15980][1] == 114 and addon.glyphs[15980][2] == 740 and addon.glyphs[15980][3] == 302 and addon.glyphs[15980][4] == 44 and addon.glyphs[15980][5] == 0 and addon.glyphs[15980][6] == 43.28, "MAIN44 relocation baseline changed")
+addon.glyphs[15980] = { 91, 338, 842, 44, 0, 43.28 }
+assert(addon.glyphs[12530] and addon.glyphs[12530][1] == 80 and addon.glyphs[12530][2] == 404 and addon.glyphs[12530][3] == 2 and addon.glyphs[12530][4] == 43 and addon.glyphs[12530][5] == 0 and addon.glyphs[12530][6] == 42.3, "MAIN44 relocation baseline changed")
+addon.glyphs[12530] = { 91, 386, 842, 43, 0, 42.3 }
+assert(addon.glyphs[13178] and addon.glyphs[13178][1] == 87 and addon.glyphs[13178][2] == 208 and addon.glyphs[13178][3] == 2 and addon.glyphs[13178][4] == 43 and addon.glyphs[13178][5] == 0 and addon.glyphs[13178][6] == 42.16, "MAIN44 relocation baseline changed")
+addon.glyphs[13178] = { 91, 433, 842, 43, 0, 42.16 }
+assert(addon.glyphs[15528] and addon.glyphs[15528][1] == 111 and addon.glyphs[15528][2] == 549 and addon.glyphs[15528][3] == 962 and addon.glyphs[15528][4] == 43 and addon.glyphs[15528][5] == 0 and addon.glyphs[15528][6] == 42.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15528] = { 91, 480, 842, 43, 0, 42.27 }
+assert(addon.glyphs[15554] and addon.glyphs[15554][1] == 112 and addon.glyphs[15554][2] == 576 and addon.glyphs[15554][3] == 62 and addon.glyphs[15554][4] == 43 and addon.glyphs[15554][5] == 0 and addon.glyphs[15554][6] == 42.47, "MAIN44 relocation baseline changed")
+addon.glyphs[15554] = { 91, 527, 842, 43, 0, 42.47 }
+assert(addon.glyphs[15647] and addon.glyphs[15647][1] == 112 and addon.glyphs[15647][2] == 186 and addon.glyphs[15647][3] == 542 and addon.glyphs[15647][4] == 43 and addon.glyphs[15647][5] == 0 and addon.glyphs[15647][6] == 42.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15647] = { 91, 574, 842, 43, 0, 42.27 }
+assert(addon.glyphs[15654] and addon.glyphs[15654][1] == 112 and addon.glyphs[15654][2] == 803 and addon.glyphs[15654][3] == 542 and addon.glyphs[15654][4] == 43 and addon.glyphs[15654][5] == 0 and addon.glyphs[15654][6] == 42.91, "MAIN44 relocation baseline changed")
+addon.glyphs[15654] = { 91, 621, 842, 43, 0, 42.91 }
+assert(addon.glyphs[15724] and addon.glyphs[15724][1] == 112 and addon.glyphs[15724][2] == 167 and addon.glyphs[15724][3] == 962 and addon.glyphs[15724][4] == 43 and addon.glyphs[15724][5] == 0 and addon.glyphs[15724][6] == 42.8, "MAIN44 relocation baseline changed")
+addon.glyphs[15724] = { 91, 668, 842, 43, 0, 42.8 }
+assert(addon.glyphs[15852] and addon.glyphs[15852][1] == 113 and addon.glyphs[15852][2] == 2 and addon.glyphs[15852][3] == 662 and addon.glyphs[15852][4] == 43 and addon.glyphs[15852][5] == 0 and addon.glyphs[15852][6] == 42.44, "MAIN44 relocation baseline changed")
+addon.glyphs[15852] = { 91, 715, 842, 43, 0, 42.44 }
+assert(addon.glyphs[14494] and addon.glyphs[14494][1] == 102 and addon.glyphs[14494][2] == 373 and addon.glyphs[14494][3] == 62 and addon.glyphs[14494][4] == 42 and addon.glyphs[14494][5] == 0 and addon.glyphs[14494][6] == 41.34, "MAIN44 relocation baseline changed")
+addon.glyphs[14494] = { 91, 762, 842, 42, 0, 41.34 }
+assert(addon.glyphs[15369] and addon.glyphs[15369][1] == 111 and addon.glyphs[15369][2] == 809 and addon.glyphs[15369][3] == 122 and addon.glyphs[15369][4] == 42 and addon.glyphs[15369][5] == 0 and addon.glyphs[15369][6] == 41.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15369] = { 91, 808, 842, 42, 0, 41.81 }
+assert(addon.glyphs[15372] and addon.glyphs[15372][1] == 111 and addon.glyphs[15372][2] == 2 and addon.glyphs[15372][3] == 182 and addon.glyphs[15372][4] == 42 and addon.glyphs[15372][5] == 0 and addon.glyphs[15372][6] == 41.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15372] = { 91, 854, 842, 42, 0, 41.66 }
+assert(addon.glyphs[15396] and addon.glyphs[15396][1] == 111 and addon.glyphs[15396][2] == 790 and addon.glyphs[15396][3] == 242 and addon.glyphs[15396][4] == 42 and addon.glyphs[15396][5] == 0 and addon.glyphs[15396][6] == 41.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15396] = { 91, 900, 842, 42, 0, 41.23 }
+assert(addon.glyphs[15408] and addon.glyphs[15408][1] == 111 and addon.glyphs[15408][2] == 949 and addon.glyphs[15408][3] == 302 and addon.glyphs[15408][4] == 42 and addon.glyphs[15408][5] == 0 and addon.glyphs[15408][6] == 41.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15408] = { 91, 946, 842, 42, 0, 41.66 }
+assert(addon.glyphs[15504] and addon.glyphs[15504][1] == 111 and addon.glyphs[15504][2] == 815 and addon.glyphs[15504][3] == 842 and addon.glyphs[15504][4] == 42 and addon.glyphs[15504][5] == 0 and addon.glyphs[15504][6] == 41.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15504] = { 91, 2, 902, 42, 0, 41.38 }
+assert(addon.glyphs[15508] and addon.glyphs[15508][1] == 111 and addon.glyphs[15508][2] == 128 and addon.glyphs[15508][3] == 902 and addon.glyphs[15508][4] == 42 and addon.glyphs[15508][5] == 0 and addon.glyphs[15508][6] == 41.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15508] = { 91, 48, 902, 42, 0, 41.48 }
+assert(addon.glyphs[15561] and addon.glyphs[15561][1] == 112 and addon.glyphs[15561][2] == 98 and addon.glyphs[15561][3] == 122 and addon.glyphs[15561][4] == 42 and addon.glyphs[15561][5] == 0 and addon.glyphs[15561][6] == 41.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15561] = { 91, 94, 902, 42, 0, 41.11 }
+assert(addon.glyphs[15563] and addon.glyphs[15563][1] == 112 and addon.glyphs[15563][2] == 219 and addon.glyphs[15563][3] == 122 and addon.glyphs[15563][4] == 42 and addon.glyphs[15563][5] == 0 and addon.glyphs[15563][6] == 41.23, "MAIN44 relocation baseline changed")
+addon.glyphs[15563] = { 91, 140, 902, 42, 0, 41.23 }
+assert(addon.glyphs[15565] and addon.glyphs[15565][1] == 112 and addon.glyphs[15565][2] == 322 and addon.glyphs[15565][3] == 122 and addon.glyphs[15565][4] == 42 and addon.glyphs[15565][5] == 0 and addon.glyphs[15565][6] == 41.75, "MAIN44 relocation baseline changed")
+addon.glyphs[15565] = { 91, 186, 902, 42, 0, 41.75 }
+assert(addon.glyphs[15588] and addon.glyphs[15588][1] == 112 and addon.glyphs[15588][2] == 281 and addon.glyphs[15588][3] == 242 and addon.glyphs[15588][4] == 42 and addon.glyphs[15588][5] == 0 and addon.glyphs[15588][6] == 41.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15588] = { 91, 232, 902, 42, 0, 41.11 }
+assert(addon.glyphs[15596] and addon.glyphs[15596][1] == 112 and addon.glyphs[15596][2] == 910 and addon.glyphs[15596][3] == 242 and addon.glyphs[15596][4] == 42 and addon.glyphs[15596][5] == 0 and addon.glyphs[15596][6] == 41.27, "MAIN44 relocation baseline changed")
+addon.glyphs[15596] = { 91, 278, 902, 42, 0, 41.27 }
+assert(addon.glyphs[15624] and addon.glyphs[15624][1] == 112 and addon.glyphs[15624][2] == 204 and addon.glyphs[15624][3] == 422 and addon.glyphs[15624][4] == 42 and addon.glyphs[15624][5] == 0 and addon.glyphs[15624][6] == 41.38, "MAIN44 relocation baseline changed")
+addon.glyphs[15624] = { 91, 324, 902, 42, 0, 41.38 }
+assert(addon.glyphs[15693] and addon.glyphs[15693][1] == 112 and addon.glyphs[15693][2] == 588 and addon.glyphs[15693][3] == 782 and addon.glyphs[15693][4] == 42 and addon.glyphs[15693][5] == 0 and addon.glyphs[15693][6] == 41.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15693] = { 91, 370, 902, 42, 0, 41.66 }
+assert(addon.glyphs[15884] and addon.glyphs[15884][1] == 113 and addon.glyphs[15884][2] == 908 and addon.glyphs[15884][3] == 782 and addon.glyphs[15884][4] == 42 and addon.glyphs[15884][5] == 0 and addon.glyphs[15884][6] == 41.66, "MAIN44 relocation baseline changed")
+addon.glyphs[15884] = { 91, 416, 902, 42, 0, 41.66 }
+assert(addon.glyphs[15993] and addon.glyphs[15993][1] == 114 and addon.glyphs[15993][2] == 887 and addon.glyphs[15993][3] == 362 and addon.glyphs[15993][4] == 42 and addon.glyphs[15993][5] == 0 and addon.glyphs[15993][6] == 41.81, "MAIN44 relocation baseline changed")
+addon.glyphs[15993] = { 91, 462, 902, 42, 0, 41.81 }
+assert(addon.glyphs[12527] and addon.glyphs[12527][1] == 80 and addon.glyphs[12527][2] == 257 and addon.glyphs[12527][3] == 2 and addon.glyphs[12527][4] == 41 and addon.glyphs[12527][5] == 0 and addon.glyphs[12527][6] == 40.73, "MAIN44 relocation baseline changed")
+addon.glyphs[12527] = { 106, 980, 962, 41, 0, 40.73 }
+assert(addon.glyphs[13476] and addon.glyphs[13476][1] == 90 and addon.glyphs[13476][2] == 90 and addon.glyphs[13476][3] == 2 and addon.glyphs[13476][4] == 41 and addon.glyphs[13476][5] == 0 and addon.glyphs[13476][6] == 40.73, "MAIN44 relocation baseline changed")
+addon.glyphs[13476] = { 91, 508, 902, 41, 0, 40.73 }
+assert(addon.glyphs[14328] and addon.glyphs[14328][1] == 97 and addon.glyphs[14328][2] == 406 and addon.glyphs[14328][3] == 62 and addon.glyphs[14328][4] == 41 and addon.glyphs[14328][5] == -3 and addon.glyphs[14328][6] == 37.75, "MAIN44 relocation baseline changed")
+addon.glyphs[14328] = { 91, 553, 902, 41, -3, 37.75 }
+assert(addon.glyphs[15357] and addon.glyphs[15357][1] == 111 and addon.glyphs[15357][2] == 819 and addon.glyphs[15357][3] == 62 and addon.glyphs[15357][4] == 41 and addon.glyphs[15357][5] == 0 and addon.glyphs[15357][6] == 40.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15357] = { 91, 598, 902, 41, 0, 40.08 }
+assert(addon.glyphs[15382] and addon.glyphs[15382][1] == 111 and addon.glyphs[15382][2] == 745 and addon.glyphs[15382][3] == 182 and addon.glyphs[15382][4] == 41 and addon.glyphs[15382][5] == 0 and addon.glyphs[15382][6] == 40.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15382] = { 91, 643, 902, 41, 0, 40.77 }
+assert(addon.glyphs[15416] and addon.glyphs[15416][1] == 111 and addon.glyphs[15416][2] == 542 and addon.glyphs[15416][3] == 362 and addon.glyphs[15416][4] == 41 and addon.glyphs[15416][5] == 0 and addon.glyphs[15416][6] == 40.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15416] = { 91, 688, 902, 41, 0, 40.77 }
+assert(addon.glyphs[15428] and addon.glyphs[15428][1] == 111 and addon.glyphs[15428][2] == 700 and addon.glyphs[15428][3] == 422 and addon.glyphs[15428][4] == 41 and addon.glyphs[15428][5] == 0 and addon.glyphs[15428][6] == 40.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15428] = { 91, 733, 902, 41, 0, 40.86 }
+assert(addon.glyphs[15481] and addon.glyphs[15481][1] == 111 and addon.glyphs[15481][2] == 907 and addon.glyphs[15481][3] == 722 and addon.glyphs[15481][4] == 41 and addon.glyphs[15481][5] == 0 and addon.glyphs[15481][6] == 40.56, "MAIN44 relocation baseline changed")
+addon.glyphs[15481] = { 91, 778, 902, 41, 0, 40.56 }
+assert(addon.glyphs[15520] and addon.glyphs[15520][1] == 111 and addon.glyphs[15520][2] == 2 and addon.glyphs[15520][3] == 962 and addon.glyphs[15520][4] == 41 and addon.glyphs[15520][5] == 0 and addon.glyphs[15520][6] == 41, "MAIN44 relocation baseline changed")
+addon.glyphs[15520] = { 91, 823, 902, 41, 0, 41 }
+assert(addon.glyphs[15524] and addon.glyphs[15524][1] == 111 and addon.glyphs[15524][2] == 318 and addon.glyphs[15524][3] == 962 and addon.glyphs[15524][4] == 41 and addon.glyphs[15524][5] == 0 and addon.glyphs[15524][6] == 40.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15524] = { 91, 868, 902, 41, 0, 40.83 }
+assert(addon.glyphs[15557] and addon.glyphs[15557][1] == 112 and addon.glyphs[15557][2] == 776 and addon.glyphs[15557][3] == 62 and addon.glyphs[15557][4] == 41 and addon.glyphs[15557][5] == 0 and addon.glyphs[15557][6] == 40.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15557] = { 91, 913, 902, 41, 0, 40.45 }
+assert(addon.glyphs[15566] and addon.glyphs[15566][1] == 112 and addon.glyphs[15566][2] == 368 and addon.glyphs[15566][3] == 122 and addon.glyphs[15566][4] == 41 and addon.glyphs[15566][5] == 0 and addon.glyphs[15566][6] == 40.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15566] = { 91, 958, 902, 41, 0, 40.3 }
+assert(addon.glyphs[15613] and addon.glyphs[15613][1] == 112 and addon.glyphs[15613][2] == 450 and addon.glyphs[15613][3] == 362 and addon.glyphs[15613][4] == 41 and addon.glyphs[15613][5] == 0 and addon.glyphs[15613][6] == 40.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15613] = { 91, 2, 962, 41, 0, 40.08 }
+assert(addon.glyphs[15661] and addon.glyphs[15661][1] == 112 and addon.glyphs[15661][2] == 537 and addon.glyphs[15661][3] == 602 and addon.glyphs[15661][4] == 41 and addon.glyphs[15661][5] == 0 and addon.glyphs[15661][6] == 40.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15661] = { 91, 47, 962, 41, 0, 40.08 }
+assert(addon.glyphs[15704] and addon.glyphs[15704][1] == 112 and addon.glyphs[15704][2] == 468 and addon.glyphs[15704][3] == 842 and addon.glyphs[15704][4] == 41 and addon.glyphs[15704][5] == 0 and addon.glyphs[15704][6] == 40.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15704] = { 91, 92, 962, 41, 0, 40.45 }
+assert(addon.glyphs[15720] and addon.glyphs[15720][1] == 112 and addon.glyphs[15720][2] == 805 and addon.glyphs[15720][3] == 902 and addon.glyphs[15720][4] == 41 and addon.glyphs[15720][5] == 0 and addon.glyphs[15720][6] == 40.73, "MAIN44 relocation baseline changed")
+addon.glyphs[15720] = { 91, 137, 962, 41, 0, 40.73 }
+assert(addon.glyphs[15791] and addon.glyphs[15791][1] == 113 and addon.glyphs[15791][2] == 430 and addon.glyphs[15791][3] == 302 and addon.glyphs[15791][4] == 41 and addon.glyphs[15791][5] == 0 and addon.glyphs[15791][6] == 41, "MAIN44 relocation baseline changed")
+addon.glyphs[15791] = { 91, 182, 962, 41, 0, 41 }
+assert(addon.glyphs[15822] and addon.glyphs[15822][1] == 113 and addon.glyphs[15822][2] == 332 and addon.glyphs[15822][3] == 482 and addon.glyphs[15822][4] == 41 and addon.glyphs[15822][5] == 0 and addon.glyphs[15822][6] == 40.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15822] = { 91, 227, 962, 41, 0, 40.09 }
+assert(addon.glyphs[15832] and addon.glyphs[15832][1] == 113 and addon.glyphs[15832][2] == 212 and addon.glyphs[15832][3] == 542 and addon.glyphs[15832][4] == 41 and addon.glyphs[15832][5] == 0 and addon.glyphs[15832][6] == 40.52, "MAIN44 relocation baseline changed")
+addon.glyphs[15832] = { 91, 272, 962, 41, 0, 40.52 }
+assert(addon.glyphs[15859] and addon.glyphs[15859][1] == 113 and addon.glyphs[15859][2] == 727 and addon.glyphs[15859][3] == 662 and addon.glyphs[15859][4] == 41 and addon.glyphs[15859][5] == 0 and addon.glyphs[15859][6] == 40.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15859] = { 91, 317, 962, 41, 0, 40.83 }
+assert(addon.glyphs[15864] and addon.glyphs[15864][1] == 113 and addon.glyphs[15864][2] == 101 and addon.glyphs[15864][3] == 722 and addon.glyphs[15864][4] == 41 and addon.glyphs[15864][5] == 0 and addon.glyphs[15864][6] == 40.45, "MAIN44 relocation baseline changed")
+addon.glyphs[15864] = { 91, 362, 962, 41, 0, 40.45 }
+assert(addon.glyphs[15882] and addon.glyphs[15882][1] == 113 and addon.glyphs[15882][2] == 784 and addon.glyphs[15882][3] == 782 and addon.glyphs[15882][4] == 41 and addon.glyphs[15882][5] == 0 and addon.glyphs[15882][6] == 40.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15882] = { 91, 407, 962, 41, 0, 40.08 }
+assert(addon.glyphs[15894] and addon.glyphs[15894][1] == 113 and addon.glyphs[15894][2] == 764 and addon.glyphs[15894][3] == 842 and addon.glyphs[15894][4] == 41 and addon.glyphs[15894][5] == 0 and addon.glyphs[15894][6] == 40.59, "MAIN44 relocation baseline changed")
+addon.glyphs[15894] = { 91, 452, 962, 41, 0, 40.59 }
+assert(addon.glyphs[12532] and addon.glyphs[12532][1] == 80 and addon.glyphs[12532][2] == 518 and addon.glyphs[12532][3] == 2 and addon.glyphs[12532][4] == 40 and addon.glyphs[12532][5] == 0 and addon.glyphs[12532][6] == 39.33, "MAIN44 relocation baseline changed")
+addon.glyphs[12532] = { 91, 497, 962, 40, 0, 39.33 }
+assert(addon.glyphs[13180] and addon.glyphs[13180][1] == 87 and addon.glyphs[13180][2] == 341 and addon.glyphs[13180][3] == 2 and addon.glyphs[13180][4] == 40 and addon.glyphs[13180][5] == 0 and addon.glyphs[13180][6] == 39.95, "MAIN44 relocation baseline changed")
+addon.glyphs[13180] = { 91, 541, 962, 40, 0, 39.95 }
+assert(addon.glyphs[13191] and addon.glyphs[13191][1] == 87 and addon.glyphs[13191][2] == 938 and addon.glyphs[13191][3] == 2 and addon.glyphs[13191][4] == 40 and addon.glyphs[13191][5] == 0 and addon.glyphs[13191][6] == 39.92, "MAIN44 relocation baseline changed")
+addon.glyphs[13191] = { 91, 585, 962, 40, 0, 39.92 }
+assert(addon.glyphs[13198] and addon.glyphs[13198][1] == 87 and addon.glyphs[13198][2] == 420 and addon.glyphs[13198][3] == 62 and addon.glyphs[13198][4] == 40 and addon.glyphs[13198][5] == 0 and addon.glyphs[13198][6] == 39.41, "MAIN44 relocation baseline changed")
+addon.glyphs[13198] = { 91, 629, 962, 40, 0, 39.41 }
+assert(addon.glyphs[13481] and addon.glyphs[13481][1] == 90 and addon.glyphs[13481][2] == 345 and addon.glyphs[13481][3] == 2 and addon.glyphs[13481][4] == 40 and addon.glyphs[13481][5] == 0 and addon.glyphs[13481][6] == 39.81, "MAIN44 relocation baseline changed")
+addon.glyphs[13481] = { 91, 673, 962, 40, 0, 39.81 }
+assert(addon.glyphs[13489] and addon.glyphs[13489][1] == 90 and addon.glyphs[13489][2] == 194 and addon.glyphs[13489][3] == 62 and addon.glyphs[13489][4] == 40 and addon.glyphs[13489][5] == 0 and addon.glyphs[13489][6] == 39.53, "MAIN44 relocation baseline changed")
+addon.glyphs[13489] = { 91, 717, 962, 40, 0, 39.53 }
+assert(addon.glyphs[13575] and addon.glyphs[13575][1] == 92 and addon.glyphs[13575][2] == 472 and addon.glyphs[13575][3] == 2 and addon.glyphs[13575][4] == 40 and addon.glyphs[13575][5] == 0 and addon.glyphs[13575][6] == 39.92, "MAIN44 relocation baseline changed")
+addon.glyphs[13575] = { 91, 761, 962, 40, 0, 39.92 }
+assert(addon.glyphs[14335] and addon.glyphs[14335][1] == 98 and addon.glyphs[14335][2] == 84 and addon.glyphs[14335][3] == 2 and addon.glyphs[14335][4] == 40 and addon.glyphs[14335][5] == 0 and addon.glyphs[14335][6] == 39.3, "MAIN44 relocation baseline changed")
+addon.glyphs[14335] = { 91, 805, 962, 40, 0, 39.3 }
+assert(addon.glyphs[14511] and addon.glyphs[14511][1] == 102 and addon.glyphs[14511][2] == 188 and addon.glyphs[14511][3] == 182 and addon.glyphs[14511][4] == 40 and addon.glyphs[14511][5] == 0 and addon.glyphs[14511][6] == 39.81, "MAIN44 relocation baseline changed")
+addon.glyphs[14511] = { 91, 849, 962, 40, 0, 39.81 }
+assert(addon.glyphs[15335] and addon.glyphs[15335][1] == 111 and addon.glyphs[15335][2] == 183 and addon.glyphs[15335][3] == 2 and addon.glyphs[15335][4] == 40 and addon.glyphs[15335][5] == 0 and addon.glyphs[15335][6] == 39.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15335] = { 91, 893, 962, 40, 0, 39.3 }
+assert(addon.glyphs[15394] and addon.glyphs[15394][1] == 111 and addon.glyphs[15394][2] == 664 and addon.glyphs[15394][3] == 242 and addon.glyphs[15394][4] == 40 and addon.glyphs[15394][5] == 0 and addon.glyphs[15394][6] == 39.92, "MAIN44 relocation baseline changed")
+addon.glyphs[15394] = { 91, 937, 962, 40, 0, 39.92 }
+assert(addon.glyphs[15464] and addon.glyphs[15464][1] == 111 and addon.glyphs[15464][2] == 512 and addon.glyphs[15464][3] == 662 and addon.glyphs[15464][4] == 40 and addon.glyphs[15464][5] == 0 and addon.glyphs[15464][6] == 39.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15464] = { 91, 981, 962, 40, 0, 39.58 }
+assert(addon.glyphs[15540] and addon.glyphs[15540][1] == 112 and addon.glyphs[15540][2] == 557 and addon.glyphs[15540][3] == 2 and addon.glyphs[15540][4] == 40 and addon.glyphs[15540][5] == 0 and addon.glyphs[15540][6] == 39.84, "MAIN44 relocation baseline changed")
+addon.glyphs[15540] = { 100, 2, 482, 40, 0, 39.84 }
+assert(addon.glyphs[15552] and addon.glyphs[15552][1] == 112 and addon.glyphs[15552][2] == 459 and addon.glyphs[15552][3] == 62 and addon.glyphs[15552][4] == 40 and addon.glyphs[15552][5] == 0 and addon.glyphs[15552][6] == 39.3, "MAIN44 relocation baseline changed")
+addon.glyphs[15552] = { 100, 46, 482, 40, 0, 39.3 }
+assert(addon.glyphs[15585] and addon.glyphs[15585][1] == 112 and addon.glyphs[15585][2] == 65 and addon.glyphs[15585][3] == 242 and addon.glyphs[15585][4] == 40 and addon.glyphs[15585][5] == 0 and addon.glyphs[15585][6] == 39.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15585] = { 100, 90, 482, 40, 0, 39.03 }
+assert(addon.glyphs[15607] and addon.glyphs[15607][1] == 112 and addon.glyphs[15607][2] == 896 and addon.glyphs[15607][3] == 302 and addon.glyphs[15607][4] == 40 and addon.glyphs[15607][5] == 0 and addon.glyphs[15607][6] == 39.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15607] = { 100, 134, 482, 40, 0, 39.95 }
+assert(addon.glyphs[15620] and addon.glyphs[15620][1] == 112 and addon.glyphs[15620][2] == 981 and addon.glyphs[15620][3] == 362 and addon.glyphs[15620][4] == 40 and addon.glyphs[15620][5] == 0 and addon.glyphs[15620][6] == 39.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15620] = { 100, 178, 482, 40, 0, 39.03 }
+assert(addon.glyphs[15642] and addon.glyphs[15642][1] == 112 and addon.glyphs[15642][2] == 643 and addon.glyphs[15642][3] == 482 and addon.glyphs[15642][4] == 40 and addon.glyphs[15642][5] == 0 and addon.glyphs[15642][6] == 39.67, "MAIN44 relocation baseline changed")
+addon.glyphs[15642] = { 100, 222, 482, 40, 0, 39.67 }
+assert(addon.glyphs[15723] and addon.glyphs[15723][1] == 112 and addon.glyphs[15723][2] == 123 and addon.glyphs[15723][3] == 962 and addon.glyphs[15723][4] == 40 and addon.glyphs[15723][5] == 0 and addon.glyphs[15723][6] == 39.41, "MAIN44 relocation baseline changed")
+addon.glyphs[15723] = { 100, 266, 482, 40, 0, 39.41 }
+assert(addon.glyphs[15769] and addon.glyphs[15769][1] == 113 and addon.glyphs[15769][2] == 573 and addon.glyphs[15769][3] == 182 and addon.glyphs[15769][4] == 40 and addon.glyphs[15769][5] == 0 and addon.glyphs[15769][6] == 39.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15769] = { 100, 310, 482, 40, 0, 39.14 }
+assert(addon.glyphs[15773] and addon.glyphs[15773][1] == 113 and addon.glyphs[15773][2] == 894 and addon.glyphs[15773][3] == 182 and addon.glyphs[15773][4] == 40 and addon.glyphs[15773][5] == 0 and addon.glyphs[15773][6] == 39.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15773] = { 100, 354, 482, 40, 0, 39.55 }
+assert(addon.glyphs[15794] and addon.glyphs[15794][1] == 113 and addon.glyphs[15794][2] == 669 and addon.glyphs[15794][3] == 302 and addon.glyphs[15794][4] == 40 and addon.glyphs[15794][5] == 0 and addon.glyphs[15794][6] == 39.78, "MAIN44 relocation baseline changed")
+addon.glyphs[15794] = { 100, 398, 482, 40, 0, 39.78 }
+assert(addon.glyphs[15805] and addon.glyphs[15805][1] == 113 and addon.glyphs[15805][2] == 805 and addon.glyphs[15805][3] == 362 and addon.glyphs[15805][4] == 40 and addon.glyphs[15805][5] == 0 and addon.glyphs[15805][6] == 39.88, "MAIN44 relocation baseline changed")
+addon.glyphs[15805] = { 100, 442, 482, 40, 0, 39.88 }
+assert(addon.glyphs[15938] and addon.glyphs[15938][1] == 114 and addon.glyphs[15938][2] == 620 and addon.glyphs[15938][3] == 62 and addon.glyphs[15938][4] == 40 and addon.glyphs[15938][5] == 0 and addon.glyphs[15938][6] == 39.7, "MAIN44 relocation baseline changed")
+addon.glyphs[15938] = { 100, 486, 482, 40, 0, 39.7 }
+assert(addon.glyphs[12542] and addon.glyphs[12542][1] == 80 and addon.glyphs[12542][2] == 430 and addon.glyphs[12542][3] == 62 and addon.glyphs[12542][4] == 39 and addon.glyphs[12542][5] == -3 and addon.glyphs[12542][6] == 35.53, "MAIN44 relocation baseline changed")
+addon.glyphs[12542] = { 100, 530, 482, 39, -3, 35.53 }
+assert(addon.glyphs[12580] and addon.glyphs[12580][1] == 82 and addon.glyphs[12580][2] == 412 and addon.glyphs[12580][3] == 2 and addon.glyphs[12580][4] == 39 and addon.glyphs[12580][5] == 0 and addon.glyphs[12580][6] == 38.83, "MAIN44 relocation baseline changed")
+addon.glyphs[12580] = { 100, 573, 482, 39, 0, 38.83 }
+assert(addon.glyphs[12583] and addon.glyphs[12583][1] == 82 and addon.glyphs[12583][2] == 530 and addon.glyphs[12583][3] == 2 and addon.glyphs[12583][4] == 39 and addon.glyphs[12583][5] == 0 and addon.glyphs[12583][6] == 38.14, "MAIN44 relocation baseline changed")
+addon.glyphs[12583] = { 100, 616, 482, 39, 0, 38.14 }
+assert(addon.glyphs[12585] and addon.glyphs[12585][1] == 82 and addon.glyphs[12585][2] == 615 and addon.glyphs[12585][3] == 2 and addon.glyphs[12585][4] == 39 and addon.glyphs[12585][5] == 0 and addon.glyphs[12585][6] == 38.39, "MAIN44 relocation baseline changed")
+addon.glyphs[12585] = { 100, 659, 482, 39, 0, 38.39 }
+assert(addon.glyphs[13480] and addon.glyphs[13480][1] == 90 and addon.glyphs[13480][2] == 302 and addon.glyphs[13480][3] == 2 and addon.glyphs[13480][4] == 39 and addon.glyphs[13480][5] == 0 and addon.glyphs[13480][6] == 38.83, "MAIN44 relocation baseline changed")
+addon.glyphs[13480] = { 100, 702, 482, 39, 0, 38.83 }
+assert(addon.glyphs[14326] and addon.glyphs[14326][1] == 97 and addon.glyphs[14326][2] == 282 and addon.glyphs[14326][3] == 62 and addon.glyphs[14326][4] == 39 and addon.glyphs[14326][5] == -3 and addon.glyphs[14326][6] == 35.53, "MAIN44 relocation baseline changed")
+addon.glyphs[14326] = { 100, 745, 482, 39, -3, 35.53 }
+assert(addon.glyphs[14342] and addon.glyphs[14342][1] == 98 and addon.glyphs[14342][2] == 729 and addon.glyphs[14342][3] == 2 and addon.glyphs[14342][4] == 39 and addon.glyphs[14342][5] == 0 and addon.glyphs[14342][6] == 38.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14342] = { 100, 788, 482, 39, 0, 38.14 }
+assert(addon.glyphs[15455] and addon.glyphs[15455][1] == 111 and addon.glyphs[15455][2] == 669 and addon.glyphs[15455][3] == 602 and addon.glyphs[15455][4] == 39 and addon.glyphs[15455][5] == 0 and addon.glyphs[15455][6] == 38.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15455] = { 100, 831, 482, 39, 0, 38.14 }
+assert(addon.glyphs[15754] and addon.glyphs[15754][1] == 113 and addon.glyphs[15754][2] == 2 and addon.glyphs[15754][3] == 122 and addon.glyphs[15754][4] == 39 and addon.glyphs[15754][5] == 0 and addon.glyphs[15754][6] == 38.08, "MAIN44 relocation baseline changed")
+addon.glyphs[15754] = { 100, 874, 482, 39, 0, 38.08 }
+assert(addon.glyphs[15847] and addon.glyphs[15847][1] == 113 and addon.glyphs[15847][2] == 620 and addon.glyphs[15847][3] == 602 and addon.glyphs[15847][4] == 39 and addon.glyphs[15847][5] == 0 and addon.glyphs[15847][6] == 38.11, "MAIN44 relocation baseline changed")
+addon.glyphs[15847] = { 100, 917, 482, 39, 0, 38.11 }
+assert(addon.glyphs[15917] and addon.glyphs[15917][1] == 113 and addon.glyphs[15917][2] == 753 and addon.glyphs[15917][3] == 962 and addon.glyphs[15917][4] == 39 and addon.glyphs[15917][5] == 0 and addon.glyphs[15917][6] == 38.95, "MAIN44 relocation baseline changed")
+addon.glyphs[15917] = { 100, 960, 482, 39, 0, 38.95 }
+assert(addon.glyphs[15975] and addon.glyphs[15975][1] == 114 and addon.glyphs[15975][2] == 292 and addon.glyphs[15975][3] == 302 and addon.glyphs[15975][4] == 39 and addon.glyphs[15975][5] == 0 and addon.glyphs[15975][6] == 38.55, "MAIN44 relocation baseline changed")
+addon.glyphs[15975] = { 100, 2, 542, 39, 0, 38.55 }
+assert(addon.glyphs[12541] and addon.glyphs[12541][1] == 80 and addon.glyphs[12541][2] == 388 and addon.glyphs[12541][3] == 62 and addon.glyphs[12541][4] == 38 and addon.glyphs[12541][5] == -2 and addon.glyphs[12541][6] == 34.48, "MAIN44 relocation baseline changed")
+addon.glyphs[12541] = { 100, 45, 542, 38, -2, 34.48 }
+assert(addon.glyphs[12548] and addon.glyphs[12548][1] == 81 and addon.glyphs[12548][2] == 289 and addon.glyphs[12548][3] == 2 and addon.glyphs[12548][4] == 38 and addon.glyphs[12548][5] == 0 and addon.glyphs[12548][6] == 37.06, "MAIN44 relocation baseline changed")
+addon.glyphs[12548] = { 100, 87, 542, 38, 0, 37.06 }
+assert(addon.glyphs[12573] and addon.glyphs[12573][1] == 81 and addon.glyphs[12573][2] == 931 and addon.glyphs[12573][3] == 62 and addon.glyphs[12573][4] == 38 and addon.glyphs[12573][5] == -3 and addon.glyphs[12573][6] == 34.14, "MAIN44 relocation baseline changed")
+addon.glyphs[12573] = { 100, 129, 542, 38, -3, 34.14 }
+assert(addon.glyphs[12584] and addon.glyphs[12584][1] == 82 and addon.glyphs[12584][2] == 573 and addon.glyphs[12584][3] == 2 and addon.glyphs[12584][4] == 38 and addon.glyphs[12584][5] == 0 and addon.glyphs[12584][6] == 37.36, "MAIN44 relocation baseline changed")
+addon.glyphs[12584] = { 100, 171, 542, 38, 0, 37.36 }
+assert(addon.glyphs[12596] and addon.glyphs[12596][1] == 82 and addon.glyphs[12596][2] == 457 and addon.glyphs[12596][3] == 62 and addon.glyphs[12596][4] == 38 and addon.glyphs[12596][5] == -2 and addon.glyphs[12596][6] == 34.48, "MAIN44 relocation baseline changed")
+addon.glyphs[12596] = { 100, 213, 542, 38, -2, 34.48 }
+assert(addon.glyphs[13181] and addon.glyphs[13181][1] == 87 and addon.glyphs[13181][2] == 385 and addon.glyphs[13181][3] == 2 and addon.glyphs[13181][4] == 38 and addon.glyphs[13181][5] == 0 and addon.glyphs[13181][6] == 37.06, "MAIN44 relocation baseline changed")
+addon.glyphs[13181] = { 100, 255, 542, 38, 0, 37.06 }
+assert(addon.glyphs[13203] and addon.glyphs[13203][1] == 87 and addon.glyphs[13203][2] == 703 and addon.glyphs[13203][3] == 62 and addon.glyphs[13203][4] == 38 and addon.glyphs[13203][5] == -3 and addon.glyphs[13203][6] == 33.39, "MAIN44 relocation baseline changed")
+addon.glyphs[13203] = { 100, 297, 542, 38, -3, 33.39 }
+assert(addon.glyphs[13205] and addon.glyphs[13205][1] == 87 and addon.glyphs[13205][2] == 824 and addon.glyphs[13205][3] == 62 and addon.glyphs[13205][4] == 38 and addon.glyphs[13205][5] == -3 and addon.glyphs[13205][6] == 34.14, "MAIN44 relocation baseline changed")
+addon.glyphs[13205] = { 100, 339, 542, 38, -3, 34.14 }
+assert(addon.glyphs[13495] and addon.glyphs[13495][1] == 90 and addon.glyphs[13495][2] == 520 and addon.glyphs[13495][3] == 62 and addon.glyphs[13495][4] == 38 and addon.glyphs[13495][5] == -2 and addon.glyphs[13495][6] == 34.48, "MAIN44 relocation baseline changed")
+addon.glyphs[13495] = { 100, 381, 542, 38, -2, 34.48 }
+assert(addon.glyphs[14319] and addon.glyphs[14319][1] == 97 and addon.glyphs[14319][2] == 873 and addon.glyphs[14319][3] == 2 and addon.glyphs[14319][4] == 38 and addon.glyphs[14319][5] == -2 and addon.glyphs[14319][6] == 34.48, "MAIN44 relocation baseline changed")
+addon.glyphs[14319] = { 100, 423, 542, 38, -2, 34.48 }
+assert(addon.glyphs[14321] and addon.glyphs[14321][1] == 97 and addon.glyphs[14321][2] == 975 and addon.glyphs[14321][3] == 2 and addon.glyphs[14321][4] == 38 and addon.glyphs[14321][5] == -3 and addon.glyphs[14321][6] == 33.39, "MAIN44 relocation baseline changed")
+addon.glyphs[14321] = { 100, 465, 542, 38, -3, 33.39 }
+assert(addon.glyphs[14329] and addon.glyphs[14329][1] == 97 and addon.glyphs[14329][2] == 451 and addon.glyphs[14329][3] == 62 and addon.glyphs[14329][4] == 38 and addon.glyphs[14329][5] == -3 and addon.glyphs[14329][6] == 34.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14329] = { 100, 507, 542, 38, -3, 34.14 }
+assert(addon.glyphs[15407] and addon.glyphs[15407][1] == 111 and addon.glyphs[15407][2] == 907 and addon.glyphs[15407][3] == 302 and addon.glyphs[15407][4] == 38 and addon.glyphs[15407][5] == 0 and addon.glyphs[15407][6] == 37.61, "MAIN44 relocation baseline changed")
+addon.glyphs[15407] = { 100, 549, 542, 38, 0, 37.61 }
+assert(addon.glyphs[15638] and addon.glyphs[15638][1] == 112 and addon.glyphs[15638][2] == 360 and addon.glyphs[15638][3] == 482 and addon.glyphs[15638][4] == 38 and addon.glyphs[15638][5] == 0 and addon.glyphs[15638][6] == 37.09, "MAIN44 relocation baseline changed")
+addon.glyphs[15638] = { 100, 591, 542, 38, 0, 37.09 }
+assert(addon.glyphs[15835] and addon.glyphs[15835][1] == 113 and addon.glyphs[15835][2] == 454 and addon.glyphs[15835][3] == 542 and addon.glyphs[15835][4] == 38 and addon.glyphs[15835][5] == 0 and addon.glyphs[15835][6] == 37.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15835] = { 100, 633, 542, 38, 0, 37.12 }
+assert(addon.glyphs[12528] and addon.glyphs[12528][1] == 80 and addon.glyphs[12528][2] == 302 and addon.glyphs[12528][3] == 2 and addon.glyphs[12528][4] == 37 and addon.glyphs[12528][5] == 0 and addon.glyphs[12528][6] == 36.38, "MAIN44 relocation baseline changed")
+addon.glyphs[12528] = { 100, 675, 542, 37, 0, 36.38 }
+assert(addon.glyphs[12540] and addon.glyphs[12540][1] == 80 and addon.glyphs[12540][2] == 347 and addon.glyphs[12540][3] == 62 and addon.glyphs[12540][4] == 37 and addon.glyphs[12540][5] == -2 and addon.glyphs[12540][6] == 34.52, "MAIN44 relocation baseline changed")
+addon.glyphs[12540] = { 100, 716, 542, 37, -2, 34.52 }
+assert(addon.glyphs[12545] and addon.glyphs[12545][1] == 81 and addon.glyphs[12545][2] == 153 and addon.glyphs[12545][3] == 2 and addon.glyphs[12545][4] == 37 and addon.glyphs[12545][5] == 0 and addon.glyphs[12545][6] == 36.69, "MAIN44 relocation baseline changed")
+addon.glyphs[12545] = { 100, 757, 542, 37, 0, 36.69 }
+assert(addon.glyphs[12571] and addon.glyphs[12571][1] == 81 and addon.glyphs[12571][2] == 808 and addon.glyphs[12571][3] == 62 and addon.glyphs[12571][4] == 37 and addon.glyphs[12571][5] == -2 and addon.glyphs[12571][6] == 34.52, "MAIN44 relocation baseline changed")
+addon.glyphs[12571] = { 100, 798, 542, 37, -2, 34.52 }
+assert(addon.glyphs[12575] and addon.glyphs[12575][1] == 82 and addon.glyphs[12575][2] == 2 and addon.glyphs[12575][3] == 2 and addon.glyphs[12575][4] == 37 and addon.glyphs[12575][5] == 0 and addon.glyphs[12575][6] == 36.69, "MAIN44 relocation baseline changed")
+addon.glyphs[12575] = { 100, 839, 542, 37, 0, 36.69 }
+assert(addon.glyphs[13177] and addon.glyphs[13177][1] == 87 and addon.glyphs[13177][2] == 167 and addon.glyphs[13177][3] == 2 and addon.glyphs[13177][4] == 37 and addon.glyphs[13177][5] == 0 and addon.glyphs[13177][6] == 36.69, "MAIN44 relocation baseline changed")
+addon.glyphs[13177] = { 100, 880, 542, 37, 0, 36.69 }
+assert(addon.glyphs[13202] and addon.glyphs[13202][1] == 87 and addon.glyphs[13202][2] == 662 and addon.glyphs[13202][3] == 62 and addon.glyphs[13202][4] == 37 and addon.glyphs[13202][5] == -1 and addon.glyphs[13202][6] == 35.23, "MAIN44 relocation baseline changed")
+addon.glyphs[13202] = { 100, 921, 542, 37, -1, 35.23 }
+assert(addon.glyphs[13493] and addon.glyphs[13493][1] == 90 and addon.glyphs[13493][2] == 438 and addon.glyphs[13493][3] == 62 and addon.glyphs[13493][4] == 37 and addon.glyphs[13493][5] == -1 and addon.glyphs[13493][6] == 35.23, "MAIN44 relocation baseline changed")
+addon.glyphs[13493] = { 100, 962, 542, 37, -1, 35.23 }
+assert(addon.glyphs[13494] and addon.glyphs[13494][1] == 90 and addon.glyphs[13494][2] == 479 and addon.glyphs[13494][3] == 62 and addon.glyphs[13494][4] == 37 and addon.glyphs[13494][5] == -2 and addon.glyphs[13494][6] == 34.52, "MAIN44 relocation baseline changed")
+addon.glyphs[13494] = { 100, 2, 602, 37, -2, 34.52 }
+assert(addon.glyphs[13569] and addon.glyphs[13569][1] == 92 and addon.glyphs[13569][2] == 62 and addon.glyphs[13569][3] == 2 and addon.glyphs[13569][4] == 37 and addon.glyphs[13569][5] == 0 and addon.glyphs[13569][6] == 36.69, "MAIN44 relocation baseline changed")
+addon.glyphs[13569] = { 100, 43, 602, 37, 0, 36.69 }
+assert(addon.glyphs[14310] and addon.glyphs[14310][1] == 97 and addon.glyphs[14310][2] == 326 and addon.glyphs[14310][3] == 2 and addon.glyphs[14310][4] == 37 and addon.glyphs[14310][5] == -2 and addon.glyphs[14310][6] == 33.47, "MAIN44 relocation baseline changed")
+addon.glyphs[14310] = { 100, 84, 602, 37, -2, 33.47 }
+assert(addon.glyphs[14312] and addon.glyphs[14312][1] == 97 and addon.glyphs[14312][2] == 406 and addon.glyphs[14312][3] == 2 and addon.glyphs[14312][4] == 37 and addon.glyphs[14312][5] == -2 and addon.glyphs[14312][6] == 33.5, "MAIN44 relocation baseline changed")
+addon.glyphs[14312] = { 100, 125, 602, 37, -2, 33.5 }
+assert(addon.glyphs[14314] and addon.glyphs[14314][1] == 97 and addon.glyphs[14314][2] == 557 and addon.glyphs[14314][3] == 2 and addon.glyphs[14314][4] == 37 and addon.glyphs[14314][5] == -2 and addon.glyphs[14314][6] == 34.52, "MAIN44 relocation baseline changed")
+addon.glyphs[14314] = { 100, 166, 602, 37, -2, 34.52 }
+assert(addon.glyphs[14316] and addon.glyphs[14316][1] == 97 and addon.glyphs[14316][2] == 701 and addon.glyphs[14316][3] == 2 and addon.glyphs[14316][4] == 37 and addon.glyphs[14316][5] == -2 and addon.glyphs[14316][6] == 34.8, "MAIN44 relocation baseline changed")
+addon.glyphs[14316] = { 100, 207, 602, 37, -2, 34.8 }
+assert(addon.glyphs[15409] and addon.glyphs[15409][1] == 111 and addon.glyphs[15409][2] == 2 and addon.glyphs[15409][3] == 362 and addon.glyphs[15409][4] == 37 and addon.glyphs[15409][5] == 0 and addon.glyphs[15409][6] == 36.03, "MAIN44 relocation baseline changed")
+addon.glyphs[15409] = { 100, 248, 602, 37, 0, 36.03 }
+assert(addon.glyphs[15420] and addon.glyphs[15420][1] == 111 and addon.glyphs[15420][2] == 887 and addon.glyphs[15420][3] == 362 and addon.glyphs[15420][4] == 37 and addon.glyphs[15420][5] == -1 and addon.glyphs[15420][6] == 35.83, "MAIN44 relocation baseline changed")
+addon.glyphs[15420] = { 100, 289, 602, 37, -1, 35.83 }
+assert(addon.glyphs[15497] and addon.glyphs[15497][1] == 111 and addon.glyphs[15497][2] == 201 and addon.glyphs[15497][3] == 842 and addon.glyphs[15497][4] == 37 and addon.glyphs[15497][5] == 0 and addon.glyphs[15497][6] == 36.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15497] = { 100, 330, 602, 37, 0, 36.86 }
+assert(addon.glyphs[15581] and addon.glyphs[15581][1] == 112 and addon.glyphs[15581][2] == 792 and addon.glyphs[15581][3] == 182 and addon.glyphs[15581][4] == 37 and addon.glyphs[15581][5] == 0 and addon.glyphs[15581][6] == 36.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15581] = { 100, 371, 602, 37, 0, 36.98 }
+assert(addon.glyphs[15629] and addon.glyphs[15629][1] == 112 and addon.glyphs[15629][2] == 614 and addon.glyphs[15629][3] == 422 and addon.glyphs[15629][4] == 37 and addon.glyphs[15629][5] == 0 and addon.glyphs[15629][6] == 36.06, "MAIN44 relocation baseline changed")
+addon.glyphs[15629] = { 100, 412, 602, 37, 0, 36.06 }
+assert(addon.glyphs[15707] and addon.glyphs[15707][1] == 112 and addon.glyphs[15707][2] == 663 and addon.glyphs[15707][3] == 842 and addon.glyphs[15707][4] == 37 and addon.glyphs[15707][5] == 0 and addon.glyphs[15707][6] == 36.31, "MAIN44 relocation baseline changed")
+addon.glyphs[15707] = { 100, 453, 602, 37, 0, 36.31 }
+assert(addon.glyphs[15850] and addon.glyphs[15850][1] == 113 and addon.glyphs[15850][2] == 810 and addon.glyphs[15850][3] == 602 and addon.glyphs[15850][4] == 37 and addon.glyphs[15850][5] == 0 and addon.glyphs[15850][6] == 36.58, "MAIN44 relocation baseline changed")
+addon.glyphs[15850] = { 100, 494, 602, 37, 0, 36.58 }
+assert(addon.glyphs[15868] and addon.glyphs[15868][1] == 113 and addon.glyphs[15868][2] == 498 and addon.glyphs[15868][3] == 722 and addon.glyphs[15868][4] == 37 and addon.glyphs[15868][5] == 0 and addon.glyphs[15868][6] == 36.86, "MAIN44 relocation baseline changed")
+addon.glyphs[15868] = { 100, 535, 602, 37, 0, 36.86 }
+assert(addon.glyphs[15930] and addon.glyphs[15930][1] == 114 and addon.glyphs[15930][2] == 2 and addon.glyphs[15930][3] == 62 and addon.glyphs[15930][4] == 37 and addon.glyphs[15930][5] == 0 and addon.glyphs[15930][6] == 36.2, "MAIN44 relocation baseline changed")
+addon.glyphs[15930] = { 100, 576, 602, 37, 0, 36.2 }
+assert(addon.glyphs[12546] and addon.glyphs[12546][1] == 81 and addon.glyphs[12546][2] == 194 and addon.glyphs[12546][3] == 2 and addon.glyphs[12546][4] == 36 and addon.glyphs[12546][5] == 0 and addon.glyphs[12546][6] == 35.94, "MAIN44 relocation baseline changed")
+addon.glyphs[12546] = { 100, 617, 602, 36, 0, 35.94 }
+assert(addon.glyphs[13195] and addon.glyphs[13195][1] == 87 and addon.glyphs[13195][2] == 237 and addon.glyphs[13195][3] == 62 and addon.glyphs[13195][4] == 36 and addon.glyphs[13195][5] == 0 and addon.glyphs[13195][6] == 35.16, "MAIN44 relocation baseline changed")
+addon.glyphs[13195] = { 100, 657, 602, 36, 0, 35.16 }
+assert(addon.glyphs[14309] and addon.glyphs[14309][1] == 97 and addon.glyphs[14309][2] == 286 and addon.glyphs[14309][3] == 2 and addon.glyphs[14309][4] == 36 and addon.glyphs[14309][5] == -2 and addon.glyphs[14309][6] == 33.47, "MAIN44 relocation baseline changed")
+addon.glyphs[14309] = { 100, 697, 602, 36, -2, 33.47 }
+assert(addon.glyphs[14603] and addon.glyphs[14603][1] == 105 and addon.glyphs[14603][2] == 194 and addon.glyphs[14603][3] == 2 and addon.glyphs[14603][4] == 36 and addon.glyphs[14603][5] == 0 and addon.glyphs[14603][6] == 35.94, "MAIN44 relocation baseline changed")
+addon.glyphs[14603] = { 100, 737, 602, 36, 0, 35.94 }
+assert(addon.glyphs[15349] and addon.glyphs[15349][1] == 111 and addon.glyphs[15349][2] == 235 and addon.glyphs[15349][3] == 62 and addon.glyphs[15349][4] == 36 and addon.glyphs[15349][5] == 0 and addon.glyphs[15349][6] == 35.16, "MAIN44 relocation baseline changed")
+addon.glyphs[15349] = { 100, 777, 602, 36, 0, 35.16 }
+assert(addon.glyphs[15350] and addon.glyphs[15350][1] == 111 and addon.glyphs[15350][2] == 275 and addon.glyphs[15350][3] == 62 and addon.glyphs[15350][4] == 36 and addon.glyphs[15350][5] == 0 and addon.glyphs[15350][6] == 35.56, "MAIN44 relocation baseline changed")
+addon.glyphs[15350] = { 100, 817, 602, 36, 0, 35.56 }
+assert(addon.glyphs[15359] and addon.glyphs[15359][1] == 111 and addon.glyphs[15359][2] == 938 and addon.glyphs[15359][3] == 62 and addon.glyphs[15359][4] == 36 and addon.glyphs[15359][5] == 0 and addon.glyphs[15359][6] == 35.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15359] = { 100, 857, 602, 36, 0, 35.02 }
+assert(addon.glyphs[15598] and addon.glyphs[15598][1] == 112 and addon.glyphs[15598][2] == 100 and addon.glyphs[15598][3] == 302 and addon.glyphs[15598][4] == 36 and addon.glyphs[15598][5] == -3 and addon.glyphs[15598][6] == 32.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15598] = { 100, 897, 602, 36, -3, 32.98 }
+assert(addon.glyphs[15628] and addon.glyphs[15628][1] == 112 and addon.glyphs[15628][2] == 574 and addon.glyphs[15628][3] == 422 and addon.glyphs[15628][4] == 36 and addon.glyphs[15628][5] == 0 and addon.glyphs[15628][6] == 35.94, "MAIN44 relocation baseline changed")
+addon.glyphs[15628] = { 100, 937, 602, 36, 0, 35.94 }
+assert(addon.glyphs[15781] and addon.glyphs[15781][1] == 113 and addon.glyphs[15781][2] == 662 and addon.glyphs[15781][3] == 242 and addon.glyphs[15781][4] == 36 and addon.glyphs[15781][5] == 0 and addon.glyphs[15781][6] == 35.02, "MAIN44 relocation baseline changed")
+addon.glyphs[15781] = { 100, 977, 602, 36, 0, 35.02 }
+assert(addon.glyphs[12561] and addon.glyphs[12561][1] == 81 and addon.glyphs[12561][2] == 166 and addon.glyphs[12561][3] == 62 and addon.glyphs[12561][4] == 35 and addon.glyphs[12561][5] == 0 and addon.glyphs[12561][6] == 34.89, "MAIN44 relocation baseline changed")
+addon.glyphs[12561] = { 100, 2, 662, 35, 0, 34.89 }
+assert(addon.glyphs[12574] and addon.glyphs[12574][1] == 81 and addon.glyphs[12574][2] == 973 and addon.glyphs[12574][3] == 62 and addon.glyphs[12574][4] == 35 and addon.glyphs[12574][5] == -3 and addon.glyphs[12574][6] == 30.67, "MAIN44 relocation baseline changed")
+addon.glyphs[12574] = { 100, 41, 662, 35, -3, 30.67 }
+assert(addon.glyphs[14311] and addon.glyphs[14311][1] == 97 and addon.glyphs[14311][2] == 367 and addon.glyphs[14311][3] == 2 and addon.glyphs[14311][4] == 35 and addon.glyphs[14311][5] == -2 and addon.glyphs[14311][6] == 32.98, "MAIN44 relocation baseline changed")
+addon.glyphs[14311] = { 100, 80, 662, 35, -2, 32.98 }
+assert(addon.glyphs[14331] and addon.glyphs[14331][1] == 97 and addon.glyphs[14331][2] == 571 and addon.glyphs[14331][3] == 62 and addon.glyphs[14331][4] == 35 and addon.glyphs[14331][5] == -3 and addon.glyphs[14331][6] == 30.67, "MAIN44 relocation baseline changed")
+addon.glyphs[14331] = { 100, 119, 662, 35, -3, 30.67 }
+assert(addon.glyphs[14337] and addon.glyphs[14337][1] == 98 and addon.glyphs[14337][2] == 195 and addon.glyphs[14337][3] == 2 and addon.glyphs[14337][4] == 35 and addon.glyphs[14337][5] == 0 and addon.glyphs[14337][6] == 34.34, "MAIN44 relocation baseline changed")
+addon.glyphs[14337] = { 100, 158, 662, 35, 0, 34.34 }
+assert(addon.glyphs[14600] and addon.glyphs[14600][1] == 105 and addon.glyphs[14600][2] == 2 and addon.glyphs[14600][3] == 2 and addon.glyphs[14600][4] == 35 and addon.glyphs[14600][5] == -1 and addon.glyphs[14600][6] == 33.53, "MAIN44 relocation baseline changed")
+addon.glyphs[14600] = { 100, 197, 662, 35, -1, 33.53 }
+assert(addon.glyphs[15496] and addon.glyphs[15496][1] == 111 and addon.glyphs[15496][2] == 162 and addon.glyphs[15496][3] == 842 and addon.glyphs[15496][4] == 35 and addon.glyphs[15496][5] == -1 and addon.glyphs[15496][6] == 33.53, "MAIN44 relocation baseline changed")
+addon.glyphs[15496] = { 100, 236, 662, 35, -1, 33.53 }
+assert(addon.glyphs[15701] and addon.glyphs[15701][1] == 112 and addon.glyphs[15701][2] == 274 and addon.glyphs[15701][3] == 842 and addon.glyphs[15701][4] == 35 and addon.glyphs[15701][5] == 0 and addon.glyphs[15701][6] == 34.89, "MAIN44 relocation baseline changed")
+addon.glyphs[15701] = { 100, 275, 662, 35, 0, 34.89 }
+assert(addon.glyphs[15713] and addon.glyphs[15713][1] == 112 and addon.glyphs[15713][2] == 237 and addon.glyphs[15713][3] == 902 and addon.glyphs[15713][4] == 35 and addon.glyphs[15713][5] == -2 and addon.glyphs[15713][6] == 32.98, "MAIN44 relocation baseline changed")
+addon.glyphs[15713] = { 100, 314, 662, 35, -2, 32.98 }
+assert(addon.glyphs[15714] and addon.glyphs[15714][1] == 112 and addon.glyphs[15714][2] == 276 and addon.glyphs[15714][3] == 902 and addon.glyphs[15714][4] == 35 and addon.glyphs[15714][5] == 0 and addon.glyphs[15714][6] == 34.34, "MAIN44 relocation baseline changed")
+addon.glyphs[15714] = { 100, 353, 662, 35, 0, 34.34 }
+assert(addon.glyphs[12563] and addon.glyphs[12563][1] == 81 and addon.glyphs[12563][2] == 266 and addon.glyphs[12563][3] == 62 and addon.glyphs[12563][4] == 34 and addon.glyphs[12563][5] == 0 and addon.glyphs[12563][6] == 33.89, "MAIN44 relocation baseline changed")
+addon.glyphs[12563] = { 100, 392, 662, 34, 0, 33.89 }
+assert(addon.glyphs[15790] and addon.glyphs[15790][1] == 113 and addon.glyphs[15790][2] == 392 and addon.glyphs[15790][3] == 302 and addon.glyphs[15790][4] == 34 and addon.glyphs[15790][5] == -2 and addon.glyphs[15790][6] == 31.77, "MAIN44 relocation baseline changed")
+addon.glyphs[15790] = { 100, 430, 662, 34, -2, 31.77 }
+assert(addon.glyphs[15527] and addon.glyphs[15527][1] == 111 and addon.glyphs[15527][2] == 520 and addon.glyphs[15527][3] == 962 and addon.glyphs[15527][4] == 25 and addon.glyphs[15527][5] == 0 and addon.glyphs[15527][6] == 24.48, "MAIN44 relocation baseline changed")
+addon.glyphs[15527] = { 89, 988, 962, 25, 0, 24.48 }
+assert(addon.glyphs[12553] and addon.glyphs[12553][1] == 81 and addon.glyphs[12553][2] == 578 and addon.glyphs[12553][3] == 2 and addon.glyphs[12553][4] == 24 and addon.glyphs[12553][5] == 0 and addon.glyphs[12553][6] == 21.66, "MAIN44 relocation baseline changed")
+addon.glyphs[12553] = { 100, 468, 662, 24, 0, 21.66 }
+assert(addon.glyphs[13188] and addon.glyphs[13188][1] == 87 and addon.glyphs[13188][2] == 803 and addon.glyphs[13188][3] == 2 and addon.glyphs[13188][4] == 24 and addon.glyphs[13188][5] == 0 and addon.glyphs[13188][6] == 21.66, "MAIN44 relocation baseline changed")
+addon.glyphs[13188] = { 100, 496, 662, 24, 0, 21.66 }
+assert(addon.glyphs[13573] and addon.glyphs[13573][1] == 92 and addon.glyphs[13573][2] == 358 and addon.glyphs[13573][3] == 2 and addon.glyphs[13573][4] == 24 and addon.glyphs[13573][5] == 0 and addon.glyphs[13573][6] == 21.66, "MAIN44 relocation baseline changed")
+addon.glyphs[13573] = { 100, 524, 662, 24, 0, 21.66 }
+assert(addon.glyphs[12534] and addon.glyphs[12534][1] == 80 and addon.glyphs[12534][2] == 661 and addon.glyphs[12534][3] == 2 and addon.glyphs[12534][4] == 23 and addon.glyphs[12534][5] == 0 and addon.glyphs[12534][6] == 22.34, "MAIN44 relocation baseline changed")
+addon.glyphs[12534] = { 100, 552, 662, 23, 0, 22.34 }
+assert(addon.glyphs[12551] and addon.glyphs[12551][1] == 81 and addon.glyphs[12551][2] == 503 and addon.glyphs[12551][3] == 2 and addon.glyphs[12551][4] == 23 and addon.glyphs[12551][5] == 0 and addon.glyphs[12551][6] == 22.34, "MAIN44 relocation baseline changed")
+addon.glyphs[12551] = { 100, 579, 662, 23, 0, 22.34 }
+assert(addon.glyphs[12581] and addon.glyphs[12581][1] == 82 and addon.glyphs[12581][2] == 455 and addon.glyphs[12581][3] == 2 and addon.glyphs[12581][4] == 23 and addon.glyphs[12581][5] == 0 and addon.glyphs[12581][6] == 22.34, "MAIN44 relocation baseline changed")
+addon.glyphs[12581] = { 100, 606, 662, 23, 0, 22.34 }
+assert(addon.glyphs[13186] and addon.glyphs[13186][1] == 87 and addon.glyphs[13186][2] == 712 and addon.glyphs[13186][3] == 2 and addon.glyphs[13186][4] == 23 and addon.glyphs[13186][5] == 0 and addon.glyphs[13186][6] == 22.34, "MAIN44 relocation baseline changed")
+addon.glyphs[13186] = { 100, 633, 662, 23, 0, 22.34 }
+assert(addon.glyphs[14481] and addon.glyphs[14481][1] == 102 and addon.glyphs[14481][2] == 173 and addon.glyphs[14481][3] == 2 and addon.glyphs[14481][4] == 23 and addon.glyphs[14481][5] == 0 and addon.glyphs[14481][6] == 21.14, "MAIN44 relocation baseline changed")
+addon.glyphs[14481] = { 100, 660, 662, 23, 0, 21.14 }
+assert(addon.glyphs[15440] and addon.glyphs[15440][1] == 111 and addon.glyphs[15440][2] == 849 and addon.glyphs[15440][3] == 482 and addon.glyphs[15440][4] == 23 and addon.glyphs[15440][5] == 0 and addon.glyphs[15440][6] == 21.14, "MAIN44 relocation baseline changed")
+addon.glyphs[15440] = { 100, 687, 662, 23, 0, 21.14 }
+assert(addon.glyphs[14333] and addon.glyphs[14333][1] == 97 and addon.glyphs[14333][2] == 680 and addon.glyphs[14333][3] == 62 and addon.glyphs[14333][4] == 22 and addon.glyphs[14333][5] == 0 and addon.glyphs[14333][6] == 21.11, "MAIN44 relocation baseline changed")
+addon.glyphs[14333] = { 100, 714, 662, 22, 0, 21.11 }
+assert(addon.glyphs[13477] and addon.glyphs[13477][1] == 90 and addon.glyphs[13477][2] == 135 and addon.glyphs[13477][3] == 2 and addon.glyphs[13477][4] == 21 and addon.glyphs[13477][5] == 0 and addon.glyphs[13477][6] == 20.12, "MAIN44 relocation baseline changed")
+addon.glyphs[13477] = { 100, 740, 662, 21, 0, 20.12 }
+assert(addon.glyphs[13484] and addon.glyphs[13484][1] == 90 and addon.glyphs[13484][2] == 589 and addon.glyphs[13484][3] == 2 and addon.glyphs[13484][4] == 21 and addon.glyphs[13484][5] == 0 and addon.glyphs[13484][6] == 20.88, "MAIN44 relocation baseline changed")
+addon.glyphs[13484] = { 100, 765, 662, 21, 0, 20.88 }
+assert(addon.glyphs[14484] and addon.glyphs[14484][1] == 102 and addon.glyphs[14484][2] == 443 and addon.glyphs[14484][3] == 2 and addon.glyphs[14484][4] == 21 and addon.glyphs[14484][5] == 0 and addon.glyphs[14484][6] == 20.2, "MAIN44 relocation baseline changed")
+addon.glyphs[14484] = { 100, 790, 662, 21, 0, 20.2 }
+assert(addon.glyphs[15477] and addon.glyphs[15477][1] == 111 and addon.glyphs[15477][2] == 645 and addon.glyphs[15477][3] == 722 and addon.glyphs[15477][4] == 21 and addon.glyphs[15477][5] == 0 and addon.glyphs[15477][6] == 20.12, "MAIN44 relocation baseline changed")
+addon.glyphs[15477] = { 100, 815, 662, 21, 0, 20.12 }
+assert(addon.glyphs[15697] and addon.glyphs[15697][1] == 112 and addon.glyphs[15697][2] == 974 and addon.glyphs[15697][3] == 782 and addon.glyphs[15697][4] == 21 and addon.glyphs[15697][5] == 0 and addon.glyphs[15697][6] == 20.64, "MAIN44 relocation baseline changed")
+addon.glyphs[15697] = { 100, 840, 662, 21, 0, 20.64 }
+assert(addon.glyphs[13474] and addon.glyphs[13474][1] == 90 and addon.glyphs[13474][2] == 2 and addon.glyphs[13474][3] == 2 and addon.glyphs[13474][4] == 20 and addon.glyphs[13474][5] == 0 and addon.glyphs[13474][6] == 19.58, "MAIN44 relocation baseline changed")
+addon.glyphs[13474] = { 100, 865, 662, 20, 0, 19.58 }
+assert(addon.glyphs[15610] and addon.glyphs[15610][1] == 112 and addon.glyphs[15610][2] == 218 and addon.glyphs[15610][3] == 362 and addon.glyphs[15610][4] == 20 and addon.glyphs[15610][5] == 0 and addon.glyphs[15610][6] == 19.72, "MAIN44 relocation baseline changed")
+addon.glyphs[15610] = { 100, 889, 662, 20, 0, 19.72 }

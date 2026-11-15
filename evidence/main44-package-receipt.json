@@ -1,5 +1,5 @@
 {
-  "status": "PASSED_BOUNDED_COMBINED_COMBINED0480_PACKAGE",
+  "status": "PASSED_LOSSLESS_COMPACT_COMBINED0480_PACKAGE",
   "version": "0.480.0",
   "new_supported_fields": 186,
   "new_unique_Thai_translations": 180,
@@ -13,28 +13,22 @@
   "source_proposal_sha256": "46b2d74ac398a49b22764c9a8ff38d1e9bb933f6af69a3c60f44cf2e67ff09b6",
   "zip": {
     "path": "ForeverThai-0.480.0-main44-COMBINED.zip",
-    "bytes": 31817315,
-    "sha256": "6f2bc563da3e78e3a52abd7645c95e7a5bc9546a6be88400b9cda28a401f400f"
+    "bytes": 31488257,
+    "sha256": "7bdbf55bf8f38974a8a55cc80cc0e83dbed1df951b69bf21f1d8f3291ca48208"
   },
-  "runtime_files": 187,
-  "old_runtime_files_exact_bytes_preserved": 179,
+  "runtime_files": 183,
   "metadata_changed": [
-    "ForeverThai/ForeverThai.toc",
     "ForeverThai/SOURCES-TH.txt"
   ],
   "added_runtime": [
     "ForeverThai/MainQuest44.lua",
-    "ForeverThai/AtlasMain44.lua",
-    "ForeverThai/Fonts/Thai111.tga",
-    "ForeverThai/Fonts/Thai112.tga",
-    "ForeverThai/Fonts/Thai113.tga",
-    "ForeverThai/Fonts/Thai114.tga"
+    "ForeverThai/AtlasMain44.lua"
   ],
   "protected_Skill_font_assets_preserved": 28,
-  "old_font_assets_preserved": 125,
+  "old_font_assets_preserved": "pixel-equivalent, see consolidation; not all old font file bytes unchanged",
   "new_word_glyphs": 663,
   "new_Thai_runs": 837,
-  "new_pages": 4,
+  "new_pages": 0,
   "actual_changed_data_order": [
     "Catalog.lua",
     "MainQuest2526.lua",
@@ -108,5 +102,44 @@
     "54newuntypedname/classfields+1nonlinguisticexcludedfield and earlieridentity/titleholds notguessed",
     "8315/84213multilineTracker guard retained",
     "No actualWindows/MacM2 acceptance"
-  ]
+  ],
+  "expanded_bytes": 508523439,
+  "launcher05_limit_bytes": 536870912,
+  "old_font_assets_exact_preserved": 106,
+  "retired_unused_quest_pages": [
+    80,
+    81,
+    82,
+    87,
+    90,
+    92,
+    97,
+    98,
+    101,
+    102,
+    104,
+    105
+  ],
+  "quest_font_destination_pages": [
+    78,
+    86,
+    89,
+    91,
+    99,
+    100,
+    106
+  ],
+  "relocated_old_glyphs": 246,
+  "relocated_new_glyphs": 663,
+  "all_old_glyph_pixels_exact": 15331,
+  "all_glyph_pixels_exact": 15994,
+  "all_run_sequences_exact": 104795,
+  "all22_preview_files_byte_identical_to_inspected_initial": true,
+  "consolidation_wall_seconds": 15.496805399998266,
+  "consolidation_cpu_seconds": 14.859375,
+  "initial_unpublished_oversize_candidate": "6f2bc563da3e78e3a52abd7645c95e7a5bc9546a6be88400b9cda28a401f400f",
+  "run_sequence_verification": "all string-keyed entries compared,not Lua length operator",
+  "unchanged_files_vs_initial_unpublished0480": 162,
+  "old_runtime_files_exact_bytes_preserved_vs0479": 160,
+  "old_font_assets_exact_preserved_vs0479": 106
 }
