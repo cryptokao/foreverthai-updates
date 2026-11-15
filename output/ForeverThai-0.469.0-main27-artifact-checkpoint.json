@@ -1,0 +1,65 @@
+{
+  "status": "PASSED_BOUNDED_COMBINED_PRIVATE_0469_PACKAGE",
+  "version": "0.469.0",
+  "source_proposal_sha256": "e8f8b0b1a0310d81545346ceacf604cc38c30f9c6cd7dd2568ef004fee9576a5",
+  "new_supported_fields": 25,
+  "quest_ids": 25,
+  "new_Thai_fields": 7,
+  "verbatim_reviewed_reuse_fields": 18,
+  "complete_quests_claimed": 0,
+  "baseline_zip_sha256": "90b85b81dc4f9dc4d94b4349ec7c64a90889deedf8340c8976806115fb5441df",
+  "zip": {
+    "path": "ForeverThai-0.469.0-main27-PRIVATE-TEST.zip",
+    "bytes": 29632412,
+    "sha256": "4fb985134c382d87744214a4ab290e5d3a3caf81a2cc0e47eaa17559dbd90021"
+  },
+  "runtime_files": 151,
+  "old_runtime_files_exact_bytes_preserved": 146,
+  "metadata_changed": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "new_runtime_files": [
+    "ForeverThai/MainQuest27.lua",
+    "ForeverThai/AtlasMain27.lua",
+    "ForeverThai/Fonts/Thai99.tga"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 113,
+  "new_Thai_runs": 69,
+  "new_word_glyphs": 45,
+  "new_pages": 1,
+  "actual_changed_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "MainQuest27.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "AtlasMain27.lua",
+    "Bitmap.lua"
+  ],
+  "all_TOC_Lua_files_compile": 28,
+  "positive_matches": 100,
+  "actual_BitmapLayer_Thai_draws": 100,
+  "Thai_live_font_fallbacks": 0,
+  "affected_glyph_crops_pixel_checked": 382,
+  "matcher_Tracker_engine_changed": false,
+  "source_template_checks_reference": "evidence/main27-template-checks.json;100+1positive,1204template/200route negatives; not rerun here",
+  "real_game_verified": false,
+  "launcher_published": false,
+  "whole_game_inventory_or_percent": false,
+  "old_UI_Skill_NPC_full_suites_rerun": false,
+  "local_AI_NLP_or_full_font_rebuild": false,
+  "elapsed_wall_seconds": 7.640628800000741,
+  "cpu_seconds": 7.390625,
+  "limitations": [
+    "Windows/Mac M2 in-game acceptance absent",
+    "8315new typed objective alias retains old multi-line Thai; unchanged Tracker newline English guard expected",
+    "91754/95318pipe5 grammar held",
+    "Source/query/class fixtures are not an enabled whole-game inventory"
+  ],
+  "delivery_stage": "Immutable artifact recorded; remote download-back still pending this snapshot",
+  "source_commit": "45762a8cf9291f97780fce3101570c1c094ffba3",
+  "archive_git_blob": "10c652e68279cd1e318a60b221c3629171bc868c"
+}
