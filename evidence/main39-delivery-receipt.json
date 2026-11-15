@@ -1,0 +1,44 @@
+{
+  "status": "PRIVATE0475_MAIN39_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "a3ead232d7faf1cdb29f9b82a2775bd1e2430e28",
+  "source_commit": "04f0ee8af33bae3af44d5dc8d9f1425ec720c60f",
+  "checks": [
+    {
+      "path": "ForeverThai-0.475.0-main39-PRIVATE-TEST.zip",
+      "bytes": 30002225,
+      "sha256": "a9ec2fd4de80f353bd56ad47775555608c00812e98f8289a3a1212d39147298e",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.475.0-TH.txt",
+      "bytes": 8267,
+      "sha256": "a4e61a888cc7cfa52686e82ab9d448482244d575a0bdf05578d225724283b4c7",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN39-bitmap-simulation-01.png",
+      "bytes": 144175,
+      "sha256": "fa6f74288056abff91f4781bb5dc2be315dcb5c58b46e861d91e94e843157600",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN39-bitmap-simulation-02.png",
+      "bytes": 174642,
+      "sha256": "2b33b5b1f032d09575dde9185a7e65b64feadfc4f18bef920388e50a0f264313",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all167_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 118,
+  "new_word_bitmaps": 8,
+  "new_Thai_fields": 5,
+  "verbatim_reviewed_reuse": 9,
+  "new_supported_fields": 14,
+  "quest_ids": 11,
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "elapsed_wall_seconds": 5.795031699999527
+}

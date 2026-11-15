@@ -2843,7 +2843,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "held_untyped_name_source_body",
       "total_lines": 98,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "2ec3033ef6010a72be13090486bf59e81df101ca20134f42c3227d28f47e7322",
@@ -2858,11 +2858,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 98,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "aa1bda3872d583ba486281373e431a88c91909e520696fe3bccc38fd4e01945f",
-      "source_body_sha256": "9c90391c2760590735e2d5a81cb4775e58d2484fe4e042254a9d702698612acb"
+      "source_body_sha256": "9c90391c2760590735e2d5a81cb4775e58d2484fe4e042254a9d702698612acb",
+      "approved_NPC_text_sha256": "9c90391c2760590735e2d5a81cb4775e58d2484fe4e042254a9d702698612acb"
     },
     {
       "quest_id": 92894,
@@ -3097,11 +3098,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 90,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "d901f11faff384af8b5ca93da3c34c3cb30faa181d66dc8ae8267286fb294e39",
-      "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290"
+      "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+      "approved_NPC_text_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290"
     },
     {
       "quest_id": 81772,
@@ -3112,11 +3114,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 90,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "e0a10887e22d6f0117dee7bec280c112597792b5ab4e639b0ee72a78d41cbd62",
-      "source_body_sha256": "d92cdc21928e3ca450a70e6e369e0212a44fe166daab3bc9879350e088cb9209"
+      "source_body_sha256": "d92cdc21928e3ca450a70e6e369e0212a44fe166daab3bc9879350e088cb9209",
+      "approved_NPC_text_sha256": "d92cdc21928e3ca450a70e6e369e0212a44fe166daab3bc9879350e088cb9209"
     },
     {
       "quest_id": 81773,
@@ -4269,11 +4272,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 97,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "70a23c6f839742f3b834365e7f79b60cb8feddf0007f65db4c2041673e5971e5",
-      "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290"
+      "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+      "approved_NPC_text_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290"
     },
     {
       "quest_id": 81787,
@@ -4302,11 +4306,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 94,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "29e1dcae90a91cacd105ae003c8714d3241bc28c3eec19458e0638213cb6f19a",
-      "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290"
+      "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+      "approved_NPC_text_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290"
     },
     {
       "quest_id": 81830,
@@ -4637,7 +4642,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 95,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "8529f3f5a57d6b82cc2465c591299c45d325b337edc89e0f4070ecdf77646202",
@@ -4645,7 +4650,8 @@
       "followup_source_sha256": "78b543681ebf1704c43cb8a915d674575f99be9eef9152c49fbf90df142bf7fb",
       "article_header_line": 12,
       "related_line": 47,
-      "source_body_sha256": "72ea2b392cb42b32d353f54b6f2afd5bcbea23b1e58469beb284006e91ac0ca3"
+      "source_body_sha256": "72ea2b392cb42b32d353f54b6f2afd5bcbea23b1e58469beb284006e91ac0ca3",
+      "approved_NPC_text_sha256": "72ea2b392cb42b32d353f54b6f2afd5bcbea23b1e58469beb284006e91ac0ca3"
     },
     {
       "quest_id": 81790,
@@ -4656,7 +4662,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 95,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "d29d1fab2c09942cfd7480b3800075edf52ddd82d61a7bfaf38943e05de4de8b",
@@ -4664,7 +4670,8 @@
       "followup_source_sha256": "78b543681ebf1704c43cb8a915d674575f99be9eef9152c49fbf90df142bf7fb",
       "article_header_line": 12,
       "related_line": 47,
-      "source_body_sha256": "eb84b4bc1f1c063db109a2fb477d6dfa6faa8b525867838457e519593fa3b1ec"
+      "source_body_sha256": "eb84b4bc1f1c063db109a2fb477d6dfa6faa8b525867838457e519593fa3b1ec",
+      "approved_NPC_text_sha256": "eb84b4bc1f1c063db109a2fb477d6dfa6faa8b525867838457e519593fa3b1ec"
     },
     {
       "quest_id": 82135,
@@ -6351,11 +6358,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 92,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "3fb642cecb6b74ca2d93cee6214d5bb335779ae182a4be36cdad85c31afa3d46",
-      "source_body_sha256": "fb1358a94b8cb2af3027cee46c5f601a112124f4edb8937420a656a3b7b632b3"
+      "source_body_sha256": "fb1358a94b8cb2af3027cee46c5f601a112124f4edb8937420a656a3b7b632b3",
+      "approved_NPC_text_sha256": "fb1358a94b8cb2af3027cee46c5f601a112124f4edb8937420a656a3b7b632b3"
     },
     {
       "quest_id": 96602,
@@ -6366,11 +6374,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 92,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "b9d6541f5e0e7109c40ff426642ce5210a9a80561a4279fe232349f31c745ba2",
-      "source_body_sha256": "f782c1016d22acc3a47b5916599224fc320ce1e2801e974c93d56bb9f44d59ec"
+      "source_body_sha256": "f782c1016d22acc3a47b5916599224fc320ce1e2801e974c93d56bb9f44d59ec",
+      "approved_NPC_text_sha256": "3a4b1678405e78c9cb8cb862b75d3c2b9302c7e5382479335d8ec50cd421f23a"
     },
     {
       "quest_id": 96939,
@@ -7419,11 +7428,12 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 92,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "0df05ca9ac432dd3897ea9c88372c64516ee2c22c766782bc4198f9a0834b8dd",
-      "source_body_sha256": "f780c6482b6b2bcb69e912d89715ffbf6bceb14f215690d1ab626f94e360f754"
+      "source_body_sha256": "f780c6482b6b2bcb69e912d89715ffbf6bceb14f215690d1ab626f94e360f754",
+      "approved_NPC_text_sha256": "f780c6482b6b2bcb69e912d89715ffbf6bceb14f215690d1ab626f94e360f754"
     },
     {
       "quest_id": 84151,
@@ -7434,7 +7444,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "held_untyped_name_source_body",
       "total_lines": 92,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "0aa466b76e59829bca52a61f41d04b3e2b99ac069571f87013a62ee52425ca76",
@@ -7453,7 +7463,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 96,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "67afc6003b81fc7ba66cc3d360d789fd8eebfaa13e7a4130c622abdb8e67059e",
@@ -7461,7 +7471,8 @@
       "followup_source_sha256": "31b50310b78770756db505cc034558200b7320d0e51dde9d5bcafaa6f20ea138",
       "article_header_line": 12,
       "related_line": 48,
-      "source_body_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17"
+      "source_body_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17",
+      "approved_NPC_text_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17"
     },
     {
       "quest_id": 84156,
@@ -7472,7 +7483,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "held_untyped_name_source_body",
       "total_lines": 96,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "02cf47a045c68886e3498a1e39707598e2e6c8f6f60c6a7a73d8c6e18f4f3a13",
@@ -7491,7 +7502,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 94,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "02a0fc8bbc50607f6a00a595830f7e172bfb7be6ca75341e0b9f98dfe1507b53",
@@ -7499,7 +7510,8 @@
       "followup_source_sha256": "6c32a9a052068a555e2ef66e9f4b96b9458894ee8e3597c749a74238fb1e65e8",
       "article_header_line": 12,
       "related_line": 46,
-      "source_body_sha256": "f23ca701436f7bfab7d9d6710fe085cf265385b7cfbd65c76a7473bb15c5db19"
+      "source_body_sha256": "f23ca701436f7bfab7d9d6710fe085cf265385b7cfbd65c76a7473bb15c5db19",
+      "approved_NPC_text_sha256": "f23ca701436f7bfab7d9d6710fe085cf265385b7cfbd65c76a7473bb15c5db19"
     },
     {
       "quest_id": 84160,
@@ -7510,7 +7522,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "held_untyped_name_source_body",
       "total_lines": 94,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "c7a908811bd73e1aa317c18bf8cf058528360e14c4a43838eca0918de2ef8ab7",
@@ -7529,7 +7541,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "delivered_private0475_literal_phase",
       "total_lines": 93,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "c76f4e8323bcbd39f9d53940eb548708df0f751c217136ba20da95fcaa36c2e3",
@@ -7537,7 +7549,8 @@
       "followup_source_sha256": "9fbdfcb1f86a5724d62b7c0da01efe4b36b8241a037d32afc4bb0dfdc644c4d8",
       "article_header_line": 12,
       "related_line": 45,
-      "source_body_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17"
+      "source_body_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17",
+      "approved_NPC_text_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17"
     },
     {
       "quest_id": 84162,
@@ -7548,7 +7561,7 @@
       "actual0474field_absent": true,
       "source_phase_exists_NOT_yet_proven": true,
       "current_enabled_inventory_proven": false,
-      "status": "published_target_body_needs_review",
+      "status": "held_untyped_name_source_body",
       "total_lines": 93,
       "not_live_phase_absence_or_enabled_proof": true,
       "source_result_sha256": "339f3f51218b0dbc263ddc295fa4bbd07b16d9ac4bbfc04df6981dc3e4f7e27c",
@@ -9336,7 +9349,8 @@
     "full_page_find_no_published_target_section": 433,
     "source_access_unavailable_no_retry": 35,
     "mainbody_contiguous_no_target_heading": 152,
-    "published_target_body_needs_review": 18
+    "held_untyped_name_source_body": 5,
+    "delivered_private0475_literal_phase": 13
   },
   "new_source_fields_reviewed_for_runtime": 13,
   "new_untyped_name_fields_held": 5,
@@ -9347,5 +9361,6 @@
     "18publishedphasebodies=>13reviewednewslots+5untypednameholds",
     "No currentenabledwholegameinventory or actualWindows/MacM2acceptance",
     "Never rerun these unchanged638lookups"
-  ]
+  ],
+  "artifact_commit": "a3ead232d7faf1cdb29f9b82a2775bd1e2430e28"
 }

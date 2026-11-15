@@ -1,0 +1,316 @@
+{
+  "batch": "MAIN39_NEXT",
+  "scope": "Only35inaccessible pagefields from new638scope;alternate legitimateprimary sources,NOretryor403bypass",
+  "rows": [
+    {
+      "quest_id": 94472,
+      "field": "progress",
+      "level": 4,
+      "title": "Earth Sapta",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=94472/earth-sapta",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 96638,
+      "field": "progress",
+      "level": 6,
+      "title": "The Adventurer",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=96638/the-adventurer",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 5646,
+      "field": "progress",
+      "level": 20,
+      "title": "Dark Sacrifice",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=5646/dark-sacrifice",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 506,
+      "field": "progress",
+      "level": 36,
+      "title": "Blackmoore's Legacy",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=506/blackmoores-legacy",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 81768,
+      "field": "completion",
+      "level": 42,
+      "title": "Ashenvale Mission I: Defeat Satyrs",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=81768/ashenvale-mission-i-defeat-satyrs",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 81768,
+      "field": "progress",
+      "level": 42,
+      "title": "Ashenvale Mission I: Defeat Satyrs",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=81768/ashenvale-mission-i-defeat-satyrs",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 81783,
+      "field": "completion",
+      "level": 42,
+      "title": "Ashenvale Mission XVI: Rescue Alyssian Windcaller",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=81783/ashenvale-mission-xvi-rescue-alyssian-windcaller",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 81783,
+      "field": "progress",
+      "level": 42,
+      "title": "Ashenvale Mission XVI: Rescue Alyssian Windcaller",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=81783/ashenvale-mission-xvi-rescue-alyssian-windcaller",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 93362,
+      "field": "completion",
+      "level": 43,
+      "title": "What They've Done to My Peonies",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=93362/what-theyve-done-to-my-peonies",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 93362,
+      "field": "progress",
+      "level": 43,
+      "title": "What They've Done to My Peonies",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=93362/what-theyve-done-to-my-peonies",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 93594,
+      "field": "progress",
+      "level": 43,
+      "title": "Word of the Woods",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=93594/word-of-the-woods",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 2764,
+      "field": "progress",
+      "level": 45,
+      "title": "Galvan's Finest Pupil",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=2764/galvans-finest-pupil",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 93601,
+      "field": "completion",
+      "level": 45,
+      "title": "Passing the Blame",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=93601/passing-the-blame",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 93601,
+      "field": "progress",
+      "level": 45,
+      "title": "Passing the Blame",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=93601/passing-the-blame",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 98904,
+      "field": "completion",
+      "level": 49,
+      "title": "The Battle for Darkspear Islands!",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=98904/the-battle-for-darkspear-islands",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 98904,
+      "field": "progress",
+      "level": 49,
+      "title": "The Battle for Darkspear Islands!",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=98904/the-battle-for-darkspear-islands",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 3762,
+      "field": "progress",
+      "level": 50,
+      "title": "Assisting Arch Druid Runetotem",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=3762/assisting-arch-druid-runetotem",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 98899,
+      "field": "completion",
+      "level": 59,
+      "title": "Darkspear Islands Clash",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=98899/darkspear-islands-clash",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 98899,
+      "field": "progress",
+      "level": 59,
+      "title": "Darkspear Islands Clash",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=98899/darkspear-islands-clash",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 7023,
+      "field": "progress",
+      "level": 60,
+      "title": "Greatfather Winter is Here!",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=7023/greatfather-winter-is-here",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 8929,
+      "field": "progress",
+      "level": 60,
+      "title": "In Search of Anthion",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=8929/in-search-of-anthion",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 84163,
+      "field": "completion",
+      "level": 60,
+      "title": "Just Compensation",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=84163/just-compensation",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 84163,
+      "field": "progress",
+      "level": 60,
+      "title": "Just Compensation",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=84163/just-compensation",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 84165,
+      "field": "completion",
+      "level": 60,
+      "title": "Just Compensation",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=84165/just-compensation",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 84165,
+      "field": "progress",
+      "level": 60,
+      "title": "Just Compensation",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=84165/just-compensation",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 84168,
+      "field": "completion",
+      "level": 60,
+      "title": "Just Compensation",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=84168/just-compensation",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 84168,
+      "field": "progress",
+      "level": 60,
+      "title": "Just Compensation",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=84168/just-compensation",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 97183,
+      "field": "completion",
+      "level": 60,
+      "title": "Blessed Arcanite Barding",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=97183/blessed-arcanite-barding",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 97183,
+      "field": "progress",
+      "level": 60,
+      "title": "Blessed Arcanite Barding",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=97183/blessed-arcanite-barding",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 97186,
+      "field": "completion",
+      "level": 60,
+      "title": "Manna-Enriched Horse Feed",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=97186/manna-enriched-horse-feed",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 97186,
+      "field": "progress",
+      "level": 60,
+      "title": "Manna-Enriched Horse Feed",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=97186/manna-enriched-horse-feed",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 99212,
+      "field": "completion",
+      "level": 60,
+      "title": "An Epic Ride",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=99212/an-epic-ride",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 99212,
+      "field": "progress",
+      "level": 60,
+      "title": "An Epic Ride",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=99212/an-epic-ride",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 99214,
+      "field": "completion",
+      "level": 60,
+      "title": "An Epic Ride",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=99214/an-epic-ride",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    },
+    {
+      "quest_id": 99214,
+      "field": "progress",
+      "level": 60,
+      "title": "An Epic Ride",
+      "inaccessible_source_url": "https://www.wowhead.com/forever/quest=99214/an-epic-ride",
+      "need": "Independent own-ID samephase primary source;not a missingprose count"
+    }
+  ],
+  "name_role_holds": [
+    {
+      "quest_id": 80325,
+      "field": "completion",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84151,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84156,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84160,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84162,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    }
+  ],
+  "earlier_identity_title_holds_remain": true,
+  "current_enabled_inventory_proven": false,
+  "actualWindows_MacM2_acceptance": false
+}

@@ -1,6 +1,6 @@
 {
   "batch": "MAIN39",
-  "status": "REVIEWED_SOURCE_NOT_PACKAGED",
+  "status": "DELIVERED_PRIVATE0475_VERIFIED",
   "fields": [
     {
       "quest_id": 86792,
@@ -462,5 +462,6 @@
   ],
   "verbatim_reviewed_reuse": 9,
   "full_review_fixture_sha256": "949d4fcb1acd7cbfb187cb582c3fdf2a7f8a84b460158a8f0151753750e8f361",
-  "public_manifest_has_full_NPC_English": false
+  "public_manifest_has_full_NPC_English": false,
+  "artifact_commit": "a3ead232d7faf1cdb29f9b82a2775bd1e2430e28"
 }
