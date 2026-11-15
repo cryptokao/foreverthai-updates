@@ -1,4 +1,4 @@
-"""Bounded additive MAIN40 build:82 fields, reviewed cuts, exact old assets, no local AI/full font rebuild."""
+"""Bounded additive MAIN40 build:2 fields, reviewed cuts, exact old assets, no local AI/full font rebuild."""
 import pathlib,sys,json,re,zipfile,hashlib,io,time,collections
 R=pathlib.Path(__file__).resolve().parent;S=R.parent;PREV=S/'package-main25-26';O=R/'build-0.476.0'
 if O.exists():assert not any(O.iterdir()),'Refuse overwrite'

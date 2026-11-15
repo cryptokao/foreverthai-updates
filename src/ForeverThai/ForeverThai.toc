@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: Alphaverse THAI SUB
 ## Notes: Thai quests, Tracker, skills, talents, professions, and item effects.
-## Version: 0.475.0
+## Version: 0.476.0
 ## SavedVariables: ForeverThaiDisplayMode, ForeverThaiObserved, ForeverThaiQuestieTracker, ForeverThaiAutoCaptureLog, ForeverThaiSpeech, AlphaWoWSkillsDB
 ## OptionalDeps: Questie
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
@@ -14,6 +14,7 @@ MainQuest35.lua
 MainQuest36.lua
 MainQuest38.lua
 MainQuest39.lua
+MainQuest40.lua
 Match.lua
 SpeechData.lua
 Observe.lua
@@ -25,6 +26,7 @@ AtlasMain35.lua
 AtlasMain36.lua
 AtlasMain38.lua
 AtlasMain39.lua
+AtlasMain40.lua
 Bitmap.lua
 Panel.lua
 Speech.lua

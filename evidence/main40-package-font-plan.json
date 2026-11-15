@@ -1,0 +1,569 @@
+{
+  "new_words": [
+    "โต",
+    "สนิท",
+    "หนาม",
+    "ย่ำ",
+    "ตาบอด",
+    "พล่าม",
+    "ท่าที",
+    "ดูแคลน",
+    "พ่น",
+    "ลมหายใจ",
+    "จมูก",
+    "ครุ่นคิด"
+  ],
+  "plans": [
+    {
+      "run": "ไนต์เอลฟ์ตัวโตอยากได้สร้อยหรือ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ไนต์เอลฟ์",
+          "glyphs": [
+            12245,
+            3475
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตัว",
+          "glyphs": [
+            3156
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "โต"
+        },
+        {
+          "kind": "existing",
+          "text": "อยาก",
+          "glyphs": [
+            8954
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สร้อย",
+          "glyphs": [
+            7834
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หรือ",
+          "glyphs": [
+            8597
+          ]
+        }
+      ],
+      "glyphs": [
+        12245,
+        3475,
+        3156,
+        14600,
+        8954,
+        12197,
+        7834,
+        8597
+      ]
+    },
+    {
+      "run": "แต่ไนต์เอลฟ์ตัวโตเอาไปไม่ได้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แต่",
+          "glyphs": [
+            11298
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไนต์เอลฟ์",
+          "glyphs": [
+            12245,
+            3475
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตัว",
+          "glyphs": [
+            3156
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "โต"
+        },
+        {
+          "kind": "existing",
+          "text": "เอา",
+          "glyphs": [
+            11093
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไม่",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        }
+      ],
+      "glyphs": [
+        11298,
+        12245,
+        3475,
+        3156,
+        14600,
+        11093,
+        12248,
+        12274,
+        12197
+      ]
+    },
+    {
+      "run": "ต้องใช้สร้อย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช้",
+          "glyphs": [
+            12042
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สร้อย",
+          "glyphs": [
+            7834
+          ]
+        }
+      ],
+      "glyphs": [
+        3455,
+        12042,
+        7834
+      ]
+    },
+    {
+      "run": "ผืนดินตายสนิท",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ผืนดิน",
+          "glyphs": [
+            5243
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตาย",
+          "glyphs": [
+            3286
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "สนิท"
+        }
+      ],
+      "glyphs": [
+        5243,
+        3286,
+        14601
+      ]
+    },
+    {
+      "run": "ไม่มีสร้อย",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ไม่",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สร้อย",
+          "glyphs": [
+            7834
+          ]
+        }
+      ],
+      "glyphs": [
+        12274,
+        6149,
+        7834
+      ]
+    },
+    {
+      "run": "หนามก็ไม่งอก",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "หนาม"
+        },
+        {
+          "kind": "existing",
+          "text": "ก็",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไม่",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "งอก",
+          "glyphs": [
+            2000
+          ]
+        }
+      ],
+      "glyphs": [
+        14602,
+        696,
+        12274,
+        2000
+      ]
+    },
+    {
+      "run": "เซนทอร์ย่ำเข้ามาตรงที่หนามไม่งอก",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เซนทอร์",
+          "glyphs": [
+            9831,
+            3695
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ย่ำ"
+        },
+        {
+          "kind": "existing",
+          "text": "เข้า",
+          "glyphs": [
+            9506
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มา",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตรง",
+          "glyphs": [
+            3002
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "หนาม"
+        },
+        {
+          "kind": "existing",
+          "text": "ไม่",
+          "glyphs": [
+            12274
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "งอก",
+          "glyphs": [
+            2000
+          ]
+        }
+      ],
+      "glyphs": [
+        9831,
+        3695,
+        14603,
+        9506,
+        6089,
+        3002,
+        3937,
+        14602,
+        12274,
+        2000
+      ]
+    },
+    {
+      "run": "เห็นปัญหาหรือยัง",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เห็น",
+          "glyphs": [
+            11050
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปัญหา",
+          "glyphs": [
+            5020
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "หรือ",
+          "glyphs": [
+            8597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยัง",
+          "glyphs": [
+            6340
+          ]
+        }
+      ],
+      "glyphs": [
+        11050,
+        5020,
+        8597,
+        6340
+      ]
+    },
+    {
+      "run": "หรือไนต์เอลฟ์ตัวโตตาบอด",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "หรือ",
+          "glyphs": [
+            8597
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไนต์เอลฟ์",
+          "glyphs": [
+            12245,
+            3475
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ตัว",
+          "glyphs": [
+            3156
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "โต"
+        },
+        {
+          "kind": "new",
+          "text": "ตาบอด"
+        }
+      ],
+      "glyphs": [
+        8597,
+        12245,
+        3475,
+        3156,
+        14600,
+        14604
+      ]
+    },
+    {
+      "run": "หยุดพูดพล่ามด้วยท่าทีดูแคลน",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "หยุด",
+          "glyphs": [
+            8580
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พูด",
+          "glyphs": [
+            5782
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "พล่าม"
+        },
+        {
+          "kind": "existing",
+          "text": "ด้วย",
+          "glyphs": [
+            2941
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ท่าที"
+        },
+        {
+          "kind": "new",
+          "text": "ดูแคลน"
+        }
+      ],
+      "glyphs": [
+        8580,
+        5782,
+        14605,
+        2941,
+        14606,
+        14607
+      ]
+    },
+    {
+      "run": "แล้วพ่นลมหายใจทางจมูกอย่างครุ่นคิด",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "พ่น"
+        },
+        {
+          "kind": "new",
+          "text": "ลมหายใจ"
+        },
+        {
+          "kind": "existing",
+          "text": "ทาง",
+          "glyphs": [
+            3773
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "จมูก"
+        },
+        {
+          "kind": "existing",
+          "text": "อย่าง",
+          "glyphs": [
+            8971
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ครุ่นคิด"
+        }
+      ],
+      "glyphs": [
+        11603,
+        14608,
+        14609,
+        3773,
+        14610,
+        8971,
+        14611
+      ]
+    },
+    {
+      "run": "อยากแลกกันไหม",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "อยาก",
+          "glyphs": [
+            8954
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แลก",
+          "glyphs": [
+            11592
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กัน",
+          "glyphs": [
+            345
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไหม",
+          "glyphs": [
+            12376
+          ]
+        }
+      ],
+      "glyphs": [
+        8954,
+        11592,
+        345,
+        12376
+      ]
+    }
+  ]
+}
