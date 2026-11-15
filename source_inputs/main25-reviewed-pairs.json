@@ -1,0 +1,70 @@
+{
+  "batch": "MAIN25",
+  "status": "reviewed source checkpoint, not packaged or published",
+  "source_baseline": "dfb0b202bc65ca1a125cf3a68901fdc206db09e7",
+  "catalog_sha256": "9958d2edf3096a4cdffd39b5c99a58cc8a1bc3e1729e18b2d09c6f7e0e481118",
+  "counts": {
+    "new_thai_fields": 2,
+    "quest_ids": 2,
+    "complete_quests_claimed": 0
+  },
+  "source_contract": {
+    "repository": "quinn-dougherty/forever-vo",
+    "events_blob": "4f59bda0c2124dbdc8a1c8d16b69414db9d762a8",
+    "capture_blob": "800225bbb17a24b4db93bd22cefdb7af635ed6df",
+    "progress": "QUEST_PROGRESS -> GetProgressText -> QueueQuest(progress) -> same-call GetQuestID/GetTitleText -> Capture.Record",
+    "completion": "QUEST_COMPLETE -> GetRewardText -> QueueQuest(complete) -> same-call GetQuestID/GetTitleText -> Capture.Record",
+    "export": "FVO1 issue 3493; exact q/e/t/x fields, source positions zero based",
+    "proof_limits": "Collector contract supports own-ID/phase attribution. Export build/addon header does not prove individual row version or current enabled usage."
+  },
+  "pairs": [
+    {
+      "quest_id": 94829,
+      "field": "progress",
+      "source_phase": "progress",
+      "source_positions": [
+        {
+          "issue": 3493,
+          "line_index": 379,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english": "Every minute those Twilight Raiders defile my home is an insult to its memory. Get rid of them, and take back what is ours.",
+      "english_sha256": "403e55f4b3b3e7322dcb60a2b73efb81e07f0568fd0e8e5760b3615eabaa22c5",
+      "english_bytes": 123,
+      "signature": "123:1004955921:428165482",
+      "thai": "ทุกนาทีที่พวก Twilight Raiders ทำให้บ้านของข้าแปดเปื้อน ล้วนเป็นการลบหลู่ความทรงจำเกี่ยวกับบ้านแห่งนี้ จงกำจัดพวกมัน แล้วทวงคืนสิ่งที่เป็นของเรา",
+      "thai_sha256": "89c504b8fc9c713ec8fb5fe64da3c015e433ffb9316d8c17800660806551fefb",
+      "level_for_order": 40,
+      "title": "What We Lost",
+      "integration": "add missing field",
+      "meaning_review": "Reviewed full literal English/Thai pair; all quantities, conditions and emphasis preserved; no guessed player tokens, rewards, genders or game mechanics.",
+      "current_enabled_usage": "unproven; quest query presence and export header are not enabled-inventory/per-row build proof"
+    },
+    {
+      "quest_id": 94236,
+      "field": "completion",
+      "source_phase": "complete",
+      "source_positions": [
+        {
+          "issue": 3493,
+          "line_index": 354,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english": "Hey, there's the bomb I ordered!\r\n\r\nWell, one of them anyway. I needed a variety pack! You know, enough so I can test each one for effectiveness AND have a few leftover for my own needs!\r\n\r\nWell, whatever. Here's a cut of your cut--I'll give you the rest when you bring ME my full order!",
+      "english_sha256": "34fff6db5660e3967b43f2d649bbbb059c9588588382ad3dd24584f1a3f277d1",
+      "english_bytes": 287,
+      "signature": "281:1740501113:411929229",
+      "thai": "เฮ้ ระเบิดที่ข้าสั่งไว้นี่นา!\n\nเอาเถอะ อย่างน้อยก็ได้มาลูกหนึ่ง แต่ข้าต้องการชุดคละแบบ! ต้องมากพอให้ข้าได้ทดสอบประสิทธิภาพของแต่ละแบบ และยังเหลือไว้ใช้เองอีกสักหน่อยด้วย!\n\nช่างเถอะ นี่คือส่วนแบ่งของเจ้าบางส่วน--ข้าจะให้ส่วนที่เหลือเมื่อเจ้านำของที่ข้าสั่งมาให้ข้าจนครบ!",
+      "thai_sha256": "cb6bcbff21e63aad1087f798fd2e8f63efb31a0cbc7637198bc5af1f50817abd",
+      "level_for_order": 60,
+      "title": "Craftsman's Writ: Big Bronze Bomb",
+      "integration": "append exact source variant; preserve canonical",
+      "meaning_review": "Reviewed full literal English/Thai pair; all quantities, conditions and emphasis preserved; no guessed player tokens, rewards, genders or game mechanics.",
+      "current_enabled_usage": "unproven; quest query presence and export header are not enabled-inventory/per-row build proof"
+    }
+  ]
+}
