@@ -1,0 +1,796 @@
+{
+  "batch": "MAIN38",
+  "scope": "Only 109literal mismatches in MAIN36Nov15delta;NOold3902matcher/1414primarylookup rerun",
+  "source_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
+  "source_blob": "307e74c62ee5d897d6d4c59363c919820992c5ac",
+  "counts": {
+    "delivered_private0473": 13,
+    "excluded_explicit_test_or_placeholder": 12,
+    "delivered_private0474": 82,
+    "held_title_meaning_unproven": 2
+  },
+  "rows": [
+    {
+      "quest_id": 960,
+      "field": "title",
+      "english_sha256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 5101,
+      "field": "description",
+      "english_sha256": "4ea02cf54340f59132cfea56fce2f671d8f7b9b81c678e5d6fd104fb073e17de",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 5101,
+      "field": "objective",
+      "english_sha256": "b57744b02511ecb045b1540cbb72c5f59115270324f07fec4bb255ec280d27a8",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 5101,
+      "field": "title",
+      "english_sha256": "16750574956e7847de73c2c77a52ce5b1c0173d7b72c52617bc3e5fa1f1f290f",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 8274,
+      "field": "description",
+      "english_sha256": "661bc11be04b9582d3f4eb275f645597763bee077af58236cf8f6ba120e825c4",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 8274,
+      "field": "objective",
+      "english_sha256": "55d21106e6a2bbabff5c51622f4e5fb9f92097d86c285ca0cfb8359117cf16e3",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 8274,
+      "field": "title",
+      "english_sha256": "45c0c3ff49307fd769b0097ffa101145a55bf36f60c035c7e6888516fd8c88bd",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 78307,
+      "field": "description",
+      "english_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 78307,
+      "field": "objective",
+      "english_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 349,
+      "field": "objective",
+      "english_sha256": "3b8c34c20a98ab484824ac8c0a653683d93d8688f7555701fb5a95353d99bfbf",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 78699,
+      "field": "description",
+      "english_sha256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 78699,
+      "field": "objective",
+      "english_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80325,
+      "field": "description",
+      "english_sha256": "7e741b59910f19b0ac256bd81352c53e763f614342e6103012aa22d1054cb7dc",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80325,
+      "field": "objective",
+      "english_sha256": "3b16a5bc13fe1a9223386e8272f8fdd2f5042d02d0766b06a85108509bab4d33",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80325,
+      "field": "title",
+      "english_sha256": "fd5c58b859d5263be8c860383b0b1cfaaafb87b76637bb3367e9ec29be3bddfd",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81768,
+      "field": "description",
+      "english_sha256": "6bf70b95bdbed50d90b57c03335f6e9216dbcf38bf90d895974ffc78568965b4",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81768,
+      "field": "objective",
+      "english_sha256": "1d62b600529f5ab99d8a38de9ab04ceea5acacfecd1183e5b0d7e0d9b297c793",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81768,
+      "field": "title",
+      "english_sha256": "5df51d7ced6fbce5d46b431ad88b662029c44f280c1d582e26ebfcd21d773323",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81770,
+      "field": "description",
+      "english_sha256": "cf078b2ec2b8c7d46fb7a2043d238f253e578aa086970aed20069c6b541eada1",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81770,
+      "field": "objective",
+      "english_sha256": "07b951d4aa46f3056d4319d9dc34683eb0b42db22d9b3125da8e756c5f926a41",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81770,
+      "field": "title",
+      "english_sha256": "8fe9b252fd77c8637ad822fa91b3aa6a4709ccc83cc0ee0455acec4332a1c5cd",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81772,
+      "field": "description",
+      "english_sha256": "39b27ce4a07476352263d91b3c45e6ee95ca5619057c3ae5e4bcf643c94aed83",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81772,
+      "field": "objective",
+      "english_sha256": "b9816f43d768b3327858762b69b559d7d9775501ddab4649eef83bd8b9cb5190",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81772,
+      "field": "title",
+      "english_sha256": "813aa800aab6d199330b1769abf60da3a8e04072599226a3647f5589823b3132",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81773,
+      "field": "description",
+      "english_sha256": "34fe9c37d117db458aad148d7a6f9e2ee5ba9aa5d24565d3c99563c6a0fb1b69",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81773,
+      "field": "objective",
+      "english_sha256": "8b1e2da6d29732e554667bc735ec10c7be54f65ec646ff7ba74c7dd3c3b52954",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81773,
+      "field": "title",
+      "english_sha256": "db388c6bcd09aeaec35e863ff83c6ab87919b6610e79511fad4e3f0f7b7b9857",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81776,
+      "field": "description",
+      "english_sha256": "33b3f6afa45de045c0affafa6ca5d3577ef85069369c7dc343cece6ccf40a256",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81776,
+      "field": "objective",
+      "english_sha256": "f3d5ac71e1f9822fed247ed2202bb302537f8ca8d0c392d79a1adfc92ec652a0",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81776,
+      "field": "title",
+      "english_sha256": "5a048feb3ffe2d94a806d69600f9c7ab29be097c080575a6af271bfba9c843e7",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81782,
+      "field": "description",
+      "english_sha256": "69d220fada8be9f9d0814dba05d42b7da641f02eb0156a7d33b902c07d9c9e17",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81782,
+      "field": "objective",
+      "english_sha256": "de40956521814ded5638747ade65fe89a7b4bf42112d82bd2a60cf302d0b2772",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81782,
+      "field": "title",
+      "english_sha256": "2cd887ce5ec88d43f98deabc285b804243e25591d72d01af28f960933af136af",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81783,
+      "field": "description",
+      "english_sha256": "1fcbfdeaa718a91d9e1313d28eb5758a6c2906c460358b40b40d7dc7b18b9dda",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81783,
+      "field": "objective",
+      "english_sha256": "df7bf8d9c4e4a6a5c04fcbd65c41dd3d8d25086aa98a1499c978b4b400129130",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81783,
+      "field": "title",
+      "english_sha256": "0c9032c0bae02aefd90742678b6768121934cd7fd1162f06243f30b80f664b5b",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80454,
+      "field": "description",
+      "english_sha256": "818db91b5a62217321c489f2cc115ca517492f56e26e3dfe9a0fd7077bde489f",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80454,
+      "field": "objective",
+      "english_sha256": "dbdf3f6d3c6bfeb8e650e054770c4444f6cffe314d418eb5a273a57102ecd608",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80454,
+      "field": "title",
+      "english_sha256": "0a1ea87b4d6f6bbb8fb8366b22ba3bf2e6c94163b9ee068a3bdea8ee77209ddd",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80455,
+      "field": "description",
+      "english_sha256": "08ad7de468c262cd8370355e437b7392bab2478f146e8638a108cbfce4d7b341",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80455,
+      "field": "objective",
+      "english_sha256": "c6ccc70ca92822217d637ee9444544f4d01d312ca8a1a0c8e84a49b04d9f619c",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 80455,
+      "field": "title",
+      "english_sha256": "6d238970f71dc56788334a3a2faa921800afe3974cf68566bc36ce620cd67de7",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81787,
+      "field": "description",
+      "english_sha256": "748d94d68fcef5a61a65ec9ad0a071f77a695624234e4d6c27409f14afec5095",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81787,
+      "field": "objective",
+      "english_sha256": "8b1799e7f4ff03197d779e1b7732ba2174bd58e5fd02e753308b741e780c920d",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81787,
+      "field": "title",
+      "english_sha256": "4134bbb7cd96bbc9b76a8db2a45b500f1b784069f578b7f32fb078122eef5e2c",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81830,
+      "field": "description",
+      "english_sha256": "85d497a11f251b3a1b06ac8149b21cd75e75c63f38ed9fa38257cc98d09789dd",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81830,
+      "field": "objective",
+      "english_sha256": "08f38f8e20d3161dfdb4fe0f8710412fb4cf7991c41f507cfc5f78d21ab72122",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81830,
+      "field": "title",
+      "english_sha256": "5ec1a218038c221adf1526f77fbb30cded841d91b12073e91d7b4b738c8079f1",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81850,
+      "field": "description",
+      "english_sha256": "2c3536e89dffb00f34474b3e21307fd0237ad5f01717c9ec63044d319c97565b",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81850,
+      "field": "objective",
+      "english_sha256": "86be4993f306dc9072f70bae27bdaf9799f44db6b2dfb675355b588b7b5d4565",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81850,
+      "field": "title",
+      "english_sha256": "4349d83ba42722aa0dce663b71de9e7c72cde7afdfda116101e947923b1d3922",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81857,
+      "field": "description",
+      "english_sha256": "63e8169141ac9a915a02fcc158fccea51d545a22625b71c05df613514790b3e3",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81857,
+      "field": "objective",
+      "english_sha256": "d6416b5b0c0db95749360e4b98d41df6a8dac40cecae73cba01da1cb3eb67380",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81857,
+      "field": "title",
+      "english_sha256": "e5f18870e10c736a22734f3004112e4daa2832357ea1b62a4c972a8d9e137eaf",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81859,
+      "field": "description",
+      "english_sha256": "309b0c6e390fb6a28b35d923ab9529e12d606cbe9449a35157d981db5efa08d3",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81859,
+      "field": "objective",
+      "english_sha256": "25eb38026e294b9c50ed496398ab40fc5cdf72798b9ba76313ef16d3e95ee7de",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81859,
+      "field": "title",
+      "english_sha256": "0fc53f70d2f3329ebc8fa643f82d7808a06b55744323e98237f7a4dbcb68c554",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81861,
+      "field": "description",
+      "english_sha256": "e8e388b4ace9d9047cccfc3f5970cccec9d9b4055e049a0421e6dd3636aa12c2",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81861,
+      "field": "objective",
+      "english_sha256": "15be178e82bfdfa122a3c0e53878487aaaea3a5b94311c53d4e561e1d3cc4d7a",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81861,
+      "field": "title",
+      "english_sha256": "8dd8bf02674ba56736fa6f50acc54efe25476adc0b468a46ea96314e7ed4032f",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81865,
+      "field": "description",
+      "english_sha256": "f03f38d9167829907f72e23f72b8e8926ff3268907236fcb924f9c283dd4a368",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81865,
+      "field": "objective",
+      "english_sha256": "319499c572f4a99675fbe383f58f5543b1ef777b3d3389585cca6dc80596d4df",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81865,
+      "field": "title",
+      "english_sha256": "54aec4f44a83486116e7de792529093159ab10ccc80459299da1fbf5bc607c35",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81874,
+      "field": "description",
+      "english_sha256": "d050f891826f89f5ecae40c00c61b4c8f7c506225dc1ad6291effb32983d20d6",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81874,
+      "field": "objective",
+      "english_sha256": "97d34a44872d123d60319fc5faaf75296e75f812995db397be2eaa4f309d6049",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81874,
+      "field": "title",
+      "english_sha256": "0af589aea555717bb9fb9aabf1838de15a42c9fa880e9fda5cfcfe2c4709ffd3",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81790,
+      "field": "description",
+      "english_sha256": "b5ec7ad6afde319dc2ce83eed2c3b14e2b389b80df4cd463f76d9e6421e80138",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81790,
+      "field": "objective",
+      "english_sha256": "dcf017e1b6602261d93e09ebf4dce06295d95c2b74479f0814c1a17e1e5c8efb",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 81790,
+      "field": "title",
+      "english_sha256": "bb8d2761298b80b342c52c9fe5ff3ad0955998b2316d3f23d617d7c5b72615e0",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 82135,
+      "field": "description",
+      "english_sha256": "05141fdefb61dda60a51a1bb88437273b2700c063b13a974f83d6eac9c6cb672",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 82135,
+      "field": "objective",
+      "english_sha256": "3f9c859d57f56139cb19b7c7b03076c68e9a8dd440a748077f81b746ab536f03",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 82135,
+      "field": "title",
+      "english_sha256": "e501f52b626de896bd145f9ad21440cd8bd84098232543a34b45ef12bc33b0a7",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86747,
+      "field": "objective",
+      "english_sha256": "fd1a4d450ad82f3813fedf9c1146ed0ecb025059d071211c4ac1cdac6938ef24",
+      "status": "excluded_explicit_test_or_placeholder",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86792,
+      "field": "description",
+      "english_sha256": "679e7a5d11d0953a2fbb289a67f6cf6e0438ac56f6c1315b71f8a426493c280c",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86792,
+      "field": "title",
+      "english_sha256": "17a384a0b7f46119f8b165023e722ceaa1ceeceba9674b53a54f84213f8344f6",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86814,
+      "field": "description",
+      "english_sha256": "92dc0d7a3d73a402fc34ee3e924668375bb084a6dce433859f12d15411ddaed3",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86814,
+      "field": "objective",
+      "english_sha256": "6f1395b634fe5e8910494d6e889af7aa31767315d5eac64c0ce63a6fde414c7b",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86814,
+      "field": "title",
+      "english_sha256": "d6996dafb598c6c0a95eebee1026788b526ece8d1a89a34e48e124959746297c",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84414,
+      "field": "description",
+      "english_sha256": "fb50ee32da7eb4f7d703f006bad6046eb32b809dad99dbdfb0df09ec23b0b8ff",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84414,
+      "field": "objective",
+      "english_sha256": "9f7ad6ea77cdeed3696bfee9e546868257d82da9923535420f5d2649126f6b57",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84414,
+      "field": "title",
+      "english_sha256": "6beb1ca9cb35f80b7bcc481cf46c5421b794a65021c938b450a351b156af4879",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 7025,
+      "field": "description",
+      "english_sha256": "632b63d8f5f12a27c48b469ffc5dbb167a54eb36fe975a569ff916745ad986f0",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 7630,
+      "field": "objective",
+      "english_sha256": "146b8d63ea0290a29437e815b286912b5c14aa80bac80886bceed3dab3f04c8b",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 9556,
+      "field": "objective",
+      "english_sha256": "1d80efc5d6848d81532bd020b324fcf403508ce38105a6241e995d1de5477ffb",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 9556,
+      "field": "title",
+      "english_sha256": "2b89923c346115162d32043fafe8a8f107aaab0a1eaf70b1ae5a52313ea8e9da",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84146,
+      "field": "description",
+      "english_sha256": "60de17ecf32b4d681d29e25af5495c271bd826e25c2364a132a73dbd3b8e6da6",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84146,
+      "field": "objective",
+      "english_sha256": "fea917f0e4abd2760504f8385133e2b75e882d570413a2861f01ceaf38ee7c46",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84146,
+      "field": "title",
+      "english_sha256": "c205d9b68eb564839f9923c0ee5a40406ce99f70b9d637f664dbdaab750c0a98",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84156,
+      "field": "objective",
+      "english_sha256": "c143da0cb6a3b52d5d923e487e4e5410b76a26bc0c34f2186a0019fd391b5e19",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84160,
+      "field": "objective",
+      "english_sha256": "9c1de0b948510908ddc9b7675b1f244448d57adac8d0dd7fac9807c9334083cd",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84160,
+      "field": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84163,
+      "field": "description",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84163,
+      "field": "objective",
+      "english_sha256": "0b706c489dcada0fea9e2e4e07d90e353c7c3cfab48259317f764dc4711fedca",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84163,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84165,
+      "field": "description",
+      "english_sha256": "39eac74076b602a527593559f4635cf5865fe482add0f3caaf0c170fd38d4a7b",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84165,
+      "field": "objective",
+      "english_sha256": "9bfd812f1eb70512c5f565dc24d457eef695b32534577f2dd1013c23815601f7",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84165,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84168,
+      "field": "description",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84168,
+      "field": "objective",
+      "english_sha256": "3f1b422bc59b8d5f271503b1750e355b5e1e10a361c6970a125d21479d6ea281",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84168,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84173,
+      "field": "objective",
+      "english_sha256": "0bfadeb8f87cae3ba09c7b2836b2364ccef0b332ee4f6ffec084fd1953c46372",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84173,
+      "field": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84192,
+      "field": "description",
+      "english_sha256": "a1c29a3d1992e5fede2bb0a5cfcd456c3abf568cbdca035bf0af5fd2e79d57c4",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84192,
+      "field": "objective",
+      "english_sha256": "937a9e1e733bf8be59c8c3fa88689587cef9950184cc852e2b1c7c6939318419",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 84192,
+      "field": "title",
+      "english_sha256": "0ecb4409778231ca22e777580fa08264b18001709fa964663cf2d5a9570619a5",
+      "status": "delivered_private0474",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 99212,
+      "field": "description",
+      "english_sha256": "c02d64d481e9637943ffd9195b7a10b1f1d430cbc5aa914ef6f6ffaab19a9257",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 99212,
+      "field": "objective",
+      "english_sha256": "ff9f89d83208be9a9e2b608c63aae5e58c255b0f14d4b9895c6d1be1ebf80822",
+      "status": "delivered_private0473",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 6843,
+      "field": "title",
+      "english_sha256": "bc88630838099b774eca6798caa653d8d1c87326f580f3ccf1b5cdfc990b6ea9",
+      "status": "held_title_meaning_unproven",
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 96735,
+      "field": "title",
+      "english_sha256": "f936a6d2650409bddb2d5671bc4e8636abbf259ebddaf18508bf151d388935d8",
+      "status": "held_title_meaning_unproven",
+      "current_enabled_inventory_proven": false
+    }
+  ],
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "other_new_delta_statuses": {
+    "already_supported_exact_or_markup": 3030,
+    "identity_diagnostic_NOT_new_role_proof": 327,
+    "developer_excluded_original": 35,
+    "sole_objective_numeric_UI_closed_MAIN37": 39,
+    "multiobjective_macros_or_markup_held": 56,
+    "identity_role_held": 9
+  },
+  "source_raw_82_fields_equal_pinned_blob": true,
+  "limits": [
+    "Querypresence doesNOTprove currentenabledusage",
+    "12developer forms excluded NOTcounted translation",
+    "2ambiguous unknownlevel titles held",
+    "82fields delivered;all164runtimeblobs and all7artifacts downloaded-back exact verified;not actualgameacceptance"
+  ],
+  "artifact_commit": "541ebd47868a1ce13517c2cfa546ea5c467be164",
+  "source_commit": "70f937a8c0c93630a64535a4fe3e05410322584e"
+}
