@@ -1,0 +1,19 @@
+{
+  "status": "source only; no ZIP/font/Tracker/game or publication claim",
+  "counts": {
+    "new_thai_fields": 2,
+    "quest_ids": 2,
+    "positive_exact_matches": 2,
+    "negative_checks": 14
+  },
+  "catalog_prefix_unchanged": true,
+  "existing_94236_canonical_and_aliases_preserved": true,
+  "overlay_sha256": "8beaec6918049295d2754bcf621b3ea533019377b72cbb39c514a5cdbd69ec23",
+  "pair_file_sha256": "dec2c5fa731357b27fba0162e2a2898ff4b0f05382d3a1bbe8953c97a6e4231f",
+  "test_environment": "One serial isolated Lua 5.1 memory check, hosted OpenAI translation; no local AI/game/filesystem writes from Lua. Baseline Catalog/Match untouched.",
+  "pending": [
+    "Cloud append-only Catalog/bitmap integration, affected panel/Tracker checks and combined ZIP verification",
+    "Windows and Mac M2 in-game acceptance",
+    "No current enabled whole-game inventory; cannot state overall percent"
+  ]
+}
