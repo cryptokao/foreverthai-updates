@@ -1,0 +1,128 @@
+{
+  "batch": "MAIN35",
+  "scope": "Onlysource-available objective/description candidates marked nil in older inventory;actual0471table presence and source classifier only,no old matcher rerun",
+  "rows": [
+    {
+      "quest_id": 94901,
+      "field": "description",
+      "title": "Hopping Helpers",
+      "level": 11,
+      "status": "developer_marker",
+      "english_bytes": 18
+    },
+    {
+      "quest_id": 94902,
+      "field": "description",
+      "title": "Valanaar Vintages",
+      "level": 11,
+      "status": "developer_marker",
+      "english_bytes": 37
+    },
+    {
+      "quest_id": 96075,
+      "field": "objective",
+      "title": "In Demand - Blackrock Legal Records",
+      "level": 60,
+      "status": "source_needs_exact_field_review",
+      "english_bytes": 253
+    },
+    {
+      "quest_id": 96087,
+      "field": "objective",
+      "title": "In Demand - Plague Records",
+      "level": 60,
+      "status": "source_needs_exact_field_review",
+      "english_bytes": 210
+    },
+    {
+      "quest_id": 96088,
+      "field": "objective",
+      "title": "In Demand - Titan Relics",
+      "level": 60,
+      "status": "source_needs_exact_field_review",
+      "english_bytes": 224
+    },
+    {
+      "quest_id": 97184,
+      "field": "objective",
+      "title": "The Divination Scryer",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 110
+    },
+    {
+      "quest_id": 97412,
+      "field": "objective",
+      "title": "Just Compensation",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 81
+    },
+    {
+      "quest_id": 97448,
+      "field": "objective",
+      "title": "Just Compensation",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 92
+    },
+    {
+      "quest_id": 99210,
+      "field": "objective",
+      "title": "An Epic Ride",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 58
+    },
+    {
+      "quest_id": 99211,
+      "field": "objective",
+      "title": "An Epic Ride",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 70
+    },
+    {
+      "quest_id": 99215,
+      "field": "objective",
+      "title": "An Epic Ride",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 60
+    },
+    {
+      "quest_id": 99216,
+      "field": "objective",
+      "title": "An Epic Ride",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 62
+    },
+    {
+      "quest_id": 99217,
+      "field": "objective",
+      "title": "An Epic Ride",
+      "level": 60,
+      "status": "source_needs_exact_field_review",
+      "english_bytes": 59
+    },
+    {
+      "quest_id": 99218,
+      "field": "objective",
+      "title": "An Epic Ride",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 61
+    },
+    {
+      "quest_id": 99234,
+      "field": "objective",
+      "title": "Brawl at the Maul",
+      "level": 60,
+      "status": "filled_in_actual0471_not_missing",
+      "english_bytes": 63
+    }
+  ],
+  "runtime_changed": false,
+  "new_Thai_fields": 0
+}
