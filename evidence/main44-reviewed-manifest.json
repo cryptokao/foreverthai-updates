@@ -1,6 +1,6 @@
 {
   "batch": "MAIN44",
-  "status": "186_MEANING_REVIEWED_SOURCE_CHECK_PASSED_PACKAGE_BUILT_NOT_PUBLISHED",
+  "status": "DELIVERED_PUBLIC_LAUNCHER0480",
   "source_private_fixture_sha256": "46b2d74ac398a49b22764c9a8ff38d1e9bb933f6af69a3c60f44cf2e67ff09b6",
   "source_private_fixture_not_in_public_repo": true,
   "source_proposal_private_path": "work/translation-source-cache/MAIN44/main44-reviewed-pairs.json",
@@ -4756,5 +4756,8 @@
       "thai_sha256": "d43e1d5bba69895b04ddcdb640d45b0599cbf8f6f765d5f00bc681cb3daa3b25",
       "runtime_action": "new field"
     }
-  ]
+  ],
+  "artifact_commit": "de5f12db434efc70ab0c3945fb44209fe639f139",
+  "final_zip_sha256": "7bdbf55bf8f38974a8a55cc80cc0e83dbed1df951b69bf21f1d8f3291ca48208",
+  "launcher_published": true
 }

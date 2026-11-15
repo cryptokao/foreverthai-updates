@@ -1,0 +1,25 @@
+{
+  "status": "PASSED_LOSSLESS_CONSOLIDATION_AND_ACTUAL_CLIENT05",
+  "initial_unpublished_candidate_sha256": "6f2bc563da3e78e3a52abd7645c95e7a5bc9546a6be88400b9cda28a401f400f",
+  "initial_candidate_expanded_bytes": 575338931,
+  "client05_limit_bytes": 536870912,
+  "final_expanded_bytes": 508523439,
+  "final_zip_sha256": "7bdbf55bf8f38974a8a55cc80cc0e83dbed1df951b69bf21f1d8f3291ca48208",
+  "all_old15331_glyph_RGBA_crops_exact": true,
+  "all15994_glyph_RGBA_crops_exact": true,
+  "all104795_run_sequences_exact": true,
+  "all22_final_previews_byte_identical_to_inspected_initial": true,
+  "protected28_Skill_assets_exact": true,
+  "full_old_UI_Skill_NPC_suite_rerun": false,
+  "notes": [
+    "Initial PowerShell7 host could not load original .NET4 System.Web type;used native WindowsPowerShell for actual fixture.",
+    "Actual original Launcher0.5 rejected initial oversize candidate;not published.",
+    "Initial consolidation Lua assertion caught truncation of fractional glyph advances;kept original fractional values and reran scoped consolidation verification successfully.",
+    "Lua string-key map length is0;all104795 run entries compared separately and count corrected.",
+    "Final download-back all24 artifacts and183 runtime blobs passed;post-verification durable copy initially lacked original shape-plan file,copied it and finished durable sync without re-downloading24 unchanged files.",
+    "0.479 private ZIP manually installable but expanded558106706 exceeds original client0.5 limit;never publish that ZIP to original client0.5."
+  ],
+  "real_Windows_MacM2_gameplay_verified": false,
+  "no_game_install_or_control": true,
+  "no_local_AI_or_full_font_shaping": true
+}

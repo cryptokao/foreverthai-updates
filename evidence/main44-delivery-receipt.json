@@ -1,0 +1,169 @@
+{
+  "status": "COMBINED0480_MAIN44_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "de5f12db434efc70ab0c3945fb44209fe639f139",
+  "source_commit": "053ade6254740b029963e8ba522d944f3c7554be",
+  "checks": [
+    {
+      "path": "ForeverThai-0.480.0-main44-COMBINED.zip",
+      "bytes": 31488257,
+      "sha256": "7bdbf55bf8f38974a8a55cc80cc0e83dbed1df951b69bf21f1d8f3291ca48208",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.480.0-TH.txt",
+      "bytes": 7616,
+      "sha256": "a25c922647d4362cccab0f9694741504fb153bb1d573085896c3543ce0a9456f",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-01.png",
+      "bytes": 405836,
+      "sha256": "203a9d6064d351bc31ab5b7c456efd9b58ea8b695dfe4c2229b3b1b9ecd96766",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-02.png",
+      "bytes": 287083,
+      "sha256": "3687a4f4b2296847acd92ec86a05f3ba9538d2bd2f3815c047f5d7fa178c5aea",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-03.png",
+      "bytes": 481697,
+      "sha256": "0600b9fe1eb8e5017219c7f234aff7d46b3a6973ca9bcff8003f72f73890236e",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-04.png",
+      "bytes": 275692,
+      "sha256": "65ebf6d19aa6a140dbfa286e1ff296af26be39f95d5ea8185f91bc4a4815b1c0",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-05.png",
+      "bytes": 213517,
+      "sha256": "f2b2dd2de2a7db73b03b8205698443a5a738a9b6d61620e08cfa8e2c3def2cc7",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-06.png",
+      "bytes": 456275,
+      "sha256": "9a9a571fbf9fba4922b948fb8c63a9c67d352f6c7d62e4c4bd1f076aa33e6655",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-07.png",
+      "bytes": 360247,
+      "sha256": "fa8412ffd9cff5ee8068afdef4b0262e3e1873a5007ecb43bbea0575d7921b35",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-08.png",
+      "bytes": 411728,
+      "sha256": "7bd8e18bd6a0b6d5092ecd37042f987732863604cf65898486754bfcb8d5bf48",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-09.png",
+      "bytes": 229601,
+      "sha256": "78ed28c3907cc00dc535adacfbff0be531b8ad92b47f211a1f56092d688364c7",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-10.png",
+      "bytes": 212012,
+      "sha256": "1b36a6b609d552fa1bf59a8d3245d5d3c32d0c586dd207e9eb78138349438e4f",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-11.png",
+      "bytes": 283943,
+      "sha256": "662801d9eee4e21d293902d1ec8bf23bac9b9f2d911ec8b87d7b2eb297eddb64",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-12.png",
+      "bytes": 375812,
+      "sha256": "ce65b01e5c4ef1a15d997a7d5534ed6f19667e9afb172aeb2c31dda28b35e0fd",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-13.png",
+      "bytes": 434790,
+      "sha256": "0664e0ab0f7ae5ea4ba7d1cd04a4cf20c2e9aaac2b47061e1ff28d276cb36f8a",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-14.png",
+      "bytes": 190858,
+      "sha256": "d83186ffb492b98176e20a39b1f5230b4f687af4d8eaf1edb0458126935c0699",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-15.png",
+      "bytes": 410274,
+      "sha256": "7929aa7cd8e2b5d01863736076a7d6cc093fcadb6e5d1aa0b592d952be8bf882",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-16.png",
+      "bytes": 296688,
+      "sha256": "bf811415aa2ef4f84ebf42787c92431c7cef7258d4cf11f689fab7606fbfffc1",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-17.png",
+      "bytes": 343518,
+      "sha256": "4b692802eba268587acc7db45323bfb1edcdaa2fd3ec164570b8cdb3a57bf443",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-18.png",
+      "bytes": 398414,
+      "sha256": "0e6b56f8d2d07219d4b4c39eb6af9e3851b924571d29fecfc4e399ce41790998",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-19.png",
+      "bytes": 339551,
+      "sha256": "0eb26de91d1900400ee07256c781760926363027c7acbb9c97c0973f3177a73f",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-20.png",
+      "bytes": 322220,
+      "sha256": "19e44bcc8143cf74622c7f3876326822073d27b7d07b0bde656d95c20260f0c7",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-21.png",
+      "bytes": 357888,
+      "sha256": "25483c8e4342c5670b7f5d949ee4975dce05879c3b985688d78785ca3691bb97",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN44-bitmap-simulation-22.png",
+      "bytes": 172225,
+      "sha256": "f2a72821e7d69a7a368b718ff322128709593d5554488c920fafd58ed959f092",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all183_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_exact_bytes_preserved_vs0479": 106,
+  "old_glyph_pixels_exact": 15331,
+  "all_glyph_pixels_exact": 15994,
+  "all_run_sequences_exact": 104795,
+  "expanded_bytes": 508523439,
+  "new_word_bitmaps": 663,
+  "new_unique_Thai_texts": 180,
+  "verbatim_baseline_reviewed_reuse": 5,
+  "same_batch_reviewed_reuse": 1,
+  "new_supported_fields": 186,
+  "quest_ids": 128,
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "elapsed_wall_seconds": 16.501046400000632
+}
