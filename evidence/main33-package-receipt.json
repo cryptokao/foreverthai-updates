@@ -1,0 +1,59 @@
+{
+  "status": "PASSED_BOUNDED_COMBINED_PRIVATE_0471_PACKAGE",
+  "version": "0.471.0",
+  "new_supported_fields": 1,
+  "quest_ids": 1,
+  "new_Thai_fields": 0,
+  "verbatim_reviewed_reuse_fields": 1,
+  "complete_quests_claimed": 0,
+  "source_proposal_sha256": "a7da0c63ce89a1947470980ea46812a6f23fb936f1667a6f0292dd3509605b3f",
+  "zip": {
+    "path": "ForeverThai-0.471.0-main33-PRIVATE-TEST.zip",
+    "bytes": 29748679,
+    "sha256": "54eef1b1fb33379332d8bfe5621d166e9bc77f9fe5931cdf510efbfd782b5077"
+  },
+  "runtime_files": 155,
+  "old_runtime_files_exact_bytes_preserved": 152,
+  "changed_metadata": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "added_runtime": [
+    "ForeverThai/MainQuest33.lua"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 115,
+  "new_fonts_glyphs_runs": 0,
+  "all_TOC_Lua_compile": 31,
+  "actual_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "MainQuest27.lua",
+    "MainQuest28.lua",
+    "MainQuest33.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "AtlasMain27.lua",
+    "AtlasMain28.lua",
+    "Bitmap.lua"
+  ],
+  "positive_matches": 4,
+  "actual_BitmapLayer_Thai_draws": 4,
+  "Thai_live_font_fallbacks": 0,
+  "affected_glyph_crops_checked": 5,
+  "source_checks_reference": "main33-source-checks.json:4positive40negative8route;not rerun here",
+  "matcher_Tracker_NPC_Skill_engines_changed": false,
+  "real_game_verified": false,
+  "launcher_published": false,
+  "old_UI_Skill_NPC_full_suites_rerun": false,
+  "local_AI_or_full_font_build": false,
+  "elapsed_wall_seconds": 6.448125800000071,
+  "cpu_seconds": 6.296875,
+  "limits": [
+    "Only1progress slot,not a complete quest or whole-game claim",
+    "95772third-party race role held;oldcanonical retained",
+    "8315/84213existing multiline Tracker limitation retained",
+    "Windows/Mac M2 real game acceptance absent"
+  ]
+}
