@@ -1,5 +1,11 @@
 # Current state — 2026-11-15
 
+## MAIN36 active new-source checkpoint — reviewed, NOT packaged yet
+
+New EG pin0f202e892f1a15c8192c232351824eccb99efd8a (70938 query blob307e74c62ee5d897d6d4c59363c919820992c5ac) adds1438query IDs/3585newfields+7newconditionals;old3902English unchanged. Only new delta matched:3605forms=3030exact-supported+327identitydiagnostic+109literalpending+35explicitdeveloperexcluded+95macroheld+9identityheld. NOT1438untranslated/enabledquests;no whole-game denominator. Raw private pending input is not published. The complete pinned public source can reconstruct it.
+
+13literal fields/8IDs meaning-reviewed:10newThai fields+3verbatimreviewedreuse. 9previouslyabsent slots/4literal variants,3new runtimeIDs;NOTcompletequests. 960title,7025description,7630objective,84156objective,99212description/objective,86792title/description,86814title/description/objective,9556title/objective. Exact own-ID full incoming UI body only;no condition/class/race/sex/quantity dispatch inferred.86792multiobjective macro/9556race-description remain held. 152positives396negatives104wrongphase checks,all oldcanonical/alias trees and6heldquesttrees preserved. Fontbaseline14479;38new contiguousThai runs need reviewed cuts. Source helper initially tested raw $B as live UI and had a negative mutation identical to a question-ending original;both test-fixture assumptions corrected;unchanged runtime Match.lua is NOT altered. Current evidence is source-stage only. No newZIP/runtimeversion/Launcher publication yet. Private0.472/customer0.470 still current;next normal customer0.480. No actualWindows/MacM2 acceptance.
+
 ## Latest delivered private combined package: 0.472.0 / MAIN35
 
 - Four real previously absent literal objective fields added to existing quests96075/96087/96088/99217,L60.4new reviewed Thai fields/4IDs,NOT4completequests. Source own-ID objectivesText in EG ea970da071079b32e56f349e09648ff0e314b351,blob138d862da0402cee616647b0f7de1d5aa885c8c6. Fixed item/NPC/place names retained;no player/race/class/quantity/condition inferred. Header70938 does not prove per-row current enabled usage. Questie trace-only corrections file has no own-ID blocks;not claimed as corroboration or absent quests.

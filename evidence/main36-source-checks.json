@@ -1,0 +1,31 @@
+{
+  "batch": "MAIN36",
+  "status": "PASSED_SOURCE_CHECKS_NOT_PACKAGED",
+  "supported_new_fields_or_variants": 13,
+  "new_Thai_fields": 10,
+  "verbatim_reviewed_reuse": 3,
+  "quest_ids": 8,
+  "new_runtime_ids": 3,
+  "new_field_slots": 9,
+  "appended_variants": 4,
+  "positive_checks": 152,
+  "negative_checks": 396,
+  "wrong_phase_checks": 104,
+  "all_old_canonical_and_alias_trees_preserved": true,
+  "held_quests_preserved": [
+    91754,
+    95318,
+    95772,
+    97928,
+    8315,
+    84213
+  ],
+  "glyph_baseline": 14479,
+  "new_Thai_runs_needed": 38,
+  "complete_quests_claimed": 0,
+  "real_Windows_MacM2_acceptance": false,
+  "current_enabled_inventory_proven": false,
+  "overlay_sha256": "2e6fbd05a2e96808cce2d48284cc66826afc29e1f765954c29870f2ef23ed5aa",
+  "elapsed_wall_seconds": 0.586136500000066,
+  "cpu_seconds": 0.59375
+}
