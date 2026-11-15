@@ -1,0 +1,129 @@
+{
+  "status": "PRIVATE0479_MAIN43_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "46904ea7ecbce844e8d69088f13bbf00ce16cff4",
+  "source_commit": "a054ba5827dd9deb98b1a6a91306e64e85c3cd68",
+  "checks": [
+    {
+      "path": "ForeverThai-0.479.0-main43-PRIVATE-TEST.zip",
+      "bytes": 30973411,
+      "sha256": "6606c1ff373db22f6e8bb7f552fa0ecdb00fbe862ad05d888369bc7729c69fbe",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.479.0-TH.txt",
+      "bytes": 7791,
+      "sha256": "65ceb1d10c0c013eb3d3afbff9b2e7fd63d0f0fa79ad09a9f68128f90422439a",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-01.png",
+      "bytes": 40535,
+      "sha256": "3b9ade2dd7c1bbf49c0162e0d8a055808f3ee4038d45e5d9823b5a1d5a25433c",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-02.png",
+      "bytes": 61467,
+      "sha256": "10aeae72c86fd77aa809e3616a3658b14c8ea1083e394be66e275600dfc0a9ac",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-03.png",
+      "bytes": 133223,
+      "sha256": "aae90c07c57f5cdaeb25696f2b8041a339510a43a1916b5bfa49579dd6b51626",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-04.png",
+      "bytes": 150099,
+      "sha256": "18cd6c9ee7b4837bdac7d757c9bacb3c7b78ec21b61e47b6595a6394ad4a97c9",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-05.png",
+      "bytes": 240074,
+      "sha256": "df1895155ce8b7cc09b8e8358800d69cdaf228969fc0a308c58deaea1e0f00dd",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-06.png",
+      "bytes": 167299,
+      "sha256": "3b8a2a3a559115f78c1175aaced55d8c62c9a3df14c728d71a779e9dd15af36f",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-07.png",
+      "bytes": 227527,
+      "sha256": "fa357f9bb244a2eef4ea3691b566ab8b7667863328027ab892040513c7d6371e",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-08.png",
+      "bytes": 119992,
+      "sha256": "8a9600f1b6713fde98df368b3fb6c21d7c86a4e7c5ea8f220e2c33a31a7c3b40",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-09.png",
+      "bytes": 250368,
+      "sha256": "3c4681d5a841210084d0484aa28f45ed53e98126e56d84ba4be05bd4616e5077",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-10.png",
+      "bytes": 240421,
+      "sha256": "dda7f1743cd8714e9623351dc0fe8b7a12982f2d5b09aab5410ee0b2be770fc5",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-11.png",
+      "bytes": 171086,
+      "sha256": "a386d198b12c97fa6989c1632b2d7a0555f41b4aff7f5a6f01b70a431429f114",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-12.png",
+      "bytes": 265822,
+      "sha256": "f99f2a95641a7c685a88fc37c26f28e26cc8710d912dca340ac63146dc6d6284",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-13.png",
+      "bytes": 500095,
+      "sha256": "2fd6c017458487a247d450a354f82b04feb99a43dca8bcc92ebfded8eaa7943a",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-14.png",
+      "bytes": 239449,
+      "sha256": "bcb6ffcad403c1c25edb53977f1280f2b1e61b2a99cbd0769c1461c834ef526f",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-15.png",
+      "bytes": 265029,
+      "sha256": "d41e33e346e2fe957e464c2deaaf3ac48fc7f41e6d8b883bb4a365deae2c1c0c",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN43-bitmap-simulation-16.png",
+      "bytes": 79756,
+      "sha256": "493d4400b9589092f8559f2d8b8473801f08c71e04cd277d044ef375df9a9824",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all181_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 123,
+  "new_word_bitmaps": 317,
+  "new_unique_Thai_texts": 103,
+  "verbatim_baseline_reviewed_reuse": 10,
+  "same_batch_reviewed_reuse": 1,
+  "new_supported_fields": 114,
+  "quest_ids": 95,
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "elapsed_wall_seconds": 13.73054449999836
+}

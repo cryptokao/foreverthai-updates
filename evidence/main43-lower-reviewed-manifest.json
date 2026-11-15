@@ -1,0 +1,4092 @@
+{
+  "batch": "MAIN43_LOWER_1_55",
+  "status": "PASSED_SOURCE_AND_MEANING_NOT_PACKAGED",
+  "fields": [
+    {
+      "quest_id": 96031,
+      "field": "progress",
+      "title": "Camping 101: Leatherworking",
+      "level": 6,
+      "english_sha256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96031",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96031",
+        "phase_line": 62,
+        "phase_end_line": 66,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ ข้าสอนเจ้าได้",
+      "reused_from": {
+        "quest_id": 96044,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Yescan teach,affirmativeabilitynoextra levelcondition.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "21:597269750:1281937852",
+      "thai_sha256": "a1eb2302c171f7a327f7a72c3f47a51f8d821329fbfafdbb52d860b79a31f32f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97905,
+      "field": "progress",
+      "title": "Camping 101: Herbalism",
+      "level": 6,
+      "english_sha256": "b8a7932e3245ace5d7ff961fc66ed16b5adbd9f06855cfff4ced7443a40a8473",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97905",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97905",
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ ข้าสอนเจ้าได้",
+      "meaning_review": "Teachya dialectsameaffirmativeability,useapprovednaturalThai phrase but NEWfullEnglishguard,no skill/levelconditioninvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "20:562170160:239285947",
+      "thai_sha256": "a1eb2302c171f7a327f7a72c3f47a51f8d821329fbfafdbb52d860b79a31f32f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97906,
+      "field": "progress",
+      "title": "Camping 101: Leatherworking",
+      "level": 6,
+      "english_sha256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97906",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97906",
+        "phase_line": 62,
+        "phase_end_line": 66,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ ข้าสอนเจ้าได้",
+      "reused_from": {
+        "quest_id": 96044,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactsame teachingaffirmation.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "21:597269750:1281937852",
+      "thai_sha256": "a1eb2302c171f7a327f7a72c3f47a51f8d821329fbfafdbb52d860b79a31f32f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97929,
+      "field": "progress",
+      "title": "Camping 101: Enchanting",
+      "level": 6,
+      "english_sha256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97929",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97929",
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ ข้าสอนเจ้าได้",
+      "reused_from": {
+        "quest_id": 96044,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactsame teachingaffirmation.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "21:597269750:1281937852",
+      "thai_sha256": "a1eb2302c171f7a327f7a72c3f47a51f8d821329fbfafdbb52d860b79a31f32f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97940,
+      "field": "progress",
+      "title": "Camping 101: Enchanting",
+      "level": 6,
+      "english_sha256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97940",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97940",
+        "phase_line": 57,
+        "phase_end_line": 60,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ ข้าสอนเจ้าได้",
+      "reused_from": {
+        "quest_id": 96044,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactsame teachingaffirmation.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "21:597269750:1281937852",
+      "thai_sha256": "a1eb2302c171f7a327f7a72c3f47a51f8d821329fbfafdbb52d860b79a31f32f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97948,
+      "field": "progress",
+      "title": "Camping 101: Mining",
+      "level": 6,
+      "english_sha256": "4647f53ef027464ea0beb5766578216a4784377fab00b9d9892baf8aec4bdfb2",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97948",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97948",
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ามาขอฝึกหรือ?",
+      "meaning_review": "Trainingquestion,not teachingalreadycompleted or specifiedprofession.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "31:1115327614:632329784",
+      "thai_sha256": "344fef259c01c6b55d99c5bcb62bad4c85233215450c598e8d9325b58494ca48",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97958,
+      "field": "progress",
+      "title": "Camping 101: Leatherworking",
+      "level": 6,
+      "english_sha256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97958",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97958",
+        "phase_line": 59,
+        "phase_end_line": 63,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ ข้าสอนเจ้าได้",
+      "reused_from": {
+        "quest_id": 96044,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactsame teachingaffirmation.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "21:597269750:1281937852",
+      "thai_sha256": "a1eb2302c171f7a327f7a72c3f47a51f8d821329fbfafdbb52d860b79a31f32f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92646,
+      "field": "progress",
+      "title": "Confront Lorthuna",
+      "level": 12,
+      "english_sha256": "fab3c41defd10d996357440f96d953d93c99ffd5e293f21d1b883c218cbfa2f7",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92646",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92646",
+        "phase_line": 183,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าเกรงว่าสถานการณ์ของพวกเรากำลังจะแย่ลงกว่านี้มาก",
+      "meaning_review": "Fearfutureworseningnot confirmedalreadyhappened/foreknowncause.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "50:1166770872:1536718489",
+      "thai_sha256": "fdb8a3cab44e742c389302c0cb77f9babdc1c47248df6fd8e555ec99e1c89f29",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 98059,
+      "field": "progress",
+      "title": "Hillsbrad's Hoard",
+      "level": 27,
+      "english_sha256": "bb134db9294c746ace4a9900590d52c6c47844d600d441cb2d9da4d7fdb3003d",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/98059",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/98059",
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ามาแก้ไขรายงานหรือ?",
+      "meaning_review": "Amendingreportquestion,not writingbrandnewreport or actualquestcompleted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "31:1384298176:1936685465",
+      "thai_sha256": "f658dc4d3cb7e968b1a58abc4b8bebe869b942c362b919bb7c297300afac5e5d",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 1144,
+      "field": "progress",
+      "title": "Willix the Importer",
+      "level": 30,
+      "english_sha256": "28f5efbd6e185e5040fb516196784283252429052665b7389a8f7af0e3270f88",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/1144",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/1144",
+        "phase_line": 171,
+        "phase_end_line": 175,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ช่วยข้าด้วย!",
+      "meaning_review": "Urgenthelpappeal,nocause/conditionorcountadded.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "12:1836886045:1821925703",
+      "thai_sha256": "785733c244171b551b8cf0d9781018bcdf72ecf15892392aba440681df1313d3",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96261,
+      "field": "progress",
+      "title": "The Broodmother",
+      "level": 30,
+      "english_sha256": "2f56574a8f7e56bc88dd61131dfb7378d888c06e4ea792240ab082cecf9d85b0",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96261",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96261",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ากำจัดแม่พันธุ์แล้วหรือดรูอิด?",
+      "meaning_review": "Broodmotherdestructionquestion,literaldruid retainedONLYfullstaticown-IDguard,no UnitClassbinding. No monster species/name invented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "literal_identity_mentions_preserved": [
+        "druid"
+      ],
+      "expected_dynamic_signature": "42:186319396:1361322106",
+      "thai_sha256": "fbe53d7e108865a31b1e0c29fd95e7e109150dd1b1e574ed3ca6ed1f6b1558b9",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92707,
+      "field": "progress",
+      "title": "The Giant in the Den",
+      "level": 33,
+      "english_sha256": "a7df3919d2626ca406d3ebe9ebfc9227cf63c47b827e2db07a9a825dfcf19d81",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92707",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92707",
+        "phase_line": 177,
+        "phase_end_line": 181,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "มีอะไรจะบอกข้าหรือ? ก็พูดมา! ข้าไม่ทนพวกขี้กลัวหรอก",
+      "meaning_review": "Impatientcommandspeak,do-not-suffer-timididiomnot literalphysicalpain.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "60:234201751:1281995667",
+      "thai_sha256": "6f2463b98d3ca33fc6bb8769adf34567322a0d80ec76a0c0ba2daedc20804b08",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97284,
+      "field": "progress",
+      "title": "Vahlarriel's Vengeance",
+      "level": 33,
+      "english_sha256": "0a5c9f784d953e45dc471b187967289ca6af763b2b93d80554d2fa0239c16383",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97284",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97284",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "การสังหารเป็นอย่างไรบ้าง?",
+      "meaning_review": "Slaughterprogressquestion,no target/number or completedaction.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "23:1045674245:1801716632",
+      "thai_sha256": "cd89b62cb8a0ea0e472d7cd84a2bc5904a8a54d36593e7ab8b63bd6c35027af5",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97331,
+      "field": "progress",
+      "title": "Zimmix's Great Escape",
+      "level": 35,
+      "english_sha256": "498dd0699b62ed32e4b85309d58861db0341ea3df4c40d4608d7d25af469d3f9",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97331",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97331",
+        "phase_line": 179,
+        "phase_end_line": 182,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าคงถามว่าเจ้ามาส่งของหรือเปล่า แต่ข้าไม่เห็นลัง เรามีธุระอะไรกัน?",
+      "meaning_review": "Nocratevisiblecausesnotaskingdelivery,rhetoricalbusinessquestion—notdeliveryaccepted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "81:751744102:2086831518",
+      "thai_sha256": "d9ff10d15760f2bcd18f03e74461eaa879a3ebe44b2cca73bc8880d291284b89",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93786,
+      "field": "progress",
+      "title": "A Message in Blood",
+      "level": 36,
+      "english_sha256": "7204ae9877dcef60d9c23def8ebcc6497653898270ee4da6e8a95a6ef2a5b5bf",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93786",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93786",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "สนุกกับความตื่นเต้นของการล่าอยู่หรือ?",
+      "meaning_review": "Questionhuntingthrill,no huntresultassumed.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "32:1855442390:473733628",
+      "thai_sha256": "6c166a4c8e4198e475335060d814724e407eee587e24a585fc76d571947b0422",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95534,
+      "field": "progress",
+      "title": "Strahnbrad Mystery",
+      "level": 36,
+      "english_sha256": "ec6c54274091903ffe511193bf5a1dd5b66208a0008cd010facd5411878a6bd7",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95534",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95534",
+        "phase_line": 186,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "หืม? เจ้ากำลังสืบปริศนาใน Strahnbrad อยู่หรือ? เชอะ เมืองร้างเก่านั่นไม่มีอะไรพิเศษหรอก",
+      "meaning_review": "FixedStrahnbradmysteryquestion,NPCdismissesghosttown—not assertednewhauntingfact.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "102:1710803524:1181285133",
+      "thai_sha256": "a8506f3014b7241039badd2c4c23467a200ddd305b6fc11cffeaecd0e2d33279",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92872,
+      "field": "progress",
+      "title": "Dutiful Steps",
+      "level": 38,
+      "english_sha256": "46a3861d5d9ab07e19a02ea2e633bce808720a7c77ab1ad1510bd1b5a27e870c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92872",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92872",
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "แม้สถานที่แห่งความตายอันสงบขรึมนี้ ก็ยังมีสสารใหม่ไหลเข้ามา การปลดปล่อยมันกลับสู่แสงด้วยวิธีนี้ มีเจตนาให้เป็นสัญลักษณ์ของการมุ่งสู่เมล็ดพันธุ์แห่งชีวิตใหม่",
+      "meaning_review": "Solemndeathplace/newmatter—not guessednewcorpses;releasingmattertolightsymbolicnewlifedraw,no ritualsteps/countinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "172:680309178:599510973",
+      "thai_sha256": "88d7b7c8206c4c99dc262255b275fa9a024d9268abc9aee6ef7b9615d19a2ef9",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95776,
+      "field": "progress",
+      "title": "The Only Good Brinescale...",
+      "level": 38,
+      "english_sha256": "a1d61cd68be1ddb33701bf1a2b8ae32c9e2d9c3d6aefa2898bef7fc6b744901b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95776",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95776",
+        "phase_line": 181,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้ายอมรับว่าเกลียดชังพวกนากาไม่น้อย แม้จะชื่นชมความทรหดและความแข็งแกร่งของพวกมัน\n\nพวกมันเป็นศัตรูที่คู่ควรกับคมดาบของข้า",
+      "meaning_review": "Loathingbutadmiresnagatenacitystrength,worthybladeenemy—not ally/trainingtargetguess.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "142:1699940806:132623805",
+      "thai_sha256": "15f45e62564fac98ff4339002ecbf8e108c6b8fb3dc5f2c821d7433dbd182a41",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94483,
+      "field": "progress",
+      "title": "Show Them How It's Done",
+      "level": 39,
+      "english_sha256": "c0525342bc790c401b5d5eb95d06569a72989d76c037eebd6f6aa2464877e918",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94483",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94483",
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เมื่อสกัดภัยคุกคามจากสหายของเราที่อยู่ปลายน้ำได้แล้ว เราจะหันความสนใจไปที่อื่น",
+      "meaning_review": "Conditionalfutureafterstemmingthreatofdownstreamfriends,termfriendsretainedwithoutinventingnamedfactionor destination.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "95:1949108596:1794700009",
+      "thai_sha256": "4efe76d98db30f4b655642a7f88d16c01c65d1612071bc625c7e6ebb82fdee73",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94924,
+      "field": "progress",
+      "title": "Hunting the Hunters",
+      "level": 39,
+      "english_sha256": "eaaf62e11b6b86c581c7b6a388578d264872559d178a673fa9197cbfe946bd4a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94924",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94924",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "สักวันเราจะขับไล่ออร์กทั้งหมดออกไปจากที่นี่ แต่ตอนนี้ เราทำเท่าที่ทำได้",
+      "meaning_review": "Futuredriveoutallorcs vs limitedactionnow,not literalcompletedextermination.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "81:1972535692:831110515",
+      "thai_sha256": "899f1cc0bb619758f86604cb28feb5ea6dece0c46a5df537c0991e114ece2fd7",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95955,
+      "field": "progress",
+      "title": "Stick 'Em",
+      "level": 39,
+      "english_sha256": "cd46350dc3b58e8b40aa22ea9fc5b620de32063f93c0b6c8a9b8557bfd692ace",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95955",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95955",
+        "phase_line": 181,
+        "phase_end_line": 184,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้าหาพวกครอคโคลิสก์ได้ตามแม่น้ำ แค่อย่าเข้าใกล้พวกมันนักล่ะ ฮี่ๆๆ",
+      "meaning_review": "Crocolisksriverlocation,warningnottooclose/chuckle,no rivername/count or broadercrocodilespeciesguess.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "86:1067743113:693009330",
+      "thai_sha256": "eab478bd6d646182320b3bc4a3263ae73b1443fe4338aa8624ea1ad547e12343",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95602,
+      "field": "progress",
+      "title": "Sickening Lights",
+      "level": 40,
+      "english_sha256": "d8a9ca8d06f318d1fa42248088e34055de1e4d874baa7ca14192d3334880085a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95602",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95602",
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "แสงทำให้ Clubtoe เวียนหัว ทุบพวกมันให้เละ!",
+      "meaning_review": "FixedNPCClubtoe in thirdpersondizzyfromlights,smashdemcommand;no UnitNamebindingor guessedtargetclass.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "42:389814263:1468121428",
+      "thai_sha256": "c71026b3f501340960966c84d53e01a8ebad4aa3dce1fa65d4540a43632599ca",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95770,
+      "field": "progress",
+      "title": "Locating the Lost City",
+      "level": 40,
+      "english_sha256": "3317ce7eeca895d71039b46dd34a055d85c89e0c0df475d4e094b22f67699fc7",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95770",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95770",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ากลับมาแล้ว! พบอะไรบ้างไหม? เจ้ารู้อะไรเกี่ยวกับพวกนากาที่นี่บ้าง?",
+      "meaning_review": "Returnquestionsfindingsandnagapresence—notalreadyclearednaga.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "89:1684089486:1957815155",
+      "thai_sha256": "7b5f035aa193b50e485d1618e5e66b319b676739802b4f4e87217cfc9325aa0a",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95791,
+      "field": "progress",
+      "title": "The Saltseer Captain",
+      "level": 40,
+      "english_sha256": "8be4990ba9c0a9dfea8cfcac380882f29b66e5f0b96ec6890d1364bfcbe8c5f3",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95791",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95791",
+        "phase_line": 182,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "โธ่ เรือพวกนั้นน่าขนลุกจริง\n\nดูเหมือนโจรสลัด Saltseer จะมีวิธีเดินเรือที่ข้าไม่เคยเห็นมาก่อน มันผิดธรรมชาติ! แทบเหมือนกับว่าเรือมีชีวิต ข้าเคยเห็นโจรสลัดบนเรือเดินออกจากพวงมาลัยเรือ แล้วเรือก็ดูเหมือนแล่นเองได้!\n\nข้าไม่อยากรู้หรอกว่าพวกมันทำได้อย่างไร ข้ารู้สึกว่าเป็นเวทมนตร์ดำ",
+      "meaning_review": "FixedSaltseercrew observedleavewheel/shipseemsselfsteering,almostalive/darkmagicNPCimpressiononly,not actualmechanicor provenpossessedship.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "362:1673102159:943543572",
+      "thai_sha256": "f1b30d3fd65450a2e1292297872689988848b93163d8d74400f4665684a7e7c2",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96067,
+      "field": "progress",
+      "title": "Rock 'em and Sock 'em",
+      "level": 40,
+      "english_sha256": "7f8d3bfe3d1bfcc87b3e56f01e5c9c2a55617d5a228fabe2ed90cd5de0da92ba",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96067",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96067",
+        "phase_line": 177,
+        "phase_end_line": 180,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าขอชี้แจงว่าข้าไม่ต้องรับผิดชอบเป็นการส่วนตัวต่อการบาดเจ็บใดๆที่เจ้าได้รับระหว่างการทดสอบความทนทาน",
+      "meaning_review": "NPCstress-testliabilitystatement,no injuryalreadyoccurredor specifictesthazardinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "112:739118178:579446813",
+      "thai_sha256": "fd169cbf8d786e187de3eeed43d8f862ffb8aacc5710e1711f9955f620ed4b6e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97017,
+      "field": "progress",
+      "title": "Your First Riding Ram",
+      "level": 40,
+      "english_sha256": "4a52bd322a3d91477d728af8f746bea04caa6c7d616f996efdb50139706f1eb5",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97017",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97017",
+        "phase_line": 178,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "กลับมาแล้วหรือ? เจ้าเลือกได้แล้วสินะ?\n\nแกะตัวผู้เหล่านี้อาจดื้อ แต่ไม่มีสัตว์ตัวไหนยอดเยี่ยมกว่านี้ในเทือกเขาฝั่งนี้ แทบไม่มีอะไรทำให้พวกมันหวั่นไหว!\n\nเจ้าหาสหายที่แข็งแกร่งทนทานกว่านี้ไม่ได้แล้ว",
+      "meaning_review": "Ramchoicequestions,stubbornyetfineststurdy/unfazed—notnewfearimmunitystat.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "204:832895451:1793998889",
+      "thai_sha256": "633e9841dc626a46858837a72202c8cdabd23e0189e0fa5e574303339a0d3755",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97045,
+      "field": "progress",
+      "title": "Your First Horse",
+      "level": 40,
+      "english_sha256": "149a3e2c1b0ee0ccd5b72d795c62b7c775b3c95b3433b27b947045f4b369d034",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97045",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97045",
+        "phase_line": 184,
+        "phase_end_line": 190,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ากลับมาแล้ว! เลือกได้แล้วหรือ? ม้าเหล่านี้เป็นม้าชั้นเลิศแถบนี้ของ Eastern Kingdoms\n\nเจ้าหาม้าขี่ที่กล้าหาญกว่านี้ไม่ได้แล้ว",
+      "meaning_review": "Horsechoice/geographicEasternKingdomsboast/courage—notguessedbreedorguaranteedcombatstats.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "154:416692439:279040156",
+      "thai_sha256": "581856584f41ea320ba9573995f7424820b74d1e51caf2a9533cab657a837edf",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97046,
+      "field": "progress",
+      "title": "Your First Mechanostrider",
+      "level": 40,
+      "english_sha256": "ee4ecb31f7a9b02f9e4275c9b4fb3a0c1ac0302e47ea0b21a02b7095bc1781f3",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97046",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97046",
+        "phase_line": 180,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้าเลือกได้แล้วหรือ? เมคาโนสไตรเดอร์เหล่านี้มีคุณภาพสูงสุด และทำขึ้นด้วยมือของวิศวกรชั้นยอดแห่ง Gnomeregan! เอ่อ ข้าหมายถึง Ironforge สินะ\nพวกมันเชื่อถือได้มากกว่าสัตว์ชนิดใด ไม่มีความรู้สึกนึกคิด แต่ก็มีลักษณะเฉพาะตัว ส่วนใหญ่มาจากความแตกต่างในการสร้างโดยวิศวกรคนละคน แต่ถึงอย่างนั้น ส่วนใหญ่ก็เลือกกันตามสีที่ชอบ",
+      "meaning_review": "Handcraftedmechanostriders,Gnomeregan→IronforgeNPCselfcorrectionpreserved,nosentienceyetquirksfromengineers,mostlycolorpreference—notrealappimplementation.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "386:133513189:1469138553",
+      "thai_sha256": "da24e2633228cbc97736b441aadbc0a6c9769ed0f83256eda1d9c5bb7b71641d",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97188,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "cea2b17c5a1f1156d1350db32febf9585d32208634bc27b4550bdb97b0aa0ebe",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97188",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97188",
+        "phase_line": 182,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เมื่อเจ้าเรียนบังคับเมคาโนสไตรเดอร์ได้แล้ว เจ้าก็จะเดินทางไปทั่วโลกกับสัตว์ขี่ของเจ้าได้!\n\nเร็วกว่าวิ่งไปทุกที่แน่นอน แต่ถ้าเจ้าชอบวิ่ง ข้าก็ไม่ห้ามหรอก",
+      "meaning_review": "Pilotmechanostridernotliveanimal,ridingformulaandrunningpreferencehumor,no traininglevel/price.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "214:928132728:1380829371",
+      "thai_sha256": "89f89221d813aeb2336648cff463d1d6570eb4cc44f89375be44a4128a191d20",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97194,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "0c58f4504664003591551cb80893207edf55b2d59333f7d8624c68fafbaa9ef6",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97194",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97194",
+        "phase_line": 182,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เมื่อเจ้าเรียนขี่หมาป่าได้แล้ว เจ้าก็จะเดินทางไปทั่วโลกกับสัตว์ขี่ของเจ้าได้\n\nเร็วกว่าวิ่งไปทุกที่แน่นอน แต่ถ้าเจ้าชอบวิ่ง ข้าก็ไม่ห้ามหรอก",
+      "meaning_review": "Wolfmount/numericnone,futurelearnconditionandoptionalrunning,no class/racebinding.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "202:1608995991:908975933",
+      "thai_sha256": "d15f83daf6af405e3e746c5fe1c2d19cc3eefcdf1c957be570843de7fef2f409",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97200,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "7837a266d804b43734ab2479a793ef2a5ffd18575fa5a3705a1e6cdeafce81e8",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97200",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97200",
+        "phase_line": 182,
+        "phase_end_line": 190,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เมื่อเจ้าเรียนขี่แรปเตอร์ได้แล้ว เจ้าก็จะเดินทางไปทั่วโลกกับสัตว์ขี่ของเจ้าได้!\n\nไม่มีอะไรทำให้รู้สึกเป็นอิสระยิ่งกว่าการอยู่บนหลังสัตว์เหล่านี้ แล้วรู้สึกว่าพื้นดินแล่นผ่านไปอย่างรวดเร็ว\n\nเร็วกว่าวิ่งไปทุกที่แน่นอน แต่ถ้าเจ้าชอบวิ่ง ข้าก็ไม่ห้ามหรอก",
+      "meaning_review": "Raptorlearnriding/worldtravel/liberatingrushingground/fasterrunningpreference,no mountedskillstatinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "329:1740078172:1732553940",
+      "thai_sha256": "20039ff9b2867c3acaa3d58f73eca1b0621741f4cf4f5eb8d03bceda320c5043",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97204,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "c57423aa9f3281af16f242b41a92b296fe417fac5e21d37358eee612f3a7df2a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97204",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97204",
+        "phase_line": 182,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เมื่อเจ้าเรียนขี่โคโดได้แล้ว เจ้าก็จะเดินทางไปทั่วโลกกับสัตว์ขี่ของเจ้าได้\n\nเร็วกว่าวิ่งไปทุกที่แน่นอน แต่ถ้าเจ้าชอบวิ่ง ข้าก็ไม่ห้ามหรอก",
+      "meaning_review": "Kodomount,notwolf/ram;futuretravel and runningpreference maintained.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "203:1855914811:1065877534",
+      "thai_sha256": "f70013353eafc2074d51e0ac5bee226df589bcc6cc186c45c17b23e7f484a5e7",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97205,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "292a4032c456fc8b67cb0a6a64bf63a840d78ab5a92b5117f14356c4e91a94a1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97205",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97205",
+        "phase_line": 181,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เมื่อเจ้าเรียนขี่ galestrider ได้แล้ว เจ้าก็จะเดินทางไปทั่วโลกกับสัตว์ขี่ของเจ้าได้\n\nเร็วกว่าวิ่งไปทุกที่แน่นอน แต่ถ้าเจ้าชอบวิ่ง ข้าก็ไม่ห้ามหรอก",
+      "meaning_review": "Fixedgalestridermounttyperetainednotguessednewracespecies,learnthenjourney,runningpreference.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "210:115049656:490021152",
+      "thai_sha256": "8bfef6131755ec30c7efc3290ecedeb21e69d37e54ab235c35efccdd85a7c679",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94672,
+      "field": "progress",
+      "title": "Encroaching Twilight",
+      "level": 41,
+      "english_sha256": "5a77e62f0964a5d7ccd9649b0551e97b443bf87285d0e114343123c26324145a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94672",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94672",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ดูเหมือนจำนวนของพวกมันกำลังเพิ่มขึ้น เราต้องชะลอการรุกคืบของพวกมัน",
+      "meaning_review": "Seeminggrowth/slowadvance,nospecificnumberortargetfactioninvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "66:1022248646:619398537",
+      "thai_sha256": "af90ec776249ac9cc723ae2eb1131996ada5e8390bcd3de199c4efcd6acd8123",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95118,
+      "field": "progress",
+      "title": "Saltwater Savages",
+      "level": 41,
+      "english_sha256": "f577b61dd500e45d824c3d7f2e17647f03a31d54726ab20579c61d756d7b756e",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95118",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95118",
+        "phase_line": 180,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าไม่สนว่าเจ้าจะทำอย่างไร แค่ทำให้พวกตัวประหลาดมีเกล็ดนั่นกลายเป็นอาหารปลาก็พอ",
+      "meaning_review": "NPCviolentfishfoodmetaphorretained,targetonlyscalyfreaks,no monstername/countinferred.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "71:1990762200:1238162648",
+      "thai_sha256": "fe852387c0ddcaa0c4dede0d1b42d4efe78ddfdd3f3666957b73e72ae14be650",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95424,
+      "field": "progress",
+      "title": "Might Makes Right",
+      "level": 41,
+      "english_sha256": "b37c0340d3e030124b1110e429ea95f5884cc17d30fa90696c5d307bfea0f545",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95424",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95424",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้าไม่ทุบ เจ้าไม่ได้อยู่!",
+      "meaning_review": "Ogretelegraphicconditionno smashnostay,no inventedtargetoramount.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "27:1846768603:384751347",
+      "thai_sha256": "45753b2c33b7a96ecf544fe00b290dfebdfe1742d99cd59a478c4893c0ac15e9",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93450,
+      "field": "completion",
+      "title": "Phantasmal Problems",
+      "level": 42,
+      "english_sha256": "2f22cd752c349da1efa3cf4e4c20463785f22395eb539922bb13e13d9d93bd72",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93450",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93450",
+        "phase_line": 186,
+        "phase_end_line": 194,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เดี๋ยว... เจ้าทำได้หรือ? เอ่อ ข้าหมายถึง... เจ้าทำได้แล้ว!\n\nปัญหาของข้าเป็นเรื่องจริง แต่ทางแก้ที่ข้าอยากได้นั้นไม่ใช่เรื่องที่เป็นไปได้จริงเลย ข้าไม่แน่ใจว่าอะไรทำให้ประหลาดใจที่สุด เจ้ากล้าเสี่ยงทำมัน? หรือใบมีดตามเจ้าเข้าไปในแดนวิญญาณ?\n<Vindael มองเจ้าตั้งแต่หัวจรดเท้าครั้งหนึ่ง แล้วอีกครั้งด้วยสีหน้าเริ่มระแวง>\n\nเจ้ายังดูมีชีวิตอยู่เต็มที่สำหรับคนที่ได้ลิ้มรสความตาย ทำไมไม่แบ่งปันความลับกับพวกเราบ้างล่ะ?",
+      "meaning_review": "NPCsurprisedselfcorrection,realproblem/unrealdesiredsolution,riskyplungewithoutinventedclifflocation,bladefollowsSpiritrealm,fixedVindaelsuspiciontwolooks,aliveaftertastingdeathquestion.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "433:285098364:977775743",
+      "thai_sha256": "4d526b8ba85015c2d8136eb6c4cfe365893c27be265902ec66ede2c180bc6bb3",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94556,
+      "field": "progress",
+      "title": "Jom-jom's Escape",
+      "level": 42,
+      "english_sha256": "b4eff799a02718638604102fda2f0a5212506d7e667b33ae65b3935fc93ee228",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94556",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94556",
+        "phase_line": 176,
+        "phase_end_line": 180,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "หืม?",
+      "meaning_review": "Shortquestioninginterjection,nocompletionasserted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "3:4783604:1249934",
+      "thai_sha256": "0dcd9d6c4a06e1c6deb7075d94ff08680037da3e683dc9898bfe3245a4b9f7e1",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93066,
+      "field": "progress",
+      "title": "Bristleback Retreat",
+      "level": 43,
+      "english_sha256": "4128a740198493630fbd30b618306b5b6247902bf08f2917c9c3f255ac1bc8fc",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93066",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93066",
+        "phase_line": 185,
+        "phase_end_line": 191,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "อา เจ้าคงเป็นคนนอกที่คอยทำธุระให้ Orgrul\n\nโชคดีจริงที่เจ้าย่องเงียบได้แย่มาก หากหน่วยสอดแนมของข้าไม่เห็นเจ้าเดินโครมครามทำธุระแทนเขา หัวเจ้าคงเสียบอยู่บนหอกเปื้อนเลือดแล้ว",
+      "meaning_review": "FixedOrgruloutsider,failuretosneakluckilyrevealedhelpinghim;counterfactualdeathnotplayeralreadydead/newkillobjective.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "212:688667643:1754310729",
+      "thai_sha256": "2b23fdb16e25bdeed191577aaa991056ec319640a2c6269858ca203f1ed064b8",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93341,
+      "field": "progress",
+      "title": "Forlorn Gardens",
+      "level": 43,
+      "english_sha256": "41935161552fb6f0c4c73b6492ac33748fb1003c7b671f96641a44f113babc53",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93341",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93341",
+        "phase_line": 181,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ตอนเสาพลังของเราอ่อนกำลังที่สุด ข้าไม่อาจเข้าใกล้สวนเพื่อตรวจสอบปัญหาได้ ตอนนี้หมอกจางแล้ว แต่ข้ากลับทำใจเข้าใกล้อีกไม่ได้ ข้าเป็นห่วงพวกทรีแอนต์\n\nข้าไม่อยากให้ความทรงจำเกี่ยวกับสถานที่อันงดงามเช่นนั้นมัวหมองไปยิ่งกว่านี้",
+      "meaning_review": "Pylonsweaknesspastpreventedapproach,hazenowliftedbutNPCemotionallycannotreturn,treantsworry/preservewonderfulmemory—notphysicalpathstillblocked.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "276:962842941:414105303",
+      "thai_sha256": "7d25fd0961d5bf1cbdd1bcf31fced138662111657e722c83f4d24189425ba389",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94964,
+      "field": "progress",
+      "title": "Bloodmaster's Ring",
+      "level": 43,
+      "english_sha256": "7d20ae7549c2a57e4292d396c20b5b3f5d53d16f1d4b82d07689fe708febb82b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94964",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94964",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ว่าไง? เจ้าต้องการอะไร?",
+      "meaning_review": "ImpatientcasualNPCquestion,not rewardorquestcompletion.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "20:1199145490:1700823422",
+      "thai_sha256": "2165d9436e61c60d31d61210f703279d69ddcf49f90c1735e857d4aa6a671d2d",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95119,
+      "field": "progress",
+      "title": "Unfriendly Competition",
+      "level": 43,
+      "english_sha256": "593ffbd6aa0183006c0b4d292d0de5b3bba61df52567b60cf0ab44e47b1f95c1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95119",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95119",
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "โดยหลักแล้ว ข้าไม่ได้ต่อต้านโจรสลัดทุกคน ข้าสนับสนุนการทำธุรกิจอย่างเสรีอยู่บ้าง แต่ไม่ใช่เมื่อมันมายุ่งกับธุรกิจเสรีของข้า",
+      "meaning_review": "Freeenterprise doubleuse/selfishNPCviewpreserved,not blanketanti-pirateor realworldpolicyadvice.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "124:57780004:327757892",
+      "thai_sha256": "209f66230b24c7f1374105aebbc2f23c5cb912228b06c91346619dbdf97be7f6",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95432,
+      "field": "progress",
+      "title": "Rise Up!",
+      "level": 43,
+      "english_sha256": "ac2df458a76e131006a7696f302dce44d5d848b27607a0a661c75d62eedd0c39",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95432",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95432",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "พวก Twilight คิดว่ายักษ์โง่ ใช้เป็นแรงงาน เปลืองศักยภาพของยักษ์ ฆ่าพวก Twilight ทุกคนที่ขวางทางเจ้า!",
+      "meaning_review": "OgretelegraphicTwilightexploitation,wastedpotential,killobstructors—notallworldNPC/no inventednumber.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "106:1578881230:1901968721",
+      "thai_sha256": "5b367c0ad07e6c9a74ada64615f102613dbf968d9b20d3aafd17c95400a76988",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 99258,
+      "field": "progress",
+      "title": "Mana Mania",
+      "level": 43,
+      "english_sha256": "90e1e8fc0d2a78f5c17bf6953f7a4bfc86d89dc7910960d24937f87d741f988a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99258",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/99258",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าเฝ้ารอผลการทดลองนี้ ข้าเฝ้าดูพลังอาร์เคนของสถานที่แห่งนี้ลดน้อยลงมาหลายปี และเกรงว่าตอนนี้พวกเราจะเปราะบางยิ่งกว่าครั้งใด",
+      "meaning_review": "Anticipatedexperimentresults,longobserveddeclinearcanepower/vulnerabilityfear—notalreadyprovenoutcomeor fixedyears.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "172:940237052:1283601567",
+      "thai_sha256": "6950a67f688b254cf4f328d48cf68928a53fe82edbe2cc3a1b1cbbd4ae5c701e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94745,
+      "field": "progress",
+      "title": "Carving a Path",
+      "level": 44,
+      "english_sha256": "e7fdb6e3523819ba0ab142b790840283d7ed76f88624037bb51911dba1c14577",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94745",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94745",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ชโลมทุ่งเหล่านี้ด้วยเลือดของ Twilight! ดินแดนเหล่านี้เป็นของ Horde!",
+      "meaning_review": "Fictionalfactionwarcry/landownershipclaimbyspeaker,not changedreputationor realworldviolence.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "71:1674610545:1334869436",
+      "thai_sha256": "ea0af241340422730240d348f3ef193d247734da7beec39bae94bdd299f95354",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94748,
+      "field": "progress",
+      "title": "Break Their Chains",
+      "level": 44,
+      "english_sha256": "6f940ceabac908382d437e332a65a8409371ceda116f91d1d1aeaae8b63bf5cb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94748",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94748",
+        "phase_line": 179,
+        "phase_end_line": 182,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "พวก Twilight Champions น่าจะถือกุญแจกรงขังนักรบของข้าอยู่ สังหารพวกมัน แล้วปลดปล่อยคนของเรา",
+      "meaning_review": "Likelykeysnotguaranteeddroprate,fixedTwilightChampions,unmarkedThaiwarriornumber,no inventednumbercages.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "97:1436011366:593953201",
+      "thai_sha256": "131f77e805c99bcdd77f39e0c5266b9aa40218632c9366418b91a7713b03a14e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94888,
+      "field": "progress",
+      "title": "No Soldier Left Behind",
+      "level": 44,
+      "english_sha256": "3c4bfb97efb785ef7761d58f5b48c91d6a6ad703bc423fc3fcc33ebfb6b55d91",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94888",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94888",
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "หากเจ้าพบเชลยของ Horde ก็ปล่อยให้เน่าอยู่ในห้องขังไป เรื่องปวดหัวจะได้น้อยลงอีกเรื่อง",
+      "meaning_review": "Conditionalenemycaptivesleaveincells,coldNPCcomment,noplayerfactionbindingor rescuethemreversal.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "98:1368931359:287323989",
+      "thai_sha256": "0fdb7d8e9df56b9dce5ba235001aa56bfe1516e511159fdd52d1b85724403aa9",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94907,
+      "field": "progress",
+      "title": "A Small Favor",
+      "level": 44,
+      "english_sha256": "4dc2751811d643512cf7ba40cdfb8473e8a611f6f17336362c3cf72f19229cb2",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94907",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94907",
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ว่าไง? เจ้าทำแล้วหรือ?",
+      "meaning_review": "Twoquestions—not statementtaskdone.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "20:707148261:988037887",
+      "thai_sha256": "e839f6c3592dd2c4d2a7939bf666b2b222a0146f325f71c1a08fe347f73fc029",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 94965,
+      "field": "progress",
+      "title": "Bloodmaster's Ring",
+      "level": 44,
+      "english_sha256": "492bd882b3e866ed674cb55308e7b988127d69b23791cc2a541a722a412c6d88",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94965",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94965",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "แล้วเป็นอย่างไรบ้าง?",
+      "meaning_review": "Past-outcomequery,nocompletionor namedtargetinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "15:185938108:1208392855",
+      "thai_sha256": "fd7fb69fc3923f0b7ef12e0ba3481624ee449fb44c0847155d5c7e108c536647",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95122,
+      "field": "progress",
+      "title": "Unchecked Expansion",
+      "level": 44,
+      "english_sha256": "b6b1cab975c50352415b8dc83e46d971256065e0ac256bb7f363c5d6e1bea3a0",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95122",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95122",
+        "phase_line": 175,
+        "phase_end_line": 178,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ปืนใหญ่ของ Eastsea ก็เรื่องหนึ่ง ก็อบลินคนไหนก็จัดการดอกไม้ไฟไม่กี่ดอกได้ ที่ทำให้ข้ากลัวคือพวกจู่โจม พวกคลั่งน้ำลายฟูมปากที่ถือขวานหรือ? ไม่เอาล่ะขอบคุณ!",
+      "meaning_review": "FixedEastsea,cannons/fireworksunderstatementvsaxe-raiderfear,anygoblingenericnot playerRace,no guessedcountor NPCorders.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "157:1073619338:199341167",
+      "thai_sha256": "58a910e8cb940e1a0d55b3b8dff38f20c4fc8bda0cb80c5bc3ac75e92404ef7f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93604,
+      "field": "completion",
+      "title": "Agamaggan's Blood",
+      "level": 45,
+      "english_sha256": "0fecbd2bf0902d8a213d5c9779b81177dc56bbd452b3bca00dee3f2bdc9f54fd",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93604",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93604",
+        "phase_line": 188,
+        "phase_end_line": 196,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<สีหน้าของควิลบอร์สดใสขึ้นทันทีที่เห็นขวดซึ่งเต็มไปด้วยเลือด อารมณ์ของเขารุนแรงจนหมวกเกราะที่วางหมิ่นๆอยู่เหนือหน้าผากเคลื่อนจากที่>\n\nเลือดของ Agamaggan! เจ้าได้มาแล้ว!\n...Kog'thug นึกว่าเจ้าจะตาย ไม่คิดว่าจะกลับมา ทอเรนตัวโตทำให้ Kog'thug อยู่ในสถานการณ์ยุ่งยาก\n\n<Kog'thug ลังเลก่อนจะพูดต่อ>",
+      "meaning_review": "FixedKogthug/Agamaggan,bloodvials/helmetdisplacednotinventedfallenoffground,expecteddeathvsreturn,literalBigTaurenONLYfullbodyguard,no UnitRace/condition binding.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "literal_identity_mentions_preserved": [
+        "Tauren"
+      ],
+      "expected_dynamic_signature": "382:1980531307:829117720",
+      "thai_sha256": "6272fa8314e0623ece51a1271843f7b7d9dcafb59c51edf1a9a752d3dcbe703e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93604,
+      "field": "progress",
+      "title": "Agamaggan's Blood",
+      "level": 45,
+      "english_sha256": "a471dbb36e92302e7aa582b722183b686a884c5ffd81d7ded8ec2335c43d6cb3",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93604",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93604",
+        "phase_line": 184,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ากลับมาแล้ว? เจ้าเอาเลือดมา หรือจะให้ Kog'thug เอาเลือดจากเจ้า!",
+      "meaning_review": "FixedthirdpersonKogthug,bloodbringorthreatdrawfromreader,noplayernamebindingor actualinjuryasserted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "57:1312359446:1632319461",
+      "thai_sha256": "a38afc00b7546fa4019f15e7de6b6dc5375c65d12e56298493dc463ff963046e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96771,
+      "field": "progress",
+      "title": "Vengeance of the Highborne",
+      "level": 45,
+      "english_sha256": "3455f5e14427be7f4fb3b7f0fbc2a6727ba2c4584a526bb2afdf93542dcc023e",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96771",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96771",
+        "phase_line": 179,
+        "phase_end_line": 184,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "Zalfan เคยเป็นสหายที่ดีมาก แต่เขาปล่อยให้ตัวเองหลงคำสัญญาเรื่องอำนาจที่ Twilight's Hammer เสนอให้ สำหรับข้า นี่เป็นเรื่องที่ไม่อาจให้อภัย\nโลกจะไม่อาลัยเขาหรอก",
+      "meaning_review": "FixedZalfanformerfriend/allowedpowerseduction/TwilightHammer,NPCunforgivingfutureworldnotmisshim,no claimedprior death/playerrole.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "203:346045508:414796590",
+      "thai_sha256": "0edbe33ff9069b75edf1c397b19ff167e589d265591f389a0b45403ea0ec0eda",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97536,
+      "field": "progress",
+      "title": "Gnomish Garbage",
+      "level": 45,
+      "english_sha256": "740db6dd2b37843a12368acd2bab028addc8b0e7e24b0782faed3efd0b90626a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97536",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97536",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าติดป้ายที่เขียนว่าอันตรายและมีพิษไว้แล้ว... พอเจ้าหาบ้านใหม่ให้พวกมันในทะเลทรายแล้ว คนก็จะรู้ว่าต้องปล่อยพวกมันไว้เฉยๆ",
+      "meaning_review": "Fictionalhazardoustoxiclabelsanddesertnewhomeeuphemism,not namedchemical/how-tostep/count added.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "143:2042582751:1338783028",
+      "thai_sha256": "636938035fd4aecd3a83c95210891c396fba59cf1e62ecc603149648d44d7325",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 98096,
+      "field": "completion",
+      "title": "Sisters In Duty",
+      "level": 47,
+      "english_sha256": "5293af7bbef614f78e3bacf91a8554c53627a54172a4a341b4e55bbd1eb9dc8b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/98096",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/98096",
+        "phase_line": 182,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "Sentinel Keldara เป็นหนึ่งในคนเก่งที่สุดของเรา ข้าขอให้พี่น้องสาวของนางสบายดี\n\nนางถูกส่งไปเฝ้าดูความเคลื่อนไหวของซาเทอร์ที่ Haldarr Encampment ทางตะวันออกเฉียงเหนือ ดูเหมือนเจ้าจะเอาตัวรอดได้ ข้าจะขอบคุณมากหากเจ้าช่วยนางทำภารกิจ\n\nเราสูญเสียคนในหน่วยไปมากกว่านี้ไม่ได้แล้ว",
+      "meaning_review": "FixedKeldara/Haldarrnortheast,sisterasพี่น้องสาว no guessedelder/younger;subsequentShe keptนาง notresolvingambiguousantecedent;monitor/suggestaid,nokillcount.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "285:1285764364:751178954",
+      "thai_sha256": "c28d17b782a5453263ff0fe7ac66ccb7cead6c79d895498162c360cd3b3f9727",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 88807,
+      "field": "progress",
+      "title": "Slay the Spitelash",
+      "level": 48,
+      "english_sha256": "8a5cf5705902475a636ceaf9289c00b33968288dfc34112d1ce6171971805b42",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88807",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88807",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ยังมีอีกมากที่ต้องทำในการต่อสู้กับ Spitelash แต่คนช่วยกลับมีน้อย",
+      "meaning_review": "FixedSpitelash,muchtodo/fewhands meansfewhelpers—not literalhandsinventory.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "84:1296622766:1454481493",
+      "thai_sha256": "edf682de2185ed19d869b8534a9836c42c4ee7bfdc8167b05e9c3d5ae9f79762",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 89228,
+      "field": "completion",
+      "title": "Winter Frontier Fishery",
+      "level": 48,
+      "english_sha256": "0fae49afd0197dd387a992254d35cd596b78986f6c1e3570570d8a3ee0a47c2d",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/89228",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/89228",
+        "phase_line": 188,
+        "phase_end_line": 191,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เยี่ยมเลย เอาพวกนี้ไปปรุงต้องออกมาดีแน่!",
+      "meaning_review": "Cookingapproval/futureoutcome,nobuffor quantityinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "33:1385579967:1994320890",
+      "thai_sha256": "019a118d8700ceddffb863e352943b3fc55395b1db8e0fcb65866b406d67843c",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 89228,
+      "field": "progress",
+      "title": "Winter Frontier Fishery",
+      "level": 48,
+      "english_sha256": "3040cdf6bf8fc12bb4e107487bba34d0475096475e441121167d4f1ec36bf9fb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/89228",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/89228",
+        "phase_line": 185,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ได้ปลาหมึกนั่นมาหรือยัง? พอพูดถึงมัน ข้าก็เริ่มหิวขึ้นมานิดหน่อย",
+      "meaning_review": "Squidquestion,NPCpeckishnotstarving/nocookedmealalreadygiven.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "76:754939859:1565756854",
+      "thai_sha256": "df75fcfdc53233b20918942f8d3c43afb92f6324001ac35aa747eb64fc4a95a5",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91608,
+      "field": "progress",
+      "title": "Gettin' Buzzed",
+      "level": 48,
+      "english_sha256": "cb474f181e4cfca626120b0ecce647eae0f2247501ea7b3aa7bcac894f118474",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91608",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91608",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ถ้าพวกตัวต่อรุมเจ้า อย่าวิ่งกลับมาที่นี่ Ag'tor เอาข้าตายแน่!",
+      "meaning_review": "Conditionalwaspsswarm/no return,Agthorwouldhavemyhideidiomnot literalrequiredskinning or attackAgthorobjective.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "72:770134397:2011051086",
+      "thai_sha256": "4e8c4fee5d967afe97481b2e0c9ccfdf5b27d9ebcea7808b9345e4264bb515de",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93404,
+      "field": "completion",
+      "title": "Rot and Regret",
+      "level": 49,
+      "english_sha256": "c4562eba2cb1b27aff7936f85fe29a24ac535ceb12c31e5bb1ca7f149eabf6c9",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93404",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93404",
+        "phase_line": 188,
+        "phase_end_line": 196,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<เปลวไฟที่เคยเผาผลาญร่างวิญญาณของทรีแอนต์จางลงแล้ว แต่สายตาของเขายังว่างเปล่า เขานิ่งอยู่หลายอึดใจ ก่อนจะรับรู้ถึงการมาของเจ้า>\n\nความทรมานของข้าสิ้นสุดแล้ว ความสงบกำลังเข้ามาหาข้า\n\nไม่มีเวลาอำลา ไม่มีเวลารอคนที่ลืมข้าไปแล้ว\nนักเดินทาง ข้ามีสิ่งสุดท้ายจะบอก ความหวังสุดท้ายสำหรับภารกิจของเจ้า",
+      "meaning_review": "Treantghostflamesfaded/hollowgaze/delayedrecognition,tormentendedpeaceapproaches,notimefarewells/forgottenpeoplewait,lasthopeforthisquest—notNPCalreadygoneor namedperson inferred.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "365:1392084965:1135564890",
+      "thai_sha256": "a50f95a0fadbba286f58c24d605eda3da9184898ed4c411ce2c94f8822f5de4e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93404,
+      "field": "progress",
+      "title": "Rot and Regret",
+      "level": 49,
+      "english_sha256": "9dbff76120e78cf62ee512b44d2b552b3a4d647685ed640f09ea54901b800ce5",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93404",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93404",
+        "phase_line": 185,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Woodwyrd ยืนแทบไม่เคลื่อนไหว เขามองผ่านเจ้าไป เช่นเดียวกับที่เจ้าอาจเคยมองผ่านภูตผีแห่ง Shen'dralas>",
+      "meaning_review": "FixedWoodwyrdandShendralas,nearlystill/staresthroughyoucomparisonwithpossiblepast—not affirmedpastplayerquestcompletion.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "130:1707246071:166975105",
+      "thai_sha256": "34479606768cbdc7239da0ac08dd9786ccef22881a4d41460705b05f0f124aa8",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 88884,
+      "field": "progress",
+      "title": "Highborne Tablets",
+      "level": 52,
+      "english_sha256": "1abcae2ac921facf2f56adfa27490bdf88f5de95423e2284fdaa5f531f775c05",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88884",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88884",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "รายละเอียดปลีกย่อยของงานเขียนชาว Highborne อาจเกินความเข้าใจของเจ้า แต่ข้าแปลให้ได้เมื่อเจ้านำแผ่นจารึกมาให้",
+      "meaning_review": "Highbornewritingnuancesmaybelostonyouidiom,translationaftertabletsdelivered—notmissingdocumentsor playerClassbinding.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "127:1037487896:1876417104",
+      "thai_sha256": "114e5595d39ab2ae9d9238869e570819525ece7bcb6ae8eb5d3e7635876b9e6d",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 90813,
+      "field": "completion",
+      "title": "Pay Dirt!",
+      "level": 53,
+      "english_sha256": "f825ebfe819d5afd1fda405a90559c24830314df1cecfb8e4f0ea985c86a4bf9",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90813",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/90813",
+        "phase_line": 181,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "โอ้โฮ เจ้าได้ของดีเข้าแล้ว! มีแต่นักสำรวจแร่ที่แข็งแกร่งที่สุดเท่านั้นที่จะหวังขุดแร่จากตัวยักษ์ได้!\nสิ่งที่เจ้าถือคือก้อน Azsharite ดิบ บริสุทธิ์กว่าที่พวกยักษ์มักจะ... ขับถ่ายออกมา หาได้ยาก และมีค่ามาก!\n\nข้ายอมจ่ายอย่างงามเพื่อมัน หากเจ้ายินดีแลกเปลี่ยน",
+      "meaning_review": "Miningoffgiant/rarevaluableRAWfixedAzsharite,purerthanexcretionjokepreserved,bloodyintensifiernotinventedbloodcoveredgiant,prettypennyidiomnot exactpayment.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "330:1513086030:1360429259",
+      "thai_sha256": "c6930cbb6fbb8917815bc679d8bf9fc9b1678c0a973119fd6a4fe8bd5bd796e5",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 90813,
+      "field": "progress",
+      "title": "Pay Dirt!",
+      "level": 53,
+      "english_sha256": "411d20e2a091aa10af7be493bcd401ffaf2ca24750515813e4889ed3b09ccdc6",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90813",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/90813",
+        "phase_line": 177,
+        "phase_end_line": 181,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "มีอะไรจะให้ข้าดูหรือ?",
+      "meaning_review": "Questionshowingsomething,nogemidentifiedprematurely.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "25:386954833:796535030",
+      "thai_sha256": "ad584468084365692edd1310d3c759853c7e6c784bbeda8244d4b2a260500c98",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91497,
+      "field": "completion",
+      "title": "Seals of the Sin'dorei",
+      "level": 53,
+      "english_sha256": "469eddfa7fa04067d602f7b758ba0cb7ee6d78937ba736d268e0b350c7c16745",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91497",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91497",
+        "phase_line": 187,
+        "phase_end_line": 190,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<เมื่อศึกษาตราผนึกแต่ละดวง เจ้าเห็นว่ามันตรงกับตราในตำราจริงๆ เมื่อรู้สึกถึงพลังของผลึกที่สั่นสะท้อนตอบสนองต่อตราเหล่านั้น ความคิดบ้าบิ่นก็แล่นเข้ามาในหัวเจ้า>",
+      "meaning_review": "Narrativeeachsealmatchestome,crystalpowerrespondstopresence,seemrecklessideano actualspellstepsor unlockeddoorguess.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "182:1582021771:659353977",
+      "thai_sha256": "2c997963969818a7bfc47c71f007bbda72ef6a4b0d0e4ad47efb77767386edb5",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91497,
+      "field": "progress",
+      "title": "Seals of the Sin'dorei",
+      "level": 53,
+      "english_sha256": "5ffcdbb4eb939b04051ecc3b5f2eb32a2bc61c6b8aaf1ee5ba0dfa8b77f5bbe3",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91497",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91497",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<ตำราเปิดอยู่ตรงหน้าเจ้า มีรายละเอียดคาถาของ Rimtori>",
+      "meaning_review": "FixedRimtoriopentomespelldetails,no inventedadditionalpages/castinginstructions.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "59:563182302:701538808",
+      "thai_sha256": "c5eba581ff8188ccfd53b534cd5b345fd470641b485841f4249a62b0b7f583d2",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91569,
+      "field": "completion",
+      "title": "Blue Gold",
+      "level": 53,
+      "english_sha256": "d836eb719e71c63b2839ba386f5615f97bc98c88fb947b79fc005ad9f47ce6f1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91569",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91569",
+        "phase_line": 184,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เยี่ยมมาก! พอถึงเวลานี้สัปดาห์หน้า ข้าจะรวยทองจนล้นมือแล้ว\n\nเอาล่ะ แผนก็คือ...",
+      "meaning_review": "NPCfuturebythistimenextweekboast/rollgoldidiom,unfinishedplanellipsis—notliteralgamewaittimer/rewardamount.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "83:1624189733:1963461192",
+      "thai_sha256": "da5b5f2a401d3efad8d17f00f8355bd06fff7bf2fd908b23c0af46f2afaddb22",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95194,
+      "field": "completion",
+      "title": "Our Man in Theramore",
+      "level": 53,
+      "english_sha256": "46fe13c45959ecbfe836886ca761e2590277d70630fa19fb77c40d171f2e0000",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95194",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95194",
+        "phase_line": 184,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "Shaw ส่งเจ้ามาสินะ? ดี ข้ายังสงสัยอยู่เลยว่า Renzik ได้รับข้อความของข้าหรือไม่ มาสิ ที่นี่คุยกันไม่ปลอดภัย",
+      "meaning_review": "FixedShaw/Renzikmessageuncertaintyandunsafehere,noassumedmessagearrivalor teleportinstruction.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "114:1154078921:2021739107",
+      "thai_sha256": "8e2b3792ec11b44e076cb7e99d92c6881b5b2f5348da9b760dc9dd626c2ffbf8",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95198,
+      "field": "progress",
+      "title": "The Return of the King?",
+      "level": 53,
+      "english_sha256": "8a0a68ff967e4a1664cfa8d9290ea8a360e814423a507ce69ffff70623a76c53",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95198",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95198",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ว่าไง?",
+      "reused_from": {
+        "quest_id": 97617,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Well? openNPCquestion,casualว่าไง?,nocompletionasserted.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "5:1151914372:80614369",
+      "thai_sha256": "26d76a9e6682f9184a98077c0cb55fb797a633b4730ed4ce3d0bb6ae9f440637",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95262,
+      "field": "completion",
+      "title": "The Secret Prison",
+      "level": 53,
+      "english_sha256": "57aabe6773736644746a4c109918b8a25fc883e262b4cb370fdcc5292dbef75d",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95262",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95262",
+        "phase_line": 179,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<พระราชาสวรรคตแล้ว เจ้าค่อยๆตระหนักถึงผลที่จะตามมามากขึ้นเรื่อยๆ ขณะพยายามทำความเข้าใจข่าวนี้\n\nดูเหมือนยังมีพลังที่ยิ่งใหญ่กว่ามังกรที่ด้อยอำนาจกว่าซึ่งเจ้าเพิ่งสังหารคอยชักใยอยู่\n\nถึงเวลาไปแจ้งสิ่งที่เจ้ารู้ให้ Sully ทราบแล้ว>",
+      "meaning_review": "KingdeadNOTinventedkingname,newsimplicationssink in,strongerforcebehindlesserdragonslain,informfixedSully,emotenarrativeretained.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "272:1987371313:1315377420",
+      "thai_sha256": "5f0131fa01897d02a7c49bf9fce2526cb9274c90aa4102dcd5f365a8e03a08dc",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95283,
+      "field": "completion",
+      "title": "The Missing Kor'kron",
+      "level": 53,
+      "english_sha256": "cf719ada3907c6a9d600c0d5f162580ee1b27f2d2443f8d461861f767789f342",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95283",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95283",
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "Eitrigg ส่งเจ้ามาหรือ? หมาป่าแก่นั่นต้องการอะไร?",
+      "meaning_review": "FixedEitriggoldwolfepithet,no literalNPCraceconversion/currentplayerrole.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "47:1244326616:206295256",
+      "thai_sha256": "449b9b864e4a9b35a6cea35dfbeb871216395c521e7b800d7bab1132fd2303e6",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95285,
+      "field": "completion",
+      "title": "Right Place, Wrong Time",
+      "level": 53,
+      "english_sha256": "379f9cc46558193854c4db3b2e2ec6400ebbea2ae22ce015275ac4b19808b7d1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95285",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95285",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "รายละเอียดภารกิจที่เหลือจะบอกเฉพาะผู้ที่จำเป็นต้องรู้ และเจ้าจำเป็นต้องรู้แค่นี้ ดังนั้น พร้อมทำหน้าที่ต่อจอมทัพของเจ้าหรือยัง?",
+      "meaning_review": "Need-to-knowbureaucraticrepetition,questiondutytoyourwarchief,nounconditionalplayerfactioncheckor newmissiondetails.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "134:636993564:994229756",
+      "thai_sha256": "005e42617816ad5de23c85096950fb0705a563d86018a729b4c181182a607da3",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95285,
+      "field": "progress",
+      "title": "Right Place, Wrong Time",
+      "level": 53,
+      "english_sha256": "d444b38f5f7cc1f9fb8071d03f9c2657955e2b28108ad508391fbe93beb8d04f",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95285",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95285",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "มีคำถามไหมทหารใหม่?",
+      "meaning_review": "Questionrecruitaddress,not actualplayerRankmetadata.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "23:1454545945:970873987",
+      "thai_sha256": "1f796196ae6f7f0b850c125dbff3e53fcffac4f78dafa6ddf00614791b0cf292",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95309,
+      "field": "completion",
+      "title": "No Orc Left Behind",
+      "level": 53,
+      "english_sha256": "f6290bbbf1e322d194e609e37fabfabb54316a45318f0b7e31bd1b78729d820a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95309",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95309",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ถ้าอย่างนั้น Ulka รอดมาได้แล้วส่งเจ้าเข้ามาตามข้าสินะ? เจ้าพบนางอยู่ท่ามกลางศพมากมายหรือ? Ulka สร้างชื่อให้ Kor'kron และข้าจะดูแลให้นางได้เลื่อนยศในสนามรบเมื่อเราเสร็จธุระที่นี่\n\nแต่เรายังไปไม่ได้ ภารกิจของเรายังไม่เสร็จ",
+      "meaning_review": "FixedfemaleUlkaalive/questionsurroundedcorpsesnotassertingshekilledthem,Korkroncreditandfuturefieldpromotionunspecifiedrank,missionNOTcompleted/cannotleaveyet.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "252:1137695317:1836939107",
+      "thai_sha256": "2f9cdbe3f43e4dbc13dcb9f39c3a7d15b14b9aad066558d2285577cc5906f950",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95309,
+      "field": "progress",
+      "title": "No Orc Left Behind",
+      "level": 53,
+      "english_sha256": "3d1cb9ea6ee18b8db473c4afd1aec7ed380a5152cd1b65219bca6aeabbaf4c54",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95309",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95309",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "อะ... อะไรนะ? Ulka ยังมีชีวิตอยู่หรือ?",
+      "meaning_review": "StammeringsurprisequestionUlkaalive,notactualdeath.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "25:1612441610:883444161",
+      "thai_sha256": "216f616b6503954507f7ff1805057f43ab09267ed7cd11711dea038b0da26e0e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95454,
+      "field": "completion",
+      "title": "The Honor of the Kor'kron",
+      "level": 53,
+      "english_sha256": "f5a03fbcb569b9dff64330b36068feb91f4c6ec670000f4226d30c8837b718e6",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95454",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95454",
+        "phase_line": 176,
+        "phase_end_line": 179,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<ดูเหมือนยังมีพลังที่ยิ่งใหญ่กว่ามังกรที่ด้อยอำนาจกว่าซึ่งเจ้าเพิ่งสังหารคอยชักใยอยู่ ถึงเวลาไปแจ้งสิ่งที่เจ้ารู้ให้ Commander Folkar ทราบแล้ว>",
+      "meaning_review": "Narrativegreaterforcebehindlesserdragonslain,informspecificCommanderFolkarNOTSully/guessedkingname.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "165:1643474509:1667077191",
+      "thai_sha256": "5efa2cff1b53e4482c68c03b2ee6685b2c65b29cb854775031e426a59e9d5511",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 95454,
+      "field": "progress",
+      "title": "The Honor of the Kor'kron",
+      "level": 53,
+      "english_sha256": "fc2d3f63e8ee11edcd1d7c232b960eba86b612858d8d8329ddd1f579220378fc",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95454",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95454",
+        "phase_line": 172,
+        "phase_end_line": 176,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<แม้กลิ่นน้ำหอมจากกระดาษโน้ตจะหอมหวาน แต่ก็มีความผิดแปลกที่เหมือนถูกปรุงแต่งอยู่ด้วย มันไม่ชวนให้รู้สึกดี>",
+      "meaning_review": "Perfumednotewithartificialwrongnessunpleasant,not identifiedpoisonor inventedspellmechanic.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "127:804655152:352470488",
+      "thai_sha256": "845ff04dd57fbc8ed6e183b9a2d59b7ecac3d4c5f657807b1ed3456823f69725",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96332,
+      "field": "progress",
+      "title": "A Little Payback",
+      "level": 53,
+      "english_sha256": "c0397103ffa71812ef82b13497fb5ffebf2af580e77ee81bce0c6a692b87b6d8",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96332",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96332",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เลือดและอสนีบาต!",
+      "meaning_review": "FixedfictionalwarcryBloodandThunder,nobloodquantity/injuryor weatherclaim.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "18:1544470965:59821606",
+      "thai_sha256": "14655a933e27c32fcf67dd1454afb7cf0f8ecb9db5ff66b0bcc86be97d0e3d3c",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96334,
+      "field": "completion",
+      "title": "Blood Red Bandanas",
+      "level": 53,
+      "english_sha256": "03e95aee185dd4e75abf460bd68a31fade32201998bb3665cb0463e0e6bf0d1d",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96334",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96334",
+        "phase_line": 187,
+        "phase_end_line": 192,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ขอบคุณที่นำผ้าโพกเหล่านี้มาให้ข้า ข้าไม่สงสัยเลยว่ามันเป็นหน้ากากของ Defias Brotherhood เราเคยสงสัยว่าพวกมันเป็นผู้ดำเนินการคุกบน Alcaz และนี่ก็ยืนยันแล้ว\n\nข้าจะแจ้ง Thrall เรื่องนี้",
+      "meaning_review": "BandanasidentifiedDefiasmasks,confirmsprisonoperatorsAlcaz,NPCwillinformThrall—notanotherisland/quantityor mistakenfaction.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "241:1745569194:1600537363",
+      "thai_sha256": "1de15e6828ba9ebbeef16511e98374fe7940a5a889fe337a0ee9449223c848ca",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96335,
+      "field": "completion",
+      "title": "The Man in the Iron Chains",
+      "level": 53,
+      "english_sha256": "5a8e543336b6e682b2184dd667509056232bf7968a2ee56ad1a15e45c0995d04",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96335",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96335",
+        "phase_line": 176,
+        "phase_end_line": 181,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "พอถอดตรวนออกแล้วรู้สึกดีจริงๆ ข้าจำไม่ได้ด้วยซ้ำว่าถูกล่ามมานานเท่าไร ตอนนี้ข้าแค่ต้องการโรงเตี๊ยม อาบน้ำ โกนหนวด... และความรู้สึกยามสวมสูท\n\nอาจตัดผมด้วย รู้สึกโทรมนิดหน่อย",
+      "meaning_review": "Shacklesremoved/unknownduration,wantsinnshower shave suitmaybehaircut,nottheseactionsalreadydone or fixedNPCidentityguessed.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "198:1202723733:984065387",
+      "thai_sha256": "41c1147823170975244abfb86f2c7615932652a1b5faac35733b687e9fc2746c",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96335,
+      "field": "progress",
+      "title": "The Man in the Iron Chains",
+      "level": 53,
+      "english_sha256": "a35dd06d16305c952ad402413abedc88454e8f20810e8c716552c4f2ca412bbc",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96335",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96335",
+        "phase_line": 173,
+        "phase_end_line": 176,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เราเลิกคุยไร้สาระแล้วมุ่งช่วยข้าออกจากที่นี่กันดีไหม!",
+      "meaning_review": "Impatientfocusescape—notquestobjectiveprecompleted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "73:1999373792:1833852683",
+      "thai_sha256": "a006545200edc906018bc1e463b123d0eded87839a1aaf8116a62461da021061",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96337,
+      "field": "completion",
+      "title": "More Valuable Than Gold",
+      "level": 53,
+      "english_sha256": "3bcb11a7ce03c7fa9edee338ca9cc6557a37f749fed1f65a80f62ad6c64f43a1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96337",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96337",
+        "phase_line": 184,
+        "phase_end_line": 190,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<เจ้าพบหีบที่เต็มไปด้วยเอกสาร แผนที่ และวัสดุอื่นๆ เห็นตราของ Stormwind, Gilneas, Lordaeron และตราอื่นๆที่ดูเป็นทางการแต่เจ้าไม่คุ้นเคย\nเนื้อหาส่วนใหญ่ในเอกสารเหล่านี้ไม่ค่อยมีความหมายสำหรับเจ้า เจ้าเห็นแผนที่สถานที่ชื่อ Kalidar ภาพวาดพร่าเลือนของสิ่งที่ดูเหมือนยักษ์เพศหญิง และรายงานสำรวจที่ถูกเผาไปบางส่วน ติดป้ายว่า 'A. Crater; Kalimdor'\n\nเจ้าไม่ค่อยเข้าใจมัน แต่ของพวกนี้อาจมีค่ากับใครสักคนก็ได้?>",
+      "meaning_review": "FixedStormwind/Gilneas/Lordaeron/KalidarNOTKalimdorcorrection,apparentlyfemaleogrepaintingqualified,unexpandedliteralA.Crater;Kalimdorreportlabel;documentslargelynotunderstood/possiblevalue,not affirmingidentity/value.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "502:1839948737:509694051",
+      "thai_sha256": "4ed11f3e33c3f00bf6ed9bea8c2ade8a0394912b936063d217e0d8cc68b4ad72",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96337,
+      "field": "progress",
+      "title": "More Valuable Than Gold",
+      "level": 53,
+      "english_sha256": "3c2b391f5502a0033f26ea51d325c35db9d81ac5729efba8632115f3cdc5c89d",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96337",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96337",
+        "phase_line": 181,
+        "phase_end_line": 184,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<เจ้าพบหีบสีทองใบเล็กฝังอยู่ในหลุมตื้นบนพื้นดิน ไม่ว่าข้างในจะมีอะไร ก็ไม่ใช่ของชิ้นใหญ่>",
+      "meaning_review": "Smallgoldchestshallowburial/contentssmallnotknown,not inventedgoldamountor exactterrain.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "110:1419615134:248750835",
+      "thai_sha256": "9e2e2f12582ef75c085fbc7c337142ddebdebf528614575979dd6859551ff3ce",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96369,
+      "field": "completion",
+      "title": "Bad News for Folkar",
+      "level": 53,
+      "english_sha256": "80cf62f54f39b8db2b8c6087c21b452c412e66e4ffb9a2ab85ba55ee5f1a9d3c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96369",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96369",
+        "phase_line": 167,
+        "phase_end_line": 173,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ถ้าอย่างนั้น Wrynn ก็ตายแล้วสินะ...\nข้าจะไว้ทุกข์ให้นักรบที่ตายที่นี่ แต่ความตายของพวกเขาไม่สูญเปล่า เรารู้มากกว่าแต่ก่อน และความรู้เช่นนี้มีค่า Stormwind... ไม่สิ แม้แต่ Alliance เองก็ไม่เคยเปราะบางเท่านี้มาก่อน และการรู้เรื่องนี้ก็ทรงพลัง\n\nขอบคุณที่รับใช้ Horde ในส่วนตัวข้า ข้ายังติดค้างชีวิตเจ้าด้วย เป็นหนี้ที่ข้าจะไม่ลืมง่ายๆ ข้าจะหาทางออกจากที่นี่ และไปดูแล Sergeant Ulka ด้วยตัวเอง",
+      "meaning_review": "OnlysurnameWrynnnotinventedVarian/Llane,warriormourningnotinvain,knowledgeAlliancemorevulnerableNPCperspective,owedlife/futureownexitandUlka—not rescuealreadyexecuted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "462:1652003147:1994611501",
+      "thai_sha256": "10c7a723ec09d24221ae27dbb1413be2dc1773763516c089d52a60cfdc46ac0a",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96377,
+      "field": "completion",
+      "title": "State Secrets",
+      "level": 53,
+      "english_sha256": "138fc4f017df85e42c4d0a0487d4d06d0ad6cb2c081ab4359a9675253bb1c186",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96377",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96377",
+        "phase_line": 175,
+        "phase_end_line": 181,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Renzik เบิกตากว้างเมื่อเจ้าให้เขาดูกล่องเอกสารที่กู้มาจาก Westfall>\n\nเจ้าว่าได้ของพวกนี้มาจากไหนนะ? พบใต้กระดานพื้นในอาคารสักแห่งหรือ? ได้เลยสหาย... ตามที่เจ้าว่า\nเอ้า รับนี่เป็นรางวัลสำหรับ เอ่อ การรับใช้ของเจ้า... และจะได้ปิดปากเรื่องเอกสารเหล่านี้ รวมถึงสิ่งใดที่เจ้าอ่านหากแอบเปิดดู",
+      "meaning_review": "FixedRenzik/Westfall,questionsunderfloorboardorigin/sarcasticsure,briberyrewardandconditionalifyoupeeked—notassertingplayerreador actualamount.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "367:1259381735:915727728",
+      "thai_sha256": "be94d172bdeb2228e0f2a73452e452a10fc195abe9592168b18d937aa6d7e3a5",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96377,
+      "field": "progress",
+      "title": "State Secrets",
+      "level": 53,
+      "english_sha256": "3c2c48fff083218e2b037bb67829c7c5cfac481c1e96c349da182201a2df46ab",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96377",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96377",
+        "phase_line": 171,
+        "phase_end_line": 175,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<เจ้าคิดขึ้นได้ว่าก็อบลินมือขวาของ Shaw อาจสนใจเอกสารที่เจ้าได้มาจาก Westfall ลองถามเขาดูว่าอ่านเอกสารเหล่านี้แล้วพอเข้าใจอะไรบ้างไหม>",
+      "reused_from": {
+        "quest_id": 96377,
+        "field": "description"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "ExactfullnormalizedownIDdescription reusedforprogress;Shawsrighthandgoblin/Westfalldocuments/askunderstanding,noplayerrole.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "178:1663834445:886672754",
+      "thai_sha256": "765debd9fd6a1fc082b27022141136e06d610a81df727284f3d11c4950769810",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96379,
+      "field": "completion",
+      "title": "State Secrets",
+      "level": 53,
+      "english_sha256": "8d2f3ec6d148587c834e6518d9443165ca8e276a41eff3f991372b6380ef4109",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96379",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96379",
+        "phase_line": 174,
+        "phase_end_line": 180,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Rix เริ่มน้ำลายสออย่างเห็นได้ชัด ขณะมองของในกล่องเอกสารที่เจ้ากู้มาจาก Westfall>\nคอหอยของ Gallywix เอ๋ย สหาย นี่อาจเป็นขุมทรัพย์มหาศาล... เอ่อ ข้าหมายถึง อืม นี่ก็แค่ขยะชัดๆ เจ้าอาจต้องจ่ายให้ข้าช่วยกำจัดขยะพวกนี้ด้วยซ้ำ\n\nเอาอย่างนี้สหาย รับนี่ตอบแทนความพยายาม แล้วข้าจะจัดการของพวกนี้ให้ อย่าพยายามต่อราคาข้าด้วยล่ะ จริงๆข้าแค่ช่วยรับขยะไร้ประโยชน์ไปจากมือเจ้าเท่านั้น",
+      "meaning_review": "RixsalivatesfixedWestfalldocuments,Gallywixgulletcurse,motherlode→trashselfcorrection/possiblypaydisposal,nomethod/priceinvented,pretendedfavorhagglingrefusal.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "496:1806719149:1562478652",
+      "thai_sha256": "24f16284fc28f6eda92a5e7de085bb5c7450ccb689d0cf1f8c3e0781537f7e05",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96379,
+      "field": "progress",
+      "title": "State Secrets",
+      "level": 53,
+      "english_sha256": "f56f4ed46b391dcdaa5aca6427b61d0f3bd022ee8bc396d7948349554198eb04",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96379",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96379",
+        "phase_line": 170,
+        "phase_end_line": 174,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<เจ้าคิดได้ว่ากอบลินที่ทำธุรกิจตามเอาทรัพย์สินคืนอาจอยากเห็นเอกสารที่เจ้าได้มาจาก Westfall ลองถามเขาว่าพอจะเข้าใจเอกสารพวกนี้บ้างไหม ที่สำคัญกว่านั้นคือเขายอมจ่ายเท่าไรถึงจะได้มันไป>",
+      "reused_from": {
+        "quest_id": 96379,
+        "field": "description"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "ExactfullnormalizedownIDdescription reusedforprogress;assetrecoverygoblin/Westfalldocuments/interestedandwillingpayquestion,no actualprice.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "265:291930116:418846620",
+      "thai_sha256": "150d894dd37b7aae0a97806e205d2420d2cfdcbac34f7ddc9b6ae883bbe91d81",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 96772,
+      "field": "progress",
+      "title": "The Dragon's Journal",
+      "level": 53,
+      "english_sha256": "20f04c8d2bbe5be7f9550bad5a966819423f5d0849f609080f03251159629066",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96772",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96772",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้านำบันทึกกลับมาได้หรือยัง?",
+      "meaning_review": "Journalrecoveryquestion,not confirmedreceiptor additionalpagesinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "28:1276839837:1251014496",
+      "thai_sha256": "5ea40b5eda8d59dc43b26fc963923b8e6a0998faaaf25cf2e2121974efc58212",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 86577,
+      "field": "completion",
+      "title": "A Sampling of Putrescence",
+      "level": 55,
+      "english_sha256": "3e4450e8aac8186f940e3f47be905591d5af65c18b51226bf047fddd27f12304",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86577",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86577",
+        "phase_line": 185,
+        "phase_end_line": 191,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "อา ตัวอย่างพวกนี้... เหนียวเยิ้มทีเดียว\n\nเห็นไหมว่าพวกมันเต็มไปด้วยเนื้องอกและตุ่มหนอง? สัตว์เหล่านี้ทุกข์ทรมานอย่างแสนสาหัส ไม่ต้องสงสัยเลยว่านั่นทำให้พวกมันก้าวร้าว\nแต่ข้าไม่รู้วิธีรักษา ข้าสงสัยว่าวิธีแก้อยู่ที่ Hyjal ส่วนเราเพียงรับผลพวงจากมัน",
+      "meaning_review": "Fictionalcorruptionsamplesgooeytumorspustulespain/aggression,doesNOTknowcure,suspectHyjalsolutionandaftereffectsnotprovenrealworlddiagnosis.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "279:151619508:1420131525",
+      "thai_sha256": "ffd7e6a4e05d3f3a5899e24fd073a5b5018cf1850fa3226984fd62f32f2f9807",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 86577,
+      "field": "progress",
+      "title": "A Sampling of Putrescence",
+      "level": 55,
+      "english_sha256": "1fd8c46bb314f9cb0143a18771cc89c62eac9d32f4f00acea5ea2301074c344c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86577",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86577",
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เราต้องค้นหาต้นตอของความแปดเปื้อนที่กำลังเปลี่ยน Felwood ให้เป็นป่าร้างอันเต็มไปด้วยปีศาจ!",
+      "meaning_review": "InvestigatecorruptionturningfixedFelwooddemonwilderness,notalreadycleansed/killcount.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "100:1721296095:806952714",
+      "thai_sha256": "73728b705e62caf36f730a14866d4a03c51aae1ef697d5d0672ed71a4e387e62",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 86611,
+      "field": "completion",
+      "title": "Stag Lord's Bauble",
+      "level": 55,
+      "english_sha256": "409c3f8363ec083c0b9acd553f1b925fa8898793847a70331f2100f01a13a2ad",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86611",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86611",
+        "phase_line": 185,
+        "phase_end_line": 191,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าจำผลึกนี้ได้! รูปปั้นของ Malorne เคยประดับศาลของเขา แต่พวกปีศาจคงโยนมันลงจากไหล่เขาระหว่างสงคราม\n\nน่าเสียดาย ผลึกดูดซับพลังเฟลเข้าไป และตอนนี้ก็มีพลังอัปมงคลอยู่ส่วนหนึ่ง ข้าเกรงว่าต้องทำลายมัน\n\nขอบคุณที่นำสิ่งนี้มาให้ข้า",
+      "meaning_review": "Recognizescrystal,Malornestatueformershrinedecoration,demonsthrewitNPCinference,felabsorptionunwholesomepower/mustdestroyfuture—notalreadydestroyed or inventedfragmentrelation.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "326:642772467:1262649708",
+      "thai_sha256": "d0eb0ffba5435f9724dbe220117e13cfa7a7da8e75967524cb9f95928fff9ca9",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 86611,
+      "field": "progress",
+      "title": "Stag Lord's Bauble",
+      "level": 55,
+      "english_sha256": "0805df22c95391005c8c84458db9fa219d9da8b3e7ec775313e6b7a274fb7a8a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86611",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86611",
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "นั่นอะไร?",
+      "reused_from": {
+        "quest_id": 86612,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Whatisthat? same genericquestion as86612,notidentifyingnamedobject.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "13:597341597:1707287510",
+      "thai_sha256": "5d4d56c1d22aeeacad50fe1279dadea56e94fa08da274e6c86a79349e9854bda",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 88812,
+      "field": "completion",
+      "title": "Reclaiming Ravencrest",
+      "level": 55,
+      "english_sha256": "e7b708028f533c2cdc8581dfe8eea4f5a3e212d8b718812c98f4c1df86df8c9f",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88812",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88812",
+        "phase_line": 186,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ทำได้ดีมาก เมื่อพลังของหินพลังถูกลบล้าง เวทมนตร์ของ Spitelash ก็น่าจะอ่อนลงมาก",
+      "meaning_review": "Powerstonesnullifiednotnecessarilyphysicallydestroyed,SpitelashmagicSHOULDlesspotentnotconfirmeddebuffamount.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "97:860789267:1153534936",
+      "thai_sha256": "ff745e4bc696d545e5cc8722944497d13cacc971a204463c16580b327473f35e",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 88812,
+      "field": "progress",
+      "title": "Reclaiming Ravencrest",
+      "level": 55,
+      "english_sha256": "72203785ede70899684cd33e06f6ce357165a22cc5c24cac5574dd5ea1137126",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88812",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88812",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้ายอมรับว่าภารกิจของเจ้าที่อนุสาวรีย์ Ravencrest เป็นเรื่องยุทธวิธีพอๆกับการอนุรักษ์ การสูญเสียความทรงจำของตระกูล Kaldorei อันสูงศักดิ์เช่นนี้ คงเป็นโศกนาฏกรรม",
+      "meaning_review": "FixedRavencrestmonument,strategicANDconservationmotive,nobleKaldoreihousemeansfamily—notinventedplayerancestry.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "175:523853493:448948096",
+      "thai_sha256": "45f1aa9983372d4c9cb0d016ef59114181d0c76ac502f1d8c4925d686304b9ca",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 88813,
+      "field": "progress",
+      "title": "The Head of the Serpent",
+      "level": 55,
+      "english_sha256": "b3a0b0d9dffb2566d9f62acda7afeb7064cd45233e5f72eec7993d9f158057e1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88813",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88813",
+        "phase_line": 179,
+        "phase_end_line": 182,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ตอนนี้ไม่มีอะไรจะพูดมากไปกว่าให้รีบไปเถอะนักรบ ภารกิจของเจ้าสำคัญยิ่ง โชคดี",
+      "meaning_review": "Hastecriticalmission/literalwarrioraddress ONLYfullbodyguard,no UnitClassbinding.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "literal_identity_mentions_preserved": [
+        "warrior"
+      ],
+      "expected_dynamic_signature": "109:495401099:1582838030",
+      "thai_sha256": "59e2e776aa208fc7a902752eeb60b3c9b83635bd5837be02d3ed884a3da4b1f6",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 90750,
+      "field": "completion",
+      "title": "More Work?",
+      "level": 55,
+      "english_sha256": "a1597b858a70a2e07d4e3266dfeef579d2a46ee6b8d805fb68c03419875d577e",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90750",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/90750",
+        "phase_line": 187,
+        "phase_end_line": 192,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Daythor หัวเราะเบาๆพร้อมส่ายศีรษะช้าๆ>\n\nดูเหมือนแม้แต่เจ้าก็ไม่อาจขัดขวางสหายของเราตรงนี้จากการทำตามจุดประสงค์ของตน น่าเสียดายจริง... แต่อย่างน้อยสหายเราก็ดูมีความสุข",
+      "meaning_review": "FixedDaythor,singular/plural-genderneutralfriendtheir notguessedNPCname/sex,preventionfailsbutseemshappy,norealquestcompletionflag.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "192:1646609816:1668927856",
+      "thai_sha256": "c819d44fc76082e06bafcd49964bae589945baa0998dbba4df904d34120f2a23",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 90750,
+      "field": "progress",
+      "title": "More Work?",
+      "level": 55,
+      "english_sha256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90750",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/90750",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ว่าอย่างไร?",
+      "reused_from": {
+        "quest_id": 219,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Yes? asopenNPCgreetingว่าอย่างไร?,same sourceas219.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "4:1517439344:201828488",
+      "thai_sha256": "cea41958ab7f3c78523a04aaabecf7d8ade318a4bf0fd7449c1d403409f87ff3",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91538,
+      "field": "completion",
+      "title": "Sin'dorei Tome of Summoning",
+      "level": 55,
+      "english_sha256": "76167ab8838b78f9b267decb37b8c093628f3a78d8def63dd99dbd1d083a2cf6",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91538",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91538",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เอาล่ะ บางทีความพยายามหยุมหยิมของ Belgrom เพื่อความมั่งคั่งและการแก้แค้นอาจไม่ได้สูญเปล่าไปทั้งหมด...",
+      "meaning_review": "FixedBelgrom,pettyriches/revengepursuitperhapsnotallfornaught,uncertaintyretained.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "92:1727110282:672110444",
+      "thai_sha256": "4dbd22647e2529d51053c31d6eade446aa65ecabecaa034c49e9d22ea34a48d2",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91547,
+      "field": "completion",
+      "title": "Sin'dorei Tome of Summoning",
+      "level": 55,
+      "english_sha256": "0e42ba6096b699daf6970ab2fa7a71687a3e3c3dee644896faf3d81f699d4153",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91547",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91547",
+        "phase_line": 188,
+        "phase_end_line": 192,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Zevrost เบิกตากว้างเมื่อเห็นตำรา เขารีบมองไปรอบๆ>\n\nมีใครอื่นรู้ไหมว่าเจ้ามีสิ่งนี้?",
+      "meaning_review": "FixedZevrost waryemote,asksothersknowpossession—notadvisingactualusersecrecyor claimingreadbook.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "108:685329426:1868143451",
+      "thai_sha256": "40457b0d5f0084883de911bb0ab9cc8b20be3ee7d4d541b859a7460bc98ca9fa",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91547,
+      "field": "progress",
+      "title": "Sin'dorei Tome of Summoning",
+      "level": 55,
+      "english_sha256": "3365b775ed8d3a01f627cec7ae93574648d71cac234810082855281af607993b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91547",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91547",
+        "phase_line": 184,
+        "phase_end_line": 188,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "Jediga ส่งเจ้ามาหรือ? นี่คงน่าสนใจแน่",
+      "meaning_review": "FixedJedigasentquestion,oughtbegoodNPCanticipation/sarcasmwithout inventedfacts.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "39:1005796717:989275246",
+      "thai_sha256": "570ea859085ee9b05aac5eb23143111d57e78f309e1f8e0079e15e574f50402a",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 91952,
+      "field": "completion",
+      "title": "The Source of the Corruption",
+      "level": 55,
+      "english_sha256": "63869d24f77975ffc4b0bc19a79f9b15e9b53890a82e4f248e89238850626cf6",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91952",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91952",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "Greta พูดถูก การทำลาย Archimonde ตอนจบสงคราม ทำให้เถ้าปนเปื้อนเฟลโปรยไปทั่วภูเขา แม้ข้าจะพยายามฟื้นฟูภูมิประเทศอยู่ แต่ก็คืบหน้าช้า ธรรมชาติจะกลับมาครอบครองพื้นที่อีกครั้งในที่สุด แต่กระบวนการนี้อาจกินเวลาหลายปี\n\nถึงอย่างนั้น ก็ดีที่รู้ว่ายังมีผู้คนอื่นที่ใส่ใจ",
+      "meaning_review": "FixedGreta/Archimondewarendfelash,ongoingslowrestoration,natureeventuallyreturnsMAYmanyyears,thanksconcern,no inventedtimeline/killer.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "344:1479257063:1540343884",
+      "thai_sha256": "52fcbfc77493e68e2e0e0afc2a2b402a5530360aabeb1200d25482b0159e5eb2",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92020,
+      "field": "completion",
+      "title": "Hol'anyee's Big Book of Big Lizards",
+      "level": 55,
+      "english_sha256": "7c6eca0954cf0d0849476f1bb1534d32c7f6e7b157c58b01f866ef94bbece129",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92020",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92020",
+        "phase_line": 186,
+        "phase_end_line": 193,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "หนังสือภาพร่างกับบันทึกเกี่ยวกับ... กิ้งก่ายักษ์ใน Un'Goro Crater หรือ?\n\nเอาตรงๆ ข้าไม่รู้ว่าตอนนี้จะมีใครมีเวลาอ่านไหม แต่ผู้เขียนช่างสังเกต โดยเฉพาะภาพร่างที่ทั้งมีประโยชน์และให้ข้อมูลได้ดี\n\nขอบคุณที่นำมาส่ง ข้าจะดูแลให้มันถูกเพิ่มเข้าไปในห้องสมุดความรู้เรื่องโลกธรรมชาติของเหล่าดรูอิด",
+      "meaning_review": "FixedUnGoroCratergiantlizardbook,uncertainanytimereadnow,authorgoodeye/usefulsketches,futurelibrarycatalognotnewbookpagesinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "337:1413286847:2050895397",
+      "thai_sha256": "477a24735e7124a3d44299bf112a9bc5def6d1ca1e4faa008b94974e8782a8f7",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92020,
+      "field": "progress",
+      "title": "Hol'anyee's Big Book of Big Lizards",
+      "level": 55,
+      "english_sha256": "a60a5db104382e16bb9508e2372dd3689196065fc9bae109f4c55d1ee02b071a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92020",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92020",
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "หนังสือนี่อะไร?",
+      "meaning_review": "Questionbookidentity,noguessedtitle/author.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "17:1972634882:1176836437",
+      "thai_sha256": "e09811c0fa491de98659302de02590c284c6a0d8533aaef1d5a448341571ab6d",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92066,
+      "field": "completion",
+      "title": "The Twin Bears",
+      "level": 55,
+      "english_sha256": "1c33558d6c84deeb4175fab19dc03fc8b3041a42379e118dacd1103f2d35affb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92066",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92066",
+        "phase_line": 186,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "สรรเสริญเหล่าวิญญาณ! โทเท็มยังไม่แตกหัก แม้พวก Blackmaw จะสูญเสียไปมาก แต่เรื่องราวของเราจะคงอยู่ ขอบคุณนะทอเรน",
+      "meaning_review": "TotemsUNBROKEN/despitelossstorieslive,literaltaurenONLYfullguard,no UnitRacebindingor clanextinctionclaim.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "literal_identity_mentions_preserved": [
+        "tauren"
+      ],
+      "expected_dynamic_signature": "127:85349498:81649986",
+      "thai_sha256": "79d657542c507cbb09fdcb902929eff54e7542d76df4764c54942e979b4f7041",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92066,
+      "field": "progress",
+      "title": "The Twin Bears",
+      "level": 55,
+      "english_sha256": "0f348f25a95fdcdd2ea6eefc46349db20cee2f7a3a67767f7ce3dd01e19bad94",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92066",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92066",
+        "phase_line": 183,
+        "phase_end_line": 186,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าเข้าใจว่าทำไมเราต้องทิ้งโทเท็มไว้ ข้าแค่หวังว่าพวกซาเทอร์จะยังไม่ทำให้พวกมันเสียโฉม",
+      "meaning_review": "Understandslefttotems,hopesnotdefacedNOTalreadydestroyed/corruptedconfirmed.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "88:1510341637:778673906",
+      "thai_sha256": "58869036fadf88879bbd72520b55ee15f9161c0df5b1be278c85777502120987",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92070,
+      "field": "progress",
+      "title": "A Lost Memento",
+      "level": 55,
+      "english_sha256": "ffff4460a645baf284bb71df1343fcce4eda30c776b8e8f2d277e24a28df8c28",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92070",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92070",
+        "phase_line": 178,
+        "phase_end_line": 181,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้ารู้ไหมว่าลูกน้อยของข้าอยู่ไหน? ได้โปรด บอกอะไรข้าสักอย่าง! อะไรก็ได้!",
+      "meaning_review": "Distressedparentaskswherecub,no name/species or parentidentityguess.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "65:2146896604:529651575",
+      "thai_sha256": "eb4511ddbbb1646cdc518e34a5f708e294e284309c04e211f1341663fc4a9c70",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92343,
+      "field": "progress",
+      "title": "Get to the Roots of It",
+      "level": 55,
+      "english_sha256": "8f12f1ce423382baf3c52e3dccff7ae3ce417bdf82feb8e9702ad41635f23b09",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92343",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92343",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ปกติข้าไม่ใช่คนที่จะฉวยประโยชน์จากสถานการณ์เช่นนี้ แต่เราปล่อยโอกาสนี้ให้ผ่านไปไม่ได้",
+      "meaning_review": "UsuallynotopportunistBUTcannotmissopportunity,NPCselfpresentationnotnewplayerchoicecondition.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "109:1762412313:831963342",
+      "thai_sha256": "c01c63228e989de0759d3d48ee0bd45d821580c01351626e8b3f84a6d8ef61e7",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92344,
+      "field": "progress",
+      "title": "Get to the Roots of It",
+      "level": 55,
+      "english_sha256": "40a95b041c327570443519eee60af1f362bd5b0dd80faafe520da0d803a7f168",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92344",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92344",
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าเห็นใจพวกเฟอร์โบลก์ และอยากให้การค้นพบของเจ้าเกิดขึ้นภายใต้สถานการณ์ที่ดีกว่านี้ แต่พูดตามตรง เราพลาดโอกาสดึงพลังของ Nordrassil มาใช้ไม่ได้",
+      "meaning_review": "Furbolgsympathy/unfortunatecircumstancesyetNordrassilpoweropportunity,notclaimingdestruction/drainingor fixedspellsteps.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "191:2109244262:943493261",
+      "thai_sha256": "980c1837ff09ef4ca149f6ef44e26cdecd940f58d8ab2a44c0ba6d7a9914d470",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92345,
+      "field": "completion",
+      "title": "Beneath Nordrassil",
+      "level": 55,
+      "english_sha256": "8cc2f9c5a8e08fcb9d83ed7b7f8c6bee4577acda6d1059a356e3290b5c16c043",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92345",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92345",
+        "phase_line": 184,
+        "phase_end_line": 187,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้าว่ามีอุโมงค์ใต้ Nordrassil หรือ? เจ้าทำให้ข้าสนใจจริงๆ",
+      "meaning_review": "FixedNordrassiltunnelquestion/attention,no newfoundentrylocationor coordinates.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "70:1833271011:1613883311",
+      "thai_sha256": "e7b7e3787aed17bd98729633350e10c6daf9518a688fc55caea2ebc4c5d7cb2f",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92346,
+      "field": "completion",
+      "title": "Beneath Nordrassil",
+      "level": 55,
+      "english_sha256": "29ed3de43280cc1a928dbe08437bdc42a90361cbc1ba86027f4a461c90a283c5",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92346",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92346",
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เจ้าพบอุโมงค์ใต้ต้นไม้โลกหรือ? เอาล่ะ ข้าฟังอยู่",
+      "meaning_review": "Worldtreeunnamedherekeptgeneric,no Nordrassilnameinferredand inserted.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "69:661765951:244730007",
+      "thai_sha256": "3f9e600844b82d36c3c6bcfa9f8f64d46903408b3f974816d53644976670ea28",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 92842,
+      "field": "completion",
+      "title": "A Cousin Abroad",
+      "level": 55,
+      "english_sha256": "4d90df259d3213dcb38ca49df804d51505cdb34ee8545c269c7b9fba949ab3cf",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92842",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92842",
+        "phase_line": 183,
+        "phase_end_line": 185,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "พอคิดย้อนดู การมาที่นี่น่าจะเป็นความคิดที่ไม่ดี",
+      "meaning_review": "Retrospectiveprobablybadidea—notcertainpredictionoralreadydeath.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "51:1086531304:308853728",
+      "thai_sha256": "6230956e130b61371a7d637aaf5adad8fa928aa96daa339b3c6ee7b00f7863df",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97197,
+      "field": "progress",
+      "title": "Fragment of the Firelands",
+      "level": 55,
+      "english_sha256": "cccd05babe19549b80423e48ddf27dd773165e7a9014d73732b43003a01d8cdb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97197",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97197",
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ความคิดเรื่องยักษ์สูงตระหง่านที่มีร่างเป็นหินหลอมเหลวล้วนๆ ทำให้ข้าทั้งตื่นเต้นและหวาดกลัว",
+      "meaning_review": "Concepttoweringgiantentirelymoltenrock/bothexcitementfear,no creator/size/quantityor elementalclassificationinvented.",
+      "meaning_review_passed": true,
+      "translation_kind": "new_reviewed_Thai",
+      "expected_dynamic_signature": "100:1051087708:1528432387",
+      "thai_sha256": "f53fc24af4bd8b49d6a175bb97640458ec52c1dcb70865af6682fb6748dbbabc",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 97319,
+      "field": "completion",
+      "title": "A Cousin Abroad",
+      "level": 55,
+      "english_sha256": "4d90df259d3213dcb38ca49df804d51505cdb34ee8545c269c7b9fba949ab3cf",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97319",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97319",
+        "phase_line": 185,
+        "phase_end_line": 189,
+        "contiguous_own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown,notindividualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "พอคิดย้อนดู การมาที่นี่น่าจะเป็นความคิดที่ไม่ดี",
+      "meaning_review": "Retrospectiveprobablybadidea—notcertainpredictionoralreadydeath. ExactsamefullEnglish/Thai reusedwithinthesamebatch;NOTcountedasasecondnewtranslation.",
+      "meaning_review_passed": true,
+      "translation_kind": "same_batch_reviewed_reuse",
+      "reused_within_batch_from": {
+        "quest_id": 92842,
+        "field": "completion"
+      },
+      "expected_dynamic_signature": "51:1086531304:308853728",
+      "thai_sha256": "6230956e130b61371a7d637aaf5adad8fa928aa96daa339b3c6ee7b00f7863df",
+      "runtime_action": "new field"
+    }
+  ],
+  "holds": [
+    {
+      "quest_id": 94820,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94820",
+      "english_sha256": "3a575a31a9a227c3b873179d78e35447dfc958c8794691e23969ecb89f0079bd",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96779,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96779",
+      "english_sha256": "e951ae5dbbf208aaeb174f81e37ba30fb18571f43007c836b4f6925f2e480c44",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92707,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92707",
+      "english_sha256": "831f432ef9ad16d59ecf71ddc881f308fcc40afd1577286c71ed8c294e46c96b",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 97265,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97265",
+      "english_sha256": "fd5abe2b2295319674e65541ef35506114a367fa2fe4bcc1ea7e59cb1c8c2244",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 98297,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/98297",
+      "english_sha256": "eb6b79392cff71d4cd53ec9db766763d569c6dc9a3cc4056efaa639ecbd688cc",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93450,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93450",
+      "english_sha256": "21e8aaca845b02aa031b665d1e92e7850cacf63f016e2e08f00028cec4c06c77",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92914,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92914",
+      "english_sha256": "24744ff0bea7888a9e6a0952b140441ae88af82c752f7b3d8d4c5c8db0e9eb51",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93122,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93122",
+      "english_sha256": "691e056900495fd84539fba9e91ae7a610f1b3dd4bb4d22c6c58277e7f7ee301",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 97386,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97386",
+      "english_sha256": "f34ccf19c4de822cd3c86d16a60a728f2b3b48d6f43744743deccd520527d367",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93609,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93609",
+      "english_sha256": "39f9b8c7f7b5eadd593de12cd654205539cf4a8f15e2561b5588b620b9af340a",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93609,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93609",
+      "english_sha256": "8168a4a20fb1814bdbf649eb9b180d1f392968f8a9e6e243bfaf99370ec55ac3",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93971,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93971",
+      "english_sha256": "8e1c8a52922180bac460a9846b295a14259c5dbd371e8412a153090735b843fa",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 91608,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91608",
+      "english_sha256": "aed6c36a2ddb78987a2b92866fc36d50294704de4de097200a3785cf6cc046de",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 88884,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88884",
+      "english_sha256": "94ecfc54dc47ed81c1e1870469b125e858ac4c6444241f741a2d1d3f4e714dd9",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 86746,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86746",
+      "english_sha256": "5467e8f4105c6daa9edea2204f0b511ea314212e70a0328b73b17c5fa06e3b7c",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 91569,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91569",
+      "english_sha256": "9c0030dbef523498042fd5d6539653b3d7d9fea938dd094205129682228d7b67",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95198,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95198",
+      "english_sha256": "1a4f62ba0a535eb846ff3f36e94f172407f6806d287ad705e44d8d565dcb7f49",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95263,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95263",
+      "english_sha256": "d1da7c09225610625eba22999aacc290eb13f0000b01bc3f4c6aade752908e60",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95264,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95264",
+      "english_sha256": "093e9fe3ec78f14babf2f86c708da3e0180482b6b47fa571893f30a2fecef803",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95483,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95483",
+      "english_sha256": "78600f4a68a477e31333d32ee7e433d2cabab44e4b2fb188b20ba71d02e619db",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96332,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96332",
+      "english_sha256": "0593ed9dcc31ffb11b9de84ac6c6ce12d407956c8595a8ee31351e66b911bbac",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96334,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96334",
+      "english_sha256": "fc824107f83a6c4dd800ae8ffecdc0e15a902a329d726bb16b5aaea33c973c30",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96772,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96772",
+      "english_sha256": "ef4be6b5281ca72b018747481e549da573f8e28260d8a0f85b530ba477a54ab0",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 88813,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88813",
+      "english_sha256": "b28a973fd3cc29db3135aabe7a2ca10dbf6b3e350707a89cf1a2f298b5c2d590",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 89470,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/89470",
+      "english_sha256": "fd40c28d0a8bb698188d2d8db9353106cff76703b5aa8bae6f8fc60395765de4",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 89470,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/89470",
+      "english_sha256": "f71a06f89841002b2f9c61a50d3c206a530cd0a6caed54f8ed26540724c74b6b",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 91538,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91538",
+      "english_sha256": "dd99c2730032cc48c7407259351f973c9299cac43a5ec464a9a566e3d1865452",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92070,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92070",
+      "english_sha256": "f0117a243aa88e67f40dc55ea5ad6807c896acd62e7f1fa68ea4bca72f46dbaf",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92343,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92343",
+      "english_sha256": "75921bd9db21a7dc80c933d669afe3d5520a88488ff9f668558e56a79b9d02c5",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92344,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92344",
+      "english_sha256": "8585480d1d403875f04f6643a48fee522170b64d645264f398107a3493b769d7",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 97197,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97197",
+      "english_sha256": "070495959f54fd38c17eddfb9849b10e2bd55821e542e0d6262271f7b264c883",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96616,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96616",
+      "english_sha256": "afc1fda4c2cd2aeadca8ec9628332e4e7cdabcbfbbc27828739ecb8d07ad6d9c",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96622,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96622",
+      "english_sha256": "57c3fbd931f33a9d14de8a4a6544cfbf76e904831c4943ce4d9f8616fc283928",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 90702,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90702",
+      "english_sha256": "972350d1717cf80a2bd7caccbd8499d81ec3c9afe5607bb8225f0b47b700a80b",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 90865,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90865",
+      "english_sha256": "51e5dc824b2bbd8a493fa88740afeebaf3cee1951743c20c143715aa7ecbe7f5",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92317,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92317",
+      "english_sha256": "f5ef7c08732f78c257330af7faa7088dea6397d31a2b7a675d54e9fdba7939ab",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96252,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96252",
+      "english_sha256": "c736ee3aa25ae814af6aa7a766e13fca488a8a9c12ebff5d74dd767a45b63178",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96296,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96296",
+      "english_sha256": "69886dd69d13e2f58ecda7d33534ddbfb2465301fe12fbc93eca09fc374541e2",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92169,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92169",
+      "english_sha256": "ff39b03ed31ec2542bdd4fbec8de3a8064621fa0c5aa354f6085c5aa0e05e933",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92335,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92335",
+      "english_sha256": "7241791f28dd15aed9aa4bc9377b624ef54d5ff5e2fe140248f9ebd6072fcce6",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 97173,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97173",
+      "english_sha256": "064ee4c3ce068329a908c1cee337c4c61dba4e69f89b6753683b34d93ca7c079",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 92016,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92016",
+      "english_sha256": "e1cfb431138a74804923bfcbff8db6ac4d9c64514f98e9cf4ae8bd8bbe527f86",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93127,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93127",
+      "english_sha256": "c236cc681d0fabcf28446002e583b7b6e5a6069b7973045de7d799d8d839bcd0",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 93422,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93422",
+      "english_sha256": "f7617464276f75edcbf44de0bc231f8c94d837b95ccdd402ebea3e7d3f155ab6",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 94289,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94289",
+      "english_sha256": "1b4ea37bfdc8b1ce8681317364a141e39330b0edbfdc32b3143656efa81c7eff",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95924,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95924",
+      "english_sha256": "a9bdfdc7493af54dfbbe6416790a543f4fa7ee4ef09b4a4b95da082c3f7bb663",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95926,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95926",
+      "english_sha256": "915bf28cc837a3186ced8ccdd70edb4fe62dd4d3f41d00df9ebcfb4f5eeadf24",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 95926,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95926",
+      "english_sha256": "4b3b6f19133b581dbf1b5857f21a4530100cbb3680ccf9c120dabdd3c29a8bb5",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 96303,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96303",
+      "english_sha256": "4556de2fa3c44e892d2be84413be092d38e3307aa48f098c00537ea9d8237807",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 97049,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97049",
+      "english_sha256": "f1ee22760e37ac4cf7fd09e774c6f16f678cfa61c0c380747ac23e808cb57bd6",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 97174,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97174",
+      "english_sha256": "6b5856db89da3e291675162859806b8c3debfc8007fa9ae3317f399d235b9be3",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 99193,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99193",
+      "english_sha256": "31e464f744c053d1643705a705e4855ab5c4307322f1f73952f32b33f7466b19",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 99197,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99197",
+      "english_sha256": "31e464f744c053d1643705a705e4855ab5c4307322f1f73952f32b33f7466b19",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    },
+    {
+      "quest_id": 99199,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99199",
+      "english_sha256": "bfff2d0ce8646e524dce3ca230706705da523fd776c67c37ce4e85b3d9a82919",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole inference"
+    }
+  ],
+  "exclusions": [
+    {
+      "quest_id": 92102,
+      "field": "progress",
+      "english_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "reason": "Literalellipsis alreadyidenticalEnglishfallback;NOTnewThai coverage,no runtime alias needed"
+    }
+  ],
+  "pending_higher_slots_to_preserve": [
+    {
+      "quest_id": 91754,
+      "field": "completion"
+    },
+    {
+      "quest_id": 91754,
+      "field": "progress"
+    },
+    {
+      "quest_id": 91755,
+      "field": "completion"
+    },
+    {
+      "quest_id": 91755,
+      "field": "progress"
+    },
+    {
+      "quest_id": 91770,
+      "field": "completion"
+    },
+    {
+      "quest_id": 91770,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92015,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92064,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92064,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92328,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92328,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92594,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92702,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92702,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92959,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92959,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93406,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93406,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93759,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93759,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95218,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95568,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95568,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95611,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95766,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96674,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96674,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96796,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96796,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96833,
+      "field": "completion"
+    },
+    {
+      "quest_id": 7790,
+      "field": "completion"
+    },
+    {
+      "quest_id": 91697,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92014,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92014,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92111,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93617,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93825,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93825,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93826,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93828,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93830,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93830,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93831,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93831,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93952,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94504,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94504,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94782,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95027,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95027,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95316,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95317,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95317,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95318,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95319,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95319,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95380,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95380,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96262,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96262,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96616,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96666,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96830,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96978,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96979,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96979,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97001,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97001,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97007,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97007,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97986,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97987,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97988,
+      "field": "completion"
+    },
+    {
+      "quest_id": 98109,
+      "field": "completion"
+    },
+    {
+      "quest_id": 90702,
+      "field": "progress"
+    },
+    {
+      "quest_id": 90865,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92011,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92011,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92069,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92069,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92100,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92101,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92101,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92102,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92171,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92317,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92449,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92500,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92500,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92612,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92612,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93030,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93269,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93269,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93510,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94832,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95378,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95378,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95379,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96145,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96209,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96252,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96255,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96321,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96321,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96322,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96435,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96435,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96550,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96930,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96931,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96999,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96999,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92169,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92335,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92591,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92591,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95248,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95793,
+      "field": "completion"
+    },
+    {
+      "quest_id": 95793,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96025,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96494,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96959,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96964,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96971,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96971,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96991,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96991,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97009,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97009,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97010,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97173,
+      "field": "progress"
+    },
+    {
+      "quest_id": 92329,
+      "field": "completion"
+    },
+    {
+      "quest_id": 92833,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93407,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93407,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93422,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93521,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93521,
+      "field": "progress"
+    },
+    {
+      "quest_id": 93547,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93584,
+      "field": "completion"
+    },
+    {
+      "quest_id": 93848,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94266,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94266,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94289,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94294,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94294,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94304,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94304,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94312,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94312,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94314,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94314,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94316,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94320,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94320,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94340,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94340,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94346,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94346,
+      "field": "progress"
+    },
+    {
+      "quest_id": 94347,
+      "field": "completion"
+    },
+    {
+      "quest_id": 94347,
+      "field": "progress"
+    },
+    {
+      "quest_id": 95925,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96003,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96076,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96076,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96246,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96302,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96303,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96561,
+      "field": "completion"
+    },
+    {
+      "quest_id": 96561,
+      "field": "progress"
+    },
+    {
+      "quest_id": 96983,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97006,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97006,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97049,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97327,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97327,
+      "field": "progress"
+    },
+    {
+      "quest_id": 97490,
+      "field": "completion"
+    },
+    {
+      "quest_id": 97490,
+      "field": "progress"
+    },
+    {
+      "quest_id": 98325,
+      "field": "completion"
+    },
+    {
+      "quest_id": 98325,
+      "field": "progress"
+    },
+    {
+      "quest_id": 98477,
+      "field": "completion"
+    },
+    {
+      "quest_id": 98477,
+      "field": "progress"
+    },
+    {
+      "quest_id": 99193,
+      "field": "progress"
+    },
+    {
+      "quest_id": 99199,
+      "field": "completion"
+    },
+    {
+      "quest_id": 99670,
+      "field": "completion"
+    }
+  ],
+  "new_unique_Thai_translations": 103,
+  "baseline_verbatim_reviewed_reuse_fields": 10,
+  "same_batch_reviewed_reuse_fields": 1,
+  "complete_quests_claimed": 0,
+  "source_scope": "MAIN431549alternatephase lookups;300languagefields in114lower+186higherbatches",
+  "master_private_fixture_sha256": "899142ff0f33541b6416ec30b124735d5489cd67a0c87c9b49a4619c4cc2e234",
+  "full_private_review_fixture_sha256": "afc8b11f7c5ec639d11064ee802e051ef47cb66095adda2a0b16c789554bdf00",
+  "source_checks": {
+    "batch": "MAIN43",
+    "status": "PASSED_SOURCE_CHECKS_NOT_PACKAGED",
+    "supported_new_fields_or_variants": 114,
+    "new_unique_Thai_translations": 103,
+    "baseline_verbatim_reviewed_reuse_fields": 10,
+    "same_batch_reviewed_reuse_fields": 1,
+    "quest_ids": 95,
+    "new_runtime_ids": 0,
+    "new_field_slots": 114,
+    "appended_variants": 0,
+    "positive_checks": 1140,
+    "negative_checks": 4120,
+    "wrong_phase_checks": 2270,
+    "preexisting_same_body_other_phase_acceptance_preserved": 10,
+    "all_old_target_canonical_alias_trees_preserved": true,
+    "new_held_phase_slots_preserved": 54,
+    "undelivered_higher_slots_preserved": 186,
+    "nonlinguistic_excluded_slots_preserved": 1,
+    "reuse_source_trees_preserved": 6,
+    "held_quests_preserved": [
+      91754,
+      95318,
+      95772,
+      97928,
+      8315,
+      84213,
+      9556
+    ],
+    "glyph_baseline": 15014,
+    "new_Thai_runs_needed": 341,
+    "complete_quests_claimed": 0,
+    "real_Windows_MacM2_acceptance": false,
+    "current_enabled_inventory_proven": false,
+    "overlay_sha256": "4dd6b649efad894500a1df6a200c2221f70fb6960e7a41166d653d3ed5391ba1",
+    "elapsed_wall_seconds": 0.8612702999998874,
+    "cpu_seconds": 0.8125
+  },
+  "warning": "114newcoveragefields=103uniqueNewThai+10baselineReuse+1samebatchReuse,NOT114uniqueNewTexts or95completequests. Higher186stillundelivered."
+}
