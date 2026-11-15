@@ -1,0 +1,2091 @@
+{
+  "batch": "MAIN42",
+  "status": "SOURCE94_READY_FOUR_MEANING_REVIEWED_NOT_PACKAGED",
+  "source_scope_fields": 585,
+  "source_ready_fields": 94,
+  "quest_ids": 72,
+  "meaning_reviewed_fields": 4,
+  "remaining_meaning_review": 90,
+  "fields": [
+    {
+      "quest_id": 97918,
+      "field": "progress",
+      "title": "Camping 101: Engineering",
+      "level": 6,
+      "english_sha256": "d8fdada3521fc485033f1b319f430b2c18dcbc6eaebd0f93ef8518392d42d019",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97918",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97918",
+        "QuestText_line": 54,
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าสอนได้เมื่อเจ้าเพิ่มทักษะวิชาชีพสักหน่อยแล้ว",
+      "reused_from": {
+        "quest_id": 97903,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactfullsource samephase reuse97903:teacher can teach after more profession skill,no level/amount guessed.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 97954,
+      "field": "progress",
+      "title": "Camping 101: Engineering",
+      "level": 6,
+      "english_sha256": "80f5ac92ed5f8c7f361779b1dd48daf99230fb135a0b6b2e651062fece240f07",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97954",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97954",
+        "QuestText_line": 54,
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "กลับมาคุยกับข้าอีกทีเมื่อเจ้าชำนาญวิชาชีพของเจ้าขึ้นอีกหน่อย",
+      "reused_from": {
+        "quest_id": 97925,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactfullsource samephase reuse97925:come talk again after increasedprofession skill,no minimumlevel/amount invented.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 95508,
+      "field": "progress",
+      "title": "Unwelcome Guests",
+      "level": 18,
+      "english_sha256": "d7ddfc91a29349d76c1f9629dbae085155a290aa9041a700381fc717d9970688",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95508",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95508",
+        "QuestText_line": 170,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Walton มีสีหน้าเคร่งขรึม>",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review": "FixedNPCWalton facialexpression stern,present tense,emote retained,no invented player or anger.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 96259,
+      "field": "progress",
+      "title": "Defending the Dead",
+      "level": 29,
+      "english_sha256": "d26f8f925a47405972d3704ff6c888b8af85eab5324024be3f9f9500a93d8d73",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96259",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96259",
+        "QuestText_line": 176,
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ดวงวิญญาณของบรรพชนเราต้องได้พักอย่างสงบอีกครั้ง",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review": "Ourancestor spirits need to rest peacefully again;no ritual/kill/count or invented completedaction.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 94929,
+      "field": "completion",
+      "title": "Deliver the Second Shipment",
+      "level": 38,
+      "english_sha256": "a3b27f7e313e327a3cb5ecada423da764ee358d9dd83ccf42545cf906da73ff9",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94929",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94929",
+        "QuestText_line": 174,
+        "phase_line": 187,
+        "phase_end_line": 193,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94929,
+      "field": "progress",
+      "title": "Deliver the Second Shipment",
+      "level": 38,
+      "english_sha256": "ff9cef25b55f2a2b52699c3fa55824ae4caa2e8c7b6a2c89fcb66f64e66ae663",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94929",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94929",
+        "QuestText_line": 174,
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92867,
+      "field": "progress",
+      "title": "Ground to Keep",
+      "level": 39,
+      "english_sha256": "46b8b710f645dc6231059b861c1f3fbbd2696ca2ac6e4b56fb4bd58d9d678e09",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92867",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92867",
+        "QuestText_line": 175,
+        "phase_line": 184,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 95064,
+      "field": "progress",
+      "title": "Preventative Measures",
+      "level": 39,
+      "english_sha256": "9597e690c4af8c6f30af022a3f44401d69699af3cc327b6483081b7d30fc5691",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95064",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95064",
+        "QuestText_line": 171,
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96989,
+      "field": "progress",
+      "title": "Your First Riding Raptor",
+      "level": 40,
+      "english_sha256": "f5609bf32cb93c87fb61459974ab146041131065f0673c2329ee64d9b98bbd2c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96989",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96989",
+        "QuestText_line": 172,
+        "phase_line": 181,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97018,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "55bb946c40f917cc03e5b3931117e87d82033303d5d34164f127dd26d63aef61",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97018",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97018",
+        "QuestText_line": 173,
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97203,
+      "field": "progress",
+      "title": "Learning to Ride",
+      "level": 40,
+      "english_sha256": "8c61aa363bad611fe8412d8165f3acaa9c2eef814ee63f57e97790b7aca8718f",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97203",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97203",
+        "QuestText_line": 173,
+        "phase_line": 182,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94670,
+      "field": "progress",
+      "title": "Bloodmaster's Ring",
+      "level": 41,
+      "english_sha256": "c6c2b202ffaa9ce0b84bb93184cc36b43496c6c2aee81bfa0e27dc3e8b0cfc89",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94670",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94670",
+        "QuestText_line": 172,
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92893,
+      "field": "progress",
+      "title": "No Mercy for the Weak",
+      "level": 42,
+      "english_sha256": "cebd7fbd1f6e05bf723f8e1d4018ce9134740594899a3eb2879b874420ebca4e",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92893",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92893",
+        "QuestText_line": 175,
+        "phase_line": 183,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97405,
+      "field": "completion",
+      "title": "Noise Complaints",
+      "level": 44,
+      "english_sha256": "30fa3413f428e10928e9e4ba31aca3c7b60aaa95b24adc239207dd4be0db9056",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97405",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97405",
+        "QuestText_line": 174,
+        "phase_line": 181,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93574,
+      "field": "completion",
+      "title": "Corpsefeeder's Carapace",
+      "level": 45,
+      "english_sha256": "a3c0260e5396adeff6529d70c427a911f88ef829ccce28dfbf6d2d7f480478ae",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93574",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93574",
+        "QuestText_line": 169,
+        "phase_line": 182,
+        "phase_end_line": 192,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93574,
+      "field": "progress",
+      "title": "Corpsefeeder's Carapace",
+      "level": 45,
+      "english_sha256": "c32530239003c8573782816ca39eafeb59ca7dce5d7b92d5f33b8900ec24b40d",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93574",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93574",
+        "QuestText_line": 169,
+        "phase_line": 178,
+        "phase_end_line": 182,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93606,
+      "field": "completion",
+      "title": "Not on Squealing Terms",
+      "level": 45,
+      "english_sha256": "76915e9e77beac9c7d6b6430871f0d5057be70949aa9611775edd4976c4dfd3c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93606",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93606",
+        "QuestText_line": 171,
+        "phase_line": 190,
+        "phase_end_line": 202,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93606,
+      "field": "progress",
+      "title": "Not on Squealing Terms",
+      "level": 45,
+      "english_sha256": "84451a7a44dcf9f230ad69986fff18b82f3440d6d085a0fa64f1a2420422a0d8",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93606",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93606",
+        "QuestText_line": 171,
+        "phase_line": 184,
+        "phase_end_line": 190,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91488,
+      "field": "completion",
+      "title": "Home on the Range",
+      "level": 48,
+      "english_sha256": "76e2a89d84bb58e7cfc95666054fa70d1aff2193719ef37d6331fb51f27fb984",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91488",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91488",
+        "QuestText_line": 172,
+        "phase_line": 185,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 80454,
+      "field": "completion",
+      "title": "One Last Drop",
+      "level": 50,
+      "english_sha256": "308ea377fb731bf56f04a0d187003b83d08f5354a9af280d458f3b38ca4cbf3c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/80454",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/80454",
+        "QuestText_line": 53,
+        "phase_line": 67,
+        "phase_end_line": 69,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 80454,
+      "field": "progress",
+      "title": "One Last Drop",
+      "level": 50,
+      "english_sha256": "6db215cc5cd1b988937f6d9cd735467731edc673b07c50c441cf6986218cb030",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/80454",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/80454",
+        "QuestText_line": 53,
+        "phase_line": 63,
+        "phase_end_line": 67,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 80455,
+      "field": "completion",
+      "title": "Biding Our Time",
+      "level": 50,
+      "english_sha256": "b376e39012edc2ac615ed8448d5951d96dfad6c7b87e1bbf0d25aa6dd8ef5bf4",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/80455",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/80455",
+        "QuestText_line": 52,
+        "phase_line": 58,
+        "phase_end_line": 66,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91568,
+      "field": "completion",
+      "title": "Long Walks on the Beach",
+      "level": 51,
+      "english_sha256": "907a513f5639e5d0168377bb4647614556bac6e5cea8972b751d73f09852eeae",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91568",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91568",
+        "QuestText_line": 171,
+        "phase_line": 186,
+        "phase_end_line": 190,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91568,
+      "field": "progress",
+      "title": "Long Walks on the Beach",
+      "level": 51,
+      "english_sha256": "e0fc387bf5bdecb2621270dd6c12b0e6105bfd515417dcd1e8c75de393fcafd2",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91568",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91568",
+        "QuestText_line": 171,
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96776,
+      "field": "progress",
+      "title": "An'she's Radiance",
+      "level": 51,
+      "english_sha256": "7349a68e470b85126a2b19a4f6fc99dba11f34b525395a0b99902e1af2763887",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96776",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96776",
+        "QuestText_line": 172,
+        "phase_line": 181,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 88809,
+      "field": "completion",
+      "title": "Preserving Eldarath",
+      "level": 52,
+      "english_sha256": "5fffc597d685ec1a05cd5a4ac34593c408beb8feb2559e3302bcc20e5c43cb05",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88809",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88809",
+        "QuestText_line": 171,
+        "phase_line": 184,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 88809,
+      "field": "progress",
+      "title": "Preserving Eldarath",
+      "level": 52,
+      "english_sha256": "eb75e7138a25620ed80bd12ea58c8efcc45e801be86f88876c5858204673f924",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/88809",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/88809",
+        "QuestText_line": 171,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91735,
+      "field": "completion",
+      "title": "Remote Contact",
+      "level": 52,
+      "english_sha256": "9caebace9277d8720f463fcf6cdd92b752c4f5daae4b14a54ad4c360f90aa028",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91735",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91735",
+        "QuestText_line": 174,
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91737,
+      "field": "completion",
+      "title": "Remote Contact",
+      "level": 52,
+      "english_sha256": "adc35f2afbde27eaa4d6169102b5e4952c34ea5c954a98f006fc8e6aa8692e22",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91737",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91737",
+        "QuestText_line": 174,
+        "phase_line": 182,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 86747,
+      "field": "completion",
+      "title": "Legashi Horns",
+      "level": 53,
+      "english_sha256": "8365f63cecc7d049dfe227a79dd095244da237848d6ecf4290d1840d39333f89",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86747",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86747",
+        "QuestText_line": 170,
+        "phase_line": 183,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 86799,
+      "field": "completion",
+      "title": "Encroaching Corruption",
+      "level": 53,
+      "english_sha256": "ee6e23844f3f9d0d0a3c6516dcf1c7037004bbca7a66857094322d84d2c3e595",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86799",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86799",
+        "QuestText_line": 170,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96376,
+      "field": "progress",
+      "title": "State Secrets",
+      "level": 53,
+      "english_sha256": "dac52456bd9cc4ac688a84f721415e84cf75f0815aaf63b2ed7f39923a97ada3",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96376",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96376",
+        "QuestText_line": 170,
+        "phase_line": 172,
+        "phase_end_line": 176,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91685,
+      "field": "completion",
+      "title": "Ley of the Land",
+      "level": 54,
+      "english_sha256": "4a880f34f7e19d362e729349bc2a347f7fb557648361866abe5d45cc0fa3e7c1",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91685",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91685",
+        "QuestText_line": 172,
+        "phase_line": 189,
+        "phase_end_line": 199,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 86612,
+      "field": "progress",
+      "title": "Stag Lord's Bauble",
+      "level": 55,
+      "english_sha256": "0805df22c95391005c8c84458db9fa219d9da8b3e7ec775313e6b7a274fb7a8a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86612",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/86612",
+        "QuestText_line": 172,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91531,
+      "field": "progress",
+      "title": "Revenge Exacted",
+      "level": 55,
+      "english_sha256": "a8b41c257cbae6858534f3a4d33710ac716cc3fec4c45ff299df99342d8d28d2",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91531",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91531",
+        "QuestText_line": 174,
+        "phase_line": 182,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 90487,
+      "field": "completion",
+      "title": "Ancient Allies",
+      "level": 56,
+      "english_sha256": "50dfd366846f201b0ef813df0214c960ce676a52e5aafaff31dde907c55f34c8",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90487",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/90487",
+        "QuestText_line": 170,
+        "phase_line": 178,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92008,
+      "field": "completion",
+      "title": "Premiere Parts",
+      "level": 56,
+      "english_sha256": "dd26d96fd08c10d768cc41f648601dd99caee44cc982337c845c0bbd06d72cfb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92008",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92008",
+        "QuestText_line": 173,
+        "phase_line": 182,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92009,
+      "field": "completion",
+      "title": "Crate Expectations",
+      "level": 56,
+      "english_sha256": "03326df2c0b3e6e9a890c17d7719d4a1e584658cb0f591c886ffa9a2a98a6edd",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92009",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92009",
+        "QuestText_line": 175,
+        "phase_line": 188,
+        "phase_end_line": 192,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92009,
+      "field": "progress",
+      "title": "Crate Expectations",
+      "level": 56,
+      "english_sha256": "7d92b5600829a83e32ae1ba4e330eb908b5c82306278dbcd5b5e7bd3fdf34e10",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92009",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92009",
+        "QuestText_line": 175,
+        "phase_line": 184,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93747,
+      "field": "completion",
+      "title": "Violence Into Verdure",
+      "level": 56,
+      "english_sha256": "848ec62ea4a571d802b35e7a2af50cf0ebab083c483029e13c023cd6fb9b0aeb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93747",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93747",
+        "QuestText_line": 172,
+        "phase_line": 180,
+        "phase_end_line": 182,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94479,
+      "field": "completion",
+      "title": "One Person's Trash",
+      "level": 56,
+      "english_sha256": "6d5f09aa6fce1e69004bc6636447d093edb2dccb87fc1843a3ff09978ba57682",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94479",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94479",
+        "QuestText_line": 171,
+        "phase_line": 183,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94479,
+      "field": "progress",
+      "title": "One Person's Trash",
+      "level": 56,
+      "english_sha256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94479",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94479",
+        "QuestText_line": 171,
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 95569,
+      "field": "completion",
+      "title": "Hope for Hatchlings",
+      "level": 56,
+      "english_sha256": "90a37019e69ae7cfab3e17a227c818018150a97533078d970384bafdbfacd3a8",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95569",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95569",
+        "QuestText_line": 171,
+        "phase_line": 182,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 95569,
+      "field": "progress",
+      "title": "Hope for Hatchlings",
+      "level": 56,
+      "english_sha256": "cb53006632854fdb7d023ace26af7ea638cf3fc019f91bf4a4235886ef301655",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95569",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95569",
+        "QuestText_line": 171,
+        "phase_line": 178,
+        "phase_end_line": 182,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91881,
+      "field": "completion",
+      "title": "The Western Post",
+      "level": 57,
+      "english_sha256": "dfd52d49ee713c08189d6cd28406b082c0cf31b319fc294b3a3c00835514223b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91881",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91881",
+        "QuestText_line": 172,
+        "phase_line": 184,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91923,
+      "field": "completion",
+      "title": "Celastrus the Bitter",
+      "level": 57,
+      "english_sha256": "cdb159f28ae60d5119403f765c95da12a222534238e7f3dd89a60c9c9773b179",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91923",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91923",
+        "QuestText_line": 172,
+        "phase_line": 185,
+        "phase_end_line": 190,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91923,
+      "field": "progress",
+      "title": "Celastrus the Bitter",
+      "level": 57,
+      "english_sha256": "d6cb944eb0dc7b67eb11ed61d7fddd301d9faab5a59c1508efcf18822ad5b9ef",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91923",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91923",
+        "QuestText_line": 172,
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93383,
+      "field": "completion",
+      "title": "Contents Under Pressure",
+      "level": 57,
+      "english_sha256": "3e09bc9ae669936f9b7c77d08076151bb0183aeb9ec63347a22612e25b4aa92a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93383",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93383",
+        "QuestText_line": 171,
+        "phase_line": 184,
+        "phase_end_line": 189,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93615,
+      "field": "completion",
+      "title": "Kits and Cats",
+      "level": 57,
+      "english_sha256": "3c9042a11773fc2112a3b93ef64f40bcab7b0f1850662fe124d1eee40e6f450b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93615",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93615",
+        "QuestText_line": 173,
+        "phase_line": 186,
+        "phase_end_line": 191,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93833,
+      "field": "completion",
+      "title": "Wicked Wisdom",
+      "level": 57,
+      "english_sha256": "66046c0ccde8400853c1d660c78390d5eeb995d122e0ba44c552cf2d7e8644a8",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93833",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93833",
+        "QuestText_line": 171,
+        "phase_line": 184,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93833,
+      "field": "progress",
+      "title": "Wicked Wisdom",
+      "level": 57,
+      "english_sha256": "2b52e13f6ca4d20bd4b4c06e018a1bda011d683e034c6d2e9b462ffa89cc9d99",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93833",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93833",
+        "QuestText_line": 171,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93834,
+      "field": "completion",
+      "title": "Burrow Beetles",
+      "level": 57,
+      "english_sha256": "561bf564dfd41af0ee77faae558c4b82e570a434393f6107f62d0d86f71f261f",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93834",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93834",
+        "QuestText_line": 171,
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93834,
+      "field": "progress",
+      "title": "Burrow Beetles",
+      "level": 57,
+      "english_sha256": "47efe141aaf950c270b0d3e96846744e13ade659a695d06b6c42806d3c56c4cb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93834",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93834",
+        "QuestText_line": 171,
+        "phase_line": 179,
+        "phase_end_line": 182,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 95320,
+      "field": "completion",
+      "title": "A Curious Question",
+      "level": 57,
+      "english_sha256": "c07c3e98455b19c12ffc93c9e2570d85b711ddf42f231cf9d2f3dda0d6610b2c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95320",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95320",
+        "QuestText_line": 170,
+        "phase_line": 181,
+        "phase_end_line": 193,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96559,
+      "field": "completion",
+      "title": "Supply Drop",
+      "level": 57,
+      "english_sha256": "c4416035db900beac14d49353a061863aea196a87c265c71806b4959026bade0",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96559",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96559",
+        "QuestText_line": 170,
+        "phase_line": 179,
+        "phase_end_line": 182,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96992,
+      "field": "progress",
+      "title": "Resupply",
+      "level": 57,
+      "english_sha256": "758226c7c7a02a2a4d584ff65c257d1c33074f7c9c0e5a771d4a52a941460891",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96992",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96992",
+        "QuestText_line": 171,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97000,
+      "field": "completion",
+      "title": "Grain of Memory",
+      "level": 57,
+      "english_sha256": "86142b0e2e92b6459ad854eb8de5c72819505a2d792010052ba574fd4d7b1bcb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97000",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97000",
+        "QuestText_line": 173,
+        "phase_line": 184,
+        "phase_end_line": 191,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91696,
+      "field": "completion",
+      "title": "Open Season",
+      "level": 58,
+      "english_sha256": "14ffa769f2db912a86f04bcb2829cfe076d96a149c67608e3cb1901233e3e7b6",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91696",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91696",
+        "QuestText_line": 169,
+        "phase_line": 177,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91698,
+      "field": "completion",
+      "title": "Barkskin Breakout",
+      "level": 58,
+      "english_sha256": "616276b9b425eb176512df22bfb3593532294e3304e448066ab109e24ed06056",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91698",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91698",
+        "QuestText_line": 171,
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91698,
+      "field": "progress",
+      "title": "Barkskin Breakout",
+      "level": 58,
+      "english_sha256": "c38c45d7048b4d959d87554b660b549635958e83df45e6e6c51bcf4a8ac54110",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91698",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91698",
+        "QuestText_line": 171,
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93197,
+      "field": "completion",
+      "title": "Mending Communications",
+      "level": 58,
+      "english_sha256": "3dfa087f280e0bf00ce361071d25a2534a75f67d732946ed4b882c22b47e256c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93197",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93197",
+        "QuestText_line": 174,
+        "phase_line": 185,
+        "phase_end_line": 190,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93197,
+      "field": "progress",
+      "title": "Mending Communications",
+      "level": 58,
+      "english_sha256": "dfb42118a800fea6ff4f59a8be0efc7d121fd9a66acfaf74d8afe0645fc93775",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93197",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93197",
+        "QuestText_line": 174,
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93567,
+      "field": "progress",
+      "title": "Ends Meet",
+      "level": 58,
+      "english_sha256": "8d3adabf38caae2b973e4d08683cc3067c615a194d5f26f6011de457e4499b44",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93567",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93567",
+        "QuestText_line": 171,
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93773,
+      "field": "completion",
+      "title": "The Pact",
+      "level": 58,
+      "english_sha256": "18cdb7331fd1ca6ac831e9daa254d721b96d36ad30cf5366cca0d41d6897ac22",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93773",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93773",
+        "QuestText_line": 172,
+        "phase_line": 181,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93827,
+      "field": "completion",
+      "title": "Windswept Wards",
+      "level": 58,
+      "english_sha256": "5096420f99f0f79ef6a7ec3bca61c3708cd75671df64380e6cb375e3e6f2d66b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93827",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93827",
+        "QuestText_line": 171,
+        "phase_line": 182,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 93827,
+      "field": "progress",
+      "title": "Windswept Wards",
+      "level": 58,
+      "english_sha256": "924460d2fdbd197d4bd5ab565b7faa9c7a2dccf09246522b17cc624cfee8db71",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93827",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93827",
+        "QuestText_line": 171,
+        "phase_line": 178,
+        "phase_end_line": 182,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 95006,
+      "field": "completion",
+      "title": "Stolen Power",
+      "level": 58,
+      "english_sha256": "1531d4560560fd85dc9c1d0123df10d878c2a1db16a6f98e58179f0687879c7e",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95006",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95006",
+        "QuestText_line": 171,
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96939,
+      "field": "completion",
+      "title": "The Balance of Life and Death",
+      "level": 58,
+      "english_sha256": "6e93a14846d78af3a4399cd7ff03ae3494c9cd523912885c9987f36170a5278c",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96939",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96939",
+        "QuestText_line": 170,
+        "phase_line": 181,
+        "phase_end_line": 191,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96957,
+      "field": "completion",
+      "title": "Bone Sweet Bone",
+      "level": 58,
+      "english_sha256": "d01b3bf67777661cd07b0f644abbc4c41b424094865fa6b00f8c6a3ec597bd31",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96957",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96957",
+        "QuestText_line": 171,
+        "phase_line": 189,
+        "phase_end_line": 197,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96957,
+      "field": "progress",
+      "title": "Bone Sweet Bone",
+      "level": 58,
+      "english_sha256": "e5d72bc98dcf28dee9fde3a4f10301cb9cb26549853c18a315930c53b1b47129",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96957",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96957",
+        "QuestText_line": 171,
+        "phase_line": 180,
+        "phase_end_line": 189,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96998,
+      "field": "completion",
+      "title": "Tribal Colors",
+      "level": 58,
+      "english_sha256": "c701cb2bb5b8fc7fa7e577cd9eb9a16771533a2554e8833ce6bb0d3fd370b1fb",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96998",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96998",
+        "QuestText_line": 171,
+        "phase_line": 185,
+        "phase_end_line": 189,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96998,
+      "field": "progress",
+      "title": "Tribal Colors",
+      "level": 58,
+      "english_sha256": "2ad0d4bcbd495370f895bb58b2e7b8663a6507ed98b88c6cb1d974d22cc79990",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96998",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96998",
+        "QuestText_line": 171,
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 98476,
+      "field": "completion",
+      "title": "More Unstable Magic",
+      "level": 58,
+      "english_sha256": "6002c24a233065363840abcb0d09590d572a93c8a572cdd5e1a4091d77dbc3a2",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/98476",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/98476",
+        "QuestText_line": 168,
+        "phase_line": 174,
+        "phase_end_line": 178,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 98476,
+      "field": "progress",
+      "title": "More Unstable Magic",
+      "level": 58,
+      "english_sha256": "7b26b8380989a9e48a7f2d1a465aec555ec8584ff922746008eacec45e92ad90",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/98476",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/98476",
+        "QuestText_line": 168,
+        "phase_line": 170,
+        "phase_end_line": 174,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 91688,
+      "field": "completion",
+      "title": "To the Summit of Eternity",
+      "level": 59,
+      "english_sha256": "d08adf28400c4dfa73f1c0699f02fdcb576fb999383e3133fdf6c453658b6d12",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91688",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/91688",
+        "QuestText_line": 170,
+        "phase_line": 183,
+        "phase_end_line": 191,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92593,
+      "field": "completion",
+      "title": "Avalanche of Corruption",
+      "level": 59,
+      "english_sha256": "5970dd449f1180bc14764271186f34072e3639ee6216d037b5ed0a4785a4bf30",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92593",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92593",
+        "QuestText_line": 170,
+        "phase_line": 184,
+        "phase_end_line": 188,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92593,
+      "field": "progress",
+      "title": "Avalanche of Corruption",
+      "level": 59,
+      "english_sha256": "833130f26a86ea5ac341a44153593a410327546de07dd1f8f088cb2c79542e58",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92593",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92593",
+        "QuestText_line": 170,
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 92446,
+      "field": "progress",
+      "title": "Head Scratcher",
+      "level": 60,
+      "english_sha256": "19642818fbc4c16be8f14626088899bda88603846a8070a6de50f0ef401918f7",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92446",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/92446",
+        "QuestText_line": 172,
+        "phase_line": 181,
+        "phase_end_line": 185,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94262,
+      "field": "completion",
+      "title": "Craftsman's Writ: Mana Potion",
+      "level": 60,
+      "english_sha256": "ba3b3a35baf48358f243c64574182b0db6e180507196ce300de21d50f0f6ee99",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94262",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94262",
+        "QuestText_line": 170,
+        "phase_line": 180,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94262,
+      "field": "progress",
+      "title": "Craftsman's Writ: Mana Potion",
+      "level": 60,
+      "english_sha256": "a352ce4ac611f11b4bbbec8b12d81ca8a2029d3be0eaf53b1776a11ccb612e00",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94262",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94262",
+        "QuestText_line": 170,
+        "phase_line": 176,
+        "phase_end_line": 180,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94285,
+      "field": "progress",
+      "title": "Craftsman's Writ: Unstable Trigger",
+      "level": 60,
+      "english_sha256": "b1c92a7797bcf3319287d105f457d88388efe605d14deb12d20034b770323c8f",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94285",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94285",
+        "QuestText_line": 169,
+        "phase_line": 175,
+        "phase_end_line": 179,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94313,
+      "field": "progress",
+      "title": "Craftsman's Writ: White Bandit Mask",
+      "level": 60,
+      "english_sha256": "15d84c2b1de9e83e8b5054b71e98b6005daa1e9f6b7abe66297c163ed891dc3b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94313",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94313",
+        "QuestText_line": 165,
+        "phase_line": 171,
+        "phase_end_line": 175,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94315,
+      "field": "completion",
+      "title": "Craftsman's Writ: Earthen Silk Belt",
+      "level": 60,
+      "english_sha256": "c8d22abc1d7aa02c86de009590f6aec591feaa4a168336f13dd4864fb5bab99f",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94315",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94315",
+        "QuestText_line": 169,
+        "phase_line": 179,
+        "phase_end_line": 183,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94315,
+      "field": "progress",
+      "title": "Craftsman's Writ: Earthen Silk Belt",
+      "level": 60,
+      "english_sha256": "e8fbbea9f19a0f7e2f36a522860f3312f7ea909edabc065f2c809dfcefa45478",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94315",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94315",
+        "QuestText_line": 169,
+        "phase_line": 175,
+        "phase_end_line": 179,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94326,
+      "field": "completion",
+      "title": "Craftsman's Writ: Radiant Belt",
+      "level": 60,
+      "english_sha256": "eb148c7fd4832d8c97f7b147f0af8bfa11a3a1c10e55aabf67b42e70fc8ea583",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94326",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94326",
+        "QuestText_line": 169,
+        "phase_line": 179,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 94326,
+      "field": "progress",
+      "title": "Craftsman's Writ: Radiant Belt",
+      "level": 60,
+      "english_sha256": "ab20d5b0058d3b1ea5bed54a2d2193bdd4026117d541bd63f002ceae90ce92d9",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94326",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/94326",
+        "QuestText_line": 169,
+        "phase_line": 175,
+        "phase_end_line": 179,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 95790,
+      "field": "progress",
+      "title": "Digestible Research",
+      "level": 60,
+      "english_sha256": "99e60b56ed47b0f382dab6a66f892a57fa1f5e2943566b858127f9f2867ded02",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95790",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95790",
+        "QuestText_line": 167,
+        "phase_line": 177,
+        "phase_end_line": 181,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96558,
+      "field": "completion",
+      "title": "Soldier's Solace",
+      "level": 60,
+      "english_sha256": "4f81605e6080050b82d6a95da84b0c33939905a7b092c0a4294454a877dd9872",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96558",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96558",
+        "QuestText_line": 172,
+        "phase_line": 181,
+        "phase_end_line": 186,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 96913,
+      "field": "progress",
+      "title": "Field of Honor: Week 2",
+      "level": 60,
+      "english_sha256": "ce8c240b8a8101cab498feeb90b590a39d210ff2ebae5e3074b23ae9ab4c7b7a",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96913",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96913",
+        "QuestText_line": 171,
+        "phase_line": 177,
+        "phase_end_line": 181,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97066,
+      "field": "progress",
+      "title": "Tip the Scales - Brownell's Blue Striped Racer",
+      "level": 60,
+      "english_sha256": "d43e89020a606de82f0e48a9cd972d76d4c8e9a6e8e821c70a4a12cd99f9d807",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97066",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97066",
+        "QuestText_line": 47,
+        "phase_line": 49,
+        "phase_end_line": 53,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97067,
+      "field": "progress",
+      "title": "Tip the Scales - Dezian Queenfish",
+      "level": 60,
+      "english_sha256": "ebc0b51df73c036f39afc5584285d77842fada03d571e586b474a49e7a0d9867",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97067",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97067",
+        "QuestText_line": 48,
+        "phase_line": 50,
+        "phase_end_line": 56,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 97178,
+      "field": "completion",
+      "title": "Ott of Tarren Mill",
+      "level": 60,
+      "english_sha256": "6a18990b66798ba9ad473471df0cdf9b44c8ad0cb9a80b9b826a6ef2087020e2",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97178",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97178",
+        "QuestText_line": 51,
+        "phase_line": 58,
+        "phase_end_line": 64,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 99194,
+      "field": "completion",
+      "title": "A Donation of Runecloth",
+      "level": 60,
+      "english_sha256": "aa75d6228d0f6e4adc830879a3f3fcf863ace80f93d3380096e932f639a0f313",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99194",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/99194",
+        "QuestText_line": 170,
+        "phase_line": 178,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": true,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    },
+    {
+      "quest_id": 99198,
+      "field": "progress",
+      "title": "A Donation of Mageweave",
+      "level": 60,
+      "english_sha256": "5e850d7e2003b88120b0f9dfe9e18ff53227aac7df77129fc25e8888d56456fd",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99198",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/99198",
+        "QuestText_line": 170,
+        "phase_line": 172,
+        "phase_end_line": 178,
+        "contiguous_own_ID_phase": true,
+        "own_ID_unique_image_phase_anchor": false,
+        "attribution": "Questtext BlizzardEntertainment;primaryphase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    }
+  ],
+  "holds": [
+    {
+      "quest_id": 94823,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94823",
+      "english_sha256": "bda90ad9d90ae19979ed325fc5acef2ac6eb4ce0df36685c4d7de93c9d7799a6",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 94678,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94678",
+      "english_sha256": "38450f2293031c7f00bfbbfd8b071360653729b40ca980a0e14d164ce52a2cb0",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 95603,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95603",
+      "english_sha256": "0e94d9570b6f5734e8b5d98702afdc05f7e42136bb617057f5a5e06fef75eb12",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 93125,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93125",
+      "english_sha256": "5fa6092f6f8e5655766a6d55c09d328f7882eaf27107160a6241bbb5ce202e90",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 91488,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91488",
+      "english_sha256": "578f20216b2121afbf65fb47f1f3a5a42724dc59c3b0346bb1c1b1ab558d52d1",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 96776,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96776",
+      "english_sha256": "04546723389da1ddc90e5d90c9bd0dea3058e26af6dcf6bbff51e4fb169ef0b0",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 86747,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86747",
+      "english_sha256": "f921277a868a8532c4d1fd973dc14a4bebf913b040cebcfbdad2023e7eae62c1",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 95196,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95196",
+      "english_sha256": "fc6fc1294080eb76878077b8761c68eed9099aa58dc67c5fb1f78c6861e17b6e",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 96376,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96376",
+      "english_sha256": "363e37208b1811bdb4b08217056dbbbe66f55a299b2da6de159cdcfc35ac6cbc",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 91685,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91685",
+      "english_sha256": "ddd860510f90bfa01f7f209cd4ea85d565d3233e94679716af8f777c3b0d2d75",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 86612,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/86612",
+      "english_sha256": "d3ab981fa6ec429c8a2a77db361638b62eb3368e48bc92f23e05b95d3caf515f",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 91500,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91500",
+      "english_sha256": "94191e2eeccd7a9d2a6d684ebfd675199a570fb9925f24641c68fc1c6f0d77a3",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 91500,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91500",
+      "english_sha256": "f2df32fb72ab64525c1d13799d36df95a57cd2a639a96872ef946df3d7677d74",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 91531,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/91531",
+      "english_sha256": "9b76455e1cded9700a87b61c7977780b3416bafad8895ceaf5d64452f9387391",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 90647,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90647",
+      "english_sha256": "81cb3c017eee08b04bccc43c0d51c605f0b010ced26e5718c7c3c55ca705a00c",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 90647,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/90647",
+      "english_sha256": "912cc86b1c27e99a7069c2a7fa2f6153efe91fdf137db8e85eec30b95f668af5",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 96992,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96992",
+      "english_sha256": "236ea506c6cb49fb69bca82ec93082f007852ae7876750e8363341f5a3812743",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 93567,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93567",
+      "english_sha256": "d0dfde7b3e72b4988c18a98cb14569b27340d0fe4014473c635516e1a7ff584c",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 96131,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96131",
+      "english_sha256": "26fb65a469f3bbc4e87eb3a68a1fb70b4779b92a1fc80f9f1ff18dc08566e4e0",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 92446,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/92446",
+      "english_sha256": "0e99b34c311fb9b058050a19ca9bb270f18ca352b3e9752e159269564a07cc63",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 94285,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94285",
+      "english_sha256": "63d689b8d63ba1ca2a849fa8642b26264bcc64597c90b14b641eda4c115789b1",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 94313,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94313",
+      "english_sha256": "5853a05220d937d5bc058bafbdd77772b7732b3daace723d413d5c3260e7a6c1",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 95790,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95790",
+      "english_sha256": "c1bf9b5723fbc350b8de780cd2be5413addd28528455fabe5d41893c03ec5239",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 99194,
+      "field": "progress",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99194",
+      "english_sha256": "d8459ef7e4c53d5e652cce2dc85b8dcea56abe498816b4030f4a3cd7ed7432e9",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    },
+    {
+      "quest_id": 99198,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/99198",
+      "english_sha256": "31e464f744c053d1643705a705e4855ab5c4307322f1f73952f32b33f7466b19",
+      "reason": "Untyped source name/class/race placeholder held;no playerrole binding inferred"
+    }
+  ],
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "warning": "No runtime/version change yet;do not rerun closed585 Icy source lookups;continue reviewedtranslation of94literal fields from savedprivatefixture"
+}
