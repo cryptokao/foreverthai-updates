@@ -1,0 +1,10 @@
+{
+  "status": "PASSED_MAIN_ALL183_RUNTIME_BLOBS_EQUAL_FINAL_VERIFIED_LAUNCHER_PACKAGE",
+  "main_commit": "96e7766e5dacb76b438cdfc568952f6b3472d3f4",
+  "main_tree": "cb2ad39f2784f2e402c53b228294ca1524bb0c4c",
+  "source_runtime_commit": "053ade6254740b029963e8ba522d944f3c7554be",
+  "artifact_commit": "de5f12db434efc70ab0c3945fb44209fe639f139",
+  "files": 183,
+  "no_old_partial_delta_runtime_left": true,
+  "unrelated_main_files_preserved": true
+}
