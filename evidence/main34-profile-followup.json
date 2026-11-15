@@ -1,0 +1,87 @@
+{
+  "batch": "MAIN34",
+  "only_remaining3form_followup": true,
+  "rows": [
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Druid",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Hunter",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Warrior",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Paladin",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Rogue",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Priest",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Shaman",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Mage",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 96628,
+      "field": "completion",
+      "lowercase_class_diagnostic": "Warlock",
+      "supported": true,
+      "not_source_case_or_roleproof": true
+    },
+    {
+      "quest_id": 94373,
+      "field": "progress",
+      "branch": 1,
+      "profile_fixture": "Dwarf",
+      "supported": true,
+      "not_eligibility_proof": true
+    },
+    {
+      "quest_id": 94373,
+      "field": "progress",
+      "branch": 2,
+      "profile_fixture": "Dwarf",
+      "supported": true,
+      "not_eligibility_proof": true
+    }
+  ],
+  "no_runtime_change": true,
+  "new_Thai_fields": 0
+}

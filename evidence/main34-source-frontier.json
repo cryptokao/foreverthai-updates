@@ -1,0 +1,83 @@
+{
+  "batch": "MAIN34",
+  "previous_goal_turn": "progress:MAIN33 delivered0.471 combined verified ZIP and persisted one source-backed progress field",
+  "this_goal_turn": "progress:new distinct source frontiers inspected and provenance limitations resolved;primary source acquisition frontier opened",
+  "new_Thai_fields": 0,
+  "new_aliases": 0,
+  "new_complete_quests": 0,
+  "runtime_or_version_change": false,
+  "baseline_private": "0.471.0",
+  "customer_package": "0.470.0",
+  "next_normal_publication": "0.480.0",
+  "consecutive_impasse_goal_turns": 0,
+  "sources": [
+    {
+      "repo": "tyler3497/forever-quests",
+      "pin": "9f4c5aac2d077854d7f4a2bdc2f8eceb8d7b23af",
+      "manifest_blob": "1dd6a51429b2fd0aee5e14f180a9c3977be7061b",
+      "status": "Metadata derived from older Questie/TDB/NorgannonDB;publisher explicitly not live verified;not a whole-game denominator;no bulk dataset downloaded"
+    },
+    {
+      "url": "https://zephras.com/latest/2026-11-15/",
+      "status": "128additions are55giver+52NPC+21drop records,not new main prose;data-download page offers talents only;quest947 text not recorded;99053seen70888 description/objective only"
+    },
+    {
+      "url": "https://foreverdiff.gg/",
+      "status": "Homepage build70532 older snapshot;not current enabled inventory"
+    },
+    {
+      "repo": "Jweyant/forever-xp",
+      "builder_pin": "8ff5345ea60da64f43bf79395038ddd974f7880a",
+      "status": "Builder reads Questie/opendata objectives,not independent progress/completion;large gamedata directory fetch returned empty,not claimed inspected"
+    },
+    {
+      "repo": "Karrz1/TrinityCore",
+      "old_repo": "advocaite/TrinityCore",
+      "pin": "e6399e4fcbf774f7a8eabf0148058b70f49487af",
+      "custom_tree": "f6ccb3a65c09dfd52b9253fcf6ee1abc4e194c26",
+      "status": "New primary source lead via renamed repo.43live capture fields plus88fields in20old-source quests inspected as inert SQL;no SQL executed."
+    }
+  ],
+  "live43": {
+    "initial_exact": 24,
+    "initial_markup": 7,
+    "initial_identity_diagnostic": 7,
+    "initial_unresolved": 5,
+    "identical_prior_proofs_reused": 8,
+    "followup": "All6Gbranches supported incl94373progressDwarf fixture;94449name source supportedShaman fixture;96628supported9lowercaseclass diagnostic fixtures. Fixtures prove no eligibility,case or identity role.0newThai/aliases."
+  },
+  "old_20_quest_file": {
+    "raw_fields": 88,
+    "initial_supported": 61,
+    "identity_diagnostic": 13,
+    "unresolved": 14,
+    "closure": "9truncated/wrong-phase objectives rejected,4joined-emote bodies diagnosed as already-supported after boundary space,1ambiguouslad/lass placeholder not interpreted."
+  },
+  "primary_pages": {
+    "scope": "19objective/progress/completion fields from9own-ID pages",
+    "exact": 16,
+    "placeholder_diagnostic": 3,
+    "prior_identical_not_rerun": 5,
+    "remaining_unmatched": 0,
+    "not_current_build_or_eligibility_proof": true
+  },
+  "acquisition": {
+    "scope": "Only metadata candidates whoseprogress actually nil in0.471,level1-10,current70938cache presence;not missing-text or enabled-quest count",
+    "candidates": 179,
+    "first_primary_pages_checked": 12,
+    "published_progress_sections_found": 0,
+    "next_uninspected_candidates": 167,
+    "partial_open_excerpts_not_used_as_absence_proof": true,
+    "full_parsed_page_heading_find_used": true
+  },
+  "no_full_old_suite_or_font_rebuild": true,
+  "localAI": false,
+  "game_control_or_install": false,
+  "real_Windows_MacM2_acceptance": false,
+  "console_note": "Five-form checks wrote JSON successfully but final Thai stdout hit Windows cp1252 UnicodeEncodeError. Outputs inspected;only print changed to ensure_ascii=True afterwards;checks not rerun or reported as clean original process exit.",
+  "remaining": [
+    "Continue finite uninspected primary source acquisition;do not re-open12empty published progress pages unchanged",
+    "Current enabled inventory and exact held identity/macro roles still unproven",
+    "Actual Windows/MacM2 acceptance still missing"
+  ]
+}

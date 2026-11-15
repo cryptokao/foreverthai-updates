@@ -1,27 +1,16 @@
 {
-  "status": "CHANGED_SOURCE_REAL_PROGRESS_IMPASSE_RESET_GOAL_ACTIVE",
-  "batch": "MAIN33",
-  "previous_impasse_turns": 1,
+  "status": "DISTINCT_SOURCE_FRONTIER_PROGRESS_GOAL_ACTIVE",
+  "batch": "MAIN34",
   "consecutive_impasse_goal_turns": 0,
   "blocked_threshold_met": false,
   "goal_marked_blocked": false,
-  "changed_evidence": [
-    "New FVO3522/3523 actual captured source",
-    "One previously absent own-ID literal progress field97928"
-  ],
-  "new_supported_fields": 1,
   "new_Thai_fields": 0,
-  "verbatim_reviewed_reuse_fields": 1,
-  "complete_quests_claimed": 0,
+  "new_aliases": 0,
+  "runtime_changed": false,
   "private_package": "0.471.0",
-  "latest_customer_package": "0.470.0",
+  "customer_package": "0.470.0",
   "next_normal_publication": "0.480.0",
-  "remaining": [
-    "Authoritative enabled current quest inventory and missing source phases",
-    "Exact proof for remaining macro/role holds",
-    "Windows/MacM2 real acceptance"
-  ],
-  "no_old_source_or_suite_loop": true,
-  "game_control_or_installation": false,
-  "private_capture_or_account_paths_published": false
+  "next_safe_action": "Inspect remaining167finite low-level primary-page acquisition candidates;only translate real newly found full prose after role/meaning checks",
+  "not_missing_text_or_wholegame_count": true,
+  "real_game_acceptance": false
 }

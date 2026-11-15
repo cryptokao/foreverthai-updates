@@ -1,0 +1,173 @@
+[
+  {
+    "quest_id": 98191,
+    "field": "objective",
+    "english": "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light.",
+    "title": "A Friend of the Family",
+    "source_url": "https://www.wowhead.com/forever/quest=98191",
+    "source_line": 35,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98191,
+    "field": "progress",
+    "english": "Light be with you, <class>. You are clearly not here for small talk--what is it?",
+    "title": "A Friend of the Family",
+    "source_url": "https://www.wowhead.com/forever/quest=98191",
+    "source_line": 42,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98191,
+    "field": "completion",
+    "english": "By the Light... it looks just like his boy...\n<Lord Grayson Shadowbreaker pauses for a moment.>\nThis statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.\nIt is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.\nThank you, <class>. Light bless you.",
+    "title": "A Friend of the Family",
+    "source_url": "https://www.wowhead.com/forever/quest=98191",
+    "source_line": 45,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 94007,
+    "field": "objective",
+    "english": "Report to Quel'ana Quickgale in Valanaar.",
+    "title": "Taming the Beast",
+    "source_url": "https://www.wowhead.com/forever/quest=94007/taming-the-beast",
+    "source_line": 28,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 94007,
+    "field": "completion",
+    "english": "I am most glad that you came. Come, let us begin.",
+    "title": "Taming the Beast",
+    "source_url": "https://www.wowhead.com/forever/quest=94007/taming-the-beast",
+    "source_line": 36,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 94914,
+    "field": "objective",
+    "english": "Use the spell \"Teleport: Moonglade\" to travel to Moonglade. When you arrive, speak with Dendrite Starblaze in the village of Nighthaven.",
+    "title": "Moonglade",
+    "source_url": "https://www.wowhead.com/forever/quest=94914/moonglade",
+    "source_line": 23,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 94914,
+    "field": "completion",
+    "english": "Ah I see that you have already mastered the form of the Bear. Good, good. You are well on your way, young <class>.",
+    "title": "Moonglade",
+    "source_url": "https://www.wowhead.com/forever/quest=94914/moonglade",
+    "source_line": 30,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98189,
+    "field": "objective",
+    "english": "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep.",
+    "title": "Return the Statuette",
+    "source_url": "https://www.wowhead.com/forever/quest=98189/return-the-statuette",
+    "source_line": 22,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98189,
+    "field": "progress",
+    "english": "What's that you've got there? Let me take a look.",
+    "title": "Return the Statuette",
+    "source_url": "https://www.wowhead.com/forever/quest=98189/return-the-statuette",
+    "source_line": 31,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98189,
+    "field": "completion",
+    "english": "You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.",
+    "title": "Return the Statuette",
+    "source_url": "https://www.wowhead.com/forever/quest=98189/return-the-statuette",
+    "source_line": 34,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98392,
+    "field": "objective",
+    "english": "Collect Hatescreech's Amulet, Windmistress Gaedress' Amulet, and Witchmother Arysa's Amulet for Sentinel Arynia Cloudsbreak in the Oracle Glade.",
+    "title": "Darkness in the Glade",
+    "source_url": "https://www.wowhead.com/forever/quest=98392/darkness-in-the-glade",
+    "source_line": 28,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98392,
+    "field": "progress",
+    "english": "Have you wrested the amulets from the harpies' leaders?",
+    "title": "Darkness in the Glade",
+    "source_url": "https://www.wowhead.com/forever/quest=98392/darkness-in-the-glade",
+    "source_line": 38,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98392,
+    "field": "completion",
+    "english": "<Arynia investigates the amulets.>\nDo you see the foul green swirls within the gems? This is indeed fel moss corruption at work.\nI have heard similar reports from Shadowglen and elsewhere in the boughs of this substance turning our very world against us.\nI will inform my superiors of this at once.",
+    "title": "Darkness in the Glade",
+    "source_url": "https://www.wowhead.com/forever/quest=98392/darkness-in-the-glade",
+    "source_line": 41,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98394,
+    "field": "objective",
+    "english": "Seek out the Great Cat Spirit in southern part Moonglade and learn what it has to share with you about the nature of the cat.",
+    "title": "The Great Cat Spirit",
+    "source_url": "https://www.wowhead.com/forever/quest=98394/the-great-cat-spirit",
+    "source_line": 25,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98394,
+    "field": "completion",
+    "english": "I see you have come to learn to draw upon my spirit. Good. Let us see if you are ready to take my shape.",
+    "title": "The Great Cat Spirit",
+    "source_url": "https://www.wowhead.com/forever/quest=98394/the-great-cat-spirit",
+    "source_line": 31,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98396,
+    "field": "objective",
+    "english": "Recover the Relic of the Fang, Relic of the Claw, and Relic of the Silent Shadow from the Stormrage Barrow Den, and return them to the Great Cat Spirit.",
+    "title": "The Great Cat Spirit",
+    "source_url": "https://www.wowhead.com/forever/quest=98396/the-great-cat-spirit",
+    "source_line": 38,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98731,
+    "field": "objective",
+    "english": "Speak to Dendrite.",
+    "title": "Blessings of the Great Cat Spirit",
+    "source_url": "https://www.wowhead.com/forever/quest=98731/blessings-of-the-great-cat-spirit",
+    "source_line": 20,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98731,
+    "field": "completion",
+    "english": "<Dendrite makes another invisible gesture in the air above him as you approach. Another aura of power comes over him, and he smiles ever so slightly.>\nI sense the cunning and ferocity of the cat within you that was not present when I sent you to meet the Great Cat Spirit. In your eyes I can sense you now understand the stealth and speed needed to adopt this nature.\nNow you may learn to focus your cunning and adopt the true nature of the cat and call upon its spirit.",
+    "title": "Blessings of the Great Cat Spirit",
+    "source_url": "https://www.wowhead.com/forever/quest=98731/blessings-of-the-great-cat-spirit",
+    "source_line": 26,
+    "source_kind": "primary_aggregator_page_not_live_build_proof"
+  },
+  {
+    "quest_id": 98190,
+    "field": "objective",
+    "english": "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep.",
+    "title": "A Friend of the Family",
+    "source_url": "https://www.wowhead.com/forever/quest=98190/a-friend-of-the-family",
+    "source_line": 32,
+    "source_kind": "previously_read_primary_aggregator_page_not_live_build_proof"
+  }
+]

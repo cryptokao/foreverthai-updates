@@ -1,0 +1,102 @@
+{
+  "batch": "MAIN34",
+  "scope": "Only14new-source mismatches;do not convert visibly truncated objectives or publisher HTML artifacts into new runtime aliases",
+  "rows": [
+    {
+      "quest_id": 94007,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "477f8f4defae698f854155af9881ff01c87fdbba171a497d7102f85207eb2a07"
+    },
+    {
+      "quest_id": 94914,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "6d30a95db9e6e2c54d8d1a788325d124d5a023e9771e3848b9eff5dfd4134833"
+    },
+    {
+      "quest_id": 98065,
+      "field": "completion",
+      "status": "publisher_emote_boundary_diagnostic_supported_NOT_UIproof",
+      "english_sha256": "f031206dcc943eb726a4e1da8150971a5d233e7605da26416f2e008a1073296f",
+      "class_fixture": "Druid",
+      "new_alias": false
+    },
+    {
+      "quest_id": 98189,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "593d82186e46efeb00127c50ca108439f5a93a92aab3f904650661f8d380be69"
+    },
+    {
+      "quest_id": 98190,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "f33b38328945956dd649255be68461c3cb854509ac9beb922f2817b0b95b584b"
+    },
+    {
+      "quest_id": 98190,
+      "field": "description",
+      "status": "ambiguous_publisher_placeholder_requires_primary_original",
+      "english_sha256": "f0498aeea2cfbda6c48159bff8e9b20d6da96446969b67b27c7f70e20fbf8c2f"
+    },
+    {
+      "quest_id": 98191,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "2e231754e19e39e430a3a54f0127ab0bb2bf6693885eebc595b5dc384cfa425e"
+    },
+    {
+      "quest_id": 98191,
+      "field": "completion",
+      "status": "publisher_emote_boundary_diagnostic_supported_NOT_UIproof",
+      "english_sha256": "1dbf06075d10767d49e31a4670b606d81e95dffd6aedcacf6da0637bd85432fc",
+      "class_fixture": "Druid",
+      "new_alias": false
+    },
+    {
+      "quest_id": 98392,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "cb57f2995ba6ac16c94de163ca4273c558055cfb91040766b15dea648c892f4f"
+    },
+    {
+      "quest_id": 98392,
+      "field": "completion",
+      "status": "publisher_emote_boundary_diagnostic_supported_NOT_UIproof",
+      "english_sha256": "64034d27112a7907e0bd0cf0ebaed2e32ac4e7675e0b5e9369c8075e49c9f109",
+      "class_fixture": "Druid",
+      "new_alias": false
+    },
+    {
+      "quest_id": 98393,
+      "field": "completion",
+      "status": "publisher_emote_boundary_diagnostic_supported_NOT_UIproof",
+      "english_sha256": "dcfae31b7217a2a6385e46c6f5f7a01bf71eda4ef88eadd3259a3c202767ef0f",
+      "class_fixture": "Druid",
+      "new_alias": false
+    },
+    {
+      "quest_id": 98394,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "4b9be6f05a80bb2a8beba54e54d2fb88264e28e05d729fc2848baec9b656ad0b"
+    },
+    {
+      "quest_id": 98396,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "5e1adae843b1d0351f330c3a52d036f8a9a22d832cb003378f250e285e502135"
+    },
+    {
+      "quest_id": 98731,
+      "field": "objective",
+      "status": "publisher_objective_truncated_or_wrong_phase_NOT_new_game_source",
+      "english_sha256": "22c7d8dcf218a803948e0fbcd4d20c81ac7b32660f57ca2c1749b06772f081a3"
+    }
+  ],
+  "new_Thai_fields": 0,
+  "new_aliases": 0,
+  "runtime_changed": false,
+  "unresolved_primary_original_fields": 1
+}
