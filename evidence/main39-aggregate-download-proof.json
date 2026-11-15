@@ -1,0 +1,10 @@
+{
+  "source_url": "https://api.github.com/repos/quinn-dougherty/forever-vo/git/blobs/cb6d0b960636b1a693ddabad1211cf7bef057018",
+  "blob": "cb6d0b960636b1a693ddabad1211cf7bef057018",
+  "bytes": 7813573,
+  "sha256": "f49b495b1f48da19e7ec8c1c9ea73e75cb1aa35706cec97b07f45fc251c6c967",
+  "git_blob_exact": true,
+  "raw_private": true,
+  "wall_seconds": 1.4110475999987102,
+  "native_plugin_failure": "Transportclosed twice;no HTTP403or auth challenge bypassed"
+}

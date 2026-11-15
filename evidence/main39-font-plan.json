@@ -1,0 +1,600 @@
+{
+  "new_words": [
+    "การ",
+    "เตรียม",
+    "พิธีกรรม",
+    "ทีเดียว",
+    "เหล่านั้น",
+    "ส่วนหนึ่ง",
+    "พิจารณา",
+    "เหลือ"
+  ],
+  "plans": [
+    {
+      "run": "เรายินดีอย่างยิ่งกับการสนับสนุนของเจ้า",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยินดี",
+          "glyphs": [
+            6405
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "อย่างยิ่ง",
+          "glyphs": [
+            8974
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กับ",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "การ"
+        },
+        {
+          "kind": "existing",
+          "text": "สนับสนุน",
+          "glyphs": [
+            7728
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        }
+      ],
+      "glyphs": [
+        10577,
+        6405,
+        8974,
+        354,
+        14592,
+        7728,
+        839,
+        9731
+      ]
+    },
+    {
+      "run": "ตอนนี้เรามีวัตถุดิบแล้ว",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ตอนนี้",
+          "glyphs": [
+            3077
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เรา",
+          "glyphs": [
+            10577
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มี",
+          "glyphs": [
+            6149
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "วัตถุดิบ",
+          "glyphs": [
+            7414
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แล้ว",
+          "glyphs": [
+            11603
+          ]
+        }
+      ],
+      "glyphs": [
+        3077,
+        10577,
+        6149,
+        7414,
+        11603
+      ]
+    },
+    {
+      "run": "ข้าต้องเตรียมพิธีกรรม",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต้อง",
+          "glyphs": [
+            3455
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เตรียม"
+        },
+        {
+          "kind": "new",
+          "text": "พิธีกรรม"
+        }
+      ],
+      "glyphs": [
+        1088,
+        3455,
+        14593,
+        14594
+      ]
+    },
+    {
+      "run": "ระหว่างนี้ไปปรึกษา",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ระหว่างนี้",
+          "glyphs": [
+            6690,
+            4355
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ไป",
+          "glyphs": [
+            12248
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ปรึกษา",
+          "glyphs": [
+            4925
+          ]
+        }
+      ],
+      "glyphs": [
+        6690,
+        4355,
+        12248,
+        4925
+      ]
+    },
+    {
+      "run": "การได้ของเหล่านี้มาคงเป็นการผจญภัยครั้งใหญ่ทีเดียว",
+      "pieces": [
+        {
+          "kind": "new",
+          "text": "การ"
+        },
+        {
+          "kind": "existing",
+          "text": "ได้",
+          "glyphs": [
+            12197
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เหล่านี้",
+          "glyphs": [
+            11035
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มา",
+          "glyphs": [
+            6089
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "คง",
+          "glyphs": [
+            1121
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เป็น",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "การ"
+        },
+        {
+          "kind": "existing",
+          "text": "ผจญภัย",
+          "glyphs": [
+            5142
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ครั้ง",
+          "glyphs": [
+            1255
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใหญ่",
+          "glyphs": [
+            12120
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ทีเดียว"
+        }
+      ],
+      "glyphs": [
+        14592,
+        12197,
+        839,
+        11035,
+        6089,
+        1121,
+        10224,
+        14592,
+        5142,
+        1255,
+        12120,
+        14595
+      ]
+    },
+    {
+      "run": "อาใช่",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "อา",
+          "glyphs": [
+            9103
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใช่",
+          "glyphs": [
+            12040
+          ]
+        }
+      ],
+      "glyphs": [
+        9103,
+        12040
+      ]
+    },
+    {
+      "run": "ก็อบลินแก่นั่นคงพอใจกับเลือดนี้มาก",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ก็อบลิน",
+          "glyphs": [
+            696,
+            8940,
+            7200,
+            4147
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "แก่",
+          "glyphs": [
+            11179
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นั่น",
+          "glyphs": [
+            4259
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "คง",
+          "glyphs": [
+            1121
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "พอใจ",
+          "glyphs": [
+            5642
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กับ",
+          "glyphs": [
+            354
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เลือด",
+          "glyphs": [
+            10713
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "นี้",
+          "glyphs": [
+            4355
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "มาก",
+          "glyphs": [
+            6090
+          ]
+        }
+      ],
+      "glyphs": [
+        696,
+        8940,
+        7200,
+        4147,
+        11179,
+        4259,
+        1121,
+        5642,
+        354,
+        10713,
+        4355,
+        6090
+      ]
+    },
+    {
+      "run": "ปลอกแขนเหล่านั้นเป็นส่วนหนึ่งของชุดเกราะที่ใหญ่กว่า",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ปลอกแขน",
+          "glyphs": [
+            4942
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เหล่านั้น"
+        },
+        {
+          "kind": "existing",
+          "text": "เป็น",
+          "glyphs": [
+            10224
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "ส่วนหนึ่ง"
+        },
+        {
+          "kind": "existing",
+          "text": "ของ",
+          "glyphs": [
+            839
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ชุดเกราะ",
+          "glyphs": [
+            2542,
+            9378
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ใหญ่",
+          "glyphs": [
+            12120
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "กว่า",
+          "glyphs": [
+            284
+          ]
+        }
+      ],
+      "glyphs": [
+        4942,
+        14596,
+        10224,
+        14597,
+        839,
+        2542,
+        9378,
+        3937,
+        12120,
+        284
+      ]
+    },
+    {
+      "run": "หากเจ้าสนใจช่วยเหลือข้าต่อ",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "หาก",
+          "glyphs": [
+            8785
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "เจ้า",
+          "glyphs": [
+            9731
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "สนใจ",
+          "glyphs": [
+            7741
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ช่วยเหลือ",
+          "glyphs": [
+            2581
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ต่อ",
+          "glyphs": [
+            3396
+          ]
+        }
+      ],
+      "glyphs": [
+        8785,
+        9731,
+        7741,
+        2581,
+        1088,
+        3396
+      ]
+    },
+    {
+      "run": "ข้าก็ยินดีพิจารณายกส่วนที่เหลือให้",
+      "pieces": [
+        {
+          "kind": "existing",
+          "text": "ข้า",
+          "glyphs": [
+            1088
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ก็",
+          "glyphs": [
+            696
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ยินดี",
+          "glyphs": [
+            6405
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "พิจารณา"
+        },
+        {
+          "kind": "existing",
+          "text": "ยก",
+          "glyphs": [
+            6298
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ส่วน",
+          "glyphs": [
+            8341
+          ]
+        },
+        {
+          "kind": "existing",
+          "text": "ที่",
+          "glyphs": [
+            3937
+          ]
+        },
+        {
+          "kind": "new",
+          "text": "เหลือ"
+        },
+        {
+          "kind": "existing",
+          "text": "ให้",
+          "glyphs": [
+            12124
+          ]
+        }
+      ],
+      "glyphs": [
+        1088,
+        696,
+        6405,
+        14598,
+        6298,
+        8341,
+        3937,
+        14599,
+        12124
+      ]
+    }
+  ]
+}
