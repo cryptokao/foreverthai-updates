@@ -1,0 +1,79 @@
+{
+  "batch": "MAIN40",
+  "scope": "Only new3527 export;no oldissue reparse/matcher rerun",
+  "source_counts": {
+    "exports": 1,
+    "rawrecords": 29,
+    "quest_records": 3,
+    "gossip_records": 26,
+    "book_records": 0
+  },
+  "unique_main_forms": 3,
+  "counts": {
+    "supported_exact": 1,
+    "diagnostic_identity_substitution_supported_NOT_roleproof": 2
+  },
+  "prior_identical_positive_forms_not_rerun": 0,
+  "actual_matcher_calls": 7,
+  "rows": [
+    {
+      "quest_id": 99156,
+      "field": "progress",
+      "source_issue": 3527,
+      "source_line_index": 1,
+      "english_sha256": "a9acba415a268373378c1649875a8794074216dfe8e0b0e47358acb15699126d",
+      "english_bytes": 39,
+      "status": "supported_exact",
+      "prior_identical_proof_reused": false,
+      "fixture": null,
+      "headerbuild": "70938",
+      "individual_row_build_or_current_enabled_proven": false
+    },
+    {
+      "quest_id": 450,
+      "field": "progress",
+      "source_issue": 3527,
+      "source_line_index": 5,
+      "english_sha256": "f95b326fa0a498232480664ed58986957ad4bbe0d272783cdca74e3240a64af5",
+      "english_bytes": 23,
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "prior_identical_proof_reused": false,
+      "fixture": {
+        "class_fixture": "Warlock",
+        "race_fixture": "Orc",
+        "gender_branch_diagnostic_only": null
+      },
+      "headerbuild": "70938",
+      "individual_row_build_or_current_enabled_proven": false
+    },
+    {
+      "quest_id": 451,
+      "field": "progress",
+      "source_issue": 3527,
+      "source_line_index": 7,
+      "english_sha256": "f5edc78bdf60d2c55e648aa5273047e1ce24e96f74d7c9f26a4cf17b16c1a46d",
+      "english_bytes": 42,
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "prior_identical_proof_reused": false,
+      "fixture": {
+        "class_fixture": "Warlock",
+        "race_fixture": "Orc",
+        "gender_branch_diagnostic_only": null
+      },
+      "headerbuild": "70938",
+      "individual_row_build_or_current_enabled_proven": false
+    }
+  ],
+  "newThai": 0,
+  "newaliases": 0,
+  "runtime_changed": false,
+  "elapsed_wall_seconds": 0.23561220000010508,
+  "cpu_seconds": 0.234375,
+  "limits": [
+    "Headerbuild not per-rowbuild or enabledinventory",
+    "Diagnostic identity/Gg is not new role or sex-condition proof",
+    "Gossip/books secondary not fulltext translated",
+    "Raw player contexts/private captures not published",
+    "Sample has actualCRLF,no literalbackslashlinebreaks;no parser/runtime fix needed"
+  ]
+}

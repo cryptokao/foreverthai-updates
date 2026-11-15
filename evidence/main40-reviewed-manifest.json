@@ -1,0 +1,74 @@
+{
+  "batch": "MAIN40",
+  "status": "SOURCE_CHECKED_NOT_PACKAGED",
+  "fields": [
+    {
+      "quest_id": 93362,
+      "field": "progress",
+      "title": "What They've Done to My Peonies",
+      "level": 43,
+      "english_sha256": "966e3fed3fe0c1df832f1474c2052e7a294d7fa3c96b717899db19c0babd40a0",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93362",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93362",
+        "QuestText_line": 173,
+        "phase_region_end_line": null,
+        "contiguous_own_ID_phase": true,
+        "build_added": "1.60.1.70532 as shown;not perrow current-livebuild",
+        "attribution": "Quest text Blizzard Entertainment;primary phase transcription Icy Veins Forever database",
+        "literal_only_no_identity_or_condition_dispatch": true
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "เสร็จแล้วหรือ?",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reused_from": {
+        "quest_id": 5102,
+        "field": "progress"
+      },
+      "meaning_review": "Exact same progress question Is it done? reviewed Thai เสร็จแล้วหรือ? retained verbatim;no task completion asserted.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "11:1082766384:663732441",
+      "thai_sha256": "924b35c8eedfc795f4895bebf1a057b68779bd4e57b68b61cc79aefaa38977dd",
+      "runtime_action": "new field"
+    },
+    {
+      "quest_id": 93601,
+      "field": "completion",
+      "title": "Passing the Blame",
+      "level": 45,
+      "english_sha256": "3678553c74b871553af19ed3416ba37fc4cb668048547e62435a8bfc9f515a6b",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/93601",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/93601",
+        "QuestText_line": 170,
+        "phase_region_end_line": 190,
+        "contiguous_own_ID_phase": true,
+        "build_added": "1.60.1.70532 as shown;not perrow current-livebuild",
+        "attribution": "Quest text Blizzard Entertainment;primary phase transcription Icy Veins Forever database",
+        "literal_only_no_identity_or_condition_dispatch": true
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ไนต์เอลฟ์ตัวโตอยากได้สร้อยหรือ? แต่ไนต์เอลฟ์ตัวโตเอาไปไม่ได้!\nพวก Thornweavers ต้องใช้สร้อย ผืนดินตายสนิท ไม่มีสร้อย หนามก็ไม่งอก! เซนทอร์ย่ำเข้ามาตรงที่หนามไม่งอก เห็นปัญหาหรือยัง หรือไนต์เอลฟ์ตัวโตตาบอด?\n\n<Kog'thug หยุดพูดพล่ามด้วยท่าทีดูแคลน แล้วพ่นลมหายใจทางจมูกอย่างครุ่นคิด>\n\nKog'thug คิดออกแล้ว อยากแลกกันไหม?",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review": "Preserves deliberately simple Kogthug speech, necklace withheld, Thornweaver need, deadland/thorn/centaur causal chain, insulting sight question, fixed named-NPC emote and trade proposal. Literal Night Elf remains literal;no UnitRace or player-condition binding, no other race variants accepted.",
+      "meaning_review_passed": true,
+      "expected_dynamic_signature": "324:95956270:1764847553",
+      "thai_sha256": "5c172f76c1155edd2fa24ded5d64b53c20995172286cf91957659a492d1909bf",
+      "runtime_action": "new field"
+    }
+  ],
+  "new_Thai_fields": 1,
+  "verbatim_reviewed_reuse": 1,
+  "complete_quests_claimed": 0,
+  "holds": [
+    {
+      "quest_id": 93362,
+      "field": "completion",
+      "reason": "Published <name> placeholder not bound without typed source-role proof"
+    }
+  ],
+  "full_private_review_fixture_sha256": "c3331424535f3f81f6f7e518fa4ab354e1dd15df1b75aab1e8450cdaf6676af1",
+  "fixture_note": "Full literal English retained in durable local PRIVATE review fixture;public records sourceURL/hash/signature and reviewedThai,not duplicated long prose"
+}
