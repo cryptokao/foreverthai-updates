@@ -1,0 +1,100 @@
+{
+  "batch": "MAIN39",
+  "rows": [
+    {
+      "quest_id": 86792,
+      "field": "objective",
+      "english_sha256": "a3d73f1cc1c97f585fc7092ded61a45fc8f42e3e6b2059b5fe194ceebb685bcb",
+      "primary_url": "https://www.wowhead.com/forever/quest=86792/thinning-their-forces",
+      "primary_mainbody_line": 23,
+      "actual_primary_literal_amounts": {
+        "1": "6",
+        "2": "4",
+        "3": "2"
+      },
+      "raw_template_only_from_CCBy_query": true,
+      "status": "literal_primary_pending_review",
+      "runtime_field_present": false
+    },
+    {
+      "quest_id": 92189,
+      "field": "objective",
+      "english_sha256": "bee8a2c6d410bfe0cb1dbf3eaed9e812bb0e3f5f06eba028c180a8a4c1f8f61a",
+      "primary_url": "https://www.wowhead.com/forever/quest=92189/back-to-the-grind",
+      "primary_mainbody_line": 14,
+      "actual_primary_literal_amounts": {
+        "1": "2",
+        "2": "2"
+      },
+      "raw_template_only_from_CCBy_query": true,
+      "status": "already_supported_primary_fullbody",
+      "runtime_field_present": true
+    },
+    {
+      "quest_id": 95818,
+      "field": "description",
+      "english_sha256": "09ebc16370d7361af97cbb6da982774ba8d95b3077f4a12dcca6144c0c514bbf",
+      "primary_url": "https://www.wowhead.com/forever/quest=95818/a-quick-craft",
+      "primary_mainbody_line": 25,
+      "actual_primary_literal_amounts": {
+        "1": "25",
+        "2": "15",
+        "3": "5"
+      },
+      "raw_template_only_from_CCBy_query": true,
+      "status": "already_supported_primary_fullbody",
+      "runtime_field_present": true
+    },
+    {
+      "quest_id": 94004,
+      "field": "progress",
+      "english_sha256": "82fd0f360809b9d9fc2a03161e3f561c50d28322f96e25e3f7c2cb25783a096c",
+      "primary_url": "https://www.wowhead.com/forever/quest=94004/craftsmans-writ-elixir-of-ogres-strength",
+      "primary_mainbody_line": 33,
+      "actual_primary_literal_amounts": {},
+      "raw_template_only_from_CCBy_query": true,
+      "status": "already_supported_primary_fullbody",
+      "runtime_field_present": true
+    }
+  ],
+  "macro_queue_closure": {
+    "previous56": 56,
+    "trace_or_base_already_supported": 19,
+    "uniform_amount_already_supported": 34,
+    "other_primary_already_supported": 2,
+    "new_literal_objective_pending": 1
+  },
+  "newPrimaryPagesPhaseAbsence": [
+    {
+      "quest_id": 86792,
+      "fields": [
+        "progress",
+        "completion"
+      ],
+      "status": "full_mainbody_throughRewardsRelated_no_target_headings",
+      "not_live_phase_absence_or_enabled_proof": true
+    },
+    {
+      "quest_id": 92189,
+      "fields": [
+        "progress",
+        "completion"
+      ],
+      "status": "full_mainbody_throughRewardsRelated_no_target_headings",
+      "not_live_phase_absence_or_enabled_proof": true
+    },
+    {
+      "quest_id": 95818,
+      "fields": [
+        "progress",
+        "completion"
+      ],
+      "status": "full_mainbody_throughRewardsRelated_no_target_headings",
+      "not_live_phase_absence_or_enabled_proof": true
+    }
+  ],
+  "limits": [
+    "No race-placeholder role inferred from94004completion",
+    "No whole-game denominator or actualgameacceptance"
+  ]
+}

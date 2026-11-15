@@ -1,0 +1,46 @@
+{
+  "batch": "MAIN39",
+  "status": "REVIEWED_SOURCE_NOT_PACKAGED",
+  "fields": [
+    {
+      "quest_id": 86792,
+      "field": "objective",
+      "english": "Kill 6 Legashi Hellraisers, 4 Legashi Soulstealers, and 2 Legashi Blackguards for Korsa outside Legashi Stronghold.",
+      "english_sha256": "a3d73f1cc1c97f585fc7092ded61a45fc8f42e3e6b2059b5fe194ceebb685bcb",
+      "primary_url": "https://www.wowhead.com/forever/quest=86792/thinning-their-forces",
+      "primary_mainbody_line": 23,
+      "actual_primary_literal_amounts": {
+        "1": "6",
+        "2": "4",
+        "3": "2"
+      },
+      "raw_template_only_from_CCBy_query": true,
+      "runtime_field_present": false,
+      "title": "Thinning Their Forces",
+      "level": 54,
+      "thai": "สังหาร Legashi Hellraisers 6 ตัว, Legashi Soulstealers 4 ตัว และ Legashi Blackguards 2 ตัวให้ Korsa ที่อยู่นอก Legashi Stronghold",
+      "marked_thai": "สังหาร Legashi Hellraisers 6 ตัว, Legashi Soulstealers 4 ตัว และ Legashi Blackguards 2 ตัว|ให้ Korsa ที่|อยู่|นอก Legashi Stronghold",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review_passed": true,
+      "meaning_review": "Kill all three fixed named enemy types in explicit6/4/2 quantities for fixedKorsa outsideLegashiStronghold. No return instruction added,no objective-array ordering or playerrole inferred.",
+      "source_ref": {
+        "query_repository": "JIVESCORP/eg-link-output-wowf",
+        "query_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
+        "query_blob": "307e74c62ee5d897d6d4c59363c919820992c5ac",
+        "query_pointer": "/quests/86792/objectivesText",
+        "query_attribution": "Data from Efficient Games (https://efficient.games), CC BY4.0",
+        "primary_url": "https://www.wowhead.com/forever/quest=86792/thinning-their-forces",
+        "primary_body_line": 23,
+        "primary_literal_counts": {
+          "Legashi_Hellraisers": 6,
+          "Legashi_Soulstealers": 4,
+          "Legashi_Blackguards": 2
+        }
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0
+    }
+  ],
+  "new_Thai_fields": 1,
+  "complete_quests_claimed": 0
+}

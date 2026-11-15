@@ -1,5 +1,13 @@
 # Current state — 2026-11-15
 
+## MAIN39 new-source checkpoint —1reviewed literal objective,NOTpackaged
+
+Previous goalturn MAIN38 delivered82realfields:PROGRESS,impasse0. New1438querydelta macroqueue56 nowqualified:18own-ID live QuestieTrace summaries+1396base summary=19already supported;34craft descriptions allactual objective amounts[1,1],bounded$2oa ordinal,ANYarraypermutation gives1,already supported. PrimarySteinfill_amounts lines141-146 reused;independentWowhead94004description literal1 corroborates. NOstorageIndex/orderguess/rawmacrobridge. Remaining86792objective6/4/2,92189objective2/2,95818description25/15/5 directlyread on own-ID WowheadForeverpages:92189/95818 already supported;86792objective previouslynil now1newThai field meaningreviewed,NOTpackaged.94004progressWut? already supported;untypedracecompletion NOTimported.3newpages mainbodies no Progress/Completion sections;not gamephaseabsenceproof.
+
+New FVO3524/3525/3526 actual392records=56unique MAIN forms:44exact+10identitydiagnostic(NOTnewroleproof)+2blank;22prioridenticalpositive proofs reused,44actualmatcher calls.294gossip42books deferred;rawcontexts private. Sourceheader70938 not per-rowbuild/currentenabled proof. Raw sample has actualCRLF,no decoder/engine fix needed. Newsource metadata/hashes retained. No old3902/39sole/old115/1414pages rerun.
+
+Distinct next acquisition frontier:1438new-queryIDs only,actual0.474nil phases excluding prior closed lookups/devmarkers =>638candidatefields/469IDs,lowlevel first. These are acquisition candidates,NOT638missingprose/enabledquests. See main39-new-id-phase-source-queue.json. Unknownlevel/sourceeligibility remains open. Private0.474/customerlastpublished0.470/nextnormal0.480 unchanged. No newversion/ZIP/Launcherclaim,fullfont/localAI/gameoperation or actualWindows/MacM2acceptance. Wholegoalactive/incomplete.
+
 ## Latest delivered private combined0.474.0 / MAIN38
 
 82new own-ID literal fields in28newquery/runtimeIDs:67newreviewedThai+15verbatimreviewedreuse/10sourcequests,NOT28completequests or enabledinventory. All82freshly equal pinned Nov15 EG blob307e74c62ee5d897d6d4c59363c919820992c5ac at0f202e892f1a15c8192c232351824eccb99efd8a. Full English/Thai read;literal counts/targets/locations/escort NPCgender and helper requirements retained. No condition/class/race/gender/quantitymacro dispatch inferred. Keep81874Jamniss(title)/Jamnice(body) separate;84192sourceOrgimmar uses oldreviewedThaiOrgrimmar from exactbody,not source rewrite.

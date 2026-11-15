@@ -1,0 +1,59 @@
+{
+  "exports": [
+    {
+      "issue": 3524,
+      "created_at": "2026-11-15T12:18:15Z",
+      "updated_at": "2026-11-15T12:18:15Z",
+      "payload_chars": 1056,
+      "decoded_chars": 1981,
+      "header": {
+        "build": "70938",
+        "locale": "enUS",
+        "addon": "0.1.10",
+        "v": 1,
+        "records": 5
+      },
+      "decoded_sha256": "087d616b8757bc4b3fe269241c8c599ce097b8ec966475156c75fbd6daeb33ab",
+      "packed_sha256": "e4964889e656fc486c1d7a4d0c424034befa29c3b3134402ed36db1d468d1cc6",
+      "decoded_bytes": 1981
+    },
+    {
+      "issue": 3525,
+      "created_at": "2026-11-15T12:39:24Z",
+      "updated_at": "2026-11-15T12:39:24Z",
+      "payload_chars": 43292,
+      "decoded_chars": 124919,
+      "header": {
+        "build": "70938",
+        "locale": "enUS",
+        "addon": "0.1.11",
+        "v": 1,
+        "records": 312
+      },
+      "decoded_sha256": "2f9147e3092e8e78b86026a4559e4bbc063677cb02cacfaef245f8585ad0d451",
+      "packed_sha256": "41fba9d21df87eb41cb0a295b9df6d7810c0fbe3f2e1fb7032b05098ebce7d89",
+      "decoded_bytes": 124919
+    },
+    {
+      "issue": 3526,
+      "created_at": "2026-11-15T12:44:24Z",
+      "updated_at": "2026-11-15T12:44:24Z",
+      "payload_chars": 10400,
+      "decoded_chars": 28850,
+      "header": {
+        "build": "70938",
+        "locale": "enUS",
+        "addon": "0.1.11",
+        "v": 1,
+        "records": 75
+      },
+      "decoded_sha256": "31b13d9e1bd9036578bc470edc99a8325b5b8995bd2612dea7d98062653ebe57",
+      "packed_sha256": "a036b266204192bb2c7fd6b7e6838ddb33d2242a502b45e56693f779c8baa976",
+      "decoded_bytes": 28850
+    }
+  ],
+  "raw_files_private": true,
+  "previous_goal_turn": "PROGRESS:MAIN38 delivered82realfields",
+  "consecutive_impasse_goal_turns": 0,
+  "note": "Samplex has actualCR/LF,not literalbackslashescapes;no decoder/engine fix. Broad producer-tree path filter emitted excessive metadata only;not counted as source bodies acquired or translated."
+}

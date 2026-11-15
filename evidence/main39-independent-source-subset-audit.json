@@ -1,0 +1,535 @@
+{
+  "batch": "MAIN39",
+  "scope": "Only MAIN38 distinct56form queue;no old3902/39soleobjective/1414pages rerun",
+  "baseline": "Actual0.474combinedZIP",
+  "trace_pin": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+  "trace_blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+  "base_blob": "f4ea75ca02efc2333fd02dd955f42b68f4ffb14a",
+  "spoken_pin": "ecbd06b379a4b30048c5139f10fa379430d840a0",
+  "counts": {
+    "already_supported_independent_full_UI_body": 19,
+    "no_ownID_samephase_body_in_these_sources": 37
+  },
+  "rows": [
+    {
+      "quest_id": 91285,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "a5a600db3a6e20e368d74c4cc104db1307dd93082ee0206f041441bf38f0719c",
+      "independent_English_sha256": "5a07540738ef9de710e527bcbfade1bef8fbbddc175db6bce447d3dfbb654b2b",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "8",
+        "$2oa": "8"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 98403,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "829e78305458db3af468054bacb676ca737dd08be6111dfb8ff902e6fe600d36",
+      "independent_English_sha256": "29446d96bf8f049c524ae75ff8ee11fbaf384cb8b68b9b233ded3c203457f16d",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "8"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 98197,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "b61ac1a9a1e0d75033a1d79678c926420d12c3d79211b3f8baf0ab5455401f04",
+      "independent_English_sha256": "e70aefbd1acdf88ccdc883d4130929281bc803642a2311a3f203dd31d7cfa71c",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "6",
+        "$2oa": "30"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 98251,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "49d79f68d4536d13c5d09fa591855cd3682f60931fc04e231a719422c39f68c4",
+      "independent_English_sha256": "f6f4085a02c1c7e148bbf8d5453e12027f2a01399779fdac29f770d14f5fb078",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "6",
+        "$2oa": "6"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 96259,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "31d8059d56ab755b9418912cb0da1379ce3bea744a97cde95541608c033bdee0",
+      "independent_English_sha256": "84c5c9298ed0cd538c647a7a464222ca4389d356b2a699cc180bd46b65c1e85d",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "10",
+        "$2oa": "5"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86757,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "6d0f73b28996b3083537951d123d537dcd2f3e4e406ac1599ac3fcb654d3f354",
+      "independent_English_sha256": "3e80e0210f46e03503ed805c2bd827ac163830de3288e08f1a4dca7a7e74e807",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "6",
+        "$2oa": "4"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 98291,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "8f562ee1870df105da1d672a3c251fb5045b74add1a2b0d0f3bd44e06ca64c58",
+      "independent_English_sha256": "7ecd1c25b2c50359c6b8b078006d837383499cc739a4fb291ba373db6a927227",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "8",
+        "$2oa": "5",
+        "$3oa": "3"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 1396,
+      "field": "objective",
+      "source": "QuestieDB base own-ID objectiveText[8]",
+      "blob": "f4ea75ca02efc2333fd02dd955f42b68f4ffb14a",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "f32ebfd1d9616f01632f80f1e2a44e0a2476c186db9f273a3498a52c4a406da0",
+      "independent_English_sha256": "cab88150088cc6333dd0504ceb235f52f411884ae52cf29732354298b42d1750",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "8",
+        "$2oa": "10",
+        "$3oa": "10"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 94678,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "ab22c5b22b85367836e9a1128efda48c6949da594e433c97032d0187ec22be05",
+      "independent_English_sha256": "890b897619ab68d8f4be743b452b206c32b1cb1895d9875e83295fa4d2a840aa",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "8",
+        "$2oa": "8",
+        "$3oa": "6"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 94974,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "cb36a1e3d09f8ac1b298fe5679cabb36572d702aa287f8b1f5d83dcb35685da0",
+      "independent_English_sha256": "86acd91c2da6f34d5fa746a5965601064a2d4f3758411603029df8fe74f863a0",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "4",
+        "$2oa": "12"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 92847,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "3303f67255637705c3381464799ffdbdd33532923a9ea5ef4c0fd6ed79601761",
+      "independent_English_sha256": "d408588df259b15cae879c5115071705982723820234ea5ed4620c77dc5db19a",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "3",
+        "$2oa": "3"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 92893,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "01d6907e84819c720edbb1333fa31068bb2560e6c0ccd9a05bb50cd63abc307e",
+      "independent_English_sha256": "e25d16e8bd88cd4a426d73e3f24abbc02b0669861dac0ded38363d5125794391",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "5"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 93058,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "1efd2380a0b5fcd8d45deba5cd050d823629320e2800b4f2527971cd79064a9c",
+      "independent_English_sha256": "a8ed705a24affb3208c9f8a2a1dc7d1f8e16c57a5d43f3dad2e40e4383ce3fb8",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "5"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 97405,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "806c2c4e465cae35fcc173f0694cfbb4c8dddd37136ec6e755f3c0c49d7f6500",
+      "independent_English_sha256": "9375c6d17ca5726c620baa4dd7e16d409f006c415a9e35f2ff1fc82c7173e5cf",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "3",
+        "$2oa": "3",
+        "$3oa": "3",
+        "$4oa": "3"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 88809,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "12f27a777cb72a740b34b200de3a8d2bee15fcc55a4f50df40e25dcec1afce34",
+      "independent_English_sha256": "86b663a3b28d8950554e43a5fa35a01ff667617b7e30beb035789e7e1eb8cc24",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "12"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 86792,
+      "field": "objective",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "e2549c5484d269e348510aac865499ccf7c65418c7a653ff3da5c1a16e3c9b4c"
+    },
+    {
+      "quest_id": 91564,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "df8503dab49fd0f23489e87b001ecd21b5eb74c702ce5493c21a37233c17c44c",
+      "independent_English_sha256": "b6ac1d0eddbed5bdd88687b12a523a5e13d12aa31f0615071d5c9170a79ffbaf",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "2",
+        "$2oa": "1"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 92189,
+      "field": "objective",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "ac5dd40334585cc91ba6950dfbe45f9ffc4e411f288ae5aee398ae730b3e050e"
+    },
+    {
+      "quest_id": 96992,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "9703503f8a6b0f184d390a44a316be7e882048c1545c38bad3e160547466c006",
+      "independent_English_sha256": "6c67406cbcaee732971d4a123de98b7e7475e3b312d845450dbb8647d770a86c",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$2oa": "6",
+        "$1oa": "30"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 92859,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "9184eec9ba5a4a5d178f5d4543581c4813478ba842cd94968fbc983e5cbbe02b",
+      "independent_English_sha256": "854e7bc5760422cc3e2dafbd0c1cae207c2b7ee39a9f8e7aa96f7e4129e6cd29",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "5",
+        "$2oa": "5"
+      },
+      "current_enabled_inventory_proven": false
+    },
+    {
+      "quest_id": 94004,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "18c99edefeb03578e5a7907d1b5846f94b1313cbebf6c39f5e3aabf4247fa640"
+    },
+    {
+      "quest_id": 94214,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "64889f6eeca2694fdba23cbf076e6062dcd1514e1cad6da93c077eec3589f5b2"
+    },
+    {
+      "quest_id": 94216,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "206621772f154c47ab536048d16f0fe4728339f5601fb953909ca4cae309c2e5"
+    },
+    {
+      "quest_id": 94217,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "37cfd24f5514b38fac88b7558441f620c49a55bd532b3ea177a91e5ffaa75252"
+    },
+    {
+      "quest_id": 94220,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "dabe6cd1c7929524175ddb3d82b454f95360755d5c1e243d7f223539a9ba1028"
+    },
+    {
+      "quest_id": 94221,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "02675ba1f1256738931c79acee5dfe6ff7c508c269302b20ffc58e66516fb0d7"
+    },
+    {
+      "quest_id": 94229,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "7375ae541323f48f622983f32a061630f995b608fecd958d8eb2bbabf30bd075"
+    },
+    {
+      "quest_id": 94234,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "a985a4ec85744bb67fc2af17d47d99be079318d52c70e393b9fbb2d3eb628bb5"
+    },
+    {
+      "quest_id": 94244,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "fcfc21629e6d53043f8e9137c1b31f9c524cc4d654923f3c2661a8dd73502b40"
+    },
+    {
+      "quest_id": 94245,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "fe6d2f8141eb03476a10a2f7698e00d3d968342de971a7fdd426a95f224a7e4b"
+    },
+    {
+      "quest_id": 94248,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "01b3803b383edc0194709c5b421c0ac4e4d1781526bb54c5342910a55dfc217b"
+    },
+    {
+      "quest_id": 94258,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "4fa666abce04a7cd9ec1a6261ddaaeb0f39503b3d18bd21234617f4d123508a3"
+    },
+    {
+      "quest_id": 94262,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "d183c51fd0fcaaa8fcad387831540f3320d0b11728393375e0a0b6e286c4bcb3"
+    },
+    {
+      "quest_id": 94272,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "db142c35f444198ca43b9a2c32b17810f3e42dd28a7e23748c4067f3ba4ce40a"
+    },
+    {
+      "quest_id": 94273,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "fe1b6e416641be3bbc44b08b9b1560798019270a77e160ce02e91e7f7c7c5b31"
+    },
+    {
+      "quest_id": 94280,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "f51cc0379cf1c39254a43f6469a1d308578540457ba15e565e8c840cfdd6f666"
+    },
+    {
+      "quest_id": 94282,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "5578b58f24b9a77569e621752a314dd2be4aa1d8be07787ae8cb27e276758954"
+    },
+    {
+      "quest_id": 94285,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "f2464d112f89d74f7a6090d94fe0b0f77197ac4c17283c706479929305c89241"
+    },
+    {
+      "quest_id": 94291,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "769f2c16dc1e2e96b031173c6cf03ad66c05f7f44ab5e755e599840fc36ac17b"
+    },
+    {
+      "quest_id": 94301,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "75e22534c1a0cc1632dcc9affc45dfb17188fc851c1e5b53238061d502adb490"
+    },
+    {
+      "quest_id": 94303,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "560844660666c0cdc841a84aeed9699f7186973b36f90934661705855fe4696b"
+    },
+    {
+      "quest_id": 94305,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "4a69d17b584f395d12b212aa06b06c369f103ce385e7e77bcc1b66aa52310b34"
+    },
+    {
+      "quest_id": 94311,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "2ee0627783d389e78621a0334a1c7c8ae420a3e89e0c35c40ca3dc2c460fcd66"
+    },
+    {
+      "quest_id": 94313,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "b240ba22188b7892e850f27ff830087931d539604916ba153caff1d49b02572f"
+    },
+    {
+      "quest_id": 94315,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "5a7e26a11fa0b48702138005ad9ffe9cca5e52fc47192c67eadf3ff98043d41e"
+    },
+    {
+      "quest_id": 94322,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "6d22123a67ae3be807703a739aefe32e0ac6ac60fcd862682e5e3659a65cd538"
+    },
+    {
+      "quest_id": 94325,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "b48b23cbe2fc6f484b9d00974ac7ff9a0602d1dfcdc92eba7daae0eb35acc95f"
+    },
+    {
+      "quest_id": 94326,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "e2cf24b73b04a25cb7d313e37878e78f939704330564a5539fad7f0b2e07ed76"
+    },
+    {
+      "quest_id": 94341,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "8612129b4abc694d8b466e7dc00446fbf98364d99a878280f00245df479f6d75"
+    },
+    {
+      "quest_id": 94342,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "5bd74bbe6057b5a3fcb9be0d52fbe2ba6569276950896dc3b63461640b54d2c4"
+    },
+    {
+      "quest_id": 94344,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "bfc6196e2d05e60e715cf7228f0bcba651efc44f05f5485d3569fed30e7557d0"
+    },
+    {
+      "quest_id": 94345,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "60d607d67f7594b3f6b81b83c3886d2b624cc941d8d6141e68a91a7cc6be8ec0"
+    },
+    {
+      "quest_id": 94348,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "4822652a8dad95691874dab2a0924deae629a5b78455caeb49f4144690e45e31"
+    },
+    {
+      "quest_id": 94351,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "053a84311c873bb2616821fded50b677472845a7e9c8013c4b0bf4b8ecb814b7"
+    },
+    {
+      "quest_id": 95818,
+      "field": "description",
+      "status": "no_ownID_samephase_body_in_these_sources",
+      "source_English_sha256": "38da969f216a44b96b9a1b0c4fd0ca78ee2014cd1928b932d77653ac7fcecdc7"
+    },
+    {
+      "quest_id": 98462,
+      "field": "objective",
+      "source": "QuestieTrace own-ID live API",
+      "blob": "b458cb4e2f262c7fa84826beea463942b8ffb160",
+      "status": "already_supported_independent_full_UI_body",
+      "source_English_sha256": "8b88dbe90bf3e23cb1d5c4d51d89da7e4bf27205af808ea39123eb1df71c3da9",
+      "independent_English_sha256": "40f12a68d89c40f5cc35c3878a538e116051e95ff72d2fd576c7b24ca49f7bf8",
+      "same_full_template_except_actual_captured_counts": true,
+      "captured_amounts": {
+        "$1oa": "5",
+        "$2oa": "5"
+      },
+      "current_enabled_inventory_proven": false
+    }
+  ],
+  "newThai": 0,
+  "newaliases": 0,
+  "runtime_changed": false,
+  "elapsed_wall_seconds": 0.20713480000085838,
+  "cpu_seconds": 0.203125,
+  "limits": [
+    "Independent numeric live API bodies need no objective-array order inference",
+    "No progress/description inferred from objective summaries",
+    "Spoken only originalText,never adapted text/voice identity substitutions",
+    "Query/trace presence not currentenabled whole-game inventory",
+    "Unmatched bodies are review candidates,NOTapproved translations"
+  ]
+}
