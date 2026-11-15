@@ -25,13 +25,23 @@
 - MAIN31 explicit sole-objective quantity proof from Stein etl/questcache.py blobab70d8f1aee3bc44538e6cbba9012855d9555bbc atbd4f36aba4894a68bb5e002fac78f010b29bd790. Onlytoken$1oa/exactlyonecurrentobjective/positiveamount<1000,no storageIndex/cross-type/order inference.115fields:114current numeric forms already supported,94898disabledexcluded. No arbitrary amount wildcard/new translation.
 - Evidence/scripts for these finite scopes are on codex/main25-source-fallback-20261115. They do not establish enabled/playable whole-game inventory. ALLnewThai fields/aliases/runtime/version/font/package changes in this investigation=0. Do not rebuild0.470 or pad a version.
 
-## Next concrete main-quest check
+## MAIN32 API and local source checks closed — no runtime change
 
-Six source-tagged raw objective templates still contain literal$1oa:91743,95773,95789,95951,97453,99143. Actual0.470probe: expanded current numbers translate; raw literal templates do not. The dataset publishes matched cache templates,NOTthe original UI copy,so this does NOT prove the game displays raw tokens or a customer bug. Read evidence/main32-raw-quantity-probe.json.
+The6raw-macro probes are NOTverified customer bugs. Exact primary UI commitbebcb6bf309cf41b41bd74f8ca651e6a105b2676 is1.60.1(70938). QuestInfo displays GetObjectiveText/GetQuestLogQuestText strings directly. QuestLog API docs provide numRequired and may return nothing,but NOobjectiveID field;never invent that field.
 
-First inspect actual Forever70938-compatible quest API/Observe paths and primary UI code to establish whether raw templates can reach this addon and how current objective numRequired is read safely. Do NOTadd aliases that freeze a source amount for a raw macro: server amounts can change while raw body stays identical,which would make static Thai counts wrong. Any bridge must validate full own-ID body and current sole-objective API data,handle unavailable/secret values by keeping English,and preserve numeric matching/Questie/Tracker/settings. If no evidence supports the raw path,retain the hold; do not manufacture a feature/version from a hypothetical bug.
+QuestieDB traceb458cb4e2f262c7fa84826beea463942b8ffb160 at4dbb82440a27856f8dccf57094a5d792cdc7cc9b independently contains all6own-ID summaries resolved to8/10/10/20/6/6. All equal current cache sole-amount expansions already supported0.470(previous probe positives reused,not rerun). QuestieTrace producer/observer atad5edc6c6e8cd48b265209c42eb7ac6a4ecef83d were independently read:direct packed quest-log API second return,privacy redacts names only,observer trims/splits lines without inserting amounts. See evidence/main32-api-raw-quantity-closure.json. Do NOTadd frozen raw aliases or a speculative API normalizer. Reopen only with an actual raw UI/API capture or changed source.
 
-Other remaining inputs need exact new evidence:multi-objective/othernumeric syntax,pipe5/adjacent names,authoritative current-enabled inventory,real Windows/MacM2 acceptance. Do not rerun these closed source scopes or unchanged11144/base-cache/MAIN25–31/Source23/NPC/books/Skill/fullfont suites without actual new input/failure.
+A distinct local source was inspected READONLY under authorized fallback:account-global ForeverThaiObserved and backup,using a literal-data parser,never executing SavedVariables Lua.22unique main forms/7IDs(allstored build70790,enUS) ALLmatch0.470 under their captured identity context;22backupduplicates skipped. Raw text/names/account paths stay private. No game control/install/settings change.
+
+During inspection SavedVariables was externally rewritten and backup rotated. The initial byte-unchanged assertion correctly failed;it is NOTa passing read-only-byte proof. A fresh stable read found ALL observed literal data and the22main forms IDENTICAL,no new sources;the22matcher checks were NOTrerun. Agent scripts read game files only. Do not claim original file bytes stayed unchanged or assert which process rewrote them. See evidence/main32-local-observed-audit.json and main32-local-observed-external-write-proof.json.
+
+NewThai fields/aliases/runtime/version/fonts/packages=0. Customer package remains0.470.0 including allSkills/fonts;next normal publication0.480.0. No build/version padding.
+
+## Remaining external input gate
+
+Checked public source/proof queues and the available local source currently offer no new corroborated main text to translate. This is the FIRSTverified impasse audit after distinct leads closed;the GOAL stays active,NOTcomplete or blocked yet. See evidence/current-main-source-gate.json. Follow host's consecutive-turn blocked threshold. Do not invent more hypothetical probes or rerun unchanged sources/suites to keep execution going.
+
+Progress on the full original goal needs changed evidence:currently-untranslated own-ID quest phases with build/private typed reader context;authoritative current enabled/eligible inventory;exact proof for remaining macro/role holds;and actual Windows/MacM2 acceptance. User previously said no additional source and not yet tested;do not repeat the same questions or treat pending tests as failure. No external messages to maintainers were authorized. Preserve allraces/classes/customcontent/mainfirst scope;do not switch to NPC/books/style cleanup merely to extend the run.
 
 ## Holds and limits
 

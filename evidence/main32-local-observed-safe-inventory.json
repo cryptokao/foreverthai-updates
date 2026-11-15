@@ -1,0 +1,659 @@
+{
+  "status": "READ_ONLY_LOCAL_OBSERVED_LITERAL_DATA_PARSED",
+  "sources": [
+    {
+      "source_index": 0,
+      "file_sha256": "de189ca796191c7ada47cc3ada3c4de38440cd52bc230a8f40020fa1c091a50a",
+      "file_bytes": 14341,
+      "backup": false,
+      "last_write_utc": "2026-11-14T16:53:36.8434317Z"
+    },
+    {
+      "source_index": 1,
+      "file_sha256": "ea8bba8b14ddb150653ac49d2c7d98733953bace924b0b8c68b47a71ad93daa6",
+      "file_bytes": 14341,
+      "backup": true,
+      "last_write_utc": "2026-11-14T09:20:49.2251459Z"
+    }
+  ],
+  "summaries": [
+    {
+      "source_index": 0,
+      "schema": 1,
+      "stored_count": 36,
+      "main_quest_ids": 7,
+      "main_fields": 22,
+      "rows": [
+        {
+          "quest_id": 458,
+          "field": "completion",
+          "index": 1,
+          "chars": 203,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97979,
+          "field": "description",
+          "index": 1,
+          "chars": 505,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97979,
+          "field": "objective",
+          "index": 1,
+          "chars": 34,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97979,
+          "field": "title",
+          "index": 1,
+          "chars": 20,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97948,
+          "field": "objective",
+          "index": 1,
+          "chars": 143,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97948,
+          "field": "title",
+          "index": 1,
+          "chars": 19,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97948,
+          "field": "description",
+          "index": 1,
+          "chars": 364,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97949,
+          "field": "objective",
+          "index": 1,
+          "chars": 168,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97949,
+          "field": "title",
+          "index": 1,
+          "chars": 21,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97949,
+          "field": "description",
+          "index": 1,
+          "chars": 502,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "title",
+          "index": 1,
+          "chars": 14,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "progress",
+          "index": 1,
+          "chars": 54,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "completion",
+          "index": 1,
+          "chars": 171,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "objective",
+          "index": 1,
+          "chars": 53,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "description",
+          "index": 1,
+          "chars": 187,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "objective",
+          "index": 1,
+          "chars": 83,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "completion",
+          "index": 1,
+          "chars": 205,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "title",
+          "index": 1,
+          "chars": 18,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "description",
+          "index": 1,
+          "chars": 429,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96634,
+          "field": "objective",
+          "index": 1,
+          "chars": 56,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96634,
+          "field": "title",
+          "index": 1,
+          "chars": 20,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96634,
+          "field": "description",
+          "index": 1,
+          "chars": 252,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        }
+      ]
+    },
+    {
+      "source_index": 1,
+      "schema": 1,
+      "stored_count": 36,
+      "main_quest_ids": 7,
+      "main_fields": 22,
+      "rows": [
+        {
+          "quest_id": 458,
+          "field": "completion",
+          "index": 1,
+          "chars": 203,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97979,
+          "field": "objective",
+          "index": 1,
+          "chars": 34,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97979,
+          "field": "title",
+          "index": 1,
+          "chars": 20,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97979,
+          "field": "description",
+          "index": 1,
+          "chars": 505,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97948,
+          "field": "title",
+          "index": 1,
+          "chars": 19,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97948,
+          "field": "description",
+          "index": 1,
+          "chars": 364,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97948,
+          "field": "objective",
+          "index": 1,
+          "chars": 143,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97949,
+          "field": "title",
+          "index": 1,
+          "chars": 21,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97949,
+          "field": "description",
+          "index": 1,
+          "chars": 502,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 97949,
+          "field": "objective",
+          "index": 1,
+          "chars": 168,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "title",
+          "index": 1,
+          "chars": 14,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "progress",
+          "index": 1,
+          "chars": 54,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "completion",
+          "index": 1,
+          "chars": 171,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "description",
+          "index": 1,
+          "chars": 187,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96630,
+          "field": "objective",
+          "index": 1,
+          "chars": 53,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "title",
+          "index": 1,
+          "chars": 18,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "completion",
+          "index": 1,
+          "chars": 205,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "description",
+          "index": 1,
+          "chars": 429,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96606,
+          "field": "objective",
+          "index": 1,
+          "chars": 83,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96634,
+          "field": "title",
+          "index": 1,
+          "chars": 20,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96634,
+          "field": "description",
+          "index": 1,
+          "chars": 252,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        },
+        {
+          "quest_id": 96634,
+          "field": "objective",
+          "index": 1,
+          "chars": 56,
+          "build": "70790",
+          "locale": "enUS",
+          "identity_keys": [
+            "class",
+            "player",
+            "race"
+          ],
+          "has_context": false
+        }
+      ]
+    }
+  ],
+  "game_install_or_control": false,
+  "source_files_modified": false,
+  "raw_player_context_published": false,
+  "upstream_code_executed": false
+}
