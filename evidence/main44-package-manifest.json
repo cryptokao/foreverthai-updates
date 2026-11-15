@@ -377,7 +377,7 @@
   },
   "ForeverThai/Fonts/Thai78.tga": {
     "bytes": 4194348,
-    "sha256": "ac96b2f2b39a98eeeb8c2d257be2db6cb70ef0520b8be7d6eab30473b0609dd1"
+    "sha256": "c004c4959d362cc455c38bd4e93ad050a9fb36a9b3cd3e6a364b48e16bbf75d8"
   },
   "ForeverThai/Fonts/Thai79.tga": {
     "bytes": 4194348,
@@ -388,16 +388,16 @@
     "sha256": "9caf56eac6c2f3aa0be9e15a3062edd6ace85748a4adee2432336881d00f5b09"
   },
   "ForeverThai/Fonts/Thai80.tga": {
-    "bytes": 4194348,
-    "sha256": "a1098845bac69a08b6ae6cbcda4c7c71ae6edc79b08ecb50cec3fda4e8f4c680"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/Fonts/Thai81.tga": {
-    "bytes": 4194348,
-    "sha256": "3deba4f84349eb2f88d51643264724f60215391e75b0ddbd1949d20e3953d004"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/Fonts/Thai82.tga": {
-    "bytes": 4194348,
-    "sha256": "b02b019cb39e3525d6c104bbcdb2e938b0868666c2e870d94ea48546ba3359f7"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/Fonts/Thai83.tga": {
     "bytes": 4194348,
@@ -413,11 +413,11 @@
   },
   "ForeverThai/Fonts/Thai86.tga": {
     "bytes": 4194348,
-    "sha256": "149018beba1b7e88eb5234baee452b6d2b9d7f541d68ab28acd678ed29ee796d"
+    "sha256": "cd2f955adb60013385cb7d1e966e573693e77fb95e494c465965ab80321210d2"
   },
   "ForeverThai/Fonts/Thai87.tga": {
-    "bytes": 4194348,
-    "sha256": "022e495ebf7d5f9bdb21b0c16ff2bc83ab643730003542baa683f59d7b537459"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/Fonts/Thai88.tga": {
     "bytes": 4194348,
@@ -425,23 +425,23 @@
   },
   "ForeverThai/Fonts/Thai89.tga": {
     "bytes": 4194348,
-    "sha256": "a57a4c9e13e8a8f694fb60b6e7c9a62b24c8cf90e56e39c1310d74be388ef805"
+    "sha256": "8d14dfb23e486430149c52f75193724e114d30ce56187b37d8bb43666ed0bee0"
   },
   "ForeverThai/Fonts/Thai9.tga": {
     "bytes": 4194348,
     "sha256": "0bf062aafd8b7729f618d04b1e709be005735391afa6886ea9344e935eef5e30"
   },
   "ForeverThai/Fonts/Thai90.tga": {
-    "bytes": 4194348,
-    "sha256": "daebfdf0c297a76a47ac70bd5d8662619094b6a297a67555e9de19eb81e55c71"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/Fonts/Thai91.tga": {
     "bytes": 4194348,
-    "sha256": "3da5dbc5ba526473dc74bc000d4f8c46b879b1d8378a7798d1fbd09ba8484102"
+    "sha256": "6844831ea5d0561746f3bda73a5a40689299e614b63d4a33951077fe6df9fc78"
   },
   "ForeverThai/Fonts/Thai92.tga": {
-    "bytes": 4194348,
-    "sha256": "0c6e0d19c0238fc38ecfbf4a738f89d0cfc6af1c4df73e1a536b64578097cc51"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/Fonts/Thai93.tga": {
     "bytes": 4194348,
@@ -460,8 +460,8 @@
     "sha256": "b6ba24a7c4e0637ed4f31f3edc59a7cf933e8b77795f3ef759ce16a7cde784a0"
   },
   "ForeverThai/Fonts/Thai97.tga": {
-    "bytes": 4194348,
-    "sha256": "16d141f6b6422762bf27648f7cf610418bf3bfe2069d3d1f51866824ae883110"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/ForeverThai.toc": {
     "bytes": 1188,
@@ -500,8 +500,8 @@
     "sha256": "adbc5d5f0444dedcc7dc9f1465772e1e46cd2ae31fe7840f0f948d6f085a4e7d"
   },
   "ForeverThai/SOURCES-TH.txt": {
-    "bytes": 435070,
-    "sha256": "7a04f6a1f14ab9a517ce3690dfd705a6872015e18e6d32795bd1407f1029e372"
+    "bytes": 435661,
+    "sha256": "60054630390dd95826e9a8804a3e9012395628c7a3253ca28abb6eec637bb8fd"
   },
   "ForeverThai/Skills/Adapter.lua": {
     "bytes": 80415,
@@ -588,8 +588,8 @@
     "sha256": "2b6d95f0211067de9e12054e4b6520e62a5609873440d5064a3deb723ae59097"
   },
   "ForeverThai/Fonts/Thai98.tga": {
-    "bytes": 4194348,
-    "sha256": "cc4392d4ec61322fd161624717d24e778181f63f969ebd3949621bd90807b332"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/MainQuest27.lua": {
     "bytes": 26331,
@@ -601,7 +601,7 @@
   },
   "ForeverThai/Fonts/Thai99.tga": {
     "bytes": 4194348,
-    "sha256": "09e1ceb9f8c426383206a098fc14b31ab50aa3d95a71c0f8cdc06b1d53c8be2c"
+    "sha256": "e35bee2e12f29b4a7a476824607db69e36ec57c75f2e5e6a8eb26ff578fb631e"
   },
   "ForeverThai/MainQuest28.lua": {
     "bytes": 25108,
@@ -613,7 +613,7 @@
   },
   "ForeverThai/Fonts/Thai100.tga": {
     "bytes": 4194348,
-    "sha256": "a290809dc2ccaf673360dac5744fdb4955c1b242ee5b80b01bb0034ac0b8ef62"
+    "sha256": "18fbb07d60381685a3bde237ea82c7da84d5314da493e2e2195565cd4e15de6d"
   },
   "ForeverThai/MainQuest33.lua": {
     "bytes": 345,
@@ -628,8 +628,8 @@
     "sha256": "78793fc8caf4d880baf0dc2f38ebf9014147380c2f373c502ea12e05c8370d61"
   },
   "ForeverThai/Fonts/Thai101.tga": {
-    "bytes": 4194348,
-    "sha256": "f98633b65005596d01d7f0b5de906fb9a71fa7967943363f9d2d0f531fd1f20a"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/MainQuest36.lua": {
     "bytes": 7850,
@@ -640,8 +640,8 @@
     "sha256": "60d6411d4856732578f8f30ea748f425981d587811123e63fa7834438571751e"
   },
   "ForeverThai/Fonts/Thai102.tga": {
-    "bytes": 4194348,
-    "sha256": "4c8b08df9be93459e4122b0f9fc25baa2c4255c2c88c1437e876d07db97721d7"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/MainQuest38.lua": {
     "bytes": 36828,
@@ -664,8 +664,8 @@
     "sha256": "09658e81091915341b966208ee1b3eb505b725f37eac1bf1e3baae3c4c965672"
   },
   "ForeverThai/Fonts/Thai104.tga": {
-    "bytes": 4194348,
-    "sha256": "c1787ea01f3d094fb58630bc3fa0b4912f0768513c6c738b2835e11ebc5983ca"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/MainQuest40.lua": {
     "bytes": 1364,
@@ -676,8 +676,8 @@
     "sha256": "5ef574814b1ae6df5ee38fe6a9def84454cbbe3a3730ccf7e7b840ca0a748dca"
   },
   "ForeverThai/Fonts/Thai105.tga": {
-    "bytes": 4194348,
-    "sha256": "0a3e034497e83a400cdc91ab8a662a0aad8394ad7e860bf540e3ba5a69536c6a"
+    "bytes": 48,
+    "sha256": "a09b9563db8faa1c8e419dbd55d8027a7a6d33aa78e4329f00daa1dc591a82d6"
   },
   "ForeverThai/MainQuest41.lua": {
     "bytes": 5994,
@@ -689,7 +689,7 @@
   },
   "ForeverThai/Fonts/Thai106.tga": {
     "bytes": 4194348,
-    "sha256": "fce5f066eca8b93ef4f8a9ae6c85a26191bc000bcaba635cd7643962161b9bb7"
+    "sha256": "7cef01a18924346965d03a46b561680b2207815e3aae3e5d26853d8265b88c83"
   },
   "ForeverThai/MainQuest42.lua": {
     "bytes": 53166,
@@ -728,23 +728,7 @@
     "sha256": "7db99f07746fff6a9ca2ab0ac777baa3bad35c9f4f22a0c106f14c13f99ba361"
   },
   "ForeverThai/AtlasMain44.lua": {
-    "bytes": 340415,
-    "sha256": "1194fe8276d4dd3082e93d38b92941af54356d0f68d8e3f21f700e19d1563d75"
-  },
-  "ForeverThai/Fonts/Thai111.tga": {
-    "bytes": 4194348,
-    "sha256": "75611cd91a4ba2d037992b5f25ca1da9399272af06c52c65ef8012e039f023df"
-  },
-  "ForeverThai/Fonts/Thai112.tga": {
-    "bytes": 4194348,
-    "sha256": "ccd53ef8d7b60fb70a9fee9f34ba79688d46062dc0bd1943e4f9f0ef6c9c158d"
-  },
-  "ForeverThai/Fonts/Thai113.tga": {
-    "bytes": 4194348,
-    "sha256": "6b96e1545a9ebfefd3f4eaace81d2283839a829ae5ad4624390fda449e54f3ed"
-  },
-  "ForeverThai/Fonts/Thai114.tga": {
-    "bytes": 4194348,
-    "sha256": "0fecd089e509fa3dc767dacc0a72d3acced3ed8abc8e16279b8d64819c0bdcf0"
+    "bytes": 633324,
+    "sha256": "9c4f63b630189c58a25d4724ef02e79f426984fa984f8c0ec706621473aed6dc"
   }
 }
