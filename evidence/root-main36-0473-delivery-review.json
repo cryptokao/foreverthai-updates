@@ -1,0 +1,19 @@
+{
+  "status": "DELIVERED_PRIVATE_0473_MAIN36",
+  "source_branch": "codex/main25-source-fallback-20261115",
+  "source_head": "857742b16bb8048a0f072201d1ad199ee326bdd0",
+  "runtime": "26d2af8a7944ba7d2b4e9b984e93e005fd242629",
+  "artifact": "65d7757dfced38ef66fcc37ca959a423d1aca851",
+  "supported_new_fields_or_variants": 13,
+  "new_Thai_fields": 10,
+  "verbatim_reviewed_reuse": 3,
+  "quest_ids": 8,
+  "complete_quests_claimed": 0,
+  "all_modules_preserved": true,
+  "all161runtime_blobs_equal_ZIP": true,
+  "all3artifacts_download_back_exact_bytes": true,
+  "customer_published": false,
+  "next_normal_customer": "0.480.0",
+  "goal_complete": false,
+  "real_Windows_MacM2_acceptance": false
+}
