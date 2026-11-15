@@ -1,0 +1,18 @@
+{
+  "batch": "MAIN35",
+  "status": "PASSED_FOUR_NEW_LITERAL_OBJECTIVE_FIELDS",
+  "positive": 32,
+  "negative": 96,
+  "wrong_routes": 32,
+  "new_Thai_fields": 4,
+  "new_supported_fields": 4,
+  "quest_ids": 4,
+  "complete_quests_claimed": 0,
+  "overlay_sha256": "1501b8e638c8c1245e80bdc915b22763cd56f9dd9fdb84fcd9f6c910be9b1258",
+  "old_entire_quests_except_new_slots_preserved": true,
+  "protected_quests_preserved": true,
+  "real_game_verified": false,
+  "elapsed_wall_seconds": 0.5817903999995906,
+  "cpu_seconds": 0.578125,
+  "initial_helper_note": "Initial escaped-whitespace signature helper was rejected before any overlay;fixed and ASCII byte-length invariant added;this check validates full original English against actual matcher"
+}

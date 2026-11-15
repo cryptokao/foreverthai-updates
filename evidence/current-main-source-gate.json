@@ -1,17 +1,16 @@
 {
-  "status": "DISTINCT_SOURCE_FRONTIER_PROGRESS_GOAL_ACTIVE",
-  "batch": "MAIN34",
+  "status": "FOUR_REAL_NEW_OBJECTIVE_TRANSLATIONS_SOURCE_CHECKS_PASS_BITMAP_PACKAGE_PENDING",
+  "batch": "MAIN35",
   "consecutive_impasse_goal_turns": 0,
   "blocked_threshold_met": false,
   "goal_marked_blocked": false,
-  "new_Thai_fields": 0,
-  "new_aliases": 0,
-  "runtime_changed": false,
-  "private_package": "0.471.0",
-  "customer_package": "0.470.0",
+  "new_Thai_fields": 4,
+  "new_supported_fields": 4,
+  "complete_quests_claimed": 0,
+  "latest_delivered_private": "0.471.0",
+  "latest_customer": "0.470.0",
   "next_normal_publication": "0.480.0",
-  "next_safe_action": "Inspect distinct uninspected level11-20 primary source acquisition queue:157IDs/162actualnil progress-completion slots;do not repeat179lowlevel pages/10completion lookups",
-  "not_missing_text_or_wholegame_count": true,
+  "next_safe_action": "Integrate only3newwordbitmaps/2runs,build combined private0.472 withallSkills/fonts,verify immutable source/artifact transport",
   "real_game_acceptance": false,
-  "closed_lowlevel_scope": "174no published progress sections,5access unavailable;10no published completion sections;not live phase absence"
+  "whole_game_denominator": false
 }

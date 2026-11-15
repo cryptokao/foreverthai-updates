@@ -1,0 +1,38 @@
+[
+  {
+    "quest_id": 96075,
+    "field": "objective",
+    "title": "In Demand - Blackrock Legal Records",
+    "level": 60,
+    "english": "Acquire Nefarian's Remit from General Drakkisath in Blackrock Spire, Overseer's License from Overlord Wyrmthalak in Blackrock Spire, and Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths, and bring them to Pix Xizzix in Booty Bay.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 96087,
+    "field": "objective",
+    "title": "In Demand - Plague Records",
+    "level": 60,
+    "english": "Acquire Headmaster's Records from Darkmaster Gandling, Grain Shipment Orders from Baron Rivendare, and Dathrohan's Correspondence from Grand Crusader Saidan Dathrohan, and bring them to Pix Xizzix in Booty Bay.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 96088,
+    "field": "objective",
+    "title": "In Demand - Titan Relics",
+    "level": 60,
+    "english": "Acquire Ysera's Tear from the Shade of Eranikus in the Sunken Temple, a Mark of Xavius from Varrox Bleakhoof in Blackmaw Hold, and Freya's Sigil from Nanaya in the Shaper's Terrace, and bring them to Pix Xizzix in Booty Bay.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 99217,
+    "field": "objective",
+    "title": "An Epic Ride",
+    "level": 60,
+    "english": "Inspect the armored riding kodos to choose your epic mount.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "run": "จาก",
+    "existing_full_run": true,
+    "words": [
+      "จาก"
+    ],
+    "word_runs_present": {
+      "จาก": true
+    }
+  },
+  {
+    "run": "ตรวจดูโคโดหุ้มเกราะเพื่อเลือกพาหนะระดับมหากาพย์ของเจ้า",
+    "existing_full_run": false,
+    "words": [
+      "ตรวจดู",
+      "โคโด",
+      "หุ้มเกราะ",
+      "เพื่อ",
+      "เลือก",
+      "พาหนะ",
+      "ระดับ",
+      "มหากาพย์",
+      "ของ",
+      "เจ้า"
+    ],
+    "word_runs_present": {
+      "ตรวจดู": true,
+      "โคโด": true,
+      "หุ้มเกราะ": false,
+      "เพื่อ": true,
+      "เลือก": true,
+      "พาหนะ": false,
+      "ระดับ": true,
+      "มหากาพย์": false,
+      "ของ": true,
+      "เจ้า": true
+    }
+  },
+  {
+    "run": "ที่",
+    "existing_full_run": true,
+    "words": [
+      "ที่"
+    ],
+    "word_runs_present": {
+      "ที่": true
+    }
+  },
+  {
+    "run": "รวบรวม",
+    "existing_full_run": true,
+    "words": [
+      "รวบรวม"
+    ],
+    "word_runs_present": {
+      "รวบรวม": true
+    }
+  },
+  {
+    "run": "และ",
+    "existing_full_run": true,
+    "words": [
+      "และ"
+    ],
+    "word_runs_present": {
+      "และ": true
+    }
+  },
+  {
+    "run": "แล้วนำทั้งหมดไปให้",
+    "existing_full_run": false,
+    "words": [
+      "แล้ว",
+      "นำ",
+      "ทั้งหมด",
+      "ไป",
+      "ให้"
+    ],
+    "word_runs_present": {
+      "แล้ว": true,
+      "นำ": true,
+      "ทั้งหมด": true,
+      "ไป": true,
+      "ให้": true
+    }
+  },
+  {
+    "run": "ใน",
+    "existing_full_run": true,
+    "words": [
+      "ใน"
+    ],
+    "word_runs_present": {
+      "ใน": true
+    }
+  }
+]

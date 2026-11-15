@@ -1,0 +1,58 @@
+[
+  {
+    "quest_id": 96075,
+    "field": "objective",
+    "title": "In Demand - Blackrock Legal Records",
+    "level": 60,
+    "english": "Acquire Nefarian's Remit from General Drakkisath in Blackrock Spire, Overseer's License from Overlord Wyrmthalak in Blackrock Spire, and Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths, and bring them to Pix Xizzix in Booty Bay.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true,
+    "expected_dynamic_signature": "253:216259650:1576876786",
+    "english_sha256": "2c597ee7ca76ca41db9eb4258a78c09a26fc3ee0561eaef74a3c65a412ec0aed",
+    "reuse_candidates": [],
+    "no_identity_or_quantity_macro": true,
+    "entire_source_read": true
+  },
+  {
+    "quest_id": 96087,
+    "field": "objective",
+    "title": "In Demand - Plague Records",
+    "level": 60,
+    "english": "Acquire Headmaster's Records from Darkmaster Gandling, Grain Shipment Orders from Baron Rivendare, and Dathrohan's Correspondence from Grand Crusader Saidan Dathrohan, and bring them to Pix Xizzix in Booty Bay.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true,
+    "expected_dynamic_signature": "210:1547182205:1253971353",
+    "english_sha256": "fc62d67f25ae5c330ff96a8d29336734648601da01ae17fc319e3d835737bac5",
+    "reuse_candidates": [],
+    "no_identity_or_quantity_macro": true,
+    "entire_source_read": true
+  },
+  {
+    "quest_id": 96088,
+    "field": "objective",
+    "title": "In Demand - Titan Relics",
+    "level": 60,
+    "english": "Acquire Ysera's Tear from the Shade of Eranikus in the Sunken Temple, a Mark of Xavius from Varrox Bleakhoof in Blackmaw Hold, and Freya's Sigil from Nanaya in the Shaper's Terrace, and bring them to Pix Xizzix in Booty Bay.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true,
+    "expected_dynamic_signature": "224:276163498:1251445746",
+    "english_sha256": "7e9027a6b493cee5a90963e2c008b16e7aeb788c3fb0772da6760ae9c4f36040",
+    "reuse_candidates": [],
+    "no_identity_or_quantity_macro": true,
+    "entire_source_read": true
+  },
+  {
+    "quest_id": 99217,
+    "field": "objective",
+    "title": "An Epic Ride",
+    "level": 60,
+    "english": "Inspect the armored riding kodos to choose your epic mount.",
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true,
+    "expected_dynamic_signature": "59:1451828752:1995723374",
+    "english_sha256": "fa486fef1feb1e4dd7f916b9f12054ef6d54596ad7755037fa208246d24f1257",
+    "reuse_candidates": [],
+    "no_identity_or_quantity_macro": true,
+    "entire_source_read": true
+  }
+]
