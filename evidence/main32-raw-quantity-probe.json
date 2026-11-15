@@ -1,0 +1,57 @@
+{
+  "status": "RAW_TEMPLATE_PROBE_ONLY_NO_UI_DISPLAY_CLAIM",
+  "forms": 6,
+  "rows": [
+    {
+      "quest_id": 91743,
+      "field": "objective",
+      "raw_template_supported": false,
+      "raw_template_Thai_equals_current_amount_Thai": false,
+      "current_amount": 8,
+      "expanded_Thai_sha256": "a4c11c98febab05035f1b05a9a8e7f4b0e2d0c0d89994dd41af1198fb6dd0ad0"
+    },
+    {
+      "quest_id": 95773,
+      "field": "objective",
+      "raw_template_supported": false,
+      "raw_template_Thai_equals_current_amount_Thai": false,
+      "current_amount": 10,
+      "expanded_Thai_sha256": "da96b374b6c6019100c6b224f2d27558fbe77c56973189028a255ad868029da0"
+    },
+    {
+      "quest_id": 95789,
+      "field": "objective",
+      "raw_template_supported": false,
+      "raw_template_Thai_equals_current_amount_Thai": false,
+      "current_amount": 10,
+      "expanded_Thai_sha256": "e3ba2a26c8421d3bce595cdb091c2313c1b620a4ef4c0c483910190cedef6abd"
+    },
+    {
+      "quest_id": 95951,
+      "field": "objective",
+      "raw_template_supported": false,
+      "raw_template_Thai_equals_current_amount_Thai": false,
+      "current_amount": 20,
+      "expanded_Thai_sha256": "6a486b859e28f7ab3d67d1b2c30712db17ae9126cb5d2d869e23f8ca968f85a7"
+    },
+    {
+      "quest_id": 97453,
+      "field": "objective",
+      "raw_template_supported": false,
+      "raw_template_Thai_equals_current_amount_Thai": false,
+      "current_amount": 6,
+      "expanded_Thai_sha256": "9d6b7ef8e2363ed78309bbec962bb49423f8f5af68141ec6357464eb76c4ca27"
+    },
+    {
+      "quest_id": 99143,
+      "field": "objective",
+      "raw_template_supported": false,
+      "raw_template_Thai_equals_current_amount_Thai": false,
+      "current_amount": 6,
+      "expanded_Thai_sha256": "d252b9e0a1b3140ec1ec3e8ef7220953dcc694cae8a216d5afdeca8f6991ce03"
+    }
+  ],
+  "new_translation_count": 0,
+  "runtime_changed": false,
+  "interpretation": "Dataset publishes matched raw cache template,not actual resolved UI copy. Probe raw API literal separately; no claim UI displayed raw token."
+}

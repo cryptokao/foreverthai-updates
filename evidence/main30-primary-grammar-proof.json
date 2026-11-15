@@ -1,0 +1,46 @@
+{
+  "status": "NEW_STRUCTURE_PROOF_APPLIED_NO_NEW_TRANSLATION",
+  "query_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "query_blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+  "primary_format_code": {
+    "repository": "rusty-key/spoken-wow",
+    "pin": "ecbd06b379a4b30048c5139f10fa379430d840a0",
+    "paths": [
+      {
+        "path": "pipelines/lib/player-words.mjs",
+        "blob": "56ee7a63a486651644776981e351f1c5bf59b45e",
+        "lines": [
+          85,
+          87,
+          136,
+          137
+        ]
+      },
+      {
+        "path": "pipelines/quests/tts_cli/tts_utils.py",
+        "blob": "c43ea8eab801efb763c4921a644f6725d5e91063",
+        "lines": [
+          27,
+          28,
+          30,
+          31
+        ]
+      }
+    ]
+  },
+  "scope": "G/g colon-semicolon alternative grammar explicit in both primary implementations. Compare both full source alternatives;no addon sex/condition dispatch and no orientation inferred from story.",
+  "conditional98391": {
+    "pointer": "/quests/98391/conditionalDescriptions/0/text",
+    "first_literal_alternative": "sister",
+    "second_literal_alternative": "fellow priest",
+    "both_supported_by_0470": true,
+    "Thai_prefixes_reviewed": [
+      "ภคินี",
+      "เพื่อนนักบวช"
+    ],
+    "prior_syntax_hold_resolved": true,
+    "actual_player_condition_or_gender_eligibility_verified": false
+  },
+  "all30_qualified_branches_already_supported": true,
+  "old_runtime_changed": false
+}

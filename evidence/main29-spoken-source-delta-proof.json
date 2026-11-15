@@ -1,0 +1,16 @@
+{
+  "status": "CLOSED_NO_NOVEL_OWN_ID_PHASE_ORIGINAL_TEXT",
+  "old_pin": "2d4117372b4a4bf838c2f846b7ddc4c87dbc84ca",
+  "new_pin": "ecbd06b379a4b30048c5139f10fa379430d840a0",
+  "old_lines": 21132,
+  "new_lines": 21132,
+  "uniqueOldSourceTuples": 16455,
+  "uniqueNewSourceTuples": 16455,
+  "novelOwnIdSourceBodies": 0,
+  "removedOwnIdSourceBodies": 0,
+  "novelIncludingTitle": 0,
+  "lineIdNotUnique": true,
+  "warning": "Initial148lineId keyed discrepancies were diagnostic collisions,not proof of new body changes. Full own-ID/phase/originalText set comparison is authoritative.",
+  "new_Thai_fields": 0,
+  "matcher_runs": 0
+}

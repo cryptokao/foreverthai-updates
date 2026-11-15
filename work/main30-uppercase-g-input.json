@@ -1,0 +1,276 @@
+{
+  "batch": "MAIN30",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "grammar_proof": {
+    "repository": "rusty-key/spoken-wow",
+    "pin": "ecbd06b379a4b30048c5139f10fa379430d840a0",
+    "sources": [
+      "pipelines/lib/player-words.mjs",
+      "pipelines/quests/tts_cli/tts_utils.py"
+    ],
+    "blobs": [
+      "56ee7a63a486651644776981e351f1c5bf59b45e",
+      "c43ea8eab801efb763c4921a644f6725d5e91063"
+    ],
+    "interpretation": "G and g share colon-semicolon alternatives in two primary producer implementations. Add both full literal source branches. Do not dispatch by UnitSex or infer playerConditionId eligibility/reader sex from narrative."
+  },
+  "rows": [
+    {
+      "quest_id": 1780,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "The Tome of Divinity",
+      "level": 13,
+      "english": "I'll take these to the children this very day. Please be safe, good $c. It is not often $G men:women; of your character show their faces in the city, but you've proven that the paladins here in Stormwind shall never turn their backs on those in need.$B$BFarewell.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1780/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 2742,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Rin'ji is Trapped!",
+      "level": 47,
+      "english": "Hey $r!$B$BRin'ji lost axe and was captured! Please, help Rin'ji escape. Me know that $r like you don't like Rin'ji's kind, but Rin'ji begs! Must get out of here!$B$BGot something for nice $r if $Ghe helps Rin'ji out of here:she helps Rin'ji out of here;...$B$BRin'ji is hiding something secret at the Overlook Cliffs.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2742/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 2981,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Threat in Feralas",
+      "level": 43,
+      "english": "Feralas is an ideal location for an accomplished $c to prove $Ghimself:herself;. A tribe of ogres called the Gordunni are the dominant military force there, and their numbers are growing. They must be stopped before they threaten our presence in Feralas.$B$BA warrior I know of named Rok Orhan resides at Camp Mojache in Feralas; go to her. She will tell you more of the situation when you arrive.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2981/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false
+    },
+    {
+      "quest_id": 2998,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Tome of Divinity",
+      "level": 12,
+      "english": "Greetings, $Gbrother:sister;. Duthorian Rall, one of our most influential paladins, was speaking about you recently. I overheard him talking about how it was time you be put to the test some... along with some very complimentary things about how well you've performed thus far.$B$BIf I were you, I'd head to Stormwind and speak to him when you have time. I'm sure he's in the Cathedral of Light--that's where he spends most of his time.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2998/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 4861,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Enraged Wildkin",
+      "level": 59,
+      "english": "Hey there, $Glad:lass;! I was chased from my camp in southern Winterspring by some bloodthirsty wildkin! Well, I suppose I got too close to something the wildkin were guarding.$B$BI barely managed to get away safely; I fear a buddy of mine wasn't as lucky. Would you mind braving the wildkin and heading to the camp? I really need my supplies, and I'd also like to get back the amulet I unearthed yesterday at the dig site.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4861/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 6064,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Taming the Beast",
+      "level": 10,
+      "english": "Hi there, $Glad:lass;! So, you'd be wanting to know how you can gain a pet of your own?$B$BWell, let's get started. There's nothing more important than yer equipment when it comes to hunting, but we can chat about my new Shrapnel Blaster some other time. Fer now, let's focus on something I'm sure you're quite interested in: a pet!$B$BThe best way to learn is for you to try out several creatures as companions and see what ya like. So, find a large crag boar, then use the taming rod to tame it.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6064/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 6086,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Training the Beast",
+      "level": 10,
+      "english": "$n, ya now have the power to tame a pet, but you must also gain the skills ta train it.$B$BTravel to Ironforge and find the Hall of Arms. There you must speak to one of our most revered animal trainers, Belia Thundergranite. She'll give ya the power to train your new pet, so get goin', $Glad:lass;!$B$BBelia is a friendly sort; you should have no problems gaining her approval. Good luck, $n.\r\n",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6086/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 7638,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Lord Grayson Shadowbreaker",
+      "level": 60,
+      "english": "The time has come, $n, for you to learn about what it will take for you to acquire something you have no doubt waited on for some time... your charger.$B$BSpeak with Lord Grayson Shadowbreaker here in Stormwind's Cathedral District.  It is he who will guide you not only though the legerdemain of a Paladin's most trusted mount, but the tasks before you to acquire one of your own.$B$BI wish you the best in this trial.  For the Light, noble $G brother : sister;!",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7638/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 7670,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Lord Grayson Shadowbreaker",
+      "level": 60,
+      "english": "The time has come, $n, for you to learn about what it will take for you to acquire something you have no doubt waited on for some time... your charger.$B$BSpeak with Lord Grayson Shadowbreaker in Stormwind's Cathedral District.  It is he who will guide you not only though the legerdemain of a Paladin's most trusted mount, but the tasks before you to acquire one of your own.$B$BI wish you the best in this trial.  For the Light, noble $G brother : sister;!",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7670/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 92109,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "My First Alchemy Set",
+      "level": 10,
+      "english": "Erm... 'Ello, $Gmister:miss;. I'm not supposed to talk to strangers, but... Hey, what are those shiny bottles sticking out of your backpack for? Are you an alchemist? That's so cool!\r\n\r\nWhen I grow up, I want to be an alchemist too. Daddy won't let me play with any of his herbs; too dangerous, he says.\r\n\r\nWell, I want to start learning now. Could you maybe get some supplies for me, pretty please?",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/92109/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 95943,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Foreman's Plight",
+      "level": 38,
+      "english": "G'day, $Glad:lass;. Name's Bertrand, Bertrand Ironbrow! At yer service.\r\n\r\n<Bertrand extends a filthy hand.>\r\n\r\nThese fine folk contracted me tae oversee construction of this here keep. What they lack in experience they make up for in spirit! Problem is, I misplaced me tools.\r\n\r\nHad a bit of a run in with a few Twilight in a small grove northwest o' here. Had to choose between me life or me tools. On one hand, I'm alive. On the other... ye see where this is goin'.\r\n\r\nThink ye could help find me tools?",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/95943/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false
+    },
+    {
+      "quest_id": 95951,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Fetch 'n' Fletch",
+      "level": 38,
+      "english": "'Ey boss-$Gmon:lady;, ya need help from ol' Tan'jani? Don't worry about it, I fix you up good.\r\n\r\nOrcs be good at hittin' humans with axes, but when you wanna stick 'em before dey see ya comin', that's when you call on the headhunters. You wanna learn to stick 'em too? I see it in your eyes, heheh.\r\n\r\nFirst we get you your own spears. Dis one's mine. Go to the human camp to de west and take their wood. Take knife with ya. You can sharpen their lumber into good spears for stickin'. Den bring 'em back.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/95951/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 97174,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Worthy Endeavor",
+      "level": 60,
+      "english": "The time has come, $n. As in life, paladins of the Forsaken are not complete until they are able to form a bond with a charger. This is no ordinary steed, this is a powerful spirit of retribution. $B$BSpeak with Danitha Morr at Bandarion Keep to learn more. She will guide you on what to do next. The road before you will be difficult, but as our orc allies like to say--blood and thunder $G brother : sister;!",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/97174/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 98190,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Friend of the Family",
+      "level": 25,
+      "english": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\r\n\r\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\r\n\r\nDon't bother going up the chain of command on this one, $Glad:lass;. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/98190/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    },
+    {
+      "quest_id": 98391,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "The Sisterhood of Elune",
+      "level": 10,
+      "english": "Blessings to you, $Gsister:fellow priest;. Our Sisterhood of Elune has stood as a pillar of kaldorei society for thousands of years.\r\n\r\nBefore the Great Sundering, before the War of the Ancients, through the Long Vigil, we have guided and healed our people through the darkness. Such is our charge, and such is the demand of the peerless Mother Moon.\r\n\r\nWe now require your aid in a matter of great importance. Sister Aquinne awaits your arrival in Darnassus.",
+      "conditional": true,
+      "playerConditionId": 161157,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/98391/conditionalDescriptions/0/text"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true
+    }
+  ]
+}

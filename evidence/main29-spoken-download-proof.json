@@ -1,0 +1,36 @@
+[
+  {
+    "label": "new",
+    "pin": "ecbd06b379a4b30048c5139f10fa379430d840a0",
+    "compressed_bytes": 2642369,
+    "decoded_bytes": 20037884,
+    "git_blob": "2408451f381a86b74f6e664c9e515b6757e3fa2e",
+    "type": "dict",
+    "keys": [
+      "schemaVersion",
+      "producedBy",
+      "generatedAt",
+      "lineCount",
+      "lines",
+      "spawns",
+      "npcs"
+    ]
+  },
+  {
+    "label": "old",
+    "pin": "2d4117372b4a4bf838c2f846b7ddc4c87dbc84ca",
+    "compressed_bytes": 2642385,
+    "decoded_bytes": 20062939,
+    "git_blob": "3c6e35c78f2f8a83087ffc30ce05b44030346dbf",
+    "type": "dict",
+    "keys": [
+      "schemaVersion",
+      "producedBy",
+      "generatedAt",
+      "lineCount",
+      "lines",
+      "spawns",
+      "npcs"
+    ]
+  }
+]

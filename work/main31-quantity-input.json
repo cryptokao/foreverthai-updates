@@ -1,0 +1,4272 @@
+{
+  "batch": "MAIN31",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "rows": [
+    {
+      "quest_id": 484,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 22,
+      "title": "Young Crocolisk Skins",
+      "objective": {
+        "amount": 6,
+        "id": 380162,
+        "objectId": 3397,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Obtain 6 Young Crocolisk Skins for James Halloran in Menethil Harbor.",
+      "raw_english": "Obtain $1oa Young Crocolisk Skins for James Halloran in Menethil Harbor.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/484/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 380162,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 490,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Bounty: Gnarlpine Furbolg",
+      "objective": {
+        "amount": 15,
+        "id": 380608,
+        "objectId": 5220,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Shayla Nightbreeze on the road outside of Darnassus wants you to bring her 15 Gnarlpine Fangs.",
+      "raw_english": "Shayla Nightbreeze on the road outside of Darnassus wants you to bring her $1oa Gnarlpine Fangs.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/490/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 380608,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 3842,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 47,
+      "title": "A Short Incubation",
+      "objective": {
+        "amount": 2,
+        "id": 383215,
+        "objectId": 3825,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 2 Elixirs of Lesser Fortitude to Quentin in Thousand Needles.",
+      "raw_english": "Bring $1oa Elixirs of Lesser Fortitude to Quentin in Thousand Needles.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/3842/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 2,
+        "objective_count": 1,
+        "objective_id": 383215,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 86576,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 26,
+      "title": "Bloodfury Trinkets",
+      "objective": {
+        "amount": 15,
+        "id": 475779,
+        "objectId": 277936,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 15 Glittering Sunstones to Mor'rogal.",
+      "raw_english": "Bring $1oa Glittering Sunstones to Mor'rogal.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86576/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 475779,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 86616,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 48,
+      "title": "Repurposed Totems",
+      "objective": {
+        "amount": 12,
+        "id": 476742,
+        "objectId": 279225,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 12 Vilebranch Totems back to Maret Firetend.",
+      "raw_english": "Bring $1oa Vilebranch Totems back to Maret Firetend.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86616/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 476742,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 86620,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 51,
+      "title": "Fledgling Rescue",
+      "objective": {
+        "amount": 6,
+        "id": 476754,
+        "objectId": 279229,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 6 Lost Gryphon Eggs for Gryphon Master Talonaxe.",
+      "raw_english": "Collect $1oa Lost Gryphon Eggs for Gryphon Master Talonaxe.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86620/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 476754,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 87288,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 7,
+      "title": "Soft Saber Pelts",
+      "objective": {
+        "amount": 6,
+        "id": 477074,
+        "objectId": 280087,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 6 Soft Nightsaber Pelts to Aldria.",
+      "raw_english": "Bring $1oa Soft Nightsaber Pelts to Aldria.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/87288/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 477074,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 87295,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 52,
+      "title": "Deflective Surface",
+      "objective": {
+        "amount": 10,
+        "id": 477137,
+        "objectId": 280181,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 10 Redstone Basilisk Scales to Bernie Heisten.",
+      "raw_english": "Bring $1oa Redstone Basilisk Scales to Bernie Heisten.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/87295/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 477137,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 87492,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 55,
+      "title": "Uncanny Crystal",
+      "objective": {
+        "amount": 1,
+        "id": 477374,
+        "objectId": 280417,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 1 Damaged Blue Crystal back to Torwa Pathfinder.",
+      "raw_english": "Bring $1oa Damaged Blue Crystal back to Torwa Pathfinder.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/87492/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 1,
+        "objective_count": 1,
+        "objective_id": 477374,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 88756,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 31,
+      "title": "Bring Back a Bang",
+      "objective": {
+        "amount": 3,
+        "id": 477543,
+        "objectId": 280806,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 3 Stolen Explosives from the Dark Iron Dwarf camps.",
+      "raw_english": "Retrieve $1oa Stolen Explosives from the Dark Iron Dwarf camps.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/88756/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 3,
+        "objective_count": 1,
+        "objective_id": 477543,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 89013,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 48,
+      "title": "Gettin' Buzzed",
+      "objective": {
+        "amount": 5,
+        "id": 459525,
+        "objectId": 238503,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 5 Wild Honey from Wasp Nests using Berdun's Pellet Gun.",
+      "raw_english": "Gather $1oa Wild Honey from Wasp Nests using Berdun's Pellet Gun.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/89013/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 459525,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 90865,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Eyes of the Watchers",
+      "objective": {
+        "amount": 8,
+        "id": 472683,
+        "objectId": 273322,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 8 Watcher's Eyes for Eluneth.",
+      "raw_english": "Retrieve $1oa Watcher's Eyes for Eluneth.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/90865/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 472683,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 90902,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 2,
+      "title": "Rediscovering the Light",
+      "objective": {
+        "amount": 5,
+        "id": 461780,
+        "objectId": 259377,
+        "storageIndex": 0,
+        "text": "Injured Deathguard healed",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Heal 5 Injured Deathguard with your Holy Light ability.",
+      "raw_english": "Heal $1oa Injured Deathguard with your Holy Light ability.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/90902/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 461780,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 91608,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 48,
+      "title": "Gettin' Buzzed",
+      "objective": {
+        "amount": 5,
+        "id": 463106,
+        "objectId": 238503,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 5 Wild Honey from Wasp Nests using Kurll's Pellet Gun.",
+      "raw_english": "Gather $1oa Wild Honey from Wasp Nests using Kurll's Pellet Gun.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91608/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 463106,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 91743,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 2,
+      "title": "Rascally Rodents",
+      "objective": {
+        "amount": 8,
+        "id": 463359,
+        "objectId": 247839,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 8 Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton.",
+      "raw_english": "Retrieve $1oa Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91743/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 463359,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 91754,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Rub Some Dirt In It",
+      "objective": {
+        "amount": 6,
+        "id": 463376,
+        "objectId": 247889,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 6 samples of Untainted Soil from around the foothills of Mount Hyjal.",
+      "raw_english": "Collect $1oa samples of Untainted Soil from around the foothills of Mount Hyjal.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91754/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 463376,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 91755,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Leaves to Ligatures",
+      "objective": {
+        "amount": 12,
+        "id": 463378,
+        "objectId": 247892,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 12 Verdant Leaves from Tainted Shrubbery in the foothills of Mount Hyjal.",
+      "raw_english": "Collect $1oa Verdant Leaves from Tainted Shrubbery in the foothills of Mount Hyjal.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91755/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 463378,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 92014,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Fox Hole",
+      "objective": {
+        "amount": 9,
+        "id": 473383,
+        "objectId": 274586,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Return 9 Rustleaf Fox Tails to Johun \"Punchy\" Dillas in Hyjal.",
+      "raw_english": "Return $1oa Rustleaf Fox Tails to Johun \"Punchy\" Dillas in Hyjal.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92014/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 9,
+        "objective_count": 1,
+        "objective_id": 473383,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 92421,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 22,
+      "title": "Light's Justice",
+      "objective": {
+        "amount": 25,
+        "id": 473553,
+        "objectId": 268580,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 25 Intact Limbs within The Ruins of Lordaeron for Morbin Lightbane in the Undercity.",
+      "raw_english": "Collect $1oa Intact Limbs within The Ruins of Lordaeron for Morbin Lightbane in the Undercity.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92421/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 25,
+        "objective_count": 1,
+        "objective_id": 473553,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 92594,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Kindling, Kinda",
+      "objective": {
+        "amount": 15,
+        "id": 465184,
+        "objectId": 248395,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Destroy 15 Tainted Shrubbery for Kaylaena Springwhisper at the workshop in the Tainted Foothills.",
+      "raw_english": "Destroy $1oa Tainted Shrubbery for Kaylaena Springwhisper at the workshop in the Tainted Foothills.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92594/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 465184,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 92609,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Feathers in Flight",
+      "objective": {
+        "amount": 9,
+        "id": 465205,
+        "objectId": 253341,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 9 Hyjal Owl Feathers for Zet'gan.",
+      "raw_english": "Gather $1oa Hyjal Owl Feathers for Zet'gan.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92609/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 9,
+        "objective_count": 1,
+        "objective_id": 465205,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 92749,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 16,
+      "title": "A Dynamite Plan",
+      "objective": {
+        "amount": 10,
+        "id": 465714,
+        "objectId": 4358,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Obtain 10 Rough Dynamite from crafting, trading, or the auction house, then return to Sprite Jumpsprocket in the Dwarven District of Stormwind.",
+      "raw_english": "Obtain $1oa Rough Dynamite from crafting, trading, or the auction house, then return to Sprite Jumpsprocket in the Dwarven District of Stormwind.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92749/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 465714,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 92960,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Siphoned Ephemeral Essence",
+      "objective": {
+        "amount": 6,
+        "id": 471580,
+        "objectId": 271220,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 6 Ephemeral Essences for Elaena Moonwhisper.",
+      "raw_english": "Retrieve $1oa Ephemeral Essences for Elaena Moonwhisper.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92960/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 471580,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93160,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 13,
+      "title": "The Forest's Bounty",
+      "objective": {
+        "amount": 8,
+        "id": 466253,
+        "objectId": 257128,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 8 Shadowgale Acorns in Shadowgale Forest.",
+      "raw_english": "Gather $1oa Shadowgale Acorns in Shadowgale Forest.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93160/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 466253,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93165,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 13,
+      "title": "Mercy Falls on Deaf Ears",
+      "objective": {
+        "amount": 5,
+        "id": 466623,
+        "objectId": 258771,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 5 Al'Aketh Cultist's Ears from the Al'Aketh cultists in Shadowgale Forest, the Shrine of Akir, or Gustberry Lowlands.",
+      "raw_english": "Collect $1oa Al'Aketh Cultist's Ears from the Al'Aketh cultists in Shadowgale Forest, the Shrine of Akir, or Gustberry Lowlands.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93165/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 466623,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93224,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Carved Centaur Totems",
+      "objective": {
+        "amount": 5,
+        "id": 466320,
+        "objectId": 254432,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Acquire 5 Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Captain Pentigast at Nijel's Point.",
+      "raw_english": "Acquire $1oa Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Captain Pentigast at Nijel's Point.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93224/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 466320,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93225,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Carved Centaur Totems",
+      "objective": {
+        "amount": 5,
+        "id": 466323,
+        "objectId": 254432,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Acquire 5 Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Gurda Wildmane at Ghost Walker Post.",
+      "raw_english": "Acquire $1oa Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Gurda Wildmane at Ghost Walker Post.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93225/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 466323,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93406,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Unfrozen Deliveries",
+      "objective": {
+        "amount": 4,
+        "id": 466500,
+        "objectId": 258323,
+        "storageIndex": 1,
+        "text": "Pieces of Missing Mail",
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Find 4 pieces of Missing Mail in the hills north of Everlook and bring it back to Innkeeper Vizzie.",
+      "raw_english": "Find $1oa pieces of Missing Mail in the hills north of Everlook and bring it back to Innkeeper Vizzie.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93406/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 466500,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93546,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 42,
+      "title": "Spectral Iron Ore",
+      "objective": {
+        "amount": 10,
+        "id": 466722,
+        "objectId": 259226,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Search for Spectral Iron Deposits around Shen'dralas and collect 10 Spectral Iron Ore. Return to Vindael in Shen'dralas once you have found enough.",
+      "raw_english": "Search for Spectral Iron Deposits around Shen'dralas and collect $1oa Spectral Iron Ore. Return to Vindael in Shen'dralas once you have found enough.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93546/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 466722,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93786,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 36,
+      "title": "A Message in Blood",
+      "objective": {
+        "amount": 12,
+        "id": 467473,
+        "objectId": 256383,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Slay 12 Meadowsbrook Farmhands, then return to Krom'rosh with news of your success.",
+      "raw_english": "Slay $1oa Meadowsbrook Farmhands, then return to Krom'rosh with news of your success.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93786/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 467473,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93787,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 36,
+      "title": "Food for the Taking",
+      "objective": {
+        "amount": 6,
+        "id": 467477,
+        "objectId": 262640,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Steal 6 Feed Satchels from the Alliance farm in Meadowsbrook then return to Krom'rosh.",
+      "raw_english": "Steal $1oa Feed Satchels from the Alliance farm in Meadowsbrook then return to Krom'rosh.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93787/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 467477,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93788,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Borrowed Blades",
+      "objective": {
+        "amount": 10,
+        "id": 467479,
+        "objectId": 263972,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 10 Woodworker's Axe from the lumberjacks at Turner's Logging Camp for Kreza Darkthorn in Rog'mar.",
+      "raw_english": "Retrieve $1oa Woodworker's Axe from the lumberjacks at Turner's Logging Camp for Kreza Darkthorn in Rog'mar.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93788/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 467479,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93825,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Barkbound Blessings",
+      "objective": {
+        "amount": 12,
+        "id": 467534,
+        "objectId": 262802,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 12 clumps of Moonveil Moss and return to Suma Mossmane.",
+      "raw_english": "Gather $1oa clumps of Moonveil Moss and return to Suma Mossmane.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93825/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 467534,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93828,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Herbs of the Hollow",
+      "objective": {
+        "amount": 10,
+        "id": 467540,
+        "objectId": 617129,
+        "storageIndex": 2,
+        "type": "gameObject",
+        "typeId": 2
+      },
+      "english": "Collect 10 Dried Hanging Herbs from around Barkskin Burrow and return them to Fennar Mossmane.",
+      "raw_english": "Collect $1oa Dried Hanging Herbs from around Barkskin Burrow and return them to Fennar Mossmane.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93828/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 467540,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93831,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Sweetpaw Jam",
+      "objective": {
+        "amount": 30,
+        "id": 470335,
+        "objectId": 262818,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 30 Bear Berries from Hyjal and return to Osi Mistpaw.",
+      "raw_english": "Gather $1oa Bear Berries from Hyjal and return to Osi Mistpaw.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93831/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 30,
+        "objective_count": 1,
+        "objective_id": 470335,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93832,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Shatter the Stonewatchers",
+      "objective": {
+        "amount": 6,
+        "id": 467554,
+        "objectId": 249237,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Destroy 6 Eternal Sentry gargoyles in the destroyed Alliance base in upper Hyjal and return to Elder Mistpaw.",
+      "raw_english": "Destroy $1oa Eternal Sentry gargoyles in the destroyed Alliance base in upper Hyjal and return to Elder Mistpaw.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93832/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 467554,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93949,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Bugged",
+      "objective": {
+        "amount": 8,
+        "id": 468000,
+        "objectId": 257066,
+        "storageIndex": 0,
+        "text": "Enchanted Skyhopper Exterminated",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Kill Skyhoppers in Valanaar until you've eliminated 8 Enchanted Skyhoppers.",
+      "raw_english": "Kill Skyhoppers in Valanaar until you've eliminated $1oa Enchanted Skyhoppers.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93949/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 468000,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 93952,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Balance Through Strength",
+      "objective": {
+        "amount": 9,
+        "id": 469631,
+        "objectId": 252063,
+        "storageIndex": 1,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Defeat 9 Deadwood Den Guardians and return to Brerufa.",
+      "raw_english": "Defeat $1oa Deadwood Den Guardians and return to Brerufa.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93952/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 9,
+        "objective_count": 1,
+        "objective_id": 469631,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94481,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "A Serving of Strength",
+      "objective": {
+        "amount": 8,
+        "id": 468777,
+        "objectId": 256749,
+        "storageIndex": 0,
+        "text": "Rog'mar Trainee fed",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Feed 8 Rog'mar Trainees at the training grounds.",
+      "raw_english": "Feed $1oa Rog'mar Trainees at the training grounds.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94481/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 468777,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94485,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 12,
+      "title": "Tears of the Lady",
+      "objective": {
+        "amount": 8,
+        "id": 468786,
+        "objectId": 265105,
+        "storageIndex": 5,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Lady's Tear Moss.",
+      "raw_english": "Collect $1oa Lady's Tear Moss.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94485/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 468786,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94535,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Bristle Hills Bandits",
+      "objective": {
+        "amount": 40,
+        "id": 468853,
+        "objectId": 265358,
+        "storageIndex": 3,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 40 Stolen Ore from gnolls in the Bristle Hills for Kreza Darkthorn.",
+      "raw_english": "Gather $1oa Stolen Ore from gnolls in the Bristle Hills for Kreza Darkthorn.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94535/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 40,
+        "objective_count": 1,
+        "objective_id": 468853,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94680,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Twilight Missives",
+      "objective": {
+        "amount": 3,
+        "id": 469086,
+        "objectId": 265745,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 3 Twilight Missives from Twilight Shadowmancers in Sunnyglade for Tran'gul in Rog'mar.",
+      "raw_english": "Retrieve $1oa Twilight Missives from Twilight Shadowmancers in Sunnyglade for Tran'gul in Rog'mar.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94680/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 3,
+        "objective_count": 1,
+        "objective_id": 469086,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94748,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 44,
+      "title": "Break Their Chains",
+      "objective": {
+        "amount": 5,
+        "id": 469111,
+        "objectId": 272737,
+        "storageIndex": 0,
+        "text": "Rog'mar Scout rescued",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Rescue 5 Rog'mar Scouts within the Twilight's Shroud for Da'grosh.",
+      "raw_english": "Rescue $1oa Rog'mar Scouts within the Twilight's Shroud for Da'grosh.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94748/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 469111,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94881,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Curious Trinkets",
+      "objective": {
+        "amount": 25,
+        "id": 469295,
+        "objectId": 266425,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 25 Twilight Charms from Twilight Shadowmancers and Twilight Neophytes in Sunnyglade for Ashe Amberhall in Farholde Keep.",
+      "raw_english": "Retrieve $1oa Twilight Charms from Twilight Shadowmancers and Twilight Neophytes in Sunnyglade for Ashe Amberhall in Farholde Keep.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94881/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 25,
+        "objective_count": 1,
+        "objective_id": 469295,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94888,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 44,
+      "title": "No Soldier Left Behind",
+      "objective": {
+        "amount": 5,
+        "id": 469299,
+        "objectId": 272737,
+        "storageIndex": 1,
+        "text": "Farholde Scouts rescued",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Rescue 5 Farholde Scouts within the Twilight's Shroud for Sergeant Riftan.",
+      "raw_english": "Rescue $1oa Farholde Scouts within the Twilight's Shroud for Sergeant Riftan.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94888/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 469299,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94898,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 11,
+      "title": "Violent Winds (Temp Disabled)",
+      "objective": {
+        "amount": 10,
+        "id": 469318,
+        "objectId": 251676,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Slay 10 Wind Hollows.",
+      "raw_english": "Slay $1oa Wind Hollows.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94898/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 469318,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94931,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Stolen Saws",
+      "objective": {
+        "amount": 8,
+        "id": 469347,
+        "objectId": 266897,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Recover 8 Saw Blades from the gnoll camps in Bristle Hills for Halligan Turner at the lumber mill.",
+      "raw_english": "Recover $1oa Saw Blades from the gnoll camps in Bristle Hills for Halligan Turner at the lumber mill.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94931/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 469347,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94975,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 42,
+      "title": "A Token of Vengeance",
+      "objective": {
+        "amount": 15,
+        "id": 469490,
+        "objectId": 267091,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 15 Cultist Ears from the Twilight's Hammer in Krol'dok Stronghold.",
+      "raw_english": "Collect $1oa Cultist Ears from the Twilight's Hammer in Krol'dok Stronghold.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94975/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 469490,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 94983,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 42,
+      "title": "Twilight Mementos",
+      "objective": {
+        "amount": 8,
+        "id": 469528,
+        "objectId": 267234,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Cultist Bangles from the Twilight's Hammer in Krol'dok Stronghold.",
+      "raw_english": "Collect $1oa Cultist Bangles from the Twilight's Hammer in Krol'dok Stronghold.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94983/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 469528,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95156,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 37,
+      "title": "Stuff 'Em and Stick 'Em",
+      "objective": {
+        "amount": 3,
+        "id": 470087,
+        "objectId": 268536,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 3 Bundles of Hay for Ember at the training grounds.",
+      "raw_english": "Collect $1oa Bundles of Hay for Ember at the training grounds.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95156/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 3,
+        "objective_count": 1,
+        "objective_id": 470087,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95162,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Paletusk Harvesting",
+      "objective": {
+        "amount": 10,
+        "id": 470094,
+        "objectId": 769,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 10 Chunks of Boar Meat for Na'zok near Bolder'ok.",
+      "raw_english": "Gather $1oa Chunks of Boar Meat for Na'zok near Bolder'ok.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95162/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 470094,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95183,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Step One: Rock",
+      "objective": {
+        "amount": 10,
+        "id": 470141,
+        "objectId": 271892,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 10 Good Rocks for Hamur in Bolder'ok.",
+      "raw_english": "Gather $1oa Good Rocks for Hamur in Bolder'ok.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95183/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 470141,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95184,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "The Sharpest of Blades",
+      "objective": {
+        "amount": 8,
+        "id": 470145,
+        "objectId": 7964,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 8 Solid Sharpening Stones to Ember Bladewhisper at the Farholde training grounds.",
+      "raw_english": "Bring $1oa Solid Sharpening Stones to Ember Bladewhisper at the Farholde training grounds.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95184/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470145,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95195,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 22,
+      "title": "Bloodied Insignia",
+      "objective": {
+        "amount": 10,
+        "id": 473551,
+        "objectId": 268540,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 10 Bloodied Insignias and take them to General Marcus Jonathan in Stormwind City.",
+      "raw_english": "Collect $1oa Bloodied Insignias and take them to General Marcus Jonathan in Stormwind City.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95195/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 473551,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95288,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 43,
+      "title": "Smuggler's Paradise",
+      "objective": {
+        "amount": 8,
+        "id": 470232,
+        "objectId": 268796,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Smuggled Goods for Friz Frazzlespark at Powderfuse Port.",
+      "raw_english": "Collect $1oa Smuggled Goods for Friz Frazzlespark at Powderfuse Port.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95288/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470232,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95314,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 10,
+      "title": "That Shadowvale Green Elixir",
+      "objective": {
+        "amount": 8,
+        "id": 470252,
+        "objectId": 268801,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Bottles of Whispering Elixir from Shadowvale, then return to Carolai Anise in Brill.",
+      "raw_english": "Collect $1oa Bottles of Whispering Elixir from Shadowvale, then return to Carolai Anise in Brill.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95314/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470252,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95317,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Notation, Notation, Notation",
+      "objective": {
+        "amount": 12,
+        "id": 473176,
+        "objectId": 274396,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Find 12 Fel Ash Experimentation Notes.",
+      "raw_english": "Find $1oa Fel Ash Experimentation Notes.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95317/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 473176,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95318,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Taste of Ash",
+      "objective": {
+        "amount": 12,
+        "id": 470268,
+        "objectId": 260422,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Slay 12 Ashen Acolytes.",
+      "raw_english": "Slay $1oa Ashen Acolytes.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95318/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 470268,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95380,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "A Prolific Source",
+      "objective": {
+        "amount": 8,
+        "id": 470469,
+        "objectId": 273008,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 8 Fel-Slime Ooze.",
+      "raw_english": "Gather $1oa Fel-Slime Ooze.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95380/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470469,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95426,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 39,
+      "title": "Rog'mar Supplies",
+      "objective": {
+        "amount": 8,
+        "id": 473743,
+        "objectId": 274975,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Retrieve 8 Horde Supply Shipment from the training camps north of Rog'mar.",
+      "raw_english": "Retrieve $1oa Horde Supply Shipment from the training camps north of Rog'mar.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95426/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 473743,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95432,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 43,
+      "title": "Rise Up!",
+      "objective": {
+        "amount": 5,
+        "id": 470581,
+        "objectId": 260417,
+        "storageIndex": 0,
+        "text": "Ogre Miners recruited",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Recruit 5 Ogre Miners.",
+      "raw_english": "Recruit $1oa Ogre Miners.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95432/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 470581,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95568,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Seeds for a New Season",
+      "objective": {
+        "amount": 10,
+        "id": 470949,
+        "objectId": 260176,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 10 Untainted Seeds for Ketharas.",
+      "raw_english": "Collect $1oa Untainted Seeds for Ketharas.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95568/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 470949,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95602,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Sickening Lights",
+      "objective": {
+        "amount": 5,
+        "id": 471034,
+        "objectId": 272603,
+        "storageIndex": 0,
+        "text": "Twilight Ritual Circle destroyed",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Destroy 5 Twilight Ritual Circles found throughout the caves underneath Sunnyglade.",
+      "raw_english": "Destroy $1oa Twilight Ritual Circles found throughout the caves underneath Sunnyglade.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95602/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 471034,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95613,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Keeping the Light On",
+      "objective": {
+        "amount": 5,
+        "id": 471049,
+        "objectId": 17028,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 5 Holy Candles to Sister Rowland in Farholde Keep.",
+      "raw_english": "Bring $1oa Holy Candles to Sister Rowland in Farholde Keep.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95613/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 471049,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95769,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Threading a Solution",
+      "objective": {
+        "amount": 6,
+        "id": 473438,
+        "objectId": 14048,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 6 Bolts of Runecloth to Mez'dan in Elderwild on Mount Hyjal.",
+      "raw_english": "Bring $1oa Bolts of Runecloth to Mez'dan in Elderwild on Mount Hyjal.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95769/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 473438,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95773,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 37,
+      "title": "Enemies in the Water",
+      "objective": {
+        "amount": 10,
+        "id": 471244,
+        "objectId": 270305,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 10 Brinescale Tridents from Brinescale Skirmishers.",
+      "raw_english": "Gather $1oa Brinescale Tridents from Brinescale Skirmishers.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95773/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471244,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95774,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 20,
+      "title": "Her Name Is Olgra",
+      "objective": {
+        "amount": 4,
+        "id": 475545,
+        "objectId": 277277,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Slay quilboars and collect 4 of Olgra's Adornments for Mankrik's memorial.",
+      "raw_english": "Slay quilboars and collect $1oa of Olgra's Adornments for Mankrik's memorial.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95774/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 475545,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95788,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Magics of the Drowned City",
+      "objective": {
+        "amount": 5,
+        "id": 471385,
+        "objectId": 270343,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 5 I'lalai Fetishes from trolls in the Drowned City.",
+      "raw_english": "Collect $1oa I'lalai Fetishes from trolls in the Drowned City.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95788/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 471385,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95789,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Shady Saltseers",
+      "objective": {
+        "amount": 10,
+        "id": 471326,
+        "objectId": 270333,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 10 Voodoo Infused Artifacts from Saltseer pirates in the Drowned City.",
+      "raw_english": "Collect $1oa Voodoo Infused Artifacts from Saltseer pirates in the Drowned City.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95789/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471326,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95793,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Stemming the Demon Tide",
+      "objective": {
+        "amount": 12,
+        "id": 471579,
+        "objectId": 249229,
+        "storageIndex": 2,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Slay 12 Felguard Sentinels in Dae'gun.",
+      "raw_english": "Slay $1oa Felguard Sentinels in Dae'gun.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95793/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 471579,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95951,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Fetch 'n' Fletch",
+      "objective": {
+        "amount": 20,
+        "id": 471700,
+        "objectId": 271630,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect Wood Bundles from Peasant Woodpiles in Turner's Logging Camp then fletch them into 20 Makeshift Stickin' Spears.",
+      "raw_english": "Collect Wood Bundles from Peasant Woodpiles in Turner's Logging Camp then fletch them into $1oa Makeshift Stickin' Spears.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95951/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 20,
+        "objective_count": 1,
+        "objective_id": 471700,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95955,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 39,
+      "title": "Stick 'Em",
+      "objective": {
+        "amount": 10,
+        "id": 471711,
+        "objectId": 263190,
+        "storageIndex": 1,
+        "text": "Freshwater Crocolisk impaled",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Impale 10 Freshwater Crocolisks then return to Tran'jani in Rog'mar.",
+      "raw_english": "Impale $1oa Freshwater Crocolisks then return to Tran'jani in Rog'mar.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95955/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471711,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95975,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Her World",
+      "objective": {
+        "amount": 20,
+        "id": 471782,
+        "objectId": 271823,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 20 Wildflowers and deliver them to Tessa Dawnbright in Farholde Keep.",
+      "raw_english": "Gather $1oa Wildflowers and deliver them to Tessa Dawnbright in Farholde Keep.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95975/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 20,
+        "objective_count": 1,
+        "objective_id": 471782,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 95982,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Not My Circus",
+      "objective": {
+        "amount": 10,
+        "id": 471736,
+        "objectId": 274971,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 10 Briny Seafood Stew to Jasper Geartoggle in Powderfuse Port.",
+      "raw_english": "Bring $1oa Briny Seafood Stew to Jasper Geartoggle in Powderfuse Port.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95982/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471736,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96026,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Step Two: More Rock",
+      "objective": {
+        "amount": 10,
+        "id": 471850,
+        "objectId": 3241,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Deliver 10 Heavy Weightstones to Hamur in Bolder'ok.",
+      "raw_english": "Deliver $1oa Heavy Weightstones to Hamur in Bolder'ok.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96026/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471850,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96107,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Feathers for Fletching",
+      "objective": {
+        "amount": 6,
+        "id": 472319,
+        "objectId": 271793,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 6 Plains Buzzard Feathers to Neza Bloodsnout at Rog'mar.",
+      "raw_english": "Bring $1oa Plains Buzzard Feathers to Neza Bloodsnout at Rog'mar.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96107/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 472319,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96252,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Tarnished Treasures",
+      "objective": {
+        "amount": 8,
+        "id": 472623,
+        "objectId": 273164,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Tarnished Highfeather Bangles from Wormwing Harpy nests.",
+      "raw_english": "Collect $1oa Tarnished Highfeather Bangles from Wormwing Harpy nests.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96252/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 472623,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96262,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Prickly Pinecones",
+      "objective": {
+        "amount": 10,
+        "id": 472654,
+        "objectId": 273304,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 10 Prickly Pinecones under healthy trees.",
+      "raw_english": "Collect $1oa Prickly Pinecones under healthy trees.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96262/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 472654,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96296,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Fetid Corruption",
+      "objective": {
+        "amount": 6,
+        "id": 472745,
+        "objectId": 651430,
+        "storageIndex": 1,
+        "type": "gameObject",
+        "typeId": 2
+      },
+      "english": "Find and remove 6 Corrupted Knots from the trees nearby.",
+      "raw_english": "Find and remove $1oa Corrupted Knots from the trees nearby.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96296/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 472745,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96334,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 53,
+      "title": "Blood Red Bandanas",
+      "objective": {
+        "amount": 8,
+        "id": 472865,
+        "objectId": 274028,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Enter Alcaz Prison and collect 8 Blood Red Bandanas from the human guards there.",
+      "raw_english": "Enter Alcaz Prison and collect $1oa Blood Red Bandanas from the human guards there.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96334/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 472865,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96390,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 13,
+      "title": "Nip 'Em in the Bud",
+      "objective": {
+        "amount": 10,
+        "id": 473134,
+        "objectId": 6123,
+        "storageIndex": 1,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Slay 10 Dark Iron Spies in Dun Morogh.",
+      "raw_english": "Slay $1oa Dark Iron Spies in Dun Morogh.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96390/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 473134,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96403,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 15,
+      "title": "Important Heirlooms",
+      "objective": {
+        "amount": 8,
+        "id": 473157,
+        "objectId": 274289,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Dwarven Heirlooms from the Hall of Thanes.",
+      "raw_english": "Collect $1oa Dwarven Heirlooms from the Hall of Thanes.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96403/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 473157,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96603,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Unstable Magic",
+      "objective": {
+        "amount": 10,
+        "id": 473686,
+        "objectId": 274964,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 10 Motes of Unstable Magic to Archmage Celindra in Dalaran.",
+      "raw_english": "Bring $1oa Motes of Unstable Magic to Archmage Celindra in Dalaran.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96603/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 473686,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96616,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Herbs for the Bruised and Weary",
+      "objective": {
+        "amount": 12,
+        "id": 473749,
+        "objectId": 274979,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 12 Hyjal Silphium.",
+      "raw_english": "Collect $1oa Hyjal Silphium.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96616/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 473749,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96674,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Ewe Wandered Off",
+      "objective": {
+        "amount": 6,
+        "id": 473857,
+        "objectId": 265988,
+        "storageIndex": 1,
+        "text": "Escaped Sheep",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Capture and return 6 Escaped Sheep.",
+      "raw_english": "Capture and return $1oa Escaped Sheep.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96674/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 473857,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96898,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 12,
+      "title": "Remnants of War",
+      "objective": {
+        "amount": 12,
+        "id": 474508,
+        "objectId": 275851,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 12 Necrotic Crystal Fragments in Tirisfal Glades.",
+      "raw_english": "Gather $1oa Necrotic Crystal Fragments in Tirisfal Glades.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96898/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 474508,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96971,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "To Outfox a Demon",
+      "objective": {
+        "amount": 8,
+        "id": 474622,
+        "objectId": 275958,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Abandoned Supplies.",
+      "raw_english": "Collect $1oa Abandoned Supplies.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96971/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 474622,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 96988,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 33,
+      "title": "Source of Power",
+      "objective": {
+        "amount": 6,
+        "id": 474659,
+        "objectId": 275997,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 6 Cracked Sentry Cores in the City of Dalaran for Doctor Martin Felben in Undercity.",
+      "raw_english": "Collect $1oa Cracked Sentry Cores in the City of Dalaran for Doctor Martin Felben in Undercity.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96988/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 474659,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97009,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Maerion's Misery",
+      "objective": {
+        "amount": 12,
+        "id": 474726,
+        "objectId": 276100,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 12 Felhound Spikes to Maerion Thaelemaches in Dae'gun.",
+      "raw_english": "Bring $1oa Felhound Spikes to Maerion Thaelemaches in Dae'gun.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97009/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 474726,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97049,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Essence of Seeping Slimes",
+      "objective": {
+        "amount": 8,
+        "id": 474904,
+        "objectId": 276235,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 8 Seeping Slime Essence in the Shaper's Terrace.",
+      "raw_english": "Gather $1oa Seeping Slime Essence in the Shaper's Terrace.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97049/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 474904,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97225,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 9,
+      "title": "Forgotten Loa Idols",
+      "objective": {
+        "amount": 8,
+        "id": 475463,
+        "objectId": 277135,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Forgotten Loa Idols from the Echo Isles. Bring them to Master Gadrin in Sen'jin Village.",
+      "raw_english": "Collect $1oa Forgotten Loa Idols from the Echo Isles. Bring them to Master Gadrin in Sen'jin Village.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97225/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 475463,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97253,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 15,
+      "title": "Parts and Pieces",
+      "objective": {
+        "amount": 5,
+        "id": 475641,
+        "objectId": 277331,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 5 Handfuls of Complicated Parts from the upper pirate camp south of Ratchet, then return to Wrenix the Wretched in Ratchet.",
+      "raw_english": "Collect $1oa Handfuls of Complicated Parts from the upper pirate camp south of Ratchet, then return to Wrenix the Wretched in Ratchet.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97253/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 475641,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97264,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Shardtooth Pulling",
+      "objective": {
+        "amount": 12,
+        "id": 475661,
+        "objectId": 7445,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Remove 12 Elder Shardtooth from nearby areas, then return to Sarna Brownhorn.",
+      "raw_english": "Remove $1oa Elder Shardtooth from nearby areas, then return to Sarna Brownhorn.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97264/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 475661,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97279,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 2,
+      "title": "Wayward Weapons",
+      "objective": {
+        "amount": 6,
+        "id": 475713,
+        "objectId": 277653,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 6 Abandoned Training Weapons, then return to Kzan Thornslash in the Den.",
+      "raw_english": "Collect $1oa Abandoned Training Weapons, then return to Kzan Thornslash in the Den.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97279/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 475713,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97282,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 10,
+      "title": "Stormy Potential",
+      "objective": {
+        "amount": 5,
+        "id": 475722,
+        "objectId": 277665,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 5 Charged Thunder Lizard Organs to Rezlak near Drygulch Ravine.",
+      "raw_english": "Bring $1oa Charged Thunder Lizard Organs to Rezlak near Drygulch Ravine.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97282/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 475722,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97327,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Blackmaw Pouches",
+      "objective": {
+        "amount": 5,
+        "id": 475808,
+        "objectId": 273050,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Enter Blackmaw Hold and recover 5 Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.",
+      "raw_english": "Enter Blackmaw Hold and recover $1oa Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97327/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 475808,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97328,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 35,
+      "title": "Anything of Value",
+      "objective": {
+        "amount": 8,
+        "id": 475815,
+        "objectId": 277953,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Recover 8 Stolen Shipments from the Ruins of Zul'Kunda in Stranglethorn Vale and return your haul to someone in Booty Bay.",
+      "raw_english": "Recover $1oa Stolen Shipments from the Ruins of Zul'Kunda in Stranglethorn Vale and return your haul to someone in Booty Bay.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97328/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 475815,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97403,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Two-Headed Ravagers",
+      "objective": {
+        "amount": 15,
+        "id": 475865,
+        "objectId": 7449,
+        "storageIndex": 1,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Kill 15 Chillwind Ravagers and return to Rilan Howard in northern Winterspring.",
+      "raw_english": "Kill $1oa Chillwind Ravagers and return to Rilan Howard in northern Winterspring.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97403/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 475865,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97420,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 36,
+      "title": "Reduce, Reuse, Reconcile",
+      "objective": {
+        "amount": 4,
+        "id": 475892,
+        "objectId": 277986,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Acquire 4 Drums of Crude Oil from the Venture Co. operations at Lake Nazferiti, then return to Knaz Blunderflame in Stranglethorn Vale.",
+      "raw_english": "Acquire $1oa Drums of Crude Oil from the Venture Co. operations at Lake Nazferiti, then return to Knaz Blunderflame in Stranglethorn Vale.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97420/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 475892,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97453,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Weed Whacked",
+      "objective": {
+        "amount": 6,
+        "id": 475953,
+        "objectId": 269175,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Slay 6 Carnivorous Weeds south of Grom'gol and then inform Gemmil's mother.",
+      "raw_english": "Slay $1oa Carnivorous Weeds south of Grom'gol and then inform Gemmil's mother.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97453/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 475953,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97534,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 45,
+      "title": "Gritty Business",
+      "objective": {
+        "amount": 7,
+        "id": 476058,
+        "objectId": 278191,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Quinn wants you to recover 7  pieces of Desert Debris and return to her in Gadgetzan.",
+      "raw_english": "Quinn wants you to recover $1oa  pieces of Desert Debris and return to her in Gadgetzan.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97534/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 7,
+        "objective_count": 1,
+        "objective_id": 476058,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 97538,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 26,
+      "title": "Pigments for Paints",
+      "objective": {
+        "amount": 30,
+        "id": 476076,
+        "objectId": 278201,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Tah Winterhoof in Thunder Bluff wants 30 Mirkweed Pods from Mirkfallon Lake.",
+      "raw_english": "Tah Winterhoof in Thunder Bluff wants $1oa Mirkweed Pods from Mirkfallon Lake.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97538/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 30,
+        "objective_count": 1,
+        "objective_id": 476076,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98192,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 43,
+      "title": "Skin Careful, Skin Sharp",
+      "objective": {
+        "amount": 8,
+        "id": 476968,
+        "objectId": 279601,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 8 Intact Raptor Hides to Krak in Brackenwall Village.",
+      "raw_english": "Bring $1oa Intact Raptor Hides to Krak in Brackenwall Village.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98192/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 476968,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98215,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 44,
+      "title": "Dragon Scales, Post Burnt Tails",
+      "objective": {
+        "amount": 20,
+        "id": 477018,
+        "objectId": 279934,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 20 Shed Dark Dragonscales to Drazzit Dripvalve.",
+      "raw_english": "Bring $1oa Shed Dark Dragonscales to Drazzit Dripvalve.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98215/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 20,
+        "objective_count": 1,
+        "objective_id": 477018,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98246,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 29,
+      "title": "Trying Times",
+      "objective": {
+        "amount": 12,
+        "id": 477114,
+        "objectId": 280132,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Gather 12 Perfect Razormaw Eggs for Howin Kindfeather.",
+      "raw_english": "Gather $1oa Perfect Razormaw Eggs for Howin Kindfeather.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98246/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 477114,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98293,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 30,
+      "title": "Forced Disarmament",
+      "objective": {
+        "amount": 30,
+        "id": 477300,
+        "objectId": 280369,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 30 Dragonmaw Armaments in Dragonmaw Retreat, then bring them to Captain Stoutfist in Menethil Keep.",
+      "raw_english": "Collect $1oa Dragonmaw Armaments in Dragonmaw Retreat, then bring them to Captain Stoutfist in Menethil Keep.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98293/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 30,
+        "objective_count": 1,
+        "objective_id": 477300,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98321,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 7,
+      "title": "Flintfire's Shipment",
+      "objective": {
+        "amount": 8,
+        "id": 477369,
+        "objectId": 280413,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 8 Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.",
+      "raw_english": "Collect $1oa Flintfire Shipments from the Grizzled Den for Tongus Flintfire in Kharanos.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98321/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 477369,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98477,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Unstable Magic",
+      "objective": {
+        "amount": 10,
+        "id": 477857,
+        "objectId": 274964,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Bring 10 Motes of Unstable Magic to Nuara Tremorhoof.",
+      "raw_english": "Bring $1oa Motes of Unstable Magic to Nuara Tremorhoof.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98477/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 477857,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 98815,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 28,
+      "title": "Highland Hides",
+      "objective": {
+        "amount": 4,
+        "id": 478750,
+        "objectId": 284845,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Return 4 Thicket Raptor Hides to James Halloran, the tanner, in Menethil Harbor.",
+      "raw_english": "Return $1oa Thicket Raptor Hides to James Halloran, the tanner, in Menethil Harbor.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98815/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 478750,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 99134,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 6,
+      "title": "Discipline",
+      "objective": {
+        "amount": 5,
+        "id": 479408,
+        "objectId": 1746,
+        "storageIndex": 0,
+        "text": "Deathguards motivated",
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Punish 5 Deathguards for Executor Zygand.",
+      "raw_english": "Punish $1oa Deathguards for Executor Zygand.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99134/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 479408,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 99142,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 11,
+      "title": "Tomb Weed",
+      "objective": {
+        "amount": 5,
+        "id": 479437,
+        "objectId": 286204,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 5 Tomb Weed and deliver them back to Junior Apothecary Holland.",
+      "raw_english": "Collect $1oa Tomb Weed and deliver them back to Junior Apothecary Holland.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99142/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 479437,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 99143,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 7,
+      "title": "Bottles and Baubles",
+      "objective": {
+        "amount": 6,
+        "id": 479442,
+        "objectId": 286209,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 6 pieces of shiny junk from the nearby Murloc camp.",
+      "raw_english": "Collect $1oa pieces of shiny junk from the nearby Murloc camp.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99143/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 479442,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 99152,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 12,
+      "title": "As Above, So Below",
+      "objective": {
+        "amount": 6,
+        "id": 479469,
+        "objectId": 286259,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 6 Faintly Glowing Bones for Hilda the Breaker.",
+      "raw_english": "Collect $1oa Faintly Glowing Bones for Hilda the Breaker.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99152/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 479469,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 99159,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Finding Warmth",
+      "objective": {
+        "amount": 14,
+        "id": 479520,
+        "objectId": 286339,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "english": "Collect 14 pieces of firewood.",
+      "raw_english": "Collect $1oa pieces of firewood.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99159/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 14,
+        "objective_count": 1,
+        "objective_id": 479520,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    },
+    {
+      "quest_id": 99160,
+      "field": "objectivesText",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Rime's Wrath",
+      "objective": {
+        "amount": 10,
+        "id": 479482,
+        "objectId": 276003,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "english": "Destroy 10 minor ice elementals.",
+      "raw_english": "Destroy $1oa minor ice elementals.",
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99160/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 479482,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      }
+    }
+  ]
+}

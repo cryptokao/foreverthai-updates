@@ -1,0 +1,840 @@
+{
+  "batch": "MAIN30",
+  "scope": "New primary G/g branch grammar proof,complete incoming source alternatives only;no reader-sex/condition dispatch or new upstream English",
+  "baseline_zip_sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "raw_source_fields": 15,
+  "qualified_branches": 30,
+  "counts": {
+    "already_supported_default_fixture": 30
+  },
+  "rows": [
+    {
+      "quest_id": 6064,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Taming the Beast",
+      "level": 10,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6064/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7ac54d567f6783959942797092395b552df36e5e3f80644b06819ea9a7ff2d21",
+      "raw_english_sha256": "d781ed313799385c24ca5ce0754d3f09d4b8fc61ba870c62de44f6bfb3c608cc",
+      "english_bytes": 489,
+      "canonical_present": true,
+      "expected_dynamic_signature": "483:143464828:810338037",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6064,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Taming the Beast",
+      "level": 10,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6064/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d74023bfe976d7c389d4cc8a77fe171da0e7638e849fbe8dce0c6c5a6728fa1b",
+      "raw_english_sha256": "d781ed313799385c24ca5ce0754d3f09d4b8fc61ba870c62de44f6bfb3c608cc",
+      "english_bytes": 490,
+      "canonical_present": true,
+      "expected_dynamic_signature": "484:1693925019:2085572814",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6086,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Training the Beast",
+      "level": 10,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6086/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "607a649e128c77975f6df69e03ff794461d129775c1ccd8037d53902593b3d9c",
+      "raw_english_sha256": "e0d408455173e766819a2d6c35f3091b3e036d5f9e53fab730904982bc6213bb",
+      "english_bytes": 387,
+      "canonical_present": true,
+      "expected_dynamic_signature": "N 374:1247153472:1315380596 N 1:46:46",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6086,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Training the Beast",
+      "level": 10,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6086/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b7b8d82d588d880e2ce72762c861b4963444ba900ccf6e4b914dda47535ba564",
+      "raw_english_sha256": "e0d408455173e766819a2d6c35f3091b3e036d5f9e53fab730904982bc6213bb",
+      "english_bytes": 388,
+      "canonical_present": true,
+      "expected_dynamic_signature": "N 375:2004398276:1529421001 N 1:46:46",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92109,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "My First Alchemy Set",
+      "level": 10,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/92109/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a2108c1ce9d8a2864e4c58aabff4ede0e8f863b384eba43d05a12a1e84cdf935",
+      "raw_english_sha256": "aba60ecaffd7f3f7196d9abe0bf5294d3509816004e93c9fd7712c57aef13672",
+      "english_bytes": 391,
+      "canonical_present": true,
+      "expected_dynamic_signature": "385:1577928281:715234035",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92109,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "My First Alchemy Set",
+      "level": 10,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/92109/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "74556a280c82d15a620567df6fb6d33a5519e862728de60bef372359965ac55d",
+      "raw_english_sha256": "aba60ecaffd7f3f7196d9abe0bf5294d3509816004e93c9fd7712c57aef13672",
+      "english_bytes": 389,
+      "canonical_present": true,
+      "expected_dynamic_signature": "383:708631019:963364454",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98391,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "The Sisterhood of Elune",
+      "level": 10,
+      "conditional": true,
+      "playerConditionId": 161157,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/98391/conditionalDescriptions/0/text"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "43caba6d22df4d93f4745b7f6e35ab20262901bf145ee4c529655abd835ac0fe",
+      "raw_english_sha256": "3323eba6534fae6e1e53eb9d38cee3f4921291d9893c0f03c8d63d7c33dc9d5b",
+      "english_bytes": 442,
+      "canonical_present": true,
+      "expected_dynamic_signature": "436:1358566780:1195651536",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98391,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "The Sisterhood of Elune",
+      "level": 10,
+      "conditional": true,
+      "playerConditionId": 161157,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/98391/conditionalDescriptions/0/text"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "73b9415b396507fc600cddefa3dc740d6614f0be22f2a480bbb9258fb3d1b0ed",
+      "raw_english_sha256": "3323eba6534fae6e1e53eb9d38cee3f4921291d9893c0f03c8d63d7c33dc9d5b",
+      "english_bytes": 449,
+      "canonical_present": true,
+      "expected_dynamic_signature": "443:1192985595:1587138524",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2998,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Tome of Divinity",
+      "level": 12,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2998/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "51ecc8519c8fdf4291758bbe65325123cb86140b198c39f2cfac95f34ed693d6",
+      "raw_english_sha256": "85a84fd42157f3619a1e5dbe819361f524c8928a3ff60fee837469436fb889d8",
+      "english_bytes": 426,
+      "canonical_present": true,
+      "expected_dynamic_signature": "423:823466612:209905540",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2998,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Tome of Divinity",
+      "level": 12,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2998/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "5406f52ac3f8d89c493f82c122e50e0b76ee9faa120e9a1dd1f56f394192cecc",
+      "raw_english_sha256": "85a84fd42157f3619a1e5dbe819361f524c8928a3ff60fee837469436fb889d8",
+      "english_bytes": 425,
+      "canonical_present": true,
+      "expected_dynamic_signature": "422:1718958553:1973714425",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1780,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "The Tome of Divinity",
+      "level": 13,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1780/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7df7f241234ac9e92395bc712af40f946fb2f3ed0db87d6456ae49da17705916",
+      "raw_english_sha256": "41a57178bd3bbe79668470c5b1abe510f0983a931e2492ea72f04d0534e38a1f",
+      "english_bytes": 253,
+      "canonical_present": true,
+      "expected_dynamic_signature": "68:807452427:1545679958 C 180:366091192:630134166",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1780,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "The Tome of Divinity",
+      "level": 13,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1780/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b760cb489544e3406629e42a12036a3978da9d951403adf5aff5d5c2fdcfc76f",
+      "raw_english_sha256": "41a57178bd3bbe79668470c5b1abe510f0983a931e2492ea72f04d0534e38a1f",
+      "english_bytes": 255,
+      "canonical_present": true,
+      "expected_dynamic_signature": "68:807452427:1545679958 C 182:584915407:1001861345",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98190,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Friend of the Family",
+      "level": 25,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/98190/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "4786406b4218917db03ff020954b2de946caf23b178b064a3273d24e0427847b",
+      "raw_english_sha256": "e1733aeabcffbea911561a1cb14b507843e28d1931a730103cb5ec9e046198ba",
+      "english_bytes": 489,
+      "canonical_present": true,
+      "expected_dynamic_signature": "483:137573836:789523077",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98190,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Friend of the Family",
+      "level": 25,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/98190/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "bece9493b668bd7c9c06c624b35fa21c6c131d6c35abb40a560576c53002681e",
+      "raw_english_sha256": "e1733aeabcffbea911561a1cb14b507843e28d1931a730103cb5ec9e046198ba",
+      "english_bytes": 490,
+      "canonical_present": true,
+      "expected_dynamic_signature": "484:579639520:1300699378",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95943,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Foreman's Plight",
+      "level": 38,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/95943/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a7994b78dfa21b6799a4135e5affe1815c598009b59b09785e6763d294882bcd",
+      "raw_english_sha256": "ababae554629bfd43e419a45109aa0ecf61e2781241af417bbeb9753dd492642",
+      "english_bytes": 498,
+      "canonical_present": true,
+      "expected_dynamic_signature": "486:1532716164:1165183874",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95943,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Foreman's Plight",
+      "level": 38,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/95943/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a02d8cb15d1fd52a74fab487a72d496ba735e04a1a3e3aeea06f65d2f54143a2",
+      "raw_english_sha256": "ababae554629bfd43e419a45109aa0ecf61e2781241af417bbeb9753dd492642",
+      "english_bytes": 499,
+      "canonical_present": true,
+      "expected_dynamic_signature": "487:1665007502:1038139045",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95951,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Fetch 'n' Fletch",
+      "level": 38,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/95951/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8aac03b22b17bbf64080c61441949bb206156a9d9596f95ed84c793afc35088a",
+      "raw_english_sha256": "df5a85cefe52da62b82f40e2e19a77dd8418d2e7c6f292351c675f62ddeb17ca",
+      "english_bytes": 497,
+      "canonical_present": true,
+      "expected_dynamic_signature": "491:2113701607:249273515",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95951,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Fetch 'n' Fletch",
+      "level": 38,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/95951/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7119f14b3f72cb80e8dfc25dfa5e308a77dfb8258bfb48272533f3496f5a0e21",
+      "raw_english_sha256": "df5a85cefe52da62b82f40e2e19a77dd8418d2e7c6f292351c675f62ddeb17ca",
+      "english_bytes": 498,
+      "canonical_present": true,
+      "expected_dynamic_signature": "492:501089855:634428625",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2981,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Threat in Feralas",
+      "level": 43,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2981/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "504edeffab0672960ba8aa6a96f6a9f0cdaf0ce234db8031ed7a755bc4bfc334",
+      "raw_english_sha256": "f8fa730a66eb2ac7abae8591c0b8601eb1a03aa1b752836d3d7b0ac38429eaaf",
+      "english_bytes": 386,
+      "canonical_present": true,
+      "expected_dynamic_signature": "49:13077804:1558961140 C 332:851614478:1746870229",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2981,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Threat in Feralas",
+      "level": 43,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2981/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "cb9ead44057c2a07dcc8c36ccb725effc34e87e9eaf527df291aa66dc9f77a04",
+      "raw_english_sha256": "f8fa730a66eb2ac7abae8591c0b8601eb1a03aa1b752836d3d7b0ac38429eaaf",
+      "english_bytes": 386,
+      "canonical_present": true,
+      "expected_dynamic_signature": "49:13077804:1558961140 C 332:613383189:1809468180",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2742,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Rin'ji is Trapped!",
+      "level": 47,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2742/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "9a58c478f84d6e62fdcb6e58d92b7a4f9e3dcb30347584e58dd780814a7207dd",
+      "raw_english_sha256": "26edf4a696b7f67fdf76c138fc47cf872593ad3affde4817df911e85e890ce89",
+      "english_bytes": 286,
+      "canonical_present": true,
+      "expected_dynamic_signature": "4:1228872774:163611696 R 77:875273963:1635464848 R 98:1734521446:1433949725 R 92:108862158:1655947510",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2742,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Rin'ji is Trapped!",
+      "level": 47,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2742/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "410e748090b265e1ac7e3b9d721e991090d6cb2430fc23ce7a6a8a35d99460ce",
+      "raw_english_sha256": "26edf4a696b7f67fdf76c138fc47cf872593ad3affde4817df911e85e890ce89",
+      "english_bytes": 287,
+      "canonical_present": true,
+      "expected_dynamic_signature": "4:1228872774:163611696 R 77:875273963:1635464848 R 98:1734521446:1433949725 R 93:265331222:555552054",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 4861,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Enraged Wildkin",
+      "level": 59,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4861/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "169309971a308464aa929af90733ddba9fdae8474a32052a848ec0d398fd6534",
+      "raw_english_sha256": "260041f8a326962e61ffc5adc10033362f9e31bc19c647db639e36c1ffc96a8b",
+      "english_bytes": 415,
+      "canonical_present": true,
+      "expected_dynamic_signature": "412:1908346494:1049082845",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 4861,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Enraged Wildkin",
+      "level": 59,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4861/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "82f4155e3d81d14bc88e7747f559a8742f5a1c082d7fe4323dfc31cda118c8ed",
+      "raw_english_sha256": "260041f8a326962e61ffc5adc10033362f9e31bc19c647db639e36c1ffc96a8b",
+      "english_bytes": 416,
+      "canonical_present": true,
+      "expected_dynamic_signature": "413:2013071658:194187843",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7638,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Lord Grayson Shadowbreaker",
+      "level": 60,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7638/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "586cf61d55eac27f2856ce8c07672fc57bf0e00ad6793c51c4745996d88b8a55",
+      "raw_english_sha256": "52c1ec227e84b0902dff7f65c0eb779ba9102bc7a85fdeba9aee05a5a40a37b8",
+      "english_bytes": 450,
+      "canonical_present": true,
+      "expected_dynamic_signature": "19:1057308443:1361522860 N 421:442078512:593457827",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7638,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Lord Grayson Shadowbreaker",
+      "level": 60,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7638/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6393629daeca11d17f49646feee309a9b92d7629b6e39c20f19a40b340ce9134",
+      "raw_english_sha256": "52c1ec227e84b0902dff7f65c0eb779ba9102bc7a85fdeba9aee05a5a40a37b8",
+      "english_bytes": 449,
+      "canonical_present": true,
+      "expected_dynamic_signature": "19:1057308443:1361522860 N 420:1144914959:54614291",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7670,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Lord Grayson Shadowbreaker",
+      "level": 60,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7670/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b1fea55d8cd00926eaa4850140c6573ebef6d4d2f2db11946f39b960ea44960a",
+      "raw_english_sha256": "53009f2762943d3a6bf22df012e55545bf7c5b77047cadbda976845428749cf6",
+      "english_bytes": 445,
+      "canonical_present": true,
+      "expected_dynamic_signature": "19:1057308443:1361522860 N 416:1777819314:1091730238",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7670,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "Lord Grayson Shadowbreaker",
+      "level": 60,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7670/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d9b224eefe1b1640cbc12d7cc6bf75f4db86fa1c8443c266df3e1d548f11f998",
+      "raw_english_sha256": "53009f2762943d3a6bf22df012e55545bf7c5b77047cadbda976845428749cf6",
+      "english_bytes": 444,
+      "canonical_present": true,
+      "expected_dynamic_signature": "19:1057308443:1361522860 N 415:1267095939:156775926",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97174,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Worthy Endeavor",
+      "level": 60,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/97174/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "first_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8e10677b83c3a94a296e181f1104a159cf0225ea5541bb1198dd01a1a91c7268",
+      "raw_english_sha256": "2bb73dc4609143f9bb402ca4989ce8d57c569df4b4a9a9393b876b3bacacfe78",
+      "english_bytes": 397,
+      "canonical_present": true,
+      "expected_dynamic_signature": "19:1057308443:1361522860 N 372:824754245:691759859",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97174,
+      "field": "description",
+      "runtime_field": "description",
+      "title": "A Worthy Endeavor",
+      "level": 60,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/97174/description"
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "gender_branch": "second_source_alternative",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "92cbf07dd3a683468872a7e473315df95d9d67caff83b803a0f13376ecd8f49e",
+      "raw_english_sha256": "2bb73dc4609143f9bb402ca4989ce8d57c569df4b4a9a9393b876b3bacacfe78",
+      "english_bytes": 396,
+      "canonical_present": true,
+      "expected_dynamic_signature": "19:1057308443:1361522860 N 371:1722965727:153722717",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    }
+  ],
+  "holds": [],
+  "matcher_executions": 30,
+  "new_Thai_fields": 0,
+  "runtime_changed": false,
+  "elapsed_wall_seconds": 0.29399609999927634,
+  "cpu_seconds": 0.28125,
+  "limits": [
+    "Both complete source alternatives supported from explicit primary G/g grammar; reader side/condition never selected by addon",
+    "Full incoming branches only; no UnitSex or condition eligibility guessed",
+    "Fixtures are not enabled/playable whole-game inventory",
+    "No old literal/NCR/MAIN28/Skill/NPC/UI/font suite rerun"
+  ]
+}
