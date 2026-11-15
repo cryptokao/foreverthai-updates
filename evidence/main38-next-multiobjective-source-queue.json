@@ -1,0 +1,570 @@
+{
+  "status": "SOURCE_ACQUISITION_QUEUE_NOT_56UNTRANSLATED_FIELDS",
+  "source_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
+  "baseline": "0.474.0",
+  "forms": [
+    {
+      "quest_id": 91285,
+      "field": "objective",
+      "level": 11,
+      "title": "Murlocs at the Gates",
+      "source_pointer": "/quests/91285/objectivesText",
+      "raw_source": "Slay $1oa Vile Fin Attackers and $2oa Vile Fin Seers and report back to Breton Samuels when it is done.",
+      "english_sha256": "a5a600db3a6e20e368d74c4cc104db1307dd93082ee0206f041441bf38f0719c",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 98403,
+      "field": "objective",
+      "level": 12,
+      "title": "Twisted Hatred",
+      "source_pointer": "/quests/98403/objectivesText",
+      "raw_source": "Kill $1oa Befouled Webwoods and bring Xethorr the Wicked's Mature Fel Moss to Tallonkai Swiftroot in Dolanaar.",
+      "english_sha256": "829e78305458db3af468054bacb676ca737dd08be6111dfb8ff902e6fe600d36",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 98197,
+      "field": "objective",
+      "level": 22,
+      "title": "Spoils of War",
+      "source_pointer": "/quests/98197/objectivesText",
+      "raw_source": "Recover $1oa Khaz Modan Timber and $2oa Khaz Modan Iron from Menethil Harbor for Valstag Ironjaw.",
+      "english_sha256": "b61ac1a9a1e0d75033a1d79678c926420d12c3d79211b3f8baf0ab5455401f04",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 98251,
+      "field": "objective",
+      "level": 23,
+      "title": "Never Coming Back",
+      "source_pointer": "/quests/98251/objectivesText",
+      "raw_source": "Kill $1oa Shadowhorn Stag and $2oa Ashenvale Bear and return to Va'xug Firefure northwest of Fallen Sky Lake.",
+      "english_sha256": "49d79f68d4536d13c5d09fa591855cd3682f60931fc04e231a719422c39f68c4",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 96259,
+      "field": "objective",
+      "level": 29,
+      "title": "Defending the Dead",
+      "source_pointer": "/quests/96259/objectivesText",
+      "raw_source": "Kill $1oa Gloomrise Hatchlings and $2oa Gloomrise Soldiers.",
+      "english_sha256": "31d8059d56ab755b9418912cb0da1379ce3bea744a97cde95541608c033bdee0",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 86757,
+      "field": "objective",
+      "level": 30,
+      "title": "Slowing the Orc Advance",
+      "source_pointer": "/quests/86757/objectivesText",
+      "raw_source": "Bring $1oa Jagged Orc Swords and $2oa Curved Orc Daggers to Shandrina.",
+      "english_sha256": "6d0f73b28996b3083537951d123d537dcd2f3e4e406ac1599ac3fcb654d3f354",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 98291,
+      "field": "objective",
+      "level": 30,
+      "title": "Death to the Dragonmaw",
+      "source_pointer": "/quests/98291/objectivesText",
+      "raw_source": "Kill $1oa Dragonmaw Reclaimers, $2oa Dragonmaw Soulbinders, and $3oa Dragonmaw Infiltrators in Dragonmaw Retreat for Howin Kindfeather.",
+      "english_sha256": "8f562ee1870df105da1d672a3c251fb5045b74add1a2b0d0f3bd44e06ca64c58",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 1396,
+      "field": "objective",
+      "level": 37,
+      "title": "Encroaching Wildlife",
+      "source_pointer": "/quests/1396/objectivesText",
+      "raw_source": "Kill $1oa Young Sawtooth Crocolisks, $2oa Sorrow Spinners and $3oa Swamp Jaguars then return to Watcher Biggs in the Swamp of Sorrows.",
+      "english_sha256": "f32ebfd1d9616f01632f80f1e2a44e0a2476c186db9f273a3498a52c4a406da0",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94678,
+      "field": "objective",
+      "level": 38,
+      "title": "Gnoll Infestation",
+      "source_pointer": "/quests/94678/objectivesText",
+      "raw_source": "Kill $1oa Redridge Mystics, $2oa Redridge Trappers, and $3oa Redridge Brutes for Cedric Dalton at Southern Watch.",
+      "english_sha256": "ab22c5b22b85367836e9a1128efda48c6949da594e433c97032d0187ec22be05",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94974,
+      "field": "objective",
+      "level": 41,
+      "title": "Key Ingredients",
+      "source_pointer": "/quests/94974/objectivesText",
+      "raw_source": "Bring $1oa Thick Leather and $2oa Iron Bar to Kreza Darkthorn.",
+      "english_sha256": "cb36a1e3d09f8ac1b298fe5679cabb36572d702aa287f8b1f5d83dcb35685da0",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 92847,
+      "field": "objective",
+      "level": 42,
+      "title": "Corrupting Tears",
+      "source_pointer": "/quests/92847/objectivesText",
+      "raw_source": "Maintain your reputation with the Magram, and bring $1oa Petrified Bark and $2oa Imbued Tears back to Orgrul.",
+      "english_sha256": "3303f67255637705c3381464799ffdbdd33532923a9ea5ef4c0fd6ed79601761",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 92893,
+      "field": "objective",
+      "level": 42,
+      "title": "No Mercy for the Weak",
+      "source_pointer": "/quests/92893/objectivesText",
+      "raw_source": "Maintain your reputation with the Magram Clan, and slay $1oa Gelkis Captives scattered around the Valley of Bones. Return to Orgrul after the task is complete.",
+      "english_sha256": "01d6907e84819c720edbb1333fa31068bb2560e6c0ccd9a05bb50cd63abc307e",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 93058,
+      "field": "objective",
+      "level": 42,
+      "title": "Saving Our Own",
+      "source_pointer": "/quests/93058/objectivesText",
+      "raw_source": "Maintain your reputation with the Gelkis clan, and rescue $1oa Gelkis Captives within the Valley of Bones. Return to Nerlokh near the entrance when you are done.",
+      "english_sha256": "1efd2380a0b5fcd8d45deba5cd050d823629320e2800b4f2527971cd79064a9c",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 97405,
+      "field": "objective",
+      "level": 44,
+      "title": "Noise Complaints",
+      "source_pointer": "/quests/97405/objectivesText",
+      "raw_source": "Knaz Blunderflame wants you to kill $1oa Mosh'Ogg Spellcrafters, $2oa Mosh'Ogg Warmongers, $3oa Mosh'Ogg Maulers, and $4oa Mosh'Ogg Shaman at the Mosh'Ogg Ogre Mount.",
+      "english_sha256": "806c2c4e465cae35fcc173f0694cfbb4c8dddd37136ec6e755f3c0c49d7f6500",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 88809,
+      "field": "objective",
+      "level": 52,
+      "title": "Preserving Eldarath",
+      "source_pointer": "/quests/88809/objectivesText",
+      "raw_source": "Collect $1oa Eldarath Relics from Spitelash Serpent Guards, Spitelash Sirens, and Spitelash Myrmidons, and Lord Sarthiss' Head for Commander Truesong in Azshara.",
+      "english_sha256": "12f27a777cb72a740b34b200de3a8d2bee15fcc55a4f50df40e25dcec1afce34",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 86792,
+      "field": "objective",
+      "level": 54,
+      "title": "Thinning Their Forces",
+      "source_pointer": "/quests/86792/objectivesText",
+      "raw_source": "Kill $1oa Legashi Hellraisers, $2oa Legashi Soulstealers, and $3oa Legashi Blackguards for Korsa outside Legashi Stronghold.",
+      "english_sha256": "e2549c5484d269e348510aac865499ccf7c65418c7a653ff3da5c1a16e3c9b4c",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 91564,
+      "field": "objective",
+      "level": 57,
+      "title": "Itching for a Fixing",
+      "source_pointer": "/quests/91564/objectivesText",
+      "raw_source": "Bring $1oa Mithril Casings and $2oa Mechanical Repair Kit to Hnaz Blunderflame.",
+      "english_sha256": "df8503dab49fd0f23489e87b001ecd21b5eb74c702ce5493c21a37233c17c44c",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 92189,
+      "field": "objective",
+      "level": 57,
+      "title": "Back to the Grind",
+      "source_pointer": "/quests/92189/objectivesText",
+      "raw_source": "Bring $1oa Dense Sharpening Stones and $2oa Dense Grinding Stones to Trigg Ironhand in Elderwild on Mount Hyjal.",
+      "english_sha256": "ac5dd40334585cc91ba6950dfbe45f9ffc4e411f288ae5aee398ae730b3e050e",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 96992,
+      "field": "objective",
+      "level": 57,
+      "title": "Resupply",
+      "source_pointer": "/quests/96992/objectivesText",
+      "raw_source": "Look through the burned buildings in the Cradle of Tranquility for $2oa Metal Brackets and $1oa Nails and return to Johun \"Punchy\" Dillas in Hyjal.",
+      "english_sha256": "9703503f8a6b0f184d390a44a316be7e882048c1545c38bad3e160547466c006",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 92859,
+      "field": "objective",
+      "level": 60,
+      "title": "Shroud of the Winter Wilds",
+      "source_pointer": "/quests/92859/objectivesText",
+      "raw_source": "Bring $1oa Winterspring Chimaera Fur and $2oa Winterspring Owl Feathers to Evie Whirlbrew.",
+      "english_sha256": "9184eec9ba5a4a5d178f5d4543581c4813478ba842cd94968fbc983e5cbbe02b",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94004,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Elixir of Ogre's Strength",
+      "source_pointer": "/quests/94004/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Elixir of Ogre's Strength, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "18c99edefeb03578e5a7907d1b5846f94b1313cbebf6c39f5e3aabf4247fa640",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94214,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Shadow Protection Potion",
+      "source_pointer": "/quests/94214/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Shadow Protection Potion, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "64889f6eeca2694fdba23cbf076e6062dcd1514e1cad6da93c077eec3589f5b2",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94216,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Elixir of Lesser Agility",
+      "source_pointer": "/quests/94216/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Elixir of Lesser Agility, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "206621772f154c47ab536048d16f0fe4728339f5601fb953909ca4cae309c2e5",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94217,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Lesser Troll's Blood Elixir",
+      "source_pointer": "/quests/94217/description",
+      "raw_source": "\n\n<Penned in faded ink, the note is requesting $2oa Lesser Troll's Blood Elixir, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "37cfd24f5514b38fac88b7558441f620c49a55bd532b3ea177a91e5ffaa75252",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94220,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Pearl-Handled Dagger",
+      "source_pointer": "/quests/94220/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Pearl-Handled Dagger, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "dabe6cd1c7929524175ddb3d82b454f95360755d5c1e243d7f223539a9ba1028",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94221,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Golden Rod",
+      "source_pointer": "/quests/94221/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Golden Rod, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "02675ba1f1256738931c79acee5dfe6ff7c508c269302b20ffc58e66516fb0d7",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94229,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Ornate Spyglass",
+      "source_pointer": "/quests/94229/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Ornate Spyglass, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "7375ae541323f48f622983f32a061630f995b608fecd958d8eb2bbabf30bd075",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94234,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Shadow Goggles",
+      "source_pointer": "/quests/94234/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Shadow Goggles, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "a985a4ec85744bb67fc2af17d47d99be079318d52c70e393b9fbb2d3eb628bb5",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94244,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Dark Leather Shoulders",
+      "source_pointer": "/quests/94244/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Dark Leather Shoulders, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "fcfc21629e6d53043f8e9137c1b31f9c524cc4d654923f3c2661a8dd73502b40",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94245,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Barbaric Gloves",
+      "source_pointer": "/quests/94245/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Barbaric Gloves, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "fe6d2f8141eb03476a10a2f7698e00d3d968342de971a7fdd426a95f224a7e4b",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94248,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Blue Overalls",
+      "source_pointer": "/quests/94248/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Blue Overalls, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "01b3803b383edc0194709c5b421c0ac4e4d1781526bb54c5342910a55dfc217b",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94258,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Lesser Stoneshield Potion",
+      "source_pointer": "/quests/94258/description",
+      "raw_source": "\n\n<Penned in faded ink, the note is requesting $2oa Lesser Stoneshield Potion, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "4fa666abce04a7cd9ec1a6261ddaaeb0f39503b3d18bd21234617f4d123508a3",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94262,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Mana Potion",
+      "source_pointer": "/quests/94262/description",
+      "raw_source": "\n\n<Penned in faded ink, the note is requesting $2oa Mana Potion, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "d183c51fd0fcaaa8fcad387831540f3320d0b11728393375e0a0b6e286c4bcb3",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94272,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Blue Glittering Axe",
+      "source_pointer": "/quests/94272/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Blue Glittering Axe, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "db142c35f444198ca43b9a2c32b17810f3e42dd28a7e23748c4067f3ba4ce40a",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94273,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Moonsteel Broadsword",
+      "source_pointer": "/quests/94273/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Moonsteel Broadsword, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "fe1b6e416641be3bbc44b08b9b1560798019270a77e160ce02e91e7f7c7c5b31",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94280,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Mechanical Dragonling",
+      "source_pointer": "/quests/94280/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Mechanical Dragonling, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "f51cc0379cf1c39254a43f6469a1d308578540457ba15e565e8c840cfdd6f666",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94282,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Craftsman's Monocle",
+      "source_pointer": "/quests/94282/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Craftsman's Monocle, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "5578b58f24b9a77569e621752a314dd2be4aa1d8be07787ae8cb27e276758954",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94285,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Unstable Trigger",
+      "source_pointer": "/quests/94285/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Unstable Trigger, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "f2464d112f89d74f7a6090d94fe0b0f77197ac4c17283c706479929305c89241",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94291,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Dark Iron Bomb",
+      "source_pointer": "/quests/94291/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Dark Iron Bomb, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "769f2c16dc1e2e96b031173c6cf03ad66c05f7f44ab5e755e599840fc36ac17b",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94301,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Big Voodoo Robe",
+      "source_pointer": "/quests/94301/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Big Voodoo Robe, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "75e22534c1a0cc1632dcc9affc45dfb17188fc851c1e5b53238061d502adb490",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94303,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Thick Leather Ammo Pouch",
+      "source_pointer": "/quests/94303/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Thick Leather Ammo Pouch, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "560844660666c0cdc841a84aeed9699f7186973b36f90934661705855fe4696b",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94305,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Shadoweave Gloves",
+      "source_pointer": "/quests/94305/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Shadoweave Gloves, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "4a69d17b584f395d12b212aa06b06c369f103ce385e7e77bcc1b66aa52310b34",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94311,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Red Mageweave Pants",
+      "source_pointer": "/quests/94311/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Red Mageweave Pants, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "2ee0627783d389e78621a0334a1c7c8ae420a3e89e0c35c40ca3dc2c460fcd66",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94313,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: White Bandit Mask",
+      "source_pointer": "/quests/94313/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa White Bandit Mask, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "b240ba22188b7892e850f27ff830087931d539604916ba153caff1d49b02572f",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94315,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Earthen Silk Belt",
+      "source_pointer": "/quests/94315/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Earthen Silk Belt, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "5a7e26a11fa0b48702138005ad9ffe9cca5e52fc47192c67eadf3ff98043d41e",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94322,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Limited Invulnerability Potion",
+      "source_pointer": "/quests/94322/description",
+      "raw_source": "\n\n<Penned in faded ink, the note is requesting $2oa Limited Invulnerability Potion, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "6d22123a67ae3be807703a739aefe32e0ac6ac60fcd862682e5e3659a65cd538",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94325,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Radiant Circlet",
+      "source_pointer": "/quests/94325/description",
+      "raw_source": "\n\n<Penned in faded ink, the note is requesting $2oa Radiant Circlet, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "b48b23cbe2fc6f484b9d00974ac7ff9a0602d1dfcdc92eba7daae0eb35acc95f",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94326,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Radiant Belt",
+      "source_pointer": "/quests/94326/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Radiant Belt, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "e2cf24b73b04a25cb7d313e37878e78f939704330564a5539fad7f0b2e07ed76",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94341,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Sniper Scope",
+      "source_pointer": "/quests/94341/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Sniper Scope, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "8612129b4abc694d8b466e7dc00446fbf98364d99a878280f00245df479f6d75",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94342,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Tranquil Mechanical Yeti",
+      "source_pointer": "/quests/94342/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Tranquil Mechanical Yeti, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "5bd74bbe6057b5a3fcb9be0d52fbe2ba6569276950896dc3b63461640b54d2c4",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94344,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Gordok Ogre Suit",
+      "source_pointer": "/quests/94344/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Gordok Ogre Suit, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "bfc6196e2d05e60e715cf7228f0bcba651efc44f05f5485d3569fed30e7557d0",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94345,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Volcanic Breastplate",
+      "source_pointer": "/quests/94345/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Volcanic Breastplate, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "60d607d67f7594b3f6b81b83c3886d2b624cc941d8d6141e68a91a7cc6be8ec0",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94348,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Chimeric Vest",
+      "source_pointer": "/quests/94348/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Chimeric Vest, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "4822652a8dad95691874dab2a0924deae629a5b78455caeb49f4144690e45e31",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 94351,
+      "field": "description",
+      "level": 60,
+      "title": "Craftsman's Writ: Frostsaber Boots",
+      "source_pointer": "/quests/94351/description",
+      "raw_source": "<Penned in faded ink, the note is requesting $2oa Frostsaber Boots, along with information about delivery location and payment. At the bottom appears text denoting this writ is transferable.>",
+      "english_sha256": "053a84311c873bb2616821fded50b677472845a7e9c8013c4b0bf4b8ecb814b7",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 95818,
+      "field": "description",
+      "level": 60,
+      "title": "A Quick Craft",
+      "source_pointer": "/quests/95818/description",
+      "raw_source": "We can get ye sorted out and out of here in no time, provided you have the materials on hand! We are going to need $1oa Mithril Bars and $2oa Heavy Leather. Normally we need some other metals and the like too, but I've got some scrap that's been taking up space we can use for those extra bits.\r\n\r\nOh, as a personal favor, I am gonnae ask for $3oa Goldthorn as well. My wife knows a great recipe for tea and I'd like to surprise her. Consider this your payment!",
+      "english_sha256": "38da969f216a44b96b9a1b0c4fd0ca78ee2014cd1928b932d77653ac7fcecdc7",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    },
+    {
+      "quest_id": 98462,
+      "field": "objective",
+      "level": 60,
+      "title": "Shroud of the Winter Wilds",
+      "source_pointer": "/quests/98462/objectivesText",
+      "raw_source": "Bring $1oa Chillwind Chimaera Fur and $2oa Winterspring Owl Feathers to Evie Whirlbrew.",
+      "english_sha256": "8b88dbe90bf3e23cb1d5c4d51d89da7e4bf27205af808ea39123eb1df71c3da9",
+      "need": "independent own-ID live UI/log full body with rendered amounts OR primary objective ordinal mapping;no inferred storageIndex/order"
+    }
+  ],
+  "newThai": 0,
+  "runtime_changes": 0,
+  "current_enabled_inventory_proven": false
+}

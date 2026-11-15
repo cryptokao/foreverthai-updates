@@ -1,24 +1,31 @@
 {
   "status": "ACTIVE_REAL_MAIN_TRANSLATION_PROGRESS",
-  "batch": "MAIN36",
+  "batch": "MAIN38",
   "consecutive_impasse_goal_turns": 0,
-  "new_supported_fields_or_variants": 13,
-  "new_Thai_fields": 10,
-  "verbatim_reviewed_reuse": 3,
+  "new_supported_fields": 82,
+  "new_Thai_fields": 67,
+  "verbatim_reviewed_reuse": 15,
+  "quest_ids": 28,
   "whole_goal_complete": false,
-  "latest_private": "0.473.0",
+  "latest_private": "0.474.0",
   "last_verified_published_customer": "0.470.0",
   "next_normal_customer_milestone": "0.480.0",
+  "literal109_delta": {
+    "delivered_private0473": 13,
+    "delivered_private0474": 82,
+    "excluded_developer": 12,
+    "held_ambiguous_title": 2
+  },
   "remaining": [
-    "Remaining Nov15 new-query 95macro/9identity holds and literal pending need bounded actual evidence;selected13nowdelivered",
-    "86792multiobjective order,9556race role not inferred",
-    "Unknown-level and current enabled whole-game inventory not closed",
-    "Windows/MacM2 actual gameplay acceptance still absent;user said not tested",
-    "No repeat of unchanged old3902matcher or closed1414primarylookups"
+    "56newmultiobjective/markup source forms,9identityholds;327identitydiagnostics not counted newroleproof",
+    "Acquire independent own-ID live UI/log bodies or primary ordinalmapping;not infer storageIndex/counts",
+    "Unknownlevel/current enabled whole-game inventory unresolved",
+    "Actual Windows/MacM2 acceptance missing;user said nottested,do not repeat samequestion",
+    "No diversion to NPC/books/style to extend run while mainpriority not closed"
   ],
   "source_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
-  "runtime_commit": "26d2af8a7944ba7d2b4e9b984e93e005fd242629",
-  "artifact_commit": "65d7757dfced38ef66fcc37ca959a423d1aca851",
+  "runtime_commit": "70f937a8c0c93630a64535a4fe3e05410322584e",
+  "artifact_commit": "541ebd47868a1ce13517c2cfa546ea5c467be164",
   "preserve_all_modules": true,
   "local_AI_used": false
 }

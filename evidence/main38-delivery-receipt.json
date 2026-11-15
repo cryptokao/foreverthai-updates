@@ -1,0 +1,62 @@
+{
+  "status": "PRIVATE0474_MAIN38_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "541ebd47868a1ce13517c2cfa546ea5c467be164",
+  "source_commit": "70f937a8c0c93630a64535a4fe3e05410322584e",
+  "checks": [
+    {
+      "path": "ForeverThai-0.474.0-main38-PRIVATE-TEST.zip",
+      "bytes": 29967987,
+      "sha256": "d6541f6daf107d54fd88564299cc480b52ebb3ed7203f417850b13ac1198fb95",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.474.0-TH.txt",
+      "bytes": 8860,
+      "sha256": "5a90641e10521b8aa2a19791d1487eb551007183bdc5a8e1839b0b8ec83250dc",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN38-bitmap-simulation-01.png",
+      "bytes": 415891,
+      "sha256": "d9abfacb960f153906570d4c16403dbda7e6c93718aeecf0ac8ae163f49ec94f",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN38-bitmap-simulation-02.png",
+      "bytes": 410958,
+      "sha256": "6fec7be3340bde00e73f012c4e642fe333b3df1f17b685e1aa2261c9018d669b",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN38-bitmap-simulation-03.png",
+      "bytes": 452137,
+      "sha256": "0a2c238819fbe0b77d5f99e99a0fc594163431807c59a0342ff72c24c45b34ab",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN38-bitmap-simulation-04.png",
+      "bytes": 396773,
+      "sha256": "8faac9f35c7709c5e924051317af1752d040fd08bf65a735188a57d14aba717b",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN38-bitmap-simulation-05.png",
+      "bytes": 253863,
+      "sha256": "09b3b1fe1bc1c39da5ff03859b82a52cd26361bb6a8ff48121523608490c419f",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all164_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 117,
+  "new_word_bitmaps": 79,
+  "new_Thai_fields": 67,
+  "verbatim_reviewed_reuse": 15,
+  "new_supported_fields": 82,
+  "quest_ids": 28,
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "elapsed_wall_seconds": 8.940404400000261
+}
