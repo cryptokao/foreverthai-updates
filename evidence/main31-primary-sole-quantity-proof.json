@@ -1,0 +1,27 @@
+{
+  "status": "SOLE_OBJECTIVE_PROOF_SCOPE_CLOSED_ALREADY_SUPPORTED",
+  "primary_format_code": {
+    "repository": "Stein-N/WoW-Quest-Database",
+    "pin": "bd4f36aba4894a68bb5e002fac78f010b29bd790",
+    "path": "etl/questcache.py",
+    "blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+    "lines": [
+      138,
+      141,
+      142,
+      144,
+      145,
+      146
+    ]
+  },
+  "scope": "Only $1oa and exactly one current-cache objective with a positive integer amount; no storageIndex/order inference across objective types or multi-objective mapping. This source is a community cache extractor; it does not prove all live server behavior.",
+  "qualified_raw_fields": 115,
+  "supported_current_numeric_forms": 114,
+  "excluded_disabled_94898": 1,
+  "current_build": 70938,
+  "query_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "new_Thai_fields": 0,
+  "runtime_changed": false,
+  "raw_api_macro_display_proven": false,
+  "multi_objective_or_other_numeric_tokens_still_held": true
+}

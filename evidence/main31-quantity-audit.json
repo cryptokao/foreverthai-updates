@@ -1,0 +1,5098 @@
+{
+  "batch": "MAIN31",
+  "scope": "New explicit single-objective ordinal-one quantity proof only115 fields; no multi-objective/storageIndex mapping",
+  "baseline_zip_sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "rows": [
+    {
+      "quest_id": 484,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 22,
+      "title": "Young Crocolisk Skins",
+      "objective": {
+        "amount": 6,
+        "id": 380162,
+        "objectId": 3397,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/484/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 380162,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b38f9c74d67eb7dcf70010a1715be87b364ec83d1afb9ccb00c7db475ce80be6",
+      "english_bytes": 69,
+      "canonical_present": true,
+      "expected_dynamic_signature": "69:70762422:496097392",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 490,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Bounty: Gnarlpine Furbolg",
+      "objective": {
+        "amount": 15,
+        "id": 380608,
+        "objectId": 5220,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/490/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 380608,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "29ae5c00cd6b0ac38e5087b9436f8ed286eadf35539e31e24ea441b81e602c0f",
+      "english_bytes": 94,
+      "canonical_present": true,
+      "expected_dynamic_signature": "94:1864703774:810424249",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 3842,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 47,
+      "title": "A Short Incubation",
+      "objective": {
+        "amount": 2,
+        "id": 383215,
+        "objectId": 3825,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/3842/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 2,
+        "objective_count": 1,
+        "objective_id": 383215,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "40e8f47ac55411abee6136676a138cf6674343f39da9f01c017bc54b060d4bed",
+      "english_bytes": 67,
+      "canonical_present": true,
+      "expected_dynamic_signature": "67:2144618835:1814289213",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 86576,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 26,
+      "title": "Bloodfury Trinkets",
+      "objective": {
+        "amount": 15,
+        "id": 475779,
+        "objectId": 277936,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86576/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 475779,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "831b05609d39f74467a8b55262515417ad6c41288cbbe79e4247f95019fbbd0a",
+      "english_bytes": 43,
+      "canonical_present": true,
+      "expected_dynamic_signature": "43:703287579:473943466",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 86616,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 48,
+      "title": "Repurposed Totems",
+      "objective": {
+        "amount": 12,
+        "id": 476742,
+        "objectId": 279225,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86616/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 476742,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "81e017160e1f64f22135fb4c8249fa1e867d90bba44139f1536868685f080e7a",
+      "english_bytes": 50,
+      "canonical_present": true,
+      "expected_dynamic_signature": "50:156742183:824765440",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 86620,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 51,
+      "title": "Fledgling Rescue",
+      "objective": {
+        "amount": 6,
+        "id": 476754,
+        "objectId": 279229,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86620/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 476754,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a2b8da9a6781a8cd7210ee0784c671e451751c1d460c4e62e96e0e76855481c2",
+      "english_bytes": 56,
+      "canonical_present": true,
+      "expected_dynamic_signature": "56:38087772:1242461305",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 87288,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 7,
+      "title": "Soft Saber Pelts",
+      "objective": {
+        "amount": 6,
+        "id": 477074,
+        "objectId": 280087,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/87288/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 477074,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "580a65b18dd7bea0c78477c818f3fda2bd2e9ec1feb1b5625074380eeb876fa0",
+      "english_bytes": 40,
+      "canonical_present": true,
+      "expected_dynamic_signature": "40:1586989350:1470458873",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 87295,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 52,
+      "title": "Deflective Surface",
+      "objective": {
+        "amount": 10,
+        "id": 477137,
+        "objectId": 280181,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/87295/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 477137,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d2ab4e4b5bc89a7e0dff176b2adb51d63abc964bcab01cb3e39a4b7066263e29",
+      "english_bytes": 52,
+      "canonical_present": true,
+      "expected_dynamic_signature": "52:661611836:1620296302",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 87492,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 55,
+      "title": "Uncanny Crystal",
+      "objective": {
+        "amount": 1,
+        "id": 477374,
+        "objectId": 280417,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/87492/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 1,
+        "objective_count": 1,
+        "objective_id": 477374,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f68b817541756fd34f176a03546c6b095a621d6cd0c06a9874ec07d960f60243",
+      "english_bytes": 54,
+      "canonical_present": true,
+      "expected_dynamic_signature": "54:526491074:573533467",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 88756,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 31,
+      "title": "Bring Back a Bang",
+      "objective": {
+        "amount": 3,
+        "id": 477543,
+        "objectId": 280806,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/88756/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 3,
+        "objective_count": 1,
+        "objective_id": 477543,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "18bad661f83b81341c34ae56b2ff499982d401e6b4b83800f144a9333c34bb94",
+      "english_bytes": 60,
+      "canonical_present": true,
+      "expected_dynamic_signature": "60:430152374:1170683350",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 89013,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 48,
+      "title": "Gettin' Buzzed",
+      "objective": {
+        "amount": 5,
+        "id": 459525,
+        "objectId": 238503,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/89013/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 459525,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "cc8b0efe09c70ce18724fe91a0bd40b4353d6ed77722bd400433f2ed2c3960b9",
+      "english_bytes": 62,
+      "canonical_present": true,
+      "expected_dynamic_signature": "62:1756275622:1788167426",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 90865,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Eyes of the Watchers",
+      "objective": {
+        "amount": 8,
+        "id": 472683,
+        "objectId": 273322,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/90865/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 472683,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f18bfce65089853f5dd44175f92b2ad790e918616e8ec65b8e0255e74b61367d",
+      "english_bytes": 38,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:877326312:113464195",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 90902,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 2,
+      "title": "Rediscovering the Light",
+      "objective": {
+        "amount": 5,
+        "id": 461780,
+        "objectId": 259377,
+        "storageIndex": 0,
+        "text": "Injured Deathguard healed",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/90902/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 461780,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "bae5b27a8686a55429498c027fed41ee2b4535289bbda650c5c361987633a726",
+      "english_bytes": 55,
+      "canonical_present": true,
+      "expected_dynamic_signature": "55:936354723:1791683721",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 91608,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 48,
+      "title": "Gettin' Buzzed",
+      "objective": {
+        "amount": 5,
+        "id": 463106,
+        "objectId": 238503,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91608/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 463106,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f2a28ca31cbb2978458b0614d773d71984ad98f993c82d03ff8de459ab9dfdad",
+      "english_bytes": 61,
+      "canonical_present": true,
+      "expected_dynamic_signature": "61:1069079910:1615090801",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 91743,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 2,
+      "title": "Rascally Rodents",
+      "objective": {
+        "amount": 8,
+        "id": 463359,
+        "objectId": 247839,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91743/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 463359,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e308b971f0137f443fbcf5ab22313b4f03710b044f95e812f8e99317260c45ad",
+      "english_bytes": 92,
+      "canonical_present": true,
+      "expected_dynamic_signature": "92:1761616328:305851445",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 91754,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Rub Some Dirt In It",
+      "objective": {
+        "amount": 6,
+        "id": 463376,
+        "objectId": 247889,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91754/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 463376,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d70e853400aa55f2082237195e6cddf93a43bceba0d1638cf53584af3ea6b5a8",
+      "english_bytes": 77,
+      "canonical_present": true,
+      "expected_dynamic_signature": "77:1037860760:1701066221",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 91755,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Leaves to Ligatures",
+      "objective": {
+        "amount": 12,
+        "id": 463378,
+        "objectId": 247892,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91755/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 463378,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ffa03864eb708fc27d9909ecef90a87d527a665103b2a83785c8ad90d1b88fbb",
+      "english_bytes": 81,
+      "canonical_present": true,
+      "expected_dynamic_signature": "81:765890721:1345641803",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92014,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Fox Hole",
+      "objective": {
+        "amount": 9,
+        "id": 473383,
+        "objectId": 274586,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92014/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 9,
+        "objective_count": 1,
+        "objective_id": 473383,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a93089c0f12d96060593cb32992087340bc6a6ebbb406f2cfd693a1c7f42347a",
+      "english_bytes": 62,
+      "canonical_present": true,
+      "expected_dynamic_signature": "62:461048960:914379812",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92421,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 22,
+      "title": "Light's Justice",
+      "objective": {
+        "amount": 25,
+        "id": 473553,
+        "objectId": 268580,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92421/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 25,
+        "objective_count": 1,
+        "objective_id": 473553,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2ee53dca2349bf4ab10f3dfc12869039bcc9da1acc677450bcb16a6628ac9054",
+      "english_bytes": 92,
+      "canonical_present": true,
+      "expected_dynamic_signature": "92:70437642:1131674925",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92594,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Kindling, Kinda",
+      "objective": {
+        "amount": 15,
+        "id": 465184,
+        "objectId": 248395,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92594/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 465184,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "419862d2417f5eba8ca9165c4e6e276a28ea397bd0d32597c7ffb34571db67bc",
+      "english_bytes": 97,
+      "canonical_present": true,
+      "expected_dynamic_signature": "97:1138569814:260134744",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92609,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Feathers in Flight",
+      "objective": {
+        "amount": 9,
+        "id": 465205,
+        "objectId": 253341,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92609/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 9,
+        "objective_count": 1,
+        "objective_id": 465205,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6652c27b8903e7877cfcf494b709c86f653a38f5d09efa912c81e82ffc264a06",
+      "english_bytes": 40,
+      "canonical_present": true,
+      "expected_dynamic_signature": "40:1259533849:1960149911",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92749,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 16,
+      "title": "A Dynamite Plan",
+      "objective": {
+        "amount": 10,
+        "id": 465714,
+        "objectId": 4358,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92749/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 465714,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "9e6566fce708110d9e8af5462036f3bb322dfb71ee3390caa041991be6578222",
+      "english_bytes": 143,
+      "canonical_present": true,
+      "expected_dynamic_signature": "143:1203544780:644600056",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92960,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Siphoned Ephemeral Essence",
+      "objective": {
+        "amount": 6,
+        "id": 471580,
+        "objectId": 271220,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92960/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 471580,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "592f4e3931255083a25ad4a2f14c58ae40ce790c53db93218920458936b5dad8",
+      "english_bytes": 53,
+      "canonical_present": true,
+      "expected_dynamic_signature": "53:1927140483:1695574043",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93160,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 13,
+      "title": "The Forest's Bounty",
+      "objective": {
+        "amount": 8,
+        "id": 466253,
+        "objectId": 257128,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93160/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 466253,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "1a5220dfa3faecc799aa757579a88c1646f0ae3e8d14f0d09f334436e1685179",
+      "english_bytes": 48,
+      "canonical_present": true,
+      "expected_dynamic_signature": "48:2055749345:1641450059",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93165,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 13,
+      "title": "Mercy Falls on Deaf Ears",
+      "objective": {
+        "amount": 5,
+        "id": 466623,
+        "objectId": 258771,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93165/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 466623,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "807764ac83f3a90fd2711c735eb58421931a4eedcbda26344b22e8d8b519d5ef",
+      "english_bytes": 125,
+      "canonical_present": true,
+      "expected_dynamic_signature": "125:970591606:1548872658",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93224,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Carved Centaur Totems",
+      "objective": {
+        "amount": 5,
+        "id": 466320,
+        "objectId": 254432,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93224/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 466320,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "03153b30b48a059ec45f3342eb9bc3f527c2dc92ed5ad5c5fe0e604f84744288",
+      "english_bytes": 139,
+      "canonical_present": true,
+      "expected_dynamic_signature": "139:1762810074:1031640717",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93225,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Carved Centaur Totems",
+      "objective": {
+        "amount": 5,
+        "id": 466323,
+        "objectId": 254432,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93225/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 466323,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "bd21a983293e2f7802b1b691d01d39dde44deef4dae8a1e4cc196ff836e3d3ee",
+      "english_bytes": 140,
+      "canonical_present": true,
+      "expected_dynamic_signature": "140:787842073:1229303676",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93406,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Unfrozen Deliveries",
+      "objective": {
+        "amount": 4,
+        "id": 466500,
+        "objectId": 258323,
+        "storageIndex": 1,
+        "text": "Pieces of Missing Mail",
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93406/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 466500,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6732c3aaa186b29cf1eaf5827e50e341924551062604b33819c03c40e4625489",
+      "english_bytes": 99,
+      "canonical_present": true,
+      "expected_dynamic_signature": "99:181252276:1106347206",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93546,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 42,
+      "title": "Spectral Iron Ore",
+      "objective": {
+        "amount": 10,
+        "id": 466722,
+        "objectId": 259226,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93546/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 466722,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2fe41ff16b8ed346be0cec562e89ef5de9c0bae2df4df1d1fdf4ed43e1c841d1",
+      "english_bytes": 147,
+      "canonical_present": true,
+      "expected_dynamic_signature": "147:1158623498:871845066",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93786,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 36,
+      "title": "A Message in Blood",
+      "objective": {
+        "amount": 12,
+        "id": 467473,
+        "objectId": 256383,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93786/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 467473,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f6d62caf4b8e08d7ba611bc9612af061663330c9319585ef9e4b3f5f0ab08ab2",
+      "english_bytes": 83,
+      "canonical_present": true,
+      "expected_dynamic_signature": "83:620480329:55005995",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93787,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 36,
+      "title": "Food for the Taking",
+      "objective": {
+        "amount": 6,
+        "id": 467477,
+        "objectId": 262640,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93787/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 467477,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "67fb2d21b8aca436ceeafbb6c6baf8520c6a8e954ff01f685d39c74bd8971583",
+      "english_bytes": 86,
+      "canonical_present": true,
+      "expected_dynamic_signature": "86:309027292:42377120",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93788,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Borrowed Blades",
+      "objective": {
+        "amount": 10,
+        "id": 467479,
+        "objectId": 263972,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93788/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 467479,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b44a5535c1e2fb9466b816fab8d8e17b5372d7d97eadf6bb1d789994129dd0e0",
+      "english_bytes": 106,
+      "canonical_present": true,
+      "expected_dynamic_signature": "106:549786888:822891405",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93825,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Barkbound Blessings",
+      "objective": {
+        "amount": 12,
+        "id": 467534,
+        "objectId": 262802,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93825/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 467534,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8e1bd666aad665ebb3c30f0ea71129b9671caae00738da1a66886113536e5dfd",
+      "english_bytes": 62,
+      "canonical_present": true,
+      "expected_dynamic_signature": "62:875509861:584581853",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93828,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Herbs of the Hollow",
+      "objective": {
+        "amount": 10,
+        "id": 467540,
+        "objectId": 617129,
+        "storageIndex": 2,
+        "type": "gameObject",
+        "typeId": 2
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93828/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 467540,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c43c82d387cebffee85236e48520f36fa58be6d6d6da7834ffb8a1e55683060b",
+      "english_bytes": 94,
+      "canonical_present": true,
+      "expected_dynamic_signature": "94:24531881:1705143141",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93831,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Sweetpaw Jam",
+      "objective": {
+        "amount": 30,
+        "id": 470335,
+        "objectId": 262818,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93831/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 30,
+        "objective_count": 1,
+        "objective_id": 470335,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ca75ece369daa37b0547c104554175427395a871195cbb06fc9ba22e6cc23ed9",
+      "english_bytes": 60,
+      "canonical_present": true,
+      "expected_dynamic_signature": "60:1804939869:505228678",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93832,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Shatter the Stonewatchers",
+      "objective": {
+        "amount": 6,
+        "id": 467554,
+        "objectId": 249237,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93832/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 467554,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ac14c10c54a60644995a3181d4d395fcd5297a9b26799e1d5645093a7d80fd43",
+      "english_bytes": 109,
+      "canonical_present": true,
+      "expected_dynamic_signature": "109:99626222:1578795295",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93949,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Bugged",
+      "objective": {
+        "amount": 8,
+        "id": 468000,
+        "objectId": 257066,
+        "storageIndex": 0,
+        "text": "Enchanted Skyhopper Exterminated",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93949/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 468000,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7eab4b01fb60d55d8cf79f1578f5432b3dd69ac4c5af8420ca1d4c3e5daec12c",
+      "english_bytes": 75,
+      "canonical_present": true,
+      "expected_dynamic_signature": "75:504333277:306449268",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 93952,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Balance Through Strength",
+      "objective": {
+        "amount": 9,
+        "id": 469631,
+        "objectId": 252063,
+        "storageIndex": 1,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/93952/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 9,
+        "objective_count": 1,
+        "objective_id": 469631,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ebb0e9f020e8dd73046d619ec569b4607ec454163441e7958747213d69c78178",
+      "english_bytes": 54,
+      "canonical_present": true,
+      "expected_dynamic_signature": "54:1297624463:393274358",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94481,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "A Serving of Strength",
+      "objective": {
+        "amount": 8,
+        "id": 468777,
+        "objectId": 256749,
+        "storageIndex": 0,
+        "text": "Rog'mar Trainee fed",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94481/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 468777,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "9462023f10cb6931a12a9ee5e945a6f725fb9ac2a5b74cdc3533bf243c1e691f",
+      "english_bytes": 48,
+      "canonical_present": true,
+      "expected_dynamic_signature": "48:489815435:2128465867",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94485,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 12,
+      "title": "Tears of the Lady",
+      "objective": {
+        "amount": 8,
+        "id": 468786,
+        "objectId": 265105,
+        "storageIndex": 5,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94485/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 468786,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "736c3446cb932d50340d4168b3362d79700b0c043d8c893f275f22b4d2f5e1a0",
+      "english_bytes": 27,
+      "canonical_present": true,
+      "expected_dynamic_signature": "27:1412727434:1255749974",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94535,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Bristle Hills Bandits",
+      "objective": {
+        "amount": 40,
+        "id": 468853,
+        "objectId": 265358,
+        "storageIndex": 3,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94535/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 40,
+        "objective_count": 1,
+        "objective_id": 468853,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e5149cdfabe3256a372a26926b448c0d92f3f79f8fe3bcb0912fb21754c8ea14",
+      "english_bytes": 74,
+      "canonical_present": true,
+      "expected_dynamic_signature": "74:1515049484:711895219",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94680,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Twilight Missives",
+      "objective": {
+        "amount": 3,
+        "id": 469086,
+        "objectId": 265745,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94680/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 3,
+        "objective_count": 1,
+        "objective_id": 469086,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8f7d3e61250318b764e20173d753d313822acc3b5d4b590a9fb244af64490cf2",
+      "english_bytes": 95,
+      "canonical_present": true,
+      "expected_dynamic_signature": "95:214669443:1135238853",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94748,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 44,
+      "title": "Break Their Chains",
+      "objective": {
+        "amount": 5,
+        "id": 469111,
+        "objectId": 272737,
+        "storageIndex": 0,
+        "text": "Rog'mar Scout rescued",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94748/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 469111,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "766e238428192f612bb33ce53ff7c40c59a2ceeb0c92e8598a580674b659431e",
+      "english_bytes": 66,
+      "canonical_present": true,
+      "expected_dynamic_signature": "66:1178089153:1935362678",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94881,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Curious Trinkets",
+      "objective": {
+        "amount": 25,
+        "id": 469295,
+        "objectId": 266425,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94881/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 25,
+        "objective_count": 1,
+        "objective_id": 469295,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b81f01ef3a066efb862712930dbcecb17632714ee2893c434578c057fe357123",
+      "english_bytes": 129,
+      "canonical_present": true,
+      "expected_dynamic_signature": "129:236789121:45814630",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94888,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 44,
+      "title": "No Soldier Left Behind",
+      "objective": {
+        "amount": 5,
+        "id": 469299,
+        "objectId": 272737,
+        "storageIndex": 1,
+        "text": "Farholde Scouts rescued",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94888/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 469299,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "71e7a5fff89b817c7d92c7b046d1b9da4ff7d642c710beff0a805c2cb63e623c",
+      "english_bytes": 74,
+      "canonical_present": true,
+      "expected_dynamic_signature": "74:158966228:1618094738",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94898,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 11,
+      "title": "Violent Winds (Temp Disabled)",
+      "objective": {
+        "amount": 10,
+        "id": 469318,
+        "objectId": 251676,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94898/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 469318,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "held_developer_or_disabled_source",
+      "english_sha256": "62ce9ffc508e639158980fe00ce5ddd37e35674d1231c098df387b0f0537d61d",
+      "english_bytes": 21,
+      "canonical_present": false,
+      "expected_dynamic_signature": "21:64886338:241038042",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 94931,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Stolen Saws",
+      "objective": {
+        "amount": 8,
+        "id": 469347,
+        "objectId": 266897,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94931/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 469347,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f715d35b095783a957aaca064102dd1a7c62cdf51a6e66d241ec897559dbbaae",
+      "english_bytes": 98,
+      "canonical_present": true,
+      "expected_dynamic_signature": "98:2127099166:397135236",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94975,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 42,
+      "title": "A Token of Vengeance",
+      "objective": {
+        "amount": 15,
+        "id": 469490,
+        "objectId": 267091,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94975/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 469490,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "47fd8d7fe84ba3f699a0722f930d93981c1234121e6ee9473cffcad721d62d5c",
+      "english_bytes": 74,
+      "canonical_present": true,
+      "expected_dynamic_signature": "74:1520609020:1562193952",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94983,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 42,
+      "title": "Twilight Mementos",
+      "objective": {
+        "amount": 8,
+        "id": 469528,
+        "objectId": 267234,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/94983/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 469528,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "5880ea72be3cbc7ecb5433c27e140e79d700813008279efe2f0c1fe4a48c38fc",
+      "english_bytes": 76,
+      "canonical_present": true,
+      "expected_dynamic_signature": "76:1542540292:995222867",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95156,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 37,
+      "title": "Stuff 'Em and Stick 'Em",
+      "objective": {
+        "amount": 3,
+        "id": 470087,
+        "objectId": 268536,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95156/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 3,
+        "objective_count": 1,
+        "objective_id": 470087,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "48b4e006214821002430f3035e4f8c330fc4f56848e470e89f0b33540d6898dc",
+      "english_bytes": 59,
+      "canonical_present": true,
+      "expected_dynamic_signature": "59:297384324:480574825",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95162,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Paletusk Harvesting",
+      "objective": {
+        "amount": 10,
+        "id": 470094,
+        "objectId": 769,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95162/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 470094,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a79a48126f8fb44dea2fcaefa5c7a369023de7575146e6146eb64ceb579a1402",
+      "english_bytes": 56,
+      "canonical_present": true,
+      "expected_dynamic_signature": "56:1181427747:976297769",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95183,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Step One: Rock",
+      "objective": {
+        "amount": 10,
+        "id": 470141,
+        "objectId": 271892,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95183/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 470141,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e2f6d86161db4967e519dc9bbd32547ef3fa4bce56c1740dce2bb216fc785c92",
+      "english_bytes": 44,
+      "canonical_present": true,
+      "expected_dynamic_signature": "44:376359571:1488229936",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95184,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "The Sharpest of Blades",
+      "objective": {
+        "amount": 8,
+        "id": 470145,
+        "objectId": 7964,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95184/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470145,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "87d39bef8300c07368cbb1230f5129f9242598081be72cdd9e0c6090132060be",
+      "english_bytes": 87,
+      "canonical_present": true,
+      "expected_dynamic_signature": "87:1384141565:250318864",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95195,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 22,
+      "title": "Bloodied Insignia",
+      "objective": {
+        "amount": 10,
+        "id": 473551,
+        "objectId": 268540,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95195/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 473551,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "44e1960980481308a7069d51adcfbfca9b811d66e724da18f3819402f3337f14",
+      "english_bytes": 89,
+      "canonical_present": true,
+      "expected_dynamic_signature": "89:1436266974:1848218892",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95288,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 43,
+      "title": "Smuggler's Paradise",
+      "objective": {
+        "amount": 8,
+        "id": 470232,
+        "objectId": 268796,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95288/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470232,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e4f715319d18d0b3be7735975ff40a974b340b75a7d0025578223e76897d9e31",
+      "english_bytes": 66,
+      "canonical_present": true,
+      "expected_dynamic_signature": "66:481958529:2008734925",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95314,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 10,
+      "title": "That Shadowvale Green Elixir",
+      "objective": {
+        "amount": 8,
+        "id": 470252,
+        "objectId": 268801,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95314/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470252,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2726fe2174ec7e24bd640e4ae92ca11b1a995eef25b6e7db82bc3bb032386256",
+      "english_bytes": 94,
+      "canonical_present": true,
+      "expected_dynamic_signature": "94:1545758162:1772769863",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95317,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Notation, Notation, Notation",
+      "objective": {
+        "amount": 12,
+        "id": 473176,
+        "objectId": 274396,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95317/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 473176,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a91236cac8da11a48528e8ffba658ed6c276cb9ab7ea647009da08267e9ed86f",
+      "english_bytes": 38,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1012185200:857961477",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95318,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Taste of Ash",
+      "objective": {
+        "amount": 12,
+        "id": 470268,
+        "objectId": 260422,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95318/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 470268,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "bba0f42a91150f1ca63b617a9d96a1248841d87e0731a89be0cf14e361bc22d9",
+      "english_bytes": 23,
+      "canonical_present": true,
+      "expected_dynamic_signature": "23:686587298:2047562350",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95380,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "A Prolific Source",
+      "objective": {
+        "amount": 8,
+        "id": 470469,
+        "objectId": 273008,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95380/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 470469,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7fb8b17cf6d1763a1283b8d7007fe5dccc30ab21db45f7a479b3184e9a94ae55",
+      "english_bytes": 24,
+      "canonical_present": true,
+      "expected_dynamic_signature": "24:615452717:392204100",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95426,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 39,
+      "title": "Rog'mar Supplies",
+      "objective": {
+        "amount": 8,
+        "id": 473743,
+        "objectId": 274975,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95426/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 473743,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c5e40d9fcc8602e2b4b331e2aa394908eae5c11a616e52e60efaa5932b93aa2c",
+      "english_bytes": 74,
+      "canonical_present": true,
+      "expected_dynamic_signature": "74:1906467182:1863854408",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95432,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 43,
+      "title": "Rise Up!",
+      "objective": {
+        "amount": 5,
+        "id": 470581,
+        "objectId": 260417,
+        "storageIndex": 0,
+        "text": "Ogre Miners recruited",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95432/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 470581,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "9a04ae0e11d2d7d6ef840814902550befd5140bec6a4ee5e776c377862c70034",
+      "english_bytes": 22,
+      "canonical_present": true,
+      "expected_dynamic_signature": "22:306512952:778413234",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95568,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Seeds for a New Season",
+      "objective": {
+        "amount": 10,
+        "id": 470949,
+        "objectId": 260176,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95568/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 470949,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "4000c3cb22bb69fd9114c2d050a341f38ed570d0a11b5108401ba6aacfd12022",
+      "english_bytes": 40,
+      "canonical_present": true,
+      "expected_dynamic_signature": "40:1452865522:2019351564",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95602,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Sickening Lights",
+      "objective": {
+        "amount": 5,
+        "id": 471034,
+        "objectId": 272603,
+        "storageIndex": 0,
+        "text": "Twilight Ritual Circle destroyed",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95602/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 471034,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e55aa3deaa95d32e3e2f59ef35b2a2ae263b6808843491849e5f7da460a9f07a",
+      "english_bytes": 83,
+      "canonical_present": true,
+      "expected_dynamic_signature": "83:196043109:1020597393",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95613,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Keeping the Light On",
+      "objective": {
+        "amount": 5,
+        "id": 471049,
+        "objectId": 17028,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95613/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 471049,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c71c19f43326a8162d6fcbafe4ebeb83933f0330dfee1efcceab3745ba62e31c",
+      "english_bytes": 56,
+      "canonical_present": true,
+      "expected_dynamic_signature": "56:1978405178:365025916",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95769,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Threading a Solution",
+      "objective": {
+        "amount": 6,
+        "id": 473438,
+        "objectId": 14048,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95769/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 473438,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6a34201eaa5e6dd235122144db33865a4d443aae49e574be779bf57d72899617",
+      "english_bytes": 66,
+      "canonical_present": true,
+      "expected_dynamic_signature": "66:642413222:928932993",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95773,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 37,
+      "title": "Enemies in the Water",
+      "objective": {
+        "amount": 10,
+        "id": 471244,
+        "objectId": 270305,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95773/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471244,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0f29c6dbb7df87c2b056ed16f649ab86915ed562ee9a94d6964c9faaaec99b0d",
+      "english_bytes": 58,
+      "canonical_present": true,
+      "expected_dynamic_signature": "58:1045756180:929971193",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95774,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 20,
+      "title": "Her Name Is Olgra",
+      "objective": {
+        "amount": 4,
+        "id": 475545,
+        "objectId": 277277,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95774/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 475545,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "3d14f19d4f6914950b7aa406566cace8261518bb58f99d98a1cf446f47e647f1",
+      "english_bytes": 74,
+      "canonical_present": true,
+      "expected_dynamic_signature": "74:851448508:752667766",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95788,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Magics of the Drowned City",
+      "objective": {
+        "amount": 5,
+        "id": 471385,
+        "objectId": 270343,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95788/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 471385,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6742a51edd3b9f0bc5ca51175145d37943f8dd0015a91330e4a275f24061c128",
+      "english_bytes": 59,
+      "canonical_present": true,
+      "expected_dynamic_signature": "59:736687627:863125469",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95789,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Shady Saltseers",
+      "objective": {
+        "amount": 10,
+        "id": 471326,
+        "objectId": 270333,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95789/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471326,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d8355db8c2f5828e0fe07d1f7190b974c802498a8b08f565ef9a00767d3eeab3",
+      "english_bytes": 78,
+      "canonical_present": true,
+      "expected_dynamic_signature": "78:2086908950:136767046",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95793,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Stemming the Demon Tide",
+      "objective": {
+        "amount": 12,
+        "id": 471579,
+        "objectId": 249229,
+        "storageIndex": 2,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95793/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 471579,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "de07f6cfc180422c536e99a6a60f85b96792ef082521cd4f2bcda15a38b26c7f",
+      "english_bytes": 38,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1264579931:1331257803",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95951,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Fetch 'n' Fletch",
+      "objective": {
+        "amount": 20,
+        "id": 471700,
+        "objectId": 271630,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95951/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 20,
+        "objective_count": 1,
+        "objective_id": 471700,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f0c64ff0d6de9c25861f908f7de6ac059d72c5325fd5f95dd1f172e6ea140de2",
+      "english_bytes": 120,
+      "canonical_present": true,
+      "expected_dynamic_signature": "120:529738546:1676370792",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95955,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 39,
+      "title": "Stick 'Em",
+      "objective": {
+        "amount": 10,
+        "id": 471711,
+        "objectId": 263190,
+        "storageIndex": 1,
+        "text": "Freshwater Crocolisk impaled",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95955/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471711,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ea84d20c1a3340752e0f7878cff5730aacd06d45e7a2100ee6318d1509e22e9c",
+      "english_bytes": 68,
+      "canonical_present": true,
+      "expected_dynamic_signature": "68:1647661248:1274987454",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95975,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Her World",
+      "objective": {
+        "amount": 20,
+        "id": 471782,
+        "objectId": 271823,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95975/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 20,
+        "objective_count": 1,
+        "objective_id": 471782,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "eed4bd1213db9624bfe41c7ab74da843f079e5eb3a8824e6021bf7baa0acb493",
+      "english_bytes": 76,
+      "canonical_present": true,
+      "expected_dynamic_signature": "76:585164697:651771831",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95982,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Not My Circus",
+      "objective": {
+        "amount": 10,
+        "id": 471736,
+        "objectId": 274971,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95982/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471736,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "83b72ac522081ab66ed88fdfaf20ef78797f561ccb31b4d1e46669256d61d059",
+      "english_bytes": 68,
+      "canonical_present": true,
+      "expected_dynamic_signature": "68:2031004500:121926831",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96026,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 41,
+      "title": "Step Two: More Rock",
+      "objective": {
+        "amount": 10,
+        "id": 471850,
+        "objectId": 3241,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96026/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 471850,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "07a26ccfb38001dcfaab7bd8ef8271a6003656e62b462816e1d0428d17678198",
+      "english_bytes": 52,
+      "canonical_present": true,
+      "expected_dynamic_signature": "52:1748063478:715835044",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96107,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 40,
+      "title": "Feathers for Fletching",
+      "objective": {
+        "amount": 6,
+        "id": 472319,
+        "objectId": 271793,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96107/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 472319,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "32992a540bcd8c8f27bfd9b366c54bc3f35bbb7e3f9ddb83254a5f6dcdd2d386",
+      "english_bytes": 62,
+      "canonical_present": true,
+      "expected_dynamic_signature": "62:1638018125:1383626144",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96252,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Tarnished Treasures",
+      "objective": {
+        "amount": 8,
+        "id": 472623,
+        "objectId": 273164,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96252/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 472623,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "cc55dbb45cc075680fcb3e8b43f5a1fa0ba2a0e7817b81792d75c6ad0934cffe",
+      "english_bytes": 66,
+      "canonical_present": true,
+      "expected_dynamic_signature": "66:2056567688:279913804",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96262,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Prickly Pinecones",
+      "objective": {
+        "amount": 10,
+        "id": 472654,
+        "objectId": 273304,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96262/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 472654,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "38b21efd10808ba44bcfdc13d3ed2a584aec1517619091986f1d9cc5bdd01d62",
+      "english_bytes": 49,
+      "canonical_present": true,
+      "expected_dynamic_signature": "49:1885205699:1011141123",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96296,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Fetid Corruption",
+      "objective": {
+        "amount": 6,
+        "id": 472745,
+        "objectId": 651430,
+        "storageIndex": 1,
+        "type": "gameObject",
+        "typeId": 2
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96296/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 472745,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8397d001e639d0db2c1be6562f8f19c770dc92b1cfd4c3b32f47186d2f11c3f6",
+      "english_bytes": 56,
+      "canonical_present": true,
+      "expected_dynamic_signature": "56:120861762:1376558905",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96334,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 53,
+      "title": "Blood Red Bandanas",
+      "objective": {
+        "amount": 8,
+        "id": 472865,
+        "objectId": 274028,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96334/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 472865,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "22acd1508a5684536aecb8de4e7f787d808c3d6ec413f559b8273c7a2ad88826",
+      "english_bytes": 80,
+      "canonical_present": true,
+      "expected_dynamic_signature": "80:770996422:1374466220",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96390,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 13,
+      "title": "Nip 'Em in the Bud",
+      "objective": {
+        "amount": 10,
+        "id": 473134,
+        "objectId": 6123,
+        "storageIndex": 1,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96390/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 473134,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d80352cda0af429ec602f14d21681e98fb04191e3b913d66017bad15ace994b2",
+      "english_bytes": 38,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1904309946:1970784382",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96403,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 15,
+      "title": "Important Heirlooms",
+      "objective": {
+        "amount": 8,
+        "id": 473157,
+        "objectId": 274289,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96403/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 473157,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8a28eadf681aade585245c888c6faa10c3ad6ed14a75d5513f678facdc7df1ac",
+      "english_bytes": 52,
+      "canonical_present": true,
+      "expected_dynamic_signature": "52:140481702:311650989",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96603,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Unstable Magic",
+      "objective": {
+        "amount": 10,
+        "id": 473686,
+        "objectId": 274964,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96603/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 473686,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "049f3fd0f092661b8e2431409a157c87be058a850fa55fd67001fec7f3584b33",
+      "english_bytes": 65,
+      "canonical_present": true,
+      "expected_dynamic_signature": "65:1493265450:1893868362",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96616,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 57,
+      "title": "Herbs for the Bruised and Weary",
+      "objective": {
+        "amount": 12,
+        "id": 473749,
+        "objectId": 274979,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96616/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 473749,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2e6355c4964bff0ab3b92c0121518e8427cc429a2907c3a4f1cd200d481db540",
+      "english_bytes": 26,
+      "canonical_present": true,
+      "expected_dynamic_signature": "26:125158384:629569969",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96674,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 56,
+      "title": "Ewe Wandered Off",
+      "objective": {
+        "amount": 6,
+        "id": 473857,
+        "objectId": 265988,
+        "storageIndex": 1,
+        "text": "Escaped Sheep",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96674/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 473857,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "24de7a1ba5cc7187488403df67826b7426b8f01e05e5d84d572452fd8f0c9126",
+      "english_bytes": 35,
+      "canonical_present": true,
+      "expected_dynamic_signature": "35:1021738621:453715517",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96898,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 12,
+      "title": "Remnants of War",
+      "objective": {
+        "amount": 12,
+        "id": 474508,
+        "objectId": 275851,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96898/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 474508,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6f7c60d9da6e340e4b9a2eb2de0f07a75cff9ff36d31e238be499f9052d49fcf",
+      "english_bytes": 56,
+      "canonical_present": true,
+      "expected_dynamic_signature": "56:724138265:442224490",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96971,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "To Outfox a Demon",
+      "objective": {
+        "amount": 8,
+        "id": 474622,
+        "objectId": 275958,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96971/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 474622,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "102b472641cd3d1415a65b46d0d79e01bc32c6ccca988e4921e7694e24e5ed7d",
+      "english_bytes": 29,
+      "canonical_present": true,
+      "expected_dynamic_signature": "29:692296315:76140207",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96988,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 33,
+      "title": "Source of Power",
+      "objective": {
+        "amount": 6,
+        "id": 474659,
+        "objectId": 275997,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96988/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 474659,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "4a273e89501eef8e09458937d5179115f3a210be264719c10a1abf7bed4fa58a",
+      "english_bytes": 92,
+      "canonical_present": true,
+      "expected_dynamic_signature": "92:1785890107:1247955283",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97009,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Maerion's Misery",
+      "objective": {
+        "amount": 12,
+        "id": 474726,
+        "objectId": 276100,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97009/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 474726,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d6206e47e925908a761a51ffc216dee2968cbd83e9f55912ff4dd1285ae8648f",
+      "english_bytes": 60,
+      "canonical_present": true,
+      "expected_dynamic_signature": "60:501936808:539860619",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97049,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Essence of Seeping Slimes",
+      "objective": {
+        "amount": 8,
+        "id": 474904,
+        "objectId": 276235,
+        "storageIndex": 2,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97049/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 474904,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "38811b09bddd3f89b238a46db6949e4aa74f2b87d855805bb3222f8edf5b5f86",
+      "english_bytes": 55,
+      "canonical_present": true,
+      "expected_dynamic_signature": "55:1641785367:1464895589",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97225,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 9,
+      "title": "Forgotten Loa Idols",
+      "objective": {
+        "amount": 8,
+        "id": 475463,
+        "objectId": 277135,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97225/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 475463,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f5979be2a3c80e9ddba43c5905462a69a2b2533285456899bd9591d6b0ea144e",
+      "english_bytes": 98,
+      "canonical_present": true,
+      "expected_dynamic_signature": "98:1661837467:1761104971",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97253,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 15,
+      "title": "Parts and Pieces",
+      "objective": {
+        "amount": 5,
+        "id": 475641,
+        "objectId": 277331,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97253/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 475641,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d9e41be29bc8794df545f1b80efe55abf1a18ba73fc6d7ba9b289ca5f96fab8d",
+      "english_bytes": 131,
+      "canonical_present": true,
+      "expected_dynamic_signature": "131:309487204:1630158666",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97264,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 58,
+      "title": "Shardtooth Pulling",
+      "objective": {
+        "amount": 12,
+        "id": 475661,
+        "objectId": 7445,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97264/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 475661,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2981354055a8601f53f777f82af1fb282be4013a3439f905c0c48e5455799cba",
+      "english_bytes": 77,
+      "canonical_present": true,
+      "expected_dynamic_signature": "77:1465955137:1071057078",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97279,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 2,
+      "title": "Wayward Weapons",
+      "objective": {
+        "amount": 6,
+        "id": 475713,
+        "objectId": 277653,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97279/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 475713,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "98a198399775376e1fc99a949f6642cd5cec969db7a00e1b2f6429aefec3b015",
+      "english_bytes": 80,
+      "canonical_present": true,
+      "expected_dynamic_signature": "80:948073258:756238824",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97282,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 10,
+      "title": "Stormy Potential",
+      "objective": {
+        "amount": 5,
+        "id": 475722,
+        "objectId": 277665,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97282/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 475722,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "795707a7dc8635c31d141b0d20997c77dd257c9195e752cfc93fca7aac947d16",
+      "english_bytes": 69,
+      "canonical_present": true,
+      "expected_dynamic_signature": "69:188176000:1844862970",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97327,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Blackmaw Pouches",
+      "objective": {
+        "amount": 5,
+        "id": 475808,
+        "objectId": 273050,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97327/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 475808,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "3ab680047b6680d8115502168ccec5cd7cbf91993bebb93644f075744a53415b",
+      "english_bytes": 97,
+      "canonical_present": true,
+      "expected_dynamic_signature": "97:1176382816:1416903220",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97328,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 35,
+      "title": "Anything of Value",
+      "objective": {
+        "amount": 8,
+        "id": 475815,
+        "objectId": 277953,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97328/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 475815,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6bfd1112491d140399c057e1ed7ec06fd5b274526c90ae2ec8e7d6343a7270c1",
+      "english_bytes": 122,
+      "canonical_present": true,
+      "expected_dynamic_signature": "122:1727625922:1557312869",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97403,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 59,
+      "title": "Two-Headed Ravagers",
+      "objective": {
+        "amount": 15,
+        "id": 475865,
+        "objectId": 7449,
+        "storageIndex": 1,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97403/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 15,
+        "objective_count": 1,
+        "objective_id": 475865,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0c0bb05c76a90954e1a4ae9c713e63f066b88c7af2c2a7f4a937be4d8e779002",
+      "english_bytes": 79,
+      "canonical_present": true,
+      "expected_dynamic_signature": "79:126530518:1853063152",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97420,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 36,
+      "title": "Reduce, Reuse, Reconcile",
+      "objective": {
+        "amount": 4,
+        "id": 475892,
+        "objectId": 277986,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97420/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 475892,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0e277c6c291132d4b1b71ab0acd41feade60d76964923b4961167915003a2ec1",
+      "english_bytes": 135,
+      "canonical_present": true,
+      "expected_dynamic_signature": "135:1270268878:1999625087",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97453,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 38,
+      "title": "Weed Whacked",
+      "objective": {
+        "amount": 6,
+        "id": 475953,
+        "objectId": 269175,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97453/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 475953,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2042d2d99e9f6044bc92e85ebebbb96f59aa983e852dbe60206b9d0ce1baccff",
+      "english_bytes": 75,
+      "canonical_present": true,
+      "expected_dynamic_signature": "75:1701240154:1475659493",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97534,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 45,
+      "title": "Gritty Business",
+      "objective": {
+        "amount": 7,
+        "id": 476058,
+        "objectId": 278191,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97534/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 7,
+        "objective_count": 1,
+        "objective_id": 476058,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "fc35ddb9f0ef421c751f01196fbb4dc18da0e67ff1b746f2ef9ef8f9f9127884",
+      "english_bytes": 85,
+      "canonical_present": true,
+      "expected_dynamic_signature": "84:1079411764:1566742067",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97538,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 26,
+      "title": "Pigments for Paints",
+      "objective": {
+        "amount": 30,
+        "id": 476076,
+        "objectId": 278201,
+        "storageIndex": 4,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97538/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 30,
+        "objective_count": 1,
+        "objective_id": 476076,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f4406f12d7ae216a88f5f45ed2b8d4afabecf5c07b7ce12211016c5b20a328da",
+      "english_bytes": 76,
+      "canonical_present": true,
+      "expected_dynamic_signature": "76:839746139:960505602",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98192,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 43,
+      "title": "Skin Careful, Skin Sharp",
+      "objective": {
+        "amount": 8,
+        "id": 476968,
+        "objectId": 279601,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98192/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 476968,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0c82d0d99d38be80d686893702758b796baf8fec0b5fb9335d2332b312e36939",
+      "english_bytes": 59,
+      "canonical_present": true,
+      "expected_dynamic_signature": "59:122017362:604743327",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98215,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 44,
+      "title": "Dragon Scales, Post Burnt Tails",
+      "objective": {
+        "amount": 20,
+        "id": 477018,
+        "objectId": 279934,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98215/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 20,
+        "objective_count": 1,
+        "objective_id": 477018,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "af58dbb0c08c12759f000766c89c53ebe58283b888b781e5fc8dba6ac5117a54",
+      "english_bytes": 53,
+      "canonical_present": true,
+      "expected_dynamic_signature": "53:2120899141:1600363547",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98246,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 29,
+      "title": "Trying Times",
+      "objective": {
+        "amount": 12,
+        "id": 477114,
+        "objectId": 280132,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98246/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 12,
+        "objective_count": 1,
+        "objective_id": 477114,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "41b669399de6e7a0bbb998b0fe5175e92981636b7c691e793b2f076f676f0af1",
+      "english_bytes": 54,
+      "canonical_present": true,
+      "expected_dynamic_signature": "54:1914713745:2089752050",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98293,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 30,
+      "title": "Forced Disarmament",
+      "objective": {
+        "amount": 30,
+        "id": 477300,
+        "objectId": 280369,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98293/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 30,
+        "objective_count": 1,
+        "objective_id": 477300,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0a788ec78bfd2e529b769985fd325fdc2fbb92260e6ae6ddb4b2f1c47423e142",
+      "english_bytes": 107,
+      "canonical_present": true,
+      "expected_dynamic_signature": "107:1207289042:930374958",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98321,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 7,
+      "title": "Flintfire's Shipment",
+      "objective": {
+        "amount": 8,
+        "id": 477369,
+        "objectId": 280413,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98321/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 8,
+        "objective_count": 1,
+        "objective_id": 477369,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b56262c25d59d85ca95615b48adb6e0a4c705f7fadef43c74345e7594e4fc7cf",
+      "english_bytes": 85,
+      "canonical_present": true,
+      "expected_dynamic_signature": "85:173133425:1231475102",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98477,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 60,
+      "title": "Unstable Magic",
+      "objective": {
+        "amount": 10,
+        "id": 477857,
+        "objectId": 274964,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98477/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 477857,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8e3e12dc2ea89b0cb178565620c5491bc8810087060862423cab9fc7060d09d1",
+      "english_bytes": 53,
+      "canonical_present": true,
+      "expected_dynamic_signature": "53:617630492:1164196422",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98815,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 28,
+      "title": "Highland Hides",
+      "objective": {
+        "amount": 4,
+        "id": 478750,
+        "objectId": 284845,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98815/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 4,
+        "objective_count": 1,
+        "objective_id": 478750,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ee100eb1e7fed14cad1362073d230d16caff329a0af610c1394520e6cfa04ce6",
+      "english_bytes": 80,
+      "canonical_present": true,
+      "expected_dynamic_signature": "80:762041285:1726274338",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99134,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 6,
+      "title": "Discipline",
+      "objective": {
+        "amount": 5,
+        "id": 479408,
+        "objectId": 1746,
+        "storageIndex": 0,
+        "text": "Deathguards motivated",
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99134/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 479408,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a9de2197c438c7a9e41896dbc19f8fabc2521ef92bf3db2ef27ecca87b4cd145",
+      "english_bytes": 41,
+      "canonical_present": true,
+      "expected_dynamic_signature": "41:159693143:254045104",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99142,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 11,
+      "title": "Tomb Weed",
+      "objective": {
+        "amount": 5,
+        "id": 479437,
+        "objectId": 286204,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": false,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99142/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 5,
+        "objective_count": 1,
+        "objective_id": 479437,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "519cce7c6067a79bc0da86827a80c9d8f8f9965360f6d9fd46428b8bf50f6405",
+      "english_bytes": 71,
+      "canonical_present": true,
+      "expected_dynamic_signature": "71:285178020:2048599431",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99143,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 7,
+      "title": "Bottles and Baubles",
+      "objective": {
+        "amount": 6,
+        "id": 479442,
+        "objectId": 286209,
+        "storageIndex": 1,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99143/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 479442,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "23a3c8e95892960ae90b9935b027490d45ec767ce83dc694664fd7583b1658a5",
+      "english_bytes": 59,
+      "canonical_present": true,
+      "expected_dynamic_signature": "59:1226069111:362763578",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99152,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 12,
+      "title": "As Above, So Below",
+      "objective": {
+        "amount": 6,
+        "id": 479469,
+        "objectId": 286259,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99152/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 6,
+        "objective_count": 1,
+        "objective_id": 479469,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "57229ca1c547eb74b4d89e588af2d91cb476062e287c82e0a3f314e8ba692850",
+      "english_bytes": 54,
+      "canonical_present": true,
+      "expected_dynamic_signature": "54:2086006358:81940372",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99159,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Finding Warmth",
+      "objective": {
+        "amount": 14,
+        "id": 479520,
+        "objectId": 286339,
+        "storageIndex": 0,
+        "type": "item",
+        "typeId": 1
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99159/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 14,
+        "objective_count": 1,
+        "objective_id": 479520,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "73f42e3392728e365bd1cc52c1f8f61d300ec44e2b259f428f25e6ff7dea2391",
+      "english_bytes": 30,
+      "canonical_present": true,
+      "expected_dynamic_signature": "30:115065276:614095399",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99160,
+      "field": "objective",
+      "runtime_field": "objective",
+      "level": 8,
+      "title": "Rime's Wrath",
+      "objective": {
+        "amount": 10,
+        "id": 479482,
+        "objectId": 276003,
+        "storageIndex": 0,
+        "type": "monster",
+        "typeId": 0
+      },
+      "noData_in_current_scan": false,
+      "described_in_current_scan": true,
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99160/objectivesText"
+      },
+      "quantity_evidence": {
+        "token": "$1oa",
+        "current_amount": 10,
+        "objective_count": 1,
+        "objective_id": 479482,
+        "storageIndex_used_for_mapping": false,
+        "proof_blob": "ab70d8f1aee3bc44538e6cbba9012855d9555bbc",
+        "proof_path": "etl/questcache.py",
+        "proof_repository": "Stein-N/WoW-Quest-Database",
+        "scope": "Explicit fill_amounts ordinal-one documented; only one objective,so no cross-type/order inference. Exact current number,not arbitrary count wildcard."
+      },
+      "status": "already_supported_default_fixture",
+      "english_sha256": "73339ba3da9ebaf397d65dde4d2ce061569e055bbce6c56aed1b54ae91a75407",
+      "english_bytes": 32,
+      "canonical_present": true,
+      "expected_dynamic_signature": "32:940152308:989302263",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    }
+  ],
+  "counts": {
+    "already_supported_default_fixture": 114,
+    "held_developer_or_disabled_source": 1
+  },
+  "matcher_executions": 114,
+  "holds": [
+    {
+      "quest_id": 94898,
+      "reason": "held_developer_or_disabled_source"
+    }
+  ],
+  "new_Thai_fields": 0,
+  "version_or_runtime_changed": false,
+  "elapsed_wall_seconds": 0.27193160000024363,
+  "cpu_seconds": 0.25,
+  "limits": [
+    "Quantity role primary fill_amounts docs,sole objective in current raw cache; exact full own-ID body only,not arbitrary amount wildcard",
+    "Fixture profile support is not actual condition eligibility/current enabled inventory",
+    "Only exact current integer from sole objective; additional unknown macros/multiple objectives remain held",
+    "No old base-cache/MAIN27/old UI/Skill/NPC/font corpus rerun"
+  ]
+}

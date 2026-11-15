@@ -1,0 +1,19 @@
+{
+  "questie": {
+    "pin": "4f10e7e24b18aba6f3b6c2530ea1d996e8191a20",
+    "status": "behind already reviewed4dbb82440a27856f8dccf57094a5d792cdc7cc9b;no new data"
+  },
+  "SteinCorrection": {
+    "pin": "bd4f36aba4894a68bb5e002fac78f010b29bd790",
+    "status": "oldOctober1,not rejoined"
+  },
+  "LoreForever": {
+    "new_pin": "9ccba92aca7de796a9463de0c18775e013f2a841",
+    "status": "questVoice index contains hashes only,quest JSON lore is adapted summary not verbatim original;no translation claimed"
+  },
+  "SpokenWow": {
+    "old_pin": "2d4117372b4a4bf838c2f846b7ddc4c87dbc84ca",
+    "new_corpus_pin": "ecbd06b379a4b30048c5139f10fa379430d840a0",
+    "status": "new corpus delta metadata lead only;not yet read/qualified"
+  }
+}

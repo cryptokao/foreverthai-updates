@@ -1,0 +1,948 @@
+{
+  "batch": "MAIN29",
+  "scope": "New lowercase $g reader-sex proof: primary DATASETS.md texts definition spells male first/female second; lowercase only, no eligibility inference or reader UnitSex assumption.",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "rows": [
+    {
+      "quest_id": 60,
+      "field": "description",
+      "title": "Kobold Candles",
+      "level": 7,
+      "english": "Hello, $ggood sir:my lady;!  Do you have a moment?$B$BMy brother and I run an apothecary in Stormwind, and I'm here to gather large candles for their wax.  Can you help me?$B$BYou can get large candles from kobolds, and I hear rumors that kobolds are infesting the Elwynn mines ... the Fargodeep mine to the south and Jasperlode Mine to the east.  I suggest looking for candles in one of those places.",
+      "gender_forms": [
+        {
+          "raw": "$ggood sir:my lady;",
+          "male": "good sir",
+          "female": "my lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/60/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 170,
+      "field": "description",
+      "title": "A New Threat",
+      "level": 2,
+      "english": "I hope you're here to lend us a hand, $c. After the last trogg attack, we could use all the help we can get.$b$bI hear the buggers have been popping up all across the lands, and it seems Coldridge Valley is no exception. They've been spotted all over the hills to the southeast and near the frozen lake.$b$bAnd that's not all, just a few nights ago, they attacked and overran our camp to the west! $b$bWe're a bit shorthanded here, $g lad : lass;, and we need strong arms to help drive the troggs back.",
+      "gender_forms": [
+        {
+          "raw": "$g lad : lass;",
+          "male": " lad ",
+          "female": " lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/170/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 233,
+      "field": "description",
+      "title": "Coldridge Valley Mail Delivery",
+      "level": 3,
+      "english": "Hm, I don't suppose you'd be willing to do a favor for me, $g lad : lass;? A stack of letters came through the pass today, but I don't have the time to send them along.$b$bThey're all addressed to Talin Keeneye. You can find him to the west down the road. He's set up camp next to the frozen lake.$b$bWhat do you say?",
+      "gender_forms": [
+        {
+          "raw": "$g lad : lass;",
+          "male": " lad ",
+          "female": " lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/233/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 463,
+      "field": "description",
+      "title": "The Greenwarden",
+      "level": 21,
+      "english": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from $ghis:her; death?$B$BIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!$B$BAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?",
+      "gender_forms": [
+        {
+          "raw": "$ghis:her;",
+          "male": "his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/463/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 636,
+      "field": "description",
+      "title": "Legends of the Earth <NYI>",
+      "level": 35,
+      "english": "This book tells the tale of an elemental princess, Myzrael, and of her imprisonment deep underneath the Arathi Highlands.$B$BIt also tells of a secret outcropping of crystals in the highlands.  These crystals, the Shards of Myzrael, are a window to the princess' prison.$B$BIf a brave soul found the Shards of Myzrael, the perhaps $ghe:she; could speak with her...",
+      "gender_forms": [
+        {
+          "raw": "$ghe:she;",
+          "male": "he",
+          "female": "she"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/636/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 736,
+      "field": "description",
+      "title": "The Star, the Hand and the Heart",
+      "level": 44,
+      "english": "You need Yagyin's Digest?  Your plan, then, is to gather another flock?  Of course it is...and of course I will help you, $gbrother:sister;.$B$BBut you must help me too.$B$BI require three items of power.  Bring me these and the digest will be yours.$B$BI cannot utter the names of these items, but I will write them down.$B$BGet me the items on this list.  If you can do that, then you are truly worthy of opening your own chapter of our order.",
+      "gender_forms": [
+        {
+          "raw": "$gbrother:sister;",
+          "male": "brother",
+          "female": "sister"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/736/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 874,
+      "field": "description",
+      "title": "Mahren Skyseer",
+      "level": 27,
+      "english": "You have hunted the beasts of the Barrens.  Your spirit is strong.  But a hunter must always be prepared.  A true hunter can stalk prey down any path.  Mountains and swamps will not sway $ghim:her;.$B$BNot even the sea.$B$BFind my sister, Mahren.  She hunts the great water beasts along the coast.  She will be your teacher in their ways.$B$BBut be wary in your search for her, for the Barrens' coast is held by humans.",
+      "gender_forms": [
+        {
+          "raw": "$ghim:her;",
+          "male": "him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/874/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 1222,
+      "field": "description",
+      "title": "Stinky's Escape",
+      "level": 37,
+      "english": "Great, finally something that doesn't want to eat me!$B$BI need help handling the critters around here, and you fit the mold, $gbuddy:lady;.$B$BThe cook Morgan Stern is researching a new recipe, and he sent me out here to gather bogbean leaves.  I guess he thinks they're tasty.$B$BAnyway, while looking for a bogbean plant... I got myself surrounded!  Can you help me out of here, and watch my back as I look for the bogbean?",
+      "gender_forms": [
+        {
+          "raw": "$gbuddy:lady;",
+          "male": "buddy",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1222/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 1270,
+      "field": "description",
+      "title": "Stinky's Escape",
+      "level": 37,
+      "english": "Great, finally something that doesn't want to eat me!!$B$BI need help handling the critters around here, and you fit the mold, $gbuddy:lady;.$B$BA goblin from Ratchet named Mebok Mizzyrix needs some bogbean leaves for a potion, or something... I honestly don't care why -- his money was good and I know this swamp, so here I am.$B$BToo bad I got myself surrounded before I found the bogbean!  Can you help me out of here, and watch my back as I look for Mebok's plant?",
+      "gender_forms": [
+        {
+          "raw": "$gbuddy:lady;",
+          "male": "buddy",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1270/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 1274,
+      "field": "description",
+      "title": "The Missing Diplomat",
+      "level": 28,
+      "english": "Excuse me, $g sir : madam;. Bishop DeLavey asked me to approach adventurers that might be able to help him with a delicate matter.$B$BIf you could quietly head to Stormwind Keep and speak to him at your earliest convenience, I'm sure he would appreciate your help. Again, please be discreet. It is a matter of some importance.",
+      "gender_forms": [
+        {
+          "raw": "$g sir : madam;",
+          "male": " sir ",
+          "female": " madam"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1274/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 1532,
+      "field": "description",
+      "title": "Call of Air",
+      "level": 30,
+      "english": "The winds of Kalimdor rush to meet you and you shall be counted among some of our most powerful $g brothers:sisters;. I am proud to see you have come this far and have such a promising future.$B$BThe element of air is a difficult one to control, but I have faith that your skills will overcome any obstacles that are placed in front of you.$B$BHead to the very south of the Barrens, and enter Thousand Needles. It is there, far to the east, that you will find Prate Cloudseer. She will teach you more.",
+      "gender_forms": [
+        {
+          "raw": "$g brothers:sisters;",
+          "male": " brothers",
+          "female": "sisters"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1532/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 1661,
+      "field": "description",
+      "title": "The Tome of Nobility",
+      "level": 40,
+      "english": "I greet you once again, $n. I am more proud to call you $g brother:sister; than ever before--your dedication is a tribute to us all.$B$BThe time has come for me to bestow a great gift upon you. But know this, for now I give you this freely, but later, when time permits, this will be a much greater challenge to all paladins who choose to undertake my quest.$B$BSpeak to me again and I shall grant you a great boon.",
+      "gender_forms": [
+        {
+          "raw": "$g brother:sister;",
+          "male": " brother",
+          "female": "sister"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1661/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 2205,
+      "field": "description",
+      "title": "Seek out SI: 7",
+      "level": 10,
+      "english": "The badge? Oh, it's nothing, fish - nothing you could handle anyhow. By the looks of you, I'd say Mathias is likely to mistake you for the cheese delivery $g boy:girl; instead of a proper rogue. Regardless, I've been assigned a job and I've made a promise to deliver on that job.$B$BSpeaking of which, deliver this package to Mathias and he may give you a small task or two.$B$BGet cracking. \r\n",
+      "gender_forms": [
+        {
+          "raw": "$g boy:girl;",
+          "male": " boy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2205/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 2608,
+      "field": "description",
+      "title": "The Touch of Zanzil",
+      "level": 20,
+      "english": "Oh my, you look like death. Correction - I've seen death, you look worse than death. You, $g sir:miss;, would be what death coughed up at his last physical.$B$BHah! You hear that Noarm? Write that one down!$B$B*Cough* Hrm yes, in order for me to help you, I'll need to draw some blood. Don't worry, it only hurts the first few... fifty times or so... /lay down when you're ready for the treatment, $n.",
+      "gender_forms": [
+        {
+          "raw": "$g sir:miss;",
+          "male": " sir",
+          "female": "miss"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2608/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 2609,
+      "field": "objectivesText",
+      "title": "The Touch of Zanzil",
+      "level": 20,
+      "english": "Bring Doc Mixilpixil one bundle of Simple Wildflowers, one Leaded Vial, one Bronze Tube, and one Spool of Light Chartreuse Silk Thread. The 'itis' doesn't cure itself, young $g fella:lady;. ",
+      "gender_forms": [
+        {
+          "raw": "$g fella:lady;",
+          "male": " fella",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2609/objectivesText"
+      },
+      "runtime_field": "objective",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 2746,
+      "field": "description",
+      "title": "Items of Some Consequence",
+      "level": 31,
+      "english": "Trias wants the timetable pushed up some, huh? Okay, we can do that, but I'm not ready. And know this, I'm doing the hard part, but you're the one that's going to get $g his:her; hands dirty, understand? Good.$B$BOkay, I'll need you to get me a few things before I can put my plan into effect. I got the perfect disguise that'll get Spybot past those guards.$B$BBring me some silk and a couple apples. The silk's up to you, but Clara's little farm right outside the city has the perfect sized apples.",
+      "gender_forms": [
+        {
+          "raw": "$g his:her;",
+          "male": " his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2746/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 2927,
+      "field": "description",
+      "title": "The Day After",
+      "level": 27,
+      "english": "You don't think I was always bald, do you? No $g sir:ma'am;! It was the radiation leak in Gnomeregan that caused this tragic hair loss. Before that day, I had the only gnomefro in all of Azeroth.$B$B<Gnoarn shakes his fist in the air.>$B$BDamn those damned dirty troggs - damn them all!!$B$BPerhaps it's not too late, $n. We may still be able to save it - the city I mean! Speak to Ozzie Togglevolt in Kharanos. He and his partner Razzle are working on a solution.",
+      "gender_forms": [
+        {
+          "raw": "$g sir:ma'am;",
+          "male": " sir",
+          "female": "ma'am"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2927/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 4486,
+      "field": "description",
+      "title": "The Tome of Nobility",
+      "level": 40,
+      "english": "Well, well, well, look at the mighty paladin in all $ghis:her; regality.$B$BSorry, $n, I meant no offense... I just get a little jealous sometimes when I see some of the feats you've accomplished. Tiza tells me it's my weakness, and I swore to her I'd work on it. It's just hard sometimes, you know?$B$BBut the reason I wanted to talk to you was because Duthorian Rall in Stormwind sent word for you to meet him in the Cathedral of Light when you're ready. Sounded important. Sounded like something's going on.",
+      "gender_forms": [
+        {
+          "raw": "$ghis:her;",
+          "male": "his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4486/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 4487,
+      "field": "description",
+      "title": "Summon Felsteed",
+      "level": 40,
+      "english": "Ah, good, you're here. I sent a $g succubus:infernal; after you to get your attention, but it seems you were able to get here before it found you. No matter.$B$BThere has been some talk lately of your growing power--that is good for you, possibly bad for others. But those are irrelevant points. The point is, I feel you've proven yourself and therefore are deserving of... hehe... a blessing of sorts.$B$BAbove Ratchet in the Barrens you'll find a man named Strahad. I believe you've crossed paths before.",
+      "gender_forms": [
+        {
+          "raw": "$g succubus:infernal;",
+          "male": " succubus",
+          "female": "infernal"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4487/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5047,
+      "field": "description",
+      "title": "Pip Quickwit, At Your Service!",
+      "level": 60,
+      "english": "You'll find Malyfous Darkhammer in Everlook, $c. Tell him that 'Pip is A-OK' and that the suit works perfectly.$B$BThen hand him this:$B$B<Pip hands you a glowing piece of flesh.>$B$BI snatched it from the beast's innards during my 'vacation.'$B$BI bet Malyfous could give you a fairly accurate assessment of what he can do with parts from a monster like this!$B$BOh, I suppose you don't know where Everlook is, do you? To Winterspring, $g fella:lady;!",
+      "gender_forms": [
+        {
+          "raw": "$g fella:lady;",
+          "male": " fella",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5047/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5284,
+      "field": "description",
+      "title": "The Way of the Weaponsmith",
+      "level": 40,
+      "english": "As a weaponsmith you'll find that more often than not, heroes and adventurers will be coming to you for gear. While the workload can be unbearable at times, the riches more than make up for the back strain and ash lung.$B$BOh yes, $n, weaponsmiths are the ones with all the gold!$B$BIf you wish to join our ranks, you'll need to show me that you can make me a silver or two - I mean, show me that you've got what it takes to be the go to $g guy:girl; when people need superior quality weapons. Get to work!",
+      "gender_forms": [
+        {
+          "raw": "$g guy:girl;",
+          "male": " guy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5284/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5622,
+      "field": "description",
+      "title": "In Favor of Elune",
+      "level": 4,
+      "english": "$n, you must travel to Dolanaar when your business here in Shadowglen is done. There, you will find Laurna Morninglight. She will instruct you further in the ways of Elune, and it is with her that you will earn your first garments denoting your station as a $gpriest:priestess; of Elune.$B$BTake care, and may you be protected in your journeys.",
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5622/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5623,
+      "field": "description",
+      "title": "In Favor of the Light",
+      "level": 4,
+      "english": "Hello again, young $gpriest:priestess;. The time has come for you to learn more about our religion. After you've completed whatever tasks you have here in Northshire, please seek out Priestess Josetta in Goldshire. She has more to teach you and has heard that you are growing strong in the ways of the Light. She looks forward to tutoring you more.",
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5623/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5624,
+      "field": "description",
+      "title": "Garments of the Light",
+      "level": 4,
+      "english": "Normally I put forth a small challenge to followers of the Light to test their skill. I want to see if they are worthy of wearing their first robes--a sign that the church outwardly approves of the $gpriest:priestess; and supports $ghim:her;.$B$BBut this situation is a bit different. One of Goldshire's citizens saw an injured guard near the lake to the east of here. His name is Roberts. Find him, heal him, fortify his body and return here. If you can do that for me, then I will consider your test complete.",
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        },
+        {
+          "raw": "$ghim:her;",
+          "male": "him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5624/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5626,
+      "field": "description",
+      "title": "In Favor of the Light",
+      "level": 4,
+      "english": "Hey! $n! Got a minute?!$B$BYa been following the Light now for long enough that you find your way to Maxan Anvol in Kharanos. He'll teach ya more about the path yer following, and if you prove worthy, give ya yer first set of robes to denote your station as a $gpriest:priestess;.$B$BNow get goin'! As soon as yer done here, head through the tunnel--he'll be waitin' for ya.",
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5626/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5630,
+      "field": "description",
+      "title": "Returning Home",
+      "level": 10,
+      "english": "Hello there, $gladdy:lassy;. Good to see you travelin' far and wide to distant lands. No offense meant, but a lot o' your kind don't take well to these cold climates usually. Glad to see you're made of tougher stuff.$B$BNot too long ago one of your priestesses was in here lookin' for you--said somethin' about you finding a Priestess Alathea in the Temple of the Moon back in Darnassus. Said it was important and you should head back there soon.",
+      "gender_forms": [
+        {
+          "raw": "$gladdy:lassy;",
+          "male": "laddy",
+          "female": "lassy"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5630/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5633,
+      "field": "description",
+      "title": "Returning Home",
+      "level": 10,
+      "english": "Greetings, $gladdy:lass;. Good to see you here in our great halls. A blessing be on you and your kind.$B$BWhile you were traveling through our lands, a priestess of your temple came here seeking you. She said that you were to return to the Temple of the Moon as soon as possible. I'm sorry I can't tell you more, but it did sound important. When you get to the temple, speak to a Priestess Alathea.",
+      "gender_forms": [
+        {
+          "raw": "$gladdy:lass;",
+          "male": "laddy",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5633/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5674,
+      "field": "description",
+      "title": "Elune's Grace",
+      "level": 20,
+      "english": "A wonderful day has come, $n. You've reached the age in which our $gpriests:priestesses; are trained in abilities only Night elves know. But it is not for me to train you. You must return to the Temple of the Moon and speak to Priestess Alathea as soon as your business here is concluded. She will test you to ensure you're prepared, and only then will she teach you Elune's Grace.",
+      "gender_forms": [
+        {
+          "raw": "$gpriests:priestesses;",
+          "male": "priests",
+          "female": "priestesses"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5674/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5675,
+      "field": "description",
+      "title": "Elune's Grace",
+      "level": 20,
+      "english": "Time's a wastin', $glad:lass;. It's time for you to return home to Darnassus. Priestess Alathea's sent word here that you're to return there for training. Seems they feel you're ready to be tested much like those who serve the Light. You should head out whenever you can. Alathea's message said that she'd be waitin' for you in the Temple of the Moon. Good luck.",
+      "gender_forms": [
+        {
+          "raw": "$glad:lass;",
+          "male": "lad",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5675/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 5728,
+      "field": "description",
+      "title": "Hidden Enemies",
+      "level": 16,
+      "english": "Hmm, leaders of the Searing Blade... this concerns me most. If they are the ones of value to Neeru, then those are who we must target first. This satyr... Bazzalan, and the other Neeru mentioned--what was he, a warlock?--must be slain.$B$BReturn to the Cleft of Shadow and enter Ragefire Chasm, $n. Find these two leaders of the Searing Blade, and kill them. But be careful not to let Neeru know it was you who did this. You must retain your identity as one of his $gbrothers:sisters; in arms.",
+      "gender_forms": [
+        {
+          "raw": "$gbrothers:sisters;",
+          "male": "brothers",
+          "female": "sisters"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5728/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 6125,
+      "field": "description",
+      "title": "Power over Poison",
+      "level": 14,
+      "english": "You've learned what it means to cure poison without the benefit of spiritual aid.  Remember what others must endure in fighting poisonous afflictions as you soon embrace your newfound power over poison.$B$BYou should now return to Mathrengyl Bearwalker in Darnassus, $n.  He, no doubt, has a very important spell to teach you now that the student understands the lesson given unto $g him : her;.$B$BFarewell, young druid.  We shall speak again.",
+      "gender_forms": [
+        {
+          "raw": "$g him : her;",
+          "male": " him ",
+          "female": " her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6125/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 6612,
+      "field": "description",
+      "title": "I Know A Guy...",
+      "level": 45,
+      "english": "I can tell by yer cooking spoon that ye know what yer doin'. Unfortunately, I can't teach ya nothin'.$B$BLuckily fer ye, I know a guy. He's a goblin and probably the best cook on Kalimdor.$B$BAyep, that's the bad news, $g lad:missy; - ye got to travel to Kalimdor. Git to Gadgetzan and find Dirge Quikcleave. He'll set ya straight.\r\n",
+      "gender_forms": [
+        {
+          "raw": "$g lad:missy;",
+          "male": " lad",
+          "female": "missy"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6612/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 6962,
+      "field": "description",
+      "title": "Treats for Great-father Winter",
+      "level": 60,
+      "english": "Hey, can you do Greatfather Winter a favor, um, little $g boy : girl;?$B$BNot to needlessly talk about myself in the third person, but Greatfather Winter has been at this all day and he could use a treat himself.  Some gingerbread cookies and ice cold milk to wash them down with would really hit the spot.  Think you could be a friend to the Greatfather and fetch some for me?",
+      "gender_forms": [
+        {
+          "raw": "$g boy : girl;",
+          "male": " boy ",
+          "female": " girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6962/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 7461,
+      "field": "description",
+      "title": "The Madness Within",
+      "level": 60,
+      "english": "Have you heard enough? Are you a $g man:woman; of action?$B$BThis madness must come to an end. The age of the immortals has long since passed. Destroy the guardians surrounding the pylons to lower the force field. When this is done, destroy Immol'thar. With the Prince's power greatly reduced, attack and end him. Lay the spirits of this city to rest, adventurer.",
+      "gender_forms": [
+        {
+          "raw": "$g man:woman;",
+          "male": " man",
+          "female": "woman"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7461/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 7604,
+      "field": "description",
+      "title": "A Binding Contract",
+      "level": 60,
+      "english": "The undersigned hereby declares that the Sulfuron ingot they are delivering to the Thorium Brotherhood (TB Ltd.) is genuine and not a facsimile thereof. The undersigned also acknowledges that any harm that should come to $g him:her; as a result of attempting to build, forge, find, create, sell, or eat Sulfuras, is not the responsibility or fault of TB Ltd.$B$BBy signing this contract, you are agreeing to all terms listed herein.$B$B_________________$B$BSignature",
+      "gender_forms": [
+        {
+          "raw": "$g him:her;",
+          "male": " him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7604/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 7727,
+      "field": "description",
+      "title": "Incendosaurs? Whateverosaur is More Like It",
+      "level": 49,
+      "english": "Bunions, $g lad:lass;. Me bunions got bunions. How am I supposed to do any sort of killin' with me feet in such disarray? That's why ye're gonna help.$B$BScrange and Burninate tasked me to kill these things so they can send some expeditionary teams down into the Slag Pit lava pools to do some explorin'. Supposedly some incendosaurs or some such nonsense down there causin' all kinds o' problems. Now move along an' don't come back 'til the incendosaur population be extinct.",
+      "gender_forms": [
+        {
+          "raw": "$g lad:lass;",
+          "male": " lad",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7727/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 8513,
+      "field": "description",
+      "title": "The Alliance Needs Medium Leather!",
+      "level": 60,
+      "english": "Yes $g sir : ma'am;, I have been charged with collecting and tracking all of the medium leather gathered for the war effort. If you have the wherewithal to gather medium leather, from whatever source, then please bring them to me here. I sure would appreciate a hand with this if you can spare the time.",
+      "gender_forms": [
+        {
+          "raw": "$g sir : ma'am;",
+          "male": " sir ",
+          "female": " ma'am"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/8513/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 9131,
+      "field": "description",
+      "title": "Binding the Dreadnaught",
+      "level": 60,
+      "english": "Have you ever seen Dreadnaught armor, $c? No, of course you haven't. You're still a $g boy:girl; - a tyke. Let me tell you, it is glorious.$B$BYou're probably asking yourself what any of this has to do with you, right? I'll tell you what, scrub; I need Dark Iron scraps and I'm willing to pay to get my hands on as many as possible.$B$BI need the scraps to put together sets of Dreadnaught for our champions. Bring me scraps and get paid.",
+      "gender_forms": [
+        {
+          "raw": "$g boy:girl;",
+          "male": " boy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/9131/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    },
+    {
+      "quest_id": 94923,
+      "field": "description",
+      "title": "Hats Off",
+      "level": 38,
+      "english": "<Robbie leans in to talk to you, as if sharing a grave secret.>\r\n\r\nPsst! Hey $gmister:miss;, I need your help!\r\n\r\nMy sister got me a hat for my birthday but I lost it playing in the river. I'm not allowed to be down there because of the murlocs so I can't ask Dad or Ellie for help because then they'll know where I was!\r\n\r\nIt's a good hat. I bet one of those murlocs found it and kept it for himself!",
+      "gender_forms": [
+        {
+          "raw": "$gmister:miss;",
+          "male": "mister",
+          "female": "miss"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/94923/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false
+    }
+  ]
+}
