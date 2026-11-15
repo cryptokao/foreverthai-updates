@@ -11,3 +11,5 @@
 - Do not install into or control the user's game. Distinguish technical simulation from real Windows/Mac M2 in-game testing.
 - Customer publication is a separate action from this source transfer. Preserve all package components and validate any release against the standing ten-version publication policy in the handoff.
 - Keep credentials, private player captures and unrelated local files out of this public repository.
+
+- Customer Launcher 0.5 enforces a 512 MiB expanded-ZIP limit. Before every customer publication verify both compressed length/SHA and sum of uncompressed entry sizes, then run the original .NET4 client parser/OpenVerified/isolated Extract fixture. Do not drop Skill/Talent/Profession/Item/fonts to fit. If quest-atlas consolidation is required, preserve all glyph RGBA crops, fractional bearings/advances and run sequences; keep protected Skill assets byte-identical. MAIN44 records the qualified lossless approach; early unpublished oversize candidates are not customer releases.

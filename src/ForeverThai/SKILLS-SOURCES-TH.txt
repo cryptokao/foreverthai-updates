@@ -1,0 +1,292 @@
+Alpha WoW Skills & Talents — แหล่งข้อมูลและการดัดแปลง
+รุ่น Add-on 0.285.0 / ข้อมูล 2026.11.09.1 / Forever 1.60.1.70862 enUS
+
+ฐานคำแปลใน Skills/Data.lua จัดทำจากแหล่งข้อมูลต่อไปนี้ โดยเลือกและเชื่อมโยง
+ด้วย Spell ID, Talent node/rank และ build แยกข้อความตอนร่ายออกจากข้อความออร่า
+Alpha WoW แปลภาษาไทย จัดโครงสร้างใหม่ และเก็บตัวแปรที่ใช้จับคู่กับค่าจากเกม
+รายการที่ผ่านผู้ตรวจ AI อิสระเท่านั้นจึงเข้า Data.lua การตรวจนี้ไม่ใช่การยืนยันผลในเกม
+
+ข้อมูล Talent และ Spellbook ของแต่ละคลาส: WoW Forever Talents
+https://wowforevertalents.com/
+ข้อมูลอ้างอิง Talent เพิ่มเติม: Talents Forever โดย Chris Baldwin
+https://talentsforever.com/
+
+ข้อมูล Legacy/Talent: Zephras (https://zephras.com), CC BY 4.0
+https://zephras.com/data/
+https://zephras.com/data/forever/enUS/talents/1.60.1.70862.json
+https://creativecommons.org/licenses/by/4.0/
+ใช้และดัดแปลงส่วนข้อมูลที่ Zephras จัดทำ ได้แก่ การเลือก จัดเรียง และค่าที่คำนวณ
+ชื่อ ข้อความ และไอคอนของเกมไม่อยู่ภายใต้สิทธิที่ Zephras สามารถอนุญาตแทนได้
+
+ข้อมูลจาก Efficient Games (https://efficient.games), CC BY 4.0
+https://github.com/JIVESCORP/eg-link-output-wowf
+ฉบับอ้างอิง: 156f29c9af78b1586883e8eb94a13467eb89638c
+ใช้ตาราง hotfix, trainer และข้อสังเกตสัตว์เลี้ยงเพื่อประกอบการตรวจ ID/ข้อความ
+มีการเลือก เชื่อมโยง แปล และจัดโครงสร้างข้อมูลใหม่ในโครงการนี้
+ใบอนุญาตครอบคลุมส่วนที่ Efficient Games จัดทำ ไม่ได้ให้สิทธิในเนื้อหาของ Blizzard
+
+ข้อมูล DB2 ของ build 1.60.1.70862: Wago Tools
+https://wago.tools/db2/Spell/csv?build=1.60.1.70862
+https://wago.tools/db2/SpellName/csv?build=1.60.1.70862
+https://wago.tools/db2/SkillLine/csv?build=1.60.1.70862
+https://wago.tools/db2/SkillLineAbility/csv?build=1.60.1.70862
+https://wago.tools/db2/ItemSet/csv?build=1.60.1.70862
+https://wago.tools/db2/ItemSetSpell/csv?build=1.60.1.70862
+https://wago.tools/db2/SpellAuraOptions/csv?build=1.60.1.70862
+https://wago.tools/db2/SpellItemEnchantment/csv?build=1.60.1.70862
+https://wago.tools/db2/PlayerCondition/csv?build=1.60.1.70862
+ใช้ตารางเอฟเฟกต์และตารางเกี่ยวข้องประกอบการตรวจกลไก ไม่แทนค่าที่เกมคำนวณจริง
+ใช้โครงสร้าง SpellEffect ของ WoWDBDefs ฉบับ fb58b5b8ea8ce82945194cc9c4e760fd12ddd85c
+https://github.com/wowdev/WoWDBDefs/blob/fb58b5b8ea8ce82945194cc9c4e760fd12ddd85c/definitions/SpellEffect.dbd
+
+ตรวจ API กับซอร์ส UI ของ build 70862 ที่เผยแพร่โดย Gethe/wow-ui-source
+https://github.com/Gethe/wow-ui-source/commit/9dc84f0d3bbae1768ac3405b3716000bd93eda06
+การตรวจซอร์ส API ไม่ใช่การรับรองการทำงานจริงของ tooltip หรือ combat lockdown
+ตรวจเงื่อนไข Entangling Roots จาก Spell และ SpellEffect ของบิลด์ 70862 เทียบกับข้อมูลพรสวรรค์ Overgrowth จาก Blizzard
+https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid
+ตรวจเงื่อนไข Power Word: Shield และ Tactical Mastery จากตารางบิลด์ 70862 เทียบกับคำอธิบายคลาสจาก Blizzard
+https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior
+ตรวจแรงก์เสกน้ำดื่มและเสกอาหารจากตาราง Spell, SpellName, SpellEffect และ SkillLineAbility ของบิลด์ 70862
+https://wago.tools/db2/Spell?build=1.60.1.70862
+ตรวจเงื่อนไขของสกิลสร้างแต้มคอมโบจากตารางบิลด์ 70862 และตรวจบริบทพรสวรรค์จากบทความคลาสของ Blizzard
+https://news.blizzard.com/en-gb/article/24310968/world-of-warcraft-forever-class-deep-dives-rogue-and-warlock
+https://news.blizzard.com/en-us/article/24301515/world-of-warcraft-forever-class-deep-dives-hunter-and-druid
+ตรวจสกิลล้างเวท พิษ โรค พันธนาการธรรมชาติ และ Windfury Weapon จากบิลด์ 70862
+https://news.blizzard.com/en-us/article/24302097/world-of-warcraft-forever-class-deep-dives-mage-and-shaman
+ตรวจรางวัลสอนสกิลของพาลาดินจากข้อมูลเควสต์บิลด์ 70862 โดย Efficient Games (CC BY 4.0) เทียบกับ SpellEffect ของบิลด์เดียวกัน
+https://github.com/JIVESCORP/eg-link-output-wowf/blob/23f9636486d3d60479dc0bcee2356053c33faf2c/data/wowf/1.60.1.70862/quests.enUS.json
+ตรวจ Summon Felsteed จากข้อมูลเควสต์ชุดเดียวกัน และตรวจรหัสสกิลจากหนังสือด้วย ItemXItemEffect และ ItemEffect ของบิลด์ 70862
+https://wago.tools/db2/ItemEffect?build=1.60.1.70862
+ตรวจชื่อและคำอธิบายคำสั่งสัตว์เลี้ยงจาก GlobalStrings ของบิลด์ 70862 และตรวจ GetPetActionInfo จากซอร์ส UI
+https://wago.tools/db2/GlobalStrings?build=1.60.1.70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua
+ตรวจเส้นทาง tooltip แบบย่อจาก PetActionBar.lua และการผูก OnEnter ของปุ่มสัตว์เลี้ยงจากไฟล์ XML บิลด์เดียวกัน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Mainline/PetActionBar.xml
+ตรวจการเชื่อมรหัสคำสั่งจากสมุดสกิลสัตว์เลี้ยงไปยังแถบคำสั่งจากซอร์สสมุดสกิลและเอกสาร API ของบิลด์เดียวกัน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.lua
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/ActionBarFrameDocumentation.lua
+ตรวจเส้นทาง tooltip และการค้นหาช่องคำสั่งสัตว์เลี้ยงบนแถบคำสั่งของตัวละครจากซอร์ส UI บิลด์เดียวกัน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonUtil.lua
+ชื่อสายพรสวรรค์อ้างอิง TraitNodeGroupDisplayInfo และ SkillLine ของบิลด์ 70862
+ตรวจโครงสร้างหัวผังและการแสดงชื่อเดิมจากซอร์ส UI Camelot ของบิลด์เดียวกัน
+https://wago.tools/db2/TraitNodeGroupDisplayInfo?build=1.60.1.70862
+https://wago.tools/db2/SkillLine?build=1.60.1.70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.lua
+ตรวจป้ายแท็บชุดพรสวรรค์ ตัวนับแต้ม และปุ่มใช้การเปลี่ยนแปลงจาก GlobalStrings และ UI ของบิลด์ 70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemTemplates.lua
+ตรวจการอ่านรหัสสกิลของแถบท่าต่อสู้และแปลงร่างจาก StanceBar และ TooltipDataHandler ของบิลด์ 70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua
+
+โบนัส Frostfire Regalia ครบ 8 ชิ้นตรวจจาก ItemSetSpell 2213 และการเชื่อมเอฟเฟกต์จากสกิล 28761 ไปยังบัฟ 28762
+กรอบไทยแปลเฉพาะส่วนที่ตรวจได้ว่าทำให้ได้รับผลเลือนหาย เมื่อคำอธิบายโบนัสทั้งหมดตรงกับเกม
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua
+
+ชื่อสกิลอาชีพ 1235230, 1235236 และ 1235244 อ้างอิง SpellName, Spell และ SkillLineAbility ของ build 70862
+การแสดงชื่อไทยใช้รหัสปัจจุบันจาก GetSpellBookItemInfo และชื่อที่แสดงในสมุดสกิลของผู้เล่น
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua
+
+บัฟและดีบัฟจากไอเท็ม 940, 2291, 2915 และ 9386 ใช้ชื่อไอเท็มจากชุดข้อมูล 9 พฤศจิกายนของ Efficient Games
+จับคู่รหัสไอเท็มกับรหัสออร่าจาก ItemXItemEffect และ ItemEffect ของ build 70862 แล้วตรวจคำอธิบายออร่าแต่ละรหัส
+https://github.com/JIVESCORP/eg-link-output-wowf/blob/23f9636486d3d60479dc0bcee2356053c33faf2c/data/wowf/1.60.1.70862/item_hotfixes.enUS.json
+เอฟเฟกต์ตอนสวมใส่ที่เพิ่มใน 0.280.0 ใช้รหัสจาก ItemXItemEffect และชื่อไอเท็มที่ตรงกันในข้อมูล Hotfix ทั้งสองชุด
+รุ่น 0.281.0 ใช้หลักฐานชุดเดียวกันตรวจเอฟเฟกต์กดใช้ สวมใส่ และโอกาสทำงานเมื่อโจมตีโดน รวม 17 ชิ้น
+รุ่น 0.282.0 ตรวจรหัสบัฟและดีบัฟ 11 รายการจาก SpellEffect โดยแยกบัฟที่ใช้รหัสเดียวกับไอเท็มออกจากบัฟที่เรียกผ่านสกิลอีกหนึ่งทอด
+รุ่น 0.283.0 ตรวจเอฟเฟกต์บนไอเท็ม 16 ชิ้น โดยเทียบรหัสสกิลลูก ระยะเวลา ช่วงเวลาที่เอฟเฟกต์ทำงาน และโอกาสตามที่ต้นทางระบุ
+รุ่น 0.284.0 ตรวจลิงก์ Equip ทั้งสองรายการต่อไอเท็ม และตรึงข้อมูล Hotfix 113164 ของ Cloak of Hermitic Bliss
+
+เอฟเฟกต์ไอเท็ม 18 ชิ้นใช้ชื่อที่พบในชุดข้อมูลเดียวกัน และจับคู่ ItemXItemEffect, ItemEffect และ Spell ของ build 70862
+ใช้เฉพาะบรรทัดเอฟเฟกต์ที่เกมแสดงครบในกรอบไอเท็มหลัก ข้อมูลชุดนี้ยังไม่มีรายการ ItemSparse ของไอเท็มเหล่านี้
+
+Sword of Zeal และ High Elf's Recurve อ้างอิงข้อมูลไอเท็มชุดเดียวกันและตรวจระยะเวลากับ SpellMisc และ SpellDuration
+บัฟและดีบัฟใช้ AuraDescription ของแต่ละรหัส โดยแช่แข็งใช้รหัสที่เอฟเฟกต์ของ Freezing Band เรียกใช้จริงตามตาราง SpellEffect
+
+การแสดงกรอบไทยระหว่างต่อสู้ใช้ API สาธารณะของ build 70862 สำหรับออร่าของตัวละครผู้เล่น
+ตรวจการจำกัดข้อมูลด้วย ShouldUnitAuraInstanceBeSecret และใช้เฉพาะตำแหน่ง Tooltip ที่เปิดให้อ่าน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/SecretPredicateAPIDocumentation.lua
+ระหว่างที่เกมกำลังเปลี่ยนสถานะการจำกัดข้อมูล กรอบไทยจะซ่อนไว้จนกว่าจะตรวจสถานะอีกครั้งได้
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/RestrictedActionsDocumentation.lua
+
+Tooltip ปาร์ตี้และเรดระหว่างต่อสู้ใช้เส้นทางออร่าของกรอบ PartyMemberFrame และ CompactUnitFrame ใน build 70862
+ตรวจตัวละครและรหัสออร่าจากปุ่มที่เป็นเจ้าของ Tooltip ก่อนอ่านข้อมูลที่เกมเปิดให้ใช้
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua
+
+Tooltip สกิลบนแถบระหว่างต่อสู้ใช้รหัสช่องของปุ่ม ActionButton ใน build 70862 และตรวจรหัสสกิลจาก GetActionInfo
+เอฟเฟกต์กดใช้ของไอเท็มใช้เส้นทาง SetAction เดียวกัน โดยจับคู่เมื่อ callback ให้ข้อมูลชนิด Item และ GetActionInfo ยืนยันรหัสตรงกัน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/TooltipInfoDocumentation.lua#L25-L39
+กรอบออร่าของเป้าหมายใช้ AuraButtonTooltip ที่เกมซ่อนจาก Add-on จึงคงการแสดงผลของเกม
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_AuraContainer/Classic/Blizzard_AuraButtonTooltip.xml
+
+ปุ่มเปลี่ยนร่างหรือท่าต่อสู้ยืนยันรหัสสกิลปัจจุบันด้วย GetShapeshiftFormInfo ของ build 70862
+สกิลจากพรสวรรค์ใช้รหัสและคำอธิบายที่จับคู่ผ่านการตรวจแล้ว Holy Nova ใช้หลักฐานย่อหน้าความเสียหายและการรักษาเดิม
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua
+ชื่อและคำอธิบายปุ่มรวมสกิลมาจาก SpellFlyout ของบิลด์ 70862 โดยแยกรหัสกลุ่มจากรหัสสกิล
+https://wago.tools/db2/SpellFlyout?build=1.60.1.70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua
+สำรวจสมาชิกของปุ่มรวมจาก SpellFlyoutItem และตรวจเส้นทางคำอธิบายแบบย่อกับแบบเต็มจากซอร์ส UI
+https://wago.tools/db2/SpellFlyoutItem?build=1.60.1.70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.xml
+ตรวจรหัสสกิลย่อย 20217, 20218 และ 20801 จาก SpellFlyoutItem เทียบกับชื่อ คำอธิบาย และเอฟเฟกต์ของบิลด์ 70862
+https://wago.tools/db2/Spell?build=1.60.1.70862
+https://wago.tools/db2/SpellEffect?build=1.60.1.70862
+ค่าต้านทานเวทห้าชนิดใช้รหัสสมาชิกของกลุ่ม Spell Resistances จาก SpellFlyoutItem ของบิลด์ 70862
+https://wago.tools/db2/SpellFlyoutItem/csv?build=1.60.1.70862
+ความชำนาญอาวุธใช้รหัสสมาชิกกลุ่ม Weapon Proficiencies และคำอธิบายแบบขยายจาก Spell รวมถึงข้อความอ้างอิงรหัส 1302929
+https://wago.tools/db2/Spell/csv?build=1.60.1.70862
+Fire Shield รหัส 2949 มีชื่อและแรงก์ ส่วนเอฟเฟกต์เรียนสกิลชี้ไปที่รหัส 2947
+https://wago.tools/db2/SpellEffect/csv?build=1.60.1.70862
+คำอธิบาย Holy Nova แรงก์ 2–6 ใช้รหัสการสร้างความเสียหายและรหัสการฟื้นพลังแยกกันในบิลด์ 70862
+https://wago.tools/db2/Spell/csv?build=1.60.1.70862
+Instant Poison แรงก์ 4 ตรวจจำนวนชาร์จจากผลของสกิลสร้างไอเท็มและข้อมูลเคลือบอาวุธรหัส 623
+https://wago.tools/db2/SpellItemEnchantment/csv?build=1.60.1.70862
+บัฟ Righteous Fury ใช้ข้อความออร่ารหัส 25780 และตรวจค่าลดความเสียหายกับ Improved Righteous Fury ทั้งสามแรงก์
+https://wago.tools/db2/Spell/csv?build=1.60.1.70862
+https://zephras.com/data/
+รหัสฝึกสัตว์เลี้ยงใช้เอฟเฟกต์เรียนสกิลและ SkillLineAbility เพื่อจับคู่รหัสที่สัตว์เลี้ยงใช้จริง
+https://wago.tools/db2/SpellEffect/csv?build=1.60.1.70862
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua
+หมวกที่เคลือบ Wolfshead Trophy ใช้เอฟเฟกต์สวมใส่รหัส 17768 จากการเสริมพลังรหัส 7124
+https://wago.tools/db2/SpellItemEnchantment/csv?build=1.60.1.70862
+โบนัส Deathdealer ใช้ Spell 26112 และบัฟเลือนหายใช้ข้อความออร่ารหัส 28762 จากเอฟเฟกต์ของชุด Frostfire
+https://wago.tools/db2/SpellEffect/csv?build=1.60.1.70862
+ป้ายเสริมพลังอุปกรณ์รหัส 925 และ 2618 เทียบกับเอฟเฟกต์ของอุปกรณ์ ส่วนรหัส 8214 ตรวจ hotfix ของป้าย
+https://wago.tools/db2/SpellItemEnchantment/csv?build=1.60.1.70862
+บัฟร่างหมีเทียบช่องเอฟเฟกต์รหัส 1178 ส่วนบัฟท่าตั้งรับเทียบค่า 80% กับ hotfix ของเอฟเฟกต์รหัส 686475
+https://wago.tools/db2/SpellEffect/csv?build=1.60.1.70862
+อ้างอิงรูปแบบข้อความโบนัสชุดที่ผู้พัฒนา WoW Forever Japanese สังเกตใน build 70338
+https://github.com/zyaga/wow-forever-japanese/blob/91adc28c31bea0576b60c6fe3ec810ba4ca05a10/docs/adr/066-recipe-and-set-bonus-lines-from-the-tooltip-data.md
+
+ชื่อและเนื้อหา World of Warcraft เป็นของ Blizzard Entertainment
+Alpha WoW เป็นโครงการแฟนเกม ไม่ได้เป็นผลิตภัณฑ์ที่ Blizzard รับรอง
+ไฟล์ Lua ของส่วน Add-on รวมอยู่ในแพ็กโดยอ่านได้ ไม่ต้องเข้าถึงคลังพัฒนาส่วนตัว
+นโยบาย UI Add-On ของ Blizzard กำหนดให้เผยแพร่ Add-on ฟรีและให้สาธารณชนอ่านโค้ดได้
+https://us.forums.blizzard.com/en/wow/t/ui-add-on-development-policy/24534
+ฟอนต์ Sarabun และแหล่งข้อมูลเควสเดิมระบุแยกใน SOURCES-TH.txt และโฟลเดอร์ Fonts
+
+บัฟเผ่า Skyborne สี่รายการอ้างอิงข้อความออร่าที่มีผลจริงใน build 70862
+แยกบัฟที่เกิดจากการใช้สกิลออกจากบัฟที่เพิ่มผลของสกิลเมื่ออยู่ใกล้แหล่งพลัง
+https://us.forums.blizzard.com/en/wow/t/2360696/9
+
+บัฟแผนรับเหตุฉุกเฉินอ้างอิงคำอธิบายออร่าแยกตามรหัสและแรงก์ใน build 70862
+คำอธิบายสกิลใช้ยืนยันการจับคู่รหัสเท่านั้น ค่าที่แปลมาจากข้อความของบัฟเอง
+
+บัฟคราส 408255 อ้างอิงคำอธิบายออร่าใน build 70862 แยกจากพรสวรรค์ 408248
+ข้อความบัฟใช้จำนวนครั้งและเวลาที่ลดลงตามที่เกมแสดง
+
+บัฟและดีบัฟจากการลงมนตร์อาวุธอ้างอิงรหัสเอฟเฟกต์โดยตรงหรือรหัสที่เรียกต่อใน build 70862
+คำแปลใช้ตัวเลขที่เกมแสดงบนบัฟและดีบัฟแต่ละรายการ
+
+บัฟกลืนกินศพ 20578 และสถานะวิญญาณ 8326 กับ 20584 อ้างอิงคำอธิบายของแต่ละรหัสใน build 70862
+แยกคำอธิบายของบัฟออกจากสกิลเผ่าและแปลเมื่อข้อความตรงกับที่เกมแสดง
+
+เกราะแห่งศรัทธาและบัฟต้านทานห้าสายอ้างอิงข้อความออร่าและเอฟเฟกต์จาก build 70862
+คำอธิบายโบนัสเซ็ตใช้ยืนยันรหัสที่อ้างถึง ส่วนบัฟต้านทานอีกสี่รหัสตรวจแยกตามเอฟเฟกต์ของแต่ละสาย
+
+การตรวจสกิลของ Infernal และ Doomguard แยกสกิลอัญเชิญออกจากสกิลที่ปรากฏบนแถบสัตว์เลี้ยง
+โหมดเก็บข้อมูลในแพ็กทดสอบใช้รหัสสกิลจาก GetPetActionInfo และจับคู่กับข้อความ Tooltip ที่แสดง
+
+ม้วนคัมภีร์ 20527 ใช้สกิล 24887 ซึ่งสร้างไอเท็ม 20419 ใน build 70862
+คำอธิบายเรียกตรานี้ว่า Earth ส่วนชื่อไอเท็มใช้ Stone คำแปลของม้วนคัมภีร์ยึดตามคำอธิบาย Earth
+
+ดีบัฟสัตว์เลี้ยงที่ระบุทิศทางของผล เช่น ลดเกราะหรือลดความเร็ว ใช้ค่าบวกจากข้อความเกม
+ตรวจตำแหน่งของค่ากับเอฟเฟกต์ของแต่ละแรงก์ใน build 70862
+
+การตรวจป้ายประเภทเวทและบรรทัดผู้ร่ายใช้ AuraData, ประเภทบรรทัด AuraCaster และ AURA_CAST_BY ของ build 70862
+ตรวจตำแหน่งและข้อความที่แสดงตามการจัดบรรทัดของ TooltipDataHandler
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_SharedXMLGame/Tooltip/TooltipDataHandler.lua
+
+ค่าร่ายคงที่และระยะบนแถบสกิลเทียบ GetActionInfo, C_Spell.GetSpellPowerCost และ C_Spell.GetSpellInfo กับบรรทัดที่เกมแสดง
+ใช้เฉพาะปุ่มแถบสกิลของเกมนอกการต่อสู้ ชุดทดสอบอิงตัวอย่าง Holy Light แรงก์ 2 จากภาพของผู้ใช้
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua
+
+ไอเทม Wolfshead Trophy 212568 เชื่อมเอฟเฟกต์ใช้ 181804 และสกิล 432190 กับมนตร์ถาวร 7124
+แปลเฉพาะส่วนที่ยืนยันได้จากข้อมูลนี้ โดยต้องพบข้อความ Use เดิมตรงครบและคงเงื่อนไขได้รับพลังในกรอบเดิม
+
+ป้ายแรงก์บนแถบสกิลเทียบข้อความด้านขวาของชื่อสกิลกับ C_Spell.GetSpellSubtext ของรหัสเดียวกัน
+ทดสอบจำลองจากภาพ Holy Light แรงก์ 2 การแสดงผลในเกมยังรอยืนยัน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/SpellDocumentation.lua
+
+ระหว่างต่อสู้ กรอบไทยของแถบสัตว์เลี้ยงเทียบช่องจาก SetPetAction กับปุ่มจริงและรหัสสกิลจาก GetPetActionInfo
+ตรวจชื่อและคำอธิบายที่เกมแสดง และปิดกรอบเมื่อเกมแจ้งว่าแถบหรือสัตว์เลี้ยงเปลี่ยน
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua
+
+บัฟและดีบัฟระหว่างต่อสู้ต้องตรงกับออร่ารายตัวและคำอธิบายเต็ม ใช้เฉพาะข้อมูลที่เกมเปิดให้ Add-on อ่าน
+กรอบเป้าหมายหลักมีหน้าต่างออร่าแบบแยกต่างหากและยังรอการยืนยันช่องทางที่ Add-on รองรับ
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.xml
+
+เมนูสกิลแบบกางจากแถบสกิลใช้ SetSpellByID ตรวจรหัสกับปุ่มใน SpellFlyout และคำอธิบายเต็มที่เกมแสดง
+ปิดกรอบเมื่อเมนูปิดหรือแถบสกิลเปลี่ยน ทดสอบจำลองด้วย Teleport: Stormwind
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua
+
+บัฟ Camping ใช้ AuraDescription ของรหัส 1229739, 1289723, 1283391 และ 1328375 ใน build 70862
+กองไฟต้อนรับสองรหัสมีเงื่อนไขต่างกัน ใช้ชื่อและข้อความที่เกมแสดงตรงกับรหัส และคงเวลาจากเกม
+https://worldofwarcraft.blizzard.com/en-us/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever
+
+Camp Benefits ใช้ AuraDescription ของรหัส 1229741 กับค่าที่เกมแสดงของเอฟเฟกต์ทั้ง 9 แบบ
+ตรวจเงื่อนไขอุปกรณ์ ค่าคงที่ ร้อยละ และช่วงฟื้นมานาแยกกัน ชุดทดสอบใช้ค่าจำลอง การแสดงผลในเกมยังรอยืนยัน
+https://worldofwarcraft.blizzard.com/en-us/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever
+
+ชื่อสูตรในรายการคราฟต์ใช้ Professions.RecipeListOnEnter และรหัสของแถวจาก ScrollBox
+เทียบสูตรแรงก์ที่แสดง ชื่อบนแถว และข้อมูลสูตรปัจจุบัน ก่อนแสดงชื่อไทยในกรอบแยก
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua
+
+บัฟอิ่มท้อง 11 รหัสอิง AuraDescription ของบัฟแต่ละชนิดและเส้นทางจากไอเทมที่ตรวจแล้วใน build 70862
+โบนัสค่าประสบการณ์ใช้เงื่อนไขของบัฟ 1243969 จับคู่ข้อความที่แสดงครบโดยคงค่าจากเกม
+
+เอฟเฟกต์จากไอเทม 15 รหัสอิง ItemSparse, ItemEffect, SpellEffect และ AuraDescription ใน build 70862
+ศิลาวิญญาณแสดงสถานะเก็บวิญญาณตามคำอธิบายบัฟ ส่วนคงกระพันจับคู่รหัสบัฟที่เกิดจาก Invulnerable Mail
+
+คำอธิบายตอนกดใช้ไอเทม 13 รายการใช้ Description ของสกิลที่เชื่อมกับไอเทมใน build 70862
+ตรวจแหล่งระยะเวลาและเอฟเฟกต์คืนชีพของศิลาวิญญาณ โดยคัดค่าที่เกมแสดงจากข้อความเต็ม
+
+เอฟเฟกต์ล่องหน ว่ายน้ำ และต้านทานแยก Description ออกจาก AuraDescription ตามรหัสใน build 70862
+ป้ายคูลดาวน์ใช้รูปแบบจาก GlobalStrings เมื่อบรรทัดกดใช้เต็มตรงกับต้นฉบับ
+
+ศิลากลับที่พักใช้ไอเทม 6948 และ Spell 8690 ใน build 70862 เทียบชื่อจุดผูกในคำอธิบายกับ GetBindLocation ของเกม
+https://github.com/Gethe/wow-ui-source/blob/9dc84f0d3bbae1768ac3405b3716000bd93eda06/Interface/AddOns/Blizzard_APIDocumentationGenerated/PlayerScriptDocumentation.lua
+
+อาหาร 3 ชนิดอิง ItemEffect, Spell, SpellEffect และ SpellDuration ของ build 70862
+ใช้ค่าที่เกมแสดงสำหรับการฟื้นฟูและบัฟ ข้อมูลต้นทางของผลแต่ละชนิดแยกตาม Spell ID
+
+ม้วนคาถา Mage ทั้ง 3 ชิ้นอิง ItemEffect, Spell และ SpellEffect ของ build 70862
+เก็บสูตรทั้งสองช่วงเลเวลของ Cryoblast ไว้ในฐานคำแปล และใช้ค่าที่เกมแสดงในกรอบภาษาไทย
+
+อุปกรณ์ตั้งแคมป์ 8 ชิ้นอิงรหัสไอเทม รหัสสกิลวางอุปกรณ์ สกิลโบนัส และคูลดาวน์ร่วม 1308027 ใน build 70862
+ลูทลงมนตร์เทียบข้อความเต็มของโบนัสที่เกมแสดงทั้ง 3 แบบ
+https://news.blizzard.com/en-gb/article/24301516/gather-around-the-campfire-in-world-of-warcraft-forever
+
+ชุดเสริมเกราะ 11 ชุดอิง ItemEffect, SpellEffect และ SpellItemEnchantment ของ build 70862
+แยกรหัสตอนใช้ชุดออกจากรหัสเสริมพลังที่ติดอยู่บนอุปกรณ์
+
+Furious Howl หน้าครูฝึกใช้รหัสฝึกและรหัสสกิลที่เรียนตรงกันใน build 70862
+ข้อความเดิมเรื่องการโจมตีกายภาพครั้งถัดไปยังรอยืนยันต้นฉบับ
+
+ไอเทมแยกฝ่าย 9 ชิ้นอิง ItemEffect, SpellEffect และ PlayerCondition 923 ของ build 70862
+จับคู่ข้อความตอนใช้ทั้งสองรูปแบบตามรหัสไอเทมและข้อความเต็ม
+
+ลังเสบียง Waylaid Supplies 99 รายการจับคู่ชื่อวัตถุดิบจาก ItemSparse กับข้อความ Spell
+ตรวจรหัสใน ItemXItemEffect และ ItemEffect รวมถึงผลสร้างลังและช่องจำนวนใน SpellEffect
+อีก 5 รายการใช้ต้นฉบับต่อเพราะชื่อวัตถุดิบขัดกับข้อมูลที่ผูกกับลัง
+
+ลัง Waylaid Crate แบบเลือกชุดใช้คำแนะนำร่วมจาก Spell 1308117 และรายการตามรหัสไอเทม
+คงจำนวนของตัวเลือกทั้ง 96 บรรทัดตามที่เกมแสดง และใช้ต้นฉบับเมื่อรายการไม่ตรงครบ
+
+ไอเทมใช้ 6 ชิ้นอิงรหัส ItemEffect และ SpellEffect ของ build 70862
+เงื่อนไขของผงสีม่วงตรงกับประกาศจาก Blizzard
+https://news.blizzard.com/en-us/article/24317678/set-your-campfire-ablaze-with-the-pouch-of-violet-dust
+
+ออร่าไอเทม 4 รายการจับคู่ AuraDescription กับเอฟเฟกต์ใน build 70862
+เลือดอาบพิษใช้ค่าระยะและความเสียหายเมื่อหมดเวลาตามที่แสดงใน tooltip ของออร่า
+
+งานเลี้ยงทั้งสองรายการใช้คำอธิบาย Food 1225774 และ Well Fed 1225782 จาก build 70862
+Blooming Heart ใช้ข้อความจาก Spell 1320097 และ 1320096 ตามที่เกมแสดง
+
+ไอเทมสวมใส่ทั้งสองชิ้นตรวจรหัส ItemEffect, SpellEffect และ SpellAuraOptions ของ build 70862
+เอฟเฟกต์พลังนิรันดร์ใช้คำอธิบายออร่าของ Spell 1249118 และ 1249119 แยกกัน
+
+Quick Draw ตรวจจาก ItemEffect 172548 และเอฟเฟกต์แทนที่สกิล 1041224 ใน build 70862
+ใช้คำอธิบายการร่ายและออร่าจาก Spell 398196 แยกกัน
