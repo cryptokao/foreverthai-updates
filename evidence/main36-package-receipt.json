@@ -1,0 +1,70 @@
+{
+  "status": "PASSED_BOUNDED_COMBINED_PRIVATE0473_PACKAGE",
+  "version": "0.473.0",
+  "new_supported_fields_or_variants": 13,
+  "new_Thai_fields": 10,
+  "verbatim_reviewed_reuse": 3,
+  "quest_ids": 8,
+  "new_runtime_ids": 3,
+  "new_field_slots": 9,
+  "appended_variants": 4,
+  "complete_quests_claimed": 0,
+  "source_proposal_sha256": "787a50c171098d1cded642fc30d83f3bca73701bd5ba1a93bdb3c2d7125690cc",
+  "zip": {
+    "path": "ForeverThai-0.473.0-main36-PRIVATE-TEST.zip",
+    "bytes": 29843848,
+    "sha256": "a606548c0b8877ca29fcee2bbca8919dba085ab166d87484e885982b27cb7add"
+  },
+  "runtime_files": 161,
+  "old_runtime_files_exact_bytes_preserved": 156,
+  "metadata_changed": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "added_runtime": [
+    "ForeverThai/MainQuest36.lua",
+    "ForeverThai/AtlasMain36.lua",
+    "ForeverThai/Fonts/Thai102.tga"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 116,
+  "new_word_glyphs": 33,
+  "new_Thai_runs": 38,
+  "new_pages": 1,
+  "actual_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "MainQuest27.lua",
+    "MainQuest28.lua",
+    "MainQuest33.lua",
+    "MainQuest35.lua",
+    "MainQuest36.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "AtlasMain27.lua",
+    "AtlasMain28.lua",
+    "AtlasMain35.lua",
+    "AtlasMain36.lua",
+    "Bitmap.lua"
+  ],
+  "all_TOC_Lua_compile": 35,
+  "actual_BitmapLayer_Thai_draws": 52,
+  "Thai_live_font_fallbacks": 0,
+  "glyph_crops_pixel_checked": 203,
+  "source_checks_reference": "MAIN36:152positives396negatives104wrongroutes,not rerun here",
+  "engines_or_settings_changed": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "old_UI_Skill_NPC_full_suites_rerun": false,
+  "localAI_NLP_or_full_font_rebuild": false,
+  "elapsed_wall_seconds": 7.412242000000333,
+  "cpu_seconds": 7.203125,
+  "limits": [
+    "13fields or variants,NOTcompletequests or whole-game percent",
+    "Current enabled inventory/per-row build unproven",
+    "86792multiobjective macro/9556race description remainheld",
+    "8315/84213existing multilineTracker guard retained",
+    "No actualWindows/MacM2 acceptance"
+  ]
+}

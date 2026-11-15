@@ -69,5 +69,5 @@ for r in rows:
 report=dict(batch='MAIN36',status='PASSED_SOURCE_CHECKS_NOT_PACKAGED',supported_new_fields_or_variants=13,new_Thai_fields=10,verbatim_reviewed_reuse=3,quest_ids=8,new_runtime_ids=len(newids),new_field_slots=sum(v=='new field' for v in actions.values()),appended_variants=sum(v!='new field' for v in actions.values()),positive_checks=positives,negative_checks=negatives,wrong_phase_checks=wrongroutes,all_old_canonical_and_alias_trees_preserved=True,held_quests_preserved=list(held),glyph_baseline=len(a.glyphs),new_Thai_runs_needed=sum(not v['existing_full_run'] for v in needs),complete_quests_claimed=0,real_Windows_MacM2_acceptance=False,current_enabled_inventory_proven=False,overlay_sha256=sha(overlay),elapsed_wall_seconds=time.perf_counter()-start,cpu_seconds=time.process_time()-cpu)
 for n,v in [('main36-reviewed-pairs.json',doc),('main36-source-checks.json',report),('main36-font-run-needs.json',needs)]:
  (R/n).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-(R/'main36-reviewed-overlay.lua').write_text(overlay,encoding='utf8')
+(R/'main36-reviewed-overlay.lua').write_text(overlay,encoding='utf8',newline='\n')
 print(json.dumps(report,ensure_ascii=False));print(json.dumps([n['run'] for n in needs if not n['existing_full_run']],ensure_ascii=False))
