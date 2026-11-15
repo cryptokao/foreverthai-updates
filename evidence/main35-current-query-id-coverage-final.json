@@ -1,0 +1,512 @@
+{
+  "batch": "MAIN35",
+  "scope": "Current pinned query IDs compared to actual0.472quest-table membership only,no old field matcher rerun",
+  "source_query_ids": 3902,
+  "missing_runtime_ids": [
+    {
+      "quest_id": 1,
+      "title": "The \"Chow\" Quest (123)aa",
+      "level": 4,
+      "classification": "known_developer_id",
+      "followup_classification": "known_developer_id"
+    },
+    {
+      "quest_id": 73,
+      "title": "<TXT> No Reward",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 137,
+      "title": "<NYI> <TXT> Stormwind Commendation",
+      "level": 8,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 241,
+      "title": "<TEST> HEY MISTER WILSON!",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 242,
+      "title": "<UNUSED>",
+      "level": 30,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 259,
+      "title": "<UNUSED>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 406,
+      "title": "<UNUSED>",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 462,
+      "title": "<UNUSED>",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 497,
+      "title": "<UNUSED>",
+      "level": 22,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 534,
+      "title": "<UNUSED>",
+      "level": 34,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 548,
+      "title": "<NYI> <TXT> Bloodstone Pendant",
+      "level": 35,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 810,
+      "title": "<UNUSED>",
+      "level": 5,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 814,
+      "title": "<UNUSED>",
+      "level": 6,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 820,
+      "title": "<UNUSED>",
+      "level": 9,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 839,
+      "title": "<UNUSED>",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 856,
+      "title": "<UNUSED>",
+      "level": 12,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 946,
+      "title": "<UNUSED>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 988,
+      "title": "<UNUSED>",
+      "level": 20,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 989,
+      "title": "<UNUSED>",
+      "level": 22,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1278,
+      "title": "<nyi> <TXT> The Grim Totem Clan",
+      "level": 45,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1279,
+      "title": "<nyi> <TXT>The Centaur Hoofprints",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1280,
+      "title": "<nyi> <TXT>The Centaur Hoofprints",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1291,
+      "title": "<nyi> <TXT> Centaur Hoofprints",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1292,
+      "title": "<nyi><TXT> Centaur Hoofprints",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1294,
+      "title": "<nyi> <TXT>Centaur Sympathies",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1295,
+      "title": "<nyi> <TXT> Course of Action",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1296,
+      "title": "<nyi> <TXT> Course of Action",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1297,
+      "title": "<nyi> <TXT> Course of Action",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1460,
+      "title": "<UNUSED>",
+      "level": 37,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1461,
+      "title": "<UNUSED>",
+      "level": 37,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 1659,
+      "title": "<UNUSED>",
+      "level": 30,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 2868,
+      "title": "<TXT> The Shriveled Heart",
+      "level": 50,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 3383,
+      "title": "<UNUSED>",
+      "level": 55,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 3482,
+      "title": "<NYI> <TXT> The Pocked Black Box",
+      "level": 35,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 4323,
+      "title": "<NYI> <TXT> Get those Hyenas!!!",
+      "level": 26,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 4541,
+      "title": "<NYI> <TXT>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 4905,
+      "title": "<UNUSED>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 5512,
+      "title": "<UNUSED>",
+      "level": 56,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 5659,
+      "title": "<NYI> Touch of Weakness",
+      "level": 10,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 5688,
+      "title": "<NYI> <TXT> A Touch of Voodoo",
+      "level": 15,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 5701,
+      "title": "<NYI> <TXT> The Rites of Old",
+      "level": 25,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 6165,
+      "title": "<NYI> <TXT> Archmage Timolain's Remains",
+      "level": 58,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 7069,
+      "title": "<UNUSED>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 7681,
+      "title": "Hunter test quest",
+      "level": 10,
+      "classification": null,
+      "followup_classification": "explicit_test_quest_title"
+    },
+    {
+      "quest_id": 7682,
+      "title": "Hunter test quest2",
+      "level": 10,
+      "classification": null,
+      "followup_classification": "explicit_test_quest_title"
+    },
+    {
+      "quest_id": 7741,
+      "title": "Praise from the Emerald Circle <NYI> <TXT>",
+      "level": 59,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 7869,
+      "title": "test quest - do not use",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 7870,
+      "title": "test quest2 - do not use",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 7904,
+      "title": "<UNUSED>",
+      "level": 60,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 8230,
+      "title": "Collin's Test Quest",
+      "level": 0,
+      "classification": null,
+      "followup_classification": "explicit_test_quest_title"
+    },
+    {
+      "quest_id": 8247,
+      "title": "<UNUSED>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 8248,
+      "title": "<UNUSED>",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 8458,
+      "title": "<UNUSED>",
+      "level": 33,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 8973,
+      "title": "REUSE",
+      "level": 10,
+      "classification": "developer_exact_label",
+      "followup_classification": "developer_exact_label"
+    },
+    {
+      "quest_id": 9065,
+      "title": "The \"Chow\" Quest (123)aa",
+      "level": 4,
+      "classification": "known_developer_id",
+      "followup_classification": "known_developer_id"
+    },
+    {
+      "quest_id": 9411,
+      "title": "<UNUSED>Infused Bandages",
+      "level": 60,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 9413,
+      "title": "<UNUSED>Crystal Flake Throat Lozenge",
+      "level": 60,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 9414,
+      "title": "<UNUSED>Infused Bandages",
+      "level": 60,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 60864,
+      "title": "[Never used]",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 60865,
+      "title": "[Never used]",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 60866,
+      "title": "[Never used]",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 60868,
+      "title": "[Never used]",
+      "level": 1,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 63769,
+      "title": "[DNT] Holiday Quests Tracker",
+      "level": 0,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 93173,
+      "title": "(UNUSED) The Rusty Gadget",
+      "level": 11,
+      "classification": "developer_marker",
+      "followup_classification": "developer_marker"
+    },
+    {
+      "quest_id": 94049,
+      "title": "zzOLD Training the Beast",
+      "level": 10,
+      "classification": null,
+      "followup_classification": "zzOLD_title_marker"
+    },
+    {
+      "quest_id": 94559,
+      "title": "UNUSED",
+      "level": 11,
+      "classification": "developer_exact_label",
+      "followup_classification": "developer_exact_label"
+    },
+    {
+      "quest_id": 94898,
+      "title": "Violent Winds (Temp Disabled)",
+      "level": 11,
+      "classification": "disabled_marker",
+      "followup_classification": "disabled_marker"
+    },
+    {
+      "quest_id": 95056,
+      "title": "Krol'dok No More!",
+      "level": 42,
+      "classification": null,
+      "followup_classification": "NYI_description_and_unresolved_NAME_objective",
+      "source_excerpt": {
+        "description": "NYI",
+        "objectivesText": "Escort NAME to safety."
+      }
+    },
+    {
+      "quest_id": 95331,
+      "title": "REUSE ME",
+      "level": 45,
+      "classification": "developer_exact_label",
+      "followup_classification": "developer_exact_label"
+    },
+    {
+      "quest_id": 98338,
+      "title": "REUSE ME",
+      "level": 33,
+      "classification": "developer_exact_label",
+      "followup_classification": "developer_exact_label"
+    },
+    {
+      "quest_id": 98426,
+      "title": "REUSEME",
+      "level": 38,
+      "classification": "developer_exact_label",
+      "followup_classification": "developer_exact_label"
+    }
+  ],
+  "not_enabled_inventory": true,
+  "new_Thai_fields": 0,
+  "unresolved_ready_ordinary_missing_ids": 0,
+  "note": "71query IDs not in runtime are explicit test/unused/disabled/NYI placeholder records;not proof of current enabled inventory. No new title or field invented."
+}

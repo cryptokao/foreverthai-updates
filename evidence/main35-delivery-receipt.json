@@ -1,0 +1,34 @@
+{
+  "status": "PRIVATE0472_MAIN35_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "7f6a1e6b04d0ea95fc99bd8ab39878d13e8ddfae",
+  "source_commit": "fb0d057adc39d1432ecc77919ad97ea027f39b8a",
+  "checks": [
+    {
+      "path": "ForeverThai-0.472.0-main35-PRIVATE-TEST.zip",
+      "bytes": 29776055,
+      "sha256": "3b6f10f8519c625f4897840e17aabdd908ef6ab1ae753f3ab01daddd52f0cebc",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.472.0-TH.txt",
+      "bytes": 5642,
+      "sha256": "d728381d95e7bbece71977ec416648975c7876d30e1a1b45c0d022c37df20730",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN35-bitmap-simulation.png",
+      "bytes": 86562,
+      "sha256": "761d92f709755e24e327293038b43ae4db03fa1ec0be2780b88efd5706a6d69a",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all158_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 115,
+  "new_word_bitmaps": 3,
+  "new_Thai_fields": 4,
+  "new_supported_fields": 4,
+  "complete_quests_claimed": 0,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false
+}

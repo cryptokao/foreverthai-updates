@@ -1,5 +1,5 @@
 {
-  "status": "FOUR_REAL_NEW_OBJECTIVE_TRANSLATIONS_SOURCE_CHECKS_PASS_BITMAP_PACKAGE_PENDING",
+  "status": "FOUR_REAL_OBJECTIVE_FIELDS_DELIVERED_COMBINED_PRIVATE0472_GOAL_ACTIVE",
   "batch": "MAIN35",
   "consecutive_impasse_goal_turns": 0,
   "blocked_threshold_met": false,
@@ -7,10 +7,17 @@
   "new_Thai_fields": 4,
   "new_supported_fields": 4,
   "complete_quests_claimed": 0,
-  "latest_delivered_private": "0.471.0",
-  "latest_customer": "0.470.0",
+  "latest_delivered_private": "0.472.0",
+  "customer_publication_record": "0.470.0",
   "next_normal_publication": "0.480.0",
-  "next_safe_action": "Integrate only3newwordbitmaps/2runs,build combined private0.472 withallSkills/fonts,verify immutable source/artifact transport",
-  "real_game_acceptance": false,
+  "closed_sources": "1414L11-60phase lookups,15source-available nil objective/description candidates,current3902ID membership;do not repeat unchanged",
+  "remaining": [
+    "Current enabled whole-game inventory and missing/unpublished phases",
+    "Exact remaining identity/macro role proofs",
+    "49source-access-unavailable pages need changed access or distinct corroborating source;no bypass",
+    "Actual Windows/MacM2 gameplay acceptance"
+  ],
+  "next_action": "Only distinct uninspected source/changed evidence;do not keep rerunning closed scopes or pad versions",
+  "real_game_verified": false,
   "whole_game_denominator": false
 }
