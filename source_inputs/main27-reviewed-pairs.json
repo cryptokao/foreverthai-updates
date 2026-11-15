@@ -1,0 +1,1148 @@
+{
+  "batch": "MAIN27",
+  "status": "SOURCE_REVIEW_AND_AFFECTED_TEMPLATE_CHECKS_PASSED_NOT_PACKAGED",
+  "baseline_version": "0.468.0",
+  "baseline_source": "e114c2c1cd26b9205ca06bbb3e8d27a679e1858f",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "qualification": "Primary publisher DATASETS.md lines582-594 explicitly defines reader name/race/class for raw quest cache text. Source fields are exact current70938 description/objectivesText. Not inferred from normalized FVO text, similar old wording, or quest story.",
+  "documentation_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "counts": {
+    "new_supported_fields": 25,
+    "quest_ids": 25,
+    "new_reviewed_Thai_fields": 7,
+    "verbatim_reviewed_reuse_fields": 18,
+    "new_missing_fields": 24,
+    "new_source_variant_aliases": 1,
+    "complete_quests_claimed": 0
+  },
+  "holds": [
+    {
+      "quest_id": 91754,
+      "field": "description",
+      "reason": "unproven |5 formatting grammar; NCR role schema insufficient"
+    },
+    {
+      "quest_id": 95318,
+      "field": "description",
+      "reason": "unproven |5 formatting grammar; NCR role schema insufficient"
+    }
+  ],
+  "fields": [
+    {
+      "quest_id": 80526,
+      "field": "description",
+      "title": "Fool Me Twice",
+      "level": 50,
+      "english": "Not a moment too soon, $n\r\n \r\nThe manor has been keeping tabs on this \"C\" character you've been dealing with. \r\n \r\nC's true identity is Caius Blackwood; a powerful magic user working with the Syndicate. Our sources say he has been gathering artifacts for an unknown purpose. Only recently did we discover *you* were the one providing them.\r\n \r\nCaius must be stopped, and I believe the onus of doing so falls on you. Fortunately, I've devised a plan. Come speak to me when you're ready to clear your name.",
+      "english_sha256": "ae5785cbec26104d6a1bca73f3e73e679c0191e0a0dcf6f5c2aa2bb07ef53be9",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/80526/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/80526/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "23:686353825:1571117783 N 466:602788188:1798960097",
+      "thai": "มาได้ทันเวลาพอดี {name}\n\nทางคฤหาสน์คอยติดตามความเคลื่อนไหวของคนที่เรียกกันว่า \"C\" ซึ่งเจ้าติดต่ออยู่\n\nตัวจริงของ C คือ Caius Blackwood ผู้ใช้เวทมนตร์ทรงพลังที่ทำงานร่วมกับ Syndicate แหล่งข่าวของเราระบุว่าเขากำลังรวบรวมวัตถุโบราณเพื่อจุดประสงค์ที่ยังไม่ทราบแน่ชัด เราเพิ่งรู้เมื่อไม่นานมานี้ว่า *เจ้า* เป็นคนหามันมาให้เขา\n\nต้องหยุด Caius ให้ได้ และข้าเชื่อว่าหน้าที่นี้ตกเป็นของเจ้า โชคดีที่ข้าวางแผนไว้แล้ว มาคุยกับข้าเมื่อเจ้าพร้อมจะล้างมลทินให้ตัวเอง",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "92ab8a422ea455438649f2db5c8ede21336c4251c03120479526bbcf2c07df67"
+    },
+    {
+      "quest_id": 86752,
+      "field": "description",
+      "title": "Report to Rageroar",
+      "level": 53,
+      "english": "There is much more to be done in our fight against the satyr, $n.\r\n\r\nIf you wish be of further help, speak with Gatekeeper Rageroar at the camps of Ursolan to the north. He will know where to use your abilities best. You should find Ursolan to the north of here.",
+      "english_sha256": "60e82b5ab21d075f74f8a0d15ece582973a13379effd136c5a2747415d40dcce",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86752/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86752/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "62:649475378:1952278887 N 195:841162303:660773550",
+      "thai": "ในการต่อสู้กับพวกซาเทียร์ของเรา ยังมีเรื่องให้ทำอีกมาก {name}\n\nหากเจ้าอยากช่วยต่อ จงไปคุยกับ Gatekeeper Rageroar ที่ค่ายของ Ursolan ทางเหนือ เขาจะรู้ว่าควรให้เจ้าใช้ความสามารถตรงไหนจึงจะเป็นประโยชน์ที่สุด Ursolan อยู่ทางเหนือของที่นี่",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "1612d4a3fdc96be6903ea33c0aba4df99a816568b298f5d5faf86ab77d201dc2"
+    },
+    {
+      "quest_id": 86813,
+      "field": "description",
+      "title": "Potential Panacea",
+      "level": 53,
+      "english": "I must say, $c. I have not felt this optimistic in some time. This tincture could be the panacea that saves us from the satyr's ever-expanding blight. Even if we remain in these camps for the rest of our lives we will stand strong and free of corruption.\r\n\r\nGo to Furze and give him this panacea. He has suffered for long enough. Return to me to report any findings.",
+      "english_sha256": "20d3cc42fe6cf6d5b10f2855faf70181620f750217b12f63319a49f7ec074758",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86813/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86813/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "12:1341003306:649640301 C 349:2105013405:85702411",
+      "thai": "ต้องบอกเลยนะ {class} ข้าไม่ได้รู้สึกมีความหวังเช่นนี้มานานแล้ว ยาสกัดนี้อาจเป็นยาครอบจักรวาลที่ช่วยพวกเราให้พ้นจากความแปดเปื้อนของพวกซาเทียร์ซึ่งลุกลามขึ้นเรื่อย ๆ ต่อให้พวกเราต้องอยู่ในค่ายเหล่านี้ไปตลอดชีวิต เราก็จะยังยืนหยัดอย่างเข้มแข็งและปราศจากความแปดเปื้อน\n\nไปหา Furze แล้วมอบยาครอบจักรวาลนี้ให้เขา เขาทนทุกข์มานานพอแล้ว แล้วกลับมารายงานสิ่งที่พบให้ข้าทราบ",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "d09e562a1fb1e5c6c93b474adf93f15c4174da64ad9392a072905ec198c8ee92"
+    },
+    {
+      "quest_id": 86796,
+      "field": "description",
+      "title": "Later, Satyr",
+      "level": 54,
+      "english": "You there, $r!\r\n\r\nThese fiends ambushed my scouting party, and have taken me captive. I don't know what plans they have for me, but I don't intend to find out. I must escape and return to Ursolan; no doubt Korsa is worried about me.\r\n\r\nWhile I would love to break out of this cage and leave a trail of satyr corpses in my wake, I'm afraid I'm slightly outnumbered.\r\n\r\nPerhaps you share my hatred for the fiends, and would help me escape?",
+      "english_sha256": "ad4968defa931fccbe8186582d74c97d01bf3b2a4e2a94e5799d67722a41e693",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86796/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86796/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "11:832768296:1518065480 R 415:1389997809:880461440",
+      "thai": "เจ้าน่ะ {race}!\n\nพวกปีศาจนี่ซุ่มโจมตีหน่วยลาดตระเวนของข้าและจับข้ามาเป็นเชลย ข้าไม่รู้ว่าพวกมันคิดจะทำอะไรกับข้า และไม่คิดจะอยู่รอดูด้วย ข้าต้องหนีแล้วกลับไป Ursolan ป่านนี้ Korsa คงเป็นห่วงข้าแน่ ๆ\n\nถึงข้าจะอยากพังกรงนี้ออกไป แล้วทิ้งซากพวกซาเทียร์เรียงรายไว้เบื้องหลัง แต่เกรงว่าจำนวนพวกมันจะมากกว่าข้าอยู่สักหน่อย\n\nบางทีเจ้าอาจเกลียดพวกปีศาจนี่เหมือนข้า และยินดีช่วยให้ข้าหนีออกไปก็ได้?",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "aacdaa64d90063e5b9cae8737d8499b8fdb2a86bdcc67714344f774165634e47"
+    },
+    {
+      "quest_id": 86798,
+      "field": "description",
+      "title": "Timbermaw Reinforcements",
+      "level": 55,
+      "english": "With the satyr weakened, now is the time to mount a counter-offensive. Prince Halanox, commander of the Legashi Stronghold, will be our target. However, we still lack the numbers to face him head-on.\r\n\r\nSince the Legashi drove us out we have been cut off from the furbolgs of Timbermaw Hold. We could call upon them for reinforcements, but we will need an emissary. You will be that emissary, $n.\r\n\r\nGo to Timbermaw Hold and find a furbolg named Gorn One Eye. He will provide us with the soldiers we need.",
+      "english_sha256": "53844d44136ce4e6c6e154a22c13c54e38095e2172952ededd7a56e39c1ad9d9",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/86798/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/86798/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "390:1163750618:73711623 N 107:1300616055:1097888197",
+      "thai": "ตอนนี้พวกซาเทียร์อ่อนกำลังลงแล้ว ถึงเวลาบุกโต้กลับ เป้าหมายของเราคือเจ้าชาย Halanox ผู้บัญชาการ Legashi Stronghold แต่เรายังมีกำลังพลไม่พอจะเผชิญหน้าเขาตรง ๆ\n\nตั้งแต่พวก Legashi ขับไล่เราออกมา พวกเราก็ถูกตัดขาดจากเหล่าเฟอร์โบลก์แห่ง Timbermaw Hold พวกเราอาจเรียกกำลังเสริมจากพวกเขาได้ แต่ต้องมีทูตไปติดต่อ และทูตคนนั้นก็คือเจ้า {name}\n\nไปที่ Timbermaw Hold แล้วตามหาเฟอร์โบลก์ชื่อ Gorn One Eye เขาจะจัดหาทหารที่เราต้องการให้",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "3e0a36e7a04c4c2ac30faab8536a3cbc345a0295c2079e893b36ee8bd6ad26bb"
+    },
+    {
+      "quest_id": 84319,
+      "field": "description",
+      "title": "Oh No Ye Don't!",
+      "level": 58,
+      "english": "Great job with the hammer, $c. Next up is me armor. Definitely need that back to move on to the great beyond.\r\n\r\nOnly problem is it's in the eh... innards o' one of them abominations. I know, I know, it's askin' a lot, but ye gotta understand I was once a mighty thane under the mountain! I simply can't move on knowin' that the ancestral armor of me clan is dissolving in the gutjuice of a giant rotting mountain o' meat!",
+      "english_sha256": "4c0b21f5cf57cc484e6eadced9d8038d21842fcb670ab74c1a48ab4145d89806",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84319/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84319/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "27:84313586:1380375980 C 390:1240965061:1044493529",
+      "thai": "เรื่องค้อนทำได้เยี่ยมเลย {class} ต่อไปก็เกราะของข้า ข้าต้องได้มันคืนก่อน ถึงจะไปสู่ปรโลกได้\n\nติดอยู่แค่ว่ามันอยู่ใน เอ่อ... เครื่องในของพวก abomination ตัวหนึ่ง ข้ารู้ ข้ารู้ ว่าขอมากไปหน่อย แต่เจ้าต้องเข้าใจนะว่า ข้าเคยเป็น Thane ผู้เกรียงไกรใต้ขุนเขามาก่อน! ข้าจะไปต่อได้อย่างไร หากรู้ว่าเกราะตกทอดจากบรรพบุรุษของตระกูลข้ากำลังละลายอยู่ในน้ำย่อยของกองเนื้อเน่าเปื่อยขนาดยักษ์นั่น!",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "c7ce4340bf6fbfca9299e70e7d5062650c702c6a35123e772e31590d763b9bc2"
+    },
+    {
+      "quest_id": 84332,
+      "field": "description",
+      "title": "A Thane's Gratitude",
+      "level": 59,
+      "english": "<You hear a disembodied voice in your head as you touch the small chest> \r\n\r\nCan't be thankin' ye enough, $n. Not how ye'd be expecting it to turn out, no doubt! Just so you aren't too sour about it, I've got something for ye that I've no more use for that I think ye might find useful.\r\n\r\nGood luck to ye, $n. Ah, one last thing... if ye happen to see a giant floating necropolis in the distance someday soon, I'd be turnin' tail and runnin' if I were ye. Hah!",
+      "english_sha256": "a3beac1cdc528970a182f4bc4bc275861109757345a2ccb21abd43ed28325e7c",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84332/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84332/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "102:1836031950:2002665032 N 196:61601143:938937268 N 152:850254191:1315844644",
+      "thai": "<เมื่อเจ้าแตะหีบใบเล็ก ก็ได้ยินเสียงไร้ร่างดังขึ้นในหัว>\n\nขอบคุณเจ้าเท่าไรก็คงไม่พอ {name} คงไม่ใช่ตอนจบที่เจ้าคาดไว้แน่ ๆ! เพื่อไม่ให้เจ้าผิดหวังกับเรื่องนี้จนเกินไป ข้ามีของบางอย่างที่ข้าไม่ต้องใช้อีกแล้ว และคิดว่าคงเป็นประโยชน์กับเจ้า\n\nขอให้เจ้าโชคดี {name} อ้อ อีกเรื่องหนึ่ง... ถ้าวันไหนในเร็ว ๆ นี้เจ้าเห็นนครสุสานขนาดยักษ์ลอยอยู่ไกล ๆ ถ้าเป็นข้า ข้าคงหันหลังวิ่งหนี ฮ่า!",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "cd53e36d5f40e37353850e0eae28082b5a58ecb20e5054cf84f48914397fc92c"
+    },
+    {
+      "quest_id": 8315,
+      "field": "objective",
+      "title": "The Calling",
+      "level": 60,
+      "english": "Geologist Larksbane at Cenarion Hold in Silithus wants you to recover the Crystal Unlocking Mechanism from the Qiraji Emissary.$B$BYou have been instructed to take the Glyphs of Calling to the Bones of Grakkarond, south of Cenarion Hold, and draw them in the sand. Should the Qiraji Emissary appear, slay it and recover the Crystal Unlocking Mechanism. Return to Geologist Larksbane if you succeed.$B$BAssemble an army for this task, $n!",
+      "english_sha256": "6b65773e8b5417713b8852f9be36a96b66e031d800fbc81b16c6f580d9eb6bf5",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/8315/objectivesText",
+          "build": "70938",
+          "phase": "objectivesText",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/8315/objectivesText",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "428:2111353874:1182269873 N 1:33:33",
+      "thai": "Geologist Larksbane ที่ Cenarion Hold ใน Silithus ต้องการให้เจ้านำกลไกปลดล็อกผลึกมาจากทูตคิราจี\n\nนำอักขระอัญเชิญไปที่ Bones of Grakkarond ทางใต้ของ Cenarion Hold แล้ววาดอักขระลงบนทราย หากทูตคิราจีปรากฏตัว ให้สังหารมันและนำกลไกปลดล็อกผลึกกลับไปหา Geologist Larksbane\n\nจงรวบรวมกองทัพสำหรับงานนี้ {name}!",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 8315,
+        "field": "objective",
+        "thai_sha256": "28e59d50b859e971418ec21b0ae2b7e8b8a7bd54046abd8c9a3244aa86aa05fe",
+        "exact_template_signature": false
+      },
+      "integration": "append variant; preserve old canonical/aliases",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "28e59d50b859e971418ec21b0ae2b7e8b8a7bd54046abd8c9a3244aa86aa05fe"
+    },
+    {
+      "quest_id": 84147,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84147/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84147/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84148,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84148/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84148/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84149,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84149/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84149/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84150,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84150/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84150/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84152,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84152/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84152/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84153,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.",
+      "english_sha256": "2cc35c0bdf909670e3179e58104144660605469b21ede97f756181c23fd08dd2",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84153/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84153/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84154,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Well met, $c.  I've something that might interest you.$B$BI have in my possession a set of armor much like the one worn by those of your profession, but of much higher quality.  I'd be willing to trade the bracers for ordinary ones in exchange for a small favor.$B$BThe blood of the frostsabers and bears that inhabit Winterspring has properties I'm in need of at the moment.  Bring me a sizeable sample of it along with the bracers and a small amount of gold.  You shall find the effort worth your while.\r\n",
+      "english_sha256": "af6112b0d5fc1715716f7e83d685338a9920ed73b127ac6773200eb645fcb036",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84154/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84154/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "10:1401179418:1568553899 C 483:1797862860:229612946",
+      "thai": "ยินดีที่ได้พบ {class} ข้ามีของที่เจ้าอาจสนใจ\n\nข้ามีชุดเกราะที่คล้ายกับชุดของคนในอาชีพเจ้า แต่คุณภาพดีกว่ามาก ข้ายอมเอาปลอกแขนของชุดนี้มาแลกกับปลอกแขนธรรมดา ถ้าเจ้าช่วยอะไรเล็ก ๆ น้อย ๆ ให้\n\nเลือดของฟรอสต์เซเบอร์กับหมีใน Winterspring มีคุณสมบัติที่ข้าต้องการตอนนี้ เอาตัวอย่างเลือดมาให้มากพอ พร้อมปลอกแขนกับทองเล็กน้อย รับรองว่าคุ้มแรง",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97447,
+        "field": "description",
+        "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "5327b84e0664b91154ef3bdf96f5ca68790fe85d53f4273186a05bf9075d7dbb"
+    },
+    {
+      "quest_id": 84155,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Hail, $c!  I can tell by your demeanor that you've seen and done much in this world.  Yet I'm willing to wager you haven't seen a piece of armor like this.$B$BPerform a small favor for me and I'll be willing to trade it to you for an ordinary set of bracers.$B$BI'm in need of a sizeable sample of venom drawn from the spiders and scorpions that inhabit Silithus.  Bring this to me along with a few gold coins and I'll perform the exchange.",
+      "english_sha256": "d30c5e87f40469afaf838879135b700e801fe8fa543e9f7900965f98f54c7179",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84155/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84155/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "6:1136836709:1914036474 C 423:287029186:1488951061",
+      "thai": "สวัสดี {class}! ดูจากท่าทางแล้ว เจ้าคงพบเห็นและผ่านเรื่องราวในโลกนี้มามาก แต่ข้ากล้าพนันว่าเจ้ายังไม่เคยเห็นเกราะแบบนี้\n\nช่วยข้าสักเรื่องสิ แล้วข้าจะยอมเอาเกราะชิ้นนี้แลกกับปลอกแขนธรรมดาของเจ้า\n\nข้าต้องการตัวอย่างพิษปริมาณมากจากแมงมุมและแมงป่องที่อาศัยอยู่ใน Silithus นำมาให้ข้าพร้อมเหรียญทองสักหน่อย แล้วเราค่อยแลกของกัน",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 84158,
+        "field": "description",
+        "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f"
+    },
+    {
+      "quest_id": 84157,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Hail, $c!  I can tell by your demeanor that you've seen and done much in this world.  Yet I'm willing to wager you haven't seen a piece of armor like this.$B$BPerform a small favor for me and I'll be willing to trade it to you for an ordinary set of bracers.$B$BI'm in need of a sizeable sample of venom drawn from the spiders and scorpions that inhabit Silithus.  Bring this to me along with a few gold coins and I'll perform the exchange.",
+      "english_sha256": "d30c5e87f40469afaf838879135b700e801fe8fa543e9f7900965f98f54c7179",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84157/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84157/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "6:1136836709:1914036474 C 423:287029186:1488951061",
+      "thai": "สวัสดี {class}! ดูจากท่าทางแล้ว เจ้าคงพบเห็นและผ่านเรื่องราวในโลกนี้มามาก แต่ข้ากล้าพนันว่าเจ้ายังไม่เคยเห็นเกราะแบบนี้\n\nช่วยข้าสักเรื่องสิ แล้วข้าจะยอมเอาเกราะชิ้นนี้แลกกับปลอกแขนธรรมดาของเจ้า\n\nข้าต้องการตัวอย่างพิษปริมาณมากจากแมงมุมและแมงป่องที่อาศัยอยู่ใน Silithus นำมาให้ข้าพร้อมเหรียญทองสักหน่อย แล้วเราค่อยแลกของกัน",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 84158,
+        "field": "description",
+        "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f"
+    },
+    {
+      "quest_id": 84159,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Hail, $c!  I can tell by your demeanor that you've seen and done much in this world.  Yet I'm willing to wager you haven't seen a piece of armor like this.$B$BPerform a small favor for me and I'll be willing to trade it to you for an ordinary set of bracers.$B$BI'm in need of a sizeable sample of venom drawn from the spiders and scorpions that inhabit Silithus.  Bring this to me along with a few gold coins and I'll perform the exchange.",
+      "english_sha256": "d30c5e87f40469afaf838879135b700e801fe8fa543e9f7900965f98f54c7179",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84159/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84159/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "6:1136836709:1914036474 C 423:287029186:1488951061",
+      "thai": "สวัสดี {class}! ดูจากท่าทางแล้ว เจ้าคงพบเห็นและผ่านเรื่องราวในโลกนี้มามาก แต่ข้ากล้าพนันว่าเจ้ายังไม่เคยเห็นเกราะแบบนี้\n\nช่วยข้าสักเรื่องสิ แล้วข้าจะยอมเอาเกราะชิ้นนี้แลกกับปลอกแขนธรรมดาของเจ้า\n\nข้าต้องการตัวอย่างพิษปริมาณมากจากแมงมุมและแมงป่องที่อาศัยอยู่ใน Silithus นำมาให้ข้าพร้อมเหรียญทองสักหน่อย แล้วเราค่อยแลกของกัน",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 84158,
+        "field": "description",
+        "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f"
+    },
+    {
+      "quest_id": 84161,
+      "field": "description",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english": "Hail, $c!  I can tell by your demeanor that you've seen and done much in this world.  Yet I'm willing to wager you haven't seen a piece of armor like this.$B$BPerform a small favor for me and I'll be willing to trade it to you for an ordinary set of bracers.$B$BI'm in need of a sizeable sample of venom drawn from the spiders and scorpions that inhabit Silithus.  Bring this to me along with a few gold coins and I'll perform the exchange.",
+      "english_sha256": "d30c5e87f40469afaf838879135b700e801fe8fa543e9f7900965f98f54c7179",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84161/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84161/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "6:1136836709:1914036474 C 423:287029186:1488951061",
+      "thai": "สวัสดี {class}! ดูจากท่าทางแล้ว เจ้าคงพบเห็นและผ่านเรื่องราวในโลกนี้มามาก แต่ข้ากล้าพนันว่าเจ้ายังไม่เคยเห็นเกราะแบบนี้\n\nช่วยข้าสักเรื่องสิ แล้วข้าจะยอมเอาเกราะชิ้นนี้แลกกับปลอกแขนธรรมดาของเจ้า\n\nข้าต้องการตัวอย่างพิษปริมาณมากจากแมงมุมและแมงป่องที่อาศัยอยู่ใน Silithus นำมาให้ข้าพร้อมเหรียญทองสักหน่อย แล้วเราค่อยแลกของกัน",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 84158,
+        "field": "description",
+        "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "2b2b90bde16ed486fc9b3a6a030221e3f15e1fe90e28c820e7378f7b821fdb9f"
+    },
+    {
+      "quest_id": 84171,
+      "field": "description",
+      "title": "Just Compensation",
+      "level": 60,
+      "english": "You've proven to be a very reliable individual, $n.  As much as I trust that you'll help me through this predicament, it would be wise of me to reward you according to your performance.$B$BFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+      "english_sha256": "0ab2cf7fd1cf5b9785ff5afe704ae2fde1fc127ffe9646aca5634b81ed4e8c48",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84171/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84171/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "48:633264145:113946280 N 262:2026027207:1286935208",
+      "thai": "เจ้าพิสูจน์แล้วว่าพึ่งพาได้มาก {name} ข้าเชื่อว่าเจ้าจะช่วยให้ข้าผ่านเรื่องลำบากนี้ไปได้ และข้าควรตอบแทนตามผลงานของเจ้า\n\nตอนนี้ข้าจะเปลี่ยนเข็มขัดกับถุงมือให้ ถ้าเราผ่านเรื่องนี้ไปด้วยกัน ข้าจะยอมให้เจ้าแลกชิ้นที่เหลือ",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97412,
+        "field": "description",
+        "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5"
+    },
+    {
+      "quest_id": 84172,
+      "field": "description",
+      "title": "Just Compensation",
+      "level": 60,
+      "english": "You've proven to be a very reliable individual, $n.  As much as I trust that you'll help me through this predicament, it would be wise of me to reward you according to your performance.$B$BFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+      "english_sha256": "0ab2cf7fd1cf5b9785ff5afe704ae2fde1fc127ffe9646aca5634b81ed4e8c48",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84172/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84172/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "48:633264145:113946280 N 262:2026027207:1286935208",
+      "thai": "เจ้าพิสูจน์แล้วว่าพึ่งพาได้มาก {name} ข้าเชื่อว่าเจ้าจะช่วยให้ข้าผ่านเรื่องลำบากนี้ไปได้ และข้าควรตอบแทนตามผลงานของเจ้า\n\nตอนนี้ข้าจะเปลี่ยนเข็มขัดกับถุงมือให้ ถ้าเราผ่านเรื่องนี้ไปด้วยกัน ข้าจะยอมให้เจ้าแลกชิ้นที่เหลือ",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97412,
+        "field": "description",
+        "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5"
+    },
+    {
+      "quest_id": 84175,
+      "field": "description",
+      "title": "Just Compensation",
+      "level": 60,
+      "english": "You've proven to be a very reliable individual, $n.  As much as I trust that you'll help me through this predicament, it would be wise of me to reward you according to your performance.$B$BFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+      "english_sha256": "0ab2cf7fd1cf5b9785ff5afe704ae2fde1fc127ffe9646aca5634b81ed4e8c48",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84175/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84175/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "48:633264145:113946280 N 262:2026027207:1286935208",
+      "thai": "เจ้าพิสูจน์แล้วว่าพึ่งพาได้มาก {name} ข้าเชื่อว่าเจ้าจะช่วยให้ข้าผ่านเรื่องลำบากนี้ไปได้ และข้าควรตอบแทนตามผลงานของเจ้า\n\nตอนนี้ข้าจะเปลี่ยนเข็มขัดกับถุงมือให้ ถ้าเราผ่านเรื่องนี้ไปด้วยกัน ข้าจะยอมให้เจ้าแลกชิ้นที่เหลือ",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97412,
+        "field": "description",
+        "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5"
+    },
+    {
+      "quest_id": 84176,
+      "field": "description",
+      "title": "Just Compensation",
+      "level": 60,
+      "english": "You've proven to be a very reliable individual, $n.  As much as I trust that you'll help me through this predicament, it would be wise of me to reward you according to your performance.$B$BFor now I will exchange your belt and gauntlets.  If we both see this through I shall make the rest of the pieces available to you.",
+      "english_sha256": "aaab42e9aee0296d3f100ab0411acce7aaeb1b4b3652b05fa95e5085b42b473d",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84176/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84176/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "48:633264145:113946280 N 265:2031185361:1689582663",
+      "thai": "เจ้าพิสูจน์ว่าไว้ใจได้มาก {name} แม้ข้าเชื่อว่าจะช่วยให้พ้นสถานการณ์นี้ แต่การให้รางวัลตามผลงานก็เป็นสิ่งฉลาด\n\nตอนนี้ข้าจะแลกเข็มขัดกับถุงมือเกราะให้ หากเราทั้งคู่ผ่านเรื่องนี้จนจบ ข้าจะเปิดให้แลกชิ้นที่เหลือ",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 8942,
+        "field": "description",
+        "thai_sha256": "7441d5a6e58a68112744d4951eaafdf49f5a9256ecb72cfa93c14c950c96bd60",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "7441d5a6e58a68112744d4951eaafdf49f5a9256ecb72cfa93c14c950c96bd60"
+    },
+    {
+      "quest_id": 84177,
+      "field": "description",
+      "title": "Just Compensation",
+      "level": 60,
+      "english": "You've proven to be a very reliable individual, $n.  As much as I trust that you'll help me through this predicament, it would be wise of me to reward you according to your performance.$B$BFor now I will exchange your belt and gloves.  If we both see this through I shall make the rest of the pieces available to you.",
+      "english_sha256": "0ab2cf7fd1cf5b9785ff5afe704ae2fde1fc127ffe9646aca5634b81ed4e8c48",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84177/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84177/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "48:633264145:113946280 N 262:2026027207:1286935208",
+      "thai": "เจ้าพิสูจน์แล้วว่าพึ่งพาได้มาก {name} ข้าเชื่อว่าเจ้าจะช่วยให้ข้าผ่านเรื่องลำบากนี้ไปได้ และข้าควรตอบแทนตามผลงานของเจ้า\n\nตอนนี้ข้าจะเปลี่ยนเข็มขัดกับถุงมือให้ ถ้าเราผ่านเรื่องนี้ไปด้วยกัน ข้าจะยอมให้เจ้าแลกชิ้นที่เหลือ",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97412,
+        "field": "description",
+        "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "79e0a038c0eae53a280197d4f460e30e0f615ad47583e87a12701d7d90c4f2b5"
+    },
+    {
+      "quest_id": 84178,
+      "field": "description",
+      "title": "Just Compensation",
+      "level": 60,
+      "english": "You've proven to be a very reliable individual, $n.  As much as I trust that you'll help me through this predicament, it would be wise of me to reward you according to your performance.$B$BFor now I will exchange your belt and gauntlets.  If we both see this through I shall make the rest of the pieces available to you.",
+      "english_sha256": "aaab42e9aee0296d3f100ab0411acce7aaeb1b4b3652b05fa95e5085b42b473d",
+      "source_refs": [
+        {
+          "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+          "pointer": "/quests/84178/description",
+          "build": "70938",
+          "phase": "description",
+          "source_old_value_sha256": null
+        }
+      ],
+      "primary_current_ref": {
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/84178/description",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "typed_role_proof": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "DATASETS.md",
+        "blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+        "lines": [
+          582,
+          594
+        ],
+        "roles": "reader name/race/class explicitly documented; no gender/amount/literal captured-phase inference"
+      },
+      "expected_dynamic_signature": "48:633264145:113946280 N 265:2031185361:1689582663",
+      "thai": "เจ้าพิสูจน์ว่าไว้ใจได้มาก {name} แม้ข้าเชื่อว่าจะช่วยให้พ้นสถานการณ์นี้ แต่การให้รางวัลตามผลงานก็เป็นสิ่งฉลาด\n\nตอนนี้ข้าจะแลกเข็มขัดกับถุงมือเกราะให้ หากเราทั้งคู่ผ่านเรื่องนี้จนจบ ข้าจะเปิดให้แลกชิ้นที่เหลือ",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 8942,
+        "field": "description",
+        "thai_sha256": "7441d5a6e58a68112744d4951eaafdf49f5a9256ecb72cfa93c14c950c96bd60",
+        "exact_template_signature": true
+      },
+      "integration": "add missing field",
+      "meaning_review": "Full English/Thai reviewed: speaker intention, conditions, locations, named actors, quantities and typed name/class/race slots retained; no guessed reward/quest-mechanics/class restriction.",
+      "current_enabled_usage": "unproven; current raw query and publisher schema establish source/template semantics, not whole-game enabled inventory",
+      "thai_sha256": "7441d5a6e58a68112744d4951eaafdf49f5a9256ecb72cfa93c14c950c96bd60"
+    }
+  ],
+  "tracker_note": "8315objective retains existing multi-line Thai; Tracker existing newline guard expected English fallback. No Tracker/engine change."
+}
