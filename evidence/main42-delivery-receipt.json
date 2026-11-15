@@ -1,0 +1,104 @@
+{
+  "status": "PRIVATE0478_MAIN42_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "88cdda6343e4dc01dde8efbf2a55ec211577e889",
+  "source_commit": "c971fc4af50871208095599b0560c9fe1b5be134",
+  "checks": [
+    {
+      "path": "ForeverThai-0.478.0-main42-PRIVATE-TEST.zip",
+      "bytes": 30560772,
+      "sha256": "f082093bffb03554b513e2ce346588f5017d675e80cb7b5565492fe82c51cf3b",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.478.0-TH.txt",
+      "bytes": 8095,
+      "sha256": "eeb2c97060b39b49ccf16684e016ea7f6d9c1d2902b5fe6df5e4e51bb404349c",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-01.png",
+      "bytes": 189271,
+      "sha256": "f63c044785e57edb3411158375259a91b55df9584689d6a52e8faf1be904e6e0",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-02.png",
+      "bytes": 195278,
+      "sha256": "778cdbe78b00d029942c5c9eeceeb03c9f240ee67a10627d58ad85084f2dca8e",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-03.png",
+      "bytes": 345997,
+      "sha256": "291a38b45e01a0c836abf790d28dec5e037ff712cae7b9b31698136e5b62c43b",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-04.png",
+      "bytes": 252874,
+      "sha256": "9114d9d68f3c526e9b3869e2ed400b0a21d1c24cef230ced161753bd283fe4bd",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-05.png",
+      "bytes": 226550,
+      "sha256": "e5c8029a29806adcca12fb3d1c6e31d5b038cedad8c131d02659bca2a7dcc769",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-06.png",
+      "bytes": 311825,
+      "sha256": "082139e2a6aa873908278038c976a8af53a95cd976408950532e41ee0f4ad73d",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-07.png",
+      "bytes": 288492,
+      "sha256": "09fd6d7ec5112a6f803ada7105ff035e4656e0a69bad2bcb6f19cbbad3972e68",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-08.png",
+      "bytes": 284550,
+      "sha256": "697f55ede0fbc203ba02ec6a296598a17e693ff10c12387606eaecfc4eb271b6",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-09.png",
+      "bytes": 446793,
+      "sha256": "4992920d0b4466fc530b9042be24c9b8e73139621b21593cb01b79a20ebb9207",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-10.png",
+      "bytes": 298969,
+      "sha256": "a48422ec736476f45f2d0d382209120ac9cca3bc7b340b95762d1e58a5de436b",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-11.png",
+      "bytes": 260102,
+      "sha256": "f545c63d6892ec8d5fde01b3e419b5ffb88a87432fae66a4e417e59093e85448",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN42-bitmap-simulation-12.png",
+      "bytes": 251685,
+      "sha256": "8a9770565b11fb1fc1fe1f0885538c1cb28312c373474715b1d02f0cb5b64db2",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all177_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 121,
+  "new_word_bitmaps": 347,
+  "new_Thai_fields": 90,
+  "verbatim_reviewed_reuse": 4,
+  "new_supported_fields": 94,
+  "quest_ids": 72,
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "elapsed_wall_seconds": 10.91637239999909
+}
