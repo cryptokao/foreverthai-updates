@@ -1,0 +1,1693 @@
+[
+  {
+    "quest_id": 1680,
+    "level": 11,
+    "title": "Tormus Deepforge",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1822,
+    "level": 11,
+    "title": "Heirloom Weapon",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92640,
+    "level": 11,
+    "title": "Desperate Times",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92643,
+    "level": 11,
+    "title": "The Turncoat",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92871,
+    "level": 11,
+    "title": "In Service of Zephras",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92881,
+    "level": 11,
+    "title": "The High Elder's Request",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 93320,
+    "level": 11,
+    "title": "Tower Defense",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94484,
+    "level": 11,
+    "title": "Unnerving Silence",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94493,
+    "level": 11,
+    "title": "A Sacrifice in Vain",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94901,
+    "level": 11,
+    "title": "Hopping Helpers",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94902,
+    "level": 11,
+    "title": "Valanaar Vintages",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 97281,
+    "level": 11,
+    "title": "A Simmering Storm",
+    "zone_area_id": 14,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 428,
+    "level": 12,
+    "title": "Lost Deathstalkers",
+    "zone_area_id": 130,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 770,
+    "level": 12,
+    "title": "The Demon Scarred Cloak",
+    "zone_area_id": 215,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 828,
+    "level": 12,
+    "title": "Margoz",
+    "zone_area_id": 14,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 954,
+    "level": 12,
+    "title": "Bashal'Aran",
+    "zone_area_id": 148,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1642,
+    "level": 12,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1643,
+    "level": 12,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1646,
+    "level": 12,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1647,
+    "level": 12,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2998,
+    "level": 12,
+    "title": "Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2999,
+    "level": 12,
+    "title": "Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 3000,
+    "level": 12,
+    "title": "Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 3221,
+    "level": 12,
+    "title": "Speak with Renferrel",
+    "zone_area_id": 130,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 3681,
+    "level": 12,
+    "title": "Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92646,
+    "level": 12,
+    "title": "Confront Lorthuna",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92709,
+    "level": 12,
+    "title": "A Grand Adventure",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92860,
+    "level": 12,
+    "title": "In Service of Zephras",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 93065,
+    "level": 12,
+    "title": "Prepare for Battle",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 93836,
+    "level": 12,
+    "title": "The Fate of Zephras",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 93958,
+    "level": 12,
+    "title": "The Inner Sanctum",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94369,
+    "level": 12,
+    "title": "The Fate of Zephras",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94427,
+    "level": 12,
+    "title": "A Lesson in Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94435,
+    "level": 12,
+    "title": "A Lesson in Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94438,
+    "level": 12,
+    "title": "A Lesson in Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94490,
+    "level": 12,
+    "title": "Ripped Missive",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 96895,
+    "level": 12,
+    "title": "The Argent Emissary",
+    "zone_area_id": 85,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 96896,
+    "level": 12,
+    "title": "A Righteous Cause",
+    "zone_area_id": 85,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 96899,
+    "level": 12,
+    "title": "Bandarion Keep",
+    "zone_area_id": 85,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98398,
+    "level": 12,
+    "title": "The Oracle Tree",
+    "zone_area_id": 141,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1778,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1779,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1780,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1781,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1783,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1785,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1786,
+    "level": 13,
+    "title": "The Tome of Divinity",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 93089,
+    "level": 13,
+    "title": "What Comes Next",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94946,
+    "level": 13,
+    "title": "The Magical City of Dalaran",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94947,
+    "level": 13,
+    "title": "Welcome to Azeroth",
+    "zone_area_id": 1519,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 95349,
+    "level": 13,
+    "title": "The Earthen Ring",
+    "zone_area_id": 16593,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 96408,
+    "level": 13,
+    "title": "A Visitor to Dun Morogh",
+    "zone_area_id": 1,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98024,
+    "level": 13,
+    "title": "Journey to the Crossroads",
+    "zone_area_id": 17,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 477,
+    "level": 14,
+    "title": "Border Crossings",
+    "zone_area_id": 130,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 730,
+    "level": 14,
+    "title": "Trouble In Darkshore?",
+    "zone_area_id": 1657,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 894,
+    "level": 14,
+    "title": "Samophlange",
+    "zone_area_id": 17,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 6125,
+    "level": 14,
+    "title": "Power over Poison",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 6126,
+    "level": 14,
+    "title": "Lessons Anew",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 130,
+    "level": 15,
+    "title": "Visit the Herbalist",
+    "zone_area_id": 44,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 302,
+    "level": 15,
+    "title": "Powder to Ironband",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 452,
+    "level": 15,
+    "title": "Pyrewood Ambush",
+    "zone_area_id": 130,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 454,
+    "level": 15,
+    "title": "After the Ambush",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1097,
+    "level": 15,
+    "title": "Elmore's Task",
+    "zone_area_id": 1519,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1339,
+    "level": 15,
+    "title": "Mountaineer Stormpike's Task",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1941,
+    "level": 15,
+    "title": "Manaweave Robe",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1959,
+    "level": 15,
+    "title": "Report to Anastasia",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1962,
+    "level": 15,
+    "title": "Spellfire Robes",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2039,
+    "level": 15,
+    "title": "Find Bingles",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2041,
+    "level": 15,
+    "title": "Speak with Shoni",
+    "zone_area_id": 1537,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5691,
+    "level": 15,
+    "title": "<NYI> <TXT> In the Dark it was Created",
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5692,
+    "level": 15,
+    "title": "<NYI> In the Dark It was Created",
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5693,
+    "level": 15,
+    "title": "<NYI> In the Dark It was Created",
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5729,
+    "level": 15,
+    "title": "Hidden Enemies",
+    "zone_area_id": 1637,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 8290,
+    "level": 15,
+    "title": "Vanquish the Invaders",
+    "zone_area_id": 3277,
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 8295,
+    "level": 15,
+    "title": "Quell the Silverwing Usurpers",
+    "zone_area_id": 3277,
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92910,
+    "level": 15,
+    "title": "Harvesting the Harvesters",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 97246,
+    "level": 15,
+    "title": "Meal Appeal",
+    "zone_area_id": 1637,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 27,
+    "level": 16,
+    "title": "A Lesson to Learn",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 136,
+    "level": 16,
+    "title": "Captain Sander's Hidden Treasure",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 138,
+    "level": 16,
+    "title": "Captain Sander's Hidden Treasure",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 139,
+    "level": 16,
+    "title": "Captain Sander's Hidden Treasure",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 140,
+    "level": 16,
+    "title": "Captain Sander's Hidden Treasure",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 244,
+    "level": 16,
+    "title": "Encroaching Gnolls",
+    "zone_area_id": 44,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 448,
+    "level": 16,
+    "title": "Report to Hadrec",
+    "zone_area_id": 130,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1489,
+    "level": 16,
+    "title": "Hamuul Runetotem",
+    "zone_area_id": 718,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1490,
+    "level": 16,
+    "title": "Nara Wildmane",
+    "zone_area_id": 718,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2259,
+    "level": 16,
+    "title": "Erion Shadewhisper",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2281,
+    "level": 16,
+    "title": "Redridge Rendezvous",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2298,
+    "level": 16,
+    "title": "Kingly Shakedown",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2299,
+    "level": 16,
+    "title": "To Hulfdan!",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2300,
+    "level": 16,
+    "title": "SI:7",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2378,
+    "level": 16,
+    "title": "Find the Shattered Hand",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2382,
+    "level": 16,
+    "title": "Wrenix of Ratchet",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5722,
+    "level": 16,
+    "title": "Searching for the Lost Satchel",
+    "zone_area_id": 2437,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5730,
+    "level": 16,
+    "title": "Hidden Enemies",
+    "zone_area_id": 1637,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 92748,
+    "level": 16,
+    "title": "Explosive Consultation",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 949,
+    "level": 17,
+    "title": "The Twilight Camp",
+    "zone_area_id": 148,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1061,
+    "level": 17,
+    "title": "The Spirits of Stonetalon",
+    "zone_area_id": 406,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 97894,
+    "level": 17,
+    "title": "Business in Auberdine",
+    "zone_area_id": 148,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 65,
+    "level": 18,
+    "title": "The Defias Brotherhood",
+    "zone_area_id": 40,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 250,
+    "level": 18,
+    "title": "A Dark Threat Looms",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 436,
+    "level": 18,
+    "title": "Ironband's Excavation",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 945,
+    "level": 18,
+    "title": "Therylune's Escape",
+    "zone_area_id": 148,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 965,
+    "level": 18,
+    "title": "The Tower of Althalaxx",
+    "zone_area_id": 148,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1056,
+    "level": 18,
+    "title": "Journey to Stonetalon Peak",
+    "zone_area_id": 331,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1063,
+    "level": 18,
+    "title": "The Elder Crone",
+    "zone_area_id": 406,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 3261,
+    "level": 18,
+    "title": "Jorn Skyseer",
+    "zone_area_id": 17,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 6523,
+    "level": 18,
+    "title": "Protect Kaya",
+    "zone_area_id": 406,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 990,
+    "level": 19,
+    "title": "Trek to Ashenvale",
+    "zone_area_id": 331,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 6541,
+    "level": 19,
+    "title": "Report to Kadrak",
+    "zone_area_id": 17,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 6542,
+    "level": 19,
+    "title": "Report to Kadrak",
+    "zone_area_id": 406,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5,
+    "level": 20,
+    "title": "Jitters' Growling Gut",
+    "zone_area_id": 10,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 163,
+    "level": 20,
+    "title": "Raven Hill",
+    "zone_area_id": 10,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 235,
+    "level": 20,
+    "title": "The Ashenvale Hunt",
+    "zone_area_id": 1637,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 283,
+    "level": 20,
+    "title": "A Dark Threat Looms",
+    "zone_area_id": 38,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 494,
+    "level": 20,
+    "title": "Time To Strike",
+    "zone_area_id": 267,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 729,
+    "level": 20,
+    "title": "The Absent Minded Prospector",
+    "zone_area_id": 148,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 742,
+    "level": 20,
+    "title": "The Ashenvale Hunt",
+    "zone_area_id": 1638,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1133,
+    "level": 20,
+    "title": "Journey to Astranaar",
+    "zone_area_id": 15,
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1472,
+    "level": 20,
+    "title": "Devourer of Souls",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1507,
+    "level": 20,
+    "title": "Devourer of Souls",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1508,
+    "level": 20,
+    "title": "Blind Cazul",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1509,
+    "level": 20,
+    "title": "News of Dogran",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1510,
+    "level": 20,
+    "title": "News of Dogran",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1528,
+    "level": 20,
+    "title": "Call of Water",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1529,
+    "level": 20,
+    "title": "Call of Water",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1649,
+    "level": 20,
+    "title": "The Tome of Valor",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1698,
+    "level": 20,
+    "title": "Yorus Barleybrew",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 1825,
+    "level": 20,
+    "title": "Speak with Thun'grim",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2360,
+    "level": 20,
+    "title": "Mathias and the Defias",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2458,
+    "level": 20,
+    "title": "Deep Cover",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2480,
+    "level": 20,
+    "title": "Hinott's Assistance",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2607,
+    "level": 20,
+    "title": "The Touch of Zanzil",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2985,
+    "level": 20,
+    "title": "Call of Water",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 2986,
+    "level": 20,
+    "title": "Call of Water",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5641,
+    "level": 20,
+    "title": "Chastise",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5642,
+    "level": 20,
+    "title": "Shadowguard",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5643,
+    "level": 20,
+    "title": "Shadowguard",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5672,
+    "level": 20,
+    "title": "Elune's Grace",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5673,
+    "level": 20,
+    "title": "Elune's Grace",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5674,
+    "level": 20,
+    "title": "Elune's Grace",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5675,
+    "level": 20,
+    "title": "Elune's Grace",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5676,
+    "level": 20,
+    "title": "Arcane Feedback",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5677,
+    "level": 20,
+    "title": "Arcane Feedback",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 5678,
+    "level": 20,
+    "title": "Arcane Feedback",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 8768,
+    "level": 20,
+    "title": "A Gaily Wrapped Present",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 78150,
+    "level": 20,
+    "title": "Friend of the Library",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94818,
+    "level": 20,
+    "title": "Contingency Plan",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 94820,
+    "level": 20,
+    "title": "Contingency Plan",
+    "fields": [
+      "progress",
+      "completion"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 97286,
+    "level": 20,
+    "title": "Research Access",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98340,
+    "level": 20,
+    "title": "The Great Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98341,
+    "level": 20,
+    "title": "The Great Windborne Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98362,
+    "level": 20,
+    "title": "To Thunder Bluff",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98393,
+    "level": 20,
+    "title": "The Great Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98394,
+    "level": 20,
+    "title": "The Great Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98397,
+    "level": 20,
+    "title": "To Darnassus",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98405,
+    "level": 20,
+    "title": "The Great Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98731,
+    "level": 20,
+    "title": "Blessings of the Great Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98738,
+    "level": 20,
+    "title": "Blessings of the Great Windborne Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  },
+  {
+    "quest_id": 98739,
+    "level": 20,
+    "title": "Blessings of the Great Cat Spirit",
+    "fields": [
+      "progress"
+    ],
+    "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+    "candidate_only": true
+  }
+]
