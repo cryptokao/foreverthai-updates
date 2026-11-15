@@ -818,7 +818,7 @@
       "current_enabled_inventory_proven": false,
       "complete_quests_claimed": 0,
       "thai": "เมื่อเจ้าเรียนขี่โคโดได้แล้ว เจ้าก็จะเดินทางไปทั่วโลกกับสัตว์ขี่ของเจ้าได้\n\nเร็วกว่าวิ่งไปทุกที่แน่นอน แต่ถ้าเจ้าชอบวิ่ง ข้าก็ไม่ห้ามหรอก",
-      "meaning_review": "Kodomount,notwolf/ram;futuretravel andrunningpreference maintained.",
+      "meaning_review": "Kodomount,notwolf/ram;futuretravel and runningpreference maintained.",
       "meaning_review_passed": true,
       "translation_kind": "new_reviewed_Thai",
       "expected_dynamic_signature": "203:1855914811:1065877534",
