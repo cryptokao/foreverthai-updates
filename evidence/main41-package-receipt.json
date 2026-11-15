@@ -1,0 +1,81 @@
+{
+  "status": "PASSED_BOUNDED_COMBINED_PRIVATE0477_PACKAGE",
+  "version": "0.477.0",
+  "new_supported_fields": 9,
+  "new_Thai_fields": 9,
+  "verbatim_reviewed_reuse": 0,
+  "quest_ids": 5,
+  "new_runtime_ids": 0,
+  "new_field_slots": 9,
+  "appended_variants": 0,
+  "complete_quests_claimed": 0,
+  "source_proposal_sha256": "56115fa3b61cea961307064ad638dd63e74e65c4dadaa660c824adfead6f24a3",
+  "zip": {
+    "path": "ForeverThai-0.477.0-main41-PRIVATE-TEST.zip",
+    "bytes": 30119798,
+    "sha256": "df76ea26e84509db6b681e938423341a03ae04b8a7527a43381e630f3b150ab2"
+  },
+  "runtime_files": 173,
+  "old_runtime_files_exact_bytes_preserved": 168,
+  "metadata_changed": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "added_runtime": [
+    "ForeverThai/MainQuest41.lua",
+    "ForeverThai/AtlasMain41.lua",
+    "ForeverThai/Fonts/Thai106.tga"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 120,
+  "new_word_glyphs": 56,
+  "new_Thai_runs": 36,
+  "new_pages": 1,
+  "actual_changed_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "MainQuest27.lua",
+    "MainQuest28.lua",
+    "MainQuest33.lua",
+    "MainQuest35.lua",
+    "MainQuest36.lua",
+    "MainQuest38.lua",
+    "MainQuest39.lua",
+    "MainQuest40.lua",
+    "MainQuest41.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "AtlasMain27.lua",
+    "AtlasMain28.lua",
+    "AtlasMain35.lua",
+    "AtlasMain36.lua",
+    "AtlasMain38.lua",
+    "AtlasMain39.lua",
+    "AtlasMain40.lua",
+    "AtlasMain41.lua",
+    "Bitmap.lua"
+  ],
+  "all_TOC_Lua_compile": 43,
+  "actual_BitmapLayer_Thai_draws": 36,
+  "Thai_live_font_fallbacks": 0,
+  "glyph_crops_pixel_checked": 195,
+  "preview_files": [
+    "MAIN41-bitmap-simulation-01.png"
+  ],
+  "source_checks_reference": "MAIN41:108positives324negatives144wrongphase+0legalsamebodyroutes;not rerun here",
+  "engines_or_settings_changed": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "old_UI_Skill_NPC_full_suites_rerun": false,
+  "localAI_NLP_or_full_font_rebuild": false,
+  "elapsed_wall_seconds": 8.670295099998839,
+  "cpu_seconds": 8.375,
+  "limits": [
+    "9literal fields/5existingIDs,NOTcompletequests or enabledwholegamepercent",
+    "Current enabled inventory/per-row build unproven",
+    "95284completion untypedclass+97198completion untypedname and earlieridentity/titleholds notguessed",
+    "8315/84213multilineTracker guard retained",
+    "No actualWindows/MacM2 acceptance"
+  ]
+}

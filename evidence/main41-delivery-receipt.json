@@ -1,0 +1,38 @@
+{
+  "status": "PRIVATE0477_MAIN41_DELIVERED_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "f7135b82aff9c3a5ed021394852969c9e23ed083",
+  "source_commit": "04d55ca3a53ff150e63c3c436021b2876ebeb071",
+  "checks": [
+    {
+      "path": "ForeverThai-0.477.0-main41-PRIVATE-TEST.zip",
+      "bytes": 30119798,
+      "sha256": "df76ea26e84509db6b681e938423341a03ae04b8a7527a43381e630f3b150ab2",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.477.0-TH.txt",
+      "bytes": 7157,
+      "sha256": "bda3c57e1b76b04f3f29818e4208a41e799ff6005c73faf53b2e35016b66d7f7",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN41-bitmap-simulation-01.png",
+      "bytes": 366461,
+      "sha256": "4915d9f56d3b1d7e6b4dcfbb860fa31dc490b959d995350f982c062f41476fa1",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all173_source_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 120,
+  "new_word_bitmaps": 56,
+  "new_Thai_fields": 9,
+  "verbatim_reviewed_reuse": 0,
+  "new_supported_fields": 9,
+  "quest_ids": 5,
+  "complete_quests_claimed": 0,
+  "current_enabled_inventory_proven": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "elapsed_wall_seconds": 5.731132199998683
+}
