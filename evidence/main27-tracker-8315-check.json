@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_8315_NEW_OBJECTIVE_ALIAS_WITH_EXISTING_TRACKER_SAFE_FALLBACK",
+  "field": {
+    "quest_id": 8315,
+    "field": "objective"
+  },
+  "full_panel_template_Thai": true,
+  "Tracker_Thai": false,
+  "reason": "Existing bitmapMarkup rejects multiline; native callbacks retain English with and without optionalQuestie. No engine change.",
+  "rows": [
+    {
+      "optional_Questie_present": true,
+      "native_Questie_English_multiline_guard_callbacks": 2,
+      "settings_off_callbacks": 2,
+      "wrongID_callbacks": 2
+    },
+    {
+      "optional_Questie_present": false,
+      "native_Questie_English_multiline_guard_callbacks": 1,
+      "settings_off_callbacks": 1,
+      "wrongID_callbacks": 1
+    }
+  ],
+  "old_suite_rerun": false,
+  "real_game_verified": false
+}

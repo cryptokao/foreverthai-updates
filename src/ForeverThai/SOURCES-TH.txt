@@ -3615,3 +3615,8 @@ MAIN25/26 reviewed literal additions (4 fields /4 IDs), 2026-11-15.
 FVO primary captures: https://github.com/quinn-dougherty/forever-vo/issues/3493 ; /issues/3511 ; /issues/3519 .
 Source checkpoint: cryptokao/foreverthai-updates 1b7e5922a30ff482c79351be2bc00df8714ef233 .
 No whole-game coverage or in-game Windows/Mac M2 acceptance claim.
+
+MAIN27: 25 newly supported current70938 cache fields/25IDs =7 new reviewed Thai+18 reviewed verbatim reuse; not25 completequests.
+Role source: https://github.com/JIVESCORP/eg-link-output-wowf/blob/ea970da071079b32e56f349e09648ff0e314b351/DATASETS.md#questslocale ; blob8fee3e320e15fdd2e782c93dc2fb2c280ec55654.
+English: same pin data/wowf/1.60.1.70938/quests.enUS.json; exact own-ID description/objectivesText, reader N/C/R roles explicit in primary cache schema. No role guessed from normalized capture/story.
+91754/95318unproven pipe5 grammar remain held. Existing8315multi-line objective Tracker English guard retained. No real Windows/Mac M2/whole-game completion claim.

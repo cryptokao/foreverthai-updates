@@ -14,9 +14,9 @@
   "old_suites_rerun": false,
   "bitmap_or_game_claim": false,
   "overlay_sha256": "e477ae07db129fdb357b37b62b75cbb273ac296e2e1b57520014a359df4f294a",
-  "pairs_sha256": "9571a7b50ee7f2e367574d2762e413bf9b2d6f654fd6a3c4b897fa04fb4391b7",
-  "elapsed_wall_seconds": 0.2502212999997937,
-  "cpu_seconds": 0.25,
+  "pairs_sha256": "e8f8b0b1a0310d81545346ceacf604cc38c30f9c6cd7dd2568ef004fee9576a5",
+  "elapsed_wall_seconds": 0.3008338999998159,
+  "cpu_seconds": 0.296875,
   "limits": [
     "Synthetic contexts prove affected data/template guards, not actual quest eligibility or whole-game inventory",
     "No source role inference from story/normalized export; schema only for exact raw current query fields",

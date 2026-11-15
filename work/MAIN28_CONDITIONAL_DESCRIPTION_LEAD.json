@@ -1,0 +1,213 @@
+{
+  "status": "METADATA_ONLY_NOT_YET_QUALIFIED_OR_TRANSLATED",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "source_file": "data/wowf/1.60.1.70938/quests.enUS.json",
+  "source_blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+  "schema_doc_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "schema_line": 604,
+  "field": "conditionalDescriptions",
+  "quest_count": 33,
+  "record_count": 40,
+  "new_translations": 0,
+  "rows": [
+    {
+      "quest_id": 7790,
+      "title": "River Ends",
+      "level": 57,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 78088,
+      "title": "A Strange Artifact",
+      "level": 30,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 91754,
+      "title": "Rub Some Dirt In It",
+      "level": 56,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 92456,
+      "title": "A Green Sample",
+      "level": 33,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 92595,
+      "title": "The Windshapers",
+      "level": 6,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 92596,
+      "title": "The High Order",
+      "level": 6,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 95250,
+      "title": "Abominable Creatures",
+      "level": 21,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 95317,
+      "title": "Notation, Notation, Notation",
+      "level": 57,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 96078,
+      "title": "A Tale Spun Around the Fire",
+      "level": 40,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 96322,
+      "title": "A Revenge Now Bitter",
+      "level": 58,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 96616,
+      "title": "Herbs for the Bruised and Weary",
+      "level": 57,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 96994,
+      "title": "Your First Riding Wolf",
+      "level": 40,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 96997,
+      "title": "A Steed in Death as They Were in Life",
+      "level": 40,
+      "conditional_description_records": 2
+    },
+    {
+      "quest_id": 97017,
+      "title": "Your First Riding Ram",
+      "level": 40,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 97045,
+      "title": "Your First Horse",
+      "level": 40,
+      "conditional_description_records": 2
+    },
+    {
+      "quest_id": 97046,
+      "title": "Your First Mechanostrider",
+      "level": 40,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 97171,
+      "title": "Your First Horse",
+      "level": 40,
+      "conditional_description_records": 2
+    },
+    {
+      "quest_id": 97485,
+      "title": "Traditions of the Bluff",
+      "level": 10,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 97884,
+      "title": "Armory of Sunnyglade",
+      "level": 40,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 97979,
+      "title": "The Goddess Provides",
+      "level": 1,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 97986,
+      "title": "Argent Arbiter",
+      "level": 57,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 98166,
+      "title": "Your First Horse",
+      "level": 40,
+      "conditional_description_records": 2
+    },
+    {
+      "quest_id": 98299,
+      "title": "Stop the Spread",
+      "level": 20,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 98300,
+      "title": "Word to Ironforge",
+      "level": 34,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 98321,
+      "title": "Flintfire's Shipment",
+      "level": 7,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 98391,
+      "title": "The Sisterhood of Elune",
+      "level": 10,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 99108,
+      "title": "Sparring Match",
+      "level": 6,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 99210,
+      "title": "An Epic Ride",
+      "level": 60,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 99211,
+      "title": "An Epic Ride",
+      "level": 60,
+      "conditional_description_records": 2
+    },
+    {
+      "quest_id": 99213,
+      "title": "An Epic Ride",
+      "level": 60,
+      "conditional_description_records": 2
+    },
+    {
+      "quest_id": 99215,
+      "title": "An Epic Ride",
+      "level": 60,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 99218,
+      "title": "An Epic Ride",
+      "level": 60,
+      "conditional_description_records": 1
+    },
+    {
+      "quest_id": 99326,
+      "title": "Your First Horse",
+      "level": 40,
+      "conditional_description_records": 2
+    }
+  ],
+  "warning": "Old11144 delta compared only base title/objectivesText/description/captured phases. Conditional text is a distinct unprocessed frontier, not automatically source-qualified/playable. Verify exact field/phase and existing matches; no condition/creature/player-slot guessing."
+}
