@@ -1,0 +1,26 @@
+{
+  "status": "PASSED17_NEW_LITERAL_CONDITIONAL_VARIANTS",
+  "source_variants": 17,
+  "quest_ids": 13,
+  "new_Thai_variants": 8,
+  "verbatim_reuse_variants": 9,
+  "complete_quests_claimed": 0,
+  "positive_exact_matches": 68,
+  "negative_template_checks": 680,
+  "wrongID_wrongphase_negatives": 136,
+  "old_canonical_alias_trees_preserved": 13,
+  "playerConditionId_interpreted": false,
+  "creatureId_binding_guessed": false,
+  "fixed_class_race_NPC_names_not_player_slots": true,
+  "matcher_or_old_runtime_changed": false,
+  "overlay_sha256": "6de314c7424a19a26fc892aacc4cef9b71803806f066f5d7d3c4df194d48435d",
+  "pairs_sha256": "7b552407e0c129838d0ec787d96e620215ba90a9c3706b3663f869c10c281369",
+  "elapsed_wall_seconds": 0.2816868000008981,
+  "cpu_seconds": 0.234375,
+  "limitations": [
+    "Only source/template guards,not actual condition eligibility/current enabled inventory",
+    "98391uppercaseGheld;91754basepipe5grammarstillheld independently of this literal variant",
+    "Font/package/real Windows/MacM2 game acceptance pending",
+    "Old UI/Skill/NPC/fullfont suites not rerun"
+  ]
+}

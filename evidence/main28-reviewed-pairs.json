@@ -1,0 +1,548 @@
+{
+  "batch": "MAIN28",
+  "status": "REVIEWED_SOURCE_AND_AFFECTED_LITERAL_VARIANT_CHECKS_PASSED_NOT_PACKAGED",
+  "baseline_version": "0.469.0",
+  "baseline_source": "45762a8cf9291f97780fce3101570c1c094ffba3",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "scope": "Only previously unprocessed current70938 conditionalDescriptions. Runtime full own-ID description matching; game selects applicable text, addon does not evaluate unknown conditions.",
+  "counts": {
+    "new_supported_variants": 17,
+    "unique_quest_ids": 13,
+    "unique_description_fields": 13,
+    "new_Thai_variants": 8,
+    "verbatim_reviewed_reuse_variants": 9,
+    "complete_quests_claimed": 0
+  },
+  "holds": [
+    {
+      "quest_id": 98391,
+      "index": 0,
+      "reason": "unknown raw macro including uppercaseG; no gender orientation inference"
+    }
+  ],
+  "special_scope": "91754conditional literal elf description is separate from its still-held base |5$r form. No base grammar inference.",
+  "fields": [
+    {
+      "quest_id": 97171,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "english": "Greetings, paladin! I must admit I am surprised to see one of your order here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the chargers you are accustomed to.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land. These steeds are descendants from both the historical Lordaeron stock and our own local horses. You won't find a more steadfast companion for your journeys.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97171/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน พวกมันสืบสายพันธุ์จากทั้งม้าพันธุ์เก่าแก่ของ Lordaeron และม้าท้องถิ่นของเรา เจ้าคงหาเพื่อนร่วมทางที่ไว้ใจได้กว่านี้ยาก\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97045,
+        "field": "description",
+        "path": "description.variants[1]",
+        "thai_template": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน พวกมันสืบสายพันธุ์จากทั้งม้าพันธุ์เก่าแก่ของ Lordaeron และม้าท้องถิ่นของเรา เจ้าคงหาเพื่อนร่วมทางที่ไว้ใจได้กว่านี้ยาก\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+        "thai_sha256": "a5dbf508891059e0926cc41ad76cd1641f9e154d36d79382f88a595392216668",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "a5dbf508891059e0926cc41ad76cd1641f9e154d36d79382f88a595392216668"
+    },
+    {
+      "quest_id": 97171,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "english": "Greetings, warlock. I must admit I am surprised to see one of your talents here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the felsteeds you are accustomed to summoning.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land, and they should still bear you as faithfully as your summoned infernal felsteed.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97171/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นผู้มีฝีมืออย่างเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าเฟลที่เจ้าเคยอัญเชิญไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน และพวกมันก็พร้อมพาเจ้าเดินทางอย่างซื่อสัตย์ไม่แพ้ม้าเฟลจากนรกที่เจ้าอัญเชิญมา\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97045,
+        "field": "description",
+        "path": "description.variants[2]",
+        "thai_template": "สวัสดี วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นผู้มีฝีมืออย่างเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าเฟลที่เจ้าเคยอัญเชิญไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน และพวกมันก็พร้อมพาเจ้าเดินทางอย่างซื่อสัตย์ไม่แพ้ม้าเฟลจากนรกที่เจ้าอัญเชิญมา\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+        "thai_sha256": "9a215e612ad0556e6ca22c29851ae6d61dbcd49048e62dd631df622944099781",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "9a215e612ad0556e6ca22c29851ae6d61dbcd49048e62dd631df622944099781"
+    },
+    {
+      "quest_id": 98166,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "english": "Greetings, paladin! I must admit I am surprised to see one of your order here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the chargers you are accustomed to.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land. These steeds are descendants from both the historical Lordaeron stock and our own local horses. You won't find a more steadfast companion for your journeys.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98166/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน พวกมันสืบสายพันธุ์จากทั้งม้าพันธุ์เก่าแก่ของ Lordaeron และม้าท้องถิ่นของเรา เจ้าคงหาเพื่อนร่วมทางที่ไว้ใจได้กว่านี้ยาก\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97045,
+        "field": "description",
+        "path": "description.variants[1]",
+        "thai_template": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน พวกมันสืบสายพันธุ์จากทั้งม้าพันธุ์เก่าแก่ของ Lordaeron และม้าท้องถิ่นของเรา เจ้าคงหาเพื่อนร่วมทางที่ไว้ใจได้กว่านี้ยาก\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+        "thai_sha256": "a5dbf508891059e0926cc41ad76cd1641f9e154d36d79382f88a595392216668",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "a5dbf508891059e0926cc41ad76cd1641f9e154d36d79382f88a595392216668"
+    },
+    {
+      "quest_id": 98166,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "english": "Greetings, warlock. I must admit I am surprised to see one of your talents here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the felsteeds you are accustomed to summoning.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land, and they should still bear you as faithfully as your summoned infernal felsteed.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98166/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นผู้มีฝีมืออย่างเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าเฟลที่เจ้าเคยอัญเชิญไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน และพวกมันก็พร้อมพาเจ้าเดินทางอย่างซื่อสัตย์ไม่แพ้ม้าเฟลจากนรกที่เจ้าอัญเชิญมา\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97045,
+        "field": "description",
+        "path": "description.variants[2]",
+        "thai_template": "สวัสดี วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นผู้มีฝีมืออย่างเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าเฟลที่เจ้าเคยอัญเชิญไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน และพวกมันก็พร้อมพาเจ้าเดินทางอย่างซื่อสัตย์ไม่แพ้ม้าเฟลจากนรกที่เจ้าอัญเชิญมา\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+        "thai_sha256": "9a215e612ad0556e6ca22c29851ae6d61dbcd49048e62dd631df622944099781",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "9a215e612ad0556e6ca22c29851ae6d61dbcd49048e62dd631df622944099781"
+    },
+    {
+      "quest_id": 91754,
+      "field": "description",
+      "title": "Rub Some Dirt In It",
+      "level": 56,
+      "english": "I've never seen an elf like you before!\r\n\r\nOh, I don't know what to do! My friend Fraxinus is sick, and I can't leave him alone!\r\n\r\nCould you please fetch me some Untainted Soil? I can make some poultices that may help him to feel better.",
+      "english_sha256": "362676a055642dd1d5b574d6e41f00258ad0fdd8d1c923248a8457ed4d61d9b1",
+      "expected_dynamic_signature": "232:1993028083:248734794",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91754/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155100,
+        "creatureId": 248367,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "ข้าไม่เคยพบเอลฟ์อย่างเจ้ามาก่อนเลย!\n\nโธ่ ข้าไม่รู้จะทำอย่างไรดี! Fraxinus เพื่อนข้าป่วย ข้าทิ้งเขาไว้ลำพังไม่ได้!\n\nช่วยไปเอา Untainted Soil มาให้ข้าหน่อยได้ไหม? ข้าจะทำยาพอกเผื่อช่วยให้เขาดีขึ้น",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "01c06234739367b4e50c5c4911a3645185cb53a7aa3f37e9a25b6f62c1a084ea"
+    },
+    {
+      "quest_id": 7790,
+      "field": "description",
+      "title": "River Ends",
+      "level": 57,
+      "english": "These two skyborne look beaten to death. One drowned, the other blood-soaked. Judging by their appearance, they almost appear as if they could be related. A blood feud? Family betrayal across faction lines?\r\n\r\nStrewn across the shore are familiar-looking alliance and horde regalia. \r\n\r\nSearch the source of the river for clues to the demise that was washed downstream.",
+      "english_sha256": "9a160f7bf39ca6c1e18b574ed02a79cbf97d66482393eaf6c02319122c48303d",
+      "expected_dynamic_signature": "362:281723780:1304628883",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/7790/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155100,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สกายบอร์นสองคนนี้ดูเหมือนถูกซ้อมจนตาย คนหนึ่งจมน้ำ อีกคนชุ่มไปด้วยเลือด ดูจากรูปลักษณ์แล้ว ทั้งคู่อาจเป็นญาติกันก็ได้ เป็นความอาฆาตระหว่างตระกูลหรือ? หรือการทรยศกันในครอบครัวที่อยู่คนละฝ่าย?\n\nเครื่องยศของฝ่าย Alliance และ Horde ที่ดูคุ้นตากระจัดกระจายอยู่ตามชายฝั่ง\n\nสำรวจต้นน้ำเพื่อหาเบาะแสเกี่ยวกับความตายที่ถูกกระแสน้ำพัดพามานี้",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "6b53e01e3d0668e5969721143ab8c73f401366cc771c2eed7047efdb1d033a14"
+    },
+    {
+      "quest_id": 95317,
+      "field": "description",
+      "title": "Notation, Notation, Notation",
+      "level": 57,
+      "english": "Listen, demon caster. There have been some awfully noisy visitors just up the mountain. Like you, they taint the land with their foul demon magic and experimenting with piles of ash. It's high time we investigate.\r\n\r\nBy we, I mean you.\r\n\r\nI want you to poke around and investigate their camp! See if you can bring me some notes on what your fellows have been up to. Surely with egos that large they've written something we can utilize. Perhaps they are carrying something on their person?",
+      "english_sha256": "d3649d91abac5033dcba9fd48bafef33328f450b000e0635bb70057a56bfac0f",
+      "expected_dynamic_signature": "482:724064522:736157871",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95317/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "ฟังนะ ผู้ใช้เวทปีศาจ ขึ้นไปบนเขาอีกหน่อยมีแขกที่ส่งเสียงเอะอะมาก พวกมันทำให้ผืนดินแปดเปื้อนด้วยเวทปีศาจอันชั่วร้ายและการทดลองกับกองเถ้า เช่นเดียวกับเจ้า ได้เวลาที่เราต้องไปสืบดูแล้ว\n\nที่ว่าเรา ข้าหมายถึงเจ้า\n\nข้าอยากให้เจ้าไปสอดส่องและสำรวจค่ายของพวกมัน! ลองเอาบันทึกที่บอกว่าพวกพ้องของเจ้ากำลังทำอะไรมาฝากข้าหน่อย พวกอวดดีขนาดนั้นต้องเขียนอะไรที่เราเอามาใช้ประโยชน์ได้แน่ ๆ บางทีพวกมันอาจพกอะไรติดตัวอยู่ก็ได้?",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "b1b66be7a61632405a637dbb3119b0326b3a5c20d1126244089b3f3f57713ffd"
+    },
+    {
+      "quest_id": 96616,
+      "field": "description",
+      "title": "Herbs for the Bruised and Weary",
+      "level": 57,
+      "english": "<Ortak looks alarmed as you approach but calms as it becomes clear you aren't Scourge.>\r\n\r\nYou...you are not Scourge? But you are undead? How is this possible...?\r\n\r\nWell, stranger, if you are offering to aid us here I will not turn you away. We have been trapped here since the end of the war. With the Scourge remnants to the east we have been subject to constant raids and many have fallen victim to their corruption.\r\n\r\nI would ask a favor of you, if you are willing. In the valley north of here grows an herb with blue flowers that can alleviate the pains of the infection. Gather some and bring it to me so I may help the wounded.",
+      "english_sha256": "47d99ebc0ac8b35258bf3b926abfdb08ee594b5ef651921bcfab020aeb69a003",
+      "expected_dynamic_signature": "627:1677126805:561463570",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96616/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 157027,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "<Ortak ดูตื่นตระหนกเมื่อเจ้าเดินเข้าไปหา แต่ก็สงบลงเมื่อเห็นชัดว่าเจ้าไม่ใช่พวก Scourge>\n\nเจ้า...เจ้าไม่ใช่พวก Scourge หรือ? แต่เจ้าเป็นอันเดดนี่? เป็นไปได้อย่างไรกัน...?\n\nเอาเถอะ คนแปลกหน้า ถ้าเจ้าจะเสนอความช่วยเหลือให้พวกเราที่นี่ ข้าก็ไม่ปฏิเสธ เราติดอยู่ที่นี่มาตั้งแต่สงครามสิ้นสุดลง พวก Scourge ที่หลงเหลืออยู่ทางตะวันออกบุกโจมตีเราไม่หยุด และหลายคนก็ตกเป็นเหยื่อความแปดเปื้อนของพวกมัน\n\nถ้าเจ้ายินดี ข้าอยากขอให้ช่วยสักอย่าง ในหุบเขาทางเหนือของที่นี่มีสมุนไพรดอกสีฟ้าขึ้นอยู่ มันช่วยบรรเทาความเจ็บปวดจากการติดเชื้อได้ เก็บมันมาให้ข้าหน่อย ข้าจะได้นำไปช่วยผู้บาดเจ็บ",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "993945662b834d381b18ae416279ef07e637d7c8bc6434ff67531f19983d2d9a"
+    },
+    {
+      "quest_id": 97986,
+      "field": "description",
+      "title": "Argent Arbiter",
+      "level": 57,
+      "english": "One of our argent scouts, Hailen, is assigned to the outskirts and highlands. She tends to come back to camp every fortnight.\r\n\r\nJudging by your description, it's possible it was her body you found. But you're one of the few Skyborne that have been through here other than Hailen. If anything, I should be interrogatin' you!\r\n\r\nBut I hear the serious concern in your voice. We have another field camp, northwest of Blackwood Lake. Check with the medic there. Quite a bit more to see and hear on the front lines.",
+      "english_sha256": "9223f5efb6de720f0fdedb4061047ce570682bbd19e3e26e007aa6739bb2e949",
+      "expected_dynamic_signature": "505:1219156129:1807776149",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97986/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155100,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "Hailen หนึ่งในหน่วยลาดตระเวน Argent ของเรา ได้รับมอบหมายให้ประจำพื้นที่รอบนอกกับเขตที่สูง เธอมักกลับมาที่ค่ายทุกสองสัปดาห์\n\nจากที่เจ้าเล่า เป็นไปได้ว่าศพที่เจ้าพบอาจเป็นเธอ แต่เจ้าเป็นหนึ่งในสกายบอร์นเพียงไม่กี่คนที่ผ่านมาทางนี้ นอกเหนือจาก Hailen ถ้าจะว่าไป ข้าควรสอบสวนเจ้าด้วยซ้ำ!\n\nแต่ข้าฟังออกจากน้ำเสียงว่าเจ้ากังวลเรื่องนี้จริง ๆ พวกเรามีค่ายภาคสนามอีกแห่งอยู่ทางตะวันตกเฉียงเหนือของ Blackwood Lake ไปถามแพทย์ที่นั่นดู ที่แนวหน้ามีเรื่องให้พบเห็นและได้ยินอีกมาก",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "0dbb1655c92c29447e01e8c5078f9987b8e4f7ffbb2ae77d46a1eb215d322df0"
+    },
+    {
+      "quest_id": 96322,
+      "field": "description",
+      "title": "A Revenge Now Bitter",
+      "level": 58,
+      "english": "You know, for a mortal I'm impressed with how easily you follow orders.\r\n\r\nYou just went in there and killed all of those people without batting an eye! It wouldn't be so bad to follow along in your bloody wake, even for a warlock. I imagine the demonic carnage would be beautiful.\r\n\r\nAhhhh... but now it's time for YOUR end of the deal, 'friend'. I've helped you dismantle those wannabe warlocks, take out their leaders and cripple their operations here.\r\n\r\nI think I've earned my freedom.\r\n\r\n<Felflick's eyes glimmer in anticipation.>",
+      "english_sha256": "ffb1b9cd15898e4a25a4f00bb9485c394c3dae86c835fe2df8ad68791bdcd92b",
+      "expected_dynamic_signature": "524:1087954753:1735034641",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96322/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "รู้ไหม สำหรับผู้มีวันตายแล้ว ข้าประทับใจที่เจ้าทำตามคำสั่งได้ง่ายดายขนาดนี้\n\nเจ้าเพิ่งเข้าไปฆ่าคนพวกนั้นทั้งหมดโดยไม่สะทกสะท้านเลย! การเดินตามรอยนองเลือดที่เจ้าทิ้งไว้ก็คงไม่เลวนัก แม้สำหรับวอร์ล็อกก็ตาม ข้านึกภาพได้ว่าการสังหารหมู่ด้วยพลังปีศาจคงงดงามเพียงใด\n\nอาห์... แต่ตอนนี้ถึงคราวที่ 'สหาย' ต้องทำตามข้อตกลงในส่วนของ *เจ้า* แล้ว ข้าช่วยเจ้าจัดการพวกที่อยากเป็นวอร์ล็อกนั่น กำจัดผู้นำ และทำลายการดำเนินงานของพวกมันที่นี่ไปแล้ว\n\nข้าคิดว่าข้าสมควรได้รับอิสรภาพแล้ว\n\n<ดวงตาของ Felflick เป็นประกายอย่างคาดหวัง>",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "0fcedb5b4400e1905c7aa71eafb438c8588c15e6ce1b6b97433cfce8427800e0"
+    },
+    {
+      "quest_id": 99210,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "Ho there, paladin! I must admit I am surprised to see one of yer order here at my stables.\r\n\r\nIf you're looking for a mount, you have come to the right place, though they may pale in comparison to the chargers you are accustomed to.\r\n\r\nRegardless, I encourage you to peruse our fine rams, should you want one. These rams are the most steadfast and sturdy in all of Azeroth. They're fiercely protective of their rider. Aye, you'll have a hard time finding a more stalwart companion for your journeys.\r\n\r\nGo see the rams and see if any are to your liking, then return to me when you've made yer choice.",
+      "english_sha256": "661b5cdbde2531d9a8eaf4c19f458116c068fec475040c13e7498c59a6389724",
+      "expected_dynamic_signature": "591:386198793:1320225439",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99210/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกสัตว์ของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้พวกมันอาจดูด้อยกว่าม้าศึกที่เจ้าคุ้นเคย\n\nถึงอย่างนั้น หากเจ้าอยากได้สักตัว ข้าก็อยากให้ลองดูแกะชั้นดีของเรา แกะเหล่านี้มั่นคงและแข็งแกร่งที่สุดใน Azeroth พวกมันปกป้องผู้ขี่อย่างดุดัน ใช่แล้ว เจ้าคงหาเพื่อนร่วมทางที่พึ่งพาได้มากกว่านี้ยาก\n\nไปดูแกะว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "afe42a16075b33860f3830b08b9cbd658a18753150000dddcd3a711b97548cda"
+    },
+    {
+      "quest_id": 99211,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "Greetings, paladin. I must admit I am surprised to see one of your order here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the chargers you are accustomed to.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land, and even though you radiate with holy power they should still bear you as faithfully and without issue.\r\n\r\nGo examine the undead horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "be561c843b61a1d4544e179c9e6435af6032c724103646c810c1ad08e632d1e0",
+      "expected_dynamic_signature": "566:600576289:530052988",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99211/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี พาลาดิน ข้าแปลกใจจริง ๆ ที่เห็นคนในคณะของเจ้ามาถึงคอกม้าของข้า\n\nถ้ากำลังหาสัตว์ขี่ เจ้ามาถูกที่แล้ว ถึงพวกมันอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nอย่างไรก็ลองไปดูอาชาของเราหากอยากได้สักตัว พวกมันเป็นอาชาชั้นดีของดินแดนนี้ แม้เจ้าจะเปล่งพลังศักดิ์สิทธิ์ออกมา พวกมันก็น่าจะให้เจ้าขี่ได้อย่างซื่อสัตย์และไม่มีปัญหา\n\nไปดูม้าอันเดดว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 96997,
+        "field": "description",
+        "path": "description.variants[1]",
+        "thai_template": "สวัสดี พาลาดิน ข้าแปลกใจจริง ๆ ที่เห็นคนในคณะของเจ้ามาถึงคอกม้าของข้า\n\nถ้ากำลังหาสัตว์ขี่ เจ้ามาถูกที่แล้ว ถึงพวกมันอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nอย่างไรก็ลองไปดูอาชาของเราหากอยากได้สักตัว พวกมันเป็นอาชาชั้นดีของดินแดนนี้ แม้เจ้าจะเปล่งพลังศักดิ์สิทธิ์ออกมา พวกมันก็น่าจะให้เจ้าขี่ได้อย่างซื่อสัตย์และไม่มีปัญหา\n\nไปดูม้าอันเดดว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้",
+        "thai_sha256": "af67ee83564f2f86ab1c148520280fcdaf97a199ac6d62b0983b4b0e7e14a0f1",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "af67ee83564f2f86ab1c148520280fcdaf97a199ac6d62b0983b4b0e7e14a0f1"
+    },
+    {
+      "quest_id": 99211,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "Greetings, warlock. I must admit I am surprised to see one of your talents here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the felsteeds you are accustomed to summoning.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land, and they should still bear you as faithfully as your summoned infernal felsteed.\r\n\r\nThough I would advise against lighting the skeletal horses on fire. That is an aesthetic best saved for the unholy creatures you and your council conjure.\r\n\r\nGo examine the undead horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "7bf76f2dcccb11c5fa918d98470059cc60ab806a8692cc2a354fcfcfcdd8a950",
+      "expected_dynamic_signature": "711:1728087743:1096834274",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99211/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี วอร์ล็อก ข้าแปลกใจจริง ๆ ที่เห็นคนมีฝีมืออย่างเจ้ามาถึงคอกม้าของข้า\n\nถ้ากำลังหาสัตว์ขี่ เจ้ามาถูกที่แล้ว ถึงพวกมันอาจสู้เฟลสตีดที่เจ้าคุ้นเคยกับการอัญเชิญไม่ได้\n\nอย่างไรก็ลองไปดูอาชาของเราหากอยากได้สักตัว พวกมันเป็นอาชาชั้นดีของดินแดนนี้ และน่าจะให้เจ้าขี่อย่างซื่อสัตย์ไม่ต่างจากเฟลสตีดอเวจีที่เจ้าอัญเชิญมา\n\nแต่ข้าแนะนำว่าอย่าจุดไฟเผาม้าโครงกระดูกเลย เก็บรูปลักษณ์แบบนั้นไว้ให้สัตว์อัปมงคลที่เจ้ากับคณะเรียกมาจะดีกว่า\n\nไปดูม้าอันเดดว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 96997,
+        "field": "description",
+        "path": "description.variants[2]",
+        "thai_template": "สวัสดี วอร์ล็อก ข้าแปลกใจจริง ๆ ที่เห็นคนมีฝีมืออย่างเจ้ามาถึงคอกม้าของข้า\n\nถ้ากำลังหาสัตว์ขี่ เจ้ามาถูกที่แล้ว ถึงพวกมันอาจสู้เฟลสตีดที่เจ้าคุ้นเคยกับการอัญเชิญไม่ได้\n\nอย่างไรก็ลองไปดูอาชาของเราหากอยากได้สักตัว พวกมันเป็นอาชาชั้นดีของดินแดนนี้ และน่าจะให้เจ้าขี่อย่างซื่อสัตย์ไม่ต่างจากเฟลสตีดอเวจีที่เจ้าอัญเชิญมา\n\nแต่ข้าแนะนำว่าอย่าจุดไฟเผาม้าโครงกระดูกเลย เก็บรูปลักษณ์แบบนั้นไว้ให้สัตว์อัปมงคลที่เจ้ากับคณะเรียกมาจะดีกว่า\n\nไปดูม้าอันเดดว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้",
+        "thai_sha256": "9b02c07b6bd2553a11c1eafffce82edb683a1bb91e5f4ffed657b7d7cb660ef3",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "9b02c07b6bd2553a11c1eafffce82edb683a1bb91e5f4ffed657b7d7cb660ef3"
+    },
+    {
+      "quest_id": 99213,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "Greetings, paladin! I must admit I am surprised to see one of your order here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the chargers you are accustomed to.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land. These steeds are descendants from both the historical Lordaeron stock and our own local horses. You won't find a more steadfast companion for your journeys.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99213/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน พวกมันสืบสายพันธุ์จากทั้งม้าพันธุ์เก่าแก่ของ Lordaeron และม้าท้องถิ่นของเรา เจ้าคงหาเพื่อนร่วมทางที่ไว้ใจได้กว่านี้ยาก\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97045,
+        "field": "description",
+        "path": "description.variants[1]",
+        "thai_template": "สวัสดี พาลาดิน! ยอมรับว่าข้าประหลาดใจที่เห็นคนจากคณะของเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าศึกที่เจ้าคุ้นเคยไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน พวกมันสืบสายพันธุ์จากทั้งม้าพันธุ์เก่าแก่ของ Lordaeron และม้าท้องถิ่นของเรา เจ้าคงหาเพื่อนร่วมทางที่ไว้ใจได้กว่านี้ยาก\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+        "thai_sha256": "a5dbf508891059e0926cc41ad76cd1641f9e154d36d79382f88a595392216668",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "a5dbf508891059e0926cc41ad76cd1641f9e154d36d79382f88a595392216668"
+    },
+    {
+      "quest_id": 99213,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "Greetings, warlock. I must admit I am surprised to see one of your talents here at my stables.\r\n\r\nIf you are looking for a mount, you have come to the right place, though they may pale in comparison to the felsteeds you are accustomed to summoning.\r\n\r\nRegardless, I encourage you to peruse our steeds, should you want one. Ours are some of the finest steeds in the land, and they should still bear you as faithfully as your summoned infernal felsteed.\r\n\r\nGo examine the horses to see if any are to your liking and return to me when you have made your choice.",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99213/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "สวัสดี วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นผู้มีฝีมืออย่างเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าเฟลที่เจ้าเคยอัญเชิญไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน และพวกมันก็พร้อมพาเจ้าเดินทางอย่างซื่อสัตย์ไม่แพ้ม้าเฟลจากนรกที่เจ้าอัญเชิญมา\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 97045,
+        "field": "description",
+        "path": "description.variants[2]",
+        "thai_template": "สวัสดี วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นผู้มีฝีมืออย่างเจ้ามาที่คอกม้าของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้ม้าของเราอาจสู้ม้าเฟลที่เจ้าเคยอัญเชิญไม่ได้\n\nแต่ถ้าอยากได้สักตัว ข้าก็อยากให้เจ้าลองเดินดู ม้าของเรานับว่าดีที่สุดในแผ่นดิน และพวกมันก็พร้อมพาเจ้าเดินทางอย่างซื่อสัตย์ไม่แพ้ม้าเฟลจากนรกที่เจ้าอัญเชิญมา\n\nไปดูม้าเสียก่อนว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+        "thai_sha256": "9a215e612ad0556e6ca22c29851ae6d61dbcd49048e62dd631df622944099781",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "9a215e612ad0556e6ca22c29851ae6d61dbcd49048e62dd631df622944099781"
+    },
+    {
+      "quest_id": 99215,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "<Ogunaro narrows his eyes as you approach.>\r\n\r\nLok'tar, warlock. I must admit I am surprised to see one of your... talents here.\r\n\r\nIf you are looking for a riding wolf, you have come to the right place, however know that riding and befriending a wolf is very different from the felsteeds you are accustomed to summoning.\r\n\r\nThe bond between orc and wolf is not one chosen by vanity. No, each orc and wolf forms a special bond that goes beyond a mere purchase.\r\n\r\nIf you are here to bond with a wolf, I would suggest going to each and examining them. Return to me if you sense a kinship with one.",
+      "english_sha256": "84dbc1df63e583afa662b55dfad446227791d36aa6cba29e1411dbade6abaebe",
+      "expected_dynamic_signature": "584:1140397140:1248657145",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99215/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "<Ogunaro หรี่ตาลงขณะเจ้าเดินเข้าไปหา>\n\nLok'tar วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นคนที่มี... พรสวรรค์แบบเจ้าอยู่ที่นี่\n\nหากเจ้ามาหาหมาป่าสำหรับขี่ ก็มาถูกที่แล้ว แต่จงรู้ไว้ว่าการขี่และผูกมิตรกับหมาป่าต่างจากการอัญเชิญอาชาเฟลอย่างที่เจ้าคุ้นเคย\n\nออร์คกับหมาป่าผูกพันกันด้วยสิ่งที่ลึกกว่าความอยากอวด ออร์คกับหมาป่าแต่ละคู่มีสายสัมพันธ์พิเศษที่มีค่ากว่าการซื้อขาย\n\nถ้าเจ้ามาเพื่อผูกสายสัมพันธ์กับหมาป่า ข้าแนะนำให้เดินไปดูทีละตัว หากรู้สึกถูกชะตากับตัวไหนก็กลับมาหาข้า",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "reuse_source": {
+        "quest_id": 96994,
+        "field": "description",
+        "path": "description.variants[1]",
+        "thai_template": "<Ogunaro หรี่ตาลงขณะเจ้าเดินเข้าไปหา>\n\nLok'tar วอร์ล็อก ข้ายอมรับว่าประหลาดใจที่เห็นคนที่มี... พรสวรรค์แบบเจ้าอยู่ที่นี่\n\nหากเจ้ามาหาหมาป่าสำหรับขี่ ก็มาถูกที่แล้ว แต่จงรู้ไว้ว่าการขี่และผูกมิตรกับหมาป่าต่างจากการอัญเชิญอาชาเฟลอย่างที่เจ้าคุ้นเคย\n\nออร์คกับหมาป่าผูกพันกันด้วยสิ่งที่ลึกกว่าความอยากอวด ออร์คกับหมาป่าแต่ละคู่มีสายสัมพันธ์พิเศษที่มีค่ากว่าการซื้อขาย\n\nถ้าเจ้ามาเพื่อผูกสายสัมพันธ์กับหมาป่า ข้าแนะนำให้เดินไปดูทีละตัว หากรู้สึกถูกชะตากับตัวไหนก็กลับมาหาข้า",
+        "thai_sha256": "182b1345040391747dd17087b4c4bfc901739a9336ec0048aaae0a11a401eba9",
+        "contains_role_placeholders": false
+      },
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "182b1345040391747dd17087b4c4bfc901739a9336ec0048aaae0a11a401eba9"
+    },
+    {
+      "quest_id": 99218,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "english": "Ey, warlock! I must admit I be surprised to see one of your talents here at me stables.\r\n\r\nIf you are looking for a mount, ya have come to the right place, though they ain't the same as those felsteeds you are accustomed to summoning.\r\n\r\nEither way, you're welcome to take a look at our raptors, should ya want one. Most be underestimatin' how intelligent and savage these beasts be. Ya won't be findin' a better, faster or more lethal companion once ya be bonded with it.\r\n\r\nGo an' take a look to see if any catch ya interest and return to me when ya made ya choice.",
+      "english_sha256": "0054047ff40290e25a7c804f4fb8bed9e44387dfa3721c12f440fa8620d4278f",
+      "expected_dynamic_signature": "558:552856045:1922426938",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99218/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "thai": "เฮ้ วอร์ล็อก! ข้ายอมรับว่าประหลาดใจที่เห็นคนมีฝีมืออย่างเจ้ามาที่คอกสัตว์ของข้า\n\nถ้าเจ้ากำลังหาพาหนะ เจ้ามาถูกที่แล้ว แม้พวกมันจะไม่เหมือนอาชาเฟลที่เจ้าคุ้นเคยกับการอัญเชิญ\n\nจะอย่างไร ถ้าเจ้าอยากได้สักตัว ก็เชิญไปดูแร็ปเตอร์ของเรา คนส่วนใหญ่มักประเมินความฉลาดและความดุร้ายของพวกมันต่ำเกินไป เมื่อผูกพันกับมันแล้ว เจ้าจะหาเพื่อนร่วมทางที่ดีกว่า เร็วกว่า หรือร้ายกาจกว่านี้ไม่ได้อีก\n\nไปดูว่ามีตัวไหนถูกใจ แล้วกลับมาหาข้าเมื่อเลือกได้แล้ว",
+      "translation_kind": "new_reviewed_Thai",
+      "reuse_source": null,
+      "integration": "append exact description variant; retain canonical and all prior aliases",
+      "meaning_review": "Reviewed entire literal English/Thai body. Fixed paladin/warlock/elf/undead/Skyborne words stay literal, not current-player slots. Conditions,uncertainty,directions,time intervals and actors preserved; no guessed playerConditionId meaning.",
+      "thai_sha256": "1ac52f3dbb7c3f4757e6933fc380857dccb01ebebf280461bf36846018dbbdc0"
+    }
+  ]
+}

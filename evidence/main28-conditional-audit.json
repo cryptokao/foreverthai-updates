@@ -1,0 +1,1193 @@
+{
+  "batch": "MAIN28",
+  "scope": "Only previously unprocessed current70938 conditionalDescriptions,40raw/39eligible,1uppercaseGhold",
+  "baseline_zip_sha256": "4fb985134c382d87744214a4ab290e5d3a3caf81a2cc0e47eaa17559dbd90021",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "rows": [
+    {
+      "quest_id": 97979,
+      "field": "description",
+      "title": "The Goddess Provides",
+      "level": 1,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97979/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 137888,
+        "creatureId": 3595,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "dfa6d4601c35ce0065f515da1bfed205cf8dc86d5f6dc6c90ea9e192a28395f2",
+      "english_bytes": 494,
+      "canonical_present": true,
+      "expected_dynamic_signature": "488:2073463858:1431341000",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92595,
+      "field": "description",
+      "title": "The Windshapers",
+      "level": 6,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92595/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 137890,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "06a38a59c9c30505d127e7ff37faa736905acdcc4e3fab04466af291a88fc1fe",
+      "english_bytes": 380,
+      "canonical_present": true,
+      "expected_dynamic_signature": "373:1352946702:972068179",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92596,
+      "field": "description",
+      "title": "The High Order",
+      "level": 6,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92596/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 137886,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "01708d9ef5e95b9d8230eb80e88324b370bf1da04bf67e69267d4eaa6950e5fe",
+      "english_bytes": 185,
+      "canonical_present": true,
+      "expected_dynamic_signature": "181:1453419718:1846818818",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99108,
+      "field": "description",
+      "title": "Sparring Match",
+      "level": 6,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99108/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 161583,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "20b8ab55682330b2bab5e69ee85424b57a2446d1c18f331ed3a0e676ba6102db",
+      "english_bytes": 427,
+      "canonical_present": true,
+      "expected_dynamic_signature": "421:989360917:103277610",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98321,
+      "field": "description",
+      "title": "Flintfire's Shipment",
+      "level": 7,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98321/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 161120,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e36bac450a05c8b0d6dfbc3b27c5fb51927a32025e476db3ced098bca2c0a09c",
+      "english_bytes": 480,
+      "canonical_present": true,
+      "expected_dynamic_signature": "474:29998765:1847020620",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97485,
+      "field": "description",
+      "title": "Traditions of the Bluff",
+      "level": 10,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97485/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158458,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e1b09e0ca8b95285fd9d8e7401566daa2a1cbab86e59b228ca66be827a868717",
+      "english_bytes": 503,
+      "canonical_present": true,
+      "expected_dynamic_signature": "494:633499142:72982594",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98299,
+      "field": "description",
+      "title": "Stop the Spread",
+      "level": 20,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98299/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 157027,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b271ace47d391d75838350d923e0e47f4501ecaf9b5cc27852eacd5ae53dbfb8",
+      "english_bytes": 493,
+      "canonical_present": true,
+      "expected_dynamic_signature": "487:902859977:542086662",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 95250,
+      "field": "description",
+      "title": "Abominable Creatures",
+      "level": 21,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95250/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 139384,
+        "creatureId": 265701,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0aaeaf04a18627a475505a56ad0a1bac16e12096c3dbc88ab9899c8f2352a27b",
+      "english_bytes": 440,
+      "canonical_present": true,
+      "expected_dynamic_signature": "434:391156010:1632726667",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 78088,
+      "field": "description",
+      "title": "A Strange Artifact",
+      "level": 30,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/78088/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 162692,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "994402b3708b7dd20bfba5dd05ab42cfb8671ee3f312d5b4bd906866f24644de",
+      "english_bytes": 342,
+      "canonical_present": true,
+      "expected_dynamic_signature": "338:884432907:1584364148",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 92456,
+      "field": "description",
+      "title": "A Green Sample",
+      "level": 33,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/92456/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158294,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f6714a2a8c123a5edfcba24a94245a306372cbfa207a31866f7b6fb15b45147f",
+      "english_bytes": 455,
+      "canonical_present": true,
+      "expected_dynamic_signature": "449:283714900:1561174278",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98300,
+      "field": "description",
+      "title": "Word to Ironforge",
+      "level": 34,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98300/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 161037,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [
+        "$n"
+      ],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0b01e1b72f96bdc8f6912e3ce3de5de78ba76d8eb53727941c04cd23cfc3c83a",
+      "english_bytes": 520,
+      "canonical_present": true,
+      "expected_dynamic_signature": "31:1355861753:934691177 N 478:84197401:1612936305",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96078,
+      "field": "description",
+      "title": "A Tale Spun Around the Fire",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96078/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 154259,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [
+        "$n"
+      ],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "1dd71f22336fc2f6daa8f196231848010626f3f7ec6ad0bbd590e9a894955f18",
+      "english_bytes": 547,
+      "canonical_present": true,
+      "expected_dynamic_signature": "N 539:1427317678:44662556",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96994,
+      "field": "description",
+      "title": "Your First Riding Wolf",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96994/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "84dbc1df63e583afa662b55dfad446227791d36aa6cba29e1411dbade6abaebe",
+      "english_bytes": 596,
+      "canonical_present": true,
+      "expected_dynamic_signature": "584:1140397140:1248657145",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96997,
+      "field": "description",
+      "title": "A Steed in Death as They Were in Life",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96997/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "be561c843b61a1d4544e179c9e6435af6032c724103646c810c1ad08e632d1e0",
+      "english_bytes": 575,
+      "canonical_present": true,
+      "expected_dynamic_signature": "566:600576289:530052988",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 96997,
+      "field": "description",
+      "title": "A Steed in Death as They Were in Life",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96997/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7bf76f2dcccb11c5fa918d98470059cc60ab806a8692cc2a354fcfcfcdd8a950",
+      "english_bytes": 723,
+      "canonical_present": true,
+      "expected_dynamic_signature": "711:1728087743:1096834274",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97017,
+      "field": "description",
+      "title": "Your First Riding Ram",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97017/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e6c62b1d50c45a8a63f43ab0a433aefd7b55bae6016461728f24c46d327663b7",
+      "english_bytes": 604,
+      "canonical_present": true,
+      "expected_dynamic_signature": "595:95465225:2111960101",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97045,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97045/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "english_bytes": 621,
+      "canonical_present": true,
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97045,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97045/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "english_bytes": 558,
+      "canonical_present": true,
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97046,
+      "field": "description",
+      "title": "Your First Mechanostrider",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97046/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c02d64d481e9637943ffd9195b7a10b1f1d430cbc5aa914ef6f6ffaab19a9257",
+      "english_bytes": 653,
+      "canonical_present": true,
+      "expected_dynamic_signature": "644:2098865895:2071569536",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 97171,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97171/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "english_bytes": 621,
+      "canonical_present": true,
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 97171,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97171/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "english_bytes": 558,
+      "canonical_present": true,
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 97884,
+      "field": "description",
+      "title": "Armory of Sunnyglade",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97884/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 144957,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b364422aa6911f815a6ddc9b721f7479a1271be28fa7bcf831f4b0b7d50b4642",
+      "english_bytes": 438,
+      "canonical_present": true,
+      "expected_dynamic_signature": "435:92832342:1492342560",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 98166,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98166/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "english_bytes": 621,
+      "canonical_present": true,
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 98166,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/98166/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "english_bytes": 558,
+      "canonical_present": true,
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99326,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99326/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "831e6f50706be8554e7b844a55ea06a7023a8d8ec3b0a9cdbf9d1157f1235571",
+      "english_bytes": 619,
+      "canonical_present": true,
+      "expected_dynamic_signature": "610:187717721:1888528808",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 99326,
+      "field": "description",
+      "title": "Your First Horse",
+      "level": 40,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99326/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "4c63e573b197955e31ee03507d3ece3d4bbdab01021b19bf13d928de01977dad",
+      "english_bytes": 556,
+      "canonical_present": true,
+      "expected_dynamic_signature": "547:2136452709:931062766",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 91754,
+      "field": "description",
+      "title": "Rub Some Dirt In It",
+      "level": 56,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/91754/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155100,
+        "creatureId": 248367,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "362676a055642dd1d5b574d6e41f00258ad0fdd8d1c923248a8457ed4d61d9b1",
+      "english_bytes": 238,
+      "canonical_present": true,
+      "expected_dynamic_signature": "232:1993028083:248734794",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 7790,
+      "field": "description",
+      "title": "River Ends",
+      "level": 57,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/7790/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155100,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "9a160f7bf39ca6c1e18b574ed02a79cbf97d66482393eaf6c02319122c48303d",
+      "english_bytes": 369,
+      "canonical_present": true,
+      "expected_dynamic_signature": "362:281723780:1304628883",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 95317,
+      "field": "description",
+      "title": "Notation, Notation, Notation",
+      "level": 57,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/95317/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "d3649d91abac5033dcba9fd48bafef33328f450b000e0635bb70057a56bfac0f",
+      "english_bytes": 488,
+      "canonical_present": true,
+      "expected_dynamic_signature": "482:724064522:736157871",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 96616,
+      "field": "description",
+      "title": "Herbs for the Bruised and Weary",
+      "level": 57,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96616/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 157027,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "47d99ebc0ac8b35258bf3b926abfdb08ee594b5ef651921bcfab020aeb69a003",
+      "english_bytes": 636,
+      "canonical_present": true,
+      "expected_dynamic_signature": "627:1677126805:561463570",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 97986,
+      "field": "description",
+      "title": "Argent Arbiter",
+      "level": 57,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/97986/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155100,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "9223f5efb6de720f0fdedb4061047ce570682bbd19e3e26e007aa6739bb2e949",
+      "english_bytes": 511,
+      "canonical_present": true,
+      "expected_dynamic_signature": "505:1219156129:1807776149",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 96322,
+      "field": "description",
+      "title": "A Revenge Now Bitter",
+      "level": 58,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/96322/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "ffb1b9cd15898e4a25a4f00bb9485c394c3dae86c835fe2df8ad68791bdcd92b",
+      "english_bytes": 536,
+      "canonical_present": true,
+      "expected_dynamic_signature": "524:1087954753:1735034641",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99210,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99210/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "661b5cdbde2531d9a8eaf4c19f458116c068fec475040c13e7498c59a6389724",
+      "english_bytes": 600,
+      "canonical_present": true,
+      "expected_dynamic_signature": "591:386198793:1320225439",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99211,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99211/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "be561c843b61a1d4544e179c9e6435af6032c724103646c810c1ad08e632d1e0",
+      "english_bytes": 575,
+      "canonical_present": true,
+      "expected_dynamic_signature": "566:600576289:530052988",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99211,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99211/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "7bf76f2dcccb11c5fa918d98470059cc60ab806a8692cc2a354fcfcfcdd8a950",
+      "english_bytes": 723,
+      "canonical_present": true,
+      "expected_dynamic_signature": "711:1728087743:1096834274",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99213,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99213/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 158357,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "bd3e0248a34d5c40dbf462f43dfa24ba7a183a70d9199fc112fb65b3a3590668",
+      "english_bytes": 621,
+      "canonical_present": true,
+      "expected_dynamic_signature": "612:2003353289:895085822",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99213,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99213/conditionalDescriptions/1/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "d0cfbaf5c94cff8bf83b68f86b190586a1cd0afa5542b5344bac38a2a8ba1068",
+      "english_bytes": 558,
+      "canonical_present": true,
+      "expected_dynamic_signature": "549:1327336741:199535678",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99215,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99215/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "84dbc1df63e583afa662b55dfad446227791d36aa6cba29e1411dbade6abaebe",
+      "english_bytes": 596,
+      "canonical_present": true,
+      "expected_dynamic_signature": "584:1140397140:1248657145",
+      "supported_profile_fixture": null
+    },
+    {
+      "quest_id": 99218,
+      "field": "description",
+      "title": "An Epic Ride",
+      "level": 60,
+      "source_field": "conditionalDescriptions",
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "pointer": "/quests/99218/conditionalDescriptions/0/text",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6"
+      },
+      "condition_metadata": {
+        "playerConditionId": 155127,
+        "creatureId": null,
+        "interpretation": "not inferred; runtime matches exact incoming body, never guesses condition eligibility"
+      },
+      "raw_tokens": [],
+      "phase_qualification": "Current raw cache conditionalDescriptions are description variants; match full incoming own-ID description only. No base paragraph splice or condition selector guess.",
+      "current_enabled_usage": "unproven",
+      "status": "unmatched_conditional_description_needs_full_review",
+      "english_sha256": "0054047ff40290e25a7c804f4fb8bed9e44387dfa3721c12f440fa8620d4278f",
+      "english_bytes": 567,
+      "canonical_present": true,
+      "expected_dynamic_signature": "558:552856045:1922426938",
+      "supported_profile_fixture": null
+    }
+  ],
+  "counts": {
+    "already_supported_default_fixture": 22,
+    "unmatched_conditional_description_needs_full_review": 17
+  },
+  "matcher_executions": 65,
+  "holds": [
+    {
+      "quest_id": 98391,
+      "index": 0,
+      "reason": "unknown raw macro including uppercaseG; no gender orientation inference"
+    }
+  ],
+  "new_Thai_fields": 0,
+  "version_or_runtime_changed": false,
+  "elapsed_wall_seconds": 0.27727169999889156,
+  "cpu_seconds": 0.265625,
+  "limits": [
+    "Source description variants are matched by full incoming own-ID body; playerConditionId/creatureId semantics never inferred or enforced",
+    "Fixture profile support is not actual condition eligibility/current enabled inventory",
+    "UppercaseGorientation/otherunknownmacros held; no gender guess",
+    "No old base-cache/MAIN27/old UI/Skill/NPC/font corpus rerun"
+  ]
+}
