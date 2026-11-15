@@ -1,5 +1,9 @@
 # Current state — 2026-11-15
 
+## MAIN37 new-delta sole-objective closure — no version change
+
+Only39new Nov15 delta fields with $1oa and exactlyONEobjective/currentownamount were qualified using previouslyread Stein primarygrammar and MAIN32 UI proof. ALL39numeric UI forms already supported0.473,including lowlevel97977/98389/86784/91751/91724/95214. NewThai/aliases/runtime/version0;not39newtranslations. 0.251swall/0.250CPU;NOTold115orold3902rerun. No storageIndex/multiobjective ordering inferred. Newdelta macroholds95 now39closed/56stillheld;9identityholds and unselectedliteral/unknownlevel/eligibility work remain. Do not rerun unchanged39. See main37-new-sole-objective-audit.json. This source-only follow-up does not undo MAIN36 realprogress/impasse0 or change delivered0.473/customer0.470/next0.480. No game operation or actualWindows/MacM2 acceptance.
+
 ## Latest delivered private combined0.473.0 / MAIN36
 
 13new supported literal fields/variants in8IDs:10newThai fields+3verbatimreviewedreuse,9new slots/4newvariants/3newruntimeIDs,NOTcompletequests.960title/7025description/7630objective/84156objective/99212description+objective/86792title+description/86814title+description+objective/9556title+objective. Exact own-ID selected incoming UI bodies only;no condition,class,race,gender or quantity macro dispatch inferred.86792multiobjective macro/9556race-description held. Preserve all oldcanonical andalias trees.
