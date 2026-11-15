@@ -1,0 +1,120 @@
+{
+  "batch": "MAIN42",
+  "status": "MEANING_REVIEWED_NOT_PACKAGED_SOURCE_FRONTIER_IN_PROGRESS",
+  "fields": [
+    {
+      "quest_id": 97918,
+      "field": "progress",
+      "title": "Camping 101: Engineering",
+      "level": 6,
+      "english_sha256": "d8fdada3521fc485033f1b319f430b2c18dcbc6eaebd0f93ef8518392d42d019",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97918",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97918",
+        "QuestText_line": 54,
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ข้าสอนได้เมื่อเจ้าเพิ่มทักษะวิชาชีพสักหน่อยแล้ว",
+      "reused_from": {
+        "quest_id": 97903,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactfullsource samephase reuse97903:teacher can teach after more profession skill,no level/amount guessed.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 97954,
+      "field": "progress",
+      "title": "Camping 101: Engineering",
+      "level": 6,
+      "english_sha256": "80f5ac92ed5f8c7f361779b1dd48daf99230fb135a0b6b2e651062fece240f07",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/97954",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/97954",
+        "QuestText_line": 54,
+        "phase_line": 62,
+        "phase_end_line": 65,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "กลับมาคุยกับข้าอีกทีเมื่อเจ้าชำนาญวิชาชีพของเจ้าขึ้นอีกหน่อย",
+      "reused_from": {
+        "quest_id": 97925,
+        "field": "progress"
+      },
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review": "Exactfullsource samephase reuse97925:come talk again after increasedprofession skill,no minimumlevel/amount invented.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 95508,
+      "field": "progress",
+      "title": "Unwelcome Guests",
+      "level": 18,
+      "english_sha256": "d7ddfc91a29349d76c1f9629dbae085155a290aa9041a700381fc717d9970688",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/95508",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/95508",
+        "QuestText_line": 170,
+        "phase_line": 180,
+        "phase_end_line": 184,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "<Walton มีสีหน้าเคร่งขรึม>",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review": "FixedNPCWalton facialexpression stern,present tense,emote retained,no invented player or anger.",
+      "meaning_review_passed": true
+    },
+    {
+      "quest_id": 96259,
+      "field": "progress",
+      "title": "Defending the Dead",
+      "level": 29,
+      "english_sha256": "d26f8f925a47405972d3704ff6c888b8af85eab5324024be3f9f9500a93d8d73",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/96259",
+      "source_ref": {
+        "primary_url": "https://db.icy-veins.com/wow-forever/quests/96259",
+        "QuestText_line": 176,
+        "phase_line": 183,
+        "phase_end_line": 187,
+        "contiguous_own_ID_phase": true,
+        "attribution": "Questtext BlizzardEntertainment;phase transcription IcyVeinsForeverDatabase",
+        "build_added": "70532 shown;not individualcurrenteligibility"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "thai": "ดวงวิญญาณของบรรพชนเราต้องได้พักอย่างสงบอีกครั้ง",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review": "Ourancestor spirits need to rest peacefully again;no ritual/kill/count or invented completedaction.",
+      "meaning_review_passed": true
+    }
+  ],
+  "holds": [
+    {
+      "quest_id": 94823,
+      "field": "completion",
+      "primary_url": "https://db.icy-veins.com/wow-forever/quests/94823",
+      "english_sha256": "bda90ad9d90ae19979ed325fc5acef2ac6eb4ce0df36685c4d7de93c9d7799a6",
+      "reason": "Untyped name sourceplaceholder;no inferred playerbinding"
+    }
+  ],
+  "complete_quests_claimed": 0,
+  "new_Thai_fields": 2,
+  "verbatim_reviewed_reuse": 2,
+  "full_private_review_fixture_sha256": "9d6631e707760bb270a8a15eb305e0f057c414c9cbdadc2fe4bf2174ee886cc1",
+  "warning": "Source/meaningcheckpoint ONLY,no newruntime/package/version yet;broadermainphaseacquisition continues"
+}
