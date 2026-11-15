@@ -1,0 +1,24 @@
+{
+  "batch": "MAIN33",
+  "checked_at_utc": "2026-11-15 10:53:34 UTC",
+  "scope": "Only previously uninspected comment streams of the two new source issues;not a rerun of their decoded bodies",
+  "sources": [
+    {
+      "repository": "quinn-dougherty/forever-vo",
+      "issue": 3522,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3522",
+      "comments": 0
+    },
+    {
+      "repository": "quinn-dougherty/forever-vo",
+      "issue": 3523,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3523",
+      "comments": 0
+    }
+  ],
+  "new_source_records": 0,
+  "new_translations": 0,
+  "impasse_counter": 0,
+  "reason": "Turn made real source-backed progress and delivered0.471;do not classify it as a consecutive no-progress impasse",
+  "do_not_recheck_if_unchanged": true
+}
