@@ -1,0 +1,63 @@
+{
+  "status": "PASSED_BOUNDED_COMBINED_PRIVATE0472_PACKAGE",
+  "version": "0.472.0",
+  "new_supported_fields": 4,
+  "new_Thai_fields": 4,
+  "quest_ids": 4,
+  "complete_quests_claimed": 0,
+  "source_proposal_sha256": "8fd7b37753df3843f99dd2b4e750fab91b5bcbbe93158e023b16a989ee4e7e01",
+  "zip": {
+    "path": "ForeverThai-0.472.0-main35-PRIVATE-TEST.zip",
+    "bytes": 29776055,
+    "sha256": "3b6f10f8519c625f4897840e17aabdd908ef6ab1ae753f3ab01daddd52f0cebc"
+  },
+  "runtime_files": 158,
+  "old_runtime_files_exact_bytes_preserved": 153,
+  "metadata_changed": [
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "added_runtime": [
+    "ForeverThai/MainQuest35.lua",
+    "ForeverThai/AtlasMain35.lua",
+    "ForeverThai/Fonts/Thai101.tga"
+  ],
+  "protected_Skill_font_assets_preserved": 28,
+  "old_font_assets_preserved": 115,
+  "new_word_glyphs": 3,
+  "new_Thai_runs": 2,
+  "new_pages": 1,
+  "actual_data_order": [
+    "Catalog.lua",
+    "MainQuest2526.lua",
+    "MainQuest27.lua",
+    "MainQuest28.lua",
+    "MainQuest33.lua",
+    "MainQuest35.lua",
+    "Match.lua",
+    "Atlas.lua",
+    "AtlasMain2526.lua",
+    "AtlasMain27.lua",
+    "AtlasMain28.lua",
+    "AtlasMain35.lua",
+    "Bitmap.lua"
+  ],
+  "all_TOC_Lua_compile": 33,
+  "actual_BitmapLayer_Thai_draws": 16,
+  "Thai_live_font_fallbacks": 0,
+  "glyph_crops_pixel_checked": 21,
+  "source_checks_reference": "MAIN35:32positives96negatives32wrongroutes,not rerun here",
+  "engines_or_settings_changed": false,
+  "real_Windows_MacM2_acceptance": false,
+  "launcher_published": false,
+  "old_UI_Skill_NPC_full_suites_rerun": false,
+  "localAI_NLP_or_full_font_rebuild": false,
+  "elapsed_wall_seconds": 6.323243099999672,
+  "cpu_seconds": 6.125,
+  "limits": [
+    "4newobjective fields,not4completequests or whole-game percentage",
+    "Current enabled inventory/per-row build unproven",
+    "8315/84213existing multilineTracker guard retained",
+    "No real Windows/MacM2 acceptance"
+  ]
+}
