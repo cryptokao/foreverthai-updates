@@ -1,31 +1,31 @@
 {
   "status": "ACTIVE_REAL_MAIN_TRANSLATION_PROGRESS",
-  "batch": "MAIN38",
+  "batch": "MAIN39",
   "consecutive_impasse_goal_turns": 0,
-  "new_supported_fields": 82,
-  "new_Thai_fields": 67,
-  "verbatim_reviewed_reuse": 15,
-  "quest_ids": 28,
+  "new_supported_fields": 14,
+  "new_Thai_fields": 5,
+  "verbatim_reviewed_reuse": 9,
+  "quest_ids": 11,
   "whole_goal_complete": false,
-  "latest_private": "0.474.0",
+  "latest_private": "0.475.0",
   "last_verified_published_customer": "0.470.0",
   "next_normal_customer_milestone": "0.480.0",
-  "literal109_delta": {
-    "delivered_private0473": 13,
-    "delivered_private0474": 82,
-    "excluded_developer": 12,
-    "held_ambiguous_title": 2
+  "new638_phase_scope_closed": {
+    "find_negative": 433,
+    "mainbody_negative": 152,
+    "unavailable": 35,
+    "literal_delivered": 13,
+    "untypedname_held": 5
   },
   "remaining": [
-    "56newmultiobjective/markup source forms,9identityholds;327identitydiagnostics not counted newroleproof",
-    "Acquire independent own-ID live UI/log bodies or primary ordinalmapping;not infer storageIndex/counts",
+    "35inaccessible primarypage fields:use alternate legitimate primarydata sources,not retry/bypass",
+    "5newuntypednamefields+earlier9identity/2ambiguous-titleholds notguessed",
     "Unknownlevel/current enabled whole-game inventory unresolved",
-    "Actual Windows/MacM2 acceptance missing;user said nottested,do not repeat samequestion",
-    "No diversion to NPC/books/style to extend run while mainpriority not closed"
+    "Actual Windows/MacM2acceptance missing;user previously said nottested/no extra source,do not repeat samequestion",
+    "Do not rerun unchanged638newlookups,old1414,old3902or oldclosednumeric scopes;do not pad versions"
   ],
-  "source_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
-  "runtime_commit": "70f937a8c0c93630a64535a4fe3e05410322584e",
-  "artifact_commit": "541ebd47868a1ce13517c2cfa546ea5c467be164",
-  "preserve_all_modules": true,
+  "runtime_commit": "04f0ee8af33bae3af44d5dc8d9f1425ec720c60f",
+  "artifact_commit": "a3ead232d7faf1cdb29f9b82a2775bd1e2430e28",
+  "all_modules_preserved": true,
   "local_AI_used": false
 }

@@ -1,0 +1,467 @@
+{
+  "batch": "MAIN39",
+  "status": "DELIVERED_PRIVATE0475_VERIFIED",
+  "fields": [
+    {
+      "quest_id": 86792,
+      "field": "objective",
+      "english_sha256": "a3d73f1cc1c97f585fc7092ded61a45fc8f42e3e6b2059b5fe194ceebb685bcb",
+      "primary_url": "https://www.wowhead.com/forever/quest=86792/thinning-their-forces",
+      "primary_mainbody_line": 23,
+      "actual_primary_literal_amounts": {
+        "1": "6",
+        "2": "4",
+        "3": "2"
+      },
+      "raw_template_only_from_CCBy_query": true,
+      "runtime_field_present": false,
+      "title": "Thinning Their Forces",
+      "level": 54,
+      "thai": "สังหาร Legashi Hellraisers 6 ตัว, Legashi Soulstealers 4 ตัว และ Legashi Blackguards 2 ตัวให้ Korsa ที่อยู่นอก Legashi Stronghold",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review_passed": true,
+      "meaning_review": "Kill all three fixed named enemy types in explicit6/4/2 quantities for fixedKorsa outsideLegashiStronghold. No return instruction added,no objective-array ordering or playerrole inferred.",
+      "source_ref": {
+        "query_repository": "JIVESCORP/eg-link-output-wowf",
+        "query_pin": "0f202e892f1a15c8192c232351824eccb99efd8a",
+        "query_blob": "307e74c62ee5d897d6d4c59363c919820992c5ac",
+        "query_pointer": "/quests/86792/objectivesText",
+        "query_attribution": "Data from Efficient Games (https://efficient.games), CC BY4.0",
+        "primary_url": "https://www.wowhead.com/forever/quest=86792/thinning-their-forces",
+        "primary_body_line": 23,
+        "primary_literal_counts": {
+          "Legashi_Hellraisers": 6,
+          "Legashi_Soulstealers": 4,
+          "Legashi_Blackguards": 2
+        }
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "expected_dynamic_signature": "115:262407714:2090371098",
+      "thai_sha256": "042bdbb0a940ee706badfe40044a1635fc2b030b0652aba97f6c3c19ef820462",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 80325,
+      "field": "progress",
+      "title": "The Mad King",
+      "level": 40,
+      "english_sha256": "9c90391c2760590735e2d5a81cb4775e58d2484fe4e042254a9d702698612acb",
+      "thai": "มีอะไรมาให้ข้าล่ะ?",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=80325/the-mad-king",
+        "source_body_sha256": "9c90391c2760590735e2d5a81cb4775e58d2484fe4e042254a9d702698612acb",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 94246,
+        "field": "progress",
+        "path": "progress",
+        "exact_full_literal_signature": "19:2054261349:1564919624",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "19:2054261349:1564919624",
+      "thai_sha256": "f68d013bee4d7a508341bbbd09bd30b19e15a97b1769d280c5fbef71303ba544",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 81772,
+      "field": "completion",
+      "title": "Ashenvale Mission V: Satyr Intelligence",
+      "level": 42,
+      "english_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+      "thai": "ทำได้ดีมาก! ความช่วยเหลือของเจ้าจะได้รับรางวัลอย่างงาม สนใจรับภารกิจอีกสักงานไหม?",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=81772/ashenvale-mission-v-satyr-intelligence",
+        "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 81746,
+        "field": "completion",
+        "path": "completion",
+        "exact_full_literal_signature": "73:2141186521:1645197437",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "73:2141186521:1645197437",
+      "thai_sha256": "b3389c44fd227dd1cc52255d0ad263bdb005a7444640ab0b6e5cf416c443b7d0",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 81772,
+      "field": "progress",
+      "title": "Ashenvale Mission V: Satyr Intelligence",
+      "level": 42,
+      "english_sha256": "d92cdc21928e3ca450a70e6e369e0212a44fe166daab3bc9879350e088cb9209",
+      "thai": "เจ้าได้รายงานมาแล้วหรือ?",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=81772/ashenvale-mission-v-satyr-intelligence",
+        "source_body_sha256": "d92cdc21928e3ca450a70e6e369e0212a44fe166daab3bc9879350e088cb9209",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 81735,
+        "field": "progress",
+        "path": "progress",
+        "exact_full_literal_signature": "20:553699396:641103136",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "20:553699396:641103136",
+      "thai_sha256": "6a59c7442fc58d15ca885a721cdf9e6f29edecb06d4a813ca179fbe3e3965fe4",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 81787,
+      "field": "completion",
+      "title": "Hinterlands Mission II: Defeat Giant Turtles",
+      "level": 52,
+      "english_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+      "thai": "ทำได้ดีมาก! ความช่วยเหลือของเจ้าจะได้รับรางวัลอย่างงาม สนใจรับภารกิจอีกสักงานไหม?",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=81787/hinterlands-mission-ii-defeat-giant-turtles",
+        "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 81746,
+        "field": "completion",
+        "path": "completion",
+        "exact_full_literal_signature": "73:2141186521:1645197437",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "73:2141186521:1645197437",
+      "thai_sha256": "b3389c44fd227dd1cc52255d0ad263bdb005a7444640ab0b6e5cf416c443b7d0",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 81830,
+      "field": "completion",
+      "title": "Hinterlands Mission VIII: Recover Elunar Relic",
+      "level": 52,
+      "english_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+      "thai": "ทำได้ดีมาก! ความช่วยเหลือของเจ้าจะได้รับรางวัลอย่างงาม สนใจรับภารกิจอีกสักงานไหม?",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=81830/hinterlands-mission-viii-recover-elunar-relic",
+        "source_body_sha256": "2ca864b5a336b03c9f65c2612ea26a3bd745ebd2ef53517ac69895b5838ba290",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 81746,
+        "field": "completion",
+        "path": "completion",
+        "exact_full_literal_signature": "73:2141186521:1645197437",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "73:2141186521:1645197437",
+      "thai_sha256": "b3389c44fd227dd1cc52255d0ad263bdb005a7444640ab0b6e5cf416c443b7d0",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 96602,
+      "field": "completion",
+      "title": "More Unstable Magic",
+      "level": 58,
+      "english_sha256": "fb1358a94b8cb2af3027cee46c5f601a112124f4edb8937420a656a3b7b632b3",
+      "thai": "ขอบคุณที่ช่วยเหลือ Kirin Tor เรายินดีอย่างยิ่งกับการสนับสนุนของเจ้า",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=96602/more-unstable-magic",
+        "source_body_sha256": "fb1358a94b8cb2af3027cee46c5f601a112124f4edb8937420a656a3b7b632b3",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "expected_dynamic_signature": "81:375858996:1435508943",
+      "thai_sha256": "119c3f4e5c192db57511d334b7f0a771fdfd0f53739a87885f23d75a6c40d19e",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 96602,
+      "field": "progress",
+      "title": "More Unstable Magic",
+      "level": 58,
+      "english_sha256": "3a4b1678405e78c9cb8cb862b75d3c2b9302c7e5382479335d8ec50cd421f23a",
+      "thai": "เอาละอองเวทไม่เสถียรที่พบระหว่างเดินทางมาให้ข้าเพิ่ม ข้อมูลใดก็ตามที่เราสกัดจากเศษพวกนี้ได้จะมีค่ายิ่งต่อ Kirin Tor",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=96602/more-unstable-magic",
+        "source_body_sha256": "f782c1016d22acc3a47b5916599224fc320ce1e2801e974c93d56bb9f44d59ec",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [
+          " | Mote of Unstable Magic (5)"
+        ],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 96602,
+        "field": "description",
+        "path": "description",
+        "exact_full_literal_signature": "157:1191613204:1088583638",
+        "full_English_and_Thai_meaning_reviewed": true,
+        "distinct_progress_phase_primarybody_independently_confirmed": true
+      },
+      "expected_dynamic_signature": "157:1191613204:1088583638",
+      "thai_sha256": "f06114a1f0611fca0d5c20ed0ec906596b2e4cca7c382cfd152ca9b660a44f2d",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 84151,
+      "field": "completion",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english_sha256": "f780c6482b6b2bcb69e912d89715ffbf6bceb14f215690d1ab626f94e360f754",
+      "thai": "ยอดเยี่ยม! มาแลกกันเถอะ ตัดใจจากเกราะชั้นเลิศนี้ยาก แต่เกรงว่าข้าคงยังไม่ต้องใช้ในเร็ววัน\n\nถ้าสนใจทำงานให้ข้าเพิ่ม ข้าอาจยอมมอบชิ้นที่เหลือให้",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=84151/an-earnest-proposition",
+        "source_body_sha256": "f780c6482b6b2bcb69e912d89715ffbf6bceb14f215690d1ab626f94e360f754",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 8905,
+        "field": "completion",
+        "path": "completion",
+        "exact_full_literal_signature": "244:1055352563:1341160308",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "244:1055352563:1341160308",
+      "thai_sha256": "16a86d6a0eb725116874e402d8295503adad2c5997917ba24f4d2be79140409f",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 81790,
+      "field": "completion",
+      "title": "Materials of Significance",
+      "level": 53,
+      "english_sha256": "72ea2b392cb42b32d353f54b6f2afd5bcbea23b1e58469beb284006e91ac0ca3",
+      "thai": "ตอนนี้เรามีวัตถุดิบแล้ว ข้าต้องเตรียมพิธีกรรม ระหว่างนี้ไปปรึกษา Aeonas เขาอยากคุยกับเจ้า",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=81790/materials-of-significance",
+        "source_body_sha256": "72ea2b392cb42b32d353f54b6f2afd5bcbea23b1e58469beb284006e91ac0ca3",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "expected_dynamic_signature": "117:2131033898:1705576085",
+      "thai_sha256": "df9f16a0f135bd85f98717c339378bbbc3809b3496470e1b3ec7e59753079cd1",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 81790,
+      "field": "progress",
+      "title": "Materials of Significance",
+      "level": 53,
+      "english_sha256": "eb84b4bc1f1c063db109a2fb477d6dfa6faa8b525867838457e519593fa3b1ec",
+      "thai": "การได้ของเหล่านี้มาคงเป็นการผจญภัยครั้งใหญ่ทีเดียว ทำได้ดี",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=81790/materials-of-significance",
+        "source_body_sha256": "eb84b4bc1f1c063db109a2fb477d6dfa6faa8b525867838457e519593fa3b1ec",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "expected_dynamic_signature": "71:1990966830:1776548391",
+      "thai_sha256": "02dc57b07c6ff942f842092777ad1727b435531d5a703af33b981fe2ef42df66",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 84156,
+      "field": "completion",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17",
+      "thai": "อา ใช่ Mux จะพอใจมาก\n\nปลอกรัดแขนนั้นเป็นส่วนหนึ่งของชุดเกราะใหญ่ หากสนใจช่วยข้าต่อ ข้าอาจพิจารณามอบส่วนที่เหลือให้",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=84156/an-earnest-proposition",
+        "source_body_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 8913,
+        "field": "completion",
+        "path": "completion",
+        "exact_full_literal_signature": "208:344574223:2051793325",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "208:344574223:2051793325",
+      "thai_sha256": "f7d0bd73e66c29a488cd4c22cf12f5087d11da07fecb940054e32bf624367977",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 84160,
+      "field": "completion",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english_sha256": "f23ca701436f7bfab7d9d6710fe085cf265385b7cfbd65c76a7473bb15c5db19",
+      "thai": "อาใช่ ก็อบลินแก่นั่นคงพอใจกับเลือดนี้มาก\n\nปลอกแขนเหล่านั้นเป็นส่วนหนึ่งของชุดเกราะที่ใหญ่กว่า หากเจ้าสนใจช่วยเหลือข้าต่อ ข้าก็ยินดีพิจารณายกส่วนที่เหลือให้",
+      "translation_kind": "new_reviewed_Thai",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=84160/an-earnest-proposition",
+        "source_body_sha256": "f23ca701436f7bfab7d9d6710fe085cf265385b7cfbd65c76a7473bb15c5db19",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reuse_candidate_rejected": "Old fullfield includes appended translatornote absentfromNPCsource;newreviewedNPCbody only,old8918retained unchanged",
+      "expected_dynamic_signature": "226:212405830:334723803",
+      "thai_sha256": "bef585ad9dbd7b6687a635fe2ecd07f9a1dbe5f9d3af258140677c4f37b6c96e",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    },
+    {
+      "quest_id": 84162,
+      "field": "completion",
+      "title": "An Earnest Proposition",
+      "level": 60,
+      "english_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17",
+      "thai": "อา ใช่ Mux จะพอใจมาก\n\nปลอกรัดแขนนั้นเป็นส่วนหนึ่งของชุดเกราะใหญ่ หากสนใจช่วยข้าต่อ ข้าอาจพิจารณามอบส่วนที่เหลือให้",
+      "translation_kind": "verbatim_reviewed_reuse",
+      "meaning_review_passed": true,
+      "meaning_review": "Full literal own-ID/phase NPCtext reviewed. Fixed NPCnames,request/reward/ritual conditions retained;no implicit quantity/return step added.84160source says blood,not corrected to venom.",
+      "source_ref": {
+        "primary_url": "https://www.wowhead.com/forever/quest=84162/an-earnest-proposition",
+        "source_body_sha256": "4a2400a180648dc3bf86e1422c9e74fad26723308bcbbb2530fb94eff7dd5a17",
+        "mainbody_contiguous": true,
+        "excluded_renderer_requirement_rows": [],
+        "source_label": "Own-ID Wowhead Forever primary quest body"
+      },
+      "current_enabled_inventory_proven": false,
+      "complete_quests_claimed": 0,
+      "reused_from": {
+        "baseline": "0.474.0",
+        "quest_id": 8913,
+        "field": "completion",
+        "path": "completion",
+        "exact_full_literal_signature": "208:344574223:2051793325",
+        "full_English_and_Thai_meaning_reviewed": true
+      },
+      "expected_dynamic_signature": "208:344574223:2051793325",
+      "thai_sha256": "f7d0bd73e66c29a488cd4c22cf12f5087d11da07fecb940054e32bf624367977",
+      "runtime_action": "new field",
+      "source_text_location": "Linked primary own-ID/phase body;full local review fixture retained privately"
+    }
+  ],
+  "new_Thai_fields": 5,
+  "complete_quests_claimed": 0,
+  "holds": [
+    {
+      "quest_id": 80325,
+      "field": "completion",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84151,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84156,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84160,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    },
+    {
+      "quest_id": 84162,
+      "field": "progress",
+      "reason": "Primarypage untypedname placeholder;need own-ID typed/literal livecapture;not guessed"
+    }
+  ],
+  "verbatim_reviewed_reuse": 9,
+  "full_review_fixture_sha256": "949d4fcb1acd7cbfb187cb582c3fdf2a7f8a84b460158a8f0151753750e8f361",
+  "public_manifest_has_full_NPC_English": false,
+  "artifact_commit": "a3ead232d7faf1cdb29f9b82a2775bd1e2430e28"
+}

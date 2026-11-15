@@ -1,0 +1,63 @@
+{
+  "batch": "MAIN39",
+  "macro56": {
+    "already_supported_trace_or_base": 19,
+    "already_supported_uniform": 34,
+    "already_supported_other_primary": 2,
+    "new86792objective": 1,
+    "all56qualified_without_runtime_macro_bridge": true
+  },
+  "phase638": {
+    "counts": {
+      "full_page_find_no_published_target_section": 433,
+      "source_access_unavailable_no_retry": 35,
+      "mainbody_contiguous_no_target_heading": 152,
+      "held_untyped_name_source_body": 5,
+      "delivered_private0475_literal_phase": 13
+    },
+    "ready_literal_fields": 13,
+    "untyped_name_holds": 5,
+    "not_missingprose_or_enabled_inventory": true
+  },
+  "aggregate": {
+    "blob": "cb6d0b960636b1a693ddabad1211cf7bef057018",
+    "sha256": "f49b495b1f48da19e7ec8c1c9ea73e75cb1aa35706cec97b07f45fc251c6c967",
+    "quest_phase_records": 5178,
+    "targeted_only_new638fields": true,
+    "matches": 3,
+    "nonblank_matches": 0,
+    "matched_build": "70450",
+    "no_old_fullmatch_rerun": true
+  },
+  "newFVO": {
+    "issues": [
+      3524,
+      3525,
+      3526
+    ],
+    "records": 392,
+    "unique_MAIN_forms": 56,
+    "exact": 44,
+    "diagnostic_NOTnewroleproof": 10,
+    "blank": 2,
+    "prior_identical_forms_reused_notrerun": 22,
+    "newThai": 0
+  },
+  "runtime_candidate": {
+    "version": "0.475.0",
+    "fields": 14,
+    "newThai": 5,
+    "verbatimreuse": 9,
+    "IDs": 11,
+    "completequests": 0,
+    "artifactdelivery_pending": false,
+    "artifact_commit": "a3ead232d7faf1cdb29f9b82a2775bd1e2430e28",
+    "runtime_source_commit": "04f0ee8af33bae3af44d5dc8d9f1425ec720c60f"
+  },
+  "limits": [
+    "35unavailable primarylookups not retried;alternate acquisition remains possible",
+    "5newuntypednameholds +earlier9identity/2ambiguous-titleholds not guessed",
+    "Full currentenabledwholegameinventory and realWindows/MacM2acceptance stillmissing",
+    "Sourcesonly newscope;notold3902/1414/39solematcher rerun"
+  ]
+}
