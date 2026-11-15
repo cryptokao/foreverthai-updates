@@ -1,0 +1,28 @@
+{
+  "status": "source only; no runtime asset/ZIP/font/game/Launcher change",
+  "new_thai_fields": 2,
+  "quest_ids": 2,
+  "positive_exact_matches": 2,
+  "negative_checks": 14,
+  "existing_78270_canonical_and_aliases_preserved": true,
+  "main25_overlay_retained": true,
+  "overlay_sha256": "dbb85148be34f0287588eb421ac6950dc61f06b5b5a5efa7b5617bf478c007ea",
+  "pair_file_sha256": "c1a08a518fb7e6f0994bf8138d13667984fb5707c2240ca8f4b747cbe8e4d5af",
+  "privacy_holds": [
+    {
+      "quest_id": 257,
+      "field": "completion",
+      "reason": "Full source read found unproven player-name fragment; do not publish raw name or mint exact named variant"
+    },
+    {
+      "quest_id": 258,
+      "field": "description",
+      "reason": "Full source read found unproven player-name fragment; do not publish raw name or mint exact named variant"
+    }
+  ],
+  "limitations": [
+    "Two issue bodies 3506/3507 contain no payload; comments empty, not counted as 376 records",
+    "No new token role established for nine held forms",
+    "No whole-game inventory or Windows/Mac M2 acceptance"
+  ]
+}
