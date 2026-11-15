@@ -1,0 +1,21 @@
+{
+  "status": "PRIVATE_COMBINED_ARTIFACT_RECORDED_PENDING_DOWNLOAD_BACK_CHECK",
+  "version": "0.468.0",
+  "source_commit": "e114c2c1cd26b9205ca06bbb3e8d27a679e1858f",
+  "source_tree": "b4d00a74b763402b4c3fa2c56b3a87e734860cef",
+  "all_runtime_Git_blobs_equal_ZIP_files": 148,
+  "archive_git_blob": "85f498b75956f94ebe051009c187e7f94f59c54a",
+  "archive_bytes": 29552389,
+  "archive_sha256": "90b85b81dc4f9dc4d94b4349ec7c64a90889deedf8340c8976806115fb5441df",
+  "new_thai_fields": 4,
+  "quest_ids": 4,
+  "complete_quests_claimed": 0,
+  "engine_files_changed": false,
+  "protected_assets_preserved": 28,
+  "old_fonts_preserved": 112,
+  "local_AI_used": false,
+  "game_control_or_installation": false,
+  "real_game_verified": false,
+  "launcher_published": false,
+  "transport_note": "Oversized Node output failed validation; kernel reported full prepared data. Ten bounded chunks passed exact length checks; Github blob creation then succeeded. No duplicate branch/asset side effects."
+}
