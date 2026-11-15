@@ -1,0 +1,30 @@
+{
+  "status": "PRIVATE-TEST0471_MAIN33_DELIVERED_AND_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "648d283e9a1f571c68c7d6421b3b209c8f370e38",
+  "source_commit": "c994dda2b977252a1d6f46cac23722ee30d4023e",
+  "checks": [
+    {
+      "path": "ForeverThai-0.471.0-main33-PRIVATE-TEST.zip",
+      "bytes": 29748679,
+      "sha256": "54eef1b1fb33379332d8bfe5621d166e9bc77f9fe5931cdf510efbfd782b5077",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.471.0-TH.txt",
+      "bytes": 4733,
+      "sha256": "c36720ca664f555a2ba7e3406e62d7fb01318f9d3ba7fc60f00feaa26683ad50",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN33-bitmap-simulation.png",
+      "bytes": 8263,
+      "sha256": "17f4c63ecf24f53a83a69de23c66500d7c3e16c02962fd61ced1ce12a59613ca",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all155_committed_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 115,
+  "real_Windows_Mac_M2_acceptance": false,
+  "launcher_published": false
+}
