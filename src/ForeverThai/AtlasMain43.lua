@@ -495,7 +495,7 @@ addon.glyphs[15260] = { 110, 506, 242, 113, 0, 112.45 }
 assert(addon.glyphs[15261] == nil, "MAIN43 glyph baseline changed")
 addon.glyphs[15261] = { 110, 623, 242, 47, 0, 46.14 }
 assert(addon.glyphs[15262] == nil, "MAIN43 glyph baseline changed")
-addon.glyphs[15262] ={ 110, 674, 242, 90, 0, 89.88 }
+addon.glyphs[15262] = { 110, 674, 242, 90, 0, 89.88 }
 assert(addon.glyphs[15263] == nil, "MAIN43 glyph baseline changed")
 addon.glyphs[15263] = { 110, 768, 242, 101, 0, 100.72 }
 assert(addon.glyphs[15264] == nil, "MAIN43 glyph baseline changed")
