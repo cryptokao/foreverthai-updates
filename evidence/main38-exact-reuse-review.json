@@ -1,0 +1,159 @@
+{
+  "batch": "MAIN38",
+  "baseline": "0.473.0",
+  "status": "REUSE_CANDIDATES_NEED_FULL_MEANING_REVIEW",
+  "matches": [
+    {
+      "quest_id": 84160,
+      "field": "title",
+      "reuse_quest_id": 8905,
+      "reuse_field": "title",
+      "reuse_path": "title",
+      "english_sha256": "2d95771a875dd3a96c45feaba4007ab2a223ffc9a783907847335f341d9ac1ce",
+      "thai": "ข้อเสนอที่จริงใจ",
+      "exact_full_literal_signature": "22:1183475074:147978204"
+    },
+    {
+      "quest_id": 84163,
+      "field": "title",
+      "reuse_quest_id": 97412,
+      "reuse_field": "title",
+      "reuse_path": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "exact_full_literal_signature": "17:479802657:1407557245"
+    },
+    {
+      "quest_id": 84163,
+      "field": "description",
+      "reuse_quest_id": 84167,
+      "reuse_field": "description",
+      "reuse_path": "description",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก",
+      "exact_full_literal_signature": "259:1216461947:593867283"
+    },
+    {
+      "quest_id": 84163,
+      "field": "objective",
+      "reuse_quest_id": 8926,
+      "reuse_field": "objective",
+      "reuse_path": "objective",
+      "english_sha256": "0b706c489dcada0fea9e2e4e07d90e353c7c3cfab48259317f764dc4711fedca",
+      "thai": "นำ Wildheart Belt และ Wildheart Gloves ไปให้ Deliana ที่ Ironforge",
+      "exact_full_literal_signature": "74:624044070:1282990164"
+    },
+    {
+      "quest_id": 84165,
+      "field": "title",
+      "reuse_quest_id": 97412,
+      "reuse_field": "title",
+      "reuse_path": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "exact_full_literal_signature": "17:479802657:1407557245"
+    },
+    {
+      "quest_id": 84165,
+      "field": "description",
+      "reuse_quest_id": 8932,
+      "reuse_field": "description",
+      "reuse_path": "description",
+      "english_sha256": "39eac74076b602a527593559f4635cf5865fe482add0f3caaf0c170fd38d4a7b",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดธรรมดากับถุงมือที่อยากอัปเกรดมา",
+      "exact_full_literal_signature": "207:93466123:251441568"
+    },
+    {
+      "quest_id": 84165,
+      "field": "objective",
+      "reuse_quest_id": 8932,
+      "reuse_field": "objective",
+      "reuse_path": "objective",
+      "english_sha256": "9bfd812f1eb70512c5f565dc24d457eef695b32534577f2dd1013c23815601f7",
+      "thai": "นำ เข็มขัดของจอมเวท และ ถุงมือของจอมเวท ไปให้ Deliana ที่ Ironforge",
+      "exact_full_literal_signature": "79:1400312166:609455990"
+    },
+    {
+      "quest_id": 84168,
+      "field": "title",
+      "reuse_quest_id": 97412,
+      "reuse_field": "title",
+      "reuse_path": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "exact_full_literal_signature": "17:479802657:1407557245"
+    },
+    {
+      "quest_id": 84168,
+      "field": "description",
+      "reuse_quest_id": 84167,
+      "reuse_field": "description",
+      "reuse_path": "description",
+      "english_sha256": "5b9804c5e4458f787b6fe4d9ffb4dfacc90c27ba5349642248ad422a3367a1c2",
+      "thai": "เจ้ารักษาคำพูดและนำอุปกรณ์ที่ Mux สร้างมาแล้ว ข้าคิดว่าควรให้รางวัล เพื่อให้เจ้ายังสนใจช่วยชีวิตข้าต่อ นำเข็มขัดกับถุงมือที่อยากอัปเกรดมา ข้าสัญญาว่าของที่ให้แลกกลับไปจะดีกว่ามาก",
+      "exact_full_literal_signature": "259:1216461947:593867283"
+    },
+    {
+      "quest_id": 84168,
+      "field": "objective",
+      "reuse_quest_id": 8935,
+      "reuse_field": "objective",
+      "reuse_path": "objective",
+      "english_sha256": "3f1b422bc59b8d5f271503b1750e355b5e1e10a361c6970a125d21479d6ea281",
+      "thai": "นำ เข็มขัดช่างเงา และ ถุงมือช่างเงา ไปให้ Deliana ที่ Ironforge",
+      "exact_full_literal_signature": "81:1169569682:1895209806"
+    },
+    {
+      "quest_id": 84173,
+      "field": "title",
+      "reuse_quest_id": 97412,
+      "reuse_field": "title",
+      "reuse_path": "title",
+      "english_sha256": "a291af7a001bb7260b8039fb5f49ba395a83fec5b9f328e59dc9e2ab2c8e50d4",
+      "thai": "ค่าตอบแทนที่เหมาะสม",
+      "exact_full_literal_signature": "17:479802657:1407557245"
+    },
+    {
+      "quest_id": 84173,
+      "field": "objective",
+      "reuse_quest_id": 8939,
+      "reuse_field": "objective",
+      "reuse_path": "objective",
+      "english_sha256": "0bfadeb8f87cae3ba09c7b2836b2364ccef0b332ee4f6ffec084fd1953c46372",
+      "thai": "นำ เข็มขัดของจอมเวท และ ถุงมือของจอมเวท ไปให้ Mokvar ที่ Orgrimmar",
+      "exact_full_literal_signature": "78:1530699334:500177513"
+    },
+    {
+      "quest_id": 84192,
+      "field": "title",
+      "reuse_quest_id": 8951,
+      "reuse_field": "title",
+      "reuse_path": "title",
+      "english_sha256": "0ecb4409778231ca22e777580fa08264b18001709fa964663cf2d5a9570619a5",
+      "thai": "คำอำลาของ Anthion",
+      "exact_full_literal_signature": "23:573656928:1309079977"
+    },
+    {
+      "quest_id": 84192,
+      "field": "description",
+      "reuse_quest_id": 9016,
+      "reuse_field": "description",
+      "reuse_path": "description",
+      "english_sha256": "a1c29a3d1992e5fede2bb0a5cfcd456c3abf568cbdca035bf0af5fd2e79d57c4",
+      "thai": "วิญญาณของ Valthalak ถูกเก็บอยู่ในเครื่องรางนี้ ด้วยความโลภ เราโง่เขลาแบ่งมันเป็นสามส่วน โดยไม่รู้คำสาปที่รออยู่\n\nหนทางเดียวที่จะหยุดคาถาของ Valthalak คือประกอบเครื่องรางกลับเข้าด้วยกัน กลับไปบอก Mokvar ว่า Bodley เป็นความหวังเดียวที่จะหาส่วนที่เหลือได้ คุยกับเขาเรื่องรางวัลที่ตกลงกันไว้ด้วย\n\nคราวนี้ข้าจะได้พักอย่างสงบ ขอให้เจ้าโชคดีที่สุด เพราะเจ้าจะต้องใช้โชคทั้งหมดที่มี!",
+      "exact_full_literal_signature": "454:1366191329:981737942"
+    },
+    {
+      "quest_id": 84192,
+      "field": "objective",
+      "reuse_quest_id": 8957,
+      "reuse_field": "objective",
+      "reuse_path": "objective",
+      "english_sha256": "937a9e1e733bf8be59c8c3fa88689587cef9950184cc852e2b1c7c6939318419",
+      "thai": "กลับไปหา Mokvar ที่ Orgrimmar พร้อม รองเท้าบูตแห่งธาตุ, กระโปรงเกราะแห่งธาตุ และ เกราะไหล่แห่งธาตุ",
+      "exact_full_literal_signature": "105:843878935:1177516525"
+    }
+  ],
+  "new_Thai_or_runtime_changes": 0,
+  "elapsed_wall_seconds": 0.2781135999994149
+}
