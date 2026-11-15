@@ -1,0 +1,2636 @@
+{
+  "batch": "MAIN29",
+  "scope": "New documented lowercase $g reader-sex branch proof only,not new upstream English",
+  "baseline_zip_sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6",
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "schema_blob": "8fee3e320e15fdd2e782c93dc2fb2c280ec55654",
+  "raw_source_fields": 39,
+  "qualified_branches": 76,
+  "counts": {
+    "already_supported_default_fixture": 76
+  },
+  "rows": [
+    {
+      "quest_id": 170,
+      "field": "description",
+      "title": "A New Threat",
+      "level": 2,
+      "gender_forms": [
+        {
+          "raw": "$g lad : lass;",
+          "male": " lad ",
+          "female": " lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/170/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "054023fe961a4dea6411dfac2d0071ee1a00f2c45b22424b525e2b36a8b85bca",
+      "raw_english_sha256": "2cbb169c6c0cc269c218b84b90dc864aba1595a2772bc84094e94d125efac6f7",
+      "english_bytes": 493,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1341614955:475016852 C 442:2016506125:395613455",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 170,
+      "field": "description",
+      "title": "A New Threat",
+      "level": 2,
+      "gender_forms": [
+        {
+          "raw": "$g lad : lass;",
+          "male": " lad ",
+          "female": " lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/170/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "83ecc04d64817835a4caae62b42fb30454a7e588dcaa64e2cece422eba39c85a",
+      "raw_english_sha256": "2cbb169c6c0cc269c218b84b90dc864aba1595a2772bc84094e94d125efac6f7",
+      "english_bytes": 493,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1341614955:475016852 C 442:518856084:1585149360",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 233,
+      "field": "description",
+      "title": "Coldridge Valley Mail Delivery",
+      "level": 3,
+      "gender_forms": [
+        {
+          "raw": "$g lad : lass;",
+          "male": " lad ",
+          "female": " lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/233/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c7e8130a56819b5ede6257c624fda1e4201fa2538603ab6fecabaf212032fbbf",
+      "raw_english_sha256": "be52cefa5a5ea50495747a3d185ea8154b3a6eb0aa64874340c03d5964b10ed0",
+      "english_bytes": 308,
+      "canonical_present": true,
+      "expected_dynamic_signature": "301:1313848483:2009641010",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 233,
+      "field": "description",
+      "title": "Coldridge Valley Mail Delivery",
+      "level": 3,
+      "gender_forms": [
+        {
+          "raw": "$g lad : lass;",
+          "male": " lad ",
+          "female": " lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/233/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "5df2b5851931338cebf26971743a023d2d1ff30412d0416193407325e487dba3",
+      "raw_english_sha256": "be52cefa5a5ea50495747a3d185ea8154b3a6eb0aa64874340c03d5964b10ed0",
+      "english_bytes": 308,
+      "canonical_present": true,
+      "expected_dynamic_signature": "301:334311084:1629272259",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5622,
+      "field": "description",
+      "title": "In Favor of Elune",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5622/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "937ae177ad5061e03c8579e0e5cd16dfb92f752aa2ee74928658ea622319ec79",
+      "raw_english_sha256": "d450e65350a844985af0b1bfd08100a05fa96861eb058ac8e82b93996858be11",
+      "english_bytes": 331,
+      "canonical_present": true,
+      "expected_dynamic_signature": "N 326:1255621927:4461793",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5622,
+      "field": "description",
+      "title": "In Favor of Elune",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5622/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "06e63e8e918d0f8b96a0115f0a2934670597103943f9658b9ca03b33ca819856",
+      "raw_english_sha256": "d450e65350a844985af0b1bfd08100a05fa96861eb058ac8e82b93996858be11",
+      "english_bytes": 334,
+      "canonical_present": true,
+      "expected_dynamic_signature": "N 329:349383084:1201135326",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5623,
+      "field": "description",
+      "title": "In Favor of the Light",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5623/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f09ff5e0ecccf1b646010dbd47358ba2770951e1671cbbdab6fcf387b41b8338",
+      "raw_english_sha256": "9d10ef639f6fd4c692f206a3bbaf31f3ab0b010b728a3842c811971f5bb4984e",
+      "english_bytes": 335,
+      "canonical_present": true,
+      "expected_dynamic_signature": "335:96373546:661807053",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5623,
+      "field": "description",
+      "title": "In Favor of the Light",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5623/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "1670c0cfc7bd51cf1b78daa4ef08646e8ebaefa1d19e1b7d900de82add555d06",
+      "raw_english_sha256": "9d10ef639f6fd4c692f206a3bbaf31f3ab0b010b728a3842c811971f5bb4984e",
+      "english_bytes": 338,
+      "canonical_present": true,
+      "expected_dynamic_signature": "338:1257129119:1960488919",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5624,
+      "field": "description",
+      "title": "Garments of the Light",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        },
+        {
+          "raw": "$ghim:her;",
+          "male": "him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5624/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6ce6b7f370c1e2c26be443c81419eddfbb79643c3d0e3b5483ea9718c45a8d7e",
+      "raw_english_sha256": "f419f0c28dba70e51b8206910fb86df3d5de8c07ea29d58feb151047cd51e105",
+      "english_bytes": 491,
+      "canonical_present": true,
+      "expected_dynamic_signature": "488:431156214:386610899",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5624,
+      "field": "description",
+      "title": "Garments of the Light",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        },
+        {
+          "raw": "$ghim:her;",
+          "male": "him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5624/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "eabb91cdefd6417874b61a2275aaf71c9fd98c85bc05ab45920e04d1bbebd202",
+      "raw_english_sha256": "f419f0c28dba70e51b8206910fb86df3d5de8c07ea29d58feb151047cd51e105",
+      "english_bytes": 494,
+      "canonical_present": true,
+      "expected_dynamic_signature": "491:2090790515:1965507555",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5626,
+      "field": "description",
+      "title": "In Favor of the Light",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5626/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "cb9f1298307b4ea38719fbd9a08779956804cf90125b07c48560add5b151d76a",
+      "raw_english_sha256": "c43acce13c8859802c1bd633b056554cf224e0973b86b48eec447b465ac31f17",
+      "english_bytes": 361,
+      "canonical_present": true,
+      "expected_dynamic_signature": "5:140207098:2105779678 N 348:347765286:1762134125",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5626,
+      "field": "description",
+      "title": "In Favor of the Light",
+      "level": 4,
+      "gender_forms": [
+        {
+          "raw": "$gpriest:priestess;",
+          "male": "priest",
+          "female": "priestess"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5626/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "5684e2ac10a2b2d033b299bbe8ef90e16b3eb6e78476ad1d408e8c7a9036cba4",
+      "raw_english_sha256": "c43acce13c8859802c1bd633b056554cf224e0973b86b48eec447b465ac31f17",
+      "english_bytes": 364,
+      "canonical_present": true,
+      "expected_dynamic_signature": "5:140207098:2105779678 N 351:1974946950:195127882",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 60,
+      "field": "description",
+      "title": "Kobold Candles",
+      "level": 7,
+      "gender_forms": [
+        {
+          "raw": "$ggood sir:my lady;",
+          "male": "good sir",
+          "female": "my lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/60/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b5067ed509aff59b22380833e8aa911397f26fdc7e22f4067839d04308922643",
+      "raw_english_sha256": "cc3f8848c1ef03569a4b878dfc715730a97922e2f2d84c3c905b284b87af728b",
+      "english_bytes": 390,
+      "canonical_present": true,
+      "expected_dynamic_signature": "381:1281114445:552726630",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 60,
+      "field": "description",
+      "title": "Kobold Candles",
+      "level": 7,
+      "gender_forms": [
+        {
+          "raw": "$ggood sir:my lady;",
+          "male": "good sir",
+          "female": "my lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/60/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "55cef85a77af73e6b17fffe0dac2be1ca20da57d3cab84d9c36d0369e44da224",
+      "raw_english_sha256": "cc3f8848c1ef03569a4b878dfc715730a97922e2f2d84c3c905b284b87af728b",
+      "english_bytes": 389,
+      "canonical_present": true,
+      "expected_dynamic_signature": "380:1744735599:228255625",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2205,
+      "field": "description",
+      "title": "Seek out SI: 7",
+      "level": 10,
+      "gender_forms": [
+        {
+          "raw": "$g boy:girl;",
+          "male": " boy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2205/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ad58fb1069bf75887e7ba369ec06a8c27f3cef523b6e7a78f9b010f8367ba110",
+      "raw_english_sha256": "c3071c1ec3db10b4777da78c871a30dd5be09fb712ad9548052f4da8c048a7df",
+      "english_bytes": 386,
+      "canonical_present": true,
+      "expected_dynamic_signature": "376:1639220137:1242487801",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2205,
+      "field": "description",
+      "title": "Seek out SI: 7",
+      "level": 10,
+      "gender_forms": [
+        {
+          "raw": "$g boy:girl;",
+          "male": " boy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2205/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "8b3830714dcc60ac65fdbb92a208a4d152625f08eaf258a970782440caa5bfb8",
+      "raw_english_sha256": "c3071c1ec3db10b4777da78c871a30dd5be09fb712ad9548052f4da8c048a7df",
+      "english_bytes": 386,
+      "canonical_present": true,
+      "expected_dynamic_signature": "377:1991182935:584661033",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5630,
+      "field": "description",
+      "title": "Returning Home",
+      "level": 10,
+      "gender_forms": [
+        {
+          "raw": "$gladdy:lassy;",
+          "male": "laddy",
+          "female": "lassy"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5630/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "fce06c77c27db5a03a417c23f35a6a9b0927ca88e904990b7a64c630a3649a47",
+      "raw_english_sha256": "6d53086b0416d47cd486a304bc30a7d6422c7fb2a9a12608447dd39280409b05",
+      "english_bytes": 437,
+      "canonical_present": true,
+      "expected_dynamic_signature": "434:1320697170:2104931329",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5630,
+      "field": "description",
+      "title": "Returning Home",
+      "level": 10,
+      "gender_forms": [
+        {
+          "raw": "$gladdy:lassy;",
+          "male": "laddy",
+          "female": "lassy"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5630/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "209147b6c1a16837c30dc23a79cb5818a72a2c77fbbc33c8aeffdfad51a87070",
+      "raw_english_sha256": "6d53086b0416d47cd486a304bc30a7d6422c7fb2a9a12608447dd39280409b05",
+      "english_bytes": 437,
+      "canonical_present": true,
+      "expected_dynamic_signature": "434:1773031419:2037326869",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5633,
+      "field": "description",
+      "title": "Returning Home",
+      "level": 10,
+      "gender_forms": [
+        {
+          "raw": "$gladdy:lass;",
+          "male": "laddy",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5633/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "9ff2cdcd173981ea32299d71b58b5f27866005869a9680816d0f8b906d80a8b7",
+      "raw_english_sha256": "586e333565527dd343973ff6e140eaa7fc2339438cf7e2a53c0298ba19bbf830",
+      "english_bytes": 390,
+      "canonical_present": true,
+      "expected_dynamic_signature": "387:453923212:1661955163",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5633,
+      "field": "description",
+      "title": "Returning Home",
+      "level": 10,
+      "gender_forms": [
+        {
+          "raw": "$gladdy:lass;",
+          "male": "laddy",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5633/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "826f4b58d9fe04797b73cdc008d733b2386c2959ed57bfa3d1f5133d65d4d639",
+      "raw_english_sha256": "586e333565527dd343973ff6e140eaa7fc2339438cf7e2a53c0298ba19bbf830",
+      "english_bytes": 389,
+      "canonical_present": true,
+      "expected_dynamic_signature": "386:1062912667:2133255439",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6125,
+      "field": "description",
+      "title": "Power over Poison",
+      "level": 14,
+      "gender_forms": [
+        {
+          "raw": "$g him : her;",
+          "male": " him ",
+          "female": " her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6125/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f325a26d87565c76c19add9ee6c711205a3763b8b4e4f91029852dbb653fbfa1",
+      "raw_english_sha256": "44984f28d20802455b7ef6322b54955fbf096317d6fa6b380eab4de10b93029a",
+      "english_bytes": 436,
+      "canonical_present": true,
+      "expected_dynamic_signature": "263:1699146139:575273023 N 161:391239422:541857185",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6125,
+      "field": "description",
+      "title": "Power over Poison",
+      "level": 14,
+      "gender_forms": [
+        {
+          "raw": "$g him : her;",
+          "male": " him ",
+          "female": " her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6125/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2afa8835e2fd2c1bf8ffb1d3dd54e52104df19ed8decdf4decf30ce79295498c",
+      "raw_english_sha256": "44984f28d20802455b7ef6322b54955fbf096317d6fa6b380eab4de10b93029a",
+      "english_bytes": 435,
+      "canonical_present": true,
+      "expected_dynamic_signature": "263:1699146139:575273023 N 160:1875963853:1095075407",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5728,
+      "field": "description",
+      "title": "Hidden Enemies",
+      "level": 16,
+      "gender_forms": [
+        {
+          "raw": "$gbrothers:sisters;",
+          "male": "brothers",
+          "female": "sisters"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5728/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "cbbefffaeceafb06dcad71a493dd24b4249d8a44b5650cd96325fc013d8c44b9",
+      "raw_english_sha256": "64924cec11769763c4b4b05ad7f240f9a1cd8e3aef8583d904a621174b8b9df9",
+      "english_bytes": 482,
+      "canonical_present": true,
+      "expected_dynamic_signature": "292:1470566244:1907191059 N 185:1202094966:1011742779",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5728,
+      "field": "description",
+      "title": "Hidden Enemies",
+      "level": 16,
+      "gender_forms": [
+        {
+          "raw": "$gbrothers:sisters;",
+          "male": "brothers",
+          "female": "sisters"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5728/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "08c067de6576b185977728b4eb9a4a158dbfd9c3a6b7be1bd2157ae60c0b227d",
+      "raw_english_sha256": "64924cec11769763c4b4b05ad7f240f9a1cd8e3aef8583d904a621174b8b9df9",
+      "english_bytes": 481,
+      "canonical_present": true,
+      "expected_dynamic_signature": "292:1470566244:1907191059 N 184:1120527758:1573710724",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2608,
+      "field": "description",
+      "title": "The Touch of Zanzil",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$g sir:miss;",
+          "male": " sir",
+          "female": "miss"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2608/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "952984f7dce03a96801cd7c947d4e8ea589b2c48ec169101a240443c8f119536",
+      "raw_english_sha256": "dc52776365bc51623f7950033bd0cbc7550e30e40b22fd1271148d94fcf8c2b9",
+      "english_bytes": 393,
+      "canonical_present": true,
+      "expected_dynamic_signature": "383:730623919:225487644 N 1:46:46",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2608,
+      "field": "description",
+      "title": "The Touch of Zanzil",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$g sir:miss;",
+          "male": " sir",
+          "female": "miss"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2608/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "860e0435471436e934d0a30169119fd0ed177ac6b01c94850fbfc2c860eb0885",
+      "raw_english_sha256": "dc52776365bc51623f7950033bd0cbc7550e30e40b22fd1271148d94fcf8c2b9",
+      "english_bytes": 393,
+      "canonical_present": true,
+      "expected_dynamic_signature": "384:1842695172:1739152675 N 1:46:46",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2609,
+      "field": "objective",
+      "title": "The Touch of Zanzil",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$g fella:lady;",
+          "male": " fella",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2609/objectivesText"
+      },
+      "runtime_field": "objective",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d613e8fef807c2e90224c002de7d5d338f7427f6a9c5a527ad62cb81e430ec60",
+      "raw_english_sha256": "446a2f9e4084c28baf4b123f74fed09c90da68a67b7caede76d3975d593bca37",
+      "english_bytes": 182,
+      "canonical_present": true,
+      "expected_dynamic_signature": "180:1345705137:1665574656",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2609,
+      "field": "objective",
+      "title": "The Touch of Zanzil",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$g fella:lady;",
+          "male": " fella",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2609/objectivesText"
+      },
+      "runtime_field": "objective",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "1ba5e3088c2546a2caa558da8753e0ea4a4093704a30b4cd24e42edd5e3f2b9e",
+      "raw_english_sha256": "446a2f9e4084c28baf4b123f74fed09c90da68a67b7caede76d3975d593bca37",
+      "english_bytes": 180,
+      "canonical_present": true,
+      "expected_dynamic_signature": "179:684426042:1770585836",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5674,
+      "field": "description",
+      "title": "Elune's Grace",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$gpriests:priestesses;",
+          "male": "priests",
+          "female": "priestesses"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5674/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "5f0a02ac0f9a025f183c0fca5d6c8975418e5a8a82f88b3bb330b249b78ed142",
+      "raw_english_sha256": "19da81f2a739dfc6253ca8c92e51afc597a0ca21935dc38d00f40000b5b82d9b",
+      "english_bytes": 366,
+      "canonical_present": true,
+      "expected_dynamic_signature": "26:981875768:884185089 N 338:945329455:214294585",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5674,
+      "field": "description",
+      "title": "Elune's Grace",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$gpriests:priestesses;",
+          "male": "priests",
+          "female": "priestesses"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5674/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "967e24b5edb012cb634272ad4f25d17615855154c5ee9137235a90168b98ac36",
+      "raw_english_sha256": "19da81f2a739dfc6253ca8c92e51afc597a0ca21935dc38d00f40000b5b82d9b",
+      "english_bytes": 370,
+      "canonical_present": true,
+      "expected_dynamic_signature": "26:981875768:884185089 N 342:1584473117:2117523544",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5675,
+      "field": "description",
+      "title": "Elune's Grace",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$glad:lass;",
+          "male": "lad",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5675/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "ffdeaf7df5cf969c6e56a7818ba0428ba37a10b69b2571cc2d68376e15d0d5c6",
+      "raw_english_sha256": "e4332ee414fd60d6a5d045df4f88fcb411929843e95ab49f6071ad216072b01b",
+      "english_bytes": 354,
+      "canonical_present": true,
+      "expected_dynamic_signature": "354:2044658836:1306152258",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5675,
+      "field": "description",
+      "title": "Elune's Grace",
+      "level": 20,
+      "gender_forms": [
+        {
+          "raw": "$glad:lass;",
+          "male": "lad",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5675/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e8ee987adaefdafe20e0f49106c8acf65c114b1d2e0e3a402aa72fe2e68be511",
+      "raw_english_sha256": "e4332ee414fd60d6a5d045df4f88fcb411929843e95ab49f6071ad216072b01b",
+      "english_bytes": 355,
+      "canonical_present": true,
+      "expected_dynamic_signature": "355:1418500193:1297361042",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 463,
+      "field": "description",
+      "title": "The Greenwarden",
+      "level": 21,
+      "gender_forms": [
+        {
+          "raw": "$ghis:her;",
+          "male": "his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/463/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "0cc2e8cb6858c4c6b40040ae94f9ac23b3122d693ec97a99c064267d07f8e757",
+      "raw_english_sha256": "7d8a82b17aca39996de212ff16f9718f485cca14c8ddfc40cb430fc0553f7179",
+      "english_bytes": 472,
+      "canonical_present": true,
+      "expected_dynamic_signature": "466:779744802:806061994",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 463,
+      "field": "description",
+      "title": "The Greenwarden",
+      "level": 21,
+      "gender_forms": [
+        {
+          "raw": "$ghis:her;",
+          "male": "his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/463/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f8bc1accdcb7b9b09c7420032292fa6a9ea66444dcd7e41b83a9dee8a2592dbe",
+      "raw_english_sha256": "7d8a82b17aca39996de212ff16f9718f485cca14c8ddfc40cb430fc0553f7179",
+      "english_bytes": 472,
+      "canonical_present": true,
+      "expected_dynamic_signature": "466:900327531:543684224",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 874,
+      "field": "description",
+      "title": "Mahren Skyseer",
+      "level": 27,
+      "gender_forms": [
+        {
+          "raw": "$ghim:her;",
+          "male": "him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/874/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7cc23a76241ab6449b7f724dd8dec031cda95460b10bb930cb84c645108fbcaf",
+      "raw_english_sha256": "5523392b83c5323b0895d98604c44fb0d199b59c8d4ed51e628d95e28ddb7210",
+      "english_bytes": 412,
+      "canonical_present": true,
+      "expected_dynamic_signature": "397:455236698:1591272404",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 874,
+      "field": "description",
+      "title": "Mahren Skyseer",
+      "level": 27,
+      "gender_forms": [
+        {
+          "raw": "$ghim:her;",
+          "male": "him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/874/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d343aa6b7eca7a7944f36f725a70fca76700c6d116b4837004fce82b1ef9bd22",
+      "raw_english_sha256": "5523392b83c5323b0895d98604c44fb0d199b59c8d4ed51e628d95e28ddb7210",
+      "english_bytes": 412,
+      "canonical_present": true,
+      "expected_dynamic_signature": "397:727585034:812356174",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2927,
+      "field": "description",
+      "title": "The Day After",
+      "level": 27,
+      "gender_forms": [
+        {
+          "raw": "$g sir:ma'am;",
+          "male": " sir",
+          "female": "ma'am"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2927/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "3674cec421386402f9556cec6f12b666e55d17ee69d829441892f949faceb1bf",
+      "raw_english_sha256": "19991fc1c1bdc4948a2424a6de4d3e8fd6566b35615c9afa33025855ab5f7a90",
+      "english_bytes": 455,
+      "canonical_present": true,
+      "expected_dynamic_signature": "299:1462186899:250305102 N 144:365105656:832072773",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2927,
+      "field": "description",
+      "title": "The Day After",
+      "level": 27,
+      "gender_forms": [
+        {
+          "raw": "$g sir:ma'am;",
+          "male": " sir",
+          "female": "ma'am"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2927/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "51f1b6245783d479fba583c239b932ece8f5440f49ee849fc958e55290fd50be",
+      "raw_english_sha256": "19991fc1c1bdc4948a2424a6de4d3e8fd6566b35615c9afa33025855ab5f7a90",
+      "english_bytes": 456,
+      "canonical_present": true,
+      "expected_dynamic_signature": "301:400821005:1637423883 N 144:365105656:832072773",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1274,
+      "field": "description",
+      "title": "The Missing Diplomat",
+      "level": 28,
+      "gender_forms": [
+        {
+          "raw": "$g sir : madam;",
+          "male": " sir ",
+          "female": " madam"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1274/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c14b211bdbf4cd89d62c7b80866205d3cad0fe1d377d48666728476c211c1fc0",
+      "raw_english_sha256": "3b65bcaed94df12b2313147a74162705391826484ed466f555b6de73fdb455b5",
+      "english_bytes": 316,
+      "canonical_present": true,
+      "expected_dynamic_signature": "312:1755084129:1693025950",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1274,
+      "field": "description",
+      "title": "The Missing Diplomat",
+      "level": 28,
+      "gender_forms": [
+        {
+          "raw": "$g sir : madam;",
+          "male": " sir ",
+          "female": " madam"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1274/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d264d9588406498ed836149229a5b08cad3e82e808cc7698ecf25d0f012af5e2",
+      "raw_english_sha256": "3b65bcaed94df12b2313147a74162705391826484ed466f555b6de73fdb455b5",
+      "english_bytes": 317,
+      "canonical_present": true,
+      "expected_dynamic_signature": "313:1691411323:952775725",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1532,
+      "field": "description",
+      "title": "Call of Air",
+      "level": 30,
+      "gender_forms": [
+        {
+          "raw": "$g brothers:sisters;",
+          "male": " brothers",
+          "female": "sisters"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1532/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "3a0b03c49edc9951c7c42f8723e72d5937a2bd24c05fd46a2b195df6e9374d00",
+      "raw_english_sha256": "52bc2d429de8c0fca39dc34b25478796758a64488752c762de5721121d403bb8",
+      "english_bytes": 490,
+      "canonical_present": true,
+      "expected_dynamic_signature": "483:2009411119:516847703",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1532,
+      "field": "description",
+      "title": "Call of Air",
+      "level": 30,
+      "gender_forms": [
+        {
+          "raw": "$g brothers:sisters;",
+          "male": " brothers",
+          "female": "sisters"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1532/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "88390ef5d966e5713ac745e3b1a4a1d6c50ea8aa28b0fd5225b30350f1b2ad5b",
+      "raw_english_sha256": "52bc2d429de8c0fca39dc34b25478796758a64488752c762de5721121d403bb8",
+      "english_bytes": 488,
+      "canonical_present": true,
+      "expected_dynamic_signature": "482:56948082:559972071",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2746,
+      "field": "description",
+      "title": "Items of Some Consequence",
+      "level": 31,
+      "gender_forms": [
+        {
+          "raw": "$g his:her;",
+          "male": " his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2746/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "3e2704d4b6f451c8f6a3167ab4f8a1bcdc902fd69e27eda591c693957cee4ed0",
+      "raw_english_sha256": "a6747213ed369a4b8cdac31f2e6911c4a62a8b746ffd7eb88965be5c7240db23",
+      "english_bytes": 493,
+      "canonical_present": true,
+      "expected_dynamic_signature": "486:7189697:632145010",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 2746,
+      "field": "description",
+      "title": "Items of Some Consequence",
+      "level": 31,
+      "gender_forms": [
+        {
+          "raw": "$g his:her;",
+          "male": " his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/2746/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a4ab5533f78b069f7d0a1849078730d47eba38b7f187297edcecbdfc0a8b3ca4",
+      "raw_english_sha256": "a6747213ed369a4b8cdac31f2e6911c4a62a8b746ffd7eb88965be5c7240db23",
+      "english_bytes": 492,
+      "canonical_present": true,
+      "expected_dynamic_signature": "486:204467506:1285316243",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1222,
+      "field": "description",
+      "title": "Stinky's Escape",
+      "level": 37,
+      "gender_forms": [
+        {
+          "raw": "$gbuddy:lady;",
+          "male": "buddy",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1222/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "fbf267aefca25db7a4d4b07226c915425bc4658b2cf0a8c61ba70aae0cee3c96",
+      "raw_english_sha256": "85fb264537f78e9aa683f5c6ef30bd31ef94021e2c3ce0aa52f7bc55f93c852b",
+      "english_bytes": 418,
+      "canonical_present": true,
+      "expected_dynamic_signature": "407:326370274:599347259",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1222,
+      "field": "description",
+      "title": "Stinky's Escape",
+      "level": 37,
+      "gender_forms": [
+        {
+          "raw": "$gbuddy:lady;",
+          "male": "buddy",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1222/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2e350215db04835e5e4cec57af5d65d9fd462eaff28eef5807b9faa1bbb960a0",
+      "raw_english_sha256": "85fb264537f78e9aa683f5c6ef30bd31ef94021e2c3ce0aa52f7bc55f93c852b",
+      "english_bytes": 417,
+      "canonical_present": true,
+      "expected_dynamic_signature": "406:1581809590:207435307",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1270,
+      "field": "description",
+      "title": "Stinky's Escape",
+      "level": 37,
+      "gender_forms": [
+        {
+          "raw": "$gbuddy:lady;",
+          "male": "buddy",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1270/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a2bea3f10999d087702f36dcae61ffbdfe8a9c55955c9b7e84913ee7f16c2898",
+      "raw_english_sha256": "36432567cf409dd3b7566edb5741f0ea98aaa2ece37b7260b85ecda340daff19",
+      "english_bytes": 460,
+      "canonical_present": true,
+      "expected_dynamic_signature": "450:1306690824:1837433837",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1270,
+      "field": "description",
+      "title": "Stinky's Escape",
+      "level": 37,
+      "gender_forms": [
+        {
+          "raw": "$gbuddy:lady;",
+          "male": "buddy",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1270/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "6efab8d02a5cc4caf84976ce497aa6b0f64efe0aba3f4da0583599bbbc14903a",
+      "raw_english_sha256": "36432567cf409dd3b7566edb5741f0ea98aaa2ece37b7260b85ecda340daff19",
+      "english_bytes": 459,
+      "canonical_present": true,
+      "expected_dynamic_signature": "449:498246679:1310261227",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94923,
+      "field": "description",
+      "title": "Hats Off",
+      "level": 38,
+      "gender_forms": [
+        {
+          "raw": "$gmister:miss;",
+          "male": "mister",
+          "female": "miss"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/94923/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "24c7416dc22c84e8e3cc44acc7bb9f83a9ebc917ebe460bda9fb56e4786393ad",
+      "raw_english_sha256": "2b47ccea754f52d2d7b42ff066a81abe6374c97fd9f905edb59697706e65b0e6",
+      "english_bytes": 393,
+      "canonical_present": true,
+      "expected_dynamic_signature": "384:945229383:704317336",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 94923,
+      "field": "description",
+      "title": "Hats Off",
+      "level": 38,
+      "gender_forms": [
+        {
+          "raw": "$gmister:miss;",
+          "male": "mister",
+          "female": "miss"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/94923/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "73911567300d7bb96add1d9f518042409574c4ac8251406be037e9584b20ccb4",
+      "raw_english_sha256": "2b47ccea754f52d2d7b42ff066a81abe6374c97fd9f905edb59697706e65b0e6",
+      "english_bytes": 391,
+      "canonical_present": true,
+      "expected_dynamic_signature": "382:1577696293:768764920",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1661,
+      "field": "description",
+      "title": "The Tome of Nobility",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$g brother:sister;",
+          "male": " brother",
+          "female": "sister"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1661/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "040d6696efb051e357280e4d709f2710a084b88ef5a24f166e4d752e5f2907c5",
+      "raw_english_sha256": "7eae2ea3090d5874dd7e3cfb8c69eae16e5fc040e916d48b065584d1baf44c32",
+      "english_bytes": 405,
+      "canonical_present": true,
+      "expected_dynamic_signature": "24:1616777343:624527127 N 372:1247119344:172782620",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 1661,
+      "field": "description",
+      "title": "The Tome of Nobility",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$g brother:sister;",
+          "male": " brother",
+          "female": "sister"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/1661/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c5bd6fb89f6eab59103f79f06f2b79fddc54f400ac2a162ee850314e701faa65",
+      "raw_english_sha256": "7eae2ea3090d5874dd7e3cfb8c69eae16e5fc040e916d48b065584d1baf44c32",
+      "english_bytes": 403,
+      "canonical_present": true,
+      "expected_dynamic_signature": "24:1616777343:624527127 N 371:1526837221:477731821",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 4486,
+      "field": "description",
+      "title": "The Tome of Nobility",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$ghis:her;",
+          "male": "his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4486/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "413ca4616aeabb0728cfbe313832f3d3497a85de1d86ac5ccab67c2d32c3a7b1",
+      "raw_english_sha256": "8edc10cb509aea82899ab1d9ab27e8858d7a172d8c16b40c33d88371bea2f7b2",
+      "english_bytes": 503,
+      "canonical_present": true,
+      "expected_dynamic_signature": "73:1342543777:1753649086 N 422:803102063:749445481",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 4486,
+      "field": "description",
+      "title": "The Tome of Nobility",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$ghis:her;",
+          "male": "his",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4486/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a59d05d1eefd37a347599b519446a1f7a79a02b017bf174f498de12cc8a3d404",
+      "raw_english_sha256": "8edc10cb509aea82899ab1d9ab27e8858d7a172d8c16b40c33d88371bea2f7b2",
+      "english_bytes": 503,
+      "canonical_present": true,
+      "expected_dynamic_signature": "73:45331228:582636022 N 422:803102063:749445481",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 4487,
+      "field": "description",
+      "title": "Summon Felsteed",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$g succubus:infernal;",
+          "male": " succubus",
+          "female": "infernal"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4487/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "4fa6b84c73cff45430af460298ae6f02323703ac6d76dce0960021ef842185b0",
+      "raw_english_sha256": "a9224b2e2712126b29b910f6b10b838f10513423b6256e7fefc6fbd52348140f",
+      "english_bytes": 494,
+      "canonical_present": true,
+      "expected_dynamic_signature": "487:41648539:688915502",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 4487,
+      "field": "description",
+      "title": "Summon Felsteed",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$g succubus:infernal;",
+          "male": " succubus",
+          "female": "infernal"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/4487/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d991a4f82eead48fd53f884d8d586556d6b12d1ca6e0ca9b2affc0b1c56a4bbb",
+      "raw_english_sha256": "a9224b2e2712126b29b910f6b10b838f10513423b6256e7fefc6fbd52348140f",
+      "english_bytes": 493,
+      "canonical_present": true,
+      "expected_dynamic_signature": "487:2002476833:711398713",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5284,
+      "field": "description",
+      "title": "The Way of the Weaponsmith",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$g guy:girl;",
+          "male": " guy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5284/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "24f758bca26b780ab340a3cd3c2162b7cbc186460e708ab5dab8ae24862afb2d",
+      "raw_english_sha256": "e3defdc27f3394bbdd66c66c6cc2e4314742585aaa3b7baf4c6b8f0fd5438de8",
+      "english_bytes": 498,
+      "canonical_present": true,
+      "expected_dynamic_signature": "228:785677296:596624311 N 261:743695591:479730085",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5284,
+      "field": "description",
+      "title": "The Way of the Weaponsmith",
+      "level": 40,
+      "gender_forms": [
+        {
+          "raw": "$g guy:girl;",
+          "male": " guy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5284/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "e9f4f394e8792a94ebc2b32061c98afdece071fdbf8030d48020c57245aa628b",
+      "raw_english_sha256": "e3defdc27f3394bbdd66c66c6cc2e4314742585aaa3b7baf4c6b8f0fd5438de8",
+      "english_bytes": 498,
+      "canonical_present": true,
+      "expected_dynamic_signature": "228:785677296:596624311 N 262:1448590778:752291020",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 736,
+      "field": "description",
+      "title": "The Star, the Hand and the Heart",
+      "level": 44,
+      "gender_forms": [
+        {
+          "raw": "$gbrother:sister;",
+          "male": "brother",
+          "female": "sister"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/736/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7c4ccb5c4e4f0a214983df166a8d32123ad9fa93de987f6a9b8973eb7951df34",
+      "raw_english_sha256": "3e32b26f7df1138992ec13d1d44cd27500ca7d3e2a42011ef30f026bd1f64e81",
+      "english_bytes": 435,
+      "canonical_present": true,
+      "expected_dynamic_signature": "419:2045690773:473569748",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 736,
+      "field": "description",
+      "title": "The Star, the Hand and the Heart",
+      "level": 44,
+      "gender_forms": [
+        {
+          "raw": "$gbrother:sister;",
+          "male": "brother",
+          "female": "sister"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/736/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "686c4b3db55b97568569423d71da01f6116203434ade4d6854b8c29896cdecdb",
+      "raw_english_sha256": "3e32b26f7df1138992ec13d1d44cd27500ca7d3e2a42011ef30f026bd1f64e81",
+      "english_bytes": 434,
+      "canonical_present": true,
+      "expected_dynamic_signature": "418:861192598:488813281",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6612,
+      "field": "description",
+      "title": "I Know A Guy...",
+      "level": 45,
+      "gender_forms": [
+        {
+          "raw": "$g lad:missy;",
+          "male": " lad",
+          "female": "missy"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6612/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "1276bf97737bab9681bedc17404d03a5621e692703647e2e2cdf7d749a577deb",
+      "raw_english_sha256": "5699b03fb9e136b9b6ad05a97ff94b85a46e105fd3be70a2229121c2796f9fe9",
+      "english_bytes": 324,
+      "canonical_present": true,
+      "expected_dynamic_signature": "315:343443760:1885455245",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6612,
+      "field": "description",
+      "title": "I Know A Guy...",
+      "level": 45,
+      "gender_forms": [
+        {
+          "raw": "$g lad:missy;",
+          "male": " lad",
+          "female": "missy"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6612/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "84c90be965590e8e28f647700476e060bcde79852eb26630d3aadded2dfea6f5",
+      "raw_english_sha256": "5699b03fb9e136b9b6ad05a97ff94b85a46e105fd3be70a2229121c2796f9fe9",
+      "english_bytes": 325,
+      "canonical_present": true,
+      "expected_dynamic_signature": "317:1718960774:913964310",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7727,
+      "field": "description",
+      "title": "Incendosaurs? Whateverosaur is More Like It",
+      "level": 49,
+      "gender_forms": [
+        {
+          "raw": "$g lad:lass;",
+          "male": " lad",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7727/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a0b62a51531218afd69a1857e42bc5700b9b550927af476aa5bed084ddbf4168",
+      "raw_english_sha256": "5e1c1743fa44d2ea644b196c0a21dfa73ee11470c6195715bb5e43ad3dfcf665",
+      "english_bytes": 468,
+      "canonical_present": true,
+      "expected_dynamic_signature": "464:1254537396:97333901",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7727,
+      "field": "description",
+      "title": "Incendosaurs? Whateverosaur is More Like It",
+      "level": 49,
+      "gender_forms": [
+        {
+          "raw": "$g lad:lass;",
+          "male": " lad",
+          "female": "lass"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7727/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "b1e8500002302635c509f4ba180239f0a4b263a19afb3406930586d055948c9f",
+      "raw_english_sha256": "5e1c1743fa44d2ea644b196c0a21dfa73ee11470c6195715bb5e43ad3dfcf665",
+      "english_bytes": 468,
+      "canonical_present": true,
+      "expected_dynamic_signature": "465:776912092:1804534195",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5047,
+      "field": "description",
+      "title": "Pip Quickwit, At Your Service!",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g fella:lady;",
+          "male": " fella",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5047/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "f5871bb3837bc794b380fa35ed92c6f2c0cb30e500e5004ae8ef7d97e7fd5a40",
+      "raw_english_sha256": "fc46af1b58f9f5b5c236f20110bf918abbd89e2737c4d2c77e1284bc347164b4",
+      "english_bytes": 444,
+      "canonical_present": true,
+      "expected_dynamic_signature": "45:1697920997:350552346 C 381:1567244351:1669109736",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 5047,
+      "field": "description",
+      "title": "Pip Quickwit, At Your Service!",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g fella:lady;",
+          "male": " fella",
+          "female": "lady"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/5047/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "529c781f4a15d7d5d5bc115dd35f5b18a1ce8e35c631394a1c78e1b827e7da7f",
+      "raw_english_sha256": "fc46af1b58f9f5b5c236f20110bf918abbd89e2737c4d2c77e1284bc347164b4",
+      "english_bytes": 442,
+      "canonical_present": true,
+      "expected_dynamic_signature": "45:1697920997:350552346 C 380:2139226394:1311608674",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6962,
+      "field": "description",
+      "title": "Treats for Great-father Winter",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g boy : girl;",
+          "male": " boy ",
+          "female": " girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6962/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "c8f21e00515ac8486490c31553c75694222bb6e0e3f38ac59ad780f62b364e9d",
+      "raw_english_sha256": "2483d81ab3ebbbbb5165dd4dcdef811b6dfccad50d82e73e42fb831d602397a7",
+      "english_bytes": 368,
+      "canonical_present": true,
+      "expected_dynamic_signature": "362:399715929:714494100",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 6962,
+      "field": "description",
+      "title": "Treats for Great-father Winter",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g boy : girl;",
+          "male": " boy ",
+          "female": " girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/6962/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "9db1c2e4a00a63cea15d377a197846d8c1187a8ea85141f16b7dd7a2fd81fa4a",
+      "raw_english_sha256": "2483d81ab3ebbbbb5165dd4dcdef811b6dfccad50d82e73e42fb831d602397a7",
+      "english_bytes": 368,
+      "canonical_present": true,
+      "expected_dynamic_signature": "362:1576223459:303383907",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7461,
+      "field": "description",
+      "title": "The Madness Within",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g man:woman;",
+          "male": " man",
+          "female": "woman"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7461/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "5f741c65a866e29ef80aa1a1e40b2b4d16618019c4e61a38c4ad31c89a8f7e82",
+      "raw_english_sha256": "a59a2d8cce451fc59281ea28bfc9beda086076b82c59f39ca0799788faedc0fe",
+      "english_bytes": 354,
+      "canonical_present": true,
+      "expected_dynamic_signature": "350:1617418886:1536643468",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7461,
+      "field": "description",
+      "title": "The Madness Within",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g man:woman;",
+          "male": " man",
+          "female": "woman"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7461/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "64e14de6d6df3d812149e9457f53c9edb56221a1a14aa197101cc34d47c8e23f",
+      "raw_english_sha256": "a59a2d8cce451fc59281ea28bfc9beda086076b82c59f39ca0799788faedc0fe",
+      "english_bytes": 355,
+      "canonical_present": true,
+      "expected_dynamic_signature": "352:669085630:1968714926",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7604,
+      "field": "description",
+      "title": "A Binding Contract",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g him:her;",
+          "male": " him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7604/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "7b2e650f6521b02949040512ad6c591dde772c57e63ccade68d2f214873f429a",
+      "raw_english_sha256": "e9066cd25ee87055baa254f839954d743eec20fd5695a3da099884ecb9520cc7",
+      "english_bytes": 459,
+      "canonical_present": true,
+      "expected_dynamic_signature": "449:1344355039:1945479354",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 7604,
+      "field": "description",
+      "title": "A Binding Contract",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g him:her;",
+          "male": " him",
+          "female": "her"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/7604/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "d832a5b47e4dd63c86d6f776535b9bd055e1c9aa9b675a9dd4945086b67557f0",
+      "raw_english_sha256": "e9066cd25ee87055baa254f839954d743eec20fd5695a3da099884ecb9520cc7",
+      "english_bytes": 458,
+      "canonical_present": true,
+      "expected_dynamic_signature": "449:805281604:1008606855",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 8513,
+      "field": "description",
+      "title": "The Alliance Needs Medium Leather!",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g sir : ma'am;",
+          "male": " sir ",
+          "female": " ma'am"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/8513/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "a85362187bc0f160ea4bf18b8b4d9349fc53703a0384e8867eca27f1390a4aca",
+      "raw_english_sha256": "8311fb97da856b39c676472e5e9e1c6592156a57bb5a67b7798a8ebf1b8c977c",
+      "english_bytes": 293,
+      "canonical_present": true,
+      "expected_dynamic_signature": "292:134320448:1137422968",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 8513,
+      "field": "description",
+      "title": "The Alliance Needs Medium Leather!",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g sir : ma'am;",
+          "male": " sir ",
+          "female": " ma'am"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/8513/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": false,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "740c24bef080561767091a09f18752fbcf2c3323e9c5922aa1b9f7d332c3a86a",
+      "raw_english_sha256": "8311fb97da856b39c676472e5e9e1c6592156a57bb5a67b7798a8ebf1b8c977c",
+      "english_bytes": 294,
+      "canonical_present": true,
+      "expected_dynamic_signature": "293:1483499637:1458378535",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 9131,
+      "field": "description",
+      "title": "Binding the Dreadnaught",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g boy:girl;",
+          "male": " boy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/9131/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "male",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "2f4782904589da9299e980fa4b1af5d11e51370001707ddf5b2a2b0f3c2d085d",
+      "raw_english_sha256": "f534787d409eae41a714ef3162a779343a5a0db3b4643f34f872dd89e4a6049a",
+      "english_bytes": 430,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1181474120:2105176641 C 383:354626292:1089492284",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    },
+    {
+      "quest_id": 9131,
+      "field": "description",
+      "title": "Binding the Dreadnaught",
+      "level": 60,
+      "gender_forms": [
+        {
+          "raw": "$g boy:girl;",
+          "male": " boy",
+          "female": "girl"
+        }
+      ],
+      "source_ref": {
+        "repository": "JIVESCORP/eg-link-output-wowf",
+        "pin": "ea970da071079b32e56f349e09648ff0e314b351",
+        "path": "data/wowf/1.60.1.70938/quests.enUS.json",
+        "blob": "138d862da0402cee616647b0f7de1d5aa885c8c6",
+        "pointer": "/quests/9131/description"
+      },
+      "runtime_field": "description",
+      "described_in_current_scan": true,
+      "noData_in_current_scan": false,
+      "gender_branch": "female",
+      "status": "already_supported_default_fixture",
+      "english_sha256": "576f605bd1290488af377b1c4a59ba66e62288eac528ed928e8a1ffba2a2ecf6",
+      "raw_english_sha256": "f534787d409eae41a714ef3162a779343a5a0db3b4643f34f872dd89e4a6049a",
+      "english_bytes": 430,
+      "canonical_present": true,
+      "expected_dynamic_signature": "38:1181474120:2105176641 C 384:1262336865:1951070029",
+      "supported_profile_fixture": {
+        "className": "Druid",
+        "race": "Night Elf"
+      }
+    }
+  ],
+  "holds": [
+    {
+      "quest_id": 636,
+      "field": "description",
+      "title": "Legends of the Earth <NYI>",
+      "reason": "developer_marker"
+    }
+  ],
+  "matcher_executions": 78,
+  "new_Thai_fields": 0,
+  "runtime_changed": false,
+  "elapsed_wall_seconds": 0.2850168000004487,
+  "cpu_seconds": 0.265625,
+  "limits": [
+    "Male first/female second documented for lowercase g only; uppercaseG not expanded",
+    "Full incoming branches only; no UnitSex or condition eligibility guessed",
+    "Fixtures are not enabled/playable whole-game inventory",
+    "No old literal/NCR/MAIN28/Skill/NPC/UI/font suite rerun"
+  ],
+  "correction": {
+    "initial_diagnostic_wrong_path": "quests[2609].objectives",
+    "correct_actual_path": "quests[2609].objective",
+    "actual_corrected_matches": 2,
+    "old74_successes_not_rerun": true,
+    "new_Thai_fields": 0,
+    "new_aliases": 0
+  },
+  "status": "CLOSED_ALL76_QUALIFIED_BRANCHES_ALREADY_SUPPORTED"
+}

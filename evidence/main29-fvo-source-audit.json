@@ -1,0 +1,1170 @@
+{
+  "batch": "MAIN29",
+  "inputs": "Only new issue3521;3520/3519/3518/3517 body SHA unchanged from prior MAIN26,not rejoined",
+  "source_exports": [
+    {
+      "issue": 3521,
+      "url": "https://github.com/quinn-dougherty/forever-vo/issues/3521",
+      "source_kind": "issue_body",
+      "comment_id": null,
+      "decoded_sha256": "984faabf2bfb1deac312f79fcd96a67ece98f7a5bda72032738a8b52c7498e80",
+      "payload_container_sha256": "5bb2e3b4ceebb5089d6065ecc730f6281379648acdb5d8ad5b28d390ecc16ac7",
+      "records": 273,
+      "header": {
+        "v": 1,
+        "addon": "0.1.11",
+        "build": "70938",
+        "locale": "enUS"
+      }
+    }
+  ],
+  "actual_exports": 1,
+  "actual_records": 273,
+  "kind_occurrences": {
+    "quest": 52,
+    "gossip": 206,
+    "book": 15
+  },
+  "phase_occurrences": {
+    "progress": 24,
+    "complete": 13,
+    "accept": 15
+  },
+  "counts": {
+    "supported_exact": 38,
+    "diagnostic_identity_substitution_supported_NOT_roleproof": 12,
+    "blank_no_prose": 2
+  },
+  "unique_main_forms": 52,
+  "rows": [
+    {
+      "quest_id": 92850,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 0,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "c6027ff1953c3edf1d7a0e94248e546ebae185eeed3931bd8e327d5b47c963b6",
+      "english_bytes": 125,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92850,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 1,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "aec45da9ec2631339523a1884f2375effdccd68b364430e47d5a362edeaa4dd9",
+      "english_bytes": 20,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92840,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 2,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "2b6d03107d3812b7ab234b92acb96d4eebd29044ad62a462d7555fa13aa3f91f",
+      "english_bytes": 454,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92840,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 3,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "b11907957f555a6bbd689fe3c00c35a97a6d1d5097cb683b9eef26e337e613f0",
+      "english_bytes": 476,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92840,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 4,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "9db27be5bdb3171c0b01fc221c88ad1765e82ebfd6a86ab8eab297d62e6217fc",
+      "english_bytes": 461,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92643,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 22,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "5d8bac1e3fe9c4924ecc2661274a3b01d7fd0a13254768382feee2fe94512e01",
+      "english_bytes": 181,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92644,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 23,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "60291e49583360355f6000aa48ebfa9ebc9ae23eb33ed87e73e79d4493909a51",
+      "english_bytes": 212,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92640,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "blank_no_prose",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 25,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "english_bytes": 1,
+      "runtime_quest_present": true,
+      "runtime_field_present": false,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92947,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 36,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "aec2f8ddc30f5246c20c20cd4bafa9502eb3c5978310bdee355ba3d7a512527d",
+      "english_bytes": 484,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$c"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92947,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 38,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "65e6aaf1e5023c731de75b9c96e8641e4e3373ba3f1c6111cc642bac17bbfed6",
+      "english_bytes": 53,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93958,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 40,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "8e51b9c66f559efd4f86219c99bf947e5e3b274eb878261474b4865f80be711b",
+      "english_bytes": 33,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93835,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 41,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "57681bc73773bba0657c340041372a3cce8df24749760dda0bd9e9800c0a5ffc",
+      "english_bytes": 390,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$c"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93835,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 45,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "6db4e07793a15409bd012c912c9a3f2cd5197951803a53320d9a52a17fcd9de4",
+      "english_bytes": 388,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 94490,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 53,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "b3f82be073e17a1ae174476a671b4f718017ace97828dd2f2aa8dc8049d444e7",
+      "english_bytes": 259,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93459,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 57,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "e29ecfc50df2025362ef0a101e7e57d22f6b55232f936c542d3eab993f8606f5",
+      "english_bytes": 33,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93459,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 59,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "cae14c3d262c419b4158bfb974957e82c90a63d362ed9d9532f9932d2db643aa",
+      "english_bytes": 19,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93963,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 76,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "242f058cfa7b9b18b54a4889c662e9b219c26465d6fe852cc702bf0db4d68fc9",
+      "english_bytes": 281,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 109,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 86,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "1a4a1e5de44a168bb2a30cbcc5689c3f42c4c557419390848271320fa6a67bee",
+      "english_bytes": 349,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$c"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 97894,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 97,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "4e1d82ab14731d84bad0d090221f0567f68f602ad970627d376a79cf2423da7a",
+      "english_bytes": 500,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92749,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 117,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "1a03d4005643012c8e54f328f1ffa74c9cf290826462c393358abccb95ef7fb6",
+      "english_bytes": 80,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92749,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 118,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "c62523205ff2d0e1103b22c176ba0d682179c0808103ce6e1fdb490f86b823a8",
+      "english_bytes": 29,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92749,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 119,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "25f18318fc41ef47679fe5900d640e879b98c94615402ba5dc0ea4301841ff0e",
+      "english_bytes": 83,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92751,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 121,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "4104053837cb1630d9a2c5d4e912b06dc4da523293d35ea9ed3051f53ee71774",
+      "english_bytes": 61,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92751,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 122,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "24a652bc65fe79ba1f885df5b5494d85d85b2a3e7d91a6ff5a217e4806fed615",
+      "english_bytes": 35,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92752,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 124,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "48fcc16a0fbfb63336e166dd678ce1b88094ff5ccf1c5cc800819e23db46373b",
+      "english_bytes": 40,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92753,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 125,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "6fb02c70fd5c5046a2d55c4b44216bbb2bb151d7dc8a9f384af4d3f0aefb7a39",
+      "english_bytes": 316,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 117,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 126,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "d16c4e6dada9f0b32882b7db49e93929e6c04c6ce5c5d7da395c9bb9caab73fd",
+      "english_bytes": 142,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92753,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 136,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "1e3ee40fb85bb4f9535c6b936f1f43b01e4bdccb9589e7cec4a96eda699bf41e",
+      "english_bytes": 82,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 92819,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "blank_no_prose",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 137,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "english_bytes": 1,
+      "runtime_quest_present": true,
+      "runtime_field_present": false,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 117,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 138,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "249a1e35245bf07b35d8502a8f44e4059670267a19a9b35ef8983d199c6d3eca",
+      "english_bytes": 140,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 117,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 139,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "f29dc6e74bcbc6fe976910d903fdc6b3cac0be49036a86a32125ec8a4556d3e6",
+      "english_bytes": 144,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 579,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 148,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "c28459b03479b66bb985c2fad5f2466d75d6c11a440b8c4956b93e2ea56945ff",
+      "english_bytes": 258,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 93963,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 150,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "c0b468414be22e7754b05c8e3d3b5358489955015e53b1ba50dca343ee39b4a1",
+      "english_bytes": 20,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 97263,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 160,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "dc6d2e538be2a710b6e26283d741ded7729c87e23fe5363c9bf4ae4c03957ce2",
+      "english_bytes": 186,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7889,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 168,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "dcec882774ddcfd058a2d7a233202ead557acdf06b27153f7641b21041d4637b",
+      "english_bytes": 253,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7890,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 169,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "8d4ce9b400323b59993a2af9bb70b4150d273bf3144415e0d8f41403b3ac9632",
+      "english_bytes": 323,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7899,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 170,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "b92868770567101b5e840622912581685483efd14e452133ea76be68e624b9ab",
+      "english_bytes": 275,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7895,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 177,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "5f13aae5b7fdedaf7d425f101471702ac591e53ede31a8e0b596e5c8c50ddcff",
+      "english_bytes": 402,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7896,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 178,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "9bb0d1c5064ea6a5432464df267ec1db306e54e36c809744aa1121be2a32a046",
+      "english_bytes": 418,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7900,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 181,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "e02450089d595fac33dc0a07a9f21bc7ce87397cde4199ba96130ca6329b4cc9",
+      "english_bytes": 269,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7901,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 184,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "a184c20be52fa7d1d37c04457f7b32d16a9637bdfb832600e22fbd96fb8b75ee",
+      "english_bytes": 456,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7891,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 195,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "c99b5dc2a10b8a37c8c45ec8d862ce0d1bc786e422b54ee02ddea32f447c82ee",
+      "english_bytes": 400,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7883,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 196,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "cea5e732b391bac352d99a350a80c436502a859905c517f774ba0c214a97bdff",
+      "english_bytes": 427,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7882,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 197,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "2d9ce968d4da4b521e2583292e5f853204e9483adc4f304acdf128667f3df0c1",
+      "english_bytes": 343,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7881,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 199,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "ade568818da61176362d6b0ef9ee11444743e11948b215b9297242cd16b0d2c7",
+      "english_bytes": 123,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7881,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 201,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "a1d6c71fc18fc6a832bdbb692b7e6c4799e36fd9e67383732191af694b924af8",
+      "english_bytes": 421,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 1097,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 204,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "0336d100d9aa5cea0bc5209afa26813fae2a7314cb5873a38a0f592cc5bbb9f7",
+      "english_bytes": 477,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 79008,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 216,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "17d5dc6f3efc4086597c090788395856e84a0b1aeca970b00e0b95a7a681cc4c",
+      "english_bytes": 231,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 7894,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 244,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "2d6fccfd22c0ef18e391316c1f34331cee59867eee26ba9a727306776118e58e",
+      "english_bytes": 362,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 79092,
+      "field": "progress",
+      "source_phase": "progress",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 260,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+      "english_bytes": 52,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 79092,
+      "field": "completion",
+      "source_phase": "complete",
+      "status": "diagnostic_identity_substitution_supported_NOT_roleproof",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 261,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "ec65130b6ae98199c72e72c8cd91d8421c5d5d4f9d5207a0678a8b6040103a3d",
+      "english_bytes": 153,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [
+        "$N"
+      ],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    },
+    {
+      "quest_id": 98247,
+      "field": "description",
+      "source_phase": "accept",
+      "status": "supported_exact",
+      "source_positions": [
+        {
+          "issue": 3521,
+          "line_index": 267,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english_sha256": "47fcbbfdd90e56787ba3670d5f3ef5f8d890a8cd183486cfc01975d2a329e3bb",
+      "english_bytes": 485,
+      "runtime_quest_present": true,
+      "runtime_field_present": true,
+      "raw_tokens": [],
+      "current_enabled_usage": "unproven",
+      "row_version": "export header does not prove individual row version"
+    }
+  ],
+  "baseline": "Actual immutable combined0.470.0 baseline,all additive modules loaded",
+  "new_thai_fields": 0,
+  "runtime_changed": false,
+  "actual_invocations": 1,
+  "elapsed_wall_seconds": 0.2788911999996344,
+  "cpu_seconds": 0.21875,
+  "limits": [
+    "No whole-game denominator/current enabled inventory",
+    "Diagnostic substitutions are not source role proof",
+    "NonMAIN gossip/books not translated or fulltext audited",
+    "Raw exports and character context remain private",
+    "No local AI/game/font/build/test-suite operation"
+  ]
+}

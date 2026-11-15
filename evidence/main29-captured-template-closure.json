@@ -1,0 +1,1969 @@
+{
+  "status": "CLOSED_NO_DISTINCT_SOURCE_FRONTIER",
+  "rows": 280,
+  "all_exact_current_cache": true,
+  "row_proofs": [
+    {
+      "id": 6,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 6,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 7,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 7,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 21,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 21,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 33,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 33,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 35,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 35,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 37,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 37,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 40,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 40,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 45,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 45,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 47,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 47,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 54,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 54,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 59,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 59,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 60,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 60,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 62,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 62,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 71,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 71,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 76,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 76,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 83,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 83,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 84,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 84,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 88,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 88,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 89,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 89,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 106,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 106,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 107,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 107,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 109,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 109,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 112,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 112,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 126,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 126,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 184,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 184,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 189,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 189,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 193,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 193,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 201,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 201,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 209,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 209,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 213,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 213,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 232,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 232,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 238,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 238,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 239,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 239,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 243,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 243,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 348,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 348,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 353,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 353,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 386,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 386,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 495,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 495,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 515,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 515,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 518,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 518,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 572,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 572,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 580,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 580,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 582,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 582,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 584,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 584,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 595,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 595,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 598,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 598,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 600,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 600,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 605,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 605,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 606,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 606,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 617,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 617,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 621,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 621,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 639,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 639,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 640,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 640,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 642,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 642,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 651,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 651,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 652,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 652,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 655,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 655,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 671,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 671,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 672,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 672,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 674,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 674,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 677,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 677,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 701,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 701,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 703,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 703,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 705,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 705,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 710,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 710,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 713,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 713,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 782,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 782,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 783,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 783,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1048,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1048,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1069,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1069,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1097,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1097,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1108,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1108,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1113,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1113,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1116,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1116,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1164,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1164,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1181,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1181,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1182,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1182,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1205,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1205,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1221,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1221,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1419,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1419,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1424,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1424,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1841,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 1841,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2158,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2158,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2258,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2258,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2342,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2342,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2418,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2418,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2841,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2841,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2842,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2842,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2843,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2843,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2864,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2864,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2932,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2932,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2981,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 2981,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3341,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3341,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3741,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3741,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3903,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3903,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3904,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3904,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3905,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 3905,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 5261,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 5261,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 6521,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 6521,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 6522,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 6522,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 8551,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 8551,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 78830,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 78830,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 79624,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 79624,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 79677,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 79677,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 79678,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 79678,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91723,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91723,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91732,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91732,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91733,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91733,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91741,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91741,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91743,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91743,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91752,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91752,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91772,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91772,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91775,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91775,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91777,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 91777,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 92124,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 92124,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 92519,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 92519,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95033,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95033,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95143,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95143,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95748,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95748,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95770,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95770,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95773,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95773,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95789,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95789,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95791,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95791,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95951,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95951,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95998,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 95998,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 96626,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 96626,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 96627,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 96627,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97331,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97331,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97332,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97332,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97386,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97386,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97453,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97453,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97539,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97539,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97663,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97663,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97884,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 97884,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 98386,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 98386,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99127,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99127,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99128,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99128,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99129,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99129,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99130,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99130,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99143,
+      "phase": "accept",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    },
+    {
+      "id": 99143,
+      "phase": "objectives",
+      "index": 0,
+      "source_type": "questCache",
+      "exact_current_cache_field": true
+    }
+  ],
+  "matcher_rerun": false,
+  "reason": "All tagged records are exact current70938 description/objectivesText already in MAIN25/26/27 source scope; no distinct raw captured progress/completion or typed novel body."
+}
