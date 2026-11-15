@@ -1,0 +1,44 @@
+{
+  "status": "PRIVATE_0468_DELIVERED_AND_REMOTE_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "f07c68badda6c29be7b4e5e8e693c2d1b9249ac4",
+  "source_commit": "e114c2c1cd26b9205ca06bbb3e8d27a679e1858f",
+  "source_branch": "codex/main25-source-fallback-20261115",
+  "artifact_branch": "codex/private-0-468-0-main25-26-artifacts",
+  "checks": [
+    {
+      "path": "ForeverThai-0.468.0-main25-26-PRIVATE-TEST.zip",
+      "bytes": 29552389,
+      "sha256": "90b85b81dc4f9dc4d94b4349ec7c64a90889deedf8340c8976806115fb5441df",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.468.0-PRIVATE-TH.txt",
+      "bytes": 5805,
+      "sha256": "fea795a903dbd14f6d3571e9323b7bdc8bf91f91640ea9429aa67d8c144f183a",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN25-26-bitmap-simulation.png",
+      "bytes": 165222,
+      "sha256": "4d1e2b5aaee81c67f719da9c41e7555c584602f82c8300aaf134200e65b4f5f7",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all148_runtime_source_blobs_equal_ZIP": true,
+  "new_thai_fields": 4,
+  "quest_ids": 4,
+  "complete_quests_claimed": 0,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 112,
+  "actual_BitmapLayer_Thai_draws": 4,
+  "Thai_live_font_fallbacks": 0,
+  "all26_TOC_Lua_files_compile": true,
+  "actual_changed_data_load_order_verified": true,
+  "engine_files_changed": false,
+  "old_suites_rerun": false,
+  "launcher_published": false,
+  "real_Windows_Mac_M2_acceptance": false,
+  "whole_game_inventory_proven": false,
+  "local_AI": false,
+  "game_control_or_installation": false
+}
