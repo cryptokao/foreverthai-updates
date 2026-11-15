@@ -1,0 +1,60 @@
+{
+  "batch": "MAIN26",
+  "status": "reviewed source checkpoint; not packaged/published",
+  "source_api_contract_reference": "source_inputs/main25-reviewed-pairs.json",
+  "counts": {
+    "new_thai_fields": 2,
+    "quest_ids": 2,
+    "complete_quests_claimed": 0
+  },
+  "pairs": [
+    {
+      "quest_id": 92457,
+      "field": "progress",
+      "source_phase": "progress",
+      "source_positions": [
+        {
+          "issue": 3511,
+          "line_index": 90,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english": "Have you trimmed their numbers yet?",
+      "english_sha256": "2c2eca57216f26c416be38306cbca65ec44c71ce7f555c8fc2459f1df6c0dd42",
+      "english_bytes": 35,
+      "title": "Starving Arcane",
+      "thai": "เจ้าลดจำนวนพวกมันลงบ้างหรือยัง?",
+      "level_for_order": 33,
+      "integration": "add missing field",
+      "meaning_review": "Culling question preserved; no guessed target amount or progress state.",
+      "current_enabled_usage": "unproven; export header does not prove individual row version",
+      "signature": "35:897290514:1476474022",
+      "thai_sha256": "0d8b6ae82e146ac92947f18775d7aeb1a4520b29652ae256a6978734e973a13b"
+    },
+    {
+      "quest_id": 78270,
+      "field": "progress",
+      "source_phase": "progress",
+      "source_positions": [
+        {
+          "issue": 3519,
+          "line_index": 235,
+          "source_kind": "issue_body",
+          "comment_id": null
+        }
+      ],
+      "english": "You said you're breaking into Shadowfang...alone? You've got some guts! \r\n\r\nI can hook you up with explosives to get past the gate, but I'll need a work order to make it look legit on the books. One of the other Venture Co. guys around here's gotta be carrying one.",
+      "english_sha256": "5b22547a1980af751e634a6ddce72b741d0dc7d566938bf90e848670a44b00bc",
+      "english_bytes": 265,
+      "title": "Goblin Lockpicks",
+      "thai": "เจ้าบอกว่าจะบุกเข้าไปใน Shadowfang...คนเดียวงั้นหรือ? ใจกล้าไม่เบาเลยนี่!\n\nข้าจัดหาระเบิดให้เจ้าใช้ฝ่าประตูเข้าไปได้ แต่ข้าต้องมีใบสั่งงานเพื่อให้รายการในบัญชีดูถูกต้องตามระเบียบ คนของ Venture Co. คนอื่นแถวนี้สักคนต้องมีติดตัวอยู่แน่ๆ",
+      "level_for_order": null,
+      "integration": "append exact source variant; preserve canonical",
+      "meaning_review": "Solo Shadowfang entry, courage, explosives to pass gate, work order for plausible accounting and another Venture Co. carrier preserved. No guessed carrier identity, amounts, gender or inventory state.",
+      "current_enabled_usage": "unproven; export header does not prove individual row version",
+      "signature": "261:320399700:326419650",
+      "thai_sha256": "2a5209925de0f79d592555deabd47c2f6741e984071127d097ae20c7b4b7dfdb"
+    }
+  ]
+}
