@@ -62,13 +62,29 @@
     "not_current_build_or_eligibility_proof": true
   },
   "acquisition": {
-    "scope": "Only metadata candidates whoseprogress actually nil in0.471,level1-10,current70938cache presence;not missing-text or enabled-quest count",
+    "scope": "All179actual progress-nil low-level candidates,current70938cache metadata presence;not missing-text or enabled count",
     "candidates": 179,
-    "first_primary_pages_checked": 12,
-    "published_progress_sections_found": 0,
-    "next_uninspected_candidates": 167,
-    "partial_open_excerpts_not_used_as_absence_proof": true,
-    "full_parsed_page_heading_find_used": true
+    "pages_without_published_progress_heading": 174,
+    "unavailable_pages": 5,
+    "unavailable_quest_ids": [
+      318,
+      5660,
+      5662,
+      5663,
+      6072
+    ],
+    "published_progress_found": 0,
+    "whole_parsed_page_heading_search_no_match": 171,
+    "semantic_word_hits_full_page_without_heading": 3,
+    "no_game_phase_absence_claim": true,
+    "no_retry_of403_or_missing_source": true,
+    "lowlevel_completion_candidates": 10,
+    "published_completion_found": 0,
+    "completion_main_body_no_section": 8,
+    "completion_full_find_no_section": 2,
+    "next_uninspected_level": "11-20",
+    "next_actual_candidate_quest_ids": 157,
+    "next_actual_candidate_fields": 162
   },
   "no_full_old_suite_or_font_rebuild": true,
   "localAI": false,
@@ -76,8 +92,8 @@
   "real_Windows_MacM2_acceptance": false,
   "console_note": "Five-form checks wrote JSON successfully but final Thai stdout hit Windows cp1252 UnicodeEncodeError. Outputs inspected;only print changed to ensure_ascii=True afterwards;checks not rerun or reported as clean original process exit.",
   "remaining": [
-    "Continue finite uninspected primary source acquisition;do not re-open12empty published progress pages unchanged",
-    "Current enabled inventory and exact held identity/macro roles still unproven",
-    "Actual Windows/MacM2 acceptance still missing"
+    "Next distinct primary-source acquisition level11-20:157actualcandidate IDs/162progress-completion slots;not a missing prose count",
+    "5lowlevel progress pages inaccessible,no bypass/retry needed while other sources remain",
+    "Current enabled inventory/exact remaining macro roles and Windows/MacM2 acceptance unproven"
   ]
 }
