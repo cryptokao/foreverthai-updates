@@ -1,0 +1,43 @@
+{
+  "rows": [
+    {
+      "quest_id": 94006,
+      "level": 10,
+      "title": "The Great Ursera Spirit",
+      "count": 2,
+      "macros": [
+        {
+          "keys": [
+            "playerConditionId"
+          ],
+          "macros": []
+        },
+        {
+          "keys": [
+            "playerConditionId"
+          ],
+          "macros": []
+        }
+      ]
+    },
+    {
+      "quest_id": 97536,
+      "level": 45,
+      "title": "Gnomish Garbage",
+      "count": 1,
+      "macros": [
+        {
+          "keys": [
+            "playerConditionId"
+          ],
+          "macros": []
+        }
+      ]
+    }
+  ],
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "status": "CLOSED_METADATA_ONLY_NO_ENGLISH_TEXT",
+  "forms": 0,
+  "condition_records_without_text": 3,
+  "reason": "All three conditionalCompletionTexts entries contain only playerConditionId=0; no text/source prose, not a translation queue."
+}

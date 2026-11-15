@@ -1,0 +1,30 @@
+{
+  "status": "COMBINED0470_MAIN28_DELIVERED_AND_DOWNLOAD_BACK_VERIFIED",
+  "artifact_commit": "2da8d23f1863dcf92f7abd5666728f5f565e36b1",
+  "source_commit": "29fa7625f968c825d5b4d0b073be4c0d2bbb45be",
+  "checks": [
+    {
+      "path": "ForeverThai-0.470.0-main28-COMBINED.zip",
+      "bytes": 29747971,
+      "sha256": "a9c854976d2efac55b4821492714b7cf93dae627fbb77309d6bc820610cfb5e6",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "INSTALL-0.470.0-TH.txt",
+      "bytes": 6313,
+      "sha256": "dcdbf533f925981e294069b4aa2d16f67e84ad4f536bbd5590f5c205b0db0ce7",
+      "download_back_exact_bytes": true
+    },
+    {
+      "path": "MAIN28-bitmap-simulation.png",
+      "bytes": 775070,
+      "sha256": "f89110a3adc72c0c8e3b180e43e0a8b16ad7c925aae41b7990f4835d41ede4c8",
+      "download_back_exact_bytes": true
+    }
+  ],
+  "all154_committed_runtime_blobs_equal_ZIP": true,
+  "protected_Skill_font_assets_preserved": 28,
+  "old_fonts_preserved": 114,
+  "real_Windows_Mac_M2_acceptance": false,
+  "launcher_published": false
+}
