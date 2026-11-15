@@ -1,0 +1,49 @@
+{
+  "source_pin": "ea970da071079b32e56f349e09648ff0e314b351",
+  "new_thai_fields": 0,
+  "scope": "New independent literal primary-source clarification only; all three actual raw fields already supported; normalized FVO $c must not become a dynamic role.",
+  "rows": [
+    {
+      "quest_id": 94978,
+      "field": "description",
+      "source_file": "data/wowf/1.60.1.70888/quests.enUS.json",
+      "pointer": "/quests/94978/description",
+      "raw_english_sha256": "c95d28e466cebf7571c740b722b31afb8a806cba53b8dba689f500a2cf93664d",
+      "raw_identity_macros_present": false,
+      "fixed_literal": "hunter",
+      "profiles_already_supported": {
+        "Druid": true,
+        "Hunter": true
+      },
+      "current_enabled_usage": "unproven"
+    },
+    {
+      "quest_id": 94979,
+      "field": "description",
+      "source_file": "data/wowf/1.60.1.70938/quests.enUS.json",
+      "pointer": "/quests/94979/description",
+      "raw_english_sha256": "50d422625617b816038640edf504bea3a3be77f39fc5ee7e1f5486962f21686c",
+      "raw_identity_macros_present": false,
+      "fixed_literal": "hunter",
+      "profiles_already_supported": {
+        "Druid": true,
+        "Hunter": true
+      },
+      "current_enabled_usage": "unproven"
+    },
+    {
+      "quest_id": 94013,
+      "field": "description",
+      "source_file": "data/wowf/1.60.1.70938/quests.enUS.json",
+      "pointer": "/quests/94013/description",
+      "raw_english_sha256": "e61ffc9284ecbf0eb5ad71374b293ad5a74789cec4da33073960b973914421b7",
+      "raw_identity_macros_present": false,
+      "fixed_literal": "hunter",
+      "profiles_already_supported": {
+        "Druid": true,
+        "Hunter": true
+      },
+      "current_enabled_usage": "unproven"
+    }
+  ]
+}
