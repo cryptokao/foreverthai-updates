@@ -1,0 +1,32 @@
+{
+  "status": "PUBLISHED_0.480.1_CUSTOMER_FEED_VERIFIED",
+  "checked_at": "2026-11-17T22:54:02.434Z",
+  "feed_url": "https://foreverthai-download.yukimikulovelove2.chatgpt.site/latest.json",
+  "feed_http_status": 200,
+  "manifest": {
+    "schema": 1,
+    "version": "0.480.1",
+    "bytes": 31488762,
+    "sha256": "dbaa7df038a1ffdf1bb15fee298d2c4b015139c0dd2cb959e14249698fdfd708",
+    "url": "https://raw.githubusercontent.com/cryptokao/foreverthai-updates/55f1a4d1d2c5ccec734dc1b1d0f4b31f23dde658/output/ForeverThai-0.480.1-SKILLS-HOTFIX-COMBINED.zip"
+  },
+  "artifact_commit": "55f1a4d1d2c5ccec734dc1b1d0f4b31f23dde658",
+  "runtime_commit": "d191251743163d3979aab40a8107f7dd708089de",
+  "site_source_commit": "a81204fc74eb5eb201c367cca2e37bd2003456ad",
+  "site_version": 35,
+  "deployment_id": "appgdep_6afcdaddaed88191873bc269296ef812",
+  "deployment_status": "succeeded",
+  "runtime_zip_183_files_exact": true,
+  "fonts_125_unchanged": true,
+  "skill_lua_14_included": true,
+  "skill_atlas_13_included": true,
+  "client_build_read_only": "1.60.1.70959",
+  "full_toc_modules_simulated": 49,
+  "skill_ui_cases_simulated": 9,
+  "customer_launcher05_parser_hash_extract_passed": true,
+  "actual_game_test_windows": false,
+  "actual_game_test_mac_m2": false,
+  "customer_installation_confirmed": false,
+  "quest_goal_paused": true,
+  "main45_not_included": true
+}

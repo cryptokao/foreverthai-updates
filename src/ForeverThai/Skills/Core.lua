@@ -1,5 +1,5 @@
 local directory, addon = ...
-local S = { version = "0.285.0", datasetVersion = "2026.11.09.1" }
+local S = { version = "0.480.1", datasetVersion = "2026.11.09.1" }
 addon.skills = S
 S.records = {}
 S.stats = { callbacks = 0, noContext = 0, lookups = 0, matched = 0, missing = 0, outdated = 0, errors = 0 }
@@ -25,7 +25,12 @@ end
 function S.Compatible()
     if type(GetBuildInfo) ~= "function" then return false end
     local version, build, _, interface = GetBuildInfo()
-    return version == "1.60.1" and (build == "70862" or build == "70888" or build == "70938") and interface == 16001
+    -- Forever patch builds keep this client family and interface. Reviewed
+    -- names and complete tooltip lines are still checked by Lookup/Render, so
+    -- changed or unknown spell/item wording keeps the original tooltip.
+    -- Do not switch every translation off when only the patch build changes.
+    return version == "1.60.1" and interface == 16001
+        and type(build) == "string" and build:match("^%d+$") ~= nil
         and type(GetLocale) == "function" and GetLocale() == "enUS"
 end
 function S.Initialize()

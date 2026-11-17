@@ -1,3 +1,20 @@
+# Current state — 2026-11-18 Asia/Bangkok
+
+## URGENT Skill/Talent/Profession/Item hotfix 0.480.1 ACTUALLY PUBLISHED
+
+Customer feed HTTP200 freshly verified 2026-11-17T22:54:02.434Z: https://foreverthai-download.yukimikulovelove2.chatgpt.site/latest.json reports 0.480.1. Emergency release expressly requested by user; next normal quest milestone remains0.490.0. Quest goal remains PAUSED; MAIN45 stage15 reviewed fields is preserved separately, not included or resumed.
+
+Root cause reproduced: read-only installed client metadata shows1.60.1.70959; old Skills.Compatible only allowed70862/70888/70938 and disabled S.Lookup globally. Fix accepts numeric patch builds only within version1.60.1/interface16001/enUS, keeping exact name/full-line/numeric/secret/combat guards and explicit disabled preferences. Other version/interface/locale stay unsupported. Future71000 is gate-only simulation, not a tested game build.
+
+Combined ZIP: https://raw.githubusercontent.com/cryptokao/foreverthai-updates/55f1a4d1d2c5ccec734dc1b1d0f4b31f23dde658/output/ForeverThai-0.480.1-SKILLS-HOTFIX-COMBINED.zip
+Bytes31488762; SHA256 dbaa7df038a1ffdf1bb15fee298d2c4b015139c0dd2cb959e14249698fdfd708; expanded508524404<536870912. All183 runtime files match immutable GitHub runtime blobs. OnlySkills/Core.lua,TOC,SOURCES changed vs0.480.0;180 files exact. All125 fonts,14 Skills Lua (13 unchanged),13 SkillsThai TGA retained. Quest/Tracker/Questie/NPC/Talent/Profession/Item/settings/SavedVariables remain included. No new Thai translations in this hotfix.
+
+Passed49TOC load and9 focused Skill UI simulations on70959 including Stoneform, Devotion Aura160armor/30yards, Perception20seconds, item exact-text mismatch rejection, profession recycling and completed talents. Actual customer Launcher0.5 assembly parses manifest, considers0.480.1 newer than0.480.0, verifies length/hash, extracts183 files in isolated temporary staging. Uploaded immutable ZIP and guide downloaded back and verified. No game install/UI launch or real Windows/Mac M2 acceptance claimed.
+
+Site version35/source a81204fc74eb5eb201c367cca2e37bd2003456ad/deployment appgdep_6afcdaddaed88191873bc269296ef812 succeeded; audience/project/domain unchanged. Evidence: evidence/hotfix04801-{diagnosis,package,skill-ui,client05,publication}.json. Keep this compatibility fix and every Skill/Talent/Profession/Item asset in all future combined releases; do not restore patch build allowlist. Close game, Launcher Update, reopen; /alphathai status for diagnosis. User-disabled choices are not forced on.
+
+---
+
 # Current state — 2026-11-16 Asia/Bangkok
 
 ## Customer Launcher0.480.0 ACTUALLY PUBLISHED / MAIN44
