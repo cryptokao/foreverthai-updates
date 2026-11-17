@@ -1,0 +1,125 @@
+{
+  "status": "PASSED_70959_FULLTOC_AND_NINE_SELECTED_SKILL_UI_SIMULATIONS",
+  "selected_cases": 9,
+  "toc_modules": 49,
+  "full_combined_toc_loaded": true,
+  "stoneform_Thai_bitmap": true,
+  "devotion_aura160_armor30yards": true,
+  "perception20seconds_action": true,
+  "item_tooltip_exact_and_changed_text_rejection": true,
+  "profession_recipe_list_recycling": true,
+  "completed_talent_tooltip": true,
+  "build_gates": [
+    {
+      "build": "70862",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": true
+    },
+    {
+      "build": "70888",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": true
+    },
+    {
+      "build": "70938",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": true
+    },
+    {
+      "build": "70959",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": true
+    },
+    {
+      "build": "71000",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": true
+    },
+    {
+      "build": "not-a-build",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": false
+    },
+    {
+      "build": null,
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": false
+    },
+    {
+      "build": "70959",
+      "version": "1.60.2",
+      "interface": 16001,
+      "locale": "enUS",
+      "allowed": false
+    },
+    {
+      "build": "70959",
+      "version": "1.60.1",
+      "interface": 16002,
+      "locale": "enUS",
+      "allowed": false
+    },
+    {
+      "build": "70959",
+      "version": "12.1.5",
+      "interface": 120105,
+      "locale": "enUS",
+      "allowed": false
+    },
+    {
+      "build": "70959",
+      "version": "2.5.6",
+      "interface": 20506,
+      "locale": "enUS",
+      "allowed": false
+    },
+    {
+      "build": "70959",
+      "version": "1.60.1",
+      "interface": 16001,
+      "locale": "frFR",
+      "allowed": false
+    }
+  ],
+  "other_family_and_locale_rejected": true,
+  "future71000_gate_only_not_real_client_test": true,
+  "explicit_disabled_preference_preserved": true,
+  "full_line_name_number_and_secret_guards_retained": true,
+  "fixture_transformations": [
+    {
+      "before": "46f376bde095de3775f0205b3e4ca52db88b73dd16ef3a61fccaffa28467ed19",
+      "after": "5f70b872f208612170d0095589f8bda2bc339f45fe451af372fbf03182d2ce7b",
+      "kind": "fixture70959 and invalid-build negative for new family contract"
+    },
+    {
+      "before": "99ddc1edff0290d9cbcef4ccb891222e740b84c69eac974aae6890e09e3dcb01",
+      "after": "570e0b5adaa80ae5253426c609f870a519a0fa43d05fa8eee0c8383e43b297fc",
+      "kind": "fixture70959 and invalid-build negative for new family contract"
+    },
+    {
+      "before": "5b05f0581701caa438b3eb81d9cd2a16a051b3d5f7655a412e64b1fe912412eb",
+      "after": "7b809afb75f70bf191ef624f3647fcdcb24db6871b7cb741d9ad7d922dcf5f49",
+      "kind": "fixture70959 and invalid-build negative for new family contract"
+    }
+  ],
+  "original_fixture_files_unchanged": true,
+  "runtime_not_test_transformed": true,
+  "game_install_or_UI_control": false,
+  "actual_game_acceptance": false,
+  "wall": 5.740460000000894,
+  "windows_fixture_path_normalization_only": true
+}

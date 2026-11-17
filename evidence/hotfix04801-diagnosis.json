@@ -1,0 +1,19 @@
+{
+  "status": "ROOT_CAUSE_REPRODUCED",
+  "live_feed_before": "0.480.0",
+  "local_client_file_version_readonly": "1.60.1.70959",
+  "installed_addon_version_readonly": "0.480.0",
+  "installed_Skills_Core_present": true,
+  "old_code_allowed_builds": [
+    "70862",
+    "70888",
+    "70938"
+  ],
+  "old_Compatible_70959": false,
+  "new_Compatible_70959": true,
+  "old_Lookup_global_gated_by_unsupported": true,
+  "dataset_or_asset_absence_not_cause_of_this_reproduced_failure": true,
+  "actual_customer_game_rendering_unverified": true,
+  "no_game_execution_or_install_or_control": true,
+  "translation_goal_paused": true
+}

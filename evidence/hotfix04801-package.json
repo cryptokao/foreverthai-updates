@@ -1,0 +1,31 @@
+{
+  "status": "BUILT_NOT_PUBLISHED_NEEDS_SKILL_UI_TESTS",
+  "version": "0.480.1",
+  "zip": {
+    "path": "ForeverThai-0.480.1-SKILLS-HOTFIX-COMBINED.zip",
+    "bytes": 31488762,
+    "sha256": "dbaa7df038a1ffdf1bb15fee298d2c4b015139c0dd2cb959e14249698fdfd708"
+  },
+  "expanded_bytes": 508524404,
+  "runtime_files": 183,
+  "unchanged_runtime_files": 180,
+  "all125_fonts_exact": true,
+  "all13_other_skill_modules_exact": true,
+  "skill_modules": 14,
+  "changed": [
+    "ForeverThai/Skills/Core.lua",
+    "ForeverThai/ForeverThai.toc",
+    "ForeverThai/SOURCES-TH.txt"
+  ],
+  "old70959_gate_reproduced_false": true,
+  "dataset_unchanged": true,
+  "quest_translations_changed": 0,
+  "MAIN45_15_reviewed_not_included": true,
+  "goal_paused": true,
+  "actual_client_version_readonly": "1.60.1.70959",
+  "real_game_acceptance": false,
+  "no_game_install_or_control": true,
+  "no_local_AI_or_font_rebuild": true,
+  "wall": 5.654141300001356,
+  "cpu": 5.390625
+}
